@@ -1,0 +1,38 @@
+[
+    [
+        "Event name",
+        "Mô tả"
+    ],
+    [
+        "service_screen_displayed",
+        "Hiển thị màn hình"
+    ],
+    [
+        "service_block_displayed",
+        "Hiển thị vùng thông tin"
+    ],
+    [
+        "service_block_clicked",
+        "Click vào vùng thông tin"
+    ],
+    [
+        "service_button_clicked",
+        "Click vào nút bấm"
+    ],
+    [
+        "service_item_selected",
+        "Chọn một item trong danh sách"
+    ],
+    [
+        "service_input_entered",
+        "Nhập dữ liệu vào trường input"
+    ],
+    [
+        "ops_request_be",
+        "App gọi API lên Backend"
+    ],
+    [
+        "ops_receive_be",
+        "Nhận phản hồi từ API Backend"
+    ]
+]

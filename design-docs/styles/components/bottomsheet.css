@@ -1,0 +1,130 @@
+/* =============================================
+   Bottom Sheet Component
+   ============================================= */
+
+/* --- Preview Frame (for docsite demo) --- */
+.bottomsheet-preview-frame {
+    width: 280px;
+    height: 380px;
+    background: var(--color-gray-100);
+    border-radius: var(--br-24x);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--color-gray-200);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
+
+.bottomsheet-preview-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.bottomsheet-preview-sheet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-primary);
+    border-radius: var(--br-20x) var(--br-20x) 0 0;
+    padding-bottom: var(--space-16x);
+}
+
+.bottomsheet-handle {
+    width: 40px;
+    height: 4px;
+    background: var(--color-gray-300);
+    border-radius: var(--br-full);
+    margin: var(--space-8x) auto var(--space-12x);
+}
+
+.bottomsheet-preview-title {
+    font-size: var(--font-font-size-md);
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 0 var(--space-16x) var(--space-12x);
+}
+
+.bottomsheet-preview-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12x);
+    padding: var(--space-12x) var(--space-16x);
+    color: var(--text-primary);
+    font-size: var(--font-font-size-sm);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.bottomsheet-preview-item:hover {
+    background: var(--color-gray-50);
+}
+
+.bottomsheet-preview-item--destructive {
+    color: var(--text-error);
+}
+
+/* --- Real Component Classes --- */
+.bottomsheet-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.bottomsheet-overlay.is-active {
+    display: flex;
+}
+
+.bottomsheet {
+    background: var(--bg-primary);
+    border-radius: var(--br-20x) var(--br-20x) 0 0;
+    width: 100%;
+    max-width: 600px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 0 0 var(--space-16x);
+    animation: bottomsheet-slide-up 0.3s ease-out;
+}
+
+.bottomsheet-header {
+    font-size: var(--font-font-size-md);
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 0 var(--space-16x) var(--space-12x);
+}
+
+.bottomsheet-body {
+    padding: 0 var(--space-16x);
+}
+
+.bottomsheet-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12x);
+    padding: var(--space-12x) 0;
+    color: var(--text-primary);
+    font-size: var(--font-font-size-sm);
+    cursor: pointer;
+    border-bottom: 1px solid var(--border-secondary);
+}
+
+.bottomsheet-item:last-child {
+    border-bottom: none;
+}
+
+.bottomsheet-item--destructive {
+    color: var(--text-error);
+}
+
+@keyframes bottomsheet-slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

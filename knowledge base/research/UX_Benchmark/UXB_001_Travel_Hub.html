@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo cáo UX Benchmark: Phân hệ Du lịch (Travel Hub)</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 32px;
+            background: #fafafa;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: #0056b3;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 12px;
+        }
+
+        h2 {
+            color: #004494;
+            margin-top: 32px;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            color: #222;
+            font-size: 1.25rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .success-box {
+            background: #e6f4ea;
+            border-left: 4px solid #34a853;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning-box {
+            background: #fce8e6;
+            border-left: 4px solid #ea4335;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔍 Báo cáo UX Benchmark: Phân hệ Du lịch (Travel Hub) - DigiShop</h1>
+
+        <h2>1. Mục tiêu</h2>
+        <ul>
+            <li><strong>Bối cảnh:</strong> Sản phẩm du lịch hiện tại của VNPT rời rạc, thiết eSIM và thiếu giải pháp
+                Inbound.</li>
+            <li><strong>Mục tiêu:</strong> Xây dựng một điểm chạm duy nhất (One-stop-shop) giúp người dùng dễ dàng mua
+                Roaming, eSIM và các tiện ích du lịch (xe, bảo hiểm, phòng chờ) theo hành trình.</li>
+        </ul>
+
+        <h2>2. Giải pháp tham khảo trên thị trường</h2>
+        <ul>
+            <li><strong>Mô hình "Travel Hub" trong Super App:</strong> Phổ biến ở Grab (Travel), Momo (Du lịch - Đi
+                lại), Traveloka. Các ứng dụng này gom mọi nhu cầu xung quanh "chuyến đi" thay vì bán rời rạc từng loại
+                dịch vụ.</li>
+            <li><strong>eSIM Marketplace (Airalo, Holafly):</strong> Luồng mua eSIM rút gọn tối đa: Chọn quốc gia &rarr;
+                Thanh toán &rarr; Hiện QR Code và nút tự động cài đặt.</li>
+        </ul>
+
+        <h2>3. Phân tích Flow step-by-step</h2>
+        <ul>
+            <li><strong>Bước 1: Khám phá:</strong> Tại Homepage DigiShop, người dùng tap vào icon "Du lịch". Màn hình
+                Splash yêu cầu chọn nhu cầu: "Đi nước ngoài" (Outbound) hay "Đến Việt Nam" (Inbound).</li>
+            <li><strong>Bước 2: Hiển thị sản phẩm theo phân loại:</strong>
+                <ul>
+                    <li><em>Inbound:</em> Banner "Local Tourist SIM", danh sách voucher xe Grab/Be nội địa, vé tham
+                        quan.</li>
+                    <li><em>Outbound:</em> Tab "Điểm đến" liệt kê các quốc gia nổi bật (Nhật, Hàn, Thái) và các tab
+                        Roaming / eSIM rõ ràng.</li>
+                </ul>
+            </li>
+            <li><strong>Bước 3: Chi tiết & Đóng gói (Bundle):</strong> Màn chi tiết gói Roaming tự động gợi ý Upsell các
+                sản phẩm add-ons: Bảo hiểm, Dịch vụ phòng chờ.</li>
+            <li><strong>Bước 4: Mua 1 chạm & Quản lý:</strong> Tích hợp VNPT Money để thanh toán tức thì. Quản lý eSIM
+                trực tiếp trên tab "Chuyến đi của tôi".</li>
+        </ul>
+
+        <h2>4. Links Video/UI tham khảo</h2>
+        <ul>
+            <li><strong><a href="https://mobbin.com/apps/airalo" target="_blank">Airalo eSIM Flow</a>:</strong> Flow tìm
+                quốc gia và mua eSIM điển hình nhất thị trường. <em>Insight: Sử dụng thanh search to và thẻ Card hình
+                    ảnh cảm xúc điểm đến.</em></li>
+            <li><strong><a href="https://www.youtube.com/watch?v=momo_travel" target="_blank">MoMo Du lịch - Đi
+                        lại</a>:</strong> Giao diện định hướng trong Super App Việt Nam. <em>Insight: Menu Grid dễ tiếp
+                    cận, tag Promotion rõ ràng.</em></li>
+            <li><strong><a href="https://mobbin.com/apps/grab" target="_blank">Grab Travel module</a>:</strong>
+                <em>Insight: Thể hiện xuất sắc cách Booking khách sạn/Tour được móc nối với Grab Ride.</em></li>
+        </ul>
+
+        <h2>5. Đề xuất/Key Takeaways cho VNPT</h2>
+        <div class="success-box">
+            <strong>DO (Nên làm):</strong><br>
+            - Phân luồng rẽ nhánh Inbound/Outbound sớm nhất có thể.<br>
+            - Triết lý "One-click Bundle": Tích hợp sẵn tuỳ chọn thêm Bảo hiểm Du lịch ngay form Thanh toán.
+        </div>
+        <div class="warning-box">
+            <strong>DON'T (Tránh làm):</strong><br>
+            - Không bắt người dùng nhập mã số SIM hay khai báo thông tin nếu thuê bao đã có eKYC đầy đủ.<br>
+            - Tránh thiết kế dạng "Kho lưu trữ" liệt kê Text dài dòng; hãy dùng hình ảnh Banner (Visual Driven) để giảm
+            thiểu Cognitive Load.
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+Luồng Tên màn hình ID Trigger Event name Param name Param operator Param value Mô tả DEV - IOS Dev - ADR QC_iOS QC_Android Nghiệm thu CDP audit Ngày tạo Ngày cập nhật Ghi chú iOSGhi chú 
+AndroidAnd dev note
+Quản lý nguồn 
+tiềnMàn cá nhân PAY1Hiện thị danh 
+sách phương 
+thức thanh toánservice_block_displayed partnerName = myvnpt
+screenName = profile
+blockName = payment_methods
+itemCount =số lượng phương thức thanh toán 
+hiển thị
+itemList nullableDanh sách PTTT: 
+mobile_account|vnpt_pay|mobile_
+money
+Cách nhau dấu |
+vnpt_pay / mobile_account (TKC)/ 
+mobile_money/  
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn cá nhân PAY2Click từng 
+phương thức 
+thanh toánservice_item_selected partnerName = myvnpt
+screenName = profile
+blockName = payment_methods
+itemName =Phương thức thanh toán được 
+chọn:
+vnpt_pay / mobile_account (TKC)/ 
+mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+itemStatus=<active|inactive> (trạng thái nguồn 
+tiền)
+Quản lý nguồn 
+tiềnMàn cá nhân PAY3Click “Thêm 
+nguồn tiền”service_button_clicked partnerName = myvnpt
+screenName = profile
+buttonName = Additional funds
+Quản lý nguồn 
+tiềnMàn danh sách 
+nguồn tiềnPAY4Hiện thị màn 
+danh sách 
+nguồn tiềnservice_screen_displayed partnerName = myvnpt
+screenName = payment_methods
+fromFeaturenullAble<screen_name của màn hình trước 
+đó>
+Quản lý nguồn 
+tiềnMàn danh sách 
+nguồn tiềnPAY5Expand / 
+Collapse “Ngân 
+hàng liên kết 
+VNPT Pay”service_block_clicked partnerName = myvnpt
+screenName = payment_methods
+blockName = bank_linked
+action INSET <expand ;collapse>
+Liên kết nguồn 
+tiền CTTMàn danh sách 
+nguồn tiền/ Màn 
+thay đổi 
+phương thức 
+thanh toán của 
+các dịch vụPAY6Click “Thẻ quốc 
+tế”/ Thẻ nội địa/ 
+VNP Money tại 
+block thêm 
+phương thức 
+thanh toánservice_block_clicked partnerName = myvnpt
+screenName =
+payment_methods (màn danh sách 
+nguồn tiền); payment _ 
+methode_<dịch vụ> (màn phương 
+thức thanh toán khi thanh toán 1 
+dịch vụ)ví dụ:
+payment _ 
+methode_topup (màn 
+list phương thức thanh 
+toán topup)
+payment _ 
+methode_plan (màn list 
+phương thức thanh 
+toán gói thường)
+payment _ 
+methode_roaming (màn 
+list phương thức thanh 
+toán gói roaming)
+blockName = add_payment_method
+itemNameINSET <international_card; 
+domestic_card; VNPT Money>international: thẻ quốc 
+tế ;domestic: thẻ nội 
+địa; VNPT Money
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY7Mở màn Chi tiết 
+nguồn tiềnservice_screen_displayed partnerName = myvnpt
+screenName = payment_method_detail
+fromFeaturenullAble<screen_name của màn hình trước 
+đó>
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY8Click “Hủy liên 
+kết”service_button_clicked partnerName = myvnpt
+screenName = payment_method_detail
+buttonName = unlink_payment_method
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY9switch toggle 
+“Thanh toán 
+nhanh”service_button_clicked partnerName = myvnpt
+screenName = payment_method_detail
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+componentType = toggle
+componentName = quick_payment
+targetStatus INSET <0;1> 0 = OFF, 1 = ON
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY10BE đổi trạng 
+thái thanh toán 
+nhanh ops_receive_be partnerName = myvnpt
+screenName = payment_method_detail
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+componentType = toggle
+componentName = quick_payment
+targetStatus INSET <0;1> 0 = OFF, 1 = ON
+apiName = update_quick_payment
+duration nullAble<ms tính từ lúc gọi API tới lúc nhận 
+response>
+status IN SET <0;1>0 = thành công
+1 = thất bại
+errorCode nullAble <mã lỗi>
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY11Hiển thị popup 
+xác nhận hủy 
+liên kếtservice_component_displayed partnerName = myvnpt
+screenName = payment_method_detail
+componentType = popup
+componentName = confirm_unlink
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY1 2Thao tác trên 
+popup xác nhận 
+hủy liên kếtservice_button_clicked partnerName = myvnpt
+screenName = payment_method_detail
+componentType = popup
+componentName = confirm_unlink
+buttonName IN SET <cancel; confirm>
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY13Hiển thị BTS 
+xác nhận hủy 
+liên kết VNPT 
+Moneyservice_component_displayed partnerName = myvnpt
+screenName = payment_method_detail
+componentType = bottom_sheet
+componentName = confirm_unlink
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY1 4Thao tác trên 
+BTS xác nhận 
+hủy liên kết 
+VNPT Moneyservice_button_clicked partnerName = myvnpt
+screenName = payment_method_detail
+componentType = bottom_sheet
+componentName = confirm_unlink
+buttonName IN SET <cancel; confirm>
+itemName =Phương thức thanh toán đang xem 
+chi tiết:
+vnpt_pay / mobile_money/ 
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)
+itemCount =số lượng phương thức thanh toán 
+sẽ hủysố lượng nguồn tiền bị 
+hủy
+itemList=Danh sách PTTT: 
+mobile_account|vnpt_pay|mobile_
+money
+Cách nhau dấu |
+vnpt_pay / mobile_account (TKC)/ 
+mobile_money/  
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)danh sách nguồn tiền bị 
+hủy
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY1 5Backend nhận 
+request hủy liên 
+kết ops_request_be partnerName = myvnpt
+screenName = payment_method_detail
+componentName = confirm_unlink
+apiName = payment_unlink
+itemCount =số lượng phương thức thanh toán 
+hủysố lượng nguồn tiền bị 
+hủy
+itemList=Danh sách PTTT: 
+mobile_account|vnpt_pay|mobile_
+money
+Cách nhau dấu |
+vnpt_pay / mobile_account (TKC)/ 
+mobile_money/  
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)danh sách nguồn tiền bị 
+hủy
+Quản lý nguồn 
+tiềnMàn chi tiết 
+nguồn tiềnPAY1 6Backend nhận 
+request hủy liên 
+kết ops_receive_be partnerName = myvnpt
+screenName = payment_method_detail
+componentName = confirm_unlink
+apiName = payment_unlink
+itemCount =số lượng phương thức thanh toán 
+hủysố lượng nguồn tiền bị 
+hủy
+itemList=Danh sách PTTT: 
+mobile_account|vnpt_pay|mobile_
+money
+Cách nhau dấu |
+vnpt_pay / mobile_account (TKC)/ 
+mobile_money/  
+bank_<bank_code>_pay
+ (ngân hàng liên kết VNPT Pay)/ 
+bank_<bank_code>_gate (ngân 
+hàng liên kết CTT)danh sách nguồn tiền bị 
+hủy
+duration nullAble<ms tính từ lúc gọi API tới lúc nhận 
+response>
+status IN SET <0;1>0 = thành công
+1 = thất bại
+errorCode nullAble <mã lỗi>
+Luồng liên kết 
+thẻ quốc tếMàn danh sách 
+thẻ quốc tếPAY1 7Hiển thị màn 
+danh sách các 
+loại thẻservice_screen_displayed partnerName = myvnpt
+screenName = payment_method_international
+fromFeaturenullAble<screen_name của màn hình trước 
+đó>
+itemCount = <số loại thẻ hiển thị>
+itemList=visa | mastercard | jcbCác nguồn cách nhau 
+dấu |
+Luồng liên kết 
+thẻ quốc tếMàn danh sách 
+thẻ quốc tếPAY1 8Chọn 1 loại thẻ 
+quốc tếservice_item_selected partnerName = myvnpt
+screenName = payment_method_international
+itemName IN SET <visa;mastercard;jcb> Nguồn tiền chọn
+Luồng liên kết 
+thẻ quốc tếMàn danh sách 
+thẻ quốc tếPAY1 9Hiển thị popup 
+xác nhậnservice_component_displayed partnerName = myvnpt
+screenName = payment_method_international
+itemName IN SET <visa;mastercard;jcb> Nguồn tiền chọn
+componentType = popup
+componentName = confirm_add_payment
+paymentType = international_card
+Luồng liên kết 
+thẻ nội địaMàn danh sách 
+nguồn tiền/ Màn 
+thay đổi 
+phương thức 
+thanh toán của 
+các dịch vụPAY20Hiển thị popup 
+xác nhậnservice_component_displayed partnerName = myvnpt
+screenName =
+payment_methods (màn danh sách 
+nguồn tiền); payment _ 
+methode_<dịch vụ> (màn phương 
+thức thanh toán khi thanh toán 1 
+dịch vụ)ví dụ:
+payment _ 
+methode_topup (màn 
+list phương thức thanh 
+toán topup)
+payment _ 
+methode_plan (màn list 
+phương thức thanh 
+toán gói thường)
+payment _ 
+methode_roaming (màn 
+list phương thức thanh 
+toán gói roaming)
+componentType = popup
+componentName = confirm_add_payment
+paymentType = domestic_card
+Luồng liên kết 
+thẻ quốc tếMàn danh sách 
+thẻ quốc tếPAY21thao tác trên 
+popup xác nhận 
+liên kếtservice_button_clicked partnerName = myvnpt
+screenName = payment_method_international
+itemName IN SET <visa;mastercard;jcb> Nguồn tiền chọn
+componentType = popup
+componentName = confirm_add_payment
+paymentType = international_card
+buttonName IN SET <cancel;confirm>
+Luồng liên kết 
+thẻ nội địaMàn danh sách 
+nguồn tiền/ Màn 
+thay đổi 
+phương thức 
+thanh toán của 
+các dịch vụPAY22thao tác trên 
+popup xác nhận 
+liên kếtservice_item_selected partnerName = myvnpt
+screenName =
+payment_methods (màn danh sách 
+nguồn tiền); payment _ 
+methode_<dịch vụ> (màn phương 
+thức thanh toán khi thanh toán 1 
+dịch vụ)ví dụ:
+payment _ 
+methode_topup (màn 
+list phương thức thanh 
+toán topup)
+payment _ 
+methode_plan (màn list 
+phương thức thanh 
+toán gói thường)
+payment _ 
+methode_roaming (màn 
+list phương thức thanh 
+toán gói roaming)
+componentType = popup
+componentName = confirm_add_payment
+paymentType = domestic_card
+buttonName IN SET <cancel;confirm>
+Luồng liên kết 
+thẻ quốc tếPAY23BE nhận 
+request liên kết 
+thẻops_request_be partnerName = myvnpt
+screenName =payment_method_international 
+(màn danh sách thẻ quốc tế); 
+payment_methods (màn danh sách 
+nguồn tiền); payment _ 
+methode_<dịch vụ> (màn phương 
+thức thanh toán khi thanh toán 1 
+dịch vụ) Màn điểm chạm
+itemNamenullAble<visa;mastercard;jcb; null nếu là 
+thẻ nội địa> Nguồn tiền chọn
+apiName = link_card
+paymentType IN SET <international_card; domestic_card>
+Luồng liên kết 
+thẻ quốc tếPAY24BE nhận 
+response liên 
+kết thẻops_receive_be partnerName = myvnpt
+screenName =payment_method_international 
+(màn danh sách thẻ quốc tế); 
+payment_methods (màn danh sách 
+nguồn tiền); payment _ 
+methode_<dịch vụ> (màn phương 
+thức thanh toán khi thanh toán 1 
+dịch vụ) Màn điểm chạm
+itemNamenullAble<visa;mastercard;jcb; null nếu là 
+thẻ nội địa> Nguồn tiền chọn
+apiName = link_card
+paymentType IN SET <international_card; domestic_card>
+duration nullAble<ms tính từ lúc gọi API tới lúc nhận 
+response>
+status IN SET <0;1>0 = thành công
+1 = thất bại
+errorCode nullAble <mã lỗi>
+Luồng thanh 
+toánPAY25Chọn nguồn 
+tiền thanh toánservice_item_selected partnerName = myvnpt
+screenName = payment _ methode_<dịch vụ> 
+(màn phương thức thanh toán khi 
+thanh toán 1 dịch vụ) Màn điểm chạm
+paymentType IN SET<mobile_account | mobile_money | 
+vnpt_pay | qr | international_card | 
+domestic_card | linked_wallet>mobile_account= TKC
+Mobile Money
+VNPT PAY
+QR
+international_card = Thẻ quốc tế qua CTT
+domestic_card = Thẻ nội địa qua CTT
+linked_wallet = Các nguồn tiền liên kết ví pay
+bank_code nullAble <bank_code> Nguồn tiền chọn
+Luồng thanh 
+toánPAY26BE nhận 
+request thanh 
+toánops_request_be partnerName = myvnpt
+screenName = payment _ methode_<dịch vụ> 
+(màn phương thức thanh toán khi 
+thanh toán 1 dịch vụ) Màn điểm chạm
+paymentType IN SET<mobile_account | mobile_money | 
+vnpt_pay | qr | international_card | 
+domestic_card | linked_wallet>mobile_account= TKC
+Mobile Money
+VNPT PAY
+QR
+international_card = Thẻ quốc tế qua CTT
+domestic_card = Thẻ nội địa qua CTT
+linked_wallet = Các nguồn tiền liên kết ví pay
+bank_codenullAble<bank_code>mã ngân hàng, trường hợp:
+paymentType=4;5 ko đc null
+apiName=pay_<dịch vụ>dịch vụ mua gói thường 
+: pay_plan
+Luồng thanh 
+toánPAY27BE trả kết quả 
+thanh toánops_receive_be partnerName = myvnpt
+screenName = payment _ methode_<dịch vụ> 
+(màn phương thức thanh toán khi 
+thanh toán 1 dịch vụ) Màn điểm chạm
+paymentType IN SET<mobile_account | mobile_money | 
+vnpt_pay | qr | international_card | 
+domestic_card | linked_wallet>mobile_account= TKC
+Mobile Money
+VNPT PAY
+QR
+international_card = Thẻ quốc tế qua CTT
+domestic_card = Thẻ nội địa qua CTT
+linked_wallet = Các nguồn tiền liên kết ví pay
+bank_codenullAble<bank_code>mã ngân hàng, trường hợp:
+paymentType=4;5 ko đc null
+apiName=pay_<dịch vụ>dịch vụ mua gói thường 
+: pay_plan
+duration nullAble<ms tính từ lúc gọi API tới lúc nhận 
+response>
+status IN SET <0;1>0 = thành công
+1 = thất bại
+errorCode nullAble <mã lỗi>

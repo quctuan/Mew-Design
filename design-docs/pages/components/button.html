@@ -1,0 +1,402 @@
+<div class="content">
+
+    <!-- Section 1: Page Header -->
+    <div class="page-header" style="margin-bottom: 32px;">
+        <h1 style="margin-bottom: 8px;">Button</h1>
+        <p class="description" style="font-size: 1.125rem; color: var(--color-gray-600); max-width: 750px;">
+            Hiển thị một nút bấm hoặc một thành phần có giao diện như nút bấm để kích hoạt hành động.
+        </p>
+    </div>
+
+    <!-- Section 2: The Hero Demo -->
+    <div class="hero-demo" style="margin-top: 32px; border: 1px solid var(--color-gray-200); border-radius: var(--br-lg); overflow: hidden;">
+        <div style="padding: 64px; display: flex; justify-content: center; align-items: center; background: var(--color-gray-50);">
+            <button class="btn btn-primary btn-md">Button</button>
+        </div>
+        <div class="usage-pane" style="margin-bottom: 16px; border: none; border-top: 1px solid var(--color-gray-200); border-radius: 0;">
+            <div class="usage-header">
+                <span class="usage-lang">iOS (Swift)</span>
+                <button class="usage-copy">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy
+                </button>
+            </div>
+            <div class="usage-content">
+<pre><code>import MyVNPTDesignSystem
+
+DSButton(text: "Button", style: .primary, size: .md)</code></pre>
+            </div>
+        </div>
+        <div class="usage-pane" style="margin: 0; border: none; border-top: 1px solid var(--color-gray-200); border-radius: 0;">
+            <div class="usage-header">
+                <span class="usage-lang">Android (Kotlin)</span>
+                <button class="usage-copy">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy
+                </button>
+            </div>
+            <div class="usage-content">
+<pre><code>import vn.myvnpt.designsystem.components.DSButton
+import vn.myvnpt.designsystem.components.ButtonStyle
+
+DSButton(
+    text = "Button",
+    style = ButtonStyle.Primary
+)</code></pre>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section 4: Examples / Variants -->
+    <h2 class="section-heading" id="examples" style="margin-top: 48px;">Examples / Variants</h2>
+
+    <!-- Primary -->
+    <h3 class="subsection-heading" id="primary" style="margin-top: 24px; font-size: 1.25rem;">Primary</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Nút bấm có độ nhấn mạnh cao mặc định cho các hành động chính.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-primary btn-md">Label</button>
+            <button class="btn btn-primary btn-md" disabled>Label</button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text: "Label", style: .primary)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text = "Label", style = ButtonStyle.Primary)</code></pre>
+        </div>
+    </div>
+
+    <!-- Secondary -->
+    <h3 class="subsection-heading" id="secondary" style="margin-top: 48px; font-size: 1.25rem;">Secondary</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Dành cho các hành động phụ có độ ưu tiên trung bình. Có đường viền và chữ theo màu thương hiệu.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-secondary btn-md">Label</button>
+            <button class="btn btn-secondary btn-md" disabled>Label</button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text: "Label", style: .secondary)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text = "Label", style = ButtonStyle.Secondary)</code></pre>
+        </div>
+    </div>
+
+    <!-- Tertiary -->
+    <h3 class="subsection-heading" id="tertiary" style="margin-top: 48px; font-size: 1.25rem;">Tertiary</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Biến thể có độ nhấn mạnh thấp, không có đường viền hay hình nền, giữ nguyên màu chữ của thương hiệu.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-tertiary btn-md">Label</button>
+            <button class="btn btn-tertiary btn-md" disabled>Label</button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text: "Label", style: .tertiary)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text = "Label", style = ButtonStyle.Tertiary)</code></pre>
+        </div>
+    </div>
+
+    <!-- Text -->
+    <h3 class="subsection-heading" id="text" style="margin-top: 48px; font-size: 1.25rem;">Text</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Ghost-like button using neutral text color instead of brand.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-ghost btn-md">Label</button>
+            <button class="btn btn-ghost btn-md" disabled>Label</button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text: "Label", style: .ghost)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text = "Label", style = ButtonStyle.Ghost)</code></pre>
+        </div>
+    </div>
+
+    <!-- Underline -->
+    <h3 class="subsection-heading" id="underline" style="margin-top: 48px; font-size: 1.25rem;">Underline</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Nút bấm dạng chữ inline kèm đường gạch chân, biểu thị cấu trúc của Link.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-link btn-md">Label</button>
+            <button class="btn btn-link btn-md" disabled>Label</button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text: "Label", style: .link)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(text = "Label", style = ButtonStyle.Link)</code></pre>
+        </div>
+    </div>
+
+    <!-- With Icon -->
+    <h3 class="subsection-heading" id="with-icon" style="margin-top: 48px; font-size: 1.25rem;">With Icon</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Add <code>btn-icon-left</code> or <code>btn-icon-right</code> to correctly space an inline SVG.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <button class="btn btn-primary btn-md btn-icon-left">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                Label
+            </button>
+            <button class="btn btn-primary btn-md btn-icon-right">
+                Label
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>// Icon Left
+DSButton(text: "Label", style: .primary, leftIcon: UIImage(named: "ic_check"))
+
+// Icon Right
+DSButton(text: "Label", style: .primary, rightIcon: UIImage(named: "ic_check"))</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>// Icon Left
+DSButton(text = "Label", style = ButtonStyle.Primary, leftIcon = R.drawable.ic_check)
+
+// Icon Right
+DSButton(text = "Label", style = ButtonStyle.Primary, rightIcon = R.drawable.ic_check)</code></pre>
+        </div>
+    </div>
+
+    <!-- Icon Only -->
+    <h3 class="subsection-heading" id="icon-only" style="margin-top: 48px; font-size: 1.25rem;">Icon Only</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Use <code>btn-icon-only</code> for an evenly-padded square action button, ensuring an <code>aria-label</code> is provided.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px; align-items: flex-end;">
+        <div class="variant-row" style="gap: 16px; justify-content: center; align-items: flex-end;">
+            <button class="btn btn-secondary btn-sm btn-icon-only" aria-label="Settings">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(
+    style: .secondary,
+    size: .sm,
+    leftIcon: UIImage(named: "ic_settings"),
+    isIconOnly: true
+)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSButton(
+    style = ButtonStyle.Secondary,
+    size = ButtonSize.Sm,
+    leftIcon = R.drawable.ic_settings,
+    isIconOnly = true
+)</code></pre>
+        </div>
+    </div>
+
+    <!-- Section 5: Design Specifications -->
+    <h2 class="section-heading" id="specifications" style="margin-top: 48px;">Design Specifications</h2>
+    <div class="pane" style="padding: 0; overflow: hidden; margin-top: 16px;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Property</th>
+                    <th>Token / Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>.btn-sm</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">32px</span> / <span class="prop-tag">8px</span> horizontal / 14px text</td>
+                </tr>
+                <tr>
+                    <td><code>.btn-md</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">40px</span> / <span class="prop-tag">16px</span> horizontal / 16px text</td>
+                </tr>
+                <tr>
+                    <td><code>.btn-lg</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">48px</span> / <span class="prop-tag">24px</span> horizontal / 16px text</td>
+                </tr>
+                <tr>
+                    <td><code>.btn</code></td>
+                    <td>Border Radius</td>
+                    <td><span class="prop-tag">var(--br-full)</span> / 9999px</td>
+                </tr>
+                <tr>
+                    <td>Icon &amp; Text</td>
+                    <td>Spacing (Gap)</td>
+                    <td><span class="prop-tag">var(--space-1x)</span> / 4px</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 6: API Reference / Props -->
+    <h2 class="section-heading" id="api-reference" style="margin-top: 48px;">API Reference</h2>
+    
+    <h3 style="margin-top: 24px; font-size: 1.125rem;">Props</h3>
+    <div class="pane" style="padding: 0; overflow: hidden; margin-top: 16px;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Class / Prop</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">variant</span></td>
+                    <td><span class="prop-tag">primary | secondary | tertiary | ghost | link</span></td>
+                    <td><span class="prop-tag">primary</span></td>
+                    <td>Determines button Hierarchy (Primary, Secondary, Tertiary, Text, Underline).</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">size</span></td>
+                    <td><span class="prop-tag">sm | md | lg</span></td>
+                    <td><span class="prop-tag">md</span></td>
+                    <td>Controls button sizes reflecting exact Figma component variants.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">btn-icon-left | btn-icon-right | btn-icon-only</span></td>
+                    <td><span class="prop-tag">modifier class</span></td>
+                    <td><span class="prop-tag">none</span></td>
+                    <td>Adds margin when an icon SVG is used inside the button.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">btn-full</span></td>
+                    <td><span class="prop-tag">modifier class</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Stretches button <code>width: 100%</code>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>

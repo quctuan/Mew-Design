@@ -1,0 +1,40 @@
+wiki/site/
+wiki/site-kb/
+wiki/__venv/
+wiki/__venv_test/
+.DS_Store
+__pycache__/
+*.pyc
+.agents/scripts/credentials.json
+.agents/scripts/token.json
+wiki/credentials.json
+wiki/token.json
+wiki/token_full.json
+*.xlsx
+*.pdf
+*.png
+urd_doc_*.txt
+temp_*.py
+temp_*.json
+inbox_mail/
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Environments
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

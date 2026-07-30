@@ -1,0 +1,106 @@
+/* --- Checkbox Component CSS --- */
+/* Uses globals.css variables */
+
+.checkbox-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    cursor: pointer;
+    font-family: var(--font-family-typeface, 'SF Pro Display', sans-serif);
+    margin-bottom: var(--space-8x, 8px);
+}
+
+.checkbox-wrapper.is-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Custom Checkbox Input */
+.checkbox-input {
+    appearance: none;
+    background-color: var(--bg-primary, #ffffff);
+    margin: 0;
+    margin-top: 2px;
+    font: inherit;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--color-gray-400, #94a3b8);
+    border-radius: var(--br-4x, 4px);
+    display: grid;
+    place-content: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.checkbox-input::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transition: 0.1s transform ease-in-out;
+    background-color: var(--color-base-white, #ffffff);
+}
+
+.checkbox-input:checked {
+    background-color: var(--color-brand-500, #3079ff);
+    border-color: var(--color-brand-500, #3079ff);
+}
+
+.checkbox-input:checked::before {
+    transform: scale(1);
+}
+
+/* Disabled State on input */
+.checkbox-input:disabled {
+    cursor: not-allowed;
+    background-color: var(--color-gray-100, #f1f5f9);
+    border-color: var(--color-gray-300, #cbd5e1);
+}
+
+.checkbox-input:disabled:checked {
+    background-color: var(--color-gray-400, #94a3b8);
+    border-color: var(--color-gray-400, #94a3b8);
+}
+
+/* Hover State */
+.checkbox-wrapper:hover .checkbox-input:not(:disabled):not(:checked) {
+    border-color: var(--color-brand-500, #3079ff);
+}
+
+/* Focus state for accessibility */
+.checkbox-input:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-brand-100, #eaf1ff), 0 0 0 4px var(--color-brand-500, #3079ff);
+}
+
+/* Label text content */
+.checkbox-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--space-12x, 12px);
+}
+
+.checkbox-label {
+    font-size: var(--font-size-md, 16px);
+    font-weight: 400;
+    color: var(--text-primary, #0f172a);
+    line-height: 24px;
+    user-select: none;
+}
+
+.checkbox-desc {
+    font-size: var(--font-size-sm, 14px);
+    color: var(--text-secondary, #64748b);
+    margin-top: var(--space-4x, 4px);
+}
+
+/* Error State */
+.checkbox-wrapper.is-error .checkbox-input {
+    border-color: var(--color-red-500, #ff5040);
+}
+
+.checkbox-wrapper.is-error .checkbox-desc {
+    color: var(--color-red-500, #ff5040);
+}

@@ -1,0 +1,98 @@
+/* --- Avatar Component CSS --- */
+/* Uses globals.css variables */
+
+.avatar {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fallback Initials / Icon Container */
+.avatar-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-tertiary, #ededed);
+    color: var(--text-secondary, #717981);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Base Sizes */
+.avatar-sm {
+    width: 24px;
+    height: 24px;
+    font-size: var(--font-font-size-xs, 12px);
+}
+
+.avatar-md {
+    width: 32px;
+    height: 32px;
+    font-size: var(--font-font-size-sm, 14px);
+}
+
+.avatar-lg {
+    width: 40px;
+    height: 40px;
+    font-size: var(--font-font-size-md, 16px);
+}
+
+.avatar-xl {
+    width: 56px;
+    height: 56px;
+    font-size: var(--font-font-size-lg, 18px);
+}
+
+/* Shapes Variants */
+.avatar-circle,
+.avatar-circle .avatar-image,
+.avatar-circle .avatar-fallback {
+    border-radius: var(--br-full, 9999px);
+}
+
+.avatar-rounded,
+.avatar-rounded .avatar-image,
+.avatar-rounded .avatar-fallback {
+    border-radius: var(--br-8x, 8px);
+}
+
+/* Status Indicator */
+.avatar-status {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 30%;
+    height: 30%;
+    border-radius: var(--br-full, 9999px);
+    border: 2px solid var(--bg-primary, #ffffff);
+    z-index: 10;
+}
+
+/* Status Colors */
+.status-online {
+    background-color: var(--bg-success-solid, #33cc80);
+}
+
+.status-busy {
+    background-color: var(--bg-error-solid, #ff5040);
+}
+
+.status-away {
+    background-color: var(--bg-warning-solid, #ffbe40);
+}
+
+.status-offline {
+    background-color: var(--bg-disable, #e0e0e0);
+}

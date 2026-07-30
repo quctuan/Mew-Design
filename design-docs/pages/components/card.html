@@ -1,0 +1,248 @@
+<div class="content">
+
+    <!-- Section 1: Page Header -->
+    <h1>Card</h1>
+    <p class="description">Khung chứa nội dung linh hoạt có nhiều biến thể và tuỳ chọn.</p>
+
+    <link rel="stylesheet" href="styles/components/card.css">
+    <link rel="stylesheet" href="styles/components/button.css">
+
+    <!-- Section 2: Visual Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">DEFAULT CARD</div>
+        <div class="variant-row"
+            style="margin-bottom: 32px; flex-direction: column; align-items: flex-start; gap: 24px; background-color: var(--bg-secondary); padding: 32px; border-radius: 8px;">
+
+            <div class="card" style="max-width: 400px; width: 100%;">
+                <div class="card-header">
+                    <h3 class="card-title">Create project</h3>
+                    <p class="card-description">Triển khai dự án mới của bạn chỉ với một lần nhấp.</p>
+                </div>
+                <div class="card-content">
+                    <p style="margin: 0; color: var(--text-secondary);">Here you can place form inputs, charts, or any
+                        generic content for the user to interact with.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary btn-md">Cancel</button>
+                    <button class="btn btn-primary btn-md">Deploy</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="variant-group-label">INTERACTIVE (HOVER) & WITH IMAGE</div>
+        <div class="variant-row"
+            style="align-items: flex-start; gap: 24px; background-color: var(--bg-secondary); padding: 32px; border-radius: 8px;">
+
+            <div class="card card-interactive" style="max-width: 320px; width: 100%;">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Code laptop" class="card-image" style="height: 180px;">
+                <div class="card-header">
+                    <h3 class="card-title">My VNPT Guide</h3>
+                    <p class="card-description">Tìm hiểu cách tích hợp hệ thống design system.</p>
+                </div>
+                <div class="card-content">
+                    Comprehensive tutorials covering HTML, CSS variables, and building components.
+                </div>
+            </div>
+
+            <div class="card card-flush" style="max-width: 320px; width: 100%;">
+                <div class="card-header">
+                    <h3 class="card-title">Flush Card (No shadow)</h3>
+                </div>
+                <div class="card-content">
+                    Sometimes you don't want a shadow, just a subtle border to contain content within a modal or a gray
+                    background area.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Section 3: Usage / Code Snippet -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import MyVNPTDesignSystem
+
+DSCard {
+    // Header
+    DSCardHeader(
+        title: "Card Title",
+        description: "Card description goes here."
+    )
+    
+    // Content
+    DSCardContent {
+        Text("Main content of the card.")
+    }
+    
+    // Footer
+    DSCardFooter {
+        DSButton(text: "Cancel", style: .secondary)
+        DSButton(text: "Action", style: .primary)
+    }
+}</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import vn.myvnpt.designsystem.components.card.*
+import vn.myvnpt.designsystem.components.button.*
+import androidx.compose.material3.Text
+
+DSCard {
+    // Header
+    DSCardHeader(
+        title = "Card Title",
+        description = "Card description goes here."
+    )
+    
+    // Content
+    DSCardContent {
+        Text("Main content of the card.")
+    }
+    
+    // Footer
+    DSCardFooter {
+        DSButton(text = "Cancel", style = ButtonStyle.Secondary)
+        DSButton(text = "Action", style = ButtonStyle.Primary)
+    }
+}</code></pre>
+        </div>
+    </div>
+
+    <!-- Section 4: API Reference / Props -->
+    <h2 class="section-heading">Props Reference</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">.card</span></td>
+                    <td><span class="prop-tag">container</span></td>
+                    <td>The main wrapper of the card. Handles borders, radius, and shadows.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">.card-header</span></td>
+                    <td><span class="prop-tag">component</span></td>
+                    <td>Contains the title and description, implements flex layout with gap.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">.card-content</span></td>
+                    <td><span class="prop-tag">component</span></td>
+                    <td>The main body area. Expanding region (flex-grow: 1).</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">.card-footer</span></td>
+                    <td><span class="prop-tag">component</span></td>
+                    <td>Footer area, aligns children to the right side by default.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">.card-interactive</span></td>
+                    <td><span class="prop-tag">modifier</span></td>
+                    <td>Adds a hover state that slightly elevates the card and increases shadow.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">.card-flush</span></td>
+                    <td><span class="prop-tag">modifier</span></td>
+                    <td>Removes the box-shadow, leaving only the border. Useful for nested cards.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 4.5: Design Specifications -->
+    <h2 class="section-heading">Design Specifications</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Property</th>
+                    <th>Token / Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>.card</code></td>
+                    <td>Border Radius</td>
+                    <td><span class="prop-tag">var(--br-16x)</span> / 16px</td>
+                </tr>
+                <tr>
+                    <td><code>.card</code></td>
+                    <td>Shadow (Default)</td>
+                    <td>0 4px 6px -1px rgba(0,0,0,0.05), ...</td>
+                </tr>
+                <tr>
+                    <td><code>.card-header</code></td>
+                    <td>Padding</td>
+                    <td>24px (Top, L, R), 16px (Bottom)</td>
+                </tr>
+                <tr>
+                    <td><code>.card-content</code></td>
+                    <td>Padding</td>
+                    <td>0px (Top), 24px (L, R, Bottom)</td>
+                </tr>
+                <tr>
+                    <td><code>.card-footer</code></td>
+                    <td>Padding</td>
+                    <td>16px (Top), 24px (L, R, Bottom)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 5: Accessibility -->
+    <h2 class="section-heading">Accessibility Considerations</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Ensure semantic HTML flow inside <code>.card</code> (e.g., using <code>&lt;h3&gt;</code> for title).
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                If the entire card is clickable (e.g., <code>.card-interactive</code>), wrap it in an
+                <code>&lt;a&gt;</code> tag or button, or manage focus and generic click events with javascript and
+                tabindex.
+            </li>
+        </ul>
+    </div>
+
+</div>

@@ -1,0 +1,174 @@
+URD: Chương trình Tặng điểm VinaPhone Plus khi Chuẩn hóa Thông tin Thuê bao (C06)
+
+LỊCH SỬ THAY ĐỔI
+Ngày
+ | Phiên bản
+ | Người thực hiện
+ | Nội dung thay đổi
+ | 
+05/03/2026
+ | 1.0.0
+ | Hồ Phạm Quỳnh Mai
+ | Khởi tạo tài liệu
+ | 
+
+ | 
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+
+Thông tin tài liệu:
+Mã Index: GMYVNPT-181
+Phiên bản: 1.0.0
+Ngày cập nhật: 2026-03-05
+Người thực hiện: Hồ Phạm Quỳnh Mai
+
+
+1. Bối cảnh & Mục tiêu (Business)
+1.1. Bối cảnh
+Thực hiện chiến dịch Chuẩn hóa thông tin thuê bao theo nghị định C06. Cần có cơ chế khuyến khích (Incentive) để khách hàng chủ động thực hiện chuẩn hóa trên ứng dụng My VNPT.
+1.2. Mục tiêu
+Gia tăng tỷ lệ khách hàng hoàn thành chuẩn hóa thông tin thuê bao (TTTB).
+Thúc đẩy trải nghiệm các tính năng trên App My VNPT và hệ sinh thái VinaPhone Plus.
+Tặng 3.000 điểm VinaPhone Plus cho mỗi lần chuẩn hóa thành công.
+
+
+2. Trải nghiệm người dùng & (UX/UI)
+2.1. Trải nghiệm 
+Phạm vi áp dụng: 
+Đối tượng: Khách hàng thực hiện chuẩn hóa TTTB thành công.
+Điểm chạm: App MyVNPT
+Landing Success: Hệ thống hiển thị màn hình thông báo thành công kèm box quà tặng.
+Onboarding: Giới thiệu các tính năng App và gợi ý đổi quà ngay tại chỗ.
+2.2. Nội dung hiển thị 
+
+Đặc tả chi tiết các thành phần giao diện 
+Thành phần UI
+ | Khi nào hiển thị? (Condition)
+ | Quy tắc nội dung & Dữ liệu (Rules)
+ | Hành động khi Click (Action)
+ | 
+1. Box thông báo tặng điểm
+ | • Cập nhật TTTB thành công 
+• Có chiến dịch tặng điểm đang chạy
+
++Ưu tiên: Nếu có >01 chương trình cùng chạy, ưu tiên chương trình có điểm tặng lớn nhất, bằng nhau thì ưu tiên chương trình bắt đầu trước
+ | • Nội dung: + Text tặng [điểm]: [điểm bằng cấu hình điểm tặng của chương trình]. 
++Còn lại fix cứng theo thiết kế UI
+
+
+ | Cuộn xuống section xem list voucher 
+ | 
+2. Khu vực Ưu đãi 
+ | • Cập nhật TTTB thành công. 
+• Có chương trình tặng điểm đang chạy.
+
++Ưu tiên: Nếu có >01 chương trình cùng chạy, ưu tiên chương trình có điểm tặng lớn nhất, bằng nhau thì ưu tiên chương trình bắt đầu trước
+
+Không phải hội viện V+ cũng xem được danh sách
+ | Logic Hiển thị Voucher (Bên trong Carousel)
+
+Chỉ hiển thị ưu đãi có mức đổi điểm ≤ [Số điểm tặng của chương trình] 
+•Sắp xếp: Điểm đổi từ Thấp đến Cao
+•Số lượng: Tối đa 05 vouchers.
+
+• Sắp xếp:Điểm đổi từ Thấp đến Cao.
+
+Ưu tiên lấy theo loại (Type): Gói cước > eVoucher> Vật phẩm> Các loại khác
+ | Click vào thẻ quà: Dẫn vào màn Chi tiết quà tặng tương ứng trong V+.
+
+Click nút "": Dẫn vào chính VinaPhone Plus.
+ | 
+
+3. Quy trình Step-by-step & Rule Hệ thống
+3.1. Quy trình chi tiết
+
+
+STT
+ | Đối tượng gửi
+ | Đối tượng nhận
+ | Hành động / Dữ liệu trao đổi
+ | Ghi chú nghiệp vụ
+ | 
+1
+ | Khách hàng
+ | App MyVNPT
+ | Thực hiện Chuẩn hóa TTTB thành công.
+ | 
+ | 
+2
+ | MyVNPT
+ | Loyalty
+ | Gửi yêu cầu cộng điểm
+Hiển thị thông báo CTKM (nếu có chương trình cấu hình)
+ | Điểm chạm 1: Màn hình cập nhật thông tin thuê bao Thành công.
+ | 
+3
+ | Loyalty
+ | Hệ thống
+ | Kiểm tra trạng thái Hội viên.
+ | 
+ | 
+4
+ | Loyalty
+ | Khách hàng
+ | Đăng ký hội viên tự động & Gửi SMS thông báo (Nếu chưa có TK).
+ | 
+ | 
+5
+ | Loyalty 
+ | Hệ thống
+ | Thực hiện cộng +3,000 điểm vào TK.
+ | 
+ | 
+6
+ | Loyalty
+ | App MyVNPT
+ | Trả kết quả cộng điểm thành công.
+ | 
+ | 
+8
+ | MyVNPT
+ | Khách hàng
+ | Thông báo noti công điểm thành công
+ | Noti
+ | 
+9
+ | Loyalty
+ | Khách hàng 
+ | Kiểm tra khung giờ: (07h-22h: Gửi ngay), (22h-07h: Hẹn sáng sau).
+Thông báo SMS cộng điểm thành công
+ | SMS
+ | 
+
+
+3.2. Business Rules (Quan trọng)
+Giới hạn: Mỗi khách hàng (1 SĐT) nhận tối đa 01 lần ưu đãi trong suốt chương trình.
+Thời gian cộng điểm:
+Giao dịch từ 7h - 22h: Cộng điểm và gửi thông báo ngay.
+Giao dịch sau 22h: Cộng điểm và giữ lại thông báo, gửi vào 7h sáng hôm sau (tránh làm phiền khách hàng).
+4. Truyền thông (Communication)
+4.1. Nội dung Push Notification
+Tiêu đề: ❤️ Bạn nhận được [điểm] VinaPhone Plus
+Nội dung: 🥳 Chúc mừng bạn đã xác thực thông tin thuê bao thành công. My VNPT tặng bạn [điểm] VinaPhone Plus. Đổi điểm ngay để nhận data, phút gọi, voucher ăn uống, du lịch... 👉 Thời hạn điểm đến ngày [dd/mm/yyyy].
+4.2. Nội dung SMS
+Nội dung: (CSKH) Chuc mung ban da xac thuc thong tin thue bao thanh cong. My VNPT kinh tang ban [diem] VinaPhone Plus. Diem tang co thoi han den [dd/mm/yyyy] de trai nghiem cac uu dai (qua tang, phut goi, Data...) tai website/ung dung My VNPT https://my.vnpt.com.vn/adv/vplus. CSKH 18001091 (0d). Tran trong!
+
+
+5. Vận hành & Testing
+Kiểm tra đăng ký hội viên tự động: Đảm bảo thuê bao mới được tạo tài khoản V+ thành công trước khi cộng điểm.
+Kiểm tra chặn lặp: Tránh cộng điểm 2 lần cho cùng 1 SĐT nếu khách hàng thao tác lại.
+Kiểm tra hiển thị Voucher: Đảm bảo không hiển thị Voucher > 3.000 điểm gây hụt hẫng cho khách hàng.
+
+6. Event
+RE01-RE07 Event tracking _ MyVNPT - Google Sheets sheet CTKM

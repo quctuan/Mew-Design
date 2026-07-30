@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding: Start Flow Design</title>
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            margin: 0;
+            color: #334155;
+        }
+
+        /* Wrapper Container Responsive */
+        .wrapper {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Slide Container */
+        .slide-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #ffffff;
+            overflow: hidden;
+            display: flex;
+        }
+
+        /* Từng slide */
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 5% 8%;
+            /* Sử dụng % để responsive tốt hơn */
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(50px);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            background: white;
+            overflow-y: auto;
+            /* Cho phép cuộn trên màn hình nhỏ nếu chiều cao quá lớn */
+            overflow-x: hidden;
+        }
+
+        .slide.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+            z-index: 1;
+        }
+
+        /* Header Slide */
+        .slide-header {
+            margin-bottom: 24px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 16px;
+            flex-shrink: 0;
+        }
+
+        /* Cấu trúc Grid cho nội dung */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            flex-grow: 1;
+        }
+
+        .content-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            flex-grow: 1;
+        }
+
+        /* Nút điều hướng (Arrows) */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 56px;
+            height: 56px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            color: #475569;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            z-index: 50;
+        }
+
+        .nav-btn:hover {
+            background: #f8fafc;
+            color: #2563eb;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .nav-prev {
+            left: 24px;
+        }
+
+        .nav-next {
+            right: 24px;
+        }
+
+        /* Tiến trình (Dots) */
+        .dots-container {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            z-index: 10;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #cbd5e1;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .dot:hover {
+            background: #94a3b8;
+        }
+
+        .dot.active {
+            background: #3b82f6;
+            width: 36px;
+            border-radius: 8px;
+        }
+
+        /* Thẻ tính năng */
+        .feature-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: #bfdbfe;
+            background: #ffffff;
+        }
+
+        /* Icon Container */
+        .icon-box {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .bg-indigo-light {
+            background: #e0e7ff;
+            color: #4f46e5;
+        }
+
+        .bg-blue-light {
+            background: #dbeafe;
+            color: #2563eb;
+        }
+
+        .bg-purple-light {
+            background: #f3e8ff;
+            color: #9333ea;
+        }
+
+        .bg-green-light {
+            background: #dcfce3;
+            color: #16a34a;
+        }
+
+        .bg-orange-light {
+            background: #ffedd5;
+            color: #ea580c;
+        }
+
+        .bg-red-light {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        /* Custom Scrollbar for inner content if needed */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Media Queries - Thiết kế Responsive */
+        @media (max-width: 1024px) {
+            .slide {
+                padding: 6% 10%;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+                /* Stack vertically trên Tablet/Mobile */
+            }
+
+            .content-grid-3 {
+                grid-template-columns: repeat(2, 1fr);
+                /* Giảm xuống 2 cột nếu là lưới 3 */
+            }
+
+            .nav-prev {
+                left: 16px;
+            }
+
+            .nav-next {
+                right: 16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .slide {
+                padding: 10% 8% 15% 8%;
+                /* Tăng padding dưới cùng để tránh dots */
+                align-items: flex-start;
+                /* Reset align */
+            }
+
+            .content-grid-3 {
+                grid-template-columns: 1fr;
+                /* Stack 1 column trên Mobile */
+            }
+
+            .nav-btn {
+                width: 44px;
+                height: 44px;
+                font-size: 18px;
+            }
+
+            .nav-prev {
+                left: 8px;
+            }
+
+            .nav-next {
+                right: 8px;
+            }
+
+            h1.text-6xl {
+                font-size: 3rem !important;
+                line-height: 1.1;
+            }
+
+            h2.text-3xl {
+                font-size: 1.75rem !important;
+            }
+
+            .content-grid>div:last-child {
+                display: none;
+                /* Ẩn bớt hình minh họa trên mobile để tiết kiệm diện tích Slide 2 */
+            }
+
+            .feature-card {
+                padding: 1.25rem;
+            }
+
+            .col-span-3 {
+                grid-column: span 1 / span 1 !important;
+            }
+
+            /* Reset Grid span */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Nút Trái -->
+        <button class="nav-btn nav-prev" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+
+        <div class="slide-container">
+
+            <!-- SLIDE 1: BÌA (COVER) -->
+            <div class="slide active bg-gradient-to-br from-slate-900 to-indigo-900 text-white" id="slide-0">
+                <div
+                    class="flex flex-col items-center justify-center h-full text-center relative z-10 w-full max-w-5xl mx-auto">
+                    <div
+                        class="w-24 h-24 md:w-32 md:h-32 bg-blue-500/20 border-2 border-blue-400 rounded-2xl md:rounded-[32px] flex items-center justify-center text-blue-300 text-4xl md:text-6xl mb-6 md:mb-8 backdrop-blur-sm shadow-[0_0_40px_rgba(59,130,246,0.3)]">
+                        <i class="fa-solid fa-code-branch"></i>
+                    </div>
+                    <div
+                        class="inline-block px-4 py-1.5 rounded-full bg-indigo-500/30 text-indigo-200 font-semibold text-xs md:text-sm mb-4 border border-indigo-400/30 uppercase tracking-widest">
+                        Tài liệu Onboarding Nền tảng</div>
+                    <h1
+                        class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 md:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-indigo-400">
+                        Master Flow Design</h1>
+                    <p class="text-lg md:text-2xl text-blue-100/90 mb-8 md:mb-10 max-w-3xl leading-relaxed font-light">
+                        Hệ thống điều phối dữ liệu tập trung dành cho đội ngũ <strong
+                            class="font-bold text-white">Product (PO, UI/UX)</strong>.<br>Giải pháp tự động hóa toàn chu
+                        trình kiến trúc sản phẩm.
+                    </p>
+
+                    <div
+                        class="bg-black/40 border border-white/10 rounded-2xl px-5 py-3 md:px-6 md:py-4 font-mono text-base md:text-lg shadow-xl inline-flex items-center">
+                        <span class="text-emerald-400 mr-3">❯</span>
+                        <span class="text-blue-300 mr-2">/start_flow_design</span>
+                        <span class="w-2 h-5 bg-white ml-2 animate-pulse"></span>
+                    </div>
+                </div>
+                <!-- Background Decoration -->
+                <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-10 pointer-events-none">
+                    <i
+                        class="fa-solid fa-sitemap absolute -top-10 md:-top-20 -left-10 md:-left-20 text-[200px] md:text-[300px] transform -rotate-12"></i>
+                    <i
+                        class="fa-brands fa-hubspot absolute -bottom-16 md:-bottom-32 -right-16 md:-right-32 text-[250px] md:text-[400px] transform rotate-12"></i>
+                </div>
+            </div>
+
+            <!-- SLIDE 2: CONCEPT & VALUE -->
+            <div class="slide" id="slide-1">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-lg text-xs md:text-sm font-bold mb-2">
+                            <i class="fa-solid fa-lightbulb mr-1"></i> Core Concept
+                        </div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Concept & Value Proposition
+                        </h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">Giải pháp xóa bỏ tình trạng Data
+                            Fragmentation giữa luồng Research và Design.</p>
+                    </div>
+
+                    <div class="content-grid items-stretch flex-grow mt-4">
+                        <div class="flex flex-col justify-center pr-0 md:pr-6">
+                            <p class="text-slate-700 text-base md:text-lg leading-relaxed mb-6 font-light">
+                                <strong>Problem Statement:</strong> Quá trình R&D tính năng mới thường gặp rào cản
+                                Bottleneck do Context bị phân tán: Raw Input nằm trên <strong>Jira</strong>, Tài liệu
+                                Research định cư biệt lập, và UI/UX Specs rải rác trên <strong>Figma</strong>.
+                            </p>
+                            <p class="text-slate-800 text-base md:text-lg leading-relaxed font-semibold mb-4">
+                                Nền tảng Master Flow Design đóng vai trò như bản thể Orchestrator trung tâm:
+                            </p>
+                            <ul class="space-y-4 text-slate-700">
+                                <li class="flex items-start">
+                                    <i class="fa-solid fa-layer-group text-blue-500 mt-1.5 mr-3"></i>
+                                    <span class="leading-relaxed"><strong>Single Point of Contact:</strong> Khởi chạy
+                                        vòng đời thiết kế (Design Lifecycle) phân tán chỉ bằng một Command Line hợp
+                                        nhất.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fa-solid fa-network-wired text-purple-500 mt-1.5 mr-3"></i>
+                                    <span class="leading-relaxed"><strong>Data Continuity:</strong> Dòng chảy thông tin
+                                        đi từ Raw Data -> UX Insights -> Build Specs mà không bị đứt gãy Context (Single
+                                        Source of Truth).</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fa-solid fa-shield-check text-emerald-500 mt-1.5 mr-3"></i>
+                                    <span class="leading-relaxed"><strong>Format Standardization:</strong> Đảm bảo tính
+                                        nhất quán tuyệt đối về cấu trúc Output (Docs, URD, Specs) trên diện rộng
+                                        Framework dự án.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 rounded-2xl p-6 flex flex-col items-center justify-center relative shadow-inner">
+                            <h4 class="font-bold text-slate-800 mb-8 border-b border-slate-200 pb-2 w-full text-center">
+                                Data Architecture (Pipeline)</h4>
+                            <div
+                                class="flex flex-col md:flex-row items-center justify-center w-full space-y-4 md:space-y-0 relative z-10 w-full">
+                                <div
+                                    class="bg-white text-slate-600 px-4 py-3 rounded-xl font-bold text-center w-40 shadow-sm border border-slate-100">
+                                    Raw Input <br><span class="text-xs font-normal text-slate-400">Jira / Email /
+                                        Form</span></div>
+                                <div class="hidden md:block"><i class="fa-solid fa-arrow-right text-slate-300 mx-3"></i>
+                                </div>
+                                <div class="md:hidden block"><i class="fa-solid fa-arrow-down text-slate-300 my-2"></i>
+                                </div>
+                                <div
+                                    class="bg-indigo-600 text-white px-5 py-4 rounded-xl font-bold text-center w-48 shadow-lg transform md:scale-110 z-20">
+                                    Master Workflow <br><span class="text-xs font-normal text-indigo-200">AI
+                                        Orchestrator Engine</span></div>
+                                <div class="hidden md:block"><i class="fa-solid fa-arrow-right text-slate-300 mx-3"></i>
+                                </div>
+                                <div class="md:hidden block"><i class="fa-solid fa-arrow-down text-slate-300 my-2"></i>
+                                </div>
+                                <div
+                                    class="bg-emerald-50 text-emerald-700 px-4 py-3 rounded-xl font-bold text-center w-40 shadow-sm border border-emerald-100">
+                                    Deliverables <br><span class="text-xs font-normal text-emerald-600">GDrive /
+                                        Figma</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3: TỔNG QUAN KIẾN TRÚC -->
+            <div class="slide" id="slide-2">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-lg text-xs md:text-sm font-bold mb-2">
+                            <i class="fa-solid fa-sitemap mr-1"></i> System Architecture
+                        </div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800">2-Phase Routing Architecture
+                        </h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">Core Principle: Phân nhánh tiếp nhận Input
+                            Data và hội tụ tại Publishing Layer cuối cùng.</p>
+                    </div>
+
+                    <div class="flex flex-col space-y-6 flex-grow mt-4 custom-scrollbar overflow-y-auto pr-2 pb-6">
+                        <!-- Phase 1 -->
+                        <div
+                            class="border border-blue-200 bg-blue-50/40 rounded-2xl p-5 md:p-8 relative group hover:bg-blue-50 transition-colors">
+                            <div
+                                class="absolute top-0 right-0 bg-blue-500 text-white font-bold px-4 py-1.5 rounded-bl-2xl text-xs tracking-wider">
+                                PHASE 1: INPUT ROUTING</div>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-800 mb-3 flex items-center pr-32"><i
+                                    class="fa-solid fa-code-branch text-blue-600 mr-3"></i> Tầng Routing & Custom
+                                Processing</h3>
+                            <p class="text-slate-600 mb-5 leading-relaxed font-light text-sm md:text-base">Hệ thống kích
+                                hoạt AI nhận diện Tác vụ, phân tách thành <strong>Hệ Multi-Agent Sub-workflows</strong>
+                                tương ứng với bản chất Data Source. Ở tầng này, các Agent
+                                thực thi việc R&D (Nghiên cứu & Thiết kế) một cách độc lập cho tới khi sinh ra Đặc tả Kỹ
+                                thuật dạng Markdown Specs.</p>
+
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div
+                                    class="bg-white border text-center md:text-left border-slate-200 p-4 rounded-xl shadow-sm">
+                                    <i class="fa-brands fa-jira text-blue-500 mb-2 text-xl block"></i>
+                                    <h4 class="font-bold text-sm text-slate-800">1. Jira Integration</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Đồng bộ tự động thông tin Issue có sẵn.</p>
+                                </div>
+                                <div
+                                    class="bg-white border text-center md:text-left border-slate-200 p-4 rounded-xl shadow-sm">
+                                    <i class="fa-solid fa-envelope-open-text text-purple-500 mb-2 text-xl block"></i>
+                                    <h4 class="font-bold text-sm text-slate-800">2. Unstructured Email/Text</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Hỏi đáp tương tác bóc tách yêu cầu hỗn loạn.
+                                    </p>
+                                </div>
+                                <div
+                                    class="bg-white border text-center md:text-left border-slate-200 p-4 rounded-xl shadow-sm">
+                                    <i class="fa-solid fa-brain text-orange-500 mb-2 text-xl block"></i>
+                                    <h4 class="font-bold text-sm text-slate-800">3. Khởi tạo Insight Mới (BAU/SIP)</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Thực thi khảo sát thị trường định lượng.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Connector -->
+                        <div class="flex justify-center -my-3 relative z-10">
+                            <div
+                                class="w-10 h-10 bg-white border-4 border-slate-100 rounded-full flex items-center justify-center text-slate-300 shadow-sm">
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </div>
+                        </div>
+
+                        <!-- Phase 2 -->
+                        <div
+                            class="border border-purple-200 bg-purple-50/40 rounded-2xl p-5 md:p-8 relative group hover:bg-purple-50 transition-colors">
+                            <div
+                                class="absolute top-0 right-0 bg-purple-600 text-white font-bold px-4 py-1.5 rounded-bl-2xl text-xs tracking-wider">
+                                PHASE 2: OUTPUT STANDARDIZATION</div>
+                            <h3 class="text-lg md:text-xl font-bold text-slate-800 mb-3 flex items-center pr-32"><i
+                                    class="fa-solid fa-wand-magic-sparkles text-purple-600 mr-3"></i> Tầng Publishing &
+                                Integration Layer</h3>
+                            <p class="text-slate-600 mb-5 leading-relaxed font-light text-sm md:text-base">Bất chấp bản
+                                chất Input, mọi Data Pipeline trên đều hội tụ về một chốt chặn Post-Processing ngầm
+                                định. Giai đoạn này đảm bảo tài liệu được trình bày chuẩn hóa cho
+                                các bên Stakeholders tiêu thụ.</p>
+
+                            <div class="flex flex-wrap gap-2 md:gap-3">
+                                <span
+                                    class="bg-white border text-blue-700 border-blue-200 px-3 md:px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold shadow-sm"><i
+                                        class="fa-brands fa-google-drive mr-1.5 text-blue-400"></i> Render Google
+                                    Docs</span>
+                                <span
+                                    class="bg-white border text-orange-700 border-orange-200 px-3 md:px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold shadow-sm"><i
+                                        class="fa-solid fa-terminal mr-1.5 text-orange-400"></i> Ánh xạ UID</span>
+                                <span
+                                    class="bg-white border text-purple-700 border-purple-200 px-3 md:px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold shadow-sm"><i
+                                        class="fa-brands fa-figma mr-1.5 text-purple-400"></i> Nhúng Artifacts Thiết
+                                    kế</span>
+                                <span
+                                    class="bg-emerald-600 text-white border-emerald-700 border px-3 md:px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold shadow-sm"><i
+                                        class="fa-solid fa-chart-line mr-1.5"></i> Export Taxonomy Tracking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 4: CHI TIẾT JIRA -->
+            <div class="slide" id="slide-3">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-slate-100 text-slate-600 rounded-lg text-xs font-bold mb-2 tracking-wide uppercase">
+                            Core Routing [1/3]</div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800 flex items-center"><i
+                                class="fa-brands fa-jira text-blue-500 mr-3"></i> Tích hợp Hệ thống Jira (API Method)
+                        </h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">Luồng nghiệp vụ tiếp nhận Request thông qua
+                            Ticketing System.</p>
+                    </div>
+
+                    <div class="flex-grow overflow-y-auto pr-2 custom-scrollbar mt-2 pb-6">
+                        <div
+                            class="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-blue-100 before:via-blue-300 before:to-transparent">
+
+                            <!-- Steps Container -->
+                            <div
+                                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-blue-600 text-white font-bold shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 text-sm">
+                                    1</div>
+                                <div
+                                    class="w-[calc(100%-3.5rem)] md:w-[calc(50%-3rem)] bg-white p-5 rounded-2xl border border-slate-200 shadow-sm md:-ml-6 md:mr-6 hover:shadow-md transition-shadow">
+                                    <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                                        <h4 class="font-bold text-slate-800 text-base">API Data Extraction</h4>
+                                    </div>
+                                    <p class="text-slate-600 text-sm leading-relaxed font-light">Trigger qua API
+                                        endpoints. Agent <strong>JiraOperationsBot</strong> thực thi Extraction cho
+                                        Metadata, Description và Attachments, sau đó standardize thành Master Input
+                                        format.</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-blue-600 text-white font-bold shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 text-sm">
+                                    2</div>
+                                <div
+                                    class="w-[calc(100%-3.5rem)] md:w-[calc(50%-3rem)] bg-white p-5 rounded-2xl border border-slate-200 shadow-sm md:ml-6 hover:shadow-md transition-shadow">
+                                    <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                                        <h4 class="font-bold text-slate-800 text-base">Empathy Context Analysis</h4>
+                                    </div>
+                                    <p class="text-slate-600 text-sm leading-relaxed font-light">Thực thi Ethnographic
+                                        behavior classification. Chuyển hóa functional requirements thành <strong
+                                            class="text-indigo-600">Pain-points</strong> và định hình lược đồ
+                                        Jobs-to-be-Done (JTBD) cốt lõi.</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-rose-500 text-white font-bold shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                                    <i class="fa-solid fa-shield-halved text-sm"></i>
+                                </div>
+                                <div
+                                    class="w-[calc(100%-3.5rem)] md:w-[calc(50%-3rem)] bg-rose-50 p-5 rounded-2xl border border-rose-200 shadow-sm md:-ml-6 md:mr-6 flex items-start">
+                                    <div class="mr-3 mt-1 text-rose-500"><i class="fa-solid fa-hand text-xl"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-rose-800 text-sm uppercase tracking-wide mb-1">Cổng
+                                            Kiểm định Logic (Gatekeeper)</h4>
+                                        <p class="text-rose-700/80 text-xs leading-relaxed mt-1">Hệ thống ngắt luồng tự
+                                            động (Halt Flow) nếu xác thực dữ liệu đầu vào (Ticket Description) không đạt
+                                            ngưỡng ngữ cảnh tối thiểu, yêu cầu Product Owner định danh lại thông số.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-blue-600 text-white font-bold shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 text-sm">
+                                    3</div>
+                                <div
+                                    class="w-[calc(100%-3.5rem)] md:w-[calc(50%-3rem)] bg-white p-5 rounded-2xl border border-slate-200 shadow-sm md:ml-6 hover:shadow-md transition-shadow">
+                                    <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                                        <h4 class="font-bold text-slate-800 text-base">Kiến trúc Giải pháp (Specs
+                                            Generation)</h4>
+                                    </div>
+                                    <p class="text-slate-600 text-sm leading-relaxed font-light">Tự động cấu trúc hóa
+                                        giải pháp Thiết kế thông qua Blueprint. Tổng hợp và thiết lập Đặc tả Yêu cầu URD
+                                        dưới định dạng <code
+                                            class="text-xs bg-slate-100 px-1 py-0.5 rounded text-indigo-600 border border-slate-200">.md</code>
+                                        đính kèm sơ đồ Logical Flow Mermaid tương ứng.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 5: CHI TIẾT EMAIL / TEXT -->
+            <div class="slide" id="slide-4">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-slate-100 text-slate-600 rounded-lg text-xs font-bold mb-2 tracking-wide uppercase">
+                            Core Routing [2/3]</div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800 flex items-center"><i
+                                class="fa-solid fa-envelope-open-text text-purple-600 mr-3"></i> Phân tích Yêu cầu Tự Do
+                            (Unstructured Text)</h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">Xử lý các thông tin phi cấu trúc tiếp nhận
+                            từ Khách hàng, Đối tác qua môi trường Email/Chat.</p>
+                    </div>
+
+                    <div class="flex-grow overflow-y-auto pr-2 custom-scrollbar pb-6 mt-4">
+                        <div
+                            class="bg-gradient-to-r from-purple-50 to-white rounded-2xl p-5 md:p-6 border border-purple-100 mb-8 flex items-start shadow-sm">
+                            <div
+                                class="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center shrink-0 mr-4 md:mr-5 border border-purple-200">
+                                <i class="fa-solid fa-microchip text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-purple-900 text-lg mb-1">Mô hình Tương tác Năng động
+                                    (Interactive NLP)</h4>
+                                <p class="text-slate-600 leading-relaxed text-sm font-light">Do bản chất thông tin phi
+                                    cấu trúc thiếu Context Keys như hệ thống Task Manager, luồng này thay thế API Fetch
+                                    bằng quy trình <strong class="text-purple-700">Conversational Fetching</strong> để
+                                    trực tiếp bóc tách dữ liệu từ Input của Operator.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+                            <div class="feature-card border-t-0 border-l-4 border-l-purple-500 flex flex-col">
+                                <div
+                                    class="bg-purple-50 w-10 h-10 rounded-lg flex justify-center items-center text-purple-600 font-bold mb-4 shadow-sm">
+                                    01</div>
+                                <h4 class="font-bold text-slate-800 text-base mb-2">Recursive Prompting</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Hệ thống switch sang trạng
+                                    thái chờ, khởi tạo các touch-points yêu cầu bổ sung Multi-modal Input (Text,
+                                    Attachments) theo kịch bản định hướng.</p>
+                            </div>
+
+                            <div class="feature-card border-t-0 border-l-4 border-l-purple-500 flex flex-col">
+                                <div
+                                    class="bg-purple-50 w-10 h-10 rounded-lg flex justify-center items-center text-purple-600 font-bold mb-4 shadow-sm">
+                                    02</div>
+                                <h4 class="font-bold text-slate-800 text-base mb-2">Data Cleansing Engine</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Khởi tạo NLP Pipeline loại
+                                    trừ các cấu trúc giao tiếp thứ cấp (Salutations, Signatures, Forward threads) nhằm
+                                    cô đọng ra Requirement Vector cốt lõi.</p>
+                            </div>
+
+                            <div class="feature-card border-t-0 border-l-4 border-l-purple-500 flex flex-col">
+                                <div
+                                    class="bg-purple-50 w-10 h-10 rounded-lg flex justify-center items-center text-purple-600 font-bold mb-4 shadow-sm">
+                                    03</div>
+                                <h4 class="font-bold text-slate-800 text-base mb-2">P&G Innovation Framework</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Ngăn xếp phân tích bối cảnh
+                                    áp dụng khuôn mẫu thiết kế Goosebumps Strategy, đề xuất Concept Giải pháp mang định
+                                    hướng nâng cấp thay vì thụ động vá lỗi (Patching).</p>
+                            </div>
+
+                            <div class="feature-card border-t-0 border-l-4 border-l-purple-500 flex flex-col">
+                                <div
+                                    class="bg-purple-50 w-10 h-10 rounded-lg flex justify-center items-center text-purple-600 font-bold mb-4 shadow-sm">
+                                    04</div>
+                                <h4 class="font-bold text-slate-800 text-base mb-2">Technical Documentation Translation
+                                </h4>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Biên dịch Concept được rà
+                                    soát thành Hồ sơ Đặc tả (URD) bao gồm cả UI Copywriting, Logic States chuẩn bị cho
+                                    giai đoạn Handoff sang Front-end.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 6: CHI TIẾT BAU / SIP -->
+            <div class="slide" id="slide-5">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-slate-100 text-slate-600 rounded-lg text-xs font-bold mb-2 tracking-wide uppercase">
+                            Core Routing [3/3]</div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800 flex items-center"><i
+                                class="fa-solid fa-microscope text-orange-600 mr-3"></i> New Product Discovery (BAU/SIP)
+                        </h2>
+                        <p class="text-slate-500 text-base mt-2">Heavy-duty Discovery Pipeline định hướng Phát kiến Sản
+                            phẩm gốc (Zero-Data Business Case).</p>
+                    </div>
+
+                    <div class="flex-grow overflow-y-auto pr-2 custom-scrollbar pb-6 mt-4">
+                        <div class="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 relative">
+                            <!-- Process Timeline -->
+                            <div class="col-span-1 md:col-span-2 space-y-6">
+                                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative group">
+                                    <div
+                                        class="absolute -left-3 -top-3 w-8 h-8 bg-orange-100 text-orange-700 rounded-md border border-orange-200 flex items-center justify-center font-bold text-sm shadow-sm group-hover:scale-110 transition-transform">
+                                        01</div>
+                                    <h4 class="font-bold text-slate-800 mb-2 pl-3">Pre-Interview Phase</h4>
+                                    <p class="text-slate-600 text-sm font-light leading-relaxed">Agent đóng vai Nhà
+                                        chiến lược R&D đặt câu hỏi truy xuất Business Metrics và Core UX Expectations từ
+                                        BO để xuất bản Problem Statement.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative group">
+                                    <div
+                                        class="absolute -left-3 -top-3 w-8 h-8 bg-orange-100 text-orange-700 rounded-md border border-orange-200 flex items-center justify-center font-bold text-sm shadow-sm group-hover:scale-110 transition-transform">
+                                        02</div>
+                                    <h4 class="font-bold text-slate-800 mb-2 pl-3">Trộn Insight (Convergence)</h4>
+                                    <p class="text-slate-600 text-sm font-light leading-relaxed">Kiến tạo Market
+                                        Research Artifact bằng cách chắt lọc tài nguyên song song, đệ trình giải pháp vĩ
+                                        mô qua checkpoint chất lượng trước khi Scale lên UI.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative group">
+                                    <div
+                                        class="absolute -left-3 -top-3 w-8 h-8 bg-orange-100 text-orange-700 rounded-md border border-orange-200 flex items-center justify-center font-bold text-sm shadow-sm group-hover:scale-110 transition-transform">
+                                        03</div>
+                                    <h4 class="font-bold text-slate-800 mb-2 pl-3">Dịch chuyển Design Layouts</h4>
+                                    <p class="text-slate-600 text-sm font-light leading-relaxed">Designer Agent tự động
+                                        chuyển hóa Dữ liệu Hình ảnh (Competitor Screenshots) thành nguồn tham chiếu cấu
+                                        trúc Wireframe đính kèm trong Specs file.</p>
+                                </div>
+                            </div>
+
+                            <!-- Parallel Architecture Diagram -->
+                            <div class="col-span-1 md:col-span-3">
+                                <div
+                                    class="bg-slate-800 rounded-3xl p-6 md:p-8 text-white h-full flex flex-col justify-center border border-slate-700 shadow-xl overflow-hidden relative">
+                                    <!-- Hiệu ứng as -->
+                                    <div
+                                        class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl rounded-full">
+                                    </div>
+
+                                    <div class="mb-6 z-10">
+                                        <div
+                                            class="inline-flex items-center bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-md text-xs font-mono font-bold border border-emerald-500/30 mb-3">
+                                            <i class="fa-solid fa-bolt mr-2"></i>PARALLEL EXECUTION PROTOCOL
+                                        </div>
+                                        <h3 class="text-xl md:text-2xl font-bold leading-tight">Mô hình Phân tích Đa Tác
+                                            vụ Thời gian thực</h3>
+                                        <p class="text-slate-400 text-sm mt-3 font-light leading-relaxed">Lợi thế cốt
+                                            lõi của tiến trình R&D tự động, phân tách tài nguyên truy xuất nhằm rút gọn
+                                            độ trễ trong quá trình Benchmark hệ thống.</p>
+                                    </div>
+
+                                    <div class="flex flex-col space-y-4 z-10">
+                                        <div
+                                            class="bg-slate-900/50 p-4 rounded-xl border border-slate-700 flex items-start">
+                                            <div
+                                                class="w-10 h-10 rounded-lg bg-blue-900/60 text-blue-400 border border-blue-800 flex items-center justify-center mr-4 shrink-0">
+                                                <i class="fa-solid fa-globe text-lg"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-bold text-slate-200 text-sm">Thread A: Khai thác
+                                                    Open-Web Benchmark</h4>
+                                                <p class="text-xs text-slate-400 font-mono mt-1 w-full truncate">Run ->
+                                                    Search(Market UX patterns) -> Scrape GUI -> Output(UXB.md)</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="bg-slate-900/50 p-4 rounded-xl border border-slate-700 flex items-start">
+                                            <div
+                                                class="w-10 h-10 rounded-lg bg-rose-900/60 text-rose-400 border border-rose-800 flex items-center justify-center mr-4 shrink-0">
+                                                <i class="fa-solid fa-heart-pulse text-lg"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-bold text-slate-200 text-sm">Thread B: Phân tích Định
+                                                    lượng (Empathy)</h4>
+                                                <p class="text-xs text-slate-400 font-mono mt-1 w-full truncate">Run ->
+                                                    Internal Knowledge -> NLP User Segments -> Output(PainPoints)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 7: HẬU XỬ LÝ -->
+            <div class="slide" id="slide-6">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-lg text-xs font-bold mb-2 tracking-wide uppercase">
+                            Phase 2 Lifecycle</div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800 flex items-center"><i
+                                class="fa-solid fa-layer-group text-indigo-500 mr-3"></i> Post-Processing Layer (Tiến
+                            trình Cấp phát)</h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">4 Auto-Tasks bắt buộc để Release toàn bộ
+                            Master Flow Design.</p>
+                    </div>
+
+                    <div class="content-grid-3 items-stretch flex-grow mt-4">
+                        <!-- Card 1 -->
+                        <div class="feature-card flex flex-col items-center text-center justify-center">
+                            <div class="icon-box bg-blue-light shadow-inner"><i class="fa-brands fa-google-drive"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-800 mb-2">1. Format Google Docs (SyncDocs)</h3>
+                            <p class="text-slate-600 text-xs md:text-sm font-light leading-relaxed">Translate Raw
+                                Markdown thành chuẩn Google Docs Document, đảm bảo giữ nguyên định dạng Bảng biểu phức
+                                tạp (Rich-text Rendering).</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div
+                            class="feature-card flex flex-col items-center text-center justify-center relative overflow-visible border-orange-200 bg-orange-50/20">
+                            <div
+                                class="absolute -top-3 -right-3 bg-red-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-sm tracking-wider uppercase shadow-md animate-pulse">
+                                Manual Step</div>
+                            <div class="icon-box bg-orange-light shadow-inner"><i class="fa-solid fa-code"></i></div>
+                            <h3 class="font-bold text-slate-800 mb-2">2. UI/UX Node Mapping</h3>
+                            <p class="text-slate-600 text-xs md:text-sm font-light leading-relaxed">Halt Flow Mode: Yêu
+                                cầu Product Owner declare UID Frame Figma vào cấu trúc Data Flow để thiết lập Mapping
+                                Coordinates cho Machine Vision Step kế tiếp.</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="feature-card flex flex-col items-center text-center justify-center">
+                            <div class="icon-box bg-purple-light shadow-inner"><i class="fa-brands fa-figma"></i></div>
+                            <h3 class="font-bold text-slate-800 mb-2">3. Machine Vision Sync (Auto-Figma)</h3>
+                            <p class="text-slate-600 text-xs md:text-sm font-light leading-relaxed">Process URL Dự án và
+                                quét qua tọa độ Node IDs, trích xuất Blob Exports và chèn Auto-Layout chính xác tương
+                                ứng vào Document Line.</p>
+                        </div>
+
+                        <!-- Card 4 (Full Width) -->
+                        <div
+                            class="col-span-1 md:col-span-3 bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center border border-slate-700 shadow-xl overflow-hidden relative">
+                            <!-- Hiệu ứng as -->
+                            <div class="absolute right-0 top-0 w-64 h-64 bg-emerald-500/10 blur-3xl"></div>
+                            <div
+                                class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-emerald-500 to-green-700 rounded-2xl flex items-center justify-center text-3xl md:text-4xl shadow-inner flex-shrink-0 z-10 mb-6 md:mb-0 md:mr-8 border border-emerald-400">
+                                <i class="fa-solid fa-database text-emerald-50"></i>
+                            </div>
+                            <div class="z-10 w-full text-center md:text-left">
+                                <h3
+                                    class="text-xl md:text-2xl font-bold text-white mb-2 flex flex-col md:flex-row items-center justify-center md:justify-start">
+                                    4. Export Event Tracking Framework
+                                    <span
+                                        class="mt-2 md:mt-0 md:ml-3 px-2 py-0.5 bg-emerald-500/20 border border-emerald-400/50 rounded text-xs text-emerald-200 font-mono tracking-wider">VERSION_TAXONOMY_2026</span>
+                                </h3>
+                                <p class="text-slate-400 text-sm md:text-base leading-relaxed font-light md:pr-12">
+                                    Engine nội suy lại toàn bộ tài liệu URD vừa phát hành thành một Vector Model và đối
+                                    chiếu với Enterprise Data Framework. Tự động xuất chuỗi Matrix Analytics Mapping (UI
+                                    Events, Backend Payloads, Triggers) hỗ trợ Handoff cho Data Analyst và Developers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 8: LƯU Ý / CẨM NANG -->
+            <div class="slide" id="slide-7">
+                <div class="w-full max-w-6xl mx-auto h-full flex flex-col">
+                    <div class="slide-header">
+                        <div
+                            class="inline-block px-3 py-1 bg-rose-100 text-rose-700 rounded-lg text-xs font-bold mb-2 tracking-wide uppercase">
+                            <i class="fa-solid fa-triangle-exclamation mr-1"></i> Governance Policy
+                        </div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Operation & Checklist (Best Practices)
+                        </h2>
+                        <p class="text-slate-500 text-base md:text-lg mt-2">Duy trì khung tiêu chuẩn về Môi trường
+                            Human-In-The-Loop (HITL).</p>
+                    </div>
+
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 flex-grow mt-4 pb-6 overflow-y-auto custom-scrollbar pr-2">
+                        <!-- Cột 1 -->
+                        <div class="space-y-6 md:space-y-8">
+                            <div
+                                class="bg-white p-6 rounded-2xl border-l-4 border-red-500 shadow-sm transition-transform hover:-translate-y-1">
+                                <div class="flex items-center mb-3">
+                                    <div
+                                        class="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center mr-3 text-red-500">
+                                        <i class="fa-solid fa-ban text-lg"></i>
+                                    </div>
+                                    <h4 class="font-bold text-slate-800">Chất lượng Thông số (Prompt Metadata)</h4>
+                                </div>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Garbage In - Garbage Out.
+                                    Nền tảng phân tích Yêu cầu dựa vào các Ngữ cảnh Khởi nguyên (Contexts). Cung cấp các
+                                    lệnh điều khiển mơ hồ (Vd: "Sửa nút Trang Chủ") sẽ dẫn đến Output phi chuẩn. Buộc
+                                    phải thiết lập rõ ràng Mục tiêu Kinh doanh (Why), Kỳ vọng Trải nghiệm (How).</p>
+                            </div>
+
+                            <div
+                                class="bg-white p-6 rounded-2xl border-l-4 border-blue-500 shadow-sm transition-transform hover:-translate-y-1">
+                                <div class="flex items-center mb-3">
+                                    <div
+                                        class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mr-3 text-blue-500">
+                                        <i class="fa-solid fa-scale-balanced text-lg"></i>
+                                    </div>
+                                    <h4 class="font-bold text-slate-800">Quyền phê duyệt Phủ quyết (Reject Autonomy)
+                                    </h4>
+                                </div>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Luồng Design Flow được
+                                    thiết kế với chốt xả HITL (Human-in-the-loop) thường xuyên. PO/UIUX bắt buộc phải từ
+                                    chối (Reject) hoặc điều chuyển định hướng bằng Override Contexts nếu Kiến trúc Giải
+                                    pháp ban đầu định hình sai lệch so với Core Product Vision.</p>
+                            </div>
+                        </div>
+
+                        <!-- Cột 2 -->
+                        <div class="space-y-6 md:space-y-8 flex flex-col">
+                            <div
+                                class="bg-white p-6 rounded-2xl border-l-4 border-orange-500 shadow-sm transition-transform hover:-translate-y-1">
+                                <div class="flex items-center mb-3">
+                                    <div
+                                        class="w-10 h-10 bg-orange-50 rounded-lg flex items-center justify-center mr-3 text-orange-500">
+                                        <i class="fa-solid fa-link-slash text-lg"></i>
+                                    </div>
+                                    <h4 class="font-bold text-slate-800">Rủi ro Đứt gãy Post-Processing</h4>
+                                </div>
+                                <p class="text-slate-600 text-sm leading-relaxed font-light">Tuyệt đối không bỏ qua giao
+                                    thức "Khai báo UID Code" ở Phase 2. Mọi sự đứt gãy tại Workflow Component này sẽ làm
+                                    suy sập toàn bộ Cấu trúc Tự động hóa ở hai tầng cuối (Auto-Map Design Screenshots &
+                                    Data Tracker Exports).</p>
+                            </div>
+
+                            <div
+                                class="bg-white p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-100 shadow-sm flex flex-col justify-center items-center text-center flex-grow">
+                                <div
+                                    class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-indigo-600 shadow-sm mb-5 text-2xl border border-indigo-50">
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                                <h4 class="font-bold text-indigo-900 text-xl mb-2">Thực thi Chu trình Nền tảng</h4>
+                                <p class="text-indigo-800/70 text-sm mb-6 font-light max-w-xs">Giao thức Khởi chạy đã
+                                    sẵn sàng trên UI Terminal Platform.</p>
+                                <span
+                                    class="inline-flex items-center bg-indigo-600 text-white px-5 py-2.5 rounded-lg font-mono text-sm shadow-md hover:bg-indigo-700 hover:shadow-lg transition-all cursor-pointer">/start_flow_design
+                                    <i class="fa-solid fa-terminal ml-2 text-indigo-300"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dots Indicator -->
+            <div class="dots-container" id="dots">
+                <div class="dot active" onclick="goToSlide(0)" title="Bìa"></div>
+                <div class="dot" onclick="goToSlide(1)" title="Tầm nhìn Sứ mệnh"></div>
+                <div class="dot" onclick="goToSlide(2)" title="Kiến trúc Hệ thống"></div>
+                <div class="dot" onclick="goToSlide(3)" title="Luồng 1: Jira Integration"></div>
+                <div class="dot" onclick="goToSlide(4)" title="Luồng 2: Unstructured Text"></div>
+                <div class="dot" onclick="goToSlide(5)" title="Luồng 3: BAU/SIP Khởi tạo"></div>
+                <div class="dot" onclick="goToSlide(6)" title="Hậu Xử Lý Post-Processing"></div>
+                <div class="dot" onclick="goToSlide(7)" title="Governance Policy (Lưu ý)"></div>
+            </div>
+
+        </div>
+
+        <!-- Nút Phải -->
+        <button class="nav-btn nav-next" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Script điều khiển Slide Tuyến tính -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const totalSlides = slides.length;
+
+        function updateSlider() {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateSlider();
+        }
+
+        // Bắt sự kiện bàn phím trái phải
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+    </script>
+</body>
+
+</html>

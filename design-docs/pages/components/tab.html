@@ -1,0 +1,232 @@
+<!-- Tab Component Documentation — Sourced from Figma Design System -->
+<div class="content component-doc">
+    
+    <link rel="stylesheet" href="styles/components/tab.css">
+
+    <!-- 1. Header -->
+    <div class="component-header">
+        <span class="component-badge">Component</span>
+        <h1>Tab</h1>
+        <p class="component-description">Tổ chức và cho phép điều hướng giữa các nhóm nội dung có liên quan, cấu trúc phân cấp ngang hàng nhau trong cùng một vùng giao diện.</p>
+        <div class="component-links">
+            <a href="https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=6-4428&t=8UX4ks1D4JyySbwj-1" target="_blank" class="component-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                View in Figma
+            </a>
+        </div>
+    </div>
+
+    <!-- 2. Hero Preview -->
+    <section class="doc-section" id="hero-preview">
+        <h2>Hero Preview</h2>
+        <div class="hero-demo" style="margin-top: 24px;">
+            <div style="padding: 64px 32px; display: flex; flex-direction: column; gap: 32px; align-items: center; background: #f8fafc; border-bottom: 1px solid rgba(226, 232, 240, 0.8);">
+                
+                <!-- Hero Render -->
+                <div class="tabs js-tabs" style="width: 100%; max-width: 600px; background: white; padding-top: 16px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                    <div class="tab-list" role="tablist" aria-label="Example Tabs">
+                        <button class="tab-trigger active" role="tab" aria-selected="true" data-target="panel-1">Account</button>
+                        <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-2">Password</button>
+                        <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-3">Notifications</button>
+                    </div>
+
+                    <div class="tab-panel active" id="panel-1" role="tabpanel" style="padding: 24px;">
+                        <h3 style="margin-top: 0; margin-bottom: 12px; font-size: 16px; font-weight: 600;">Account Settings</h3>
+                        <p style="font-size: 14px; color: #475569;">Quản lý cài đặt settings tài khoản và tùy chọn của bạn tại đây. Lưu ý rằng tab active có một đường viền gạch chân liền lạc theo màu thương hiệu.</p>
+                    </div>
+                    <div class="tab-panel" id="panel-2" role="tabpanel" style="padding: 24px;">
+                        <h3 style="margin-top: 0; margin-bottom: 12px; font-size: 16px; font-weight: 600;">Security</h3>
+                        <p style="font-size: 14px; color: #475569;">Cập nhật mật khẩu và thông tin bảo mật bổ sung.</p>
+                    </div>
+                    <div class="tab-panel" id="panel-3" role="tabpanel" style="padding: 24px;">
+                        <h3 style="margin-top: 0; margin-bottom: 12px; font-size: 16px; font-weight: 600;">Alerts</h3>
+                        <p style="font-size: 14px; color: #475569;">Cấu hình Push notification nhận tin.</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="usage-pane" style="margin-bottom: 16px;">
+                <div class="usage-header">
+                    <span class="usage-lang">iOS (Swift)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import MyVNPTDesignSystem
+
+// Standard Tabs (Line Style)
+DSTabView(
+    tabs: ["Account", "Password", "Notifications"],
+    selectedIndex: $selectedIndex,
+    style: .line
+) { index in
+    if index == 0 {
+        AccountSettingsView()
+    } else if index == 1 {
+        PasswordSettingsView()
+    }
+}</code></pre>
+                </div>
+            </div>
+            
+            <div class="usage-pane" style="margin: 32px 32px 32px 0;">
+                <div class="usage-header">
+                    <span class="usage-lang">Android (Kotlin)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import vn.myvnpt.designsystem.components.DSTabs
+import vn.myvnpt.designsystem.components.DSTabStyle
+
+// Standard Tabs (Line Style)
+DSTabs(
+    tabs = listOf("Account", "Password", "Notifications"),
+    selectedIndex = selectedIndex,
+    onTabSelected = { selectedIndex = it },
+    style = DSTabStyle.Line
+)
+
+// Content View
+when (selectedIndex) {
+    0 -> AccountSettingsView()
+    1 -> PasswordSettingsView()
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Examples / Variants -->
+    <section class="doc-section" id="variants">
+        <h2>Examples / Variants</h2>
+        
+        <p style="margin-bottom: 24px;">Tab có hai kiểu trực quan phân biệt tuỳ vào cấp độ của thông tin phân luồng và vị trí dùng trên giao diện.</p>
+
+        <!-- Line Variant -->
+        <h3 style="margin-top: 24px;">Line Variant (Mặc định)</h3>
+        <p style="font-size: 14px; margin-bottom: 16px;">Sử dụng như điều hướng cấp 1 trong page. Dùng gạch chân dưới text để đánh dấu State=Active.</p>
+        <div class="preview-box" style="background: #F4F4F4; padding: 32px; margin-bottom: 24px; border: 1px solid #e2e8f0; border-radius: 8px;">
+            <div class="tabs js-tabs" style="width: 100%; max-width: 500px; margin: auto;">
+                <div class="tab-list" role="tablist">
+                    <button class="tab-trigger active" role="tab" aria-selected="true" data-target="panel-line-1">Left</button>
+                    <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-line-2">Middle</button>
+                    <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-line-3">Right</button>
+                </div>
+                <div class="tab-panel active" id="panel-line-1" role="tabpanel"></div>
+                <div class="tab-panel" id="panel-line-2" role="tabpanel"></div>
+                <div class="tab-panel" id="panel-line-3" role="tabpanel"></div>
+            </div>
+        </div>
+
+        <!-- Pill Variant -->
+        <h3 style="margin-top: 24px;">Pill Variant (Segmented Control)</h3>
+        <p style="font-size: 14px; margin-bottom: 16px;">Sử dụng như điều hướng cấp phụ nếu đã có Line Variant nằm ở trên nó. Nền pill đệm trọn vùng text cho State=Active trải nghiệm như Switcher.</p>
+        <div class="preview-box" style="background: #F4F4F4; padding: 32px; margin-bottom: 24px; border: 1px solid #e2e8f0; border-radius: 8px;">
+            <div class="tabs tabs-pill js-tabs" style="width: 100%; max-width: 400px; margin: auto; padding: 4px; background: #E2E8F0; border-radius: 12px;">
+                <div class="tab-list" role="tablist" style="border: 0; box-shadow: none;">
+                    <button class="tab-trigger active" role="tab" aria-selected="true" data-target="panel-pill-1">Overview</button>
+                    <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-pill-2">Analytics</button>
+                    <button class="tab-trigger" role="tab" aria-selected="false" data-target="panel-pill-3">Reports</button>
+                </div>
+                <div class="tab-panel active" id="panel-pill-1" role="tabpanel"></div>
+                <div class="tab-panel" id="panel-pill-2" role="tabpanel"></div>
+                <div class="tab-panel" id="panel-pill-3" role="tabpanel"></div>
+            </div>
+            
+            <div class="usage-pane" style="margin-top: 24px; box-shadow: none;">
+                <div class="usage-header"><span class="usage-lang">Swift</span></div>
+                <div class="usage-content" style="padding: 12px;"><pre><code>DSTabView(..., style: .pill)</code></pre></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Usage Guidelines -->
+    <section class="doc-section" id="usage-guidelines">
+        <h2>Usage Guidelines</h2>
+        <ul class="checklist">
+            <li><strong>Do:</strong> Đảm bảo văn bản trong Tab là cực kỳ ngắn (1-2 từ). Text dài phá vỡ cấu trúc ngang và thường mất chữ.</li>
+            <li><strong>Do:</strong> Cố gắng duy trì từ 2-4 tab. Nếu vượt quá, cân nhắc làm layout lướt (Scrollable row) hoặc một Dropdown Picker (Lọc).</li>
+            <li><strong>Do:</strong> Line Style thường ưu tiên Fill theo chiều ngang màn hình (Equally Spaced) để phủ đầy đặn trên thanh Top NavBar.</li>
+            <li><strong>Don't:</strong> Đừng bao giờ đè nhiều thành phần Line Tab cấp tính xuống các mục dưới. Thay vào chắp vá bằng Pill Tab cho navigation cấp 2.</li>
+        </ul>
+    </section>
+
+    <!-- 5. Accessibility -->
+    <section class="doc-section" id="accessibility">
+        <h2>Accessibility</h2>
+        <ul class="checklist">
+            <li><strong>Semantic structure:</strong> Dùng tổ hợp HTML Attributes sau cùng lúc: `<div role="tablist">` bao lấy `<button role="tab">` và `<div role="tabpanel">`.</li>
+            <li><strong>State:</strong> Tab đang được trỏ chuột phải báo <code>aria-selected="true"</code>, tab khác là <code>"false"</code>. Đảm bảo screen reader đọc được "Tab 1 of X".</li>
+            <li><strong>Keyboard Navigation:</strong> Hỗ trợ mũi tên Trái/Phải (Left/Right Arrow) luân chuyển qua lại giữa các tab thay vì chỉ Tap tab mới focus.</li>
+            <li>Tương phản màu trên Pill Active/Inactive phải đạt tỷ lệ 4.5:1.</li>
+        </ul>
+    </section>
+
+    <!-- 6. Design Specifications -->
+    <section class="doc-section" id="design-specifications">
+        <h2>Design Specifications</h2>
+        <table class="spec-table">
+            <thead><tr><th>Element</th><th>Property</th><th>Token / Value</th></tr></thead>
+            <tbody>
+                <tr><td>Tab Row</td><td>Height</td><td><code>44px - 48px</code> (Tuỳ Line hay Pill)</td></tr>
+                <tr><td>Tab Text</td><td>Typography (Active)</td><td>SF Pro Display / 14px-15px / SemiBold</td></tr>
+                <tr><td>Tab Text</td><td>Typography (Default)</td><td>SF Pro Display / 14px-15px / Regular</td></tr>
+                <tr><td>Line Style</td><td>Active Indicator Offset</td><td>Gắn chìm dưới tab <code>0px</code>, có <code>border-bottom: 2px solid Color-Primary</code></td></tr>
+                <tr><td>Line Style</td><td>Inactive border</td><td>Line xuyên mờ 1px solid <code>#E2E8F0</code></td></tr>
+                <tr><td>Pill Style</td><td>Active Pill Config</td><td>Bg: <code>Color-White</code> / Bọc shadow <code>0 1px 3px rgba(0,0,0,0.1)</code> / Bán kính <code>8px</code></td></tr>
+                <tr><td>Pill Style</td><td>Container Bg</td><td><code>#E2E8F0</code> (Gray Light)</td></tr>
+                <tr><td>Space (Equally spaced)</td><td>Width flex</td><td>Tab chia đều chiều ngang `flex: 1` hoặc co tự nhiên kèm `align-items: center`</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 7. API Reference / Props Table -->
+    <section class="doc-section" id="api-reference">
+        <h2>API Reference / Props Table</h2>
+        <h3>Component: Tab</h3>
+        <table class="spec-table">
+            <thead><tr><th>Property</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+            <tbody>
+                <tr><td>Tabs</td><td><code>Array[String]</code></td><td><code>[]</code></td><td>Mảng định nghĩa nhóm các title của thẻ Tab.</td></tr>
+                <tr><td>Selected Index</td><td><code>Int/Binding</code></td><td><code>0</code></td><td>Position đánh dấu tab đang trong trạng thái được kích hoạt. Nối với View Engine.</td></tr>
+                <tr><td>Style</td><td><code>Enum</code></td><td><code>.Line</code></td><td>Hai loại style là <code>.Line</code> hoặc <code>.Pill</code>.</td></tr>
+                <tr><td>Animated (Prop)</td><td><code>Boolean</code></td><td><code>true</code></td><td>Bật hoạt ảnh line chạy mượt ngang qua các tuỳ chọn.</td></tr>
+                <tr><td>Scrollable</td><td><code>Boolean</code></td><td><code>false</code></td><td>Nếu true, layout không chia đều column flex ngang bằng nhau nữa mà cho trượt độc lập.</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script>
+        // Tab Interactions Setup
+        setTimeout(() => {
+            const tabGroups = document.querySelectorAll('.js-tabs');
+
+            tabGroups.forEach(group => {
+                const triggers = group.querySelectorAll('.tab-trigger:not(:disabled)');
+                const panels = group.querySelectorAll('.tab-panel');
+
+                triggers.forEach(trigger => {
+                    trigger.addEventListener('click', () => {
+                        // Remove active
+                        triggers.forEach(t => {
+                            t.classList.remove('active');
+                            t.setAttribute('aria-selected', 'false');
+                        });
+                        panels.forEach(p => p.classList.remove('active'));
+
+                        // Add active
+                        trigger.classList.add('active');
+                        trigger.setAttribute('aria-selected', 'true');
+
+                        // Show panel
+                        const targetId = trigger.getAttribute('data-target');
+                        if (targetId) {
+                            const targetPanel = group.querySelector('#' + targetId);
+                            if (targetPanel) targetPanel.classList.add('active');
+                        }
+                    });
+                });
+            });
+        }, 500);
+    </script>
+</div>

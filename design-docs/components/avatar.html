@@ -1,0 +1,122 @@
+<div class="content">
+    <h1>Avatar</h1>
+
+    <!-- Import Avatar Specific CSS -->
+    <link rel="stylesheet" href="styles/components/avatar.css">
+
+    <!-- Section 1: Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">PICTURE TYPE</div>
+        <div class="variant-row" style="align-items: center; gap: 40px; margin-bottom: 32px;">
+            <div class="avatar-container" style="width: 64px; height: 64px;">
+                <img class="avatar-img" src="https://i.pravatar.cc/150?u=1" alt="User portrait">
+            </div>
+            <div class="avatar-container" style="width: 48px; height: 48px;">
+                <img class="avatar-img" src="https://i.pravatar.cc/150?u=2" alt="User portrait">
+            </div>
+            <div class="avatar-container" style="width: 32px; height: 32px;">
+                <img class="avatar-img" src="https://i.pravatar.cc/150?u=3" alt="User portrait">
+            </div>
+        </div>
+
+        <div class="variant-group-label">INITIALS TYPE</div>
+        <div class="variant-row" style="align-items: center; gap: 40px;">
+            <div class="avatar-container" style="width: 64px; height: 64px;">
+                <span class="avatar-initials" style="font-size: 24px;">AB</span>
+            </div>
+            <div class="avatar-container" style="width: 48px; height: 48px;">
+                <span class="avatar-initials" style="font-size: 16px;">AB</span>
+            </div>
+            <div class="avatar-container" style="width: 32px; height: 32px;">
+                <span class="avatar-initials" style="font-size: 12px;">AB</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Section 2: Props -->
+    <h2 class="section-heading">Props</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="dark-props-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">type</span></td>
+                    <td><span class="prop-tag">"picture" | "initials"</span></td>
+                    <td><span class="prop-tag">"picture"</span></td>
+                    <td>Fallback type if image loading fails.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">src</span></td>
+                    <td><span class="prop-tag">string</span></td>
+                    <td><span class="prop-tag">undefined</span></td>
+                    <td>Image source URL. Required if type is "picture".</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">size</span></td>
+                    <td><span class="prop-tag">"large" | "medium" | "small"</span></td>
+                    <td><span class="prop-tag">"medium"</span></td>
+                    <td>Dimension mapping defining width, height, and font scale.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 3: Accessibility -->
+    <h2 class="section-heading">Accessibility</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Picture avatars must provide a readable <code>alt</code> attribute describing the subject.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Initials must be placed within a span readable by Screen Readers if purely decorative, or appended with
+                <code>aria-label</code>.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section 4: Usage -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">HTML</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>&lt;!-- Picture Type --&gt;
+&lt;div class="avatar-container"&gt;
+  &lt;img class="avatar-img" src="/imgs/user.jpg" alt="Jane Doe"&gt;
+&lt;/div&gt;
+
+&lt;!-- Initials Fallback Type --&gt;
+&lt;div class="avatar-container"&gt;
+  &lt;span class="avatar-initials"&gt;JD&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+</div>

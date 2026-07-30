@@ -1,0 +1,87 @@
+/* --- Badge Component CSS --- */
+/* Uses globals.css variables */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-font-family-typeface, 'SF Pro Display', sans-serif);
+    font-weight: var(--font-font-weight-medium, 500);
+    border-radius: var(--br-full, 9999px);
+    white-space: nowrap;
+    border: 1px solid transparent;
+    line-height: normal;
+}
+
+/* Base Sizes */
+.badge-sm {
+    height: 20px;
+    padding: var(--space-2x, 2px) var(--space-6x, 6px);
+    font-size: var(--font-font-size-xs, 12px);
+}
+
+.badge-md {
+    height: 24px;
+    padding: var(--space-2x, 2px) var(--space-8x, 8px);
+    font-size: var(--font-font-size-sm, 14px);
+}
+
+.badge-lg {
+    height: 28px;
+    padding: var(--space-4x, 4px) var(--space-12x, 12px);
+    font-size: var(--font-font-size-sm, 14px);
+}
+
+/* Shape Modifiers */
+.badge-round {
+    border-radius: var(--br-8x, 8px);
+}
+
+/* Icon Support */
+.badge-icon-left svg {
+    margin-right: var(--space-4x, 4px);
+    flex-shrink: 0;
+}
+
+.badge-icon-right svg {
+    margin-left: var(--space-4x, 4px);
+    flex-shrink: 0;
+}
+
+/* Variants (Using logical functional colors) */
+
+/* 1. Neutral (Default) */
+.badge-neutral {
+    background-color: var(--bg-secondary, #f4f4f4);
+    color: var(--text-primary, #34404b);
+    border-color: var(--border-primary, #e2e8f0);
+}
+
+/* 2. Primary / Brand */
+.badge-primary {
+    background-color: var(--bg-brand-primary, #f5f8ff);
+    color: var(--text-brand_high-contrast, #2255b3);
+    border-color: var(--border-brand_subtle, #acc9ff);
+}
+
+/* 3. Success */
+.badge-success {
+    background-color: var(--bg-success-primary, #ecfdf5);
+    color: var(--text-success_high-contrast, #0f7a45);
+    /* use high contrast for specific readability */
+    border-color: var(--border-success_subtle, #a8f0cc);
+}
+
+/* 4. Warning */
+.badge-warning {
+    background-color: var(--bg-warning-primary, #fff8eb);
+    color: var(--text-warning_high-contrast, #936811);
+    border-color: var(--border-warning_subtle, #ffe4af);
+}
+
+/* 5. Destructive / Error */
+.badge-error {
+    background-color: var(--bg-error-primary, #fef3f2);
+    color: var(--text-error_high-contrast, #db3728);
+    border-color: var(--border-error_subtle, #ffb6af);
+}

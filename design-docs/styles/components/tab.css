@@ -1,0 +1,108 @@
+/* --- Tab Component CSS --- */
+/* Uses globals.css variables */
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Tab List Container */
+.tab-list {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--border-primary, #e2e8f0);
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+    /* Hide scrollbar but keep scrollable if many tabs */
+}
+
+.tab-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Tab Item (Trigger) */
+.tab-trigger {
+    background: transparent;
+    border: none;
+    padding: var(--space-12x, 12px) var(--space-16x, 16px);
+    font-family: var(--font-family-typeface, 'SF Pro Display', sans-serif);
+    font-size: var(--font-size-md, 16px);
+    font-weight: var(--font-weight-medium, 500);
+    color: var(--text-secondary, #475569);
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    transition: color 0.2s ease;
+    margin-bottom: -2px;
+    /* Pull down to overlap the container border */
+    border-bottom: 2px solid transparent;
+}
+
+.tab-trigger:hover:not(:disabled) {
+    color: var(--text-primary, #0f172a);
+}
+
+.tab-trigger.active {
+    color: var(--color-brand-500, #3079ff);
+    border-bottom-color: var(--color-brand-500, #3079ff);
+    font-weight: var(--font-weight-semibold, 600);
+}
+
+.tab-trigger:disabled,
+.tab-trigger.is-disabled {
+    color: var(--text-disabled, #94a3b8);
+    cursor: not-allowed;
+}
+
+/* Tab Panel (Content) */
+.tab-panel {
+    display: none;
+    padding: var(--space-24x, 24px) 0;
+    color: var(--text-primary, #0f172a);
+    font-size: var(--font-size-md, 16px);
+    line-height: var(--line-height-relaxed, 1.5);
+    animation: fadeInTab 0.2s ease-out;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+@keyframes fadeInTab {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Variant: Pill Tabs */
+.tabs-pill .tab-list {
+    border-bottom: none;
+    gap: var(--space-8x, 8px);
+    padding: var(--space-4x, 4px);
+    background-color: var(--bg-secondary, #f1f5f9);
+    border-radius: var(--br-8x, 8px);
+    display: inline-flex;
+}
+
+.tabs-pill .tab-trigger {
+    margin-bottom: 0;
+    border-bottom: none;
+    border-radius: var(--br-4x, 4px);
+    padding: var(--space-8x, 8px) var(--space-16x, 16px);
+}
+
+.tabs-pill .tab-trigger.active {
+    background-color: var(--bg-primary, #ffffff);
+    color: var(--text-primary, #0f172a);
+    box-shadow: var(--shadow-sm, 0 1px 2px 0 rgba(0, 0, 0, 0.05));
+    border-bottom-color: transparent;
+}

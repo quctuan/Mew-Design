@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emi OS — Onboarding Training Deck</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f8ff;
+  --bg-soft:#eaf1fe;
+  --surface:#ffffff;
+  --surface-2:#f3f7ff;
+  --surface-3:#e9f0fc;
+  --border:rgba(20,50,110,0.10);
+  --border-strong:rgba(20,50,110,0.18);
+  --text:#0f1f3d;
+  --text-dim:#46577a;
+  --text-muted:#8493b0;
+
+  --blue:#2563eb;
+  --blue-deep:#1d4ed8;
+  --blue-bright:#3b82f6;
+  --blue-dim:rgba(37,99,235,0.10);
+  --blue-soft:#dbe7ff;
+
+  --green:#16a34a;
+  --green-dim:rgba(22,163,74,0.10);
+  --green-soft:#d8f3e2;
+
+  --cyan:#0891b2;
+  --cyan-dim:rgba(8,145,178,0.10);
+
+  --amber:#ea8a00;
+  --amber-dim:rgba(234,138,0,0.12);
+
+  --rose:#e11d48;
+  --rose-dim:rgba(225,29,72,0.10);
+
+  --violet:#7c4dff;
+  --violet-dim:rgba(124,77,255,0.10);
+
+  --font:'Plus Jakarta Sans','Segoe UI',sans-serif;
+  --font-serif:'Fraunces',Georgia,serif;
+  --mono:'JetBrains Mono','SF Mono',Consolas,monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;}
+body{font-family:var(--font);background:var(--bg);color:var(--text);overflow:hidden;-webkit-font-smoothing:antialiased;}
+body::before{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 70% 55% at 12% -5%,rgba(59,130,246,0.10) 0%,transparent 55%),
+    radial-gradient(ellipse 65% 50% at 95% 105%,rgba(22,163,74,0.08) 0%,transparent 55%);
+}
+
+/* ── DECK SHELL ── */
+.deck{position:relative;z-index:1;height:100vh;display:flex;flex-direction:column;}
+.slides{flex:1;position:relative;overflow:hidden;}
+.slide {
+  position:absolute;inset:0;padding:42px 5.5vw 80px;
+  opacity:0;visibility:hidden;transform:translateY(22px);
+  transition:opacity .5s ease,transform .5s ease,visibility .5s;
+  overflow-y:auto;display:flex;flex-direction:column;
+}
+.slide.active{opacity:1;visibility:visible;transform:translateY(0);}
+.slide::-webkit-scrollbar{width:9px;}
+.slide::-webkit-scrollbar-thumb{background:var(--surface-3);border-radius:5px;}
+.slide::-webkit-scrollbar-thumb:hover{background:var(--blue-soft);}
+
+/* ── LOGO HELPERS ── */
+.logo-lockup{display:inline-flex;align-items:center;gap:9px;}
+.logo-lockup svg{display:block;}
+.logo-lockup .lt1{font-weight:800;letter-spacing:.5px;}
+.logo-lockup .lt2{font-weight:400;letter-spacing:.5px;}
+
+/* ── BRAND HEADER (content slides) ── */
+.slide-brand{display:flex;align-items:center;gap:13px;margin-bottom:22px;}
+.slide-brand .divider{width:1px;height:22px;background:var(--border-strong);}
+.slide-brand .label{font-size:13px;font-weight:600;letter-spacing:.06em;color:var(--text-dim);text-transform:uppercase;}
+
+/* ── SLIDE HEADER ── */
+.s-eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:13px;display:flex;align-items:center;gap:10px;font-weight:600;}
+.s-eyebrow::before{content:'';width:26px;height:2px;background:var(--blue);border-radius:2px;}
+.s-title{font-size:clamp(26px,3.5vw,42px);font-weight:700;line-height:1.1;letter-spacing:-.02em;margin-bottom:8px;color:var(--text);}
+.s-title .hl{color:var(--blue);}
+.s-lead{font-size:15.5px;color:var(--text-dim);max-width:820px;line-height:1.65;margin-bottom:24px;}
+
+/* ── NAV BAR ── */
+.navbar{height:62px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;border-top:1px solid var(--border);background:rgba(255,255,255,0.82);backdrop-filter:blur(12px);}
+.brand{display:flex;align-items:center;gap:11px;font-weight:600;font-size:13.5px;color:var(--text-dim);}
+.nav-ctrls{display:flex;align-items:center;gap:14px;}
+.nav-btn{width:38px;height:38px;border-radius:11px;border:1px solid var(--border-strong);background:var(--surface);color:var(--blue);font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,border-color .15s,transform .1s,box-shadow .15s;box-shadow:0 1px 2px rgba(20,50,110,0.05);}
+.nav-btn:hover:not(:disabled){background:var(--blue);color:#fff;border-color:var(--blue);box-shadow:0 4px 12px rgba(37,99,235,0.25);}
+.nav-btn:active:not(:disabled){transform:scale(.94);}
+.nav-btn:disabled{opacity:.3;cursor:not-allowed;}
+.nav-count{font-family:var(--mono);font-size:13px;color:var(--text-dim);min-width:60px;text-align:center;}
+.nav-count b{color:var(--blue);}
+.dots{display:flex;gap:6px;flex-wrap:wrap;max-width:60%;justify-content:center;}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--surface-3);cursor:pointer;transition:all .2s;}
+.dot.active{background:var(--blue);width:22px;border-radius:4px;}
+.dot:hover{background:var(--blue-bright);}
+
+/* ── COVER / FULL-BLUE SLIDES ── */
+.cover,.closing{padding:0;overflow:hidden;background:linear-gradient(135deg,#3b82f6 0%,#2563eb 55%,#1d4ed8 100%);color:#fff;}
+.cover{justify-content:flex-end;}
+.cover-inner{padding:54px 7vw 80px;position:relative;z-index:2;width:100%;}
+.cover-deco{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;}
+.cover-deco svg{position:absolute;}
+.cover-topbar{position:absolute;top:48px;left:7vw;right:7vw;z-index:3;display:flex;align-items:center;gap:16px;}
+.cover-topbar .divider{width:1.5px;height:30px;background:rgba(255,255,255,0.5);}
+.cover-topbar .dept{font-size:20px;font-weight:600;letter-spacing:.04em;color:#fff;}
+.cover-kicker{font-family:var(--mono);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,0.85);margin-bottom:18px;}
+.cover h1{font-size:clamp(44px,7.5vw,90px);font-weight:800;line-height:.98;letter-spacing:-.03em;margin-bottom:22px;color:#fff;}
+.cover h1 .accent{color:#bbf7d0;}
+.cover-sub{font-size:18px;color:rgba(255,255,255,0.9);max-width:680px;line-height:1.7;margin-bottom:32px;}
+.cover-tags{display:flex;gap:12px;flex-wrap:wrap;}
+.tag{font-family:var(--mono);font-size:12px;padding:9px 17px;border-radius:24px;letter-spacing:.04em;background:rgba(255,255,255,0.16);border:1px solid rgba(255,255,255,0.3);color:#fff;backdrop-filter:blur(4px);}
+
+/* ── CARDS ── */
+.grid{display:grid;gap:16px;}
+.g2{grid-template-columns:repeat(2,1fr);}
+.g3{grid-template-columns:repeat(3,1fr);}
+.g4{grid-template-columns:repeat(4,1fr);}
+.g5{grid-template-columns:repeat(5,minmax(0,1fr));}
+@media(max-width:1280px){.g5{grid-template-columns:repeat(3,minmax(0,1fr));}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;transition:transform .2s,border-color .2s,box-shadow .2s;position:relative;overflow:hidden;box-shadow:0 1px 3px rgba(20,50,110,0.04);}
+.card:hover{transform:translateY(-3px);border-color:var(--blue-soft);box-shadow:0 10px 28px rgba(37,99,235,0.10);}
+
+/* ── VISION ── */
+.vision-box{background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;border-radius:22px;padding:38px 42px;position:relative;overflow:hidden;box-shadow:0 16px 40px rgba(37,99,235,0.22);}
+.vision-box .swirl{position:absolute;right:-10px;bottom:-40px;opacity:.16;z-index:0;width:280px;height:280px;}
+.vision-box .q{font-family:Georgia,serif;font-size:96px;line-height:.4;color:#bbf7d0;opacity:.55;position:absolute;top:34px;left:26px;z-index:1;}
+.vision-box p{font-size:19px;line-height:1.7;font-weight:400;position:relative;z-index:2;}
+.vision-box strong{font-weight:700;color:#bbf7d0;}
+.vision-pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px;}
+.pillar{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:0 1px 3px rgba(20,50,110,0.04);}
+.pillar .pi{font-size:24px;margin-bottom:10px;}
+.pillar h4{font-size:14.5px;font-weight:700;margin-bottom:6px;}
+.pillar p{font-size:12.5px;color:var(--text-dim);line-height:1.55;}
+
+/* ── PERSONA ── */
+.persona{border-top:4px solid;}
+.persona .role{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;font-weight:600;}
+.persona h3{font-size:16.5px;font-weight:700;margin-bottom:12px;line-height:1.25;}
+.persona .pblock{margin-bottom:12px;}
+.persona .pblock:last-child{margin-bottom:0;}
+.persona .pblock-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--text-muted);font-weight:600;margin-bottom:5px;}
+.persona .pblock p{font-size:12px;color:var(--text-dim);line-height:1.5;}
+.persona .pill{font-size:12px;background:var(--surface-2);border-radius:12px;padding:12px 14px;border-left:3px solid;line-height:1.5;color:var(--text);}
+.persona .pill strong{display:block;margin-bottom:3px;}
+.persona .pill .approach2{display:block;margin-top:8px;padding-top:8px;border-top:1px dashed var(--border-strong);}
+
+/* ── ATTRIBUTES ── */
+.attr{text-align:center;padding:22px 16px;}
+.attr .ic{font-size:28px;margin-bottom:12px;display:block;}
+.attr h4{font-size:13.5px;font-weight:700;margin-bottom:4px;line-height:1.2;}
+.attr .sub{font-family:var(--mono);font-size:10.5px;color:var(--text-muted);margin-bottom:10px;}
+.attr p{font-size:11.5px;color:var(--text-dim);line-height:1.5;}
+
+/* ── ROADMAP ── */
+.roadmap{display:flex;flex-direction:column;gap:14px;}
+.phase{display:grid;grid-template-columns:64px 1fr;gap:20px;align-items:start;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:0 1px 3px rgba(20,50,110,0.04);transition:box-shadow .2s,transform .2s;}
+.phase:hover{box-shadow:0 10px 28px rgba(37,99,235,0.10);transform:translateY(-2px);}
+.phase .num{width:54px;height:54px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:700;font-size:21px;}
+.phase .ph-head{display:flex;align-items:baseline;gap:12px;margin-bottom:6px;flex-wrap:wrap;}
+.phase .ph-tag{font-family:var(--mono);font-size:11px;color:var(--text-muted);letter-spacing:.06em;text-transform:uppercase;font-weight:600;}
+.phase h3{font-size:16.5px;font-weight:700;}
+.phase .ph-maslow{font-family:var(--mono);font-size:10.5px;padding:4px 11px;border-radius:7px;font-weight:600;}
+.phase .ph-desc{font-size:13px;color:var(--text-dim);line-height:1.6;margin-bottom:12px;}
+.chips{display:flex;gap:8px;flex-wrap:wrap;}
+.chip{font-size:11.5px;padding:6px 13px;border-radius:20px;background:var(--surface-2);border:1px solid var(--border);color:var(--text-dim);font-weight:500;}
+
+/* ── FEATURE EXPLORER ── */
+.feat-toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px;align-items:center;}
+.filter-btn{font-family:var(--font);font-size:12.5px;font-weight:600;padding:9px 16px;border-radius:11px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text-dim);cursor:pointer;transition:all .15s;}
+.filter-btn:hover{color:var(--blue);border-color:var(--blue-soft);}
+.filter-btn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 4px 12px rgba(37,99,235,0.22);}
+.feat-legend{margin-left:auto;display:flex;gap:14px;font-size:11px;color:var(--text-muted);font-family:var(--mono);}
+.feat-legend span{display:inline-flex;align-items:center;gap:5px;}
+.lg-dot{width:8px;height:8px;border-radius:50%;}
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:14px;}
+.module{background:var(--surface);border:1px solid var(--border);border-radius:18px;overflow:hidden;box-shadow:0 1px 3px rgba(20,50,110,0.04);transition:box-shadow .2s;}
+.module:hover{box-shadow:0 8px 22px rgba(37,99,235,0.08);}
+.module.hidden{display:none;}
+.module-head{padding:16px 18px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--border);}
+.module-icon{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.module-icon svg{width:18px;height:18px;}
+.module-head h3{font-size:14.5px;font-weight:700;line-height:1.2;}
+.module-head .cnt{font-family:var(--mono);font-size:11px;color:var(--text-muted);margin-top:2px;}
+.module-body{padding:8px 18px 16px;}
+.feat-group{margin-top:13px;}
+.feat-group:first-child{margin-top:6px;}
+.feat-group-label{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px;font-weight:600;}
+.feat-item{display:flex;align-items:flex-start;gap:9px;padding:5px 0;font-size:12.5px;line-height:1.4;}
+.feat-item .fdot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:5px;}
+.feat-item .fname{color:var(--text);}
+
+/* ── STAT BLOCKS ── */
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;}
+.stat{border-radius:18px;padding:22px;color:#fff;position:relative;overflow:hidden;box-shadow:0 8px 24px rgba(37,99,235,0.16);}
+.stat.b1{background:linear-gradient(135deg,#3b82f6,#2563eb);}
+.stat.b2{background:linear-gradient(135deg,#22c55e,#16a34a);}
+.stat.b3{background:linear-gradient(135deg,#f59e0b,#ea8a00);}
+.stat.b4{background:linear-gradient(135deg,#8b5cf6,#7c4dff);}
+.stat .v{font-size:38px;font-weight:800;line-height:1;letter-spacing:-.02em;}
+.stat .l{font-size:12.5px;margin-top:9px;opacity:.92;line-height:1.4;}
+
+/* ── UX ── */
+.ux-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.ux-card h4{font-size:15px;font-weight:700;margin-bottom:8px;}
+.ux-card p{font-size:13px;color:var(--text-dim);line-height:1.6;}
+.ux-card .badge{font-family:var(--mono);font-size:10px;color:var(--blue);letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:8px;font-weight:600;}
+
+/* ── PILLARS (4 cot tru ecosystem) ── */
+.pillar4{border-top:4px solid;}
+.pillar4 .pn{font-family:var(--mono);font-size:24px;font-weight:700;opacity:.25;line-height:1;}
+.pillar4 h4{font-size:15px;font-weight:700;margin:8px 0 8px;line-height:1.25;}
+.pillar4 ul{list-style:none;}
+.pillar4 li{font-size:12px;color:var(--text-dim);line-height:1.5;padding:4px 0 4px 16px;position:relative;}
+.pillar4 li::before{content:'';position:absolute;left:0;top:11px;width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.5;}
+
+/* ── SHIFT (from->to) ── */
+.shift{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 22px;box-shadow:0 1px 3px rgba(20,50,110,0.04);}
+.shift .from,.shift .to{font-size:14px;line-height:1.4;}
+.shift .from{color:var(--text-muted);}
+.shift .to{color:var(--text);font-weight:600;}
+.shift .arrow{color:var(--blue);font-size:22px;font-weight:700;}
+.shift small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px;font-weight:600;}
+.shift .from small{color:var(--rose);}
+.shift .to small{color:var(--green);}
+
+/* ── DIGIZONE GRID ── */
+.digi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.digi{padding:22px 20px;border-top:4px solid;}
+.digi .di{font-size:30px;margin-bottom:12px;display:block;}
+.digi h4{font-size:16px;font-weight:700;margin-bottom:8px;}
+.digi p{font-size:12.5px;color:var(--text-dim);line-height:1.55;}
+
+/* ── ECOSYSTEM MODULE CARDS ── */
+.eco-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.eco{border-left:4px solid;}
+.eco .eco-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.eco .eco-icon{width:42px;height:42px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.eco h4{font-size:16px;font-weight:700;line-height:1.2;}
+.eco .eco-tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-top:2px;font-weight:600;}
+.eco .eco-quote{font-size:12.5px;font-style:italic;color:var(--text-dim);line-height:1.55;margin-bottom:12px;padding-left:12px;border-left:2px solid var(--border-strong);}
+.eco ul{list-style:none;}
+.eco li{font-size:12px;color:var(--text-dim);line-height:1.5;padding:3px 0 3px 16px;position:relative;}
+.eco li::before{content:'→';position:absolute;left:0;color:var(--blue);font-weight:700;}
+
+/* ── TECH PILLARS ── */
+.tech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.tech .tt{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:8px;}
+.tech h4{font-size:15px;font-weight:700;margin-bottom:8px;line-height:1.25;}
+.tech p{font-size:12.5px;color:var(--text-dim);line-height:1.55;}
+
+/* ── UX WRITING EXAMPLE ── */
+.chat-demo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:6px;}
+.chat-col h5{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin-bottom:10px;}
+.bubble{border-radius:14px;padding:13px 16px;font-size:13px;line-height:1.5;margin-bottom:10px;}
+.bubble.old{background:var(--rose-dim);border:1px solid rgba(225,29,72,0.2);color:var(--text-dim);}
+.bubble.new{background:var(--green-dim);border:1px solid rgba(22,163,74,0.22);color:var(--text);}
+
+/* ── CLOSING (full-bleed blue) ── */
+.closing{
+  display:grid !important;place-items:center;text-align:center;position:relative;
+  background-color:#1d4ed8 !important;
+  background-image:linear-gradient(135deg,#3b82f6 0%,#2563eb 55%,#1d4ed8 100%) !important;
+}
+.closing .closing-deco{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;}
+.closing .closing-deco svg{position:absolute;}
+.closing .swirl{position:absolute;right:-110px;bottom:-150px;opacity:.13;z-index:0;width:520px;height:520px;}
+.closing-inner{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;padding:60px 7vw;width:100%;}
+.closing .clogo{margin-bottom:28px;}
+.closing h2{font-size:clamp(32px,5vw,56px);font-weight:800;letter-spacing:-.02em;margin-bottom:18px;line-height:1.1;color:#fff;}
+.closing h2 .hl{color:#bbf7d0;}
+.closing p{font-size:17px;color:rgba(255,255,255,0.9);max-width:580px;line-height:1.7;margin-bottom:30px;}
+.closing .recap{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;max-width:820px;}
+.recap-pill{font-family:var(--mono);font-size:12px;padding:10px 16px;border-radius:22px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.14);color:#fff;backdrop-filter:blur(4px);}
+
+/* ── ICON SYSTEM (inline SVG, replace emoji) ── */
+.ic-svg{width:22px;height:22px;display:block;}
+.ic-box{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;overflow:hidden;}
+.ic-box::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.4) 0%,transparent 60%);pointer-events:none;}
+.ic-box svg{position:relative;z-index:1;}
+.ic-lg{width:64px;height:64px;border-radius:18px;}
+.ic-lg svg{width:30px;height:30px;}
+
+/* ── HERO CARD (oversized, primary visual weight) ── */
+.hero-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:22px;
+  padding:32px;position:relative;overflow:hidden;
+  box-shadow:0 12px 36px rgba(20,50,110,0.08);
+}
+.hero-card::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--blue-dim) 0%,transparent 50%);
+  pointer-events:none;z-index:0;
+}
+.hero-card > *{position:relative;z-index:1;}
+.hero-card .hc-flag{
+  display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:600;
+  padding:6px 12px;border-radius:20px;background:var(--blue);color:#fff;
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px;
+}
+.hero-card h3{font-size:28px;font-weight:700;letter-spacing:-.01em;margin-bottom:8px;line-height:1.1;}
+.hero-card .hc-sub{font-size:15px;color:var(--text-dim);line-height:1.6;margin-bottom:18px;max-width:480px;}
+.hero-card .hc-decor{position:absolute;right:-30px;top:-30px;opacity:.08;z-index:0;}
+
+/* ── DIGI HERO LAYOUT (1 big + 3 small) ── */
+.digi-hero-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:16px;}
+.digi-side{display:grid;grid-template-rows:repeat(3,1fr);gap:12px;}
+.digi-mini{
+  background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;
+  display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:flex-start;
+  transition:transform .2s,box-shadow .2s,border-color .2s;
+}
+.digi-mini:hover{transform:translateX(3px);border-color:var(--border-strong);box-shadow:0 4px 12px rgba(20,50,110,0.06);}
+.digi-mini h5{font-size:14.5px;font-weight:700;margin-bottom:4px;line-height:1.25;}
+.digi-mini p{font-size:11.5px;color:var(--text-dim);line-height:1.5;}
+
+/* ── VISION CARDS (Customer Care 5-col transformation) ── */
+.vision-bg{
+  background:linear-gradient(180deg,var(--bg) 0%,var(--bg-soft) 100%);
+  margin:0 -7vw;padding:48px 7vw;
+}
+.transform-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;}
+@media(max-width:1400px){.transform-grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+.tcard{
+  background:linear-gradient(180deg,#eaf1fe 0%,#ffffff 60%);
+  border:1px solid var(--border);border-radius:20px;padding:24px 20px 0;
+  display:flex;flex-direction:column;min-height:380px;position:relative;overflow:hidden;
+  transition:transform .25s,box-shadow .25s;
+}
+.tcard:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(37,99,235,0.12);}
+.tcard h4{font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em;margin-bottom:14px;color:var(--text);}
+.tcard .tdivider{width:32px;height:3px;background:var(--blue);border-radius:2px;margin-bottom:14px;}
+.tcard ul{list-style:none;flex:1;}
+.tcard li{font-size:12px;line-height:1.55;color:var(--text-dim);padding:5px 0 5px 14px;position:relative;}
+.tcard li::before{content:'';position:absolute;left:0;top:11px;width:5px;height:5px;border-radius:50%;background:var(--blue);opacity:.55;}
+.tcard .tillu{margin-top:18px;margin-left:-20px;margin-right:-20px;margin-bottom:0;opacity:.5;display:flex;justify-content:center;}
+
+/* ── COMMUNITY HUB LAYOUT ── */
+.hub-wrap{display:grid;grid-template-columns:1fr 360px 1fr;gap:20px;align-items:center;}
+.hub-col{display:flex;flex-direction:column;gap:24px;}
+.hub-cell h5{font-size:15px;font-weight:700;line-height:1.3;margin-bottom:8px;letter-spacing:-.01em;}
+.hub-cell p{font-size:12.5px;color:var(--text-dim);line-height:1.55;}
+.hub-cell ul{list-style:none;margin-top:6px;}
+.hub-cell li{font-size:12px;color:var(--text-dim);line-height:1.5;padding:3px 0 3px 14px;position:relative;}
+.hub-cell li::before{content:'';position:absolute;left:0;top:9px;width:5px;height:5px;border-radius:50%;background:var(--violet);opacity:.65;}
+.hub-cell li b{color:var(--text);}
+.hub-center{
+  position:relative;aspect-ratio:1;
+  background:radial-gradient(circle at center,var(--violet-dim) 0%,transparent 70%);
+  display:flex;align-items:center;justify-content:center;
+}
+.hub-center svg{width:75%;height:auto;}
+
+/* ── BLOCKQUOTE (serif callout) ── */
+.serif-quote{
+  font-family:var(--font-serif);font-size:21px;line-height:1.55;letter-spacing:-.01em;
+  color:var(--text);max-width:920px;margin:0 auto 32px;text-align:center;font-weight:400;
+}
+.serif-quote b{color:var(--blue);font-weight:600;font-style:italic;}
+
+@media(prefers-color-scheme:dark){
+  .tcard{background:linear-gradient(180deg,#1a2740 0%,#0f1729 60%);}
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   NEW COMPONENTS — Shift cards, Chat versus, Visual hierarchy
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Shift transformation cards (UX Concept) */
+.shift-stack{display:flex;flex-direction:column;gap:14px;}
+.shift-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:22px 26px;
+  display:grid;grid-template-columns:80px 1fr;gap:20px;align-items:center;
+  transition:transform .2s,box-shadow .2s;
+}
+.shift-card:hover{transform:translateX(3px);box-shadow:0 8px 22px rgba(37,99,235,0.08);}
+.shift-card .shift-num{
+  font-family:var(--mono);font-size:36px;font-weight:300;color:var(--blue);
+  opacity:.4;letter-spacing:-.02em;line-height:1;
+}
+.shift-card--hero{
+  background:linear-gradient(135deg,rgba(37,99,235,0.06) 0%,var(--surface) 70%);
+  border-color:var(--blue-soft);padding:28px 32px;
+}
+.shift-card--hero .shift-num{font-size:48px;opacity:.55;color:var(--blue);}
+.shift-body{display:grid;grid-template-columns:1fr auto 1.4fr;gap:22px;align-items:center;}
+.shift-from p{font-size:15px;line-height:1.55;color:var(--text-muted);}
+.shift-from b{color:var(--text-dim);}
+.shift-to h4{font-size:19px;font-weight:700;line-height:1.3;margin-bottom:6px;color:var(--text);}
+.shift-to p{font-size:14.5px;line-height:1.55;color:var(--text-dim);}
+.shift-card--hero .shift-to h4{font-size:22px;}
+.shift-card--hero .shift-to p{font-size:15.5px;}
+.shift-tag{
+  display:inline-block;font-family:var(--mono);font-size:11px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:5px;
+  margin-bottom:8px;
+}
+.shift-tag--from{background:var(--rose-dim);color:var(--rose);}
+.shift-tag--to{background:var(--blue-dim);color:var(--blue);}
+.shift-arrow{color:var(--blue);opacity:.55;flex-shrink:0;}
+
+/* Chat versus (UX Writing) */
+.chat-versus{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.chat-side{
+  border-radius:22px;padding:24px 26px;
+  display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden;
+}
+.chat-side--old{background:#fef5f7;border:1px solid rgba(225,29,72,0.15);}
+.chat-side--new{background:#f0fdf4;border:1px solid rgba(22,163,74,0.18);}
+.chat-side-head{display:flex;align-items:center;gap:12px;margin-bottom:8px;padding-bottom:14px;border-bottom:1px solid rgba(0,0,0,0.06);}
+.chat-side--old .chat-side-head{color:var(--rose);}
+.chat-side--new .chat-side-head{color:var(--green);}
+.chat-side-tag{font-family:var(--font);font-weight:700;font-size:17px;color:var(--text);}
+.chat-side-sub{font-size:12.5px;color:var(--text-muted);margin-top:2px;font-weight:400;}
+.chat-side .bubble{margin-bottom:0;}
+
+/* Vision pillars — asymmetric (1 hero + 2 secondary) */
+.vision-pillars-asym{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:14px;}
+.vision-pillars-asym .pillar{padding:24px;}
+.vision-pillars-asym .pillar:first-child{
+  padding:30px;
+  background:linear-gradient(135deg,var(--blue-dim) 0%,var(--surface) 60%);
+  border-color:var(--blue-soft);
+}
+.vision-pillars-asym .pillar:first-child h4{font-size:22px;}
+.vision-pillars-asym .pillar:first-child p{font-size:16px;}
+.vision-pillars-asym .pillar:first-child .ic-box{width:54px;height:54px;}
+.vision-pillars-asym .pillar:first-child .ic-box svg{width:26px;height:26px;}
+
+/* Target group — featured first card (Nhóm trọng tâm) */
+.persona-grid-asym{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:14px;align-items:stretch;}
+.persona-grid-asym .persona:first-child{
+  background:linear-gradient(135deg,var(--blue-dim) 0%,var(--surface) 55%);
+  border-color:var(--blue);border-top-width:5px;
+}
+.persona-grid-asym .persona:first-child h3{font-size:22px;}
+
+/* Scroll fade indicator — only on content slides, not cover/closing */
+.slide:not(.cover):not(.closing){
+  background-image:linear-gradient(to top,rgba(244,248,255,0.92) 0%,transparent 5%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE RESPONSIVE — comprehensive
+   ═══════════════════════════════════════════════════════════════ */
+@media(max-width:1100px){
+  .digi-hero-layout{grid-template-columns:1fr;}
+  .hub-wrap{grid-template-columns:1fr;gap:32px;}
+  .hub-center{max-width:280px;margin:0 auto;}
+  .vision-pillars-asym{grid-template-columns:1fr 1fr;}
+  .vision-pillars-asym .pillar:first-child{grid-column:1/-1;}
+  .persona-grid-asym{grid-template-columns:1fr;}
+  .shift-body{grid-template-columns:1fr;gap:14px;}
+  .shift-arrow{transform:rotate(90deg);margin:0 auto;}
+}
+@media(max-width:760px){
+  .slide{padding:32px 20px 78px;}
+  .cover-inner{padding:36px 20px 64px;}
+  .cover-topbar{left:20px;right:20px;top:32px;flex-wrap:wrap;gap:10px;}
+  .cover-topbar .divider{display:none;}
+  .cover-topbar .dept{font-size:16px;}
+  .cover h1{font-size:42px;}
+  .cover-sub{font-size:16px;}
+  .slide .s-title{font-size:26px;}
+  .slide .s-lead{font-size:16px;}
+  .g2,.g3,.g4,.vision-pillars,.ux-grid,.stat-row,.digi-grid,.eco-grid,.tech-grid,.chat-demo,.chat-versus,.transform-grid,.g5,.vision-pillars-asym,.persona-grid-asym{grid-template-columns:1fr !important;}
+  .vision-pillars-asym .pillar:first-child{grid-column:auto;}
+  .phase{grid-template-columns:50px 1fr;padding:20px;}
+  .phase .num{width:46px;height:46px;font-size:20px;}
+  .shift-card{grid-template-columns:1fr;padding:20px;}
+  .shift-card .shift-num{font-size:28px;}
+  .shift-card--hero{padding:22px;}
+  .feat-legend{display:none;}
+  .vision-box{padding:26px 24px;}
+  .vision-box p{font-size:17px !important;}
+  .serif-quote{font-size:18px !important;line-height:1.55;}
+  .hero-card{padding:24px;}
+  .hero-card h3{font-size:24px !important;}
+  .navbar{padding:0 16px;height:56px;}
+  .nav-count{font-size:12px;min-width:50px;}
+  .nav-btn{width:34px;height:34px;font-size:15px;}
+  .dots{max-width:38%;}
+  .closing h2{font-size:32px;}
+  .closing p{font-size:15px;}
+  .stat .v{font-size:36px !important;}
+  .slide-brand{flex-wrap:wrap;gap:8px;}
+  .slide-brand .divider{display:none;}
+  .slide-brand .label{font-size:11px;}
+  .closing-inner{padding:32px 20px;}
+  .chat-side{padding:18px 20px;}
+}
+@media(max-width:420px){
+  .slide{padding:24px 16px 70px;}
+  .cover h1{font-size:34px;}
+  .navbar{padding:0 12px;}
+  .nav-btn{width:32px;height:32px;}
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   WIDGET & FEEDS COMPONENTS (4 slides)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Two-brain split — Widget (logic) vs Feeds (emotion) */
+.brain-split{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.brain-side{
+  border-radius:22px;padding:26px;position:relative;overflow:hidden;
+  display:flex;flex-direction:column;gap:14px;
+}
+.brain-side--widget{background:linear-gradient(180deg,#eaf1fe 0%,#ffffff 100%);border:1px solid var(--blue-soft);}
+.brain-side--feeds{background:linear-gradient(180deg,#fef3ec 0%,#ffffff 100%);border:1px solid rgba(234,138,0,0.2);}
+.brain-head{display:flex;align-items:center;gap:14px;}
+.brain-tag{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 11px;border-radius:6px;}
+.brain-tag--w{background:var(--blue);color:#fff;}
+.brain-tag--f{background:var(--amber);color:#fff;}
+.brain-title{font-size:24px;font-weight:700;letter-spacing:-.01em;line-height:1.15;}
+.brain-philo{font-style:italic;font-family:var(--font-serif);font-size:17px;color:var(--text-dim);line-height:1.55;}
+.brain-bullets{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.brain-bullets li{font-size:14px;color:var(--text-dim);line-height:1.55;padding-left:18px;position:relative;}
+.brain-bullets li::before{content:'';position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;}
+.brain-side--widget .brain-bullets li::before{background:var(--blue);}
+.brain-side--feeds .brain-bullets li::before{background:var(--amber);}
+.brain-bullets li b{color:var(--text);}
+
+/* Phone mockup illustrations */
+.phone-mock{
+  background:#fff;border:1px solid var(--border-strong);border-radius:18px;
+  padding:14px 12px;width:100%;max-width:220px;margin:0 auto;
+  box-shadow:0 8px 24px rgba(20,50,110,0.08);
+}
+.pm-card{background:linear-gradient(135deg,#dbe7ff,#eef4ff);border-radius:12px;padding:11px 12px;margin-bottom:8px;}
+.pm-card-lbl{font-size:10px;color:var(--text-muted);font-weight:600;letter-spacing:.04em;margin-bottom:3px;}
+.pm-card-num{font-size:18px;font-weight:800;color:var(--blue);letter-spacing:-.01em;line-height:1;}
+.pm-card-sub{font-size:9px;color:var(--text-muted);margin-top:4px;}
+.pm-feed{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px;margin-bottom:8px;}
+.pm-feed-head{display:flex;align-items:center;gap:6px;margin-bottom:6px;}
+.pm-avatar{width:18px;height:18px;border-radius:50%;background:var(--blue);flex-shrink:0;}
+.pm-feed-name{font-size:9px;font-weight:700;color:var(--text);}
+.pm-feed-time{font-size:8px;color:var(--text-muted);margin-left:auto;}
+.pm-feed-body{font-size:10px;color:var(--text-dim);line-height:1.4;}
+.pm-feed-cta{margin-top:6px;display:inline-block;font-size:9px;font-weight:600;color:var(--blue);padding:3px 8px;background:var(--blue-dim);border-radius:5px;}
+
+/* Lifecycle states (5 mini-cards) */
+.lifecycle-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;}
+@media(max-width:1100px){.lifecycle-grid{grid-template-columns:repeat(3,1fr);}}
+.lc-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;
+  display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden;
+}
+.lc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;}
+.lc-card--1::before{background:#94a3b8;}
+.lc-card--2::before{background:var(--green);}
+.lc-card--3::before{background:var(--rose);}
+.lc-card--4::before{background:var(--amber);}
+.lc-card--5::before{background:var(--blue);}
+.lc-num{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--text-muted);letter-spacing:.06em;}
+.lc-name{font-size:16px;font-weight:700;line-height:1.25;letter-spacing:-.01em;}
+.lc-desc{font-size:12.5px;color:var(--text-dim);line-height:1.55;}
+.lc-example{font-size:11.5px;color:var(--text-muted);font-style:italic;padding-top:8px;margin-top:auto;border-top:1px dashed var(--border-strong);line-height:1.5;}
+
+/* Mix-ratio visual bar */
+.mix-ratio{
+  display:flex;height:54px;border-radius:14px;overflow:hidden;
+  border:1px solid var(--border);box-shadow:0 1px 3px rgba(20,50,110,0.04);margin:14px 0;
+}
+.mix-block{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2px;color:#fff;}
+.mix-block-num{font-size:18px;font-weight:800;line-height:1;}
+.mix-block-lbl{font-size:10.5px;font-weight:600;letter-spacing:.04em;opacity:.92;}
+.mix-block--bg{background:linear-gradient(135deg,var(--green),#0f9846);flex:3;}
+.mix-block--sell{background:linear-gradient(135deg,var(--blue),var(--blue-deep));flex:1;}
+.mix-block--discover{background:linear-gradient(135deg,var(--violet),#6b46c1);flex:1;}
+
+/* Day-in-the-life timeline */
+.day-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+.day-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;
+  display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:flex-start;
+  position:relative;overflow:hidden;
+}
+.day-time{
+  width:72px;flex-shrink:0;text-align:center;
+  background:linear-gradient(135deg,var(--blue),var(--blue-deep));
+  color:#fff;border-radius:14px;padding:12px 8px;
+}
+.day-time-h{font-size:22px;font-weight:800;line-height:1;letter-spacing:-.02em;}
+.day-time-lbl{font-size:10.5px;font-weight:600;letter-spacing:.05em;margin-top:5px;opacity:.92;text-transform:uppercase;}
+.day-body{min-width:0;}
+.day-title{font-size:16px;font-weight:700;margin-bottom:10px;line-height:1.3;letter-spacing:-.01em;}
+.day-row{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;font-size:13.5px;line-height:1.55;color:var(--text-dim);}
+.day-row:last-child{margin-bottom:0;}
+.day-row-lbl{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.05em;padding:2px 7px;border-radius:5px;flex-shrink:0;margin-top:2px;}
+.day-row-lbl--w{background:var(--blue-dim);color:var(--blue);}
+.day-row-lbl--f{background:var(--amber-dim);color:var(--amber);}
+.day-row-lbl--ctx{background:var(--surface-3);color:var(--text-dim);}
+
+/* ═══════════════════════════════════════════════════════════════
+   SLIDE TYPOGRAPHY STANDARDS — Presentation Readability Pass
+   Quy chuẩn: nội dung trên slide phải đọc được từ xa.
+   ─ Body text       ≥ 16px   (lý tưởng 17-19px)
+   ─ Secondary copy  ≥ 14.5px (caption, list items)
+   ─ Labels uppercase ≥ 12px  (kèm letter-spacing)
+   ─ Card heading    ≥ 18px
+   ─ Slide title     ≥ 32px
+   ─ Hero numbers    ≥ 48px
+   ═══════════════════════════════════════════════════════════════ */
+.slide .s-eyebrow{font-size:14px;}
+.slide .s-title{font-size:clamp(30px,3.6vw,46px);}
+.slide .s-lead{font-size:18px;line-height:1.6;}
+
+/* Vision pillars */
+.slide .pillar h4{font-size:18px;margin-bottom:8px;}
+.slide .pillar p{font-size:15px;line-height:1.6;}
+.slide .vision-box p{font-size:22px;line-height:1.65;}
+
+/* Personas */
+.slide .persona{padding:24px;}
+.slide .persona .role{font-size:12px;letter-spacing:.08em;}
+.slide .persona h3{font-size:20px;margin-bottom:14px;}
+.slide .persona .pblock-label{font-size:11.5px;letter-spacing:.1em;margin-bottom:6px;}
+.slide .persona .pblock p{font-size:14.5px;line-height:1.6;}
+.slide .persona .pill{font-size:14px;line-height:1.6;padding:14px 16px;}
+.slide .persona .pill strong{font-size:14.5px;}
+
+/* Attributes */
+.slide .attr{padding:24px 18px;}
+.slide .attr .ic{font-size:32px;margin-bottom:14px;}
+.slide .attr h4{font-size:16px;margin-bottom:6px;}
+.slide .attr .sub{font-size:12px;letter-spacing:.04em;margin-bottom:12px;}
+.slide .attr p{font-size:13.5px;line-height:1.55;}
+
+/* UX cards */
+.slide .ux-card{padding:22px 24px;}
+.slide .ux-card h4{font-size:18px;margin-bottom:10px;}
+.slide .ux-card p{font-size:15px;line-height:1.65;}
+.slide .ux-card .badge{font-size:11.5px;letter-spacing:.1em;margin-bottom:10px;}
+
+/* Roadmap phases */
+.slide .phase{padding:24px;}
+.slide .phase .ph-tag{font-size:12.5px;letter-spacing:.08em;}
+.slide .phase h3{font-size:20px;}
+.slide .phase .ph-maslow{font-size:12px;padding:5px 12px;}
+.slide .phase .ph-desc{font-size:15px;line-height:1.65;margin-bottom:14px;}
+.slide .chip{font-size:13.5px;padding:7px 14px;}
+
+/* Stats blocks */
+.slide .stat{padding:26px;}
+.slide .stat .v{font-size:48px;}
+.slide .stat .l{font-size:14.5px;margin-top:10px;}
+
+/* Feature module cards */
+.slide .module-head h3{font-size:16px;}
+.slide .module-head .cnt{font-size:12px;margin-top:3px;}
+.slide .feat-group-label{font-size:12px;letter-spacing:.06em;margin-bottom:8px;}
+.slide .feat-item{font-size:13.5px;line-height:1.45;padding:6px 0;}
+.slide .filter-btn{font-size:13.5px;padding:10px 16px;}
+.slide .feat-legend{font-size:12px;}
+
+/* Ecosystem 4 pillars */
+.slide .pillar4{padding:24px;}
+.slide .pillar4 .pn{font-size:28px;}
+.slide .pillar4 h4{font-size:18px;margin:10px 0 10px;}
+.slide .pillar4 li{font-size:14px;line-height:1.6;padding:5px 0 5px 18px;}
+
+/* Shift (from → to) */
+.slide .shift{padding:22px 26px;}
+.slide .shift .from,.slide .shift .to{font-size:15.5px;line-height:1.55;}
+.slide .shift small{font-size:11.5px;letter-spacing:.1em;margin-bottom:5px;}
+.slide .shift .arrow{font-size:26px;}
+
+/* Eco / ecosystem module cards */
+.slide .eco{padding:26px;}
+.slide .eco h4{font-size:19px;}
+.slide .eco .eco-tag{font-size:11.5px;letter-spacing:.08em;}
+.slide .eco .eco-quote{font-size:14.5px;line-height:1.65;padding-left:14px;}
+.slide .eco li{font-size:14px;line-height:1.6;padding:4px 0 4px 18px;}
+
+/* DigiZone mini cards */
+.slide .digi-mini{padding:20px;}
+.slide .digi-mini h5{font-size:17px;margin-bottom:5px;}
+.slide .digi-mini p{font-size:13.5px;line-height:1.55;}
+
+/* DigiZone hero */
+.slide .hero-card h3{font-size:30px;}
+.slide .hero-card .hc-sub{font-size:16px;line-height:1.65;}
+.slide .hero-card .hc-flag{font-size:12px;letter-spacing:.08em;}
+
+/* Tech support pillars */
+.slide .tech{padding:22px 24px;}
+.slide .tech .tt{font-size:12.5px;letter-spacing:.08em;margin-bottom:10px;}
+.slide .tech h4{font-size:17px;line-height:1.3;margin-bottom:10px;}
+.slide .tech p{font-size:14.5px;line-height:1.65;}
+
+/* Customer Care transformation cards */
+.slide .tcard{padding:26px 22px 0;min-height:400px;}
+.slide .tcard h4{font-size:19px;line-height:1.3;margin-bottom:14px;}
+.slide .tcard li{font-size:14px;line-height:1.65;padding:6px 0 6px 16px;}
+
+/* Community hub */
+.slide .hub-cell h5{font-size:17px;margin-bottom:10px;}
+.slide .hub-cell p{font-size:14.5px;line-height:1.65;}
+.slide .hub-cell li{font-size:14px;line-height:1.6;padding:4px 0 4px 16px;}
+
+/* Serif quote callout */
+.slide .serif-quote{font-size:24px;line-height:1.55;margin-bottom:30px;}
+
+/* Chat demo bubbles */
+.slide .bubble{font-size:15px;line-height:1.55;padding:14px 18px;}
+.slide .chat-col h5{font-size:13px;letter-spacing:.08em;margin-bottom:12px;}
+
+/* Closing recap pills */
+.slide .recap-pill{font-size:14px;padding:11px 18px;}
+
+/* Small inline notes (e.g. target group footer note) */
+.slide p[style*="font-size:12.5px"]{font-size:14px !important;line-height:1.6;}
+
+/* Phase number badge */
+.slide .phase .num{width:60px;height:60px;font-size:24px;}
+
+/* Generic small headings used inline */
+.slide h3[style*="font-size:17px"],
+.slide h3[style*="font-size:16px"]{font-size:20px !important;}
+.slide h3[style*="font-size:14px"]{font-size:15px !important;letter-spacing:.06em;}
+
+@keyframes rise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+.slide.active .anim{animation:rise .5s ease backwards;}
+.slide.active .anim:nth-child(1){animation-delay:.04s;}
+.slide.active .anim:nth-child(2){animation-delay:.10s;}
+.slide.active .anim:nth-child(3){animation-delay:.16s;}
+.slide.active .anim:nth-child(4){animation-delay:.22s;}
+.slide.active .anim:nth-child(5){animation-delay:.28s;}
+.slide.active .anim:nth-child(6){animation-delay:.34s;}
+@media(prefers-reduced-motion:reduce){.anim{animation:none!important;}}
+
+.kbd-hint{position:fixed;bottom:78px;right:24px;font-family:var(--mono);font-size:11px;color:var(--text-muted);z-index:5;opacity:.6;}
+
+@media(max-width:900px){
+  .slide{padding:32px 22px 78px;}
+  .cover-inner{padding:40px 22px 70px;}
+  .cover-topbar{left:22px;right:22px;top:36px;}
+  .g2,.g3,.g4,.g5,.vision-pillars,.ux-grid,.stat-row,.digi-grid,.eco-grid,.tech-grid,.chat-demo{grid-template-columns:1fr;}
+  .phase{grid-template-columns:54px 1fr;}
+  .shift{grid-template-columns:1fr;text-align:left;}
+  .shift .arrow{transform:rotate(90deg);}
+  .feat-legend{display:none;}
+  .closing-inner{padding:40px 22px;}
+}
+</style>
+</head>
+<body>
+<div class="deck">
+  <div class="slides" id="slides">
+
+    <!-- ░░ 0 · COVER ░░ -->
+    <section class="slide cover active">
+      <div class="cover-deco">
+        <svg width="900" height="700" viewBox="0 0 900 700" style="right:-100px;bottom:-60px" fill="none">
+          <path d="M900 700 C620 700 700 360 460 360 C300 360 360 120 120 120 L120 700 Z" stroke="rgba(255,255,255,0.20)" stroke-width="2" fill="none"/>
+          <path d="M900 640 C640 640 720 320 480 320 C320 320 380 100 140 100" stroke="rgba(255,255,255,0.12)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="cover-topbar">
+        <div class="logo-lockup">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="none"><path d="M27.6542 13.4797C27.2047 15.3529 26.1558 17.5182 24.5576 19.6347C23.8084 20.6565 22.9343 21.6539 21.9854 22.6027C19.8877 24.695 17.6401 26.2763 15.5674 27.2251C19.1135 27.2251 22.31 25.6924 24.5576 23.3083C26.955 20.8025 28.2535 17.2262 27.6542 13.4797Z" fill="white"/><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363ZM24.5548 4.40478C26.7275 3.79657 27.5266 5.13462 25.8284 8.80817C25.4788 8.19997 25.0293 7.66475 24.5548 7.17819C23.9305 6.52133 23.1813 5.96178 22.3822 5.35358C23.2063 4.91567 23.9305 4.57508 24.5548 4.40478Z" fill="white"/></svg>
+          <span style="font-size:25px;color:#fff"><span class="lt1">VNPT</span><span class="lt2">·Media</span></span>
+        </div>
+        <div class="divider"></div>
+        <div class="dept">BAN GIAO DỊCH SỐ</div>
+      </div>
+      <div class="cover-inner">
+        <div class="cover-kicker">Onboarding Training · Product Concept</div>
+        <h1>Hệ điều hành trải nghiệm số <span class="accent">Emi</span></h1>
+        <p class="cover-sub">Tài liệu đào tạo dành cho nhân sự mới — tầm nhìn sản phẩm, khách hàng, căn tính thương hiệu, danh mục tính năng và quy hoạch hệ sinh thái MyVNPT.</p>
+        <div class="cover-tags">
+          <span class="tag">Omnichannel OS</span>
+          <span class="tag">One VNPT · One Experience</span>
+          <span class="tag">Soft Launch · v15/9</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 1 · VISION ░░ -->
+    <section class="slide">
+      <div class="slide-brand anim" id="brandSlot1"></div>
+      <div class="s-eyebrow anim">01 — Product Vision</div>
+      <h2 class="s-title anim">Emi là <span class="hl">"căn tính số"</span> của VNPT</h2>
+      <div class="vision-box anim">
+        <svg class="swirl" viewBox="0 0 32 32" fill="none"><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363Z" fill="white"/></svg>
+        <span class="q">"</span>
+        <p>Emi là thực thể trí tuệ trung tâm, hiện diện liền mạch trên <strong>mọi điểm chạm online</strong>. Siêu ứng dụng <strong>MyVNPT</strong> đóng vai trò "Điểm chạm lõi" toàn diện nhất để Emi thấu hiểu và tối ưu hóa cuộc sống số cho mỗi cá nhân và hộ gia đình.</p>
+      </div>
+      <div class="vision-pillars vision-pillars-asym anim">
+        <div class="pillar"><div class="ic-box" style="background:var(--blue-dim);color:var(--blue);margin-bottom:14px"><svg class="ic-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3a4 4 0 0 0-4 4c0 1.1.4 2 1 2.7v.3a4 4 0 0 0-1 6.5A3 3 0 0 0 7 21h10a3 3 0 0 0 2-5.5 4 4 0 0 0-1-6.5V7a4 4 0 0 0-4-4 4 4 0 0 0-2.5.9A4 4 0 0 0 9 3Z"/><path d="M12 11v10"/></svg></div><h4>Một bộ não duy nhất</h4><p>Một nhân cách, một trí nhớ, một chuẩn giọng điệu dù xuất hiện ở App, Web hay Mini App.</p></div>
+        <div class="pillar"><div class="ic-box" style="background:var(--cyan-dim);color:var(--cyan);margin-bottom:14px"><svg class="ic-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 14.5 3 21"/><path d="M14.5 9.5 21 3"/><path d="M13 7a4 4 0 0 1 4 4"/><path d="M6 8a4 4 0 0 0 0 8h2"/><path d="M16 16a4 4 0 0 0 0-8h-2"/><path d="M18 16a4 4 0 0 1 0 0"/></svg></div><h4>Liền mạch đa kênh</h4><p>Ghi nhớ ngữ cảnh xuyên kênh — đang xem dở trên Web, mở App được nhắc tiếp tục ngay.</p></div>
+        <div class="pillar"><div class="ic-box" style="background:var(--green-dim);color:var(--green);margin-bottom:14px"><svg class="ic-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg></div><h4>Từ cá nhân đến hộ gia đình</h4><p>Bắt đầu từ khách hàng đại chúng (Mass), mở rộng thành hệ sinh thái Smart Households.</p></div>
+      </div>
+    </section>
+
+    <!-- ░░ 2 · TARGET GROUPS ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">02 — Target Group</div>
+      <h2 class="s-title anim">Ba nhóm vai trò khách hàng</h2>
+      <p class="s-lead anim">Emi phân tách 3 nhóm tương tác tiêu biểu để phục vụ chính xác, xóa bỏ sự phân mảnh trong hộ gia đình.</p>
+      <div class="grid persona-grid-asym anim">
+        <div class="card persona" style="border-color:var(--blue)">
+          <div class="role" style="color:var(--blue)">Nhóm trọng tâm · thường 26–55 tuổi</div>
+          <h3>Khách hàng Đại chúng &amp; Home Admin</h3>
+          <div class="pblock"><div class="pblock-label">Chân dung</div><p>Khách hàng đại chúng (Mass) với nhu cầu viễn thông cá nhân cốt lõi; và nhóm chủ lực đóng vai trò Quản lý dịch vụ gia đình (Home Admin), thiết lập &amp; quản trị hệ sinh thái số cho cả nhà.</p></div>
+          <div class="pblock"><div class="pblock-label">Hành vi cốt lõi</div><p><b>Mass:</b> theo dõi Data, mua SIM, đổi e-SIM, đăng ký gói cước — ưu tiên luồng tự định hướng nhanh gọn, dễ hiểu, ngại thuật ngữ phức tạp. <b>Home Admin:</b> quản lý tập trung dịch vụ gia đình (Fiber, gói di động chung, truyền hình, thanh toán cước).</p></div>
+          <div class="pill" style="border-color:var(--blue)"><strong>① "Tư vấn viên E-commerce" đa kênh</strong>Bán "Giá trị lợi ích" bám sát Lifestyle, xuyên suốt Web → App. Selfcare ít chạm, không thuật ngữ.<span class="approach2"><strong>② "Người quản gia đắc lực"</strong>Tối đa khả năng kiểm soát, biến quyết định vận hành &amp; "thiết lập thay" người thân thành trải nghiệm mượt mà.</span></div>
+        </div>
+        <div class="card persona" style="border-color:var(--green)">
+          <div class="role" style="color:var(--green)">Nhóm thụ hưởng thụ động</div>
+          <h3>Home Dependents</h3>
+          <div class="pblock"><div class="pblock-label">Chân dung</div><p>Bố mẹ lớn tuổi hoặc các thành viên ít rành công nghệ trong nhà.</p></div>
+          <div class="pblock"><div class="pblock-label">Hành vi cốt lõi</div><p>Sử dụng hạ tầng dùng chung (MyTV, Internet) nhưng lệ thuộc hoàn toàn vào Home Admin mỗi khi cần thay đổi gói hay có sự cố.</p></div>
+          <div class="pill" style="border-color:var(--green)"><strong>"Người trợ lý thầm lặng"</strong>Tôn chỉ "Chăm sóc ân cần": trực tiếp troubleshoot nhanh bằng ngôn từ đơn giản. Đóng vai trò <b>cầu nối thấu cảm</b> — chủ động theo dõi hành vi để tự báo yêu cầu thiết yếu lên Chủ hộ qua App/Zalo OA, giúp Nhóm trọng tâm thấu hiểu người thân hơn.</div>
+        </div>
+        <div class="card persona" style="border-color:var(--violet)">
+          <div class="role" style="color:var(--violet)">Future Growth · Gen Z / Alpha</div>
+          <h3>Digital Natives (Thế hệ số tiềm năng)</h3>
+          <div class="pblock"><div class="pblock-label">Chân dung</div><p>Con cái, thanh thiếu niên (Gen Z/Alpha) cùng chung sống trong hộ gia đình.</p></div>
+          <div class="pblock"><div class="pblock-label">Hành vi cốt lõi</div><p>Tính độc lập cao, thích tự phục vụ (Self-serve) và nhạy bén với trào lưu mới.</p></div>
+          <div class="pill" style="border-color:var(--violet)"><strong>"Bạn đồng hành cá tính"</strong>Mang đậm nét "Bạn đồng hành" hiện đại. Emi đối thoại tự nhiên, xuất hiện đúng lúc khi cần (qua App, Web, Mini App), xóa bỏ hoàn toàn sự khô cứng truyền thống.</div>
+        </div>
+      </div>
+      <p style="font-size:12.5px;color:var(--text-muted);margin-top:14px;line-height:1.5" class="anim">Tập khách hàng mục tiêu bắt đầu từ <b style="color:var(--text-dim)">Khách hàng cá nhân đại chúng (Mass)</b> và định hướng mở rộng thành <b style="color:var(--text-dim)">Hệ sinh thái Hộ gia đình (Smart Households)</b> nhằm xóa bỏ sự phân mảnh.</p>
+    </section>
+
+    <!-- ░░ 3 · ATTRIBUTES + UX ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">03 — Product Attributes</div>
+      <h2 class="s-title anim">Năm "từ khóa căn tính" — kim chỉ nam thiết kế</h2>
+      <div class="grid g5 anim">
+        <div class="card attr"><span class="ic" style="color:var(--blue)">◎</span><h4>Omnipresent &amp; Headless</h4><div class="sub">Hiện diện mọi nơi</div><p>Sống dạng Widget, Mini App, Voice — phi biên giới ứng dụng.</p></div>
+        <div class="card attr"><span class="ic" style="color:var(--cyan)">◈</span><h4>Reliable</h4><div class="sub">Tin cậy &amp; Đồng nhất</div><p>Chính xác 100% dữ liệu cước. UX nhất quán mọi điểm chạm.</p></div>
+        <div class="card attr"><span class="ic" style="color:var(--rose)">◷</span><h4>Protective</h4><div class="sub">Bảo trợ &amp; Chữa lành</div><p>"Người gác cổng số" — Zero-tech, tích hợp Family Safe.</p></div>
+        <div class="card attr"><span class="ic" style="color:var(--amber)">◑</span><h4>Proactive</h4><div class="sub">Tận tâm &amp; Chủ động</div><p>Chủ động báo sự cố, nhắc lịch thanh toán tinh tế.</p></div>
+        <div class="card attr"><span class="ic" style="color:var(--violet)">◔</span><h4>Empathetic &amp; Adaptive</h4><div class="sub">Thấu cảm &amp; Thích ứng</div><p>Tự đổi giọng: trẻ trung với Gen Z, điềm tĩnh với người lớn tuổi.</p></div>
+      </div>
+      <div style="margin-top:26px" class="anim">
+        <h2 class="s-title" style="font-size:22px;margin-bottom:16px">Nguyên tắc trải nghiệm</h2>
+        <div class="ux-grid">
+          <div class="card ux-card"><span class="badge">Design System</span><h4>Emi Design System</h4><p>Một bộ chuẩn UI &amp; ngôn từ (Emi Speak-out) áp dụng cho TẤT CẢ điểm chạm: App, Web, Kiosk.</p></div>
+          <div class="card ux-card"><span class="badge">Persona</span><h4>The Caregiver &amp; The Sage</h4><p>Hình mẫu nhân cách kép, tự thích ứng cách nói chuyện theo từng đối tượng người dùng.</p></div>
+          <div class="card ux-card"><span class="badge">Interaction</span><h4>Conversational đa kênh</h4><p>Chat-bubble floating trên vnpt.vn, giao diện Voice trên Smart TV — không chỉ chat tĩnh.</p></div>
+          <div class="card ux-card"><span class="badge">No-Jargon</span><h4>Không thuật ngữ</h4><p>Xóa lỗi khô khan (404), thay bằng đàm thoại thấu cảm kèm giải pháp cụ thể.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 4 · STRATEGIC ROADMAP (Emi 3 phase) ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">04 — Lộ trình Sản phẩm Emi</div>
+      <h2 class="s-title anim">Ba giai đoạn phát triển hệ điều hành Emi</h2>
+      <div class="roadmap anim">
+        <div class="phase">
+          <div class="num" style="background:var(--blue-dim);color:var(--blue)">1</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 1 · Q3/2026 – Q4/2026</span><h3>Nền tảng Hệ sinh thái Gia đình &amp; Bảo toàn Giá trị Cốt lõi</h3><span class="ph-maslow" style="background:var(--blue-dim);color:var(--blue)">Family Hub &amp; Core Self-care</span></div>
+            <p class="ph-desc">Xây nền móng kiến trúc định danh mới hướng quản lý nhóm gia đình, đồng thời kế thừa &amp; nâng cấp trải nghiệm tự phục vụ (Self-care) cốt lõi vốn là thế mạnh của MyVNPT.</p>
+            <div class="chips"><span class="chip">Universal VNPT Digital ID</span><span class="chip">Family Hub (mũi nhọn)</span><span class="chip">Tích hợp SPDV thiết yếu hộ gia đình</span><span class="chip">Family Safe · Remote MyTV · QL Modem</span><span class="chip">Đối tác thứ 3 (bảo hiểm, sửa chữa…)</span><span class="chip">Omnichannel Core · E-commerce UX</span><span class="chip">Headless &amp; Contextual Memory</span></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="num" style="background:var(--green-dim);color:var(--green)">2</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 2 · 2027 – 2029</span><h3>Cá nhân hóa sâu, EaaS &amp; Nâng tầm Hệ sinh thái Đối tác</h3><span class="ph-maslow" style="background:var(--green-dim);color:var(--green)">Ecosystem Expansion</span></div>
+            <p class="ph-desc">Khi nền tảng &amp; tiện ích thiết yếu đã vững chắc, Emi bước sang giai đoạn thấu hiểu ngữ cảnh bằng AI và mở rộng quy mô hợp tác đối tác.</p>
+            <div class="chips"><span class="chip">Contextual Feeds (Micro-moments, zero spam)</span><span class="chip">Mở rộng đối tác đời sống (y tế, giáo dục…)</span><span class="chip">Emi-as-a-Service (Widget/Mini App)</span></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="num" style="background:var(--violet-dim);color:var(--violet)">3</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 3 · 2029 – 2030</span><h3>Nền kinh tế số Tự hành &amp; Phân hệ Cộng đồng</h3><span class="ph-maslow" style="background:var(--violet-dim);color:var(--violet)">Autonomous &amp; Community Economy</span></div>
+            <p class="ph-desc">Đỉnh cao của Emi: thoát khỏi hình bóng công cụ quản lý dịch vụ để trở thành mạng lưới xã hội thu nhỏ với nền kinh tế chia sẻ.</p>
+            <div class="chips"><span class="chip">Autonomous Agents (nhận ủy thác)</span><span class="chip">Phân hệ Community (Gamification)</span><span class="chip">Liquid Loyalty &amp; Tokenization</span><span class="chip">Giao dịch P2P &amp; GiftBox</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 5 · FEATURE OVERVIEW ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">05 — Feature Map · Soft Launch (v15/9)</div>
+      <h2 class="s-title anim">Bản đồ tính năng MyVNPT</h2>
+      <p class="s-lead anim">Danh mục feature của phiên bản Soft Launch, tổ chức theo 7 phân hệ. Mỗi feature được phân loại theo mức độ phát triển.</p>
+      <div class="stat-row anim">
+        <div class="stat b1"><div class="v">7</div><div class="l">Phân hệ chính</div></div>
+        <div class="stat b2"><div class="v">90+</div><div class="l">Tính năng tổng cộng</div></div>
+        <div class="stat b3"><div class="v">3</div><div class="l">Mốc phát hành (15/9 → 31/12)</div></div>
+        <div class="stat b4"><div class="v">3</div><div class="l">Mức phân loại feature</div></div>
+      </div>
+      <div class="anim" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px">
+        <div class="card" style="padding:18px;border-left:4px solid var(--green)"><div style="font-weight:700;font-size:13px;color:var(--green);margin-bottom:5px">● Xây mới</div><p style="font-size:12px;color:var(--text-dim);line-height:1.5">Tính năng hoàn toàn mới — chủ yếu thuộc nhóm Quản lý Nhóm gia đình &amp; Tài khoản.</p></div>
+        <div class="card" style="padding:18px;border-left:4px solid var(--amber)"><div style="font-weight:700;font-size:13px;color:var(--amber);margin-bottom:5px">● Tuning</div><p style="font-size:12px;color:var(--text-dim);line-height:1.5">Cải tiến/làm lại UX trên nền tảng tính năng hiện có để chuẩn E-commerce.</p></div>
+        <div class="card" style="padding:18px;border-left:4px solid var(--cyan)"><div style="font-weight:700;font-size:13px;color:var(--cyan);margin-bottom:5px">● Giữ nguyên</div><p style="font-size:12px;color:var(--text-dim);line-height:1.5">Giữ lại tính năng đang vận hành ổn định, di chuyển sang nền tảng mới.</p></div>
+      </div>
+    </section>
+
+    <!-- ░░ 6 · FEATURE EXPLORER ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">06 — Feature Explorer</div>
+      <h2 class="s-title anim">Chi tiết tính năng theo phân hệ</h2>
+      <div class="feat-toolbar anim" id="featToolbar"></div>
+      <div class="feat-grid anim" id="featGrid"></div>
+    </section>
+
+    <!-- ░░ 7 · QUY HOACH: BOI CANH & TAM NHIN HE SINH THAI ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">07 — Quy hoạch Hệ sinh thái</div>
+      <h2 class="s-title anim">Từ ứng dụng đơn lẻ → <span class="hl">Nền kinh tế số thu nhỏ</span></h2>
+      <p class="s-lead anim">Định hướng quy hoạch tổng quan MyVNPT: kiến tạo hệ sinh thái khép kín phục vụ hộ gia đình Việt Nam, định hình rõ rệt "One VNPT, One Experience".</p>
+      <div class="vision-box anim" style="padding:32px 38px">
+        <svg class="swirl" viewBox="0 0 32 32" fill="none"><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363Z" fill="white"/></svg>
+        <span class="q">"</span>
+        <p style="font-size:17px">Kiến tạo một Nền kinh tế Số thu nhỏ, tự vận hành, nơi mọi nhu cầu số của cá nhân và gia đình được đáp ứng <strong>liền mạch, thông minh và cá nhân hóa</strong> — biến VNPT thành <strong>đối tác tin cậy</strong> trong đời sống mỗi người dùng.</p>
+      </div>
+      <h3 style="font-size:17px;font-weight:700;margin:24px 0 14px" class="anim">4 Trụ cột Cốt lõi của Hệ sinh thái</h3>
+      <div class="grid g4 anim">
+        <div class="card pillar4" style="border-color:var(--blue);color:var(--blue)"><div class="pn">01</div><h4>Trải nghiệm Liền mạch</h4><ul style="color:var(--text-dim)"><li>VNPT Digital ID duy nhất cho toàn hệ sinh thái</li><li>Luồng dữ liệu tích hợp, cá nhân hóa chéo phân hệ</li><li>Giao diện thống nhất, một thế giới số nhất quán</li></ul></div>
+        <div class="card pillar4" style="border-color:var(--cyan);color:var(--cyan)"><div class="pn">02</div><h4>Nền tảng Thông minh</h4><ul style="color:var(--text-dim)"><li>AI dự đoán nhu cầu, giảm thao tác thủ công</li><li>Tối ưu các điểm chạm trải nghiệm</li><li>Open API cho đối tác đưa dịch vụ vào khai thác</li></ul></div>
+        <div class="card pillar4" style="border-color:var(--amber);color:var(--amber)"><div class="pn">03</div><h4>Đa dạng cơ chế Doanh thu</h4><ul style="color:var(--text-dim)"><li>Loyalty Points linh hoạt quy đổi &amp; giao dịch</li><li>Doanh thu ngoài viễn thông: tài chính, CaaS, Data</li><li>Tiến tới mô hình Marketplace (C2C)</li></ul></div>
+        <div class="card pillar4" style="border-color:var(--violet);color:var(--violet)"><div class="pn">04</div><h4>Cộng đồng Đồng sáng tạo</h4><ul style="color:var(--text-dim)"><li>Người dùng đóng góp nội dung, hỗ trợ chéo</li><li>Tham gia vào vòng đời sản phẩm</li><li>Cơ chế tưởng thưởng tạo vòng tuần hoàn tích cực</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ░░ 8 · UX CONCEPT: 3 SHIFTS ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">08 — UX/UI Concept · Phần 1</div>
+      <h2 class="s-title anim">Tái định nghĩa quan hệ tương tác</h2>
+      <p class="s-lead anim">Chuyển dịch từ mô hình "Ứng dụng &amp; Thuê bao" sang thiết chế giao tiếp người-với-người: <strong style="color:var(--blue)">"Agent MyVNPT &amp; Khách hàng"</strong>.</p>
+      <div class="shift-stack anim">
+        <div class="shift-card shift-card--hero">
+          <div class="shift-num">3.1</div>
+          <div class="shift-body">
+            <div class="shift-from"><span class="shift-tag shift-tag--from">Thực trạng</span><p>Tài khoản định nghĩa bởi <b>thuê bao</b> — mỗi số điện thoại là một thực thể tách rời.</p></div>
+            <svg class="shift-arrow" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            <div class="shift-to"><span class="shift-tag shift-tag--to">Quy hoạch</span><h4>Quản lý theo "Chủ thể con người"</h4><p>1 Khách hàng = 1 VNPT Digital ID. Quản trị chéo đa dịch vụ, đa thuê bao.</p></div>
+          </div>
+        </div>
+        <div class="shift-card">
+          <div class="shift-num">3.2</div>
+          <div class="shift-body">
+            <div class="shift-from"><span class="shift-tag shift-tag--from">Thực trạng</span><p>App là <b>công cụ máy móc vô tri</b>, trả kết quả tĩnh.</p></div>
+            <svg class="shift-arrow" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            <div class="shift-to"><span class="shift-tag shift-tag--to">Quy hoạch</span><h4>Agent MyVNPT</h4><p>Nhân viên ảo có tính cách, thấu cảm, chủ động (pro-active) đưa dự đoán &amp; lời khuyên kịp thời.</p></div>
+          </div>
+        </div>
+        <div class="shift-card">
+          <div class="shift-num">3.3</div>
+          <div class="shift-body">
+            <div class="shift-from"><span class="shift-tag shift-tag--from">Thực trạng</span><p>Trang chủ <b>tĩnh chứa icon menu</b>.</p></div>
+            <svg class="shift-arrow" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            <div class="shift-to"><span class="shift-tag shift-tag--to">Quy hoạch</span><h4>Conversational Feed UI</h4><p>Luồng hội thoại liên tục, mọi dịch vụ gói trong Card (ngữ cảnh + hình ảnh + CTA).</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 8B · UX WRITING ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">09 — UX/UI Concept · Phần 2</div>
+      <h2 class="s-title anim">Ngôn từ giao tiếp — <span class="hl">Linh hồn của Agent</span></h2>
+      <p class="s-lead anim">Sự khác biệt cảm xúc nằm trong từng dòng chữ. Không có ngôn từ thấu cảm thì không có Agent — chỉ còn là phần mềm phản hồi lỗi.</p>
+      <div class="chat-versus anim">
+        <div class="chat-side chat-side--old">
+          <div class="chat-side-head">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            <div>
+              <div class="chat-side-tag">Thông báo vô hồn</div>
+              <div class="chat-side-sub">Văn phong hệ thống · trả lỗi máy móc</div>
+            </div>
+          </div>
+          <div class="bubble old">Lỗi hệ thống. Mã lỗi 404.</div>
+          <div class="bubble old">Tài khoản không đủ tiền.</div>
+          <div class="bubble old">Giao dịch không thành công. Vui lòng thử lại sau.</div>
+        </div>
+        <div class="chat-side chat-side--new">
+          <div class="chat-side-head">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <div>
+              <div class="chat-side-tag">Trò chuyện thấu cảm</div>
+              <div class="chat-side-sub">Văn phong người trợ lý · ân cần kèm giải pháp</div>
+            </div>
+          </div>
+          <div class="bubble new">MyVNPT xin lỗi, đường truyền đang gặp chút trở ngại, để mình kiểm tra lại nhé!</div>
+          <div class="bubble new">Dung lượng sắp hết rồi — MyVNPT gợi ý bạn ưu đãi này để không bị gián đoạn sinh hoạt nhé.</div>
+          <div class="bubble new">Mình thấy giao dịch chưa thành công, có thể do mạng. Bạn thử lại giúp mình nhé, hoặc để mình hỗ trợ trực tiếp.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 9B · WIDGET vs FEEDS — OVERVIEW (Two Brains) ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">10 — Widget &amp; Feeds</div>
+      <h2 class="s-title anim">Hai "nửa bán cầu não" của ứng dụng</h2>
+      <p class="s-lead anim">Quy hoạch hiển thị màn hình Home: <b>Widget</b> giải quyết "Nhu cầu hiện tại" — <b>Feeds</b> khơi gợi "Mong muốn tiềm năng".</p>
+      <div class="brain-split anim">
+        <div class="brain-side brain-side--widget">
+          <div class="brain-head">
+            <span class="brain-tag brain-tag--w">Widget</span>
+            <div class="brain-title">Não trái — Logic &amp; Quản trị tài sản</div>
+          </div>
+          <div class="brain-philo">"Less is More" — Tối giản, gọn gàng (Quiet UI). Hiển thị tình trạng hiện tại trực quan, giải quyết nhanh gọn các thao tác quản trị.</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start">
+            <div>
+              <ul class="brain-bullets">
+                <li><b>Chức năng:</b> Trưng bày chỉ số sức khỏe của tài sản số (Data, Cước, Smart Home)</li>
+                <li><b>Bento Grid:</b> Bo tròn lớn 24-32px, bóng đổ nhạt, layout linh hoạt 1×1, 2×1, 2×2</li>
+                <li><b>Thông số:</b> Display font cực to, in đậm để "quét" mắt trong 0.5s</li>
+                <li><b>5 trạng thái</b> Lifecycle quản lý hiển thị</li>
+              </ul>
+            </div>
+            <div class="phone-mock">
+              <div class="pm-card"><div class="pm-card-lbl">Tài khoản chính</div><div class="pm-card-num">3.500đ</div><div class="pm-card-sub">▼ 32.000đ cùng kỳ trước</div></div>
+              <div class="pm-card" style="background:linear-gradient(135deg,#cffafe,#ecfeff)"><div class="pm-card-lbl">Lưu lượng Data</div><div class="pm-card-num" style="color:var(--cyan)">2.048 MB</div><div class="pm-card-sub">Hạn 20/07/2026</div></div>
+              <div class="pm-card" style="background:linear-gradient(135deg,#fef3c7,#fffbeb)"><div class="pm-card-lbl">Gói đang dùng</div><div class="pm-card-num" style="font-size:13px;color:var(--amber)">D7, VD149</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="brain-side brain-side--feeds">
+          <div class="brain-head">
+            <span class="brain-tag brain-tag--f">Feeds</span>
+            <div class="brain-title">Não phải — Cảm xúc &amp; Khám phá</div>
+          </div>
+          <div class="brain-philo">"Rich &amp; Engaging" — Sống động. Emi chủ động "lên tiếng", trò chuyện, kể chuyện và thực hiện các nghiệp vụ bán chéo (Cross-sell) tinh tế.</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start">
+            <div>
+              <ul class="brain-bullets">
+                <li><b>Chức năng:</b> Khơi gợi nhu cầu và mong muốn tiềm năng của khách hàng trong tương lai</li>
+                <li><b>Social Cards:</b> Mỗi Post là một thẻ độc lập, có Header (Avatar Emi + Tên + Thời gian)</li>
+                <li><b>Rich Media:</b> Ưu tiên Carousel vuốt ngang, kèm Social Proof &amp; tag</li>
+                <li><b>4 Tuyến nội dung</b> + thuật toán 3-1-1 chống spam</li>
+              </ul>
+            </div>
+            <div class="phone-mock">
+              <div class="pm-feed"><div class="pm-feed-head"><div class="pm-avatar"></div><div class="pm-feed-name">Emi biết tuốt</div><div class="pm-feed-time">20/04</div></div><div class="pm-feed-body">Đặt vé Vietlott dễ dàng ngay trên My VNPT. Jackpot đang là 50 tỷ!</div><span class="pm-feed-cta">Đặt vé ngay</span></div>
+              <div class="pm-feed"><div class="pm-feed-head"><div class="pm-avatar" style="background:var(--green)"></div><div class="pm-feed-name">Emi bảo trì</div><div class="pm-feed-time">20/04</div></div><div class="pm-feed-body">Khu vực Long Biên sẽ tạm ngưng kết nối 30 phút để nâng cấp hạ tầng.</div></div>
+              <div class="pm-feed"><div class="pm-feed-head"><div class="pm-avatar" style="background:var(--amber)"></div><div class="pm-feed-name">Emi giải trí</div><div class="pm-feed-time">20/04</div></div><div class="pm-feed-body">Tuần này nhiều chương trình hấp dẫn. Lên lịch tận hưởng cùng gia đình!</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 10 · KIEN TRUC CAC PHAN HE COT LOI ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">11 — Kiến trúc Phân hệ</div>
+      <h2 class="s-title anim">Bốn phân hệ cốt lõi của hệ sinh thái</h2>
+      <div class="eco-grid anim">
+        <div class="card eco" style="border-color:var(--blue)">
+          <div class="eco-top"><div class="eco-icon" style="background:var(--blue-dim);color:var(--blue)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/></svg></div><div><h4>MyVNPT Customer Care</h4><div class="eco-tag">Kênh Self-care chính thống</div></div></div>
+          <div class="eco-quote">Hệ thống Self-care Thông minh &amp; Tự hành, đóng vai trò nền tảng quản trị dịch vụ số &amp; thúc đẩy doanh thu.</div>
+          <ul><li>Proactive Care: Auto-Troubleshooting từ AIOps</li><li>AI-Assisted Personalization sát ngữ cảnh</li><li>Liên thông dữ liệu gói cước với DigiShop</li><li>Cost center → Profit center (bán chéo)</li></ul>
+        </div>
+        <div class="card eco" style="border-color:var(--violet)">
+          <div class="eco-top"><div class="eco-icon" style="background:var(--violet-dim);color:var(--violet)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19a6 6 0 0 1 12 0"/><path d="M17 14a4 4 0 0 1 4 4"/></svg></div><div><h4>Community</h4><div class="eco-tag">Triết lý Shadow Community</div></div></div>
+          <div class="eco-quote">Đi từ điểm chạm tương tác ẩn lồng ghép vào dịch vụ, tiến tới không gian đồng sáng tạo.</div>
+          <ul><li>"Sống ký sinh" qua module Review, Tips</li><li>Từ "Hỏi đáp" → "Nền tảng đồng sáng tạo" (R&D)</li><li>Từ "Khách dùng" → "Đại sứ thương hiệu" (VIP)</li></ul>
+        </div>
+        <div class="card eco" style="border-color:var(--green)">
+          <div class="eco-top"><div class="eco-icon" style="background:var(--green-dim);color:var(--green)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg></div><div><h4>DigiZone</h4><div class="eco-tag">Tiện ích Cuộc sống Số</div></div></div>
+          <div class="eco-quote">Hệ sinh thái tiện ích số thiết yếu nâng cao tối đa chất lượng cuộc sống.</div>
+          <ul><li>4 mảnh ghép: DigiHome · DigiShop · DigiCare · DigiBox</li><li>Phủ kín nhu cầu hộ gia đình số</li><li>Định hướng mở rộng IoT &amp; đối tác</li></ul>
+        </div>
+        <div class="card eco" style="border-color:var(--amber)">
+          <div class="eco-top"><div class="eco-icon" style="background:var(--amber-dim);color:var(--amber)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 15.5 8.5 22 9.5l-5 4.8 1.2 6.7L12 17.8l-6.2 3.2L7 14.3 2 9.5l6.5-1Z"/></svg></div><div><h4>Loyalty</h4><div class="eco-tag">Khách hàng Thân thiết</div></div></div>
+          <div class="eco-quote">Kiến tạo Hệ sinh thái Trung thành Thông minh — biến lòng trung thành thành giá trị.</div>
+          <ul><li>Phân tầng khách hàng để cá nhân hóa ưu đãi</li><li>Điểm thưởng số hóa kết dính đối tác bên thứ ba</li><li>Tiền đề Token hóa cuối lộ trình</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 10A · TAM NHIN PHAN HE CUSTOMER CARE ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">12 — Tầm nhìn Phân hệ Customer Care</div>
+      <h2 class="s-title anim">Năm chuyển dịch của <span class="hl">Customer Care</span></h2>
+      <p class="serif-quote anim">Trở thành <b>Hệ thống Chăm sóc Khách hàng Thông minh &amp; Tự hành</b>, không chỉ là một kênh hỗ trợ mà là Trái tim của Trải nghiệm Khách hàng — định vị VNPT là đơn vị dẫn đầu về dịch vụ số.</p>
+      <div class="transform-grid anim">
+        <div class="tcard">
+          <h4>Từ phản ứng sang chủ động &amp; dự đoán</h4>
+          <div class="tdivider"></div>
+          <ul>
+            <li>Customer Care không còn là nơi "chờ khách hàng gọi đến để phàn nàn".</li>
+            <li>Dự đoán nhu cầu &amp; vấn đề trước khi khách nhận ra, chủ động đưa ra giải pháp.</li>
+          </ul>
+          <div class="tillu"><svg width="120" height="80" viewBox="0 0 120 80" fill="none"><circle cx="60" cy="44" r="22" stroke="#2563eb" stroke-width="1.6" opacity=".35"/><circle cx="60" cy="44" r="14" fill="#dbe7ff"/><path d="M52 44h16M60 36v16" stroke="#2563eb" stroke-width="1.8" stroke-linecap="round"/><circle cx="60" cy="44" r="3" fill="#2563eb"/></svg></div>
+        </div>
+        <div class="tcard">
+          <h4>Từ phân mảnh sang hệ sinh thái liền mạch</h4>
+          <div class="tdivider"></div>
+          <ul>
+            <li>Customer Care là điểm chạm duy nhất, kết nối mọi dịch vụ trong DigiZone.</li>
+            <li>Giải quyết mọi vấn đề: viễn thông, IoT, hóa đơn, sức khỏe, mua sắm qua 1 kênh.</li>
+          </ul>
+          <div class="tillu"><svg width="120" height="80" viewBox="0 0 120 80" fill="none"><circle cx="60" cy="44" r="10" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.6"/><circle cx="28" cy="28" r="6" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><circle cx="92" cy="28" r="6" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><circle cx="28" cy="62" r="6" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><circle cx="92" cy="62" r="6" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><path d="M34 32 52 40M86 32 68 40M34 58 52 48M86 58 68 48" stroke="#2563eb" stroke-width="1.2" opacity=".55"/></svg></div>
+        </div>
+        <div class="tcard">
+          <h4>Từ dịch vụ sang trợ lý cá nhân</h4>
+          <div class="tdivider"></div>
+          <ul>
+            <li>Mọi tương tác được cá nhân hóa 100%.</li>
+            <li>"Trợ lý ảo Toàn năng" hiểu ngữ cảnh, lịch sử &amp; sở thích để đưa ra hỗ trợ có giá trị.</li>
+          </ul>
+          <div class="tillu"><svg width="120" height="80" viewBox="0 0 120 80" fill="none"><rect x="30" y="20" width="60" height="44" rx="22" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.6"/><circle cx="48" cy="42" r="3" fill="#2563eb"/><circle cx="72" cy="42" r="3" fill="#2563eb"/><path d="M52 52c2 2 4 3 8 3s6-1 8-3" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+        </div>
+        <div class="tcard">
+          <h4>Từ chi phí sang trung tâm lợi nhuận</h4>
+          <div class="tdivider"></div>
+          <ul>
+            <li>Trực tiếp tạo doanh thu: đề xuất dịch vụ đúng lúc, bán hàng qua kênh Care.</li>
+            <li>Cung cấp Care-as-a-Service (CaaS) cho đối tác trong hệ sinh thái.</li>
+            <li>Nhân viên CSKH là "nhà tư vấn bán hàng" thấu hiểu khách hàng.</li>
+          </ul>
+          <div class="tillu"><svg width="120" height="80" viewBox="0 0 120 80" fill="none"><rect x="22" y="48" width="14" height="22" rx="2" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.4"/><rect x="44" y="36" width="14" height="34" rx="2" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.4"/><rect x="66" y="22" width="14" height="48" rx="2" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.4"/><rect x="88" y="12" width="14" height="58" rx="2" fill="#2563eb" opacity=".85"/><path d="M22 14l78-2" stroke="#2563eb" stroke-width="1.4" opacity=".4" stroke-dasharray="3 3"/></svg></div>
+        </div>
+        <div class="tcard">
+          <h4>Từ độc lập sang cộng đồng tương trợ</h4>
+          <div class="tdivider"></div>
+          <ul>
+            <li>Xây hệ sinh thái mà khách hàng hỗ trợ lẫn nhau.</li>
+            <li>"Chuyên gia" &amp; khách hàng trung thành trở thành đối tác, kiếm thu nhập / điểm thưởng bằng cách giúp đỡ người khác.</li>
+          </ul>
+          <div class="tillu"><svg width="120" height="80" viewBox="0 0 120 80" fill="none"><circle cx="60" cy="36" r="9" fill="#dbe7ff" stroke="#2563eb" stroke-width="1.4"/><circle cx="32" cy="58" r="7" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><circle cx="88" cy="58" r="7" fill="#fff" stroke="#2563eb" stroke-width="1.4"/><path d="M36 54 54 42M84 54 66 42M40 60h40" stroke="#2563eb" stroke-width="1.4" opacity=".55"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 10B · TAM NHIN PHAN HE COMMUNITY ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">13 — Tầm nhìn Phân hệ Cộng đồng</div>
+      <h2 class="s-title anim">Khi người dùng <span class="hl">kiến tạo</span> giá trị</h2>
+      <p class="serif-quote anim">Một không gian sống động nơi người dùng không chỉ tương tác mà còn <b>cùng nhau kiến tạo giá trị</b> — giúp VNPT không chỉ là một nhà cung cấp dịch vụ mà là một người bạn đồng hành đáng tin cậy.</p>
+      <div class="hub-wrap anim">
+        <div class="hub-col">
+          <div class="hub-cell">
+            <h5>Từ "Nơi Hỏi Đáp" → "Nền tảng Đồng sáng tạo"</h5>
+            <p>Trở thành nền tảng đồng sáng tạo, nơi ý tưởng và phản hồi người dùng được đưa trực tiếp vào quy trình phát triển sản phẩm, giúp họ cảm thấy là một phần của hệ sinh thái.</p>
+          </div>
+          <div class="hub-cell">
+            <h5>Từ "Tương tác" → "Kinh tế Cộng đồng"</h5>
+            <p>Người dùng có thể mua bán, trao đổi, trở thành đối tác hỗ trợ có trả phí, hoặc góp vốn cộng đồng cho các ý tưởng &amp; dự án do chính thành viên khởi xướng.</p>
+          </div>
+        </div>
+        <div class="hub-center">
+          <svg viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="cmGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#7c4dff" stop-opacity=".25"/>
+                <stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="140" cy="140" r="130" fill="url(#cmGlow)"/>
+            <circle cx="140" cy="140" r="92" stroke="#7c4dff" stroke-width="1.2" opacity=".25" stroke-dasharray="2 6"/>
+            <!-- 3 stylized people -->
+            <g transform="translate(140 110)">
+              <circle cx="0" cy="-30" r="14" fill="#7c4dff"/>
+              <path d="M-22 30 L-14 -8 Q 0 -14 14 -8 L 22 30 Z" fill="#7c4dff"/>
+              <circle cx="-44" cy="-12" r="11" fill="#a78bda"/>
+              <path d="M-64 30 L-56 6 Q -44 0 -32 6 L -28 22" fill="#a78bda"/>
+              <circle cx="44" cy="-12" r="11" fill="#a78bda"/>
+              <path d="M64 30 L56 6 Q 44 0 32 6 L 28 22" fill="#a78bda"/>
+            </g>
+          </svg>
+        </div>
+        <div class="hub-col">
+          <div class="hub-cell">
+            <h5>Từ "Thành viên" → "Đại sứ Thương hiệu"</h5>
+            <p>Họ tự nguyện lan tỏa hình ảnh, tổ chức sự kiện &amp; tạo phong trào tích cực. VNPT được cộng đồng nói thay, trở thành thương hiệu được yêu mến từ chính người dùng.</p>
+          </div>
+          <div class="hub-cell">
+            <h5>Từ "Kênh riêng biệt" → "Mạch máu" của Hệ sinh thái</h5>
+            <p>Cộng đồng hòa vào mọi trụ DigiZone:</p>
+            <ul>
+              <li><b>DigiShop:</b> Đánh giá, bình luận, video từ người dùng</li>
+              <li><b>DigiCare:</b> Nhóm hỗ trợ, chia sẻ kinh nghiệm sức khỏe</li>
+              <li><b>DigiBox:</b> Câu lạc bộ phim, nhạc, game</li>
+              <li><b>CSKH:</b> AI ưu tiên gợi ý giải pháp từ cộng đồng</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 10 · DIGIZONE 4 MANH GHEP ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">14 — DigiZone</div>
+      <h2 class="s-title anim">Bốn mảnh ghép tiện ích cuộc sống số</h2>
+      <p class="s-lead anim">DigiZone phủ kín nhu cầu hộ gia đình, từ quản lý hạ tầng mạng đến sức khỏe và giải trí. <b style="color:var(--amber)">DigiShop</b> giữ vai trò mũi nhọn — kênh bán hàng nòng cốt &amp; lõi doanh thu.</p>
+      <div class="digi-hero-layout anim">
+        <div class="hero-card" style="border-color:rgba(234,138,0,0.25)">
+          <svg class="hc-decor" width="260" height="260" viewBox="0 0 24 24" fill="none" stroke="#ea8a00" stroke-width="0.6"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+          <span class="hc-flag" style="background:var(--amber)">★ Mũi nhọn doanh thu</span>
+          <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px">
+            <div class="ic-box ic-lg" style="background:var(--amber-dim);color:var(--amber)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg></div>
+            <h3>DigiShop</h3>
+          </div>
+          <p class="hc-sub">Kênh bán hàng chính thống dịch vụ viễn thông (Data, SIM, Roaming, thiết bị) làm nòng cốt — định hướng mở rộng đa loại hình thành E-commerce hub của VNPT, tích hợp sâu vào luồng tư vấn của Emi và cộng đồng đánh giá.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <span class="chip" style="background:rgba(234,138,0,0.10);color:var(--amber);border-color:rgba(234,138,0,0.25)">E-commerce UX</span>
+            <span class="chip" style="background:rgba(234,138,0,0.10);color:var(--amber);border-color:rgba(234,138,0,0.25)">Bán "Giá trị Lối sống"</span>
+            <span class="chip" style="background:rgba(234,138,0,0.10);color:var(--amber);border-color:rgba(234,138,0,0.25)">Social Proof tích hợp</span>
+            <span class="chip" style="background:rgba(234,138,0,0.10);color:var(--amber);border-color:rgba(234,138,0,0.25)">One-page Checkout</span>
+          </div>
+        </div>
+        <div class="digi-side">
+          <div class="digi-mini">
+            <div class="ic-box" style="background:var(--blue-dim);color:var(--blue);width:40px;height:40px;border-radius:11px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg></div>
+            <div><h5>DigiHome</h5><p>Quản trị thiết bị internet (Modem, Mesh, WiFi) &amp; Parental Control. Định hướng Hub quản lý IoT gia đình.</p></div>
+          </div>
+          <div class="digi-mini">
+            <div class="ic-box" style="background:var(--rose-dim);color:var(--rose);width:40px;height:40px;border-radius:11px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div>
+            <div><h5>DigiCare</h5><p>Khung tập hợp hồ sơ sức khỏe cơ bản, liên đới với dịch vụ bảo hiểm cá nhân.</p></div>
+          </div>
+          <div class="digi-mini">
+            <div class="ic-box" style="background:var(--violet-dim);color:var(--violet);width:40px;height:40px;border-radius:11px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="14" rx="2"/><path d="m22 8-10 6L2 8"/></svg></div>
+            <div><h5>DigiBox</h5><p>Đồng bộ hoạt động trên MyTV, phân phối nội dung giải trí theo hành vi gia đình &amp; AI gợi ý gói cước.</p></div>
+          </div>
+        </div>
+      </div>
+      <h3 style="font-size:14px;font-weight:700;margin:20px 0 12px;color:var(--text-dim);font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase" class="anim">Trụ cột Công nghệ Hậu thuẫn</h3>
+      <div class="tech-grid anim">
+        <div class="card tech"><div class="tt">CDP &amp; AIOps</div><h4>Nền tảng Thông tin Hợp nhất &amp; AI</h4><p>Liên thông dữ liệu toàn màn ảnh, vẽ biểu đồ hành vi, dự đoán churn (Churn Prediction).</p></div>
+        <div class="card tech"><div class="tt">Cloud-Native</div><h4>Kiến trúc Cloud &amp; Open API</h4><p>Phá vỡ cấu trúc monolithic, triển khai vi dịch vụ (microservices), giao thức Open API.</p></div>
+        <div class="card tech"><div class="tt">OMO</div><h4>Trải nghiệm Đa kênh Đồng bộ</h4><p>Online-Merge-Offline: đưa mảng kinh doanh cửa hàng vào quy trình số hóa.</p></div>
+      </div>
+    </section>
+
+    <!-- ░░ 11 · LO TRINH TRIEN KHAI 2026-2030 ░░ -->
+    <section class="slide">
+      <div class="s-eyebrow anim">15 — Lộ trình Triển khai</div>
+      <h2 class="s-title anim">Ba giai đoạn quy hoạch · 2026 → 2030</h2>
+      <div class="roadmap anim">
+        <div class="phase">
+          <div class="num" style="background:var(--blue-dim);color:var(--blue)">26</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 1 · 2026</span><h3>Kiện toàn Kiến trúc Nền tảng</h3></div>
+            <p class="ph-desc">Chuẩn hóa cấu trúc hiện tại, gộp nhóm tính năng rải rác vào đúng phân hệ định hướng.</p>
+            <div class="chips"><span class="chip">Hợp nhất Web MyVNPT + DigiShop</span><span class="chip">Tái cấu trúc App theo phân hệ</span><span class="chip">Đồng bộ Design System</span><span class="chip">Hệ thống vận hành nội bộ (OA&amp;M)</span></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="num" style="background:var(--green-dim);color:var(--green)">27</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 2 · 2027–2028</span><h3>Thông minh hóa &amp; Mở rộng</h3></div>
+            <p class="ph-desc">Hoàn thiện chiều sâu phân hệ hiện hữu &amp; mở rộng hệ sinh thái trên mọi điểm chạm.</p>
+            <div class="chips"><span class="chip">Lấp đầy tính năng Customer Care · Loyalty · DigiShop</span><span class="chip">Khởi tạo DigiHome · DigiCare</span><span class="chip">Mở rộng mạng lưới đối tác</span><span class="chip">Ra mắt Shadow Community</span><span class="chip">AI Proactive Care thí điểm</span></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="num" style="background:var(--violet-dim);color:var(--violet)">29</div>
+          <div>
+            <div class="ph-head"><span class="ph-tag">Giai đoạn 3 · 2029–2030</span><h3>Hướng tới Tự hành &amp; Nền móng Token hóa</h3></div>
+            <p class="ph-desc">Xây bước đệm hệ sinh thái vận hành thông minh, tiến tới mô hình tự hành tương lai.</p>
+            <div class="chips"><span class="chip">AI cá nhân hóa sâu → "Giải pháp số" riêng biệt</span><span class="chip">Tự xóa pain points cho người dùng cuối</span><span class="chip">Tiền đề Token hóa Loyalty</span><span class="chip">Thử nghiệm thị trường C2C</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 12 · CLOSING ░░ -->
+    <section class="slide closing">
+      <div class="closing-deco">
+        <svg width="1100" height="900" viewBox="0 0 1100 900" style="left:-120px;top:-120px" fill="none">
+          <path d="M0 0 C320 0 240 380 480 380 C660 380 600 660 840 660 C1000 660 940 900 1180 900" stroke="rgba(255,255,255,0.16)" stroke-width="2" fill="none"/>
+          <path d="M0 80 C340 80 260 440 500 440 C680 440 620 720 860 720" stroke="rgba(255,255,255,0.09)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <svg class="swirl" viewBox="0 0 32 32" fill="none"><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363Z" fill="white"/></svg>
+      <div class="closing-inner">
+        <div class="clogo logo-lockup">
+          <svg width="42" height="42" viewBox="0 0 32 32" fill="none"><path d="M27.6542 13.4797C27.2047 15.3529 26.1558 17.5182 24.5576 19.6347C23.8084 20.6565 22.9343 21.6539 21.9854 22.6027C19.8877 24.695 17.6401 26.2763 15.5674 27.2251C19.1135 27.2251 22.31 25.6924 24.5576 23.3083C26.955 20.8025 28.2535 17.2262 27.6542 13.4797Z" fill="white"/><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363ZM24.5548 4.40478C26.7275 3.79657 27.5266 5.13462 25.8284 8.80817C25.4788 8.19997 25.0293 7.66475 24.5548 7.17819C23.9305 6.52133 23.1813 5.96178 22.3822 5.35358C23.2063 4.91567 23.9305 4.57508 24.5548 4.40478Z" fill="white"/></svg>
+          <span style="font-size:26px;color:#fff"><span class="lt1">VNPT</span><span class="lt2">·Media</span></span>
+        </div>
+        <h2>Chào mừng bạn đến với <span class="hl">Emi</span></h2>
+        <p>Bạn vừa nắm được tầm nhìn, khách hàng, căn tính, tính năng và quy hoạch hệ sinh thái. Đây là nền tảng để bắt đầu hành trình xây dựng "căn tính số" của VNPT.</p>
+        <div class="recap">
+          <span class="recap-pill">Một bộ não · đa điểm chạm</span>
+          <span class="recap-pill">3 nhóm khách hàng</span>
+          <span class="recap-pill">5 căn tính sản phẩm</span>
+          <span class="recap-pill">7 phân hệ · 90+ tính năng</span>
+          <span class="recap-pill">4 trụ cột · 4 phân hệ hệ sinh thái</span>
+          <span class="recap-pill">Lộ trình 2026 → 2030</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand" id="navBrand"></div>
+    <div class="dots" id="dots"></div>
+    <div class="nav-ctrls">
+      <span class="nav-count"><b id="cur">1</b> / <span id="total">17</span></span>
+      <button class="nav-btn" id="prev">‹</button>
+      <button class="nav-btn" id="next">›</button>
+    </div>
+  </nav>
+</div>
+<div class="kbd-hint" style="display:none">← → để chuyển slide</div>
+
+<script>
+// ── REUSABLE LOGO (colored, for light backgrounds) ──
+const logoColored=`<svg width="30" height="30" viewBox="0 0 32 32" fill="none"><path d="M27.6542 13.4797C27.2047 15.3529 26.1558 17.5182 24.5576 19.6347C23.8084 20.6565 22.9343 21.6539 21.9854 22.6027C19.8877 24.695 17.6401 26.2763 15.5674 27.2251C19.1135 27.2251 22.31 25.6924 24.5576 23.3083C26.955 20.8025 28.2535 17.2262 27.6542 13.4797Z" fill="#16a34a"/><path d="M24.5548 15.9363C26.6525 12.944 28.1509 9.90294 28.6254 7.47013C28.7253 6.91058 28.7752 6.37536 28.8002 5.93745V5.76715C28.7752 4.5994 28.3757 3.74792 27.3518 3.33434C26.6276 3.11539 25.6786 3.16404 24.5548 3.48031C23.6558 3.77225 22.6569 4.23448 21.5581 4.89134C16.4636 2.02062 9.94575 3.2127 6.27476 7.39714C3.15316 10.7058 2.27911 16.058 4.25196 20.0964L4.27694 20.0721C3.45283 18.1745 3.40289 15.912 3.87737 13.8441C3.95229 13.4305 4.07715 13.0413 4.22699 12.6277C4.25196 12.5304 4.30191 12.4331 4.32688 12.3358C4.42677 12.0925 4.52666 11.8979 4.62655 11.7519C5.90017 9.12444 8.17269 7.59177 9.87084 8.37027C11.569 9.14877 11.9685 11.7276 10.6949 14.5983C10.3453 15.3281 9.49624 16.9094 8.49733 18.5881C6.02503 22.7482 3.97726 28.1977 7.5234 28.7816C8.6222 28.8789 9.87084 28.587 11.1944 27.9788C15.6895 26.1785 20.9587 21.1182 24.5548 15.9363ZM24.5548 4.40478C26.7275 3.79657 27.5266 5.13462 25.8284 8.80817C25.4788 8.19997 25.0293 7.66475 24.5548 7.17819C23.9305 6.52133 23.1813 5.96178 22.3822 5.35358C23.2063 4.91567 23.9305 4.57508 24.5548 4.40478Z" fill="#2563eb"/></svg>`;
+document.getElementById('brandSlot1').innerHTML=`<span class="logo-lockup">${logoColored}<span style="font-size:19px;color:var(--blue)"><span class="lt1">VNPT</span><span class="lt2" style="color:var(--text-dim)">·Media</span></span></span><div class="divider"></div><div class="label">Emi OS Training</div>`;
+document.getElementById('navBrand').innerHTML=`<span class="logo-lockup">${logoColored.replace('width="30" height="30"','width="22" height="22"')}<span style="font-size:14px;color:var(--blue)"><span class="lt1">VNPT</span><span class="lt2" style="color:var(--text-dim)">·Media</span></span></span> · Emi OS Training`;
+
+// ── FEATURE DATA (soft launch sheet v15/9) ──
+// inline SVG icon set
+const ICONS={
+  user:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
+  headset:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="3" y="14" width="5" height="7" rx="1.5"/><rect x="16" y="14" width="5" height="7" rx="1.5"/></svg>',
+  card:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg>',
+  cart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>',
+  buoy:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M4.6 4.6 9.5 9.5M14.5 14.5l4.9 4.9M19.4 4.6l-4.9 4.9M9.5 14.5l-4.9 4.9"/></svg>',
+  grid:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>'
+};
+const modules=[
+  {key:'Tài khoản',icon:ICONS.user,color:'var(--blue)',bg:'var(--blue-dim)',groups:[
+    {label:'Tài khoản & đăng nhập',items:[['Đăng ký tài khoản mới','n'],['Đăng nhập (4G/5G, OTP, mã PIN)','t'],['Đăng xuất','k'],['Gửi request xoá tài khoản','k']]},
+    {label:'Quản lý tài khoản & Nhóm',items:[['Cá nhân: avatar, SĐT nhận OTP','n'],['Quản lý danh sách nhóm','n'],['Khởi tạo / gia nhập nhóm','n'],['Đặt tên nhóm & thành viên','n'],['Thêm/xoá & phân quyền thành viên','n']]},
+    {label:'Thanh toán & Cài đặt',items:[['Phương thức thanh toán','k'],['Lịch sử giao dịch','k'],['Ngôn ngữ, FaceID','k'],['Lịch sử thiết bị đăng nhập','k'],['Term & Conditions','k']]}
+  ]},
+  {key:'Customer Care',icon:ICONS.headset,color:'var(--cyan)',bg:'var(--cyan-dim)',groups:[
+    {label:'Dịch vụ di động',items:[['Tiện ích SIM & TTTB (đổi eSIM, đăng ký)','t'],['Quản lý lưu lượng & gói cước','t'],['Trạng thái Roaming','t'],['Tra cứu lịch sử sử dụng','t'],['Dịch vụ GTGT (VAS): chặn gọi rác, voicemail…','k']]},
+    {label:'Dịch vụ internet',items:[['Quản lý thuê bao & hợp đồng','t'],['Quản lý Wi-Fi (đổi tên, mật khẩu, QR, lịch)','t'],['Kiểm tra tốc độ mạng','t'],['Quản lý thiết bị internet & mô hình mạng','t']]},
+    {label:'Parental Control',items:[['Quản lý thiết bị kết nối','k'],['Chặn nội dung độc hại & giới hạn','k'],['Giới hạn khung giờ sử dụng','k']]},
+    {label:'Quản lý nhóm',items:[['Quản lý gói cước / lưu lượng thành viên','n'],['Lịch sử data/thoại/SMS thành viên','n'],['Thông báo nhắc cước & cảnh báo realtime','k']]}
+  ]},
+  {key:'Thanh toán & Nạp tiền',icon:ICONS.card,color:'var(--green)',bg:'var(--green-dim)',groups:[
+    {label:'Thanh toán cước viễn thông',items:[['Quản lý thông tin gói cước','k'],['Đóng cước trả sau / trả trước','k'],['Xuất hoá đơn điện tử','k'],['Tra cứu lịch sử đóng cước','k'],['Autopay & nhắc cước','k']]},
+    {label:'Nạp tiền di động',items:[['Topup','k'],['Mua mã thẻ','k'],['Nạp từ thẻ cào','k']]}
+  ]},
+  {key:'Mua sắm',icon:ICONS.cart,color:'var(--amber)',bg:'var(--amber-dim)',groups:[
+    {label:'Mua SIM & gói cước',items:[['Mua SIM (số đẹp, kèm gói, kèm thiết bị)','t'],['Mua/nâng cấp gói chính','t'],['Mua gói add-ons (combo, data)','t'],['Gói internet combo truyền hình / thiết bị','k']]},
+    {label:'Du lịch & Đơn hàng',items:[['Gói roaming & eSIM du lịch','k'],['Internet máy bay, bảo hiểm, travel pass','k'],['Tra cứu đơn hàng','t']]}
+  ]},
+  {key:'Support Centre',icon:ICONS.buoy,color:'var(--rose)',bg:'var(--rose-dim)',groups:[
+    {label:'Hỗ trợ khách hàng',items:[['Quản lý, tạo ticket hỗ trợ','k'],['Tìm phòng giao dịch & đặt lịch','k'],['Tổng đài CSKH (thoại, chat, video call)','k'],['Nhắn tin với Chatbot EMI','k'],['Tra cứu trạng thái Ticket','k']]}
+  ]},
+  {key:'Dịch vụ mở rộng',icon:ICONS.grid,color:'var(--violet)',bg:'var(--violet-dim)',groups:[
+    {label:'Hoá đơn',items:[['Điện, Nước','k'],['Truyền hình cáp, Học phí','k'],['Phí vệ sinh môi trường','k']]},
+    {label:'Tài chính · Giáo dục · Y tế',items:[['Bảo hiểm số, Ứng tiền','k'],['VnEdu (giáo dục)','k'],['Dịch vụ y tế','k']]}
+  ]}
+];
+const clsColor={n:'var(--green)',t:'var(--amber)',k:'var(--cyan)'};
+const grid=document.getElementById('featGrid');
+const toolbar=document.getElementById('featToolbar');
+function countItems(m){return m.groups.reduce((s,g)=>s+g.items.length,0);}
+modules.forEach((m,i)=>{
+  const el=document.createElement('div');el.className='module';el.dataset.mod=i;
+  let body='';
+  m.groups.forEach(g=>{
+    body+=`<div class="feat-group"><div class="feat-group-label">${g.label}</div>`;
+    g.items.forEach(it=>{body+=`<div class="feat-item"><span class="fdot" style="background:${clsColor[it[1]]}"></span><span class="fname">${it[0]}</span></div>`;});
+    body+=`</div>`;
+  });
+  el.innerHTML=`<div class="module-head"><div class="module-icon" style="background:${m.bg};color:${m.color}">${m.icon}</div><div><h3>${m.key}</h3><div class="cnt">${countItems(m)} tính năng</div></div></div><div class="module-body">${body}</div>`;
+  grid.appendChild(el);
+});
+const filters=[['all','Tất cả'],...modules.map((m,i)=>[i,m.key])];
+filters.forEach((f,idx)=>{
+  const b=document.createElement('button');
+  b.className='filter-btn'+(idx===0?' active':'');
+  b.textContent=f[1];b.dataset.f=f[0];
+  b.onclick=()=>{
+    document.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.querySelectorAll('.module').forEach(mod=>{mod.classList.toggle('hidden',!(f[0]==='all'||mod.dataset.mod==f[0]));});
+  };
+  toolbar.appendChild(b);
+});
+const lg=document.createElement('div');lg.className='feat-legend';
+lg.innerHTML=`<span><span class="lg-dot" style="background:var(--green)"></span>Xây mới</span><span><span class="lg-dot" style="background:var(--amber)"></span>Tuning</span><span><span class="lg-dot" style="background:var(--cyan)"></span>Giữ nguyên</span>`;
+toolbar.appendChild(lg);
+
+// ── NAVIGATION ──
+const slides=[...document.querySelectorAll('.slide')];
+const total=slides.length;let cur=0;
+document.getElementById('total').textContent=total;
+const dotsWrap=document.getElementById('dots');
+slides.forEach((_,i)=>{const d=document.createElement('div');d.className='dot'+(i===0?' active':'');d.onclick=()=>go(i);dotsWrap.appendChild(d);});
+const dots=[...dotsWrap.children];
+function go(n){
+  if(n<0||n>=total)return;
+  slides[cur].classList.remove('active');dots[cur].classList.remove('active');
+  cur=n;
+  slides[cur].classList.add('active');slides[cur].scrollTop=0;dots[cur].classList.add('active');
+  document.getElementById('cur').textContent=cur+1;
+  document.getElementById('prev').disabled=cur===0;
+  document.getElementById('next').disabled=cur===total-1;
+}
+document.getElementById('prev').onclick=()=>go(cur-1);
+document.getElementById('next').onclick=()=>go(cur+1);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' ')go(cur+1);if(e.key==='ArrowLeft')go(cur-1);});
+go(0);
+</script>
+</body>
+</html>

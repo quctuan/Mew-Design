@@ -1,0 +1,67 @@
+site_name: GDS-MyVNPT Wiki
+site_description: Onboarding and Knowledge Base for GDS-MyVNPT
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.path
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/custom_v2.css
+  - stylesheets/access_control.css
+
+extra_javascript:
+  - javascripts/access_control.js
+
+plugins:
+  - search
+  - encryptcontent
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - 📖 Home: index.md
+  - 🚀 Bắt đầu:
+    - Nguyên lý làm việc: getting-started.md
+    - Checklist tuần đầu: bat-dau/checklist.md
+    - Công cụ: bat-dau/cong-cu.md
+    - Hướng dẫn Quản lý Task: bat-dau/huong-dan-quan-ly-task.md
+  - 🔄 Quy trình:
+    - Start Flow Design: huong-dan-start-flow-design.md
+    - URD Execute (Autopilot): bat-dau/urd-execute-workflow.md
+  - 👥 Teams:
+    - Jira Tracking Team: teams/jira-tracking.md
+    - McKinsey Research Team: teams/mckinsey.md
+    - Flow Design Team: teams/flow-design.md
+    - UIUX Audit Team: teams/uiux-audit.md
+    - Design Ops Team: teams/design-ops.md
+    - URD Mapper Team: teams/urd-mapper.md
+  - 📋 Quản lý Task: task_manager.html
+  - 🧠 Knowledge base: 'knowledge base/index.md'
+hooks:
+  - kb_hook.py
+

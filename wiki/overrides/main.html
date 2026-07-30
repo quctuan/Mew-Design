@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="{{ base_url }}/stylesheets/access_control.css">
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="{{ base_url }}/javascripts/access_control.js"></script>
+{% endblock %}
+
+{% block header %}
+{{ super() }}
+
+<!-- Access Control Modal -->
+<div id="tm-access-modal-overlay">
+    <div id="tm-access-modal">
+        <button class="tm-access-close" id="tm-access-close-btn" onclick="window.closeAccessModal()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="tm-access-header">
+            <h2>GDS MyVNPT</h2>
+            <p>Vui lòng chọn chế độ truy cập</p>
+        </div>
+
+        <div class="tm-access-options" id="tm-access-cards">
+            <!-- View Only Option -->
+            <div class="tm-access-card" onclick="window.selectAccessMode('view_only')">
+                <div class="tm-access-card-icon icon-view">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                </div>
+                <div class="tm-access-card-content">
+                    <h3>View Only (Guest)</h3>
+                    <p>Chỉ xem thông tin dự án, không thể chỉnh sửa</p>
+                </div>
+            </div>
+
+            <!-- Full Access Option -->
+            <div class="tm-access-card" onclick="window.showLoginForm()">
+                <div class="tm-access-card-icon icon-edit">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+                <div class="tm-access-card-content">
+                    <h3>Full Access (Nội bộ)</h3>
+                    <p>Yêu cầu mật khẩu để có thể cập nhật trạng thái</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Form (Hidden by default) -->
+        <div id="tm-login-form">
+            <label class="tm-label" for="tm-access-password">Mật khẩu truy cập</label>
+            <input type="password" id="tm-access-password" class="tm-input" placeholder="Nhập mật khẩu..."
+                onkeypress="if(event.key === 'Enter') window.selectAccessMode('full_access')">
+            <div id="tm-login-error" style="color: #ef4444; font-size: 0.85rem; margin-bottom: 12px; display: none;">Mật
+                khẩu không chính xác</div>
+
+            <div class="tm-login-actions">
+                <button class="tm-btn tm-btn-secondary" onclick="window.hideLoginForm()">Quay lại</button>
+                <button class="tm-btn tm-btn-primary" onclick="window.selectAccessMode('full_access')">Đăng
+                    nhập</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Insert indicator into header toolbar dynamically after Material for Mkdocs loads it
+    document.addEventListener("DOMContentLoaded", function () {
+        const parentContainer = document.querySelector(".md-header__option") || document.querySelector("label[for='__search']");
+        if (!parentContainer) return;
+
+        const indicatorHtml = `
+      <div id="global-view-mode-indicator" onclick="window.openAccessModalManually()" title="Chuyển đổi chế độ xem" style="margin-left: 10px; height: 32px; padding: 0 10px; display: flex; align-items: center; background: rgba(0,0,0,0.2) !important; color: white !important; border-radius: 4px; cursor: pointer;">
+          <svg id="global-view-mode-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px; color: white;">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+          <span id="global-view-mode-text" style="font-size: 0.8rem; font-weight: 600; white-space: nowrap;">Mode: View Only</span>
+          <svg class="view-mode-icon-switch" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px; color: white; opacity: 0.7;">
+              <polyline points="16 3 21 3 21 8"></polyline>
+              <line x1="4" y1="14" x2="21" y2="3"></line>
+              <polyline points="8 21 3 21 3 16"></polyline>
+              <line x1="20" y1="10" x2="3" y2="21"></line>
+          </svg>
+      </div>`;
+        parentContainer.insertAdjacentHTML('beforebegin', indicatorHtml);
+    });
+</script>
+{% endblock %}
+
+{% block site_nav %}
+{{ super() }}
+{% endblock %}

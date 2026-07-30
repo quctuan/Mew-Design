@@ -1,0 +1,172 @@
+<div class="content">
+    <h1>Spacing & Radius</h1>
+    <p class="description">Global dimensions used for padding, margins, and object border-radii.</p>
+
+    <!-- Spacing Scale -->
+    <h2 class="section-heading">Spacing Scale</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Token Name</th>
+                    <th>Value (px)</th>
+                    <th>Visual Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">--space-2x</span></td>
+                    <td>2px</td>
+                    <td>
+                        <div class="space-box" style="width: 2px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-4x</span></td>
+                    <td>4px</td>
+                    <td>
+                        <div class="space-box" style="width: 4px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-8x</span></td>
+                    <td>8px</td>
+                    <td>
+                        <div class="space-box" style="width: 8px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-12x</span></td>
+                    <td>12px</td>
+                    <td>
+                        <div class="space-box" style="width: 12px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-16x</span></td>
+                    <td>16px</td>
+                    <td>
+                        <div class="space-box" style="width: 16px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-20x</span></td>
+                    <td>20px</td>
+                    <td>
+                        <div class="space-box" style="width: 20px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-24x</span></td>
+                    <td>24px</td>
+                    <td>
+                        <div class="space-box" style="width: 24px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-32x</span></td>
+                    <td>32px</td>
+                    <td>
+                        <div class="space-box" style="width: 32px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-40x</span></td>
+                    <td>40px</td>
+                    <td>
+                        <div class="space-box" style="width: 40px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-48x</span></td>
+                    <td>48px</td>
+                    <td>
+                        <div class="space-box" style="width: 48px;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">--space-64x</span></td>
+                    <td>64px</td>
+                    <td>
+                        <div class="space-box" style="width: 64px;"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Radius Scale -->
+    <h2 class="section-heading">Border Radius</h2>
+    <div class="pane">
+        <div class="radius-grid">
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-none, 0px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-none</span> (0px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-2x, 2px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-2x</span> (2px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-4x, 4px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-4x</span> (4px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-8x, 8px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-8x</span> (8px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-12x, 12px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-12x</span> (12px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-16x, 16px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-16x</span> (16px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-24x, 24px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-24x</span> (24px)</div>
+            </div>
+            <div class="radius-card">
+                <div class="radius-box" style="border-radius: var(--br-999x, 999px);"></div>
+                <div class="radius-label"><span class="prop-tag">--br-full</span> (999px)</div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .space-box {
+            height: 24px;
+            background-color: var(--color-brand-200, #acc9ff);
+            border: 1px solid var(--color-brand-400, #4788ff);
+            border-radius: var(--br-2x, 2px);
+        }
+
+        .radius-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .radius-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .radius-box {
+            width: 80px;
+            height: 80px;
+            background-color: var(--color-brand-100, #eaf1ff);
+            border: 2px solid var(--color-brand-400, #4788ff);
+        }
+
+        .radius-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+            text-align: center;
+        }
+    </style>
+</div>

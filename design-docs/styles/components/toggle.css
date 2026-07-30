@@ -1,0 +1,120 @@
+/* --- Toggle Component CSS --- */
+/* Uses globals.css variables */
+
+.toggle-wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family-typeface, 'SF Pro Display', sans-serif);
+    margin-bottom: var(--space-8x, 8px);
+}
+
+.toggle-wrapper.is-disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Custom Checkbox Input for Toggle */
+.toggle-input {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    margin: 0;
+
+    /* The Track */
+    width: 44px;
+    height: 24px;
+    background-color: var(--color-gray-300, #cbd5e1);
+    border-radius: var(--br-full, 999px);
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    flex-shrink: 0;
+}
+
+/* The Knob */
+.toggle-input::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-base-white, #ffffff);
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Checked State */
+.toggle-input:checked {
+    background-color: var(--color-brand-500, #3079ff);
+}
+
+.toggle-input:checked::after {
+    transform: translateX(20px);
+}
+
+/* Disabled State */
+.toggle-input:disabled {
+    cursor: not-allowed;
+    background-color: var(--color-gray-200, #e2e8f0);
+}
+
+.toggle-input:disabled:checked {
+    background-color: var(--color-brand-300, #83afff);
+}
+
+.toggle-input:disabled::after {
+    box-shadow: none;
+    background-color: var(--color-gray-50, #f8fafc);
+}
+
+/* Hover State */
+.toggle-wrapper:hover .toggle-input:not(:disabled):not(:checked) {
+    background-color: var(--color-gray-400, #94a3b8);
+}
+
+/* Focus state for accessibility */
+.toggle-input:focus-visible {
+    box-shadow: 0 0 0 2px var(--color-brand-100, #eaf1ff), 0 0 0 4px var(--color-brand-500, #3079ff);
+}
+
+/* Label text content */
+.toggle-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--space-12x, 12px);
+}
+
+.toggle-label {
+    font-size: var(--font-size-md, 16px);
+    font-weight: 500;
+    color: var(--text-primary, #0f172a);
+    user-select: none;
+}
+
+.toggle-desc {
+    font-size: var(--font-size-sm, 14px);
+    color: var(--text-secondary, #64748b);
+    margin-top: var(--space-2x, 2px);
+}
+
+/* Small Variant */
+.toggle-sm .toggle-input {
+    width: 32px;
+    height: 18px;
+}
+
+.toggle-sm .toggle-input::after {
+    width: 14px;
+    height: 14px;
+}
+
+.toggle-sm .toggle-input:checked::after {
+    transform: translateX(14px);
+}
+
+.toggle-sm .toggle-label {
+    font-size: var(--font-size-sm, 14px);
+}

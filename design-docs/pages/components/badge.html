@@ -1,0 +1,282 @@
+<div class="content">
+
+    <!-- Section 1: Page Header -->
+    <div class="page-header" style="margin-bottom: 32px;">
+        <h1 style="margin-bottom: 8px;">Badge</h1>
+        <p class="description" style="font-size: 1.125rem; color: var(--color-gray-600); max-width: 750px;">
+            Một chỉ báo hình ảnh nhỏ gọn, không tương tác, dùng để làm nổi bật trạng thái, thuộc tính hoặc số lượng.
+        </p>
+    </div>
+
+    <!-- Section 2: The Hero Demo -->
+    <div class="hero-demo" style="margin-top: 32px; border: 1px solid var(--color-gray-200); border-radius: var(--br-lg); overflow: hidden;">
+        <div style="padding: 64px; display: flex; justify-content: center; align-items: center; background: var(--color-gray-50);">
+            <span class="badge badge-primary badge-md">New Feature</span>
+        </div>
+        <div class="usage-pane" style="margin-bottom: 16px; border: none; border-top: 1px solid var(--color-gray-200); border-radius: 0;">
+            <div class="usage-header">
+                <span class="usage-lang">iOS (Swift)</span>
+                <button class="usage-copy">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy
+                </button>
+            </div>
+            <div class="usage-content">
+<pre><code>import MyVNPTDesignSystem
+
+DSBadge(text: "New Feature", style: .primary, size: .md)</code></pre>
+            </div>
+        </div>
+        <div class="usage-pane" style="margin: 0; border: none; border-top: 1px solid var(--color-gray-200); border-radius: 0;">
+            <div class="usage-header">
+                <span class="usage-lang">Android (Kotlin)</span>
+                <button class="usage-copy">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy
+                </button>
+            </div>
+            <div class="usage-content">
+<pre><code>import vn.myvnpt.designsystem.components.DSBadge
+import vn.myvnpt.designsystem.components.BadgeStyle
+
+DSBadge(
+    text = "New Feature",
+    style = BadgeStyle.Primary
+)</code></pre>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Section 4: Examples / Variants -->
+    <h2 class="section-heading" id="examples" style="margin-top: 48px;">Examples / Variants</h2>
+
+    <!-- Color Variants -->
+    <h3 class="subsection-heading" id="color-variants" style="margin-top: 24px; font-size: 1.25rem;">Color Variants</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Badges come in different semantic colors to represent state.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="gap: 16px; justify-content: center;">
+            <span class="badge badge-neutral badge-md">Neutral</span>
+            <span class="badge badge-primary badge-md">Primary</span>
+            <span class="badge badge-success badge-md">Success</span>
+            <span class="badge badge-warning badge-md">Warning</span>
+            <span class="badge badge-error badge-md">Error</span>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSBadge(text: "Neutral", style: .neutral)
+DSBadge(text: "Primary", style: .primary)
+DSBadge(text: "Success", style: .success)
+DSBadge(text: "Warning", style: .warning)
+DSBadge(text: "Error", style: .error)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSBadge(text = "Neutral", style = BadgeStyle.Neutral)
+DSBadge(text = "Primary", style = BadgeStyle.Primary)
+DSBadge(text = "Success", style = BadgeStyle.Success)
+DSBadge(text = "Warning", style = BadgeStyle.Warning)
+DSBadge(text = "Error", style = BadgeStyle.Error)</code></pre>
+        </div>
+    </div>
+
+    <!-- With Icon (Pill) -->
+    <h3 class="subsection-heading" id="with-icon" style="margin-top: 48px; font-size: 1.25rem;">With Icon (Pill)</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">You can embed an SVG icon on the left, right, or both sides.</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="align-items: flex-end; gap: 24px; justify-content: center;">
+            <span class="badge badge-primary badge-md badge-icon-left">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+                Label
+            </span>
+            <span class="badge badge-primary badge-md badge-icon-right">
+                Label
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </span>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>// Left Icon
+DSBadge(text: "Label", style: .primary, leftIcon: UIImage(named: "ic_check"))
+
+// Right Icon
+DSBadge(text: "Label", style: .primary, rightIcon: UIImage(named: "ic_chevron"))</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>// Left Icon
+DSBadge(text = "Label", style = BadgeStyle.Primary, leftIcon = R.drawable.ic_check)
+
+// Right Icon
+DSBadge(text = "Label", style = BadgeStyle.Primary, rightIcon = R.drawable.ic_chevron)</code></pre>
+        </div>
+    </div>
+
+    <!-- Rounded Shape -->
+    <h3 class="subsection-heading" id="rounded-shape" style="margin-top: 48px; font-size: 1.25rem;">Rounded Shape</h3>
+    <p style="margin-bottom: 16px; color: var(--color-gray-600);">Use the <code>badge-round</code> modifier to reduce the border radius (e.g. 8px).</p>
+    
+    <div class="pane" style="margin-bottom: 16px; display: flex; justify-content: center; padding: 48px;">
+        <div class="variant-row" style="align-items: flex-end; gap: 24px; justify-content: center;">
+            <span class="badge badge-round badge-success badge-md badge-icon-left">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 19V5M5 12l7-7 7 7" />
+                </svg>
+                Label
+            </span>
+            <span class="badge badge-round badge-success badge-md badge-icon-right">
+                Label
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 19V5M5 12l7-7 7 7" />
+                </svg>
+            </span>
+        </div>
+    </div>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSBadge(
+    text: "Label",
+    style: .success,
+    shape: .rounded,
+    leftIcon: UIImage(named: "ic_check")
+)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy
+            </button>
+        </div>
+        <div class="usage-content">
+<pre><code>DSBadge(
+    text = "Label",
+    style = BadgeStyle.Success,
+    shape = BadgeShape.Rounded,
+    leftIcon = R.drawable.ic_check
+)</code></pre>
+        </div>
+    </div>
+
+    <!-- Section 5: Design Specifications -->
+    <h2 class="section-heading" id="specifications" style="margin-top: 48px;">Design Specifications</h2>
+    <div class="pane" style="padding: 0; overflow: hidden; margin-top: 16px;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Property</th>
+                    <th>Token / Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>.badge-sm</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">20px</span> / 6px horizontal / 12px text</td>
+                </tr>
+                <tr>
+                    <td><code>.badge-md</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">24px</span> / 8px horizontal / 14px text</td>
+                </tr>
+                <tr>
+                    <td><code>.badge-lg</code></td>
+                    <td>Height / Padding / Font</td>
+                    <td><span class="prop-tag">28px</span> / 12px horizontal / 14px text</td>
+                </tr>
+                <tr>
+                    <td><code>.badge</code> (Pill)</td>
+                    <td>Border Radius</td>
+                    <td><span class="prop-tag">var(--br-full)</span> / 9999px</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 6: API Reference / Props -->
+    <h2 class="section-heading" id="api-reference" style="margin-top: 48px;">API Reference</h2>
+    
+    <h3 style="margin-top: 24px; font-size: 1.125rem;">Props</h3>
+    <div class="pane" style="padding: 0; overflow: hidden; margin-top: 16px;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">variant class</span></td>
+                    <td><span class="prop-tag">neutral | primary | success | warning | error</span></td>
+                    <td><span class="prop-tag">neutral</span></td>
+                    <td>Dictates the background, text, and border color based on semantic tokens.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">size class</span></td>
+                    <td><span class="prop-tag">sm | md | lg</span></td>
+                    <td><span class="prop-tag">md</span></td>
+                    <td>Defines the height, padding, and font size.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">shape class</span></td>
+                    <td><span class="prop-tag">(none) | badge-round</span></td>
+                    <td><span class="prop-tag">(none) - Pill</span></td>
+                    <td>Defines the border radius. Pill is fully rounded, Round is slightly rounded (8px).</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">icon classes</span></td>
+                    <td><span class="prop-tag">badge-icon-left | badge-icon-right</span></td>
+                    <td><span class="prop-tag">none</span></td>
+                    <td>Provides appropriate spacing for inline SVGs on the left or right side of the text.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

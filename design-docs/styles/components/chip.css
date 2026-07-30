@@ -1,0 +1,100 @@
+/* =============================================
+   Chip Component
+   ============================================= */
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-4x);
+    padding: var(--space-4x) var(--space-12x);
+    height: 28px;
+    border-radius: var(--br-full);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+
+/* --- Size: Small --- */
+.chip-sm {
+    height: 22px;
+    padding: 2px var(--space-8x);
+    font-size: 12px;
+}
+
+/* --- Color Variants --- */
+
+/* Default (neutral gray) */
+.chip-default {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-color: var(--border-secondary);
+}
+
+/* Brand */
+.chip-brand {
+    background: var(--bg-brand-secondary);
+    color: var(--color-brand-700);
+    border-color: var(--color-brand-200);
+}
+
+/* Success */
+.chip-success {
+    background: var(--bg-success-secondary);
+    color: var(--color-green-700);
+    border-color: var(--color-green-200);
+}
+
+/* Warning */
+.chip-warning {
+    background: var(--bg-warning-secondary);
+    color: var(--color-yellow-700);
+    border-color: var(--color-yellow-200);
+}
+
+/* Error */
+.chip-error {
+    background: var(--bg-error-secondary);
+    color: var(--color-red-700);
+    border-color: var(--color-red-200);
+}
+
+/* --- Modifiers --- */
+
+.chip-dismissible {
+    padding-right: var(--space-8x);
+}
+
+.chip-with-icon {
+    padding-left: var(--space-8x);
+}
+
+.chip-close {
+    cursor: pointer;
+    opacity: 0.6;
+    flex-shrink: 0;
+    transition: opacity 0.15s;
+}
+
+.chip-close:hover {
+    opacity: 1;
+}
+
+/* --- Selectable (toggle) --- */
+.chip-selectable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.chip-selectable:hover {
+    filter: brightness(0.96);
+}
+
+.chip-selectable.is-selected {
+    background: var(--bg-brand-solid);
+    color: var(--text-primary_on-brand);
+    border-color: var(--bg-brand-solid);
+}
