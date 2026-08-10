@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260810_113718",
+  "group_name": "VNPT & UrBox+ : Technical - API Webview",
+  "sender_name": "Harry Nguyen",
+  "timestamp": "11:37 10/08/2026",
+  "trigger_message": "Trinh PRT VNPT Chị Trinh ơi, em gửi thêm file pdf HDSD dạng slide, chị review qua giúp em với nha",
+  "context_history": [
+    {
+      "sender_name": "Harry",
+      "text": "Hoặc VNPT có thể khuyến khích user gia hạn Gói hội viên bằng điểm Vinaphone Plus để sử dụng lại voucher ở tháng trước đó. Cũng là 1 cách để thúc đẩy user burn điểm"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "ko được em ơi, vì hội viên đã mất điểm để đổi rồi"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "nên họ sẽ đòi quyền lợi"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "em viết cho chị 1 nội dung lưu ý để chị note trong điều khoản chương trình nhé"
+    },
+    {
+      "sender_name": "Harry",
+      "text": "Dạ okie chị"
+    },
+    {
+      "sender_name": "Harry",
+      "text": "- Trường hợp hội viên hết hạn sử dụng Gói UrBox Plus và vẫn còn Coupon ưu đãi còn HSD, Hội viên có thể tải App UrBox (Hyperlink: https://app.urbox.vn/download) & đăng nhập để tiếp tục sử dụng các Coupon này."
+    },
+    {
+      "sender_name": "Harry",
+      "text": "Trinh PRT VNPT Em gửi chị nha"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "đăng nhập = số điện thoại đã đổi ưu đãi e nhỉ"
+    },
+    {
+      "sender_name": "Harry",
+      "text": "dạ đúng ạ"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "banner lại biến mất rồi các e ơi"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "@phhoang276"
+    },
+    {
+      "sender_name": "Trinh",
+      "text": "Hải ơi, em làm giúp chị thành 1 link HDSD nhé, cái video dùng chung này KH khiếu nại nhiều e ạ"
+    },
+    {
+      "sender_name": "Harry",
+      "text": "Hiện user bảo video khó hiểu hả chị ? Trinh PRT VNPT"
+    },
+    {
+      "sender_name": "Harry",
+      "text": "Bên em có thêm gửi thêm file pdf hdsd dạng slide ngang thì có ổn hơn ko chị?"
+    },
+    {
+      "sender_name": "Harry Nguyen",
+      "text": "Trinh PRT VNPT Chị Trinh ơi, em gửi thêm file pdf HDSD dạng slide, chị review qua giúp em với nha",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5106757919_450677",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Trinh PRT VNPT Chị Trinh ơi, em gửi thêm file pdf HDSD dạng slide, chị review qua giúp em với nha\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Harry Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

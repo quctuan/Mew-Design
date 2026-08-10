@@ -1,0 +1,75 @@
+{
+  "task_id": "VNPT_20260810_113842",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Loc",
+  "timestamp": "11:38 10/08/2026",
+  "trigger_message": "webp thì e cũng chuyển đc anh ạ, ý là webp xong nó vẫn 200kb kia thì toi app luôn ấy anh;)),có size ảnh nhỏ, hay anh cắt bớt khoảng trắng thừa đc k anh",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Giữ nguyên đi ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Oke em"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh @quctuan ơi , chỗ này khi em chọn ⭐️ xong, thì ko có nút gửi đánh giá hả anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a bổ sung r nhé, rating đang xử lý chung là dẫn sang màn này"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "oke anh, em vừa nhìn thấy ròi :(("
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "a @do_da_gon, a @quynp98 ơi, nhóm này về dev của home mới, có câu hỏi gì các a trao đổi trong này luôn nha"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh này nặng quá a ạ, có ảnh nào nhẹ nhàng tình cảm hơn ko anh ;v"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "anh @quctuan ơi, hỗ trợ em xin các background của mỗi dịch vụ trong phần Quản lý dịch vụ với ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://drive.google.com/drive/u/0/folders/1kVFlhHEFtzlHmomlThqGjkqWkmGXSoIM\n\na gửi nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "e thử xem sao nhé"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "webp thì e cũng chuyển đc anh ạ, ý là webp xong nó vẫn 200kb kia thì toi app luôn ấy anh;)),có size ảnh nhỏ, hay anh cắt bớt khoảng trắng thừa đc k anh",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_450613",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"webp thì e cũng chuyển đc anh ạ, ý là webp xong nó vẫn 200kb kia thì toi app luôn ấy anh;)),có size ảnh nhỏ, hay anh cắt bớt khoản...\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Loc</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1543,20 +1543,96 @@ async def bot_api_polling_loop(client, bot_token: str, config: Dict[str, Any]):
 
                     # Lệnh xóa checklist: /del, /delete, /rm hoặc /todo del, /task del
                     if cmd in ["/del", "/delete", "/rm"] or text_lower.startswith(("/del", "/todo del", "/task del", "/tasks del")):
-                        parts = text.split()
+                        parts = text.split(maxsplit=1)
                         if len(parts) > 1:
-                            cid = parts[-1].lstrip("#")
+                            query = parts[1].strip()
                             db = load_tasks_db()
-                            if cid in db.get("checklists", {}):
-                                title = db["checklists"][cid].get("title", "Checklist")
+                            checklists = db.get("checklists", {})
+                            
+                            cid = None
+                            if query.startswith("#") and query[1:] in checklists:
+                                cid = query[1:]
+                            elif query in checklists:
+                                cid = query
+                            else:
+                                for k, v in checklists.items():
+                                    if query.lower() in v.get("title", "").lower():
+                                        cid = k
+                                        break
+
+                            if cid and cid in checklists:
+                                title = checklists[cid].get("title", "Checklist")
                                 del db["checklists"][cid]
                                 save_tasks_db(db)
                                 await send_bot_message(bot_token, chat_id, f"🗑 <b>Đã xóa thành công Checklist:</b> <i>{title}</i> (#{cid})")
                             else:
-                                await send_bot_message(bot_token, chat_id, f"⚠️ Không tìm thấy Checklist có mã <code>#{cid}</code>")
+                                await send_bot_message(bot_token, chat_id, f"⚠️ Không tìm thấy Checklist nào có tên hoặc mã <code>{query}</code>")
                         else:
-                            await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập mã checklist: <code>/del &lt;MÃ_ID&gt;</code>")
+                            await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập tên dự án hoặc mã checklist: <code>/del &lt;Tên hoặc Mã ID&gt;</code>")
                         continue
+
+                    # Lệnh sửa danh sách việc của checklist: /edit, /update
+                    if cmd in ["/edit", "/update"] or text_lower.startswith(("/edit", "/update", "/todo edit", "/task edit")):
+                        parts = text.split("\n", 1)
+                        first_line = parts[0].strip()
+                        
+                        match = re.match(r'^/\w+(?:\s+\w+)?\s+(.+)$', first_line, re.IGNORECASE)
+                        if match:
+                            query_part = match.group(1).strip()
+                            db = load_tasks_db()
+                            checklists = db.get("checklists", {})
+                            
+                            cid = None
+                            new_content = ""
+                            
+                            if len(parts) > 1:
+                                query = query_part
+                                new_content = parts[1].strip()
+                            else:
+                                if "|" in query_part:
+                                    query, new_content = [p.strip() for p in query_part.split("|", 1)]
+                                else:
+                                    await send_bot_message(bot_token, chat_id, "⚠️ <b>Vui lòng dùng cú pháp nhiều dòng hoặc dấu gạch đứng (|):</b>\n\n<i>Cách 1:</i>\n<code>/edit Tên Dự án | Việc 1, Việc 2</code>\n\n<i>Cách 2:</i>\n<code>/edit Tên Dự án\n- Việc 1\n- Việc 2</code>")
+                                    continue
+                            
+                            if query.startswith("#") and query[1:] in checklists:
+                                cid = query[1:]
+                            elif query in checklists:
+                                cid = query
+                            else:
+                                for k, v in checklists.items():
+                                    if query.lower() in v.get("title", "").lower():
+                                        cid = k
+                                        break
+                                        
+                            if cid and cid in checklists:
+                                if not new_content:
+                                    await send_bot_message(bot_token, chat_id, "⚠️ <b>Vui lòng nhập danh sách việc mới để thay thế:</b>\n\n<i>Ví dụ:</i>\n<code>/edit Tên Dự án\n- Việc 1\n- Việc 2</code>")
+                                    continue
+
+                                if "," in new_content and "\n" not in new_content:
+                                    fake_input = f"Dummy | Dummy | {new_content}"
+                                else:
+                                    fake_input = f"Dummy\n{new_content}"
+                                
+                                _, _, items = parse_new_checklist_input(fake_input)
+                                
+                                if items:
+                                    items_struct = [{"id": i, "text": item_text, "done": False} for i, item_text in enumerate(items, start=1)]
+                                    db["checklists"][cid]["items"] = items_struct
+                                    save_tasks_db(db)
+                                    
+                                    card_text, card_buttons = format_checklist_card(cid, db["checklists"][cid])
+                                    await send_bot_message(bot_token, chat_id, f"✅ <b>Đã cập nhật danh sách việc cho Checklist '{db['checklists'][cid].get('title')}':</b>")
+                                    await send_bot_message(bot_token, chat_id, card_text, reply_markup=card_buttons)
+                                else:
+                                    await send_bot_message(bot_token, chat_id, "⚠️ Không tìm thấy công việc nào hợp lệ trong nội dung mới.")
+                            else:
+                                await send_bot_message(bot_token, chat_id, f"⚠️ Không tìm thấy Checklist nào có tên hoặc mã <code>{query}</code>")
+                        else:
+                            await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập đúng cú pháp:\n<code>/edit &lt;Tên Dự Án&gt;\n- Việc mới 1\n- Việc mới 2</code>")
+                        continue
+
 
                     # Quản lý danh sách VIP Senders: /vip, /vip add, /vip del
                     if text_lower.startswith("/vip"):
