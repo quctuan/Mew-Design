@@ -333,6 +333,28 @@ def format_telegram_alert(task_info: Dict[str, Any]) -> str:
     )
     return alert_msg
 
+NOTIFIED_CACHE_FILE = CACHE_DIR / "notified_msg_ids.json"
+
+def check_and_mark_notified(msg_id: int) -> bool:
+    """Kiểm tra xem tin nhắn đã được gửi thông báo chưa. Nếu chưa thì đánh dấu là đã gửi."""
+    try:
+        if NOTIFIED_CACHE_FILE.exists():
+            with open(NOTIFIED_CACHE_FILE, "r", encoding="utf-8") as f:
+                notified_ids = set(json.load(f))
+        else:
+            notified_ids = set()
+            
+        if msg_id in notified_ids:
+            return True
+            
+        notified_ids.add(msg_id)
+        with open(NOTIFIED_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(list(notified_ids)[-2000:], f)
+        return False
+    except Exception as e:
+        print(f"[!] Lỗi khi đọc/ghi cache notified_ids: {e}")
+        return False
+
 def synthesize_context(messages: List[Dict[str, Any]], trigger_msg: Dict[str, Any], group_name: str, config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """Phân tích và tóm tắt ngữ cảnh từ danh sách tin nhắn trước đó"""
     sender = trigger_msg.get("sender_name", "Unknown")
@@ -1257,6 +1279,9 @@ async def scan_recent_missed_mentions(client, bot_token: str, config: Dict[str, 
                     history_messages.reverse()
                     history_messages.append(trigger_msg)
 
+                    if check_and_mark_notified(msg.id):
+                        continue
+
                     task_data = synthesize_context(history_messages, trigger_msg, dialog.name, config=config)
                     task_data["view_link"] = view_link
                     task_data["message_link"] = direct_link
@@ -1981,6 +2006,9 @@ async def start_telethon_listener(config: Dict[str, Any]):
             
             history_messages.reverse()
             history_messages.append(trigger_msg)
+
+            if check_and_mark_notified(event.id):
+                return
 
             task_data = synthesize_context(history_messages, trigger_msg, group_name, config=config)
             task_data["view_link"] = view_link
