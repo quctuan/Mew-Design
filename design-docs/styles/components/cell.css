@@ -1,0 +1,91 @@
+/* =============================================
+   Cell Item Component
+   ============================================= */
+
+.cell-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12x);
+    padding: var(--space-12x) var(--space-16x);
+    min-height: 56px;
+    border-bottom: 1px solid var(--border-secondary);
+    transition: background 0.15s;
+}
+
+.cell-item:hover {
+    background: var(--color-gray-50);
+}
+
+.cell-item--no-border {
+    border-bottom: none;
+}
+
+/* Leading */
+.cell-leading {
+    flex-shrink: 0;
+}
+
+.cell-icon-container {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--br-8x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-icon--brand {
+    background: var(--bg-brand-secondary);
+    color: var(--fg-brand);
+}
+
+.cell-icon--success {
+    background: var(--bg-success-secondary);
+    color: var(--fg-success);
+}
+
+.cell-icon--warning {
+    background: var(--bg-warning-secondary);
+    color: var(--fg-warning);
+}
+
+.cell-icon--error {
+    background: var(--bg-error-secondary);
+    color: var(--fg-error);
+}
+
+.cell-icon--neutral {
+    background: var(--bg-tertiary);
+    color: var(--fg-secondary);
+}
+
+/* Body */
+.cell-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cell-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: var(--font-font-line-height-sm);
+}
+
+.cell-subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: var(--font-font-line-height-xs);
+}
+
+/* Trailing */
+.cell-trailing {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--space-4x);
+    color: var(--fg-secondary);
+}

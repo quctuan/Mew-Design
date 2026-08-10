@@ -1,0 +1,59 @@
+{
+  "task_id": "VNPT_20260808_233951",
+  "group_name": "Nhóm Telegram",
+  "sender_name": "Mew Assistant",
+  "timestamp": "23:39 - 08/08/2026",
+  "trigger_message": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233951",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "/start"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🤖 BẢNG ĐIỀU KHIỂN TRỢ LÝ MEW DESIGN OPS\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 TÌM KIẾM & LỌC TIN NHẮN:\n• /find <từ_khóa> - Tìm tin nhắn chứa từ khóa xuyên suốt mọi nhóm\n  Ví dụ: /find Figma C06 hoặc /find deadline\n\n🔗 LỌC TÀI LIỆU & LINK THIẾT KẾ:\n• /links - Gom tất cả các link Figma, Google Docs/Sheets gần đây\n\n📄 TỰ ĐỘNG HÓA SOW & TIMELINE:\n• /sow <task_id> - Tự động tạo file SOW & Timeline chuẩn nội bộ\n\n💡 TỰ ĐỘNG CHẠY NGẦM:\nBot luôn tự động lắng nghe tag @tuanvq và nhắc tên trong tất cả nhóm để gửi cảnh báo tóm tắt về đây!"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🤖 BẢNG ĐIỀU KHIỂN TRỢ LÝ MEW DESIGN OPS\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 TÌM KIẾM & LỌC TIN NHẮN:\n• /find  - Tìm tin nhắn chứa từ khóa xuyên suốt mọi...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233948"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233949"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233949"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233950"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233950"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233951"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo luận:\n• Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.\n• Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.\n• Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\"\n\n🎯 Nội dung Cần Chú Ý:\n  👉 Rà soát yêu cầu và phản hồi cho Mew Assistant\n  👉 Kiểm tra file/link đính kèm (Figma/URD) nếu có\n\n🔗 Link tin nhắn gốc: Mở tin nhắn trong nhóm\n\n⚙️ Để tạo file SOW & Timeline chi tiết, gõ: /sow VNPT_20260808_233951",
+      "link": "https://t.me/mew629_bot/450055"
+    }
+  ],
+  "summary_bullets": [
+    "Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.",
+    "Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.",
+    "Nội dung trọng tâm: \"🚨 [NHẮC VIỆC VNPT MỚI] - 🟡 TIÊU CHUẨN\n📍 Nhóm: Nhóm Telegram\n👤 Người gọi bạn: Mew Assistant\n⏰ Thời gian: 23:39 - 08/08/2026\n\n📝 Tóm tắt Ngữ cảnh Thảo lu...\""
+  ],
+  "action_items": [
+    "Rà soát yêu cầu và phản hồi cho Mew Assistant",
+    "Kiểm tra file/link đính kèm (Figma/URD) nếu có"
+  ],
+  "urgency": "Tiêu chuẩn",
+  "message_link": "https://t.me/mew629_bot/450055",
+  "figma_links": [],
+  "doc_links": []
+}

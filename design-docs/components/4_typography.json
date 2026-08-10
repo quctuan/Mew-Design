@@ -1,0 +1,137 @@
+{
+  "font": {
+    "Family": {
+      "Typeface": {
+        "value": "SF Pro Display",
+        "type": "fontFamily",
+        "prefix": "4_typography"
+      }
+    },
+    "Weight": {
+      "Regular": {
+        "value": "Regular",
+        "type": "fontFamily",
+        "prefix": "4_typography"
+      },
+      "Medium": {
+        "value": "Medium",
+        "type": "fontFamily",
+        "prefix": "4_typography"
+      },
+      "Bold": {
+        "value": "Bold",
+        "type": "fontFamily",
+        "prefix": "4_typography"
+      }
+    },
+    "Size": {
+      "xxs": {
+        "value": "{10x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "xs": {
+        "value": "{12x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "sm": {
+        "value": "{14x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "md": {
+        "value": "{16x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "lg": {
+        "value": "{18x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "xl": {
+        "value": "{20x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "2xl": {
+        "value": "{24x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "3xl": {
+        "value": "{28x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "4xl": {
+        "value": "{32x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "5xl": {
+        "value": "{36x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "6xl": {
+        "value": "{40x}",
+        "type": "number",
+        "prefix": "4_typography"
+      }
+    },
+    "Line-height": {
+      "xs": {
+        "value": "{16x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "sm": {
+        "value": "{20x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "md": {
+        "value": "{24x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "lg": {
+        "value": "{26x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "xl": {
+        "value": "{30x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "2xl": {
+        "value": "{32x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "3xl": {
+        "value": "{36x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "4xl": {
+        "value": "{40x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "5xl": {
+        "value": "{44x}",
+        "type": "number",
+        "prefix": "4_typography"
+      },
+      "6xl": {
+        "value": "{52x}",
+        "type": "number",
+        "prefix": "4_typography"
+      }
+    }
+  }
+}

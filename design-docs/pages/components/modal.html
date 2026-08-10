@@ -1,0 +1,274 @@
+<!-- Modal Component Documentation — Sourced from Figma Design System -->
+<div class="content component-doc">
+    
+    <!-- Import component CSS -->
+    <link rel="stylesheet" href="styles/components/modal.css">
+    <link rel="stylesheet" href="styles/components/button.css">
+
+    <!-- 1. Header -->
+    <div class="component-header">
+        <span class="component-badge">Component</span>
+        <h1>Modal (Pop-up)</h1>
+        <p class="component-description">Giao diện hộp thoại phủ lên trên màn hình chính để thu hút sự tập trung của người dùng vào các nội dung tương tác bắt buộc hoặc những thông tin quan trọng.</p>
+        <div class="component-links">
+            <a href="https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System" target="_blank" class="component-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                View in Figma
+            </a>
+        </div>
+    </div>
+
+    <!-- 2. Hero Preview -->
+    <section class="doc-section" id="hero-preview">
+        <h2>Hero Preview</h2>
+        <div class="hero-demo" style="margin-top: 24px;">
+            <div style="padding: 64px; display: flex; flex-direction: column; gap: 32px; justify-content: center; align-items: center; background: #f8fafc; border-bottom: 1px solid rgba(226, 232, 240, 0.8);">
+                <!-- Hero Render -->
+                <div class="modal modal-md" style="transform: none; opacity: 1; max-height: none; width: 100%; position: relative;">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Deactivate Account</h3>
+                        <button class="modal-close" aria-label="Close modal">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bạn có chắc chắn muốn vô hiệu hóa tài khoản không? Tất cả dữ liệu của bạn sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-tertiary btn-md">Cancel</button>
+                        <button class="btn btn-destructive btn-md">Deactivate</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="usage-pane" style="margin-bottom: 16px;">
+                <div class="usage-header">
+                    <span class="usage-lang">iOS (Swift)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import MyVNPTDesignSystem
+
+// Show standard Modal/Dialog
+DSModal.show(
+    title: "Deactivate Account",
+    message: "Bạn có chắc chắn muốn vô hiệu hóa tài khoản không? Tất cả dữ liệu sẽ bị xóa.",
+    primaryButtonTitle: "Deactivate",
+    primaryButtonAction: {
+        // Handle deactivate
+    },
+    secondaryButtonTitle: "Cancel",
+    secondaryButtonAction: {
+        // Handle cancel
+    }
+)</code></pre>
+                </div>
+            </div>
+            
+            <div class="usage-pane" style="margin: 32px 32px 32px 0;">
+                <div class="usage-header">
+                    <span class="usage-lang">Android (Kotlin)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import vn.myvnpt.designsystem.components.DSModal
+
+// Show standard Dialog
+DSModal(
+    title = "Deactivate Account",
+    message = "Bạn có chắc chắn muốn vô hiệu hóa tài khoản không? Tất cả dữ liệu sẽ bị xóa.",
+    primaryButtonText = "Deactivate",
+    onPrimaryButtonClick = {
+        // Handle deactivate
+    },
+    secondaryButtonText = "Cancel",
+    onSecondaryButtonClick = {
+        // Handle cancel
+    },
+    onDismissRequest = {
+        // Handle dismiss
+    }
+)</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Examples / Variants -->
+    <section class="doc-section" id="variants">
+        <h2>Examples / Variants</h2>
+        
+        <p style="margin-bottom: 16px;">Nhấn vào các nút bên dưới để trải nghiệm Modal ở các kích thước và định dạng tương tác khác nhau.</p>
+
+        <div class="variant-grid" style="display: flex; gap: 16px;">
+            <button class="btn btn-secondary btn-md" id="demo-modal-sm-btn">Small Modal (400px)</button>
+            <button class="btn btn-secondary btn-md" id="demo-modal-md-btn">Medium Modal (600px)</button>
+            <button class="btn btn-secondary btn-md" id="demo-modal-lg-btn">Large Modal (800px)</button>
+        </div>
+
+        <h3 style="margin-top: 24px;">Các Thể Loại (Types)</h3>
+        <table class="spec-table">
+            <thead><tr><th>Type</th><th>Mô tả</th></tr></thead>
+            <tbody>
+                <tr><td><strong>Small</strong> (400px)</td><td>Modal cảnh báo nhanh, form đăng nhập gọn, hoặc chỉ có text ngắn.</td></tr>
+                <tr><td><strong>Medium</strong> (600px)</td><td>(Mặc định) Modal tiêu chuẩn cho phần lớn các workflow hoặc setting ngắn.</td></tr>
+                <tr><td><strong>Large</strong> (800px)</td><td>Modal thao tác phức hợp có data-table, wizard chia đoạn, hoặc text quy định dài dòng.</td></tr>
+            </tbody>
+        </table>
+
+        <!-- Actual Modals for Demo (Hidden by default) -->
+        <div class="modal-overlay" id="demo-modal-sm">
+            <div class="modal modal-sm">
+                <div class="modal-header">
+                    <h3 class="modal-title">Small Modal</h3>
+                    <button class="modal-close close-demo-modal">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Đây là một modal kích thước nhỏ, lý tưởng cho các thông báo xác nhận nhanh hoặc form đơn giản.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-md close-demo-modal">Got it</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="demo-modal-md">
+            <div class="modal modal-md">
+                <div class="modal-header">
+                    <h3 class="modal-title">Medium Modal</h3>
+                    <button class="modal-close close-demo-modal">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    This is a medium modal (default size), suitable for most content like settings, complex forms, or detailed information.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-tertiary btn-md close-demo-modal">Cancel</button>
+                    <button class="btn btn-primary btn-md">Save Changes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="demo-modal-lg">
+            <div class="modal modal-lg">
+                <div class="modal-header">
+                    <h3 class="modal-title">Large Modal</h3>
+                    <button class="modal-close close-demo-modal">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Đây là một modal kích thước lớn, cung cấp không gian rộng rãi cho các view hiển thị nhiều dữ liệu, wizard, hoặc các quy trình nhiều bước phức tạp.</p>
+                    <p style="margin-top: 16px;">Khu vực nội dung hỗ trợ scroll đảm bảo footer luôn hiển thị ngay cả khi thông tin dài.</p>
+                    <div style="height: 300px; background-color: var(--bg-tertiary); margin-top: 16px; border-radius: var(--br-8x); padding: 16px;">
+                        Vị trí giữ chỗ cho khối nội dung lớn...
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-tertiary btn-md close-demo-modal">Close</button>
+                    <button class="btn btn-primary btn-md">Confirm Selection</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 4. Usage Guidelines -->
+    <section class="doc-section" id="usage-guidelines">
+        <h2>Usage Guidelines</h2>
+        <ul class="checklist">
+            <li><strong>Do:</strong> Đảm bảo background đằng sau bị phủ lớp overlay tối (thường là rgba #000, 40-50%) để tập trung thị giác vào modal.</li>
+            <li><strong>Do:</strong> Cung cấp tối thiểu 1 hành động đóng modal (ví dụ nút "Got it" hoặc icon `X` Close).</li>
+            <li><strong>Don't:</strong> Không nhồi nhét quá nhiều Action phụ trong Footer. Tối đa chỉ nên có 2 (Primary và Secondary/Tertiary).</li>
+            <li><strong>Don't:</strong> Đừng bao giờ stack (xếp chồng) Modal này lên Modal khác. Nếu cần flow phức tạp, hãy sử dụng Fullscreen Modal hoặc Bottomsheet để thay thế.</li>
+        </ul>
+    </section>
+
+    <!-- 5. Accessibility -->
+    <section class="doc-section" id="accessibility">
+        <h2>Accessibility</h2>
+        <ul class="checklist">
+            <li>Sử dụng thuộc tính <code>role="dialog"</code> hoặc <code>role="alertdialog"</code> (với các cảnh báo mạnh).</li>
+            <li>Gán <code>aria-labelledby="[id_tieu_de]"</code> vào container modal để link tới Title, và <code>aria-describedby="[id_mo_ta]"</code> với mô tả nằm ở body.</li>
+            <li><strong>Focus Trap:</strong> Khi modal mở, tiêu cự bàn phím (focus) không thể lọt ra bên ngoài modal. Khi đóng, trả focus về nút đã mở modal.</li>
+            <li>Hỗ trợ phím <code>ESC</code> để thoát nếu modal đó không thuộc loại bắt buộc phản hồi (Action required).</li>
+        </ul>
+    </section>
+
+    <!-- 6. Design Specifications -->
+    <section class="doc-section" id="design-specifications">
+        <h2>Design Specifications</h2>
+        <table class="spec-table">
+            <thead><tr><th>Element</th><th>Property</th><th>Token / Value</th></tr></thead>
+            <tbody>
+                <tr><td>Overlay</td><td>Background</td><td>Color-Black (Opacity 40-50%)</td></tr>
+                <tr><td>Container</td><td>Radius / Shadow</td><td>16px Radius / High Elevation Shadow</td></tr>
+                <tr><td>Container Width</td><td>Desktop Max-width</td><td>400px (Sm) / 600px (Md) / 800px (Lg)</td></tr>
+                <tr><td>Container Width</td><td>Mobile</td><td>Full width minus margin 16px (2 edges)</td></tr>
+                <tr><td>Header</td><td>Title Typography</td><td>SF Pro Display / 18px / SemiBold</td></tr>
+                <tr><td>Body</td><td>Padding</td><td>Inner Gap 24px (hoặc 20px trên thiết bị nhỏ)</td></tr>
+                <tr><td>Footer actions</td><td>Alignment</td><td>Căn sang góc dưới cùng bên phải đối với Web, Fullwidth với mobile.</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 7. API Reference / Props Table -->
+    <section class="doc-section" id="api-reference">
+        <h2>API Reference / Props Table</h2>
+        <h3>Component: Modal (DSModal)</h3>
+        <table class="spec-table">
+            <thead><tr><th>Property</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+            <tbody>
+                <tr><td>Title</td><td><code>String</code></td><td><code>nil</code></td><td>Tiêu đề cho Modal (Header).</td></tr>
+                <tr><td>Message / Body</td><td><code>String/Node</code></td><td><code>nil</code></td><td>Nôi dung cảnh báo hoặc Custom View truyền vào khu vực giữa.</td></tr>
+                <tr><td>Size</td><td><code>Enum</code></td><td><code>Md</code></td><td><code>Sm</code>, <code>Md</code>, <code>Lg</code> điều khiển max width của popup trên iPad/Desktop.</td></tr>
+                <tr><td>Primary Action</td><td><code>Action/String</code></td><td><code>nil</code></td><td>Text cho nút Primary và block hàm callback đi kèm.</td></tr>
+                <tr><td>Secondary Action</td><td><code>Action/String</code></td><td><code>nil</code></td><td>Text cho nút Tertiary/Secondary và callback (Vd: nút Cancel).</td></tr>
+                <tr><td>Is Dismissable</td><td><code>Boolean</code></td><td><code>true</code></td><td>Bật/Tắt khả năng bấm ra ngoài màn mask đen để ẩn Modal.</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script>
+        // Demo Interactions Setup
+        setTimeout(() => {
+            const smBtn = document.getElementById('demo-modal-sm-btn');
+            const mdBtn = document.getElementById('demo-modal-md-btn');
+            const lgBtn = document.getElementById('demo-modal-lg-btn');
+
+            if (smBtn) smBtn.addEventListener('click', () => document.getElementById('demo-modal-sm').classList.add('is-open'));
+            if (mdBtn) mdBtn.addEventListener('click', () => document.getElementById('demo-modal-md').classList.add('is-open'));
+            if (lgBtn) lgBtn.addEventListener('click', () => document.getElementById('demo-modal-lg').classList.add('is-open'));
+
+            document.querySelectorAll('.close-demo-modal').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.target.closest('.modal-overlay').classList.remove('is-open');
+                });
+            });
+
+            // Click outside to close
+            document.querySelectorAll('.modal-overlay').forEach(overlay => {
+                overlay.addEventListener('click', (e) => {
+                    if (e.target === overlay) {
+                        overlay.classList.remove('is-open');
+                    }
+                });
+            });
+        }, 500);
+    </script>
+</div>

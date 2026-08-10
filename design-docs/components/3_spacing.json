@@ -1,0 +1,87 @@
+{
+  "spacing-none": {
+    "value": "{0x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-2x": {
+    "value": "{2x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-4x": {
+    "value": "{4x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-6x": {
+    "value": "{6x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-8x": {
+    "value": "{8x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-12x": {
+    "value": "{12x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-16x": {
+    "value": "{16x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-20x": {
+    "value": "{20x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-24x": {
+    "value": "{24x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-32x": {
+    "value": "{32x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-40x": {
+    "value": "{40x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-48x": {
+    "value": "{48x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-64x": {
+    "value": "{64x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-80x": {
+    "value": "{80x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-96x": {
+    "value": "{96x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-128x": {
+    "value": "{128x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  },
+  "spacing-160x": {
+    "value": "{160x}",
+    "type": "number",
+    "prefix": "3_spacing"
+  }
+}

@@ -1,0 +1,136 @@
+<div class="content">
+    <h1>Toggle (Switch)</h1>
+
+    <!-- Import Toggle Specific CSS -->
+    <link rel="stylesheet" href="styles/components/toggle.css">
+
+    <!-- Section 1: Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">STATES</div>
+        <div class="variant-row" style="align-items: center; gap: 40px; margin-bottom: 32px;">
+            <!-- Unselected -->
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input">
+                <div class="toggle-track">
+                    <div class="toggle-thumb"></div>
+                </div>
+                <span class="toggle-label">Unselected</span>
+            </label>
+
+            <!-- Selected -->
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input" checked>
+                <div class="toggle-track">
+                    <div class="toggle-thumb"></div>
+                </div>
+                <span class="toggle-label">Selected</span>
+            </label>
+        </div>
+
+        <div class="variant-group-label">DISABLED STATES</div>
+        <div class="variant-row" style="align-items: center; gap: 40px;">
+            <!-- Unselected Disabled -->
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input" disabled>
+                <div class="toggle-track">
+                    <div class="toggle-thumb"></div>
+                </div>
+                <span class="toggle-label" style="color: var(--global-colors-gray-500);">Disabled (Off)</span>
+            </label>
+
+            <!-- Selected Disabled -->
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input" checked disabled>
+                <div class="toggle-track">
+                    <div class="toggle-thumb"></div>
+                </div>
+                <span class="toggle-label" style="color: var(--global-colors-gray-500);">Disabled (On)</span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Section 2: Props -->
+    <h2 class="section-heading">Props</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="dark-props-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">isOn</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Tracks whether the switch is activated or deactivated.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">disabled</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Prevents state toggling via clicks or keyboard events.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 3: Accessibility -->
+    <h2 class="section-heading">Accessibility</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Acts as a native checkbox input ensuring standard HTML form submission behavior.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Focus states trigger an expanded outline halo on the track rather than text.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Semantic <code>&lt;label&gt;</code> wrapping guarantees an expanded clickable hit-area for touch
+                devices.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section 4: Usage -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">HTML</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>&lt;label class="toggle-wrapper"&gt;
+  &lt;input type="checkbox" class="toggle-input" id="wifi-settings"&gt;
+  &lt;div class="toggle-track"&gt;
+    &lt;div class="toggle-thumb"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;span class="toggle-label"&gt;Enable Wi-Fi Sync&lt;/span&gt;
+&lt;/label&gt;</code></pre>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+{
+  "radius-none": {
+    "value": "{0x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-2x": {
+    "value": "{2x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-4x": {
+    "value": "{4x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-6x": {
+    "value": "{6x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-8x": {
+    "value": "{8x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-10x": {
+    "value": "{10x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-12x": {
+    "value": "{12x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-16x": {
+    "value": "{16x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-20x": {
+    "value": "{20x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-24x": {
+    "value": "{24x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-32x": {
+    "value": "{32x}",
+    "type": "number",
+    "prefix": "2_radius"
+  },
+  "radius-full": {
+    "value": "{999x}",
+    "type": "number",
+    "prefix": "2_radius"
+  }
+}

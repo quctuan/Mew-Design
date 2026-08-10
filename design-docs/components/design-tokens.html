@@ -1,0 +1,23 @@
+<div class="content">
+    <h1>Design Tokens</h1>
+    <p>Design tokens are the visual design atoms of the design system — specifically, they are named entities that store
+        visual design attributes. We use them in place of hard-coded values (such as hex values for color or pixel
+        values for spacing) in order to maintain a scalable and consistent visual system.</p>
+
+    <h2>Colors</h2>
+    <p>Our color system is mapped via CSS Variables located in <code>styles/globals.css</code>. To use a color,
+        reference it like this: <code>var(--1-color-modes-default-background-bg-brand-primary)</code> or
+        <code>var(--1-color-modes-error-text-text-error)</code>.</p>
+
+    <h2>Spacing</h2>
+    <p>All spacings should be determined via the design tokens to ensure vertical and horizontal rhythm.</p>
+    <div class="component-preview" style="display:flex; gap: var(--3-spacing-spacing-16x, 16px);">
+        <div style="padding: var(--3-spacing-spacing-16x, 16px); background: #f0f0f0; border: 1px dashed #ccc;">Spacing
+            16x Example</div>
+        <div style="padding: var(--3-spacing-spacing-24x, 24px); background: #e0e0e0; border: 1px dashed #ccc;">Spacing
+            24x Example</div>
+    </div>
+
+    <h2>Typography</h2>
+    <p>Typography is driven by the <code>SF Pro Display</code> family.</p>
+</div>

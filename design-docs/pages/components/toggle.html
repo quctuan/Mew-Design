@@ -1,0 +1,245 @@
+<div class="content">
+
+    <!-- Section 1: Page Header -->
+    <h1>Toggle</h1>
+    <p class="description">Thành phần điều khiển cho phép người dùng bật tắt ngay lập tức một trạng thái cài đặt.</p>
+
+    <link rel="stylesheet" href="styles/components/toggle.css">
+
+    <!-- Section 2: Visual Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">DEFAULT STATES</div>
+        <div class="variant-row" style="margin-bottom: 32px; flex-direction: column; align-items: flex-start;">
+
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input">
+                <div class="toggle-content">
+                    <span class="toggle-label">Push notifications</span>
+                </div>
+            </label>
+
+            <label class="toggle-wrapper">
+                <input type="checkbox" class="toggle-input" checked>
+                <div class="toggle-content">
+                    <span class="toggle-label">Email updates</span>
+                </div>
+            </label>
+
+        </div>
+
+        <div class="variant-group-label">SIZES & DESCRIPTIONS</div>
+        <div class="variant-row" style="margin-bottom: 32px; flex-direction: column; align-items: flex-start;">
+
+            <label class="toggle-wrapper toggle-sm">
+                <input type="checkbox" class="toggle-input" checked>
+                <div class="toggle-content">
+                    <span class="toggle-label">Small Toggle (sm)</span>
+                </div>
+            </label>
+
+            <label class="toggle-wrapper" style="margin-top: 16px;">
+                <input type="checkbox" class="toggle-input" checked>
+                <div class="toggle-content">
+                    <span class="toggle-label">Automatic backup</span>
+                    <span class="toggle-desc">Saves your progress to the cloud every 10 minutes.</span>
+                </div>
+            </label>
+
+        </div>
+
+        <div class="variant-group-label">DISABLED STATES</div>
+        <div class="variant-row" style="flex-direction: column; align-items: flex-start;">
+
+            <label class="toggle-wrapper is-disabled">
+                <input type="checkbox" class="toggle-input" disabled>
+                <div class="toggle-content">
+                    <span class="toggle-label">Location tracking</span>
+                    <span class="toggle-desc">Disabled by system permissions.</span>
+                </div>
+            </label>
+
+            <label class="toggle-wrapper is-disabled" style="margin-top: 16px;">
+                <input type="checkbox" class="toggle-input" checked disabled>
+                <div class="toggle-content">
+                    <span class="toggle-label">Mandatory analytics</span>
+                    <span class="toggle-desc">Cannot be turned off for enterprise accounts.</span>
+                </div>
+            </label>
+
+        </div>
+
+    </div>
+
+    <!-- Section 3: Usage / Code Snippet -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import MyVNPTDesignSystem
+
+// Standard Toggle
+DSToggle(
+    title: "Push notifications",
+    isOn: $pushEnabled
+)
+
+// Toggle with Description
+DSToggle(
+    title: "Automatic backup",
+    description: "Saves your progress to the cloud every 10 minutes.",
+    isOn: $backupEnabled
+)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import vn.myvnpt.designsystem.components.DSToggle
+
+// Standard Toggle
+DSToggle(
+    title = "Push notifications",
+    isChecked = pushEnabled,
+    onCheckedChange = { pushEnabled = it }
+)
+
+// Toggle with Description
+DSToggle(
+    title = "Automatic backup",
+    description = "Saves your progress to the cloud every 10 minutes.",
+    isChecked = backupEnabled,
+    onCheckedChange = { backupEnabled = it }
+)</code></pre>
+        </div>
+    </div>
+
+    <!-- Section 4: API Reference / Props -->
+    <h2 class="section-heading">Props Reference</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Class / Target</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">checked</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Native browser property on <code>&lt;input&gt;</code>. Toggles the switch track color and
+                        transforms the knob via CSS.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">disabled</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Native browser property. Dims the track, removes the knob shadow, and prevents interaction.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">toggle-sm</span></td>
+                    <td><span class="prop-tag">modifier class</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Applied to <code>.toggle-wrapper</code> to reduce the switch size from 44x24 to 32x18, along
+                        with corresponding font sizes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 4.5: Design Specifications -->
+    <h2 class="section-heading">Design Specifications</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Property</th>
+                    <th>Token / Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>.toggle-input</code> (Track)</td>
+                    <td>Width</td>
+                    <td><span class="prop-tag">44px</span> (Default) / <span class="prop-tag">32px</span> (Small)</td>
+                </tr>
+                <tr>
+                    <td><code>.toggle-input</code> (Track)</td>
+                    <td>Height</td>
+                    <td><span class="prop-tag">24px</span> (Default) / <span class="prop-tag">18px</span> (Small)</td>
+                </tr>
+                <tr>
+                    <td>Knob (Inner Circle)</td>
+                    <td>Size</td>
+                    <td><span class="prop-tag">20px</span> (Default) / <span class="prop-tag">14px</span> (Small)</td>
+                </tr>
+                <tr>
+                    <td>Knob (Inner Circle)</td>
+                    <td>Offset / Margin</td>
+                    <td><span class="prop-tag">2px</span></td>
+                </tr>
+                <tr>
+                    <td><code>.toggle-content</code></td>
+                    <td>Gap (Spacing from Track)</td>
+                    <td><span class="prop-tag">var(--space-12x)</span> / 12px</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 5: Accessibility -->
+    <h2 class="section-heading">Accessibility Considerations</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Toggles act like instantaneous switches. Unlike checkboxes, their state change should ideally take
+                effect immediately without requiring a "Save" button.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Built natively on top of <code>&lt;input type="checkbox"&gt;</code> wrapped in a
+                <code>&lt;label&gt;</code>, ensuring 100% native keyboard Tab support and Spacebar toggling.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Focus states expand beyond the bounds of the pill track to ensure visibility across varying background
+                constrasts.
+            </li>
+        </ul>
+    </div>
+
+</div>

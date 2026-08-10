@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- GDS MyVNPT Docsite - Latests Deployment: 2026-03-27 -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My VNPT Design System</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/globals.css?v=1.0.1">
+    <link rel="stylesheet" href="styles/main.css?v=1.0.1">
+    <link rel="stylesheet" href="styles/components/alert.css">
+    <link rel="stylesheet" href="styles/components/avatar.css">
+    <link rel="stylesheet" href="styles/components/badge.css">
+    <link rel="stylesheet" href="styles/components/bottomsheet.css">
+    <link rel="stylesheet" href="styles/components/button.css">
+    <link rel="stylesheet" href="styles/components/cell.css">
+    <link rel="stylesheet" href="styles/components/checkbox-radio.css">
+    <link rel="stylesheet" href="styles/components/chip.css">
+    <link rel="stylesheet" href="styles/components/input.css">
+    <link rel="stylesheet" href="styles/components/modal.css">
+    <link rel="stylesheet" href="styles/components/tab.css">
+    <link rel="stylesheet" href="styles/components/toggle.css">
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo">
+            <img src="assets/images/myvnpt-logo.png" width="24" height="24" alt="My VNPT Logo" style="margin-right: 8px; border-radius: 6px;" />
+            My VNPT Design System
+        </div>
+        <div class="nav-links">
+            <a href="#/documentation" class="nav-link">Documentation</a>
+            <a href="#/" class="nav-link active">Components</a>
+            <a href="https://github.com/minhan720/gds-myvnpt-wiki" target="_blank" class="nav-link">GitHub</a>
+            <a href="https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=6-4693&t=5l1l79nMmeopbFJ2-1" target="_blank" class="btn btn-primary btn-sm" style="margin-left: 12px;">Open Figma</a>
+        </div>
+    </nav>
+
+    <!-- Main Layout Grid -->
+    <div class="layout">
+        <!-- Sidebar Navigation (A-Z per Category) -->
+        <aside class="sidebar">
+            <div class="sidebar-search">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="component-search" placeholder="Search components..." autocomplete="off">
+            </div>
+            
+            <div class="sidebar-nav" id="sidebar-nav-container">
+                <!-- Group: Foundation -->
+                <div class="nav-group">
+                    <div class="nav-group-title">Foundation</div>
+                    <a href="#/colors" class="nav-item root-link">Colors</a>
+                    <a href="#/spacing" class="nav-item root-link">Spacing & Radius</a>
+                    <a href="#/typography" class="nav-item root-link">Typography</a>
+                </div>
+
+                <!-- Group: Components -->
+                <div class="nav-group">
+                    <div class="nav-group-title">Components</div>
+                    <a href="#/alert" class="nav-item root-link">Alert</a>
+                    <a href="#/avatar" class="nav-item root-link">Avatar</a>
+                    <a href="#/badge" class="nav-item root-link">Badge</a>
+                    <a href="#/bottomsheet" class="nav-item root-link">Bottom Sheet</a>
+                    <a href="#/button" class="nav-item root-link">Button</a>
+                    <a href="#/cell" class="nav-item root-link">Cell Item</a>
+                    <a href="#/checkbox-radio" class="nav-item root-link">Checkbox & Radio</a>
+                    <a href="#/chip" class="nav-item root-link">Chip</a>
+                    <a href="#/input" class="nav-item root-link">Input</a>
+                    <a href="#/modal" class="nav-item root-link">Modal</a>
+                    <a href="#/tab" class="nav-item root-link">Tab</a>
+                    <a href="#/toggle" class="nav-item root-link">Toggle</a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Dynamic Content Router Outlet -->
+        <main class="main-content" id="app-content">
+            <!-- Content will be injected here via router.js -->
+            <div class="content"
+                style="display: flex; height: 100%; align-items: center; justify-content: center; color: var(--color-gray-500);">
+                Select a component from the sidebar to view its documentation.
+            </div>
+        </main>
+
+        <!-- Table of Contents — Notion Style (Right) -->
+        <div class="toc-container" id="toc-container">
+            <!-- Toggle Rail (Notion-style dashes, one per heading) -->
+            <div class="toc-rail" id="toc-rail">
+                <!-- Dash lines generated dynamically by router.js -->
+            </div>
+            <!-- ToC Panel (expands on hover/click) -->
+            <aside class="toc-panel" id="toc-panel">
+                <nav class="toc-nav" id="toc-nav">
+                    <!-- ToC links dynamically generated by router.js -->
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script src="scripts/router.js?v=1.0.3"></script>
+</body>
+
+</html>

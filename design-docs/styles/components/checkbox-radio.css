@@ -1,0 +1,147 @@
+/* =============================================
+   Checkbox & Radio Component
+   ============================================= */
+
+/* --- Base control wrapper --- */
+.control-checkbox,
+.control-radio {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-8x);
+    cursor: pointer;
+    font-size: var(--font-font-size-sm);
+    color: var(--text-primary);
+    line-height: var(--font-font-line-height-sm);
+    user-select: none;
+    position: relative;
+}
+
+.control-checkbox input,
+.control-radio input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+/* --- Indicator (shared) --- */
+.control-indicator {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 2px solid var(--border-primary);
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    position: relative;
+}
+
+/* Checkbox = rounded square */
+.control-checkbox .control-indicator {
+    border-radius: var(--br-4x);
+}
+
+/* Radio = circle */
+.control-radio .control-indicator {
+    border-radius: 50%;
+}
+
+/* --- Checked state --- */
+.control-checkbox input:checked + .control-indicator {
+    background: var(--bg-brand-solid);
+    border-color: var(--bg-brand-solid);
+}
+
+/* Checkmark SVG via CSS */
+.control-checkbox input:checked + .control-indicator::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-top: -1px;
+}
+
+.control-radio input:checked + .control-indicator {
+    border-color: var(--bg-brand-solid);
+    background: var(--bg-primary);
+}
+
+/* Radio inner dot */
+.control-radio input:checked + .control-indicator::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--bg-brand-solid);
+}
+
+/* --- Hover --- */
+.control-checkbox:hover .control-indicator,
+.control-radio:hover .control-indicator {
+    border-color: var(--color-brand-400);
+}
+
+/* --- Focus visible --- */
+.control-checkbox input:focus-visible + .control-indicator,
+.control-radio input:focus-visible + .control-indicator {
+    outline: 2px solid var(--color-brand-300);
+    outline-offset: 2px;
+}
+
+/* --- Disabled --- */
+.control-checkbox input:disabled + .control-indicator,
+.control-radio input:disabled + .control-indicator {
+    background: var(--bg-disable);
+    border-color: var(--color-gray-300);
+    cursor: not-allowed;
+}
+
+.control-checkbox input:disabled:checked + .control-indicator {
+    background: var(--color-gray-400);
+    border-color: var(--color-gray-400);
+}
+
+.control-radio input:disabled:checked + .control-indicator::after {
+    background: var(--color-gray-400);
+}
+
+.control-checkbox input:disabled ~ .control-label,
+.control-radio input:disabled ~ .control-label,
+.control-checkbox input:disabled ~ .control-text .control-label,
+.control-radio input:disabled ~ .control-text .control-label {
+    color: var(--text-disabled);
+}
+
+/* --- Label & Description --- */
+.control-label {
+    font-size: var(--font-font-size-sm);
+    color: var(--text-primary);
+}
+
+.control-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.control-description {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: var(--font-font-line-height-xs);
+}
+
+/* --- Multi-line alignment --- */
+.control--has-description {
+    align-items: flex-start;
+}
+
+.control--has-description .control-indicator {
+    margin-top: 2px;
+}

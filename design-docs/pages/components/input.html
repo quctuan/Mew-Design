@@ -1,0 +1,219 @@
+<!-- Input Component Documentation — Sourced from Figma Design System -->
+<div class="content component-doc">
+    
+    <link rel="stylesheet" href="styles/components/input.css">
+
+    <!-- 1. Header -->
+    <div class="component-header">
+        <span class="component-badge">Component</span>
+        <h1>Input</h1>
+        <p class="component-description">Thành phần cơ bản cho phép người dùng nhập dữ liệu, thông tin dạng văn bản cũng như hiển thị văn bản theo định dạng phức tạp.</p>
+        <div class="component-links">
+            <a href="https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System" target="_blank" class="component-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                View in Figma
+            </a>
+        </div>
+    </div>
+
+    <!-- 2. Hero Preview -->
+    <section class="doc-section" id="hero-preview">
+        <h2>Hero Preview</h2>
+        <div class="hero-demo" style="margin-top: 24px;">
+            <div style="padding: 64px; display: flex; flex-direction: column; gap: 32px; justify-content: center; align-items: center; background: #f8fafc; border-bottom: 1px solid rgba(226, 232, 240, 0.8);">
+                <!-- Hero Render -->
+                <div class="input-wrapper" style="width: 320px;">
+                    <label class="input-label">Email Address</label>
+                    <div class="input-container">
+                        <input type="text" class="input-field" placeholder="name@vnpt.vn">
+                    </div>
+                    <div class="input-help-text">We will never share your email.</div>
+                </div>
+            </div>
+            
+            <div class="usage-pane" style="margin-bottom: 16px;">
+                <div class="usage-header">
+                    <span class="usage-lang">iOS (Swift)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import MyVNPTDesignSystem
+
+// Standard Input
+DSInput(
+    title: "Email Address",
+    placeholder: "name@vnpt.vn",
+    text: $emailText,
+    helperText: "We will never share your email."
+)</code></pre>
+                </div>
+            </div>
+            
+            <div class="usage-pane" style="margin: 32px 32px 32px 0;">
+                <div class="usage-header">
+                    <span class="usage-lang">Android (Kotlin)</span>
+                    <button class="usage-copy">Copy</button>
+                </div>
+                <div class="usage-content">
+<pre><code>import vn.myvnpt.designsystem.components.DSInput
+
+// Standard Input
+DSInput(
+    title = "Email Address",
+    placeholder = "name@vnpt.vn",
+    text = emailText,
+    onTextChange = { emailText = it },
+    helperText = "We will never share your email."
+)</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Examples / Variants -->
+    <section class="doc-section" id="variants">
+        <h2>Examples / Variants</h2>
+        
+        <p>Input hỗ trợ đa dạng cấu hình từ biểu tượng, nhãn dán cho đến lỗi trạng thái.</p>
+
+        <!-- Variants Group -->
+        <h3 style="margin-top: 24px;">States & Validation</h3>
+        <div class="variant-row" style="margin-bottom: 32px; display: flex; gap: 32px; flex-wrap: wrap;">
+            <div class="input-wrapper" style="width: 250px;">
+                <label class="input-label input-label-required">Disabled Input</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="Uneditable text" disabled>
+                </div>
+                <div class="input-help-text">This field cannot be edited.</div>
+            </div>
+
+            <div class="input-wrapper is-error" style="width: 250px;">
+                <label class="input-label input-label-required">Error Input</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="Wrong data">
+                </div>
+                <div class="input-help-text">This field is required and invalid.</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Text Input with Icons</h3>
+        <div class="variant-row" style="margin-bottom: 32px; display: flex; gap: 32px;">
+            <div class="input-wrapper input-icon-both" style="width: 320px;">
+                <label class="input-label">Label</label>
+                <div class="input-container">
+                    <svg class="icon-left" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
+                    <input type="text" class="input-field" placeholder="Place holder">
+                    <svg class="icon-right" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </div>
+                <div class="input-help-text">Hint message here.</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Search Input</h3>
+        <div class="variant-row" style="margin-bottom: 32px; display: flex; gap: 32px;">
+            <div class="input-wrapper input-search" style="width: 320px;">
+                <div class="input-container">
+                    <svg class="icon-left" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" class="input-field" value="Filled content">
+                    <div class="icon-clear" style="right: 12px; position: absolute; pointer-events: auto; cursor: pointer;">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="input-help-text">Hint message here.</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Text Area</h3>
+        <div class="variant-row" style="margin-bottom: 32px; display: flex; gap: 32px;">
+            <div class="input-wrapper" style="width: 360px;">
+                <label class="input-label">Note</label>
+                <div class="textarea-container">
+                    <textarea class="input-field" placeholder="Text value" rows="4"></textarea>
+                    <div class="input-counter">0/300</div>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Big Input (Currency)</h3>
+        <div class="variant-row" style="display: flex; gap: 32px;">
+            <div class="input-wrapper input-big" style="width: 320px;">
+                <label class="input-label">Amount</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="100.000" style="font-size: 24px; font-weight: 700; padding: 16px 12px;">
+                    <div class="input-big-suffix" style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); display: flex; align-items: center; gap: 8px;">
+                        <span class="input-big-currency" style="font-size: 16px; font-weight: 600; color: #555;">đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Usage Guidelines -->
+    <section class="doc-section" id="usage-guidelines">
+        <h2>Usage Guidelines</h2>
+        <ul class="checklist">
+            <li><strong>Do:</strong> Cung cấp `placeholder` rõ ràng, gợi ý định dạng mong muốn (ví dụ: `091xxxxxxx`).</li>
+            <li><strong>Do:</strong> Thể hiện dấu `*` ở label nếu là bắt buộc.</li>
+            <li><strong>Don't:</strong> Ẩn label hoàn toàn. Luôn hiển thị label ở trên thay vì chỉ dùng `placeholder`.</li>
+            <li><strong>Don't:</strong> Nhập cùng lúc cả Hint Text và Error Text. Nếu báo lỗi, ẩn Hint Text đi để thay bằng mô tả lỗi rõ ràng.</li>
+        </ul>
+    </section>
+
+    <!-- 5. Accessibility -->
+    <section class="doc-section" id="accessibility">
+        <h2>Accessibility</h2>
+        <ul class="checklist">
+            <li><strong>Labeling:</strong> Phải liên kết <code>&lt;label&gt;</code> và <code>&lt;input&gt;</code> qua <code>id</code> và <code>for</code> một cách minh bạch.</li>
+            <li><strong>Focus:</strong> Khi được tương tác bằng bàn phím, outline cần rõ ràng với chuẩn WCAG Focus Indicator. Default focus state của ds sử dụng border ring 2px.</li>
+            <li><strong>Error feedback:</strong> Không chỉ dùng màu đỏ, mà phải cung cấp `aria-invalid="true"` và sử dụng string lỗi liên kết vào <code>aria-describedby</code> để reader đọc lỗi.</li>
+            <li><strong>Touch target:</strong> Trích xuất vùng chạm trong điện thoại của icon clear hay mắt bật/tắt mật khẩu đảm bảo tối thiểu 44x44px.</li>
+        </ul>
+    </section>
+
+    <!-- 6. Design Specifications -->
+    <section class="doc-section" id="design-specifications">
+        <h2>Design Specifications</h2>
+        <table class="spec-table">
+            <thead><tr><th>Element</th><th>Property</th><th>Token / Value</th></tr></thead>
+            <tbody>
+                <tr><td>Input Field</td><td>Height</td><td><code>48px</code> (Standard) / Tuỳ chỉnh với Area</td></tr>
+                <tr><td>Input Field</td><td>Corner Radius</td><td><code>12px</code></td></tr>
+                <tr><td>Input Field</td><td>Padding Horizontal</td><td><code>16px</code></td></tr>
+                <tr><td>Input Label</td><td>Typography</td><td>SF Pro Display / 14px / Med 500</td></tr>
+                <tr><td>Input Text</td><td>Typography</td><td>SF Pro Display / 16px / Reg 400</td></tr>
+                <tr><td>Hint/Error Text</td><td>Typography</td><td>SF Pro Display / 13px / Reg 400</td></tr>
+                <tr><td>Error State</td><td>Border/Text Color</td><td><code>#E02020</code> (Red)</td></tr>
+                <tr><td>Icons (Left/Right)</td><td>Offset / Padding</td><td><code>12px</code> cách viền</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 7. API Reference / Props Table -->
+    <section class="doc-section" id="api-reference">
+        <h2>API Reference / Props Table</h2>
+        <h3>Component: Input</h3>
+        <table class="spec-table">
+            <thead><tr><th>Property</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+            <tbody>
+                <tr><td>Title (Label)</td><td><code>String</code></td><td><code>nil</code></td><td>Tiêu đề cho Input.</td></tr>
+                <tr><td>Placeholder</td><td><code>String</code></td><td><code>nil</code></td><td>Dòng placeholder bên trong text field.</td></tr>
+                <tr><td>Helper Text</td><td><code>String</code></td><td><code>nil</code></td><td>Đoạn text hỗ trợ ở bên dưới input (hiển thị khi default hoặc active).</td></tr>
+                <tr><td>State</td><td><code>Enum</code></td><td><code>Normal</code></td><td><code>Normal</code>, <code>Error</code>, <code>Disabled</code>. Trạng thái error sẽ đổ helper text thành màu đỏ.</td></tr>
+                <tr><td>Left Icon</td><td><code>Resource</code></td><td><code>nil</code></td><td>Asset icon cho slot bên phần trái input.</td></tr>
+                <tr><td>Right Icon</td><td><code>Resource</code></td><td><code>nil</code></td><td>Asset icon cho slot bên phải (ví dụ nút mắt hiển thị mật khẩu).</td></tr>
+                <tr><td>Is Secured</td><td><code>Boolean</code></td><td><code>false</code></td><td>Có ẩn text như nhập Password hay không.</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+</div>

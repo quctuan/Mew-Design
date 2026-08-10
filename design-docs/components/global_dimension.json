@@ -1,0 +1,147 @@
+{
+  "0x": {
+    "value": 0,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "2x": {
+    "value": 2,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "4x": {
+    "value": 4,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "6x": {
+    "value": 6,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "8x": {
+    "value": 8,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "10x": {
+    "value": 10,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "12x": {
+    "value": 12,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "14x": {
+    "value": 14,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "16x": {
+    "value": 16,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "18x": {
+    "value": 18,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "20x": {
+    "value": 20,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "24x": {
+    "value": 24,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "26x": {
+    "value": 26,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "28x": {
+    "value": 28,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "30x": {
+    "value": 30,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "32x": {
+    "value": 32,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "36x": {
+    "value": 36,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "40x": {
+    "value": 40,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "44x": {
+    "value": 44,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "48x": {
+    "value": 48,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "52x": {
+    "value": 52,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "56x": {
+    "value": 56,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "60x": {
+    "value": 60,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "64x": {
+    "value": 64,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "80x": {
+    "value": 80,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "96x": {
+    "value": 96,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "128x": {
+    "value": 128,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "160x": {
+    "value": 160,
+    "type": "number",
+    "prefix": "global_dimension"
+  },
+  "999x": {
+    "value": 999,
+    "type": "number",
+    "prefix": "global_dimension"
+  }
+}

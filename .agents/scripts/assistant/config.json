@@ -1,0 +1,80 @@
+{
+  "active_channels": {
+    "telegram": true,
+    "whatsapp": true,
+    "zalo": true
+  },
+  "telegram_userbot": {
+    "api_id": 36363867,
+    "api_hash": "c786f808bb5bdaa0adfd399537f5a724",
+    "session_name": "vnpt_tuanvq_session"
+  },
+  "telegram_notifier_bot": {
+    "bot_token": "8820364042:AAG5XOtQmRls7Tvfjakv3ajUzbAa6CLe8hc",
+    "my_chat_id": 1083272610
+  },
+  "settings": {
+    "my_usernames": [
+      "@quctuan",
+      "quctuan",
+      "@tuanvq",
+      "tuanvq"
+    ],
+    "whitelist_dialog_ids": [],
+    "vip_senders": [
+      "Hà PO",
+      "PO",
+      "Lead",
+      "Sếp",
+      "PM",
+      "quynhmaihavi",
+      "Lê",
+      "Giám đốc",
+      "VNPT - Hà PO",
+      "VNPT - Anh Minh PO",
+      "VNPT - Anh Cường - GĐ GDS",
+      "Quynh Mai",
+      "Hoàng Anh",
+      "Nhu",
+      "thuy la le",
+      "Thuỳ Anh",
+      "Tuan Tran",
+      "ViệtMV",
+      "Anh Nguyen"
+    ],
+    "keywords": [
+      "Tuấn",
+      "Anh Tuấn",
+      "TuanVQ",
+      "quctuan",
+      "Mew",
+      "URD",
+      "Design",
+      "Figma",
+      "UI/UX",
+      "Review",
+      "Gấp",
+      "Deadline",
+      "Luồng",
+      "SOW",
+      "animation",
+      "motion",
+      "prototype"
+    ],
+    "context_history_limit": 15,
+    "auto_notify": true
+  },
+  "zalo_settings": {
+    "whitelist": [
+      "Anh Tín",
+      "[VFS] Design outsource",
+      "Huu Nghi - Opla CRM",
+      "Trình Khánh",
+      "Vũ Thị Thuỷ Tiên",
+      "Group của tôi, Thuỳ Trang, Vũ Thị Thuỷ Tiên",
+      "Thuỳ Trang",
+      "VFS",
+      "Opla CRM"
+    ]
+  }
+}

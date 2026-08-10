@@ -1,0 +1,26 @@
+{
+  "task_id": "VNPT_20260809_141650",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Minh Dev",
+  "timestamp": "14:16 09/08/2026",
+  "trigger_message": "Bác @tuanvq ơi em xin file prototype của mini app MyTV với",
+  "context_history": [],
+  "context_sentence": "<i>\"Bác @tuanvq ơi em xin file prototype của mini app MyTV với\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 16,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎨 Thiết kế: \"prototype\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": "https://t.me/c/123/789",
+  "figma_links": [],
+  "doc_links": []
+}

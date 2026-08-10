@@ -1,0 +1,31 @@
+{
+  "task_id": "VNPT_20260808_233948",
+  "group_name": "Nhóm Telegram",
+  "sender_name": "Mew Assistant",
+  "timestamp": "23:39 - 08/08/2026",
+  "trigger_message": "🤖 BẢNG ĐIỀU KHIỂN TRỢ LÝ MEW DESIGN OPS\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 TÌM KIẾM & LỌC TIN NHẮN:\n• /find <từ_khóa> - Tìm tin nhắn chứa từ khóa xuyên suốt mọi nhóm\n  Ví dụ: /find Figma C06 hoặc /find deadline\n\n🔗 LỌC TÀI LIỆU & LINK THIẾT KẾ:\n• /links - Gom tất cả các link Figma, Google Docs/Sheets gần đây\n\n📄 TỰ ĐỘNG HÓA SOW & TIMELINE:\n• /sow <task_id> - Tự động tạo file SOW & Timeline chuẩn nội bộ\n\n💡 TỰ ĐỘNG CHẠY NGẦM:\nBot luôn tự động lắng nghe tag @tuanvq và nhắc tên trong tất cả nhóm để gửi cảnh báo tóm tắt về đây!",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "/start"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "🤖 BẢNG ĐIỀU KHIỂN TRỢ LÝ MEW DESIGN OPS\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 TÌM KIẾM & LỌC TIN NHẮN:\n• /find <từ_khóa> - Tìm tin nhắn chứa từ khóa xuyên suốt mọi nhóm\n  Ví dụ: /find Figma C06 hoặc /find deadline\n\n🔗 LỌC TÀI LIỆU & LINK THIẾT KẾ:\n• /links - Gom tất cả các link Figma, Google Docs/Sheets gần đây\n\n📄 TỰ ĐỘNG HÓA SOW & TIMELINE:\n• /sow <task_id> - Tự động tạo file SOW & Timeline chuẩn nội bộ\n\n💡 TỰ ĐỘNG CHẠY NGẦM:\nBot luôn tự động lắng nghe tag @tuanvq và nhắc tên trong tất cả nhóm để gửi cảnh báo tóm tắt về đây!",
+      "link": "https://t.me/mew629_bot/450048"
+    }
+  ],
+  "summary_bullets": [
+    "Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.",
+    "Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.",
+    "Nội dung trọng tâm: \"🤖 BẢNG ĐIỀU KHIỂN TRỢ LÝ MEW DESIGN OPS\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 TÌM KIẾM & LỌC TIN NHẮN:\n• /find <từ_khóa> - Tìm tin nhắn chứa từ khóa xuyên suốt mọi...\""
+  ],
+  "action_items": [
+    "Rà soát yêu cầu và phản hồi cho Mew Assistant",
+    "Kiểm tra file/link đính kèm (Figma/URD) nếu có"
+  ],
+  "urgency": "Tiêu chuẩn",
+  "message_link": "https://t.me/mew629_bot/450048",
+  "figma_links": [],
+  "doc_links": []
+}

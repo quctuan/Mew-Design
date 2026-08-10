@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>My Travel Hub - Premium UI Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Google Fonts for Premium Look (Outfit & JetBrains Mono) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            DEFAULT: '#0EA5E9', // Electric Blue accent
+                            50: '#F0F9FF',
+                            900: '#0C4A6E'
+                        },
+                        zinc: {
+                            950: '#09090B'
+                        }
+                    },
+                    animation: {
+                        'blob': 'blob 7s infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'shimmer': 'shimmer 2.5s linear infinite',
+                    },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        },
+                        shimmer: {
+                            '0%': { backgroundPosition: '200% 0' },
+                            '100%': { backgroundPosition: '-200% 0' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #09090B;
+            color: #FAFAFA;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #ffffff, #a1a1aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Hide scrollbar for clean UI */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .stack-card {
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s;
+            transform-origin: top center;
+        }
+
+        .stack-card:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+    </style>
+</head>
+
+<body class="min-h-[100dvh] flex items-center justify-center p-4 md:p-8 bg-zinc-950 overflow-hidden relative">
+
+    <!-- Ambient Background Blobs -->
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div
+            class="absolute top-[-10%] left-[-10%] w-[40rem] h-[40rem] bg-brand-900 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-blob">
+        </div>
+        <div class="absolute top-[20%] right-[-10%] w-[35rem] h-[35rem] bg-indigo-900 rounded-full mix-blend-screen filter blur-[100px] opacity-20 animate-blob"
+            style="animation-delay: 2s"></div>
+    </div>
+
+    <!-- Mobile Device Frame (Mockup container) -->
+    <main
+        class="relative z-10 w-full max-w-[400px] h-[850px] max-h-[95dvh] bg-zinc-900 rounded-[3rem] shadow-2xl border-[8px] border-zinc-800 overflow-hidden flex flex-col">
+
+        <!-- Status Bar Mockup -->
+        <div class="flex justify-between items-center px-6 pt-4 pb-2 text-xs font-medium text-zinc-400 z-20">
+            <span class="font-mono">11:31</span>
+            <div class="flex gap-2 items-center">
+                <i class="ph-fill ph-wifi-high"></i>
+                <i class="ph-fill ph-battery-full text-white"></i>
+            </div>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div class="flex-1 overflow-y-auto pb-24 px-5 space-y-6">
+
+            <!-- Header -->
+            <header class="pt-4 flex justify-between items-center">
+                <div>
+                    <h2 class="text-zinc-400 text-sm font-medium tracking-wide uppercase">My Travel Hub</h2>
+                    <h1 class="text-3xl font-semibold tracking-tighter text-white mt-1">Sawasdee! 🇹🇭</h1>
+                </div>
+                <button
+                    class="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:bg-white/10 transition-colors active:scale-95">
+                    <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Avatar"
+                        class="w-8 h-8 rounded-full border border-white/20">
+                </button>
+            </header>
+
+            <!-- ZONE 1: The Digital Pass -->
+            <section
+                class="relative w-full rounded-[2.5rem] bg-gradient-to-br from-brand-DEFAULT to-indigo-600 p-[1px] animate-float shadow-[0_20px_50px_rgba(14,165,233,0.3)]">
+                <div
+                    class="bg-zinc-950/40 backdrop-blur-3xl w-full h-full rounded-[2.5rem] p-6 flex flex-col relative overflow-hidden">
+                    <!-- Deco rings -->
+                    <div class="absolute -top-24 -right-12 w-48 h-48 border border-white/10 rounded-full"></div>
+                    <div class="absolute -top-16 -right-4 w-32 h-32 border border-white/10 rounded-full"></div>
+
+                    <div class="flex justify-between items-start z-10">
+                        <div
+                            class="flex gap-3 items-center bg-black/30 rounded-full py-1.5 px-3 border border-white/10 backdrop-blur-md w-max">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <span class="text-xs font-semibold tracking-wider uppercase text-emerald-100">Active
+                                Pass</span>
+                        </div>
+                        <i class="ph ph-qr-code text-white/80 text-3xl"></i>
+                    </div>
+
+                    <div class="mt-8 z-10">
+                        <p class="text-brand-50/60 text-sm">Thai Discovery Bundle</p>
+                        <h3 class="text-3xl font-semibold tracking-tighter text-white mt-1">Bangkok</h3>
+                    </div>
+
+                    <!-- Metrics Grid -->
+                    <div class="grid grid-cols-2 gap-4 mt-6 z-10 border-t border-white/10 pt-5">
+                        <div>
+                            <p class="text-zinc-400 text-xs uppercase tracking-wider mb-1">Remaining Data</p>
+                            <p class="text-2xl font-mono text-white text-gradient">2.4<span
+                                    class="text-lg text-white/50">GB</span></p>
+                        </div>
+                        <div>
+                            <p class="text-zinc-400 text-xs uppercase tracking-wider mb-1">Exchange Rate</p>
+                            <p class="text-2xl font-mono text-white text-gradient">~740<span
+                                    class="text-lg text-white/50">₫</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ZONE 2: Quick Action Bar (Floating Row) -->
+            <section class="flex justify-between items-center px-1">
+                <button class="flex flex-col items-center gap-2 group active:scale-95 transition-transform">
+                    <div
+                        class="w-14 h-14 rounded-2xl glass-panel flex items-center justify-center bg-rose-500/10 border-rose-500/20 group-hover:bg-rose-500/20 shadow-[0_10px_20px_-10px_rgba(244,63,94,0.3)]">
+                        <i class="ph-fill ph-phone-call text-rose-500 text-2xl"></i>
+                    </div>
+                    <span class="text-xs text-zinc-400 font-medium">SOS 112</span>
+                </button>
+                <button class="flex flex-col items-center gap-2 group active:scale-95 transition-transform">
+                    <div
+                        class="w-14 h-14 rounded-2xl glass-panel flex items-center justify-center bg-brand-500/10 border-brand-500/20 group-hover:bg-brand-500/20 shadow-[0_10px_20px_-10px_rgba(14,165,233,0.3)]">
+                        <i class="ph ph-scan text-brand-400 text-2xl"></i>
+                    </div>
+                    <span class="text-xs text-zinc-400 font-medium">Pay (QR)</span>
+                </button>
+                <button class="flex flex-col items-center gap-2 group active:scale-95 transition-transform">
+                    <div class="w-14 h-14 rounded-2xl glass-panel flex items-center justify-center hover:bg-white/5">
+                        <i class="ph ph-taxi text-white/80 text-2xl"></i>
+                    </div>
+                    <span class="text-xs text-zinc-400 font-medium">Ride</span>
+                </button>
+                <button class="flex flex-col items-center gap-2 group active:scale-95 transition-transform">
+                    <div class="w-14 h-14 rounded-2xl glass-panel flex items-center justify-center hover:bg-white/5">
+                        <i class="ph ph-map-trifold text-white/80 text-2xl"></i>
+                    </div>
+                    <span class="text-xs text-zinc-400 font-medium">Maps</span>
+                </button>
+            </section>
+
+            <!-- ZONE 3: Voucher Wallet (Stacked Cards) -->
+            <section class="pt-4 pb-12">
+                <div class="flex justify-between items-end mb-4 px-1">
+                    <h3 class="text-lg font-semibold text-white">Local Vouchers</h3>
+                    <span class="text-xs font-medium text-brand-400">View All</span>
+                </div>
+
+                <!-- Stack Container -->
+                <div class="relative h-[200px]">
+                    <!-- Card 1 (Bottom) -->
+                    <div
+                        class="stack-card absolute top-8 left-0 right-0 h-32 rounded-[2rem] bg-indigo-950/80 border border-white/5 p-5 flex items-center justify-between scale-[0.9] origin-top blur-[1px]">
+                    </div>
+
+                    <!-- Card 2 (Middle) -->
+                    <div
+                        class="stack-card absolute top-4 left-0 right-0 h-32 rounded-[2rem] bg-emerald-950/80 border border-white/10 p-5 flex items-center justify-between scale-[0.95] origin-top opacity-80 backdrop-blur-xl">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center">
+                                <i class="ph-fill ph-coffee text-emerald-400 text-2xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">Free Espresso</h4>
+                                <p class="text-xs text-emerald-200/60 mt-1">Starbucks BKK Airport</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 (Top/Active) -->
+                    <div
+                        class="stack-card absolute top-0 left-0 right-0 h-32 rounded-[2rem] glass-panel bg-zinc-900/60 p-5 flex items-center justify-between cursor-pointer">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-brand-500/20 flex items-center justify-center">
+                                <i class="ph-fill ph-ticket text-brand-400 text-2xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">Airport Transfer</h4>
+                                <p class="text-xs text-zinc-400 mt-1">Grab Premium • Pre-paid</p>
+                            </div>
+                        </div>
+                        <div
+                            class="h-full w-12 border-l border-white/10 flex items-center justify-center flex-col gap-1 text-zinc-500">
+                            <i class="ph-bold ph-caret-right text-xs animate-pulse"></i>
+                            <i class="ph-bold ph-caret-right text-xs"></i>
+                        </div>
+                        <!-- absolute overlay text to hint swipe -->
+                        <div
+                            class="absolute -right-2 top-1/2 -translate-y-1/2 bg-brand-500 text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg transform rotate-90 origin-right translate-x-full opacity-0 hover:opacity-100 transition-opacity">
+                            SWIPE
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Bottom Navigation Pill -->
+        <div
+            class="absolute bottom-6 left-1/2 -translate-x-1/2 w-max px-6 py-3 bg-zinc-800/80 backdrop-blur-2xl border border-white/10 rounded-full flex gap-8 items-center shadow-2xl z-50">
+            <i class="ph ph-house text-zinc-500 text-xl hover:text-white transition-colors cursor-pointer"></i>
+            <div
+                class="w-12 h-12 rounded-full bg-brand-500 text-white flex items-center justify-center -mt-6 shadow-[0_10px_20px_-5px_rgba(14,165,233,0.5)] cursor-pointer active:scale-95 transition-transform">
+                <i class="ph-fill ph-airplane-tilt text-2xl"></i>
+            </div>
+            <i class="ph ph-user text-zinc-500 text-xl hover:text-white transition-colors cursor-pointer"></i>
+        </div>
+
+        <!-- iPhone Home Indicator line -->
+        <div class="absolute bottom-2 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-zinc-600 rounded-full"></div>
+    </main>
+
+</body>
+
+</html>

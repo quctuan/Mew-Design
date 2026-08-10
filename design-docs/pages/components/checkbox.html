@@ -1,0 +1,238 @@
+<div class="content">
+
+    <!-- Section 1: Page Header -->
+    <h1>Checkbox</h1>
+    <p class="description">Thành phần điều khiển cho phép chuyển đổi trạng thái đánh dấu, thường dùng
+        trong biểu mẫu để chọn nhiều tùy chọn.</p>
+
+    <link rel="stylesheet" href="styles/components/checkbox.css">
+
+    <!-- Section 2: Visual Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">DEFAULT STATES</div>
+        <div class="variant-row" style="margin-bottom: 32px; flex-direction: column; align-items: flex-start;">
+
+            <label class="checkbox-wrapper">
+                <input type="checkbox" class="checkbox-input">
+                <div class="checkbox-content">
+                    <span class="checkbox-label">Unchecked default</span>
+                </div>
+            </label>
+
+            <label class="checkbox-wrapper">
+                <input type="checkbox" class="checkbox-input" checked>
+                <div class="checkbox-content">
+                    <span class="checkbox-label">Checked default</span>
+                </div>
+            </label>
+
+        </div>
+
+        <div class="variant-group-label">WITH DESCRIPTION</div>
+        <div class="variant-row" style="margin-bottom: 32px; flex-direction: column; align-items: flex-start;">
+
+            <label class="checkbox-wrapper">
+                <input type="checkbox" class="checkbox-input">
+                <div class="checkbox-content">
+                    <span class="checkbox-label">Accept terms and conditions</span>
+                    <span class="checkbox-desc">You agree to our Terms of Service and Privacy Policy.</span>
+                </div>
+            </label>
+
+        </div>
+
+        <div class="variant-group-label">DISABLED & ERROR STATES</div>
+        <div class="variant-row" style="flex-direction: column; align-items: flex-start;">
+
+            <label class="checkbox-wrapper is-disabled">
+                <input type="checkbox" class="checkbox-input" disabled>
+                <div class="checkbox-content">
+                    <span class="checkbox-label">Disabled Unchecked</span>
+                </div>
+            </label>
+
+            <label class="checkbox-wrapper is-disabled">
+                <input type="checkbox" class="checkbox-input" checked disabled>
+                <div class="checkbox-content">
+                    <span class="checkbox-label">Disabled Checked</span>
+                </div>
+            </label>
+
+            <label class="checkbox-wrapper is-error" style="margin-top: 16px;">
+                <input type="checkbox" class="checkbox-input">
+                <div class="checkbox-content">
+                    <span class="checkbox-label">I confirm my details</span>
+                    <span class="checkbox-desc">You must confirm your details to proceed.</span>
+                </div>
+            </label>
+
+        </div>
+
+    </div>
+
+    <!-- Section 3: Usage / Code Snippet -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane" style="margin-bottom: 16px;">
+        <div class="usage-header">
+            <span class="usage-lang">iOS (Swift)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import MyVNPTDesignSystem
+
+// Standard Checkbox
+DSCheckbox(text: "Remember me", isChecked: $isChecked)
+
+// Checkbox with Description
+DSCheckbox(
+    text: "Subscribe to newsletter",
+    description: "Get daily updates directly to your inbox.",
+    isChecked: $isChecked
+)</code></pre>
+        </div>
+    </div>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">Android (Kotlin)</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>import vn.myvnpt.designsystem.components.DSCheckbox
+
+// Standard Checkbox
+DSCheckbox(
+    text = "Remember me",
+    isChecked = isChecked,
+    onCheckedChange = { isChecked = it }
+)
+
+// Checkbox with Description
+DSCheckbox(
+    text = "Subscribe to newsletter",
+    description = "Get daily updates directly to your inbox.",
+    isChecked = isChecked,
+    onCheckedChange = { isChecked = it }
+)</code></pre>
+        </div>
+    </div>
+
+    <!-- Section 4: API Reference / Props -->
+    <h2 class="section-heading">Props Reference</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Class / Target</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">checked</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Native browser property applied to the <code>&lt;input&gt;</code> element to toggle checked
+                        state. Shows the internal SVG checkmark path via CSS content.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">disabled</span></td>
+                    <td><span class="prop-tag">boolean</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Native browser property applied to the <code>&lt;input&gt;</code> element. When true, prevents
+                        interaction and alters border/background fills to gray variants.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">is-error</span></td>
+                    <td><span class="prop-tag">modifier class</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Applied to <code>.checkbox-wrapper</code> to highlight the checkbox outline and description text
+                        in Red to indicate mandatory interaction failures.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 4.5: Design Specifications -->
+    <h2 class="section-heading">Design Specifications</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="props-table">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Property</th>
+                    <th>Token / Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>.checkbox-input</code> (Visual Box)</td>
+                    <td>Width &amp; Height</td>
+                    <td><span class="prop-tag">20px</span></td>
+                </tr>
+                <tr>
+                    <td><code>.checkbox-input</code> (Visual Box)</td>
+                    <td>Border Radius</td>
+                    <td><span class="prop-tag">var(--br-4x)</span> / 4px</td>
+                </tr>
+                <tr>
+                    <td><code>.checkbox-content</code></td>
+                    <td>Gap (Spacing from Box)</td>
+                    <td><span class="prop-tag">var(--space-12x)</span> / 12px</td>
+                </tr>
+                <tr>
+                    <td><code>.checkbox-wrapper</code></td>
+                    <td>Padding (Vertical)</td>
+                    <td><span class="prop-tag">var(--space-8x)</span> / 8px</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 5: Accessibility -->
+    <h2 class="section-heading">Accessibility Considerations</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Input wraps logically inside the <code>&lt;label&gt;</code> element. Clicking the label text or
+                description will natively trigger the underlying CSS-restyled checkbox.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Hidden visually for regular users, but remains identifiable to screen readers via
+                <code>appearance: none</code> rather than <code>display: none</code>.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Exhibits a clear double-ring focus outline when navigated via Keyboard <code>Tab</code>, complying with
+                WCAG 2.1 Focus Visible standards.
+            </li>
+        </ul>
+    </div>
+
+</div>

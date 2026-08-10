@@ -38,3 +38,19 @@ env/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Sessions, tokens & credentials
+*credentials*.json
+*token*.json
+*.session
+*.session-journal
+auth_info_baileys/
+*_messages.json
+tasks_db.json
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.db
+.env
+.env.*
+!.env.example

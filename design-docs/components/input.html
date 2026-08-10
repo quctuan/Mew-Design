@@ -1,0 +1,199 @@
+<div class="content">
+    <h1>Input (Text Field)</h1>
+
+    <!-- Import Input Specific CSS -->
+    <link rel="stylesheet" href="styles/components/input.css">
+
+    <!-- Section 1: Preview -->
+    <h2 class="section-heading">Preview</h2>
+    <div class="pane">
+
+        <div class="variant-group-label">STATES</div>
+        <div class="variant-row" style="align-items: flex-start; gap: 24px;">
+            <!-- Default -->
+            <div class="input-wrapper">
+                <label class="input-label">Default</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter text...">
+                </div>
+            </div>
+
+            <!-- Typing (Simulated with value) -->
+            <div class="input-wrapper">
+                <label class="input-label">Typing</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="John Do">
+                    <div class="input-cursor-sim"></div>
+                </div>
+            </div>
+
+            <!-- Filled -->
+            <div class="input-wrapper">
+                <label class="input-label">Filled</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="John Doe" readonly>
+                </div>
+            </div>
+
+            <!-- Disabled -->
+            <div class="input-wrapper is-disabled">
+                <label class="input-label">Disabled</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Cannot edit" disabled>
+                </div>
+            </div>
+        </div>
+
+        <div class="variant-group-label">FEEDBACK / INTENT</div>
+        <div class="variant-row" style="align-items: flex-start; gap: 24px;">
+            <!-- Destructive/Error -->
+            <div class="input-wrapper is-destructive">
+                <label class="input-label">Destructive</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="Invalid email">
+                    <svg class="input-error-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
+                            fill="#EF4444" />
+                        <path d="M12 8V13" stroke="white" stroke-width="2" stroke-linecap="round" />
+                        <circle cx="12" cy="16" r="1.5" fill="white" />
+                    </svg>
+                </div>
+                <div class="input-helper-text">Please enter a valid email address.</div>
+            </div>
+
+            <!-- Positive/Success -->
+            <div class="input-wrapper is-positive">
+                <label class="input-label">Positive</label>
+                <div class="input-container">
+                    <input type="text" class="input-field" value="Username available">
+                    <svg class="input-success-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z"
+                            fill="#10B981" />
+                        <path d="M7.5 12.5L10.5 15.5L16.5 9.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="variant-group-label">WITH ICONS & ADDONS</div>
+        <div class="variant-row" style="align-items: flex-start; gap: 24px;">
+            <!-- Left Icon -->
+            <div class="input-wrapper">
+                <label class="input-label">Left Icon</label>
+                <div class="input-container has-left-icon">
+                    <svg class="input-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" class="input-field" placeholder="Search...">
+                </div>
+            </div>
+
+            <!-- Trailing Button -->
+            <div class="input-wrapper">
+                <label class="input-label">Trailing Label/Button</label>
+                <div class="input-container has-trailing-node">
+                    <input type="text" class="input-field" placeholder="example">
+                    <div class="input-trailing-node">@vnpt.vn</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Section 2: Props -->
+    <h2 class="section-heading">Props</h2>
+    <div class="pane" style="padding: 0; overflow: hidden;">
+        <table class="dark-props-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="prop-tag">state</span></td>
+                    <td><span class="prop-tag">"default" | "active" | "filled" | "disabled"</span></td>
+                    <td><span class="prop-tag">"default"</span></td>
+                    <td>Controls interaction and visual state.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">feedback</span></td>
+                    <td><span class="prop-tag">"none" | "positive" | "destructive"</span></td>
+                    <td><span class="prop-tag">"none"</span></td>
+                    <td>Sets validation colors (red/green) and icons.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">iconLeft</span></td>
+                    <td><span class="prop-tag">boolean / Node</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Renders an icon inside the input on the left side.</td>
+                </tr>
+                <tr>
+                    <td><span class="prop-tag">trailingNode</span></td>
+                    <td><span class="prop-tag">boolean / Node</span></td>
+                    <td><span class="prop-tag">false</span></td>
+                    <td>Renders a string or button directly inside the right boundary.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Section 3: Accessibility -->
+    <h2 class="section-heading">Accessibility</h2>
+    <div class="pane">
+        <ul class="a11y-list">
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Always associate a visible <code>&lt;label&gt;</code> with the input via the <code>for</code> /
+                <code>id</code> attributes.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Use <code>aria-invalid="true"</code> when the input is in a Destructive/Error state.
+            </li>
+            <li>
+                <svg class="a11y-check" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                If helper text describes an error, link it using <code>aria-describedby</code> on the input field.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Section 4: Usage -->
+    <h2 class="section-heading">Usage</h2>
+    <div class="usage-pane">
+        <div class="usage-header">
+            <span class="usage-lang">HTML</span>
+            <button class="usage-copy">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+            </button>
+        </div>
+        <div class="usage-content">
+            <pre><code>&lt;div class="input-wrapper"&gt;
+  &lt;label for="email" class="input-label"&gt;Email Address&lt;/label&gt;
+  &lt;div class="input-container"&gt;
+    &lt;input type="email" id="email" class="input-field" placeholder="you@example.com"&gt;
+  &lt;/div&gt;
+  &lt;div class="input-helper-text"&gt;We'll never share your email.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+</div>

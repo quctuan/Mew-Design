@@ -1,0 +1,35 @@
+{
+  "task_id": "VNPT_20260808_232746",
+  "group_name": "Nhóm Telegram",
+  "sender_name": "Mew Assistant",
+  "timestamp": "23:27 - 08/08/2026",
+  "trigger_message": "📌 BẢNG ĐIỀU KHIỂN & DANH MỤC LỆNH MEW ASSISTANT\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 1. TÌM KIẾM & LỌC TIN NHẮN XUYÊN NHÓM\n• /find [từ khóa] hoặc /search [từ khóa]\n  Ví dụ:\n  👉 /find Figma C06\n  👉 /find deadline thanh toán\n  👉 /find SmartCA\n  👉 /find review luồng\n  (Bot sẽ quét tất cả các nhóm VNPT bạn tham gia, trích xuất đoạn chat, tên người gửi, thời gian và link nhảy thẳng tới tin nhắn gốc)\n\n🔗 2. GOM TẤT CẢ LINK FIGMA & TÀI LIỆU GOOGLE DOCS\n• /links\n  (Tự động lọc và trả về danh sách link Figma, Google Docs, Sheets, URD được chia sẻ gần đây trong các nhóm)\n\n📄 3. TỰ ĐỘNG XUẤT FILE SOW & TIMELINE\n• /sow [MÃ_TASK]\n  Ví dụ: /sow VNPT_20260808_224319\n  (Tự động bóc tách ngữ cảnh và tạo file SOW chuẩn markdown vào thư mục dự án)\n\n🚨 4. TỰ ĐỘNG CHẠY NGẦM (CHỐNG TRÔI TIN NHẮN)\n• Tự động bắt tag @quctuan, @tuanvq, reply tin nhắn của bạn.\n• Tự động bắt từ khóa: Tuấn, URD, Design, Figma, UI/UX, Review, Gấp, Deadline, Luồng, SOW.\n• Gom 15 tin nhắn trước để lấy trọn vẹn ngữ cảnh và gửi báo cáo về khung chat này!\n\n❓ 5. HƯỚNG DẪN TRỢ GIÚP\n• /help hoặc /start\n━━━━━━━━━━━━━━━━━━━━━\n💡 Tin nhắn này đã được Ghim (Pin) ở đầu khung chat để bạn tiện tra cứu mọi lúc!",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "/start"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "hi"
+    },
+    {
+      "sender_name": "Mew Assistant",
+      "text": "📌 BẢNG ĐIỀU KHIỂN & DANH MỤC LỆNH MEW ASSISTANT\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 1. TÌM KIẾM & LỌC TIN NHẮN XUYÊN NHÓM\n• /find [từ khóa] hoặc /search [từ khóa]\n  Ví dụ:\n  👉 /find Figma C06\n  👉 /find deadline thanh toán\n  👉 /find SmartCA\n  👉 /find review luồng\n  (Bot sẽ quét tất cả các nhóm VNPT bạn tham gia, trích xuất đoạn chat, tên người gửi, thời gian và link nhảy thẳng tới tin nhắn gốc)\n\n🔗 2. GOM TẤT CẢ LINK FIGMA & TÀI LIỆU GOOGLE DOCS\n• /links\n  (Tự động lọc và trả về danh sách link Figma, Google Docs, Sheets, URD được chia sẻ gần đây trong các nhóm)\n\n📄 3. TỰ ĐỘNG XUẤT FILE SOW & TIMELINE\n• /sow [MÃ_TASK]\n  Ví dụ: /sow VNPT_20260808_224319\n  (Tự động bóc tách ngữ cảnh và tạo file SOW chuẩn markdown vào thư mục dự án)\n\n🚨 4. TỰ ĐỘNG CHẠY NGẦM (CHỐNG TRÔI TIN NHẮN)\n• Tự động bắt tag @quctuan, @tuanvq, reply tin nhắn của bạn.\n• Tự động bắt từ khóa: Tuấn, URD, Design, Figma, UI/UX, Review, Gấp, Deadline, Luồng, SOW.\n• Gom 15 tin nhắn trước để lấy trọn vẹn ngữ cảnh và gửi báo cáo về khung chat này!\n\n❓ 5. HƯỚNG DẪN TRỢ GIÚP\n• /help hoặc /start\n━━━━━━━━━━━━━━━━━━━━━\n💡 Tin nhắn này đã được Ghim (Pin) ở đầu khung chat để bạn tiện tra cứu mọi lúc!",
+      "link": "https://t.me/mew629_bot/449807"
+    }
+  ],
+  "summary_bullets": [
+    "Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Nhóm Telegram.",
+    "Người gửi [Mew Assistant] đã tag tên nhắc bạn xử lý phần việc liên quan.",
+    "Nội dung trọng tâm: \"📌 BẢNG ĐIỀU KHIỂN & DANH MỤC LỆNH MEW ASSISTANT\n━━━━━━━━━━━━━━━━━━━━━\n\n🔍 1. TÌM KIẾM & LỌC TIN NHẮN XUYÊN NHÓM\n• /find [từ khóa] hoặc /search [từ khóa...\""
+  ],
+  "action_items": [
+    "Rà soát yêu cầu và phản hồi cho Mew Assistant",
+    "Kiểm tra file/link đính kèm (Figma/URD) nếu có"
+  ],
+  "urgency": "Khẩn cấp (High Priority)",
+  "message_link": "https://t.me/mew629_bot/449807",
+  "figma_links": [],
+  "doc_links": []
+}

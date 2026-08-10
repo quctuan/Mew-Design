@@ -1,0 +1,51 @@
+{
+  "task_id": "VNPT_20260808_224319",
+  "group_name": "Dự án My VNPT - Phân hệ C06 & SmartCA",
+  "sender_name": "Trưởng nhóm PM",
+  "timestamp": "22:43 - 08/08/2026",
+  "trigger_message": "@tuanvq Anh Tuấn xem lại giúp em luồng UX này trên Figma https://figma.com/file/mock-myvnpt và bổ sung case lỗi nhé, cần gấp mai demo với Lãnh đạo.",
+  "context_history": [
+    {
+      "sender_name": "Trưởng nhóm PM",
+      "text": "Hôm nay bên kỹ thuật đã hoàn thành luồng xác thực C06."
+    },
+    {
+      "sender_name": "Dev Lead",
+      "text": "Còn vướng chỗ popup xác thực vân tay và camera nhận diện khuôn mặt."
+    },
+    {
+      "sender_name": "Tester QA",
+      "text": "Màn hình chưa có xử lý trường hợp người dùng từ chối cấp quyền camera."
+    },
+    {
+      "sender_name": "BA My VNPT",
+      "text": "Cần thêm case fallback sang mã PIN OTP khi nhận diện thất bại quá 3 lần."
+    },
+    {
+      "sender_name": "Trưởng nhóm PM",
+      "text": "Tài liệu URD đã cập nhật tại https://docs.google.com/document/d/mock-c06-spec"
+    },
+    {
+      "sender_name": "Trưởng nhóm PM",
+      "text": "@tuanvq Anh Tuấn xem lại giúp em luồng UX này trên Figma https://figma.com/file/mock-myvnpt và bổ sung case lỗi nhé, cần gấp mai demo với Lãnh đạo.",
+      "link": "https://t.me/c/123456789/999"
+    }
+  ],
+  "summary_bullets": [
+    "Cuộc thảo luận gần nhất xoay quanh tiến độ/yêu cầu tại phân hệ Dự án My VNPT - Phân hệ C06 & SmartCA.",
+    "Người gửi [Trưởng nhóm PM] đã tag tên nhắc bạn xử lý phần việc liên quan.",
+    "Nội dung trọng tâm: \"@tuanvq Anh Tuấn xem lại giúp em luồng UX này trên Figma https://figma.com/file/mock-myvnpt và bổ sung case lỗi nhé, cần gấp mai demo với Lãnh đạo.\""
+  ],
+  "action_items": [
+    "Rà soát yêu cầu và phản hồi cho Trưởng nhóm PM",
+    "Kiểm tra file/link đính kèm (Figma/URD) nếu có"
+  ],
+  "urgency": "Khẩn cấp (High Priority)",
+  "message_link": "https://t.me/c/123456789/999",
+  "figma_links": [
+    "https://figma.com/file/mock-myvnpt"
+  ],
+  "doc_links": [
+    "https://docs.google.com/document/d/mock-c06-spec"
+  ]
+}
