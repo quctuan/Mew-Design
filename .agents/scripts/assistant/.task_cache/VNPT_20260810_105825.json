@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260810_105825",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đỗ Hải Đoan",
+  "timestamp": "10:58 10/08/2026",
+  "trigger_message": "anh @quctuan ơi, hỗ trợ em xin các background của mỗi dịch vụ trong phần Quản lý dịch vụ với ạ",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@quctuan anh vừa xem thấy chỗ này cần kick-off vs cả BA nưa đấy"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Để xem dữ liệu cấu hình như nào cho các quick action"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chú báo lên nhóm Super để PM tổ chức"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke a, thế để e nhờ chị Ánh hẹn mn luôn"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@quctuan Cái bts chọn nguồn ảnh này có UI mới không em hay vẫn dùng lại cái cũ vậy"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Giữ nguyên đi ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Oke em"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh @quctuan ơi , chỗ này khi em chọn ⭐️ xong, thì ko có nút gửi đánh giá hả anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a bổ sung r nhé, rating đang xử lý chung là dẫn sang màn này"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "oke anh, em vừa nhìn thấy ròi :(("
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "a @do_da_gon, a @quynp98 ơi, nhóm này về dev của home mới, có câu hỏi gì các a trao đổi trong này luôn nha"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh này nặng quá a ạ, có ảnh nào nhẹ nhàng tình cảm hơn ko anh ;v"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "anh @quctuan ơi, hỗ trợ em xin các background của mỗi dịch vụ trong phần Quản lý dịch vụ với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_450576",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @quctuan ơi, hỗ trợ em xin các background của mỗi dịch vụ trong phần Quản lý dịch vụ với ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đỗ Hải Đoan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

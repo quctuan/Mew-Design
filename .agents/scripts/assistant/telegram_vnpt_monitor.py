@@ -14,6 +14,8 @@ import json
 import time
 import asyncio
 import re
+import urllib.request
+import urllib.parse
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path
@@ -454,10 +456,8 @@ def render_progress_bar(done_count: int, total_count: int, length: int = 10) -> 
     bar = "█" * filled + "░" * (length - filled)
     return f"{bar} {percent}% ({done_count}/{total_count})"
 
-def format_checklist_card(cid: str, data: Dict[str, Any]) -> Tuple[str, List[List[Any]]]:
-    """Tạo nội dung tin nhắn và inline buttons cho 1 Checklist"""
-    from telethon import Button
-
+def format_checklist_card(cid: str, data: Dict[str, Any]) -> Tuple[str, dict]:
+    """Tạo nội dung tin nhắn và inline buttons cho 1 Checklist chuẩn Telegram Bot API"""
     title = data.get("title", "Checklist Công việc")
     deadline_input = data.get("deadline", "")
     date_display, status_badge = calculate_deadline_badge(deadline_input)
@@ -494,27 +494,27 @@ def format_checklist_card(cid: str, data: Dict[str, Any]) -> Tuple[str, List[Lis
     )
 
     # Sinh các nút bấm Toggle cho từng item
-    button_rows = []
+    inline_keyboard = []
     current_row = []
     for idx, it in enumerate(items, start=1):
         btn_icon = "✅" if it.get("done", False) else "⬜"
         btn_text = f"{idx}. {btn_icon}"
-        cb_data = f"chk_{cid}_{idx}".encode("utf-8")
-        current_row.append(Button.inline(btn_text, data=cb_data))
+        cb_data = f"chk_{cid}_{idx}"
+        current_row.append({"text": btn_text, "callback_data": cb_data})
         if len(current_row) == 4:
-            button_rows.append(current_row)
+            inline_keyboard.append(current_row)
             current_row = []
     if current_row:
-        button_rows.append(current_row)
+        inline_keyboard.append(current_row)
 
     # Thêm hàng nút quản trị (Xóa / Làm mới)
     admin_row = [
-        Button.inline("🔄 Làm mới", data=f"ref_{cid}".encode("utf-8")),
-        Button.inline("🗑 Xóa Checklist", data=f"del_{cid}".encode("utf-8"))
+        {"text": "🔄 Làm mới", "callback_data": f"ref_{cid}"},
+        {"text": "🗑 Xóa Checklist", "callback_data": f"del_{cid}"}
     ]
-    button_rows.append(admin_row)
+    inline_keyboard.append(admin_row)
 
-    return (text_msg, button_rows)
+    return (text_msg, {"inline_keyboard": inline_keyboard})
 
 def parse_new_checklist_input(raw_text: str) -> Tuple[str, str, List[str]]:
     """Phân tích nội dung người dùng nhập để tạo Checklist"""
@@ -602,7 +602,55 @@ def generate_daily_morning_report(checklists: Dict[str, Any]) -> str:
     sections.append("\n💡 <i>Gõ <code>/todo</code> để mở bảng điều khiển checklist và tick hoàn thành.</i>")
     return "\n\n".join(sections)
 
-async def daily_morning_reminder_loop(bot_client, target_chat_id: int):
+def bot_api_call(bot_token: str, method: str, payload: dict = None, timeout: int = 30) -> dict:
+    """Gọi trực tiếp Telegram Bot API qua HTTP REST chuẩn"""
+    url = f"https://api.telegram.org/bot{bot_token}/{method}"
+    headers = {"Content-Type": "application/json"}
+    data = json.dumps(payload).encode("utf-8") if payload else None
+    req = urllib.request.Request(url, data=data, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception as e:
+        return {"ok": False, "error": str(e)}
+
+async def bot_api_call_async(bot_token: str, method: str, payload: dict = None, timeout: int = 30) -> dict:
+    """Bọc gọi Bot API không đồng bộ (non-blocking thread)"""
+    return await asyncio.to_thread(bot_api_call, bot_token, method, payload, timeout)
+
+async def send_bot_message(bot_token: str, chat_id: int, text: str, reply_markup: dict = None, link_preview: bool = False) -> dict:
+    """Gửi tin nhắn Telegram qua Bot API"""
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": not link_preview
+    }
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
+    return await bot_api_call_async(bot_token, "sendMessage", payload)
+
+async def edit_bot_message(bot_token: str, chat_id: int, message_id: int, text: str, reply_markup: dict = None, link_preview: bool = False) -> dict:
+    """Chỉnh sửa tin nhắn kèm Inline Buttons tức thì"""
+    payload = {
+        "chat_id": chat_id,
+        "message_id": message_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": not link_preview
+    }
+    if reply_markup is not None:
+        payload["reply_markup"] = reply_markup
+    return await bot_api_call_async(bot_token, "editMessageText", payload)
+
+async def answer_callback(bot_token: str, callback_query_id: str, text: str = None) -> dict:
+    """Phản hồi thông báo Toast popup khi người dùng bấm Inline Button"""
+    payload = {"callback_query_id": callback_query_id}
+    if text:
+        payload["text"] = text
+    return await bot_api_call_async(bot_token, "answerCallbackQuery", payload)
+
+async def daily_morning_reminder_loop(bot_token: str, target_chat_id: int):
     """Tiến trình ngầm gửi Báo cáo công việc tự động vào buổi sáng (từ 08:00 AM trở đi hoặc khi máy thức dậy)"""
     while True:
         try:
@@ -619,42 +667,13 @@ async def daily_morning_reminder_loop(bot_client, target_chat_id: int):
                 checklists = db.get("checklists", {})
                 if checklists:
                     report_text = generate_daily_morning_report(checklists)
-                    if bot_client and target_chat_id:
-                        await bot_client.send_message(int(target_chat_id), report_text, parse_mode="html", link_preview=False)
+                    if bot_token and target_chat_id:
+                        await send_bot_message(bot_token, target_chat_id, report_text)
                         print(f"[✓] Đã tự động gửi Báo cáo nhắc việc sáng ({today_str} lúc {now.strftime('%H:%M')})")
-            await asyncio.sleep(20)
+            await asyncio.sleep(30)
         except Exception as e:
             print(f"[!] Lỗi trong daily_morning_reminder_loop: {e}")
             await asyncio.sleep(30)
-
-async def send_telegram_alert(bot_token: str, chat_id: str, html_text: str):
-    """Gửi cảnh báo qua Bot API về Telegram của bạn"""
-    if not bot_token or not chat_id:
-        print("[!] Chưa cấu hình bot_token hoặc my_chat_id. Bỏ qua bước gửi API.")
-        return
-
-    import urllib.request
-    import urllib.parse
-
-    api_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    payload = {
-        "chat_id": chat_id,
-        "text": html_text,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True
-    }
-    
-    try:
-        data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(api_url, data=data, headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            res_data = json.loads(resp.read().decode("utf-8"))
-            if res_data.get("ok"):
-                print("[✓] Đã gửi thông báo cảnh báo thành công vào Telegram của bạn!")
-            else:
-                print(f"[!] Telegram API error: {res_data}")
-    except Exception as e:
-        print(f"[!] Lỗi khi gửi tin nhắn Telegram: {e}")
 
 def run_mock_simulation():
     """Chạy thử nghiệm giả lập một tình huống tin nhắn tag tên tại VNPT"""
@@ -690,219 +709,6 @@ def run_mock_simulation():
     if sow_path and sow_path.exists():
         print(f"[✓] File SOW đã được lưu tại: {sow_path}")
         print("--- 🎉 HOÀN THÀNH MÔ PHỎNG THÀNH CÔNG ---")
-
-async def start_telethon_listener(config: Dict[str, Any]):
-    """Chạy Userbot Telethon quét tất cả các nhóm chat mà tài khoản tham gia"""
-    try:
-        from telethon import TelegramClient, events
-    except ImportError:
-        print("[!] Chưa cài đặt thư viện telethon. Vui lòng cài đặt bằng lệnh:")
-        print("    pip install telethon")
-        return
-
-    userbot_cfg = config.get("telegram_userbot", {})
-    api_id = userbot_cfg.get("api_id")
-    api_hash = userbot_cfg.get("api_hash")
-    session_name = userbot_cfg.get("session_name", "vnpt_tuanvq_session")
-    session_file = SCRIPT_DIR / session_name
-
-    if not api_id or not api_hash or api_id == "YOUR_API_ID":
-        print("\n[!] LỖI CẤU HÌNH: Bạn chưa điền api_id và api_hash vào file config.json")
-        print("👉 Hãy truy cập https://my.telegram.org -> API development tools để lấy api_id & api_hash.")
-        return
-
-    settings = config.get("settings", {})
-    my_usernames = [u.lower().lstrip("@") for u in settings.get("my_usernames", ["tuanvq"])]
-    keywords = [k.lower() for k in settings.get("keywords", ["Tuấn", "URD", "Design", "Figma", "Gấp"])]
-    history_limit = settings.get("context_history_limit", 15)
-
-    client = TelegramClient(str(session_file), int(api_id), api_hash)
-
-    from telethon.tl.types import PeerChat, PeerChannel, PeerUser
-
-    processed_message_ids = set()
-
-    # Lắng nghe tin nhắn trên tài khoản Userbot cá nhân
-    @client.on(events.NewMessage(incoming=True))
-    async def message_handler(event):
-        try:
-            # 1. LOẠI TRỪ 100% MỌI TIN NHẮN TỪ BOT CHAT RIÊNG HOẶC PRIVATE CHAT
-            if isinstance(event.peer_id, PeerUser) or event.is_private or not (event.is_group or event.is_channel):
-                return
-
-            my_id = (await client.get_me()).id
-            if event.sender_id == my_id or event.chat_id == my_id:
-                return
-
-            if bot_client:
-                bot_me = await bot_client.get_me()
-                if event.sender_id == bot_me.id or event.chat_id == bot_me.id:
-                    return
-
-            # 2. Bỏ qua tin nhắn từ bất kỳ tài khoản Bot nào
-            sender = await event.get_sender()
-            if not sender or getattr(sender, "bot", False):
-                return
-
-            # 3. Chống lặp tin nhắn (Deduplication)
-            if event.id in processed_message_ids:
-                return
-            processed_message_ids.add(event.id)
-            if len(processed_message_ids) > 1000:
-                processed_message_ids.clear()
-
-            text = event.raw_text or ""
-            text_lower = text.lower()
-
-            chat = await event.get_chat()
-            group_name = getattr(chat, "title", "Nhóm Telegram")
-
-            # 4. Điều kiện kích hoạt trong nhóm:
-            # - Được mention trực tiếp (@username)
-            # - Hoặc Reply tin nhắn của bạn
-            # - Hoặc Chứa các từ khóa quan trọng trong nhóm
-            is_mentioned = event.mentioned or any(f"@{u}" in text_lower for u in my_usernames)
-            
-            is_reply_to_me = False
-            if event.is_reply:
-                reply_msg = await event.get_reply_message()
-                if reply_msg and reply_msg.sender_id == my_id:
-                    is_reply_to_me = True
-
-            matched_keywords = [k for k in keywords if k in text_lower]
-
-            if not (is_mentioned or is_reply_to_me or matched_keywords):
-                return
-
-            print(f"\n[🔔 PHÁT HIỆN SỰ KIỆN] Nhóm: '{group_name}' | Từ: {event.sender_id}")
-            
-            sender = await event.get_sender()
-            sender_name = getattr(sender, "first_name", "Đồng nghiệp")
-            if getattr(sender, "last_name", None):
-                sender_name += f" {sender.last_name}"
-
-            # Lấy link tin nhắn gốc và link 'Xem chi tiết'
-            direct_link, clean_id, view_link = build_message_link_and_cmd(chat, event.id, fallback_chat_id=event.chat_id)
-
-            trigger_msg = {
-                "sender_name": sender_name,
-                "text": text,
-                "link": direct_link,
-                "view_link": view_link,
-                "is_mentioned": is_mentioned,
-                "is_reply_to_me": is_reply_to_me
-            }
-
-            # Kéo lịch sử 15 tin nhắn liền trước để gom trọn vẹn ngữ cảnh
-            history_messages = []
-            async for m in client.iter_messages(event.chat_id, limit=history_limit, max_id=event.id):
-                m_sender = await m.get_sender()
-                m_name = getattr(m_sender, "first_name", "User") if m_sender else "User"
-                if m.raw_text:
-                    history_messages.append({"sender_name": m_name, "text": m.raw_text})
-            
-            history_messages.reverse()
-            history_messages.append(trigger_msg)
-
-            # Phân tích & Tóm tắt ngữ cảnh chuẩn WorkSync Pro
-            task_data = synthesize_context(history_messages, trigger_msg, group_name, config=config)
-            task_data["view_link"] = view_link
-            task_data["message_link"] = direct_link
-            alert_text = format_telegram_alert(task_data)
-
-            # Gửi thông báo ĐỘC QUYỀN vào khung Chat Bot riêng (1-on-1 Chat) kèm Inline Buttons
-            target_chat_id = config.get("telegram_notifier_bot", {}).get("my_chat_id", 1083272610)
-            if bot_client and target_chat_id:
-                btn_row = [Button.url("📖 Xem chi tiết", url=view_link)]
-                if direct_link:
-                    btn_row.append(Button.url("🔗 Mở tin nhắn", url=direct_link))
-                await bot_client.send_message(int(target_chat_id), alert_text, buttons=[btn_row], parse_mode="html", link_preview=False)
-                print(f"[✓] Đã gửi thông báo độc quyền vào khung Chat Bot riêng của bạn!")
-            elif bot_token:
-                await send_telegram_alert(bot_token, str(target_chat_id), alert_text)
-                print(f"[✓] Đã gửi thông báo từ Bot riêng đến bạn qua API!")
-
-        except Exception as e:
-            print(f"[!] Lỗi khi xử lý tin nhắn: {e}")
-
-    async def scan_recent_missed_mentions(client, bot_client, config: Dict[str, Any], processed_ids: set):
-        """Quét bù các tin nhắn tag tên hoặc reply bị lỡ trong thời gian bot khởi động lại hoặc máy sleep"""
-        try:
-            await asyncio.sleep(3)
-            my_id = (await client.get_me()).id
-            settings = config.get("settings", {})
-            my_usernames = [u.lower().lstrip("@") for u in settings.get("my_usernames", ["tuanvq", "quctuan"])]
-            keywords = [k.lower() for k in settings.get("keywords", ["Tuấn", "URD", "Design", "Figma", "Gấp"])]
-            history_limit = settings.get("context_history_limit", 15)
-            target_chat_id = config.get("telegram_notifier_bot", {}).get("my_chat_id", 1083272610)
-
-            print("[+] Đang kiểm tra quét bù các tin nhắn nhắc tên gần nhất...")
-            async for dialog in client.iter_dialogs(limit=30):
-                if not (dialog.is_group or dialog.is_channel):
-                    continue
-                async for msg in client.iter_messages(dialog.id, limit=5):
-                    if msg.id in processed_ids or msg.sender_id == my_id:
-                        continue
-                    sender = await msg.get_sender()
-                    if not sender or getattr(sender, "bot", False):
-                        continue
-
-                    text = msg.raw_text or ""
-                    text_lower = text.lower()
-                    is_mentioned = msg.mentioned or any(f"@{u}" in text_lower for u in my_usernames)
-                    is_reply_to_me = False
-                    if msg.is_reply:
-                        reply_msg = await msg.get_reply_message()
-                        if reply_msg and reply_msg.sender_id == my_id:
-                            is_reply_to_me = True
-
-                    matched_keywords = [k for k in keywords if k in text_lower]
-
-                    if is_mentioned or is_reply_to_me:
-                        now_utc = datetime.now(timezone.utc)
-                        msg_date = msg.date
-                        if msg_date and (now_utc - msg_date).total_seconds() > 7200:
-                            continue
-
-                        processed_ids.add(msg.id)
-                        sender_name = getattr(sender, "first_name", "Đồng nghiệp")
-                        if getattr(sender, "last_name", None):
-                            sender_name += f" {sender.last_name}"
-
-                        direct_link, clean_id, view_link = build_message_link_and_cmd(dialog.entity, msg.id, fallback_chat_id=dialog.id)
-
-                        trigger_msg = {
-                            "sender_name": sender_name,
-                            "text": text,
-                            "link": direct_link,
-                            "view_link": view_link,
-                            "is_mentioned": is_mentioned,
-                            "is_reply_to_me": is_reply_to_me
-                        }
-
-                        history_messages = []
-                        async for m in client.iter_messages(dialog.id, limit=history_limit, max_id=msg.id):
-                            m_sender = await m.get_sender()
-                            m_name = getattr(m_sender, "first_name", "User") if m_sender else "User"
-                            if m.raw_text:
-                                history_messages.append({"sender_name": m_name, "text": m.raw_text})
-
-                        history_messages.reverse()
-                        history_messages.append(trigger_msg)
-
-                        task_data = synthesize_context(history_messages, trigger_msg, dialog.name, config=config)
-                        task_data["view_link"] = view_link
-                        task_data["message_link"] = direct_link
-                        alert_text = format_telegram_alert(task_data)
-
-                        if bot_client and target_chat_id:
-                            btn_row = [Button.url("📖 Xem chi tiết", url=view_link)]
-                            if direct_link:
-                                btn_row.append(Button.url("🔗 Mở tin nhắn", url=direct_link))
-                            await bot_client.send_message(int(target_chat_id), alert_text, buttons=[btn_row], parse_mode="html", link_preview=False)
-                            print(f"[✓ Quét bù] Đã gửi cảnh báo bị lỡ từ nhóm '{dialog.name}'!")
-        except Exception as e:
-            print(f"[!] Lưu ý scan_recent_missed_mentions: {e}")
 
 # Bộ nhớ tạm lưu truy vấn tìm kiếm phục vụ lọc kênh qua Inline Buttons
 SEARCH_QUERY_CACHE: Dict[str, Dict[str, Any]] = {}
@@ -1386,10 +1192,631 @@ def get_help_menu() -> str:
         "• Đúng <b>08:00 Sáng mỗi ngày</b>, Bot tự động gửi Báo cáo việc cần làm trong ngày và cảnh báo các việc sắp/quá hạn! (Gõ <code>/report</code> để xem ngay)"
     )
 
-async def start_telethon_listener(config: Dict[str, Any]):
-    """Chạy Userbot Telethon kết hợp tương tác Bot riêng hai chiều"""
+async def scan_recent_missed_mentions(client, bot_token: str, config: Dict[str, Any], processed_ids: set):
+    """Quét bù các tin nhắn tag tên hoặc reply bị lỡ trong thời gian bot khởi động lại hoặc máy sleep"""
     try:
-        from telethon import TelegramClient, events, Button
+        await asyncio.sleep(3)
+        my_id = (await client.get_me()).id
+        settings = config.get("settings", {})
+        my_usernames = [u.lower().lstrip("@") for u in settings.get("my_usernames", ["tuanvq", "quctuan"])]
+        keywords = [k.lower() for k in settings.get("keywords", ["Tuấn", "URD", "Design", "Figma", "Gấp"])]
+        history_limit = settings.get("context_history_limit", 15)
+        target_chat_id = config.get("telegram_notifier_bot", {}).get("my_chat_id", 1083272610)
+
+        print("[+] Đang kiểm tra quét bù các tin nhắn nhắc tên gần nhất...")
+        async for dialog in client.iter_dialogs(limit=30):
+            if not (dialog.is_group or dialog.is_channel):
+                continue
+            async for msg in client.iter_messages(dialog.id, limit=5):
+                if msg.id in processed_ids or msg.sender_id == my_id:
+                    continue
+                sender = await msg.get_sender()
+                if not sender or getattr(sender, "bot", False):
+                    continue
+
+                text = msg.raw_text or ""
+                text_lower = text.lower()
+                is_mentioned = msg.mentioned or any(f"@{u}" in text_lower for u in my_usernames)
+                is_reply_to_me = False
+                if msg.is_reply:
+                    reply_msg = await msg.get_reply_message()
+                    if reply_msg and reply_msg.sender_id == my_id:
+                        is_reply_to_me = True
+
+                matched_keywords = [k for k in keywords if k in text_lower]
+
+                if is_mentioned or is_reply_to_me:
+                    now_utc = datetime.now(timezone.utc)
+                    msg_date = msg.date
+                    if msg_date and (now_utc - msg_date).total_seconds() > 7200:
+                        continue
+
+                    processed_ids.add(msg.id)
+                    sender_name = getattr(sender, "first_name", "Đồng nghiệp")
+                    if getattr(sender, "last_name", None):
+                        sender_name += f" {sender.last_name}"
+
+                    direct_link, clean_id, view_link = build_message_link_and_cmd(dialog.entity, msg.id, fallback_chat_id=dialog.id)
+
+                    trigger_msg = {
+                        "sender_name": sender_name,
+                        "text": text,
+                        "link": direct_link,
+                        "view_link": view_link,
+                        "is_mentioned": is_mentioned,
+                        "is_reply_to_me": is_reply_to_me
+                    }
+
+                    history_messages = []
+                    async for m in client.iter_messages(dialog.id, limit=history_limit, max_id=msg.id):
+                        m_sender = await m.get_sender()
+                        m_name = getattr(m_sender, "first_name", "User") if m_sender else "User"
+                        if m.raw_text:
+                            history_messages.append({"sender_name": m_name, "text": m.raw_text})
+
+                    history_messages.reverse()
+                    history_messages.append(trigger_msg)
+
+                    task_data = synthesize_context(history_messages, trigger_msg, dialog.name, config=config)
+                    task_data["view_link"] = view_link
+                    task_data["message_link"] = direct_link
+                    alert_text = format_telegram_alert(task_data)
+
+                    if bot_token and target_chat_id:
+                        btn_row = [{"text": "📖 Xem chi tiết", "url": view_link}]
+                        if direct_link:
+                            btn_row.append({"text": "🔗 Mở tin nhắn", "url": direct_link})
+                        reply_markup = {"inline_keyboard": [btn_row]}
+                        await send_bot_message(bot_token, int(target_chat_id), alert_text, reply_markup=reply_markup)
+                        print(f"[✓ Quét bù] Đã gửi cảnh báo bị lỡ từ nhóm '{dialog.name}'!")
+    except Exception as e:
+        print(f"[!] Lưu ý scan_recent_missed_mentions: {e}")
+
+async def bot_api_polling_loop(client, bot_token: str, config: Dict[str, Any]):
+    """Vòng lặp Long Polling Bot API chuẩn Telegram - Nhận và xử lý lệnh tức thì 100% không bao giờ trễ"""
+    last_offset = None
+    my_chat_id = config.get("telegram_notifier_bot", {}).get("my_chat_id")
+
+    print("[+] Bot API Poller đã kích hoạt và đang lắng nghe lệnh người dùng...")
+
+    while True:
+        try:
+            params = {"timeout": 15}
+            if last_offset is not None:
+                params["offset"] = last_offset
+
+            res = await bot_api_call_async(bot_token, "getUpdates", params, timeout=25)
+            if not res.get("ok"):
+                await asyncio.sleep(2)
+                continue
+
+            updates = res.get("result", [])
+            for update in updates:
+                last_offset = update["update_id"] + 1
+
+                # 1. Xử lý Callback Query (Bấm Inline Button)
+                if "callback_query" in update:
+                    cb = update["callback_query"]
+                    cb_id = cb["id"]
+                    from_user = cb.get("from", {})
+                    chat_id = cb.get("message", {}).get("chat", {}).get("id")
+                    msg_id = cb.get("message", {}).get("message_id")
+                    data_str = cb.get("data", "")
+
+                    if not data_str:
+                        await answer_callback(bot_token, cb_id)
+                        continue
+
+                    # Toggle Item: chk_{cid}_{idx}
+                    if data_str.startswith("chk_"):
+                        parts = data_str.split("_")
+                        if len(parts) >= 3:
+                            cid = parts[1]
+                            try:
+                                idx = int(parts[2])
+                                db = load_tasks_db()
+                                chk = db.get("checklists", {}).get(cid)
+                                if chk and 1 <= idx <= len(chk.get("items", [])):
+                                    current_val = chk["items"][idx - 1].get("done", False)
+                                    chk["items"][idx - 1]["done"] = not current_val
+                                    save_tasks_db(db)
+
+                                    new_text, new_buttons = format_checklist_card(cid, chk)
+                                    await edit_bot_message(bot_token, chat_id, msg_id, new_text, reply_markup=new_buttons)
+                                    action_status = "Hoàn thành" if not current_val else "Chưa xong"
+                                    await answer_callback(bot_token, cb_id, f"Đã cập nhật mục #{idx}: {action_status}!")
+                                    continue
+                            except Exception as e:
+                                print(f"[!] Lỗi callback toggle: {e}")
+                        await answer_callback(bot_token, cb_id, "⚠️ Không thể cập nhật mục này.")
+                        continue
+
+                    # Xóa Checklist: del_{cid}
+                    if data_str.startswith("del_"):
+                        cid = data_str[4:]
+                        db = load_tasks_db()
+                        if cid in db.get("checklists", {}):
+                            title = db["checklists"][cid].get("title", "Checklist")
+                            del db["checklists"][cid]
+                            save_tasks_db(db)
+                            await edit_bot_message(bot_token, chat_id, msg_id, f"🗑 <b>Đã xóa thành công Checklist:</b> <i>{title}</i> (#{cid})", reply_markup={"inline_keyboard": []})
+                            await answer_callback(bot_token, cb_id, "Đã xóa checklist!")
+                        else:
+                            await answer_callback(bot_token, cb_id, "Checklist không tồn tại hoặc đã bị xóa.")
+                        continue
+
+                    # Làm mới thẻ: ref_{cid}
+                    if data_str.startswith("ref_"):
+                        cid = data_str[4:]
+                        db = load_tasks_db()
+                        chk = db.get("checklists", {}).get(cid)
+                        if chk:
+                            new_text, new_buttons = format_checklist_card(cid, chk)
+                            await edit_bot_message(bot_token, chat_id, msg_id, new_text, reply_markup=new_buttons)
+                            await answer_callback(bot_token, cb_id, "Đã làm mới thông tin!")
+                        else:
+                            await answer_callback(bot_token, cb_id, "Không tìm thấy dữ liệu.")
+                        continue
+
+                    # Lọc Tìm kiếm Tin nhắn theo Kênh: fnd_{ch}_{qid}
+                    if data_str.startswith("fnd_"):
+                        parts = data_str.split("_")
+                        if len(parts) >= 3:
+                            target_ch_code = parts[1]
+                            qid = parts[2]
+                            query_info = SEARCH_QUERY_CACHE.get(qid, {})
+                            query = query_info.get("query", "")
+                            ch_map = {"tg": "telegram", "wa": "whatsapp", "zl": "zalo", "all": "all"}
+                            channel_filter = ch_map.get(target_ch_code, "all")
+
+                            if query:
+                                await answer_callback(bot_token, cb_id, "Đang quét dữ liệu...")
+                                search_res = await search_messages_across_groups(client, query, channel_filter=channel_filter)
+                                await edit_bot_message(bot_token, chat_id, msg_id, search_res, reply_markup={"inline_keyboard": []})
+                            else:
+                                await answer_callback(bot_token, cb_id, "Yêu cầu đã hết hạn. Hãy gõ lại lệnh tìm kiếm.")
+                        continue
+
+                    # Lọc Link Tài liệu theo Kênh: lnk_{ch}_{qid}
+                    if data_str.startswith("lnk_"):
+                        parts = data_str.split("_")
+                        if len(parts) >= 3:
+                            target_ch_code = parts[1]
+                            qid = parts[2]
+                            query_info = SEARCH_QUERY_CACHE.get(qid, {})
+                            query = query_info.get("query", "")
+                            ch_map = {"tg": "telegram", "wa": "whatsapp", "zl": "zalo", "all": "all"}
+                            channel_filter = ch_map.get(target_ch_code, "all")
+
+                            await answer_callback(bot_token, cb_id, "Đang lọc tài liệu & link...")
+                            links_res = await extract_recent_links_across_groups(client, query=query if query else None, channel_filter=channel_filter)
+                            await edit_bot_message(bot_token, chat_id, msg_id, links_res, reply_markup={"inline_keyboard": []})
+                        continue
+
+                    await answer_callback(bot_token, cb_id)
+                    continue
+
+                # 2. Xử lý Tin nhắn / Lệnh gửi tới Bot
+                if "message" in update:
+                    msg = update["message"]
+                    sender_id = msg.get("from", {}).get("id")
+                    chat_id = msg.get("chat", {}).get("id")
+                    text = (msg.get("text") or "").strip()
+
+                    if not text:
+                        continue
+
+                    print(f"[🤖 Telegram Bot Command] Từ {sender_id} (@{msg.get('from', {}).get('username', 'user')}): '{text}'")
+
+                    # Chuẩn hóa lệnh
+                    first_word = text.split()[0].lower()
+                    cmd = first_word.split("@")[0]
+                    text_lower = text.lower()
+
+                    # Cập nhật chat id nếu chưa có
+                    if not my_chat_id or my_chat_id != sender_id:
+                        config["telegram_notifier_bot"]["my_chat_id"] = sender_id
+                        with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+                            json.dump(config, f, ensure_ascii=False, indent=2)
+
+                    # Lệnh kiểm tra trạng thái hoạt động: /status, /ping, /check
+                    if cmd in ["/status", "/ping", "/check"]:
+                        db = load_tasks_db()
+                        checklists = db.get("checklists", {})
+                        active_channels = get_active_channels(config)
+                        ch_status = []
+                        for ch in ["telegram", "whatsapp", "zalo"]:
+                            icon = "🟢" if ch in active_channels else "⚪"
+                            ch_status.append(f"{icon} {ch.upper()}")
+                        
+                        status_msg = (
+                            "🟢 <b>MEW ASSISTANT ĐANG HOẠT ĐỘNG ONLINE 24/7</b>\n"
+                            "━━━━━━━━━━━━━━━━━━━━━\n"
+                            f"• <b>Các kênh kết nối:</b> {' | '.join(ch_status)}\n"
+                            f"• <b>Checklist đang theo dõi:</b> {len(checklists)} dự án\n"
+                            f"• <b>VIP Senders:</b> {len(config.get('settings', {}).get('vip_senders', []))} người\n"
+                            f"• <b>Keywords giám sát:</b> {len(config.get('settings', {}).get('keywords', []))} từ khóa\n\n"
+                            "💡 <i>Gõ <code>/help</code> hoặc <code>/todo</code> để bắt đầu quản lý công việc!</i>"
+                        )
+                        await send_bot_message(bot_token, chat_id, status_msg)
+                        continue
+
+                    if cmd in ["/start", "/help", "/menu", "/huongdan"]:
+                        parts = text.split()
+                        if len(parts) > 1 and parts[1].startswith("view_"):
+                            view_args = parts[1][5:].split("_")
+                            if len(view_args) >= 2:
+                                chat_id_arg = view_args[0]
+                                try:
+                                    msg_id_arg = int(view_args[1])
+                                    await send_bot_message(bot_token, chat_id, f"📖 <i>Đang trích xuất toàn bộ ngữ cảnh hội thoại quanh tin nhắn #{msg_id_arg}...</i>")
+                                    context_result = await get_message_context_thread(client, chat_id_arg, msg_id_arg)
+                                    await send_bot_message(bot_token, chat_id, context_result)
+                                    continue
+                                except Exception:
+                                    pass
+
+                        await send_bot_message(bot_token, chat_id, get_help_menu())
+                        continue
+
+                    # Lệnh xem danh sách Checklist: /todo, /todos, /task, /tasks, /checklist, /ds
+                    if cmd in ["/todo", "/todos", "/task", "/tasks", "/checklist", "/ds"] or text_lower.startswith(("/todo list", "/task list", "/tasks list")):
+                        db = load_tasks_db()
+                        checklists = db.get("checklists", {})
+                        if not checklists:
+                            help_create = (
+                                "📋 <b>BẠN CHƯA CÓ CHECKLIST CÔNG VIỆC NÀO</b>\n"
+                                "━━━━━━━━━━━━━━━━━━━━━\n\n"
+                                "💡 <b>Cách tạo checklist mới cực nhanh:</b>\n\n"
+                                "<b>Cách 1 (1 dòng):</b>\n"
+                                "<code>/add Dự án SIM C06 | 15/08 | Khảo sát luồng, Vẽ Wireframe, Thiết kế UI</code>\n\n"
+                                "<b>Cách 2 (Nhiều dòng):</b>\n"
+                                "<code>/add Thiết kế Luồng C06\n"
+                                "Deadline: 15/08\n"
+                                "- Khảo sát luồng cũ\n"
+                                "- Thiết kế UI Figma\n"
+                                "- Review với PO</code>"
+                            )
+                            await send_bot_message(bot_token, chat_id, help_create)
+                            continue
+
+                        await send_bot_message(bot_token, chat_id, f"📋 <b>DANH SÁCH {len(checklists)} CHECKLIST ĐANG THEO DÕI:</b>")
+                        for cid, chk in checklists.items():
+                            card_text, card_buttons = format_checklist_card(cid, chk)
+                            await send_bot_message(bot_token, chat_id, card_text, reply_markup=card_buttons)
+                        continue
+
+                    # Lệnh xem Báo cáo công việc tổng quan: /report, /baocao, /today, /morning
+                    if cmd in ["/report", "/baocao", "/today", "/morning"]:
+                        db = load_tasks_db()
+                        checklists = db.get("checklists", {})
+                        report_text = generate_daily_morning_report(checklists)
+                        await send_bot_message(bot_token, chat_id, report_text)
+                        continue
+
+                    # Lệnh tạo Checklist mới: /add, /new hoặc /todo add, /task add
+                    if cmd in ["/add", "/new"] or text_lower.startswith(("/todo add", "/task add", "/tasks add", "/add")):
+                        clean_content = text
+                        for prefix in ["/todo add", "/task add", "/tasks add", "/add", "/new"]:
+                            if clean_content.lower().startswith(prefix):
+                                clean_content = clean_content[len(prefix):].strip()
+                                break
+
+                        if not clean_content:
+                            await send_bot_message(
+                                bot_token, chat_id,
+                                "⚠️ <b>Vui lòng nhập nội dung checklist:</b>\n\n"
+                                "<i>Cú pháp 1 dòng:</i>\n<code>/add Tên Dự án | Hạn DD/MM | Việc 1, Việc 2, Việc 3</code>\n\n"
+                                "<i>Cú pháp nhiều dòng:</i>\n<code>/add Tên Dự án\nDeadline: 15/08\n- Việc 1\n- Việc 2</code>"
+                            )
+                            continue
+
+                        title, deadline, items = parse_new_checklist_input(clean_content)
+                        if not title:
+                            await send_bot_message(bot_token, chat_id, "⚠️ Không tìm thấy tên dự án. Vui lòng thử lại.")
+                            continue
+
+                        db = load_tasks_db()
+                        last_id = db.get("last_id", 0) + 1
+                        db["last_id"] = last_id
+                        cid = str(last_id)
+
+                        items_struct = [{"id": i, "text": item_text, "done": False} for i, item_text in enumerate(items, start=1)]
+
+                        new_checklist = {
+                            "id": cid,
+                            "title": title,
+                            "created_at": datetime.now().strftime("%d/%m/%Y"),
+                            "deadline": deadline,
+                            "items": items_struct
+                        }
+
+                        if "checklists" not in db:
+                            db["checklists"] = {}
+                        db["checklists"][cid] = new_checklist
+                        save_tasks_db(db)
+
+                        card_text, card_buttons = format_checklist_card(cid, new_checklist)
+                        await send_bot_message(bot_token, chat_id, "✅ <b>ĐÃ TẠO CHECKLIST THÀNH CÔNG:</b>")
+                        await send_bot_message(bot_token, chat_id, card_text, reply_markup=card_buttons)
+                        continue
+
+                    # Lệnh xóa checklist: /del, /delete, /rm hoặc /todo del, /task del
+                    if cmd in ["/del", "/delete", "/rm"] or text_lower.startswith(("/del", "/todo del", "/task del", "/tasks del")):
+                        parts = text.split()
+                        if len(parts) > 1:
+                            cid = parts[-1].lstrip("#")
+                            db = load_tasks_db()
+                            if cid in db.get("checklists", {}):
+                                title = db["checklists"][cid].get("title", "Checklist")
+                                del db["checklists"][cid]
+                                save_tasks_db(db)
+                                await send_bot_message(bot_token, chat_id, f"🗑 <b>Đã xóa thành công Checklist:</b> <i>{title}</i> (#{cid})")
+                            else:
+                                await send_bot_message(bot_token, chat_id, f"⚠️ Không tìm thấy Checklist có mã <code>#{cid}</code>")
+                        else:
+                            await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập mã checklist: <code>/del &lt;MÃ_ID&gt;</code>")
+                        continue
+
+                    # Quản lý danh sách VIP Senders: /vip, /vip add, /vip del
+                    if text_lower.startswith("/vip"):
+                        current_vips = config.get("settings", {}).get("vip_senders", [])
+                        parts = text.split(maxsplit=2)
+                        
+                        if len(parts) == 1 or parts[1].lower() == "list":
+                            vip_items = "\n".join([f"  👑 {i}. <code>{v}</code>" for i, v in enumerate(current_vips, start=1)]) if current_vips else "  <i>(Chưa có thành viên nào)</i>"
+                            msg_content = (
+                                f"👑 <b>DANH SÁCH VIP SENDERS ({len(current_vips)} người)</b>\n"
+                                f"━━━━━━━━━━━━━━━━━━━━━\n\n"
+                                f"{vip_items}\n\n"
+                                f"━━━━━━━━━━━━━━━━━━━━━\n"
+                                f"💡 <b>Cách quản lý:</b>\n"
+                                f"• Thêm: <code>/vip add &lt;tên_hoặc_username&gt;</code>\n"
+                                f"• Xóa: <code>/vip del &lt;tên_hoặc_số_thứ_tự&gt;</code>"
+                            )
+                            await send_bot_message(bot_token, chat_id, msg_content)
+                            continue
+
+                        sub_cmd = parts[1].lower()
+                        if sub_cmd == "add":
+                            raw_content = text[text.lower().find("add") + 3:].strip()
+                            if not raw_content:
+                                await send_bot_message(
+                                    bot_token, chat_id,
+                                    "⚠️ <b>Vui lòng nhập danh sách cần thêm:</b>\n\n"
+                                    "<i>Cú pháp 1 dòng (dấu phẩy):</i>\n<code>/vip add Hoàng PO, Minh Lead, @boss, Linh PM</code>\n\n"
+                                    "<i>Cú pháp nhiều dòng:</i>\n<code>/vip add\n- Hoàng PO\n- Minh Lead\n- @boss</code>"
+                                )
+                                continue
+
+                            candidates = []
+                            for line in raw_content.split("\n"):
+                                clean_line = re.sub(r'^[-*•\d.]+\s*', '', line.strip()).strip()
+                                if "," in clean_line:
+                                    candidates.extend([p.strip() for p in clean_line.split(",") if p.strip()])
+                                elif clean_line:
+                                    candidates.append(clean_line)
+
+                            added_list = []
+                            existed_list = []
+                            for member in candidates:
+                                if member not in current_vips:
+                                    current_vips.append(member)
+                                    added_list.append(member)
+                                else:
+                                    existed_list.append(member)
+
+                            if added_list:
+                                config["settings"]["vip_senders"] = current_vips
+                                with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+                                    json.dump(config, f, ensure_ascii=False, indent=2)
+
+                            msg_res = []
+                            if added_list:
+                                added_str = ", ".join([f"<b>{m}</b>" for m in added_list])
+                                msg_res.append(f"✅ Đã thêm <b>{len(added_list)}</b> thành viên vào VIP Senders:\n👉 {added_str}")
+                            if existed_list:
+                                existed_str = ", ".join([f"<i>{m}</i>" for m in existed_list])
+                                msg_res.append(f"ℹ️ Đã có sẵn: {existed_str}")
+
+                            await send_bot_message(bot_token, chat_id, "\n\n".join(msg_res) if msg_res else "⚠️ Không có thành viên hợp lệ để thêm.")
+                            continue
+
+                        if sub_cmd in ["del", "remove", "delete"]:
+                            raw_content = text[text.lower().find(sub_cmd) + len(sub_cmd):].strip()
+                            if not raw_content:
+                                await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập tên/số thứ tự cần xóa: <code>/vip del Hoàng PO, Minh Lead</code> hoặc <code>/vip del 1, 2</code>")
+                                continue
+
+                            candidates = []
+                            for line in raw_content.split("\n"):
+                                clean_line = re.sub(r'^[-*•\d.]+\s*', '', line.strip()).strip()
+                                if "," in clean_line:
+                                    candidates.extend([p.strip() for p in clean_line.split(",") if p.strip()])
+                                elif clean_line:
+                                    candidates.append(clean_line)
+
+                            deleted_list = []
+                            not_found = []
+
+                            for target_member in candidates:
+                                matched = None
+                                if target_member.isdigit():
+                                    idx = int(target_member)
+                                    if 1 <= idx <= len(current_vips):
+                                        matched = current_vips[idx - 1]
+                                else:
+                                    for v in current_vips:
+                                        if v.lower() == target_member.lower():
+                                            matched = v
+                                            break
+                                if matched and matched in current_vips:
+                                    current_vips.remove(matched)
+                                    deleted_list.append(matched)
+                                else:
+                                    not_found.append(target_member)
+
+                            if deleted_list:
+                                config["settings"]["vip_senders"] = current_vips
+                                with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+                                    json.dump(config, f, ensure_ascii=False, indent=2)
+
+                            msg_res = []
+                            if deleted_list:
+                                del_str = ", ".join([f"<b>{m}</b>" for m in deleted_list])
+                                msg_res.append(f"🗑 Đã xóa <b>{len(deleted_list)}</b> thành viên khỏi VIP Senders:\n👉 {del_str}")
+                            if not_found:
+                                not_found_str = ", ".join([f"<i>{m}</i>" for m in not_found])
+                                msg_res.append(f"⚠️ Không tìm thấy: {not_found_str}")
+
+                            await send_bot_message(bot_token, chat_id, "\n\n".join(msg_res))
+                            continue
+
+                    # Lệnh tìm kiếm tin nhắn: /find, /tim, /search
+                    if cmd in ["/find", "/tim", "/search"]:
+                        parts = text.split(maxsplit=1)
+                        if len(parts) > 1:
+                            raw_query = parts[1].strip()
+                            active_channels = get_active_channels(config)
+
+                            # Trường hợp 1: Chỉ có 1 channel duy nhất đang bật -> Tự động tìm luôn
+                            if len(active_channels) <= 1:
+                                single_ch = active_channels[0] if active_channels else "telegram"
+                                await send_bot_message(bot_token, chat_id, f"🔍 <i>Đang tìm kiếm:</i> <code>{raw_query}</code>...")
+                                search_result = await search_messages_across_groups(client, raw_query, channel_filter=single_ch)
+                                await send_bot_message(bot_token, chat_id, search_result)
+                                continue
+
+                            # Trường hợp 2: Có prefix trực tiếp (VD: /find tele figma, /find wa deadline)
+                            explicit_ch, clean_query = parse_channel_prefix_from_query(raw_query)
+                            if explicit_ch:
+                                ch_name = "TELEGRAM VNPT" if explicit_ch == "telegram" else ("WHATSAPP" if explicit_ch == "whatsapp" else "ZALO")
+                                await send_bot_message(bot_token, chat_id, f"🔍 <i>Đang tìm kiếm trên [{ch_name}]:</i> <code>{clean_query}</code>...")
+                                search_result = await search_messages_across_groups(client, clean_query, channel_filter=explicit_ch)
+                                await send_bot_message(bot_token, chat_id, search_result)
+                                continue
+
+                            # Hiện bảng chọn kênh qua Inline Buttons
+                            qid = str(int(time.time() * 1000))[-8:]
+                            SEARCH_QUERY_CACHE[qid] = {"query": raw_query, "type": "find"}
+
+                            btn_row_1 = []
+                            if "telegram" in active_channels:
+                                btn_row_1.append({"text": "🔷 Telegram VNPT", "callback_data": f"fnd_tg_{qid}"})
+                            if "whatsapp" in active_channels:
+                                btn_row_1.append({"text": "🟢 WhatsApp", "callback_data": f"fnd_wa_{qid}"})
+                            if "zalo" in active_channels:
+                                btn_row_1.append({"text": "🔵 Zalo", "callback_data": f"fnd_zl_{qid}"})
+
+                            btn_row_2 = [{"text": "🌐 Tìm trên Tất cả Kênh", "callback_data": f"fnd_all_{qid}"}]
+                            filter_buttons = [btn_row_1, btn_row_2] if btn_row_1 else [btn_row_2]
+
+                            prompt_msg = (
+                                f"🔍 <b>CHỌN KÊNH TRA CỨU CHO:</b> <code>{raw_query}</code>\n"
+                                f"━━━━━━━━━━━━━━━━━━━━━\n"
+                                f"<i>Vui lòng chọn kênh để kết quả không bị lẫn lộn giữa các nền tảng:</i>"
+                            )
+                            await send_bot_message(bot_token, chat_id, prompt_msg, reply_markup={"inline_keyboard": filter_buttons})
+                        else:
+                            await send_bot_message(bot_token, chat_id, "⚠️ Vui lòng nhập từ khóa cần tìm: <code>/find &lt;từ_khóa&gt;</code>")
+                        continue
+
+                    # Lệnh xem chi tiết tin nhắn: /view
+                    if text_lower.startswith("/view"):
+                        chat_id_arg = None
+                        msg_id_arg = None
+
+                        if text_lower.startswith("/view_"):
+                            raw_args = text[6:].split("_")
+                            if len(raw_args) >= 2:
+                                chat_id_arg = raw_args[0]
+                                try:
+                                    msg_id_arg = int(raw_args[1].split()[0])
+                                except Exception:
+                                    pass
+                        else:
+                            parts = text.split()
+                            if len(parts) >= 3:
+                                chat_id_arg = parts[1]
+                                try:
+                                    msg_id_arg = int(parts[2])
+                                except Exception:
+                                    pass
+
+                        if chat_id_arg and msg_id_arg:
+                            await send_bot_message(bot_token, chat_id, f"📖 <i>Đang trích xuất toàn bộ ngữ cảnh hội thoại quanh tin nhắn #{msg_id_arg}...</i>")
+                            context_result = await get_message_context_thread(client, chat_id_arg, msg_id_arg)
+                            await send_bot_message(bot_token, chat_id, context_result)
+                        else:
+                            await send_bot_message(bot_token, chat_id, "⚠️ Cú pháp không hợp lệ. Hãy bấm trực tiếp vào mã lệnh dạng: <code>/view_&lt;chat_id&gt;_&lt;msg_id&gt;</code>")
+                        continue
+
+                    # Lệnh gom link tài liệu: /link, /links, /figma, /docs, /doc, /tailieu
+                    if any(text_lower.startswith(prefix) for prefix in ["/link", "/links", "/figma", "/docs", "/doc", "/tailieu"]):
+                        parts = text.split(maxsplit=1)
+                        raw_query = parts[1].strip() if len(parts) > 1 else ""
+                        if text_lower.startswith("/figma") and not raw_query:
+                            raw_query = "figma"
+                        elif (text_lower.startswith("/docs") or text_lower.startswith("/doc")) and not raw_query:
+                            raw_query = "docs"
+
+                        active_channels = get_active_channels(config)
+
+                        # TH 1: Chỉ có 1 channel đang bật -> Tự động gom luôn
+                        if len(active_channels) <= 1:
+                            single_ch = active_channels[0] if active_channels else "telegram"
+                            if raw_query:
+                                await send_bot_message(bot_token, chat_id, f"🔗 <i>Đang lọc link liên quan đến:</i> <code>{raw_query}</code>...")
+                            else:
+                                await send_bot_message(bot_token, chat_id, "🔗 <i>Đang lọc các link Figma và tài liệu mới nhất...</i>")
+                            links_result = await extract_recent_links_across_groups(client, query=raw_query if raw_query else None, channel_filter=single_ch)
+                            await send_bot_message(bot_token, chat_id, links_result)
+                            continue
+
+                        # TH 2: Có prefix trực tiếp
+                        explicit_ch, clean_query = parse_channel_prefix_from_query(raw_query) if raw_query else (None, "")
+                        if explicit_ch:
+                            ch_name = "TELEGRAM VNPT" if explicit_ch == "telegram" else ("WHATSAPP" if explicit_ch == "whatsapp" else "ZALO")
+                            await send_bot_message(bot_token, chat_id, f"🔗 <i>Đang lọc link trên [{ch_name}]:</i> <code>{clean_query}</code>...")
+                            links_result = await extract_recent_links_across_groups(client, query=clean_query if clean_query else None, channel_filter=explicit_ch)
+                            await send_bot_message(bot_token, chat_id, links_result)
+                            continue
+
+                        # Hiện bảng chọn kênh
+                        qid = str(int(time.time() * 1000))[-8:]
+                        SEARCH_QUERY_CACHE[qid] = {"query": raw_query, "type": "links"}
+
+                        btn_row_1 = []
+                        if "telegram" in active_channels:
+                            btn_row_1.append({"text": "🔷 Telegram VNPT", "callback_data": f"lnk_tg_{qid}"})
+                        if "whatsapp" in active_channels:
+                            btn_row_1.append({"text": "🟢 WhatsApp", "callback_data": f"lnk_wa_{qid}"})
+                        if "zalo" in active_channels:
+                            btn_row_1.append({"text": "🔵 Zalo", "callback_data": f"lnk_zl_{qid}"})
+
+                        btn_row_2 = [{"text": "🌐 Lọc trên Tất cả Kênh", "callback_data": f"lnk_all_{qid}"}]
+                        filter_buttons = [btn_row_1, btn_row_2] if btn_row_1 else [btn_row_2]
+
+                        q_display = f" <code>{raw_query}</code>" if raw_query else ""
+                        prompt_msg = (
+                            f"🔗 <b>CHỌN KÊNH LỌC TÀI LIỆU & LINK{q_display}:</b>\n"
+                            f"━━━━━━━━━━━━━━━━━━━━━\n"
+                            f"<i>Vui lòng chọn kênh để danh sách link Figma/Docs không bị lẫn lộn:</i>"
+                        )
+                        await send_bot_message(bot_token, chat_id, prompt_msg, reply_markup={"inline_keyboard": filter_buttons})
+                        continue
+
+        except asyncio.CancelledError:
+            break
+        except Exception as e:
+            print(f"[!] Lỗi trong bot_api_polling_loop: {e}")
+            await asyncio.sleep(3)
+
+async def start_telethon_listener(config: Dict[str, Any]):
+    """Chạy Userbot Telethon quét nhóm kết hợp tương tác Bot API hai chiều tức thì"""
+    try:
+        from telethon import TelegramClient, events
+        from telethon.tl.types import PeerUser
     except ImportError:
         print("[!] Chưa cài đặt thư viện telethon. Vui lòng chạy: pip3 install telethon")
         return
@@ -1410,529 +1837,120 @@ async def start_telethon_listener(config: Dict[str, Any]):
     history_limit = settings.get("context_history_limit", 15)
 
     client = TelegramClient(str(session_file), int(api_id), api_hash, connection_retries=None, auto_reconnect=True, retry_delay=5)
+    processed_message_ids = set()
 
-    # Khởi tạo Bot Notifier Client nếu có bot_token
-    bot_client = None
-    if bot_token and bot_token != "YOUR_TELEGRAM_BOT_TOKEN_FROM_BOTFATHER":
-        bot_session = SCRIPT_DIR / "notifier_bot_session"
-        bot_client = TelegramClient(str(bot_session), int(api_id), api_hash, connection_retries=None, auto_reconnect=True, retry_delay=5)
-        await bot_client.start(bot_token=bot_token)
+    # 1. Lắng nghe tin nhắn trên tài khoản Userbot cá nhân (các nhóm VNPT)
+    @client.on(events.NewMessage(incoming=True))
+    async def group_message_handler(event):
+        try:
+            # Bỏ qua tin nhắn riêng tư hoặc từ Bot
+            if isinstance(event.peer_id, PeerUser) or event.is_private or not (event.is_group or event.is_channel):
+                return
 
-        # 1. Lắng nghe sự kiện bấm nút Inline Buttons (Toggle Checklist / Xóa)
-        @bot_client.on(events.CallbackQuery)
-        async def bot_callback_handler(event):
-            data_str = event.data.decode("utf-8")
+            my_id = (await client.get_me()).id
+            if event.sender_id == my_id or event.chat_id == my_id:
+                return
+
+            sender = await event.get_sender()
+            if not sender or getattr(sender, "bot", False):
+                return
+
+            if event.id in processed_message_ids:
+                return
+            processed_message_ids.add(event.id)
+            if len(processed_message_ids) > 1000:
+                processed_message_ids.clear()
+
+            text = event.raw_text or ""
+            text_lower = text.lower()
+
+            chat = await event.get_chat()
+            group_name = getattr(chat, "title", "Nhóm Telegram")
+
+            is_mentioned = event.mentioned or any(f"@{u}" in text_lower for u in my_usernames)
+            is_reply_to_me = False
+            if event.is_reply:
+                reply_msg = await event.get_reply_message()
+                if reply_msg and reply_msg.sender_id == my_id:
+                    is_reply_to_me = True
+
+            matched_keywords = [k for k in keywords if k in text_lower]
+
+            if not (is_mentioned or is_reply_to_me or matched_keywords):
+                return
+
+            print(f"\n[🔔 PHÁT HIỆN SỰ KIỆN] Nhóm: '{group_name}' | Từ: {event.sender_id}")
             
-            # Toggle Item: chk_{cid}_{idx}
-            if data_str.startswith("chk_"):
-                parts = data_str.split("_")
-                if len(parts) >= 3:
-                    cid = parts[1]
-                    try:
-                        idx = int(parts[2])
-                        db = load_tasks_db()
-                        chk = db.get("checklists", {}).get(cid)
-                        if chk and 1 <= idx <= len(chk.get("items", [])):
-                            current_val = chk["items"][idx - 1].get("done", False)
-                            chk["items"][idx - 1]["done"] = not current_val
-                            save_tasks_db(db)
+            sender_name = getattr(sender, "first_name", "Đồng nghiệp")
+            if getattr(sender, "last_name", None):
+                sender_name += f" {sender.last_name}"
 
-                            new_text, new_buttons = format_checklist_card(cid, chk)
-                            try:
-                                await event.edit(new_text, buttons=new_buttons, parse_mode="html")
-                            except Exception:
-                                pass
-                            action_status = "Hoàn thành" if not current_val else "Chưa xong"
-                            await event.answer(f"Đã cập nhật mục #{idx}: {action_status}!")
-                            return
-                    except Exception as e:
-                        print(f"[!] Lỗi callback toggle: {e}")
-                await event.answer("⚠️ Không thể cập nhật mục này.")
-                return
+            direct_link, clean_id, view_link = build_message_link_and_cmd(chat, event.id, fallback_chat_id=event.chat_id)
 
-            # Xóa Checklist: del_{cid}
-            if data_str.startswith("del_"):
-                cid = data_str[4:]
-                db = load_tasks_db()
-                if cid in db.get("checklists", {}):
-                    title = db["checklists"][cid].get("title", "Checklist")
-                    del db["checklists"][cid]
-                    save_tasks_db(db)
-                    try:
-                        await event.edit(f"🗑 <b>Đã xóa thành công Checklist:</b> <i>{title}</i> (#{cid})", buttons=None, parse_mode="html")
-                    except Exception:
-                        pass
-                    await event.answer("Đã xóa checklist!")
-                else:
-                    await event.answer("Checklist không tồn tại hoặc đã bị xóa.")
-                return
+            trigger_msg = {
+                "sender_name": sender_name,
+                "text": text,
+                "link": direct_link,
+                "view_link": view_link,
+                "is_mentioned": is_mentioned,
+                "is_reply_to_me": is_reply_to_me
+            }
 
-            # Làm mới thẻ: ref_{cid}
-            if data_str.startswith("ref_"):
-                cid = data_str[4:]
-                db = load_tasks_db()
-                chk = db.get("checklists", {}).get(cid)
-                if chk:
-                    new_text, new_buttons = format_checklist_card(cid, chk)
-                    try:
-                        await event.edit(new_text, buttons=new_buttons, parse_mode="html")
-                    except Exception:
-                        pass
-                    await event.answer("Đã làm mới thông tin!")
-                else:
-                    await event.answer("Không tìm thấy dữ liệu.")
-                return
+            history_messages = []
+            async for m in client.iter_messages(event.chat_id, limit=history_limit, max_id=event.id):
+                m_sender = await m.get_sender()
+                m_name = getattr(m_sender, "first_name", "User") if m_sender else "User"
+                if m.raw_text:
+                    history_messages.append({"sender_name": m_name, "text": m.raw_text})
+            
+            history_messages.reverse()
+            history_messages.append(trigger_msg)
 
-            # Lọc Tìm kiếm Tin nhắn theo Kênh: fnd_{ch}_{qid}
-            if data_str.startswith("fnd_"):
-                parts = data_str.split("_")
-                if len(parts) >= 3:
-                    target_ch_code = parts[1] # tg, wa, zl, all
-                    qid = parts[2]
-                    query_info = SEARCH_QUERY_CACHE.get(qid, {})
-                    query = query_info.get("query", "")
-                    ch_map = {"tg": "telegram", "wa": "whatsapp", "zl": "zalo", "all": "all"}
-                    channel_filter = ch_map.get(target_ch_code, "all")
+            task_data = synthesize_context(history_messages, trigger_msg, group_name, config=config)
+            task_data["view_link"] = view_link
+            task_data["message_link"] = direct_link
+            alert_text = format_telegram_alert(task_data)
 
-                    if query:
-                        await event.answer("Đang quét dữ liệu...")
-                        search_res = await search_messages_across_groups(client, query, channel_filter=channel_filter)
-                        try:
-                            await event.edit(search_res, buttons=None, parse_mode="html", link_preview=False)
-                        except Exception:
-                            pass
-                    else:
-                        await event.answer("Yêu cầu đã hết hạn. Hãy gõ lại lệnh tìm kiếm.")
-                return
+            target_chat_id = config.get("telegram_notifier_bot", {}).get("my_chat_id", 1083272610)
+            if bot_token and target_chat_id:
+                btn_row = [{"text": "📖 Xem chi tiết", "url": view_link}]
+                if direct_link:
+                    btn_row.append({"text": "🔗 Mở tin nhắn", "url": direct_link})
+                reply_markup = {"inline_keyboard": [btn_row]}
+                await send_bot_message(bot_token, int(target_chat_id), alert_text, reply_markup=reply_markup)
+                print(f"[✓] Đã gửi thông báo cảnh báo về Telegram của bạn!")
 
-            # Lọc Link Tài liệu theo Kênh: lnk_{ch}_{qid}
-            if data_str.startswith("lnk_"):
-                parts = data_str.split("_")
-                if len(parts) >= 3:
-                    target_ch_code = parts[1]
-                    qid = parts[2]
-                    query_info = SEARCH_QUERY_CACHE.get(qid, {})
-                    query = query_info.get("query", "")
-                    ch_map = {"tg": "telegram", "wa": "whatsapp", "zl": "zalo", "all": "all"}
-                    channel_filter = ch_map.get(target_ch_code, "all")
+        except Exception as e:
+            print(f"[!] Lỗi khi xử lý tin nhắn: {e}")
 
-                    await event.answer("Đang lọc tài liệu & link...")
-                    links_res = await extract_recent_links_across_groups(client, query=query if query else None, channel_filter=channel_filter)
-                    try:
-                        await event.edit(links_res, buttons=None, parse_mode="html", link_preview=False)
-                    except Exception:
-                        pass
-                return
-
-        # 2. Lắng nghe lệnh trực tiếp từ bạn gửi cho Bot
-        @bot_client.on(events.NewMessage(incoming=True))
-        async def bot_command_handler(event):
-            sender_id = event.sender_id
-            text = (event.raw_text or "").strip()
-
-            # Cập nhật chat id nếu chưa có
-            if not my_chat_id or my_chat_id != sender_id:
-                config["telegram_notifier_bot"]["my_chat_id"] = sender_id
-                with open(CONFIG_PATH, "w", encoding="utf-8") as f:
-                    json.dump(config, f, ensure_ascii=False, indent=2)
-
-            if text.startswith("/start"):
-                parts = text.split()
-                if len(parts) > 1 and parts[1].startswith("view_"):
-                    view_args = parts[1][5:].split("_")
-                    if len(view_args) >= 2:
-                        chat_id_arg = view_args[0]
-                        try:
-                            msg_id_arg = int(view_args[1])
-                            await event.reply(f"📖 <i>Đang trích xuất toàn bộ ngữ cảnh hội thoại quanh tin nhắn #{msg_id_arg}...</i>", parse_mode="html")
-                            context_result = await get_message_context_thread(client, chat_id_arg, msg_id_arg)
-                            await event.reply(context_result, parse_mode="html", link_preview=False)
-                            return
-                        except Exception:
-                            pass
-
-                await event.reply(get_help_menu(), parse_mode="html")
-                return
-
-            if text.startswith("/help"):
-                await event.reply(get_help_menu(), parse_mode="html")
-                return
-
-            # Lệnh xem danh sách Checklist: /todo hoặc /tasks
-            if text == "/todo" or text == "/tasks" or text.startswith("/todo list"):
-                db = load_tasks_db()
-                checklists = db.get("checklists", {})
-                if not checklists:
-                    help_create = (
-                        "📋 <b>BẠN CHƯA CÓ CHECKLIST CÔNG VIỆC NÀO</b>\n"
-                        "━━━━━━━━━━━━━━━━━━━━━\n\n"
-                        "💡 <b>Cách tạo checklist mới cực nhanh:</b>\n\n"
-                        "<b>Cách 1 (1 dòng):</b>\n"
-                        "<code>/add Dự án SIM C06 | 15/08 | Khảo sát luồng, Vẽ Wireframe, Thiết kế UI</code>\n\n"
-                        "<b>Cách 2 (Nhiều dòng):</b>\n"
-                        "<code>/add Thiết kế Luồng C06\n"
-                        "Deadline: 15/08\n"
-                        "- Khảo sát luồng cũ\n"
-                        "- Thiết kế UI Figma\n"
-                        "- Review với PO</code>"
-                    )
-                    await event.reply(help_create, parse_mode="html")
-                    return
-
-                await event.reply(f"📋 <b>DANH SÁCH {len(checklists)} CHECKLIST ĐANG THEO DÕI:</b>", parse_mode="html")
-                for cid, chk in checklists.items():
-                    card_text, card_buttons = format_checklist_card(cid, chk)
-                    await bot_client.send_message(event.chat_id, card_text, buttons=card_buttons, parse_mode="html")
-                return
-
-            # Lệnh xem Báo cáo công việc tổng quan: /report hoặc /baocao
-            if text == "/report" or text == "/baocao":
-                db = load_tasks_db()
-                checklists = db.get("checklists", {})
-                report_text = generate_daily_morning_report(checklists)
-                await event.reply(report_text, parse_mode="html")
-                return
-
-            # Lệnh tạo Checklist mới: /add hoặc /todo add
-            if text.startswith("/add") or text.startswith("/todo add"):
-                clean_content = text
-                if clean_content.startswith("/todo add"):
-                    clean_content = clean_content[9:].strip()
-                elif clean_content.startswith("/add"):
-                    clean_content = clean_content[4:].strip()
-
-                if not clean_content:
-                    await event.reply(
-                        "⚠️ <b>Vui lòng nhập nội dung checklist:</b>\n\n"
-                        "<i>Cú pháp 1 dòng:</i>\n<code>/add Tên Dự án | Hạn DD/MM | Việc 1, Việc 2, Việc 3</code>\n\n"
-                        "<i>Cú pháp nhiều dòng:</i>\n<code>/add Tên Dự án\nDeadline: 15/08\n- Việc 1\n- Việc 2</code>",
-                        parse_mode="html"
-                    )
-                    return
-
-                title, deadline, items = parse_new_checklist_input(clean_content)
-                if not title:
-                    await event.reply("⚠️ Không tìm thấy tên dự án. Vui lòng thử lại.", parse_mode="html")
-                    return
-
-                db = load_tasks_db()
-                last_id = db.get("last_id", 0) + 1
-                db["last_id"] = last_id
-                cid = str(last_id)
-
-                items_struct = [{"id": i, "text": item_text, "done": False} for i, item_text in enumerate(items, start=1)]
-
-                new_checklist = {
-                    "id": cid,
-                    "title": title,
-                    "created_at": datetime.now().strftime("%d/%m/%Y"),
-                    "deadline": deadline,
-                    "items": items_struct
-                }
-
-                if "checklists" not in db:
-                    db["checklists"] = {}
-                db["checklists"][cid] = new_checklist
-                save_tasks_db(db)
-
-                card_text, card_buttons = format_checklist_card(cid, new_checklist)
-                await event.reply("✅ <b>ĐÃ TẠO CHECKLIST THÀNH CÔNG:</b>", parse_mode="html")
-                await bot_client.send_message(event.chat_id, card_text, buttons=card_buttons, parse_mode="html")
-                return
-
-            # Lệnh xóa checklist: /del <cid>
-            if text.startswith("/del") or text.startswith("/todo del"):
-                parts = text.split()
-                if len(parts) > 1:
-                    cid = parts[1].lstrip("#")
-                    db = load_tasks_db()
-                    if cid in db.get("checklists", {}):
-                        title = db["checklists"][cid].get("title", "Checklist")
-                        del db["checklists"][cid]
-                        save_tasks_db(db)
-                        await event.reply(f"🗑 <b>Đã xóa thành công Checklist:</b> <i>{title}</i> (#{cid})", parse_mode="html")
-                    else:
-                        await event.reply(f"⚠️ Không tìm thấy Checklist có mã <code>#{cid}</code>", parse_mode="html")
-                else:
-                    await event.reply("⚠️ Vui lòng nhập mã checklist: <code>/del &lt;MÃ_ID&gt;</code>", parse_mode="html")
-                return
-
-            # Lệnh xem báo cáo buổi sáng thủ công: /report hoặc /today
-            if text == "/report" or text == "/today":
-                db = load_tasks_db()
-                checklists = db.get("checklists", {})
-                report_text = generate_daily_morning_report(checklists)
-                await event.reply(report_text, parse_mode="html")
-                return
-
-            # Quản lý danh sách VIP Senders: /vip, /vip add, /vip del
-            if text.startswith("/vip"):
-                current_vips = config.get("settings", {}).get("vip_senders", [])
-                parts = text.split(maxsplit=2)
-                
-                if len(parts) == 1 or parts[1].lower() == "list":
-                    vip_items = "\n".join([f"  👑 {i}. <code>{v}</code>" for i, v in enumerate(current_vips, start=1)]) if current_vips else "  <i>(Chưa có thành viên nào)</i>"
-                    msg = (
-                        f"👑 <b>DANH SÁCH VIP SENDERS ({len(current_vips)} người)</b>\n"
-                        f"━━━━━━━━━━━━━━━━━━━━━\n\n"
-                        f"{vip_items}\n\n"
-                        f"━━━━━━━━━━━━━━━━━━━━━\n"
-                        f"💡 <b>Cách quản lý:</b>\n"
-                        f"• Thêm: <code>/vip add &lt;tên_hoặc_username&gt;</code>\n"
-                        f"• Xóa: <code>/vip del &lt;tên_hoặc_số_thứ_tự&gt;</code>"
-                    )
-                    await event.reply(msg, parse_mode="html")
-                    return
-
-                sub_cmd = parts[1].lower()
-                if sub_cmd == "add":
-                    # Lấy toàn bộ phần text sau "/vip add"
-                    raw_content = text[text.lower().find("add") + 3:].strip()
-                    if not raw_content:
-                        await event.reply(
-                            "⚠️ <b>Vui lòng nhập danh sách cần thêm:</b>\n\n"
-                            "<i>Cú pháp 1 dòng (dấu phẩy):</i>\n<code>/vip add Hoàng PO, Minh Lead, @boss, Linh PM</code>\n\n"
-                            "<i>Cú pháp nhiều dòng:</i>\n<code>/vip add\n- Hoàng PO\n- Minh Lead\n- @boss</code>",
-                            parse_mode="html"
-                        )
-                        return
-
-                    # Parse danh sách thành viên
-                    candidates = []
-                    for line in raw_content.split("\n"):
-                        clean_line = re.sub(r'^[-*•\d.]+\s*', '', line.strip()).strip()
-                        if "," in clean_line:
-                            candidates.extend([p.strip() for p in clean_line.split(",") if p.strip()])
-                        elif clean_line:
-                            candidates.append(clean_line)
-
-                    added_list = []
-                    existed_list = []
-                    for member in candidates:
-                        if member not in current_vips:
-                            current_vips.append(member)
-                            added_list.append(member)
-                        else:
-                            existed_list.append(member)
-
-                    if added_list:
-                        config["settings"]["vip_senders"] = current_vips
-                        with open(CONFIG_PATH, "w", encoding="utf-8") as f:
-                            json.dump(config, f, ensure_ascii=False, indent=2)
-
-                    msg_res = []
-                    if added_list:
-                        added_str = ", ".join([f"<b>{m}</b>" for m in added_list])
-                        msg_res.append(f"✅ Đã thêm <b>{len(added_list)}</b> thành viên vào VIP Senders:\n👉 {added_str}")
-                    if existed_list:
-                        existed_str = ", ".join([f"<i>{m}</i>" for m in existed_list])
-                        msg_res.append(f"ℹ️ Đã có sẵn: {existed_str}")
-
-                    await event.reply("\n\n".join(msg_res) if msg_res else "⚠️ Không có thành viên hợp lệ để thêm.", parse_mode="html")
-                    return
-
-                if sub_cmd in ["del", "remove", "delete"]:
-                    raw_content = text[text.lower().find(sub_cmd) + len(sub_cmd):].strip()
-                    if not raw_content:
-                        await event.reply("⚠️ Vui lòng nhập tên/số thứ tự cần xóa: <code>/vip del Hoàng PO, Minh Lead</code> hoặc <code>/vip del 1, 2</code>", parse_mode="html")
-                        return
-
-                    candidates = []
-                    for line in raw_content.split("\n"):
-                        clean_line = re.sub(r'^[-*•\d.]+\s*', '', line.strip()).strip()
-                        if "," in clean_line:
-                            candidates.extend([p.strip() for p in clean_line.split(",") if p.strip()])
-                        elif clean_line:
-                            candidates.append(clean_line)
-
-                    deleted_list = []
-                    not_found = []
-
-                    for target_member in candidates:
-                        matched = None
-                        if target_member.isdigit():
-                            idx = int(target_member)
-                            if 1 <= idx <= len(current_vips):
-                                matched = current_vips[idx - 1]
-                        else:
-                            for v in current_vips:
-                                if v.lower() == target_member.lower():
-                                    matched = v
-                                    break
-                        if matched and matched in current_vips:
-                            current_vips.remove(matched)
-                            deleted_list.append(matched)
-                        else:
-                            not_found.append(target_member)
-
-                    if deleted_list:
-                        config["settings"]["vip_senders"] = current_vips
-                        with open(CONFIG_PATH, "w", encoding="utf-8") as f:
-                            json.dump(config, f, ensure_ascii=False, indent=2)
-
-                    msg_res = []
-                    if deleted_list:
-                        del_str = ", ".join([f"<b>{m}</b>" for m in deleted_list])
-                        msg_res.append(f"🗑 Đã xóa <b>{len(deleted_list)}</b> thành viên khỏi VIP Senders:\n👉 {del_str}")
-                    if not_found:
-                        not_found_str = ", ".join([f"<i>{m}</i>" for m in not_found])
-                        msg_res.append(f"⚠️ Không tìm thấy: {not_found_str}")
-
-                    await event.reply("\n\n".join(msg_res), parse_mode="html")
-                    return
-
-            if text.startswith("/find") or text.startswith("/search"):
-                parts = text.split(maxsplit=1)
-                if len(parts) > 1:
-                    raw_query = parts[1].strip()
-                    active_channels = get_active_channels(config)
-
-                    # Trường hợp 1: Chỉ có 1 channel duy nhất đang bật -> AUTO BYPASS chọn kênh!
-                    if len(active_channels) <= 1:
-                        single_ch = active_channels[0] if active_channels else "telegram"
-                        await event.reply(f"🔍 <i>Đang tìm kiếm:</i> <code>{raw_query}</code>...", parse_mode="html")
-                        search_result = await search_messages_across_groups(client, raw_query, channel_filter=single_ch)
-                        await event.reply(search_result, parse_mode="html", link_preview=False)
-                        return
-
-                    # Trường hợp 2: Có >1 channel đang bật -> Kiểm tra prefix trực tiếp (VD: /find tele figma, /find wa deadline)
-                    explicit_ch, clean_query = parse_channel_prefix_from_query(raw_query)
-                    if explicit_ch:
-                        ch_name = "TELEGRAM VNPT" if explicit_ch == "telegram" else ("WHATSAPP" if explicit_ch == "whatsapp" else "ZALO")
-                        await event.reply(f"🔍 <i>Đang tìm kiếm trên [{ch_name}]:</i> <code>{clean_query}</code>...", parse_mode="html")
-                        search_result = await search_messages_across_groups(client, clean_query, channel_filter=explicit_ch)
-                        await event.reply(search_result, parse_mode="html", link_preview=False)
-                        return
-
-                    # Nếu không có prefix -> Hiện bảng chọn kênh để output không bị lẫn lộn
-                    qid = str(int(time.time() * 1000))[-8:]
-                    SEARCH_QUERY_CACHE[qid] = {"query": raw_query, "type": "find"}
-
-                    btn_row_1 = []
-                    if "telegram" in active_channels:
-                        btn_row_1.append(Button.inline("🔷 Telegram VNPT", data=f"fnd_tg_{qid}"))
-                    if "whatsapp" in active_channels:
-                        btn_row_1.append(Button.inline("🟢 WhatsApp", data=f"fnd_wa_{qid}"))
-                    if "zalo" in active_channels:
-                        btn_row_1.append(Button.inline("🔵 Zalo", data=f"fnd_zl_{qid}"))
-
-                    btn_row_2 = [Button.inline("🌐 Tìm trên Tất cả Kênh", data=f"fnd_all_{qid}")]
-                    filter_buttons = [btn_row_1, btn_row_2] if btn_row_1 else [btn_row_2]
-
-                    prompt_msg = (
-                        f"🔍 <b>CHỌN KÊNH TRA CỨU CHO:</b> <code>{raw_query}</code>\n"
-                        f"━━━━━━━━━━━━━━━━━━━━━\n"
-                        f"<i>Vui lòng chọn kênh để kết quả không bị lẫn lộn giữa các nền tảng:</i>"
-                    )
-                    await event.reply(prompt_msg, buttons=filter_buttons, parse_mode="html")
-                else:
-                    await event.reply("⚠️ Vui lòng nhập từ khóa cần tìm: <code>/find &lt;từ_khóa&gt;</code>", parse_mode="html")
-                return
-
-            if text.startswith("/view"):
-                chat_id_arg = None
-                msg_id_arg = None
-
-                if text.startswith("/view_"):
-                    raw_args = text[6:].split("_")
-                    if len(raw_args) >= 2:
-                        chat_id_arg = raw_args[0]
-                        try:
-                            msg_id_arg = int(raw_args[1].split()[0])
-                        except Exception:
-                            pass
-                else:
-                    parts = text.split()
-                    if len(parts) >= 3:
-                        chat_id_arg = parts[1]
-                        try:
-                            msg_id_arg = int(parts[2])
-                        except Exception:
-                            pass
-
-                if chat_id_arg and msg_id_arg:
-                    await event.reply(f"📖 <i>Đang trích xuất toàn bộ ngữ cảnh hội thoại quanh tin nhắn #{msg_id_arg}...</i>", parse_mode="html")
-                    context_result = await get_message_context_thread(client, chat_id_arg, msg_id_arg)
-                    await event.reply(context_result, parse_mode="html", link_preview=False)
-                else:
-                    await event.reply("⚠️ Cú pháp không hợp lệ. Hãy bấm trực tiếp vào mã lệnh dạng: <code>/view_&lt;chat_id&gt;_&lt;msg_id&gt;</code>", parse_mode="html")
-                return
-
-            if any(text.startswith(prefix) for prefix in ["/link", "/links", "/figma", "/docs", "/doc", "/tailieu"]):
-                parts = text.split(maxsplit=1)
-                raw_query = parts[1].strip() if len(parts) > 1 else ""
-                if text.startswith("/figma") and not raw_query:
-                    raw_query = "figma"
-                elif (text.startswith("/docs") or text.startswith("/doc")) and not raw_query:
-                    raw_query = "docs"
-
-                active_channels = get_active_channels(config)
-
-                # Trường hợp 1: Chỉ có 1 channel duy nhất đang bật -> AUTO BYPASS chọn kênh!
-                if len(active_channels) <= 1:
-                    single_ch = active_channels[0] if active_channels else "telegram"
-                    if raw_query:
-                        await event.reply(f"🔗 <i>Đang lọc link liên quan đến:</i> <code>{raw_query}</code>...", parse_mode="html")
-                    else:
-                        await event.reply("🔗 <i>Đang lọc các link Figma và tài liệu mới nhất...</i>", parse_mode="html")
-                    links_result = await extract_recent_links_across_groups(client, query=raw_query if raw_query else None, channel_filter=single_ch)
-                    await event.reply(links_result, parse_mode="html", link_preview=False)
-                    return
-
-                # Trường hợp 2: Có >1 channel đang bật -> Kiểm tra prefix trực tiếp
-                explicit_ch, clean_query = parse_channel_prefix_from_query(raw_query) if raw_query else (None, "")
-                if explicit_ch:
-                    ch_name = "TELEGRAM VNPT" if explicit_ch == "telegram" else ("WHATSAPP" if explicit_ch == "whatsapp" else "ZALO")
-                    await event.reply(f"🔗 <i>Đang lọc link trên [{ch_name}]:</i> <code>{clean_query}</code>...", parse_mode="html")
-                    links_result = await extract_recent_links_across_groups(client, query=clean_query if clean_query else None, channel_filter=explicit_ch)
-                    await event.reply(links_result, parse_mode="html", link_preview=False)
-                    return
-
-                # Nếu không có prefix -> Hiện bảng chọn kênh
-                qid = str(int(time.time() * 1000))[-8:]
-                SEARCH_QUERY_CACHE[qid] = {"query": raw_query, "type": "links"}
-
-                btn_row_1 = []
-                if "telegram" in active_channels:
-                    btn_row_1.append(Button.inline("🔷 Telegram VNPT", data=f"lnk_tg_{qid}"))
-                if "whatsapp" in active_channels:
-                    btn_row_1.append(Button.inline("🟢 WhatsApp", data=f"lnk_wa_{qid}"))
-                if "zalo" in active_channels:
-                    btn_row_1.append(Button.inline("🔵 Zalo", data=f"lnk_zl_{qid}"))
-
-                btn_row_2 = [Button.inline("🌐 Lọc trên Tất cả Kênh", data=f"lnk_all_{qid}")]
-                filter_buttons = [btn_row_1, btn_row_2] if btn_row_1 else [btn_row_2]
-
-                q_display = f" <code>{raw_query}</code>" if raw_query else ""
-                prompt_msg = (
-                    f"🔗 <b>CHỌN KÊNH LỌC TÀI LIỆU & LINK{q_display}:</b>\n"
-                    f"━━━━━━━━━━━━━━━━━━━━━\n"
-                    f"<i>Vui lòng chọn kênh để danh sách link Figma/Docs không bị lẫn lộn:</i>"
-                )
-                await event.reply(prompt_msg, buttons=filter_buttons, parse_mode="html")
-                return
-
-        # Khởi chạy tiến trình nhắc việc 08:00 Sáng mỗi ngày
-        target_id_for_reminder = int(my_chat_id) if my_chat_id else 0
-        if target_id_for_reminder:
-            asyncio.create_task(daily_morning_reminder_loop(bot_client, target_id_for_reminder))
-            asyncio.create_task(scan_recent_missed_mentions(client, bot_client, config, processed_message_ids))
+    # Khởi chạy Userbot client
+    await client.connect()
+    if not await client.is_user_authorized():
+        print("[!] Userbot Telethon chưa xác thực session.")
+    else:
+        me = await client.get_me()
+        print(f"[+] Userbot Telethon đã kết nối tài khoản: {me.first_name} (@{me.username})")
 
     print("\n" + "="*65)
     print("🚀 MEW TELEGRAM ASSISTANT BOT ĐANG CHẠY TOÀN DIỆN")
     print("• Quét và lắng nghe tự động tất cả các nhóm bạn tham gia")
     print("• Gửi cảnh báo nhắc việc trực tiếp từ Bot riêng của bạn")
-    print("• Quản lý Checklist công việc & Tiến độ: /todo, /add")
+    print("• Quản lý Checklist công việc & Tiến độ: /todo, /task, /add")
     print("• Tự động gửi Báo cáo nhắc việc 08:00 Sáng mỗi ngày")
     print("• Hỗ trợ tìm kiếm xuyên nhóm: /find <từ_khóa>")
     print("• Hỗ trợ gom link tài liệu:   /links [từ_khóa]")
     print("="*65 + "\n")
 
-    await client.start()
-    if bot_client:
-        await asyncio.gather(client.run_until_disconnected(), bot_client.run_until_disconnected())
-    else:
-        await client.run_until_disconnected()
+    # Các tác vụ ngầm chạy song song: Polling Bot API + Morning Reminder + Missed Mentions Scan
+    tasks = [client.run_until_disconnected()]
+    if bot_token and bot_token != "YOUR_TELEGRAM_BOT_TOKEN_FROM_BOTFATHER":
+        tasks.append(bot_api_polling_loop(client, bot_token, config))
+        target_id_for_reminder = int(my_chat_id) if my_chat_id else 0
+        if target_id_for_reminder:
+            tasks.append(daily_morning_reminder_loop(bot_token, target_id_for_reminder))
+            tasks.append(scan_recent_missed_mentions(client, bot_token, config, processed_message_ids))
+
+    await asyncio.gather(*tasks)
 
 def main():
     parser = argparse.ArgumentParser(description="Telegram VNPT Task Monitor & Synthesizer")

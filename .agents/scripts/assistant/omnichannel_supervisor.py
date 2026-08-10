@@ -30,13 +30,13 @@ SERVICES = {
     "telegram": {
         "name": "🔷 Telegram VNPT Monitor",
         "cmd": [sys.executable, str(SCRIPT_DIR / "telegram_vnpt_monitor.py"), "--listen"],
-        "cwd": str(WORKSPACE_ROOT),
+        "cwd": str(SCRIPT_DIR),
         "proc": None
     },
     "whatsapp": {
         "name": "🟢 WhatsApp Bridge",
         "cmd": ["node", str(SCRIPT_DIR / "bridges" / "whatsapp" / "whatsapp_bridge.js")],
-        "cwd": str(WORKSPACE_ROOT),
+        "cwd": str(SCRIPT_DIR / "bridges" / "whatsapp"),
         "proc": None
     },
     "zalo": {
@@ -97,6 +97,15 @@ def signal_handler(signum, frame):
 signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
+def cleanup_stale_locks():
+    """Xóa các file lock session-journal còn sót lại nếu tiến trình trước đó bị tắt đột ngột"""
+    for j_file in SCRIPT_DIR.glob("*.session-journal"):
+        try:
+            j_file.unlink()
+            print(f"[✓] Đã dọn dẹp file lock cũ: {j_file.name}")
+        except Exception:
+            pass
+
 def start_service(service_key: str):
     s_data = SERVICES[service_key]
     print(f"[+] Khởi động: {s_data['name']}...")
@@ -119,10 +128,11 @@ def main():
     print("• Tự động hồi sinh (Auto-respawn) khi có sự cố mạng hoặc crash")
     print("="*65)
 
-    # 1. Kill các tiến trình cũ nếu còn sót lại
+    # 1. Kill các tiến trình cũ nếu còn sót lại & xóa lock
     os.system("pkill -f 'telegram_vnpt_monitor.py'")
     os.system("pkill -f 'whatsapp_bridge.js'")
     os.system("pkill -f 'zalo_bridge.js'")
+    cleanup_stale_locks()
     time.sleep(1)
 
     # 2. Khởi chạy 3 services
