@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260811_092247",
+  "group_name": "[Super App] Trao đổi BA, Tech MyVNPT và MyTV",
+  "sender_name": "Son Do",
+  "timestamp": "09:22 11/08/2026",
+  "trigger_message": "dạ chị Hải Anh ơi, trên app MyVNPT, vẫn trong màn hình danh sách các thuê bao MyTV thuộc sở hữu của user, có tính năng cho phép user Thêm/ Bỏ bớt thuê bao trong danh sách này.\nĐể luồng tính năng này chạy thông suốt, đang cần hỗ trợ từ phía MyTV. Em có thể trao đổi nhanh online với BA + PO team MyTV về vấn đề này được không ạ?",
+  "context_history": [
+    {
+      "sender_name": "Hải Anh",
+      "text": "@havietngn bạn này nhé em Thu"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "cần trao đổi về phần mô tả cước thì em làm việc với Thư giúp chị"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@hainn191297"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "[hainn@app-myvnpt02 API_TEL_SERVICE]$ curl -sS -X POST 'http://10.144.65.15:6969/api/v1/api-hst/my-vnpt/meminfo' \\\n>   -H 'Content-Type: application/json' \\\n>   -H 'x-timestamp: 1785727896676' \\\n>   -H 'x-signature: b1925056d1a00b83f7d989901ae51534edd601c57f86072dd7e66cf0c1c745e3' \\\n>   -d '{\"requestId\":\"1505097909731\",\"msisdn\":\"84817849365\"}'\n{\"errorCode\":401,\"errorMesssage\":\"Invalid signature!\",\"responseTime\":\"2026-08-03T03:31:56.211Z\",\"requestId\":\"1505097909731\",\"data\":null}[hainn@app-myvnpt02"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@vanvanlt check giúp anh request này ở môi trường dev/test đang k được. @hainn191297  phối hợp check giúp a nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Vâng anh."
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Em đang dùng secret key có đuôi là \"HSTPILOT\" và generate ra x-signature dạng Base64 ạ. Em muốn hỏi thêm là em gọi API api/v1/api-hst/my-vnpt/meminfo này là đã đúng chưa @vanvanlt để lấy ra thông tin dịch vụ MyTV OTT gắn với thuê bao."
+    },
+    {
+      "sender_name": "Văn",
+      "text": "path này đúng rồi ạ\nsignature đổi dạng hex thử ạ @hainn191297"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "có upper case hay lower case gì ko @vanvanlt"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "[hainn@app-myvnpt02 API_TEL_SERVICE]$ curl -sS -X POST 'http://10.144.65.15:6969/api/v1/api-hst/my-vnpt/meminfo' \\\n>   -H 'Content-Type: application/json' \\\n>   -H 'x-timestamp: 1785728795696' \\\n>   -H 'x-signature: 6EEEAB60D77D7FAAC01B00036473A1B9E30CD9EF18C4445F3E93DAFE31AA5271' \\\n>   -d '{\"requestId\":\"1505097909731\",\"msisdn\":\"84817849365\"}'\n{\"errorCode\":401,\"errorMesssage\":\"Invalid signature!\",\"responseTime\":\"2026-08-03T03:46:43.416Z\",\"requestId\":\"1505097909731\",\"data\":null}"
+    },
+    {
+      "sender_name": "Văn",
+      "text": "dạ viết thường ạ, check ib nhé, mình gửi script test postman cho nhanh"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "oke nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "call được rồi nhé."
+    },
+    {
+      "sender_name": "Hai",
+      "text": "@vanvanlt"
+    },
+    {
+      "sender_name": "Son Do",
+      "text": "dạ chị Hải Anh ơi, trên app MyVNPT, vẫn trong màn hình danh sách các thuê bao MyTV thuộc sở hữu của user, có tính năng cho phép user Thêm/ Bỏ bớt thuê bao trong danh sách này.\nĐể luồng tính năng này chạy thông suốt, đang cần hỗ trợ từ phía MyTV. Em có thể trao đổi nhanh online với BA + PO team MyTV về vấn đề này được không ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5589708935_451087",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"dạ chị Hải Anh ơi, trên app MyVNPT, vẫn trong màn hình danh sách các thuê bao MyTV thuộc sở hữu của user, có tính năng cho phép us...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Son Do</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

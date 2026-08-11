@@ -207,14 +207,16 @@ function isWhitelisted(senderName, chatName) {
     currentConfig = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
   } catch {}
 
-  const whitelist = currentConfig?.zalo_settings?.whitelist || [
-    "Anh Tín",
-    "[VFS] Design outsource",
-    "Huu Nghi - Opla CRM",
-    "Trình Khánh",
-    "Vũ Thị Thuỷ Tiên",
-    "Group của tôi, Thuỳ Trang, Vũ Thị Thuỷ Tiên"
-  ];
+  const zaloWhitelist = currentConfig?.zalo_settings?.whitelist || [];
+  const vipSenders = currentConfig?.settings?.vip_senders || [];
+  const whitelist = [...new Set([...zaloWhitelist, ...vipSenders])];
+
+  if (whitelist.length === 0) {
+    whitelist.push(
+      "Anh Tín", "[VFS] Design outsource", "Huu Nghi - Opla CRM",
+      "Trình Khánh", "Vũ Thị Thuỷ Tiên", "Group của tôi, Thuỳ Trang, Vũ Thị Thuỷ Tiên"
+    );
+  }
 
   const sLower = (senderName || '').toLowerCase().trim();
   const cLower = (chatName || '').toLowerCase().trim();
@@ -257,12 +259,8 @@ function saveZaloMessageToCache(item, shouldNotify = false) {
 
   if (shouldNotify && !item.fromMe) {
     const check = isWhitelisted(item.senderName, item.chatName);
-    const isDirect = !item.isGroup;
-    const lowerText = (item.text || '').toLowerCase();
-    const hasMention = lowerText.includes('tuấn') || lowerText.includes('tuan');
-    const hasUrgentOrLink = lowerText.includes('figma.com') || lowerText.includes('docs.google.com') || lowerText.includes('drive.google.com') || lowerText.includes('gấp') || lowerText.includes('báo giá') || lowerText.includes('deadline');
 
-    if (check.matched || isDirect || hasMention || hasUrgentOrLink || item.isReplyToMe) {
+    if (check.matched) {
       processAndForwardZaloMessage({
         senderName: item.senderName,
         chatName: item.chatName,
@@ -271,7 +269,7 @@ function saveZaloMessageToCache(item, shouldNotify = false) {
         isReplyToMe: item.isReplyToMe || false
       });
     } else {
-      console.log(`[i Bỏ qua cảnh báo Zalo] Từ: "${item.senderName}" | Nhóm: "${item.chatName}" (Tin nhắn nhóm thông thường)`);
+      console.log(`[i Bỏ qua cảnh báo Zalo] Từ: "${item.senderName}" | Nhóm: "${item.chatName}" (Không nằm trong danh sách ưu tiên)`);
     }
   }
 }

@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260811_083932",
+  "group_name": "[GDS]Tổ chức du lịch 2026",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "08:39 11/08/2026",
+  "trigger_message": "E gửi các phương án KV màn LED, nhờ mn cùng vote nhé ạ: https://www.canva.com/design/DAHR2uk0sek/bIgEEqQnrQNrsf6P7PmJYw/edit",
+  "context_history": [
+    {
+      "sender_name": "Trà My",
+      "text": "Sếp duyệt chi phí rồi nhé"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Mai e liên hệ để thực hiện luôn kẻo k kịp"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Em cứ tưởng sếp duyệt văn nghệ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "nghe dàn tiết mục và ca sĩ là sếp duyệt luôn rồi. k phải nghĩ"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Thế chị xin được bn thế ạ =))))))"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "chị xin hỗ trợ trang phục và tập luyện 300k/người"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Ngon lun chị ơi"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Nghe xong tự nhiên muốn vào hát luôn"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "đội văn nghệ luôn chào đón em"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "hát luôn là ko phải muốn nữa"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Thui chị ạ. Mn chắc cũng chán em rồi. Lần này em làm bầu sô tìm GDS Next Talent thôi 😂"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Em tôn vinh những gương mặt mới mà 😂"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "E gửi các phương án KV màn LED, nhờ mn cùng vote nhé ạ: https://www.canva.com/design/DAHR2uk0sek/bIgEEqQnrQNrsf6P7PmJYw/edit",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5515504655_451023",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"E gửi các phương án KV màn LED, nhờ mn cùng vote nhé ạ: https://www.canva.com/design/DAHR2uk0sek/bIgEEqQnrQNrsf6P7PmJYw/edit\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Trang Đỗ</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

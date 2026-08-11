@@ -1,0 +1,81 @@
+{
+  "task_id": "VNPT_20260810_133828",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "13:38 10/08/2026",
+  "trigger_message": "là số tiền mà bạn sẽ cho tui á",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "và khoản 15/8"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "15/8 đc mấy tiền á cậu"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "có 8tr hong"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "có 8 cậu ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ủa tg a Liêm bảo k đc tiền 15/8 nữa"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thế m hỏi anh Liêm đi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "m tin a Liêm thì có thể để khoản đó cho c"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chứ chị hong hỏi dc"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "em Hà dc 2 con chị"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "quý quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cái này là gì á"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "là số tiền mà bạn sẽ cho tui á",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_450714",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"là số tiền mà bạn sẽ cho tui á\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Nhu</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

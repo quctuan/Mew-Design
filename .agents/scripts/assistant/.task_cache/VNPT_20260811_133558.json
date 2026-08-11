@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260811_133558",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Eric Trần",
+  "timestamp": "13:35 11/08/2026",
+  "trigger_message": "ae UIUX và a Tuấn cho ý kiến nhé",
+  "context_history": [
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh @quctuan ơi cho em xin cái background của cái này vs ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a gửi nhá"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "model response cũng ko giống nhau hả anh"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "vào cùng 1 màn, cùng những trường như thế"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Em gửi ticket ạ\n• CMS admin: https://dvs.vnptmedia.vn/browse/GMYVNPT1-513\n• CMS dev https://dvs.vnptmedia.vn/browse/GMYVNPT1-512"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ Rating này nhờ ae đánh giá và triển khai để hoàn thiện nốt những hạng mục cuối cùng nhé.\n@erictrannn , @ngsong699 , @tranlong \n\nNhờ Anh tạo giúp Task Jira cho phần Rating Mini App này nhé."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 phối hợp phần App nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@tranlong chú đẩy phần fix những lỗi ANTT hôm qua lên xong thì báo lại lên đây nhé."
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "phần ANTT e fix hết và đẩy lên staging r đó ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nhờ @ntiendat báo giúp ANTT verify lại nhé"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "em gửi ạ https://dvs.vnptmedia.vn/browse/GMYVNPT1-416"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em nhắn group rồi ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "alo a @Tuanjnfor à, vậy vẫn chốt như sau đúng k\n- Cho phép gõ đánh giá\n- Cho phép dưới 3 sao thì hiển thị ra cái tag để chọn nội dung cải thiện đúng k? (các nội dụng cải thiện fix cứng như UI)"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "Ngoài ra để tránh spam e nghĩ nên có cơ chế chặn ví dụ sau bao lâu mới được rate lại (ví dụ 1 lần/ngày chả hạn)"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "ae UIUX và a Tuấn cho ý kiến nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_451252",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"ae UIUX và a Tuấn cho ý kiến nhé\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

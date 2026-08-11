@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260810_140239",
+  "group_name": "[GDS]Tổ chức du lịch 2026",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "14:02 10/08/2026",
+  "trigger_message": "Em xin nha anh",
+  "context_history": [
+    {
+      "sender_name": "Trà My",
+      "text": "Hnay chắc lên 1 bài để mn còn cbi dresscode @Trangdt171 nhỉ!"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "E định mai ạ, khi mà chốt được backdrop thì thiết kế giấy mời, có dresscode luôn ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@hanggauu cố gắng hnay có keyvisual nhá"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "okeyc ơi, chị hoàn thiện order chưa ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Thiết kế sẽ từ backdrop đi ra thêm text thui, order backdrop chị ghi rồi, còn text trên thiệp c đang fill nha"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Chiều 3:00 nhé mn?"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Đồng bộ nhanh anh xem tình hình ntn, cả phần Hội thảo."
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "@kietla01 rà soát lại nd phần Hội Thảo chiều 3h báo cáo nhé!"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Em với anh @hieunguyen271095 đang rà soát rồi ạ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Hôm trước @hieunguyen271095 k họp cùng mn, e phải đồng bộ lại nội bộ các nội dung trao đổi để làm việc vs bên tour chứ, các nội dung nếu k có gì nhạy cảm em nên trao đổi qua nhóm để mn còn nắm đc thông tin và trạng thái các đầu việc, tránh TH 1 việc 2,3 người làm"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "vâng chị sáng e đồng bộ xong phần hội thảo với Kiệt rồi \nchiều @Trangdt171 cho anh xin mấy phút đồng bộ lại bên Gala nhé"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Bên du lịch đang xin cái file logo của mình để làm banner du lịch. Anh @hieunguyen271095 hay anh @quctuan có cho em xin với ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ban mình sử dụng logo này phải ko ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "oke r"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://drive.google.com/file/d/1LYKFqEhvGKlXqzDN0BhmuutZcIst2Cpf/view?usp=drive_open\n\n@kietla01 a gửi nhé"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Em xin nha anh",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5515504655_450748",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Em xin nha anh\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Ly Anh Kiet</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

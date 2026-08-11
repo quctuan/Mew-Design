@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260811_083708",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Tuan Tran",
+  "timestamp": "08:37 11/08/2026",
+  "trigger_message": "Chỗ Rating này nhờ ae đánh giá và triển khai để hoàn thiện nốt những hạng mục cuối cùng nhé.\n@erictrannn , @ngsong699 , @tranlong \n\nNhờ Anh tạo giúp Task Jira cho phần Rating Mini App này nhé.",
+  "context_history": [
+    {
+      "sender_name": "Hieu",
+      "text": "mới toanh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cái này hả a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "e bê nguyên từ Shop qua, có sửa gì đâu"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "em thấy mỗi điểm chạm là những api rating khác nhau, nên điều hướng vào màn common này toàn phải chia case, anh @ngsong699 có cách nào dùng chung 1 api đc ko anh"
+    },
+    {
+      "sender_name": "Song",
+      "text": "mấy cái rating trước thì anh ko rõ đâu,  nó lưu các bảng khác chứ không cùng bảng với rating miniapp"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "ANTT yêu cầu CMS developer và CMS admin bổ sung OTP khi đăng nhập, Nguyễn Ánh tạo task giúp a phần này vs nhé"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh @quctuan ơi cho em xin cái background của cái này vs ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a gửi nhá"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "model response cũng ko giống nhau hả anh"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "vào cùng 1 màn, cùng những trường như thế"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Em gửi ticket ạ\n• CMS admin: https://dvs.vnptmedia.vn/browse/GMYVNPT1-513\n• CMS dev https://dvs.vnptmedia.vn/browse/GMYVNPT1-512"
+    },
+    {
+      "sender_name": "Tuan Tran",
+      "text": "Chỗ Rating này nhờ ae đánh giá và triển khai để hoàn thiện nốt những hạng mục cuối cùng nhé.\n@erictrannn , @ngsong699 , @tranlong \n\nNhờ Anh tạo giúp Task Jira cho phần Rating Mini App này nhé.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_451019",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Chỗ Rating này nhờ ae đánh giá và triển khai để hoàn thiện nốt những hạng mục cuối cùng nhé. @erictrannn , @ngsong699 , @tranlong ...\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Tuan Tran</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

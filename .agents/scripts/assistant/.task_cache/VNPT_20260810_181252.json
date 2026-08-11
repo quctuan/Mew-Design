@@ -1,0 +1,68 @@
+{
+  "task_id": "VNPT_20260810_181252",
+  "group_name": "Media@HĐTDTT VNPT",
+  "sender_name": "VNPT - Chị Thư HR",
+  "timestamp": "18:12 10/08/2026",
+  "trigger_message": "Dạ anh này nữa ạ, Đào Trọng Tuấn_Media ban PV11. Em cảm ơn chị Thư nhiều ạ",
+  "context_history": [
+    {
+      "sender_name": "Phong",
+      "text": "Vẫn anh Trần Minh chị ạ"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Chị gửi lại DS  tham gia các ban phỏng vấn tập trung đợt 8"
+    },
+    {
+      "sender_name": "Nguyễn Thị",
+      "text": "chị ơi, Chị sửa lại giúp em AI là Nguyễn Thanh Sơn ạ (chứ ko phải ở ban DE). Còn Ban DE có bạn Nguyễn Thanh Long và Đào Trọng Tuấn (thay cho bạn Nguyễn Công Thịnh). Chị sửa lại giúp em nhé"
+    },
+    {
+      "sender_name": "Vũ",
+      "text": "chị ơi, e ko biết gì về Nhúng đâu chị ah 😂️️"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Ban đó hỗn hợp"
+    },
+    {
+      "sender_name": "Vũ",
+      "text": "vâng ah"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "chị nói với c Châu rồi"
+    },
+    {
+      "sender_name": "Vũ",
+      "text": "vâng ah"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "https://t.me/+weB3R8teFUk2MmE9"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Dạ anh này nữa ạ, Đào Trọng Tuấn_Media ban PV11. Em cảm ơn chị Thư nhiều ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_498681166_450937",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dạ anh này nữa ạ, Đào Trọng Tuấn_Media ban PV11. Em cảm ơn chị Thư nhiều ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Chị Thư HR</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

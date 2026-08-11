@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260810_163725",
+  "group_name": "[DigiShop Web][GDS]: Team triển khai dự án",
+  "sender_name": "Nguyễn Tiến Đạt",
+  "timestamp": "16:37 10/08/2026",
+  "trigger_message": "a thử chat luôn với a Tuấn xem  a",
+  "context_history": [
+    {
+      "sender_name": "Thuy",
+      "text": "đọc des hơi khó hiểu cho người mới nhỉ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Note cho chị Hiện trạng + phương án thay đổi phát"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "Phần này e bổ sung mới thôi chị, trước phần này bên vận hành Vas đẩy dữ liệu 3 bảng orders, order_detail, prodution  cho bigdata."
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "Em bổ sung phần đẩy dữ liệu này vào job export data đang có luôn"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Oke"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Phục vụ chuyển hạ tầng digishop lên K8s. Do đó bọn em cần được test giả lập môi trường production với thông tin như sau:\n1. Danh sách module chuyển lên K8s:\n- WEB (web trang chủ - web chính)\n- WEB 2025 (web sim số)\n- API (apiprod)\n- Dsproduct (dsproduct)\n\n2. Cấu hình file hosts trên máy tính cá nhân tại văn phòng: \n- Đường dẫn: C:\\Windows\\System32\\drivers\\etc\n- File cấu hình: hosts\n- Nội dung cấu hình:\n10.144.41.85  digishop.vnpt.vn\n\n3. Tạo task ticket để  test phạm vi đầy đủ trên nền tảng K8s, nhờ Kiệt (@kietla01 ) tạo giúp\n\n4. Nhờ chị Thúy (@thuyph312 ) bố trí nhân sự với nội dung trên giúp bọn em ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@tu_uyenn , @tranlong vẫn có 1 số mã hrm bị sai tỉnh"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "các e check xem có đúng lỗi đồng bộ từ hrm k nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nếu từ phần đồng bộ hrm thì lấy log cho c để c gửi tỉnh họ làm phiếu cho hrm"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "05/08/2026 18:16:07  INFO [pool-2-thread-85] ITCommunicate: getHRMUserInfo: URL: http://10.144.126.133:8012/hrmapi/hrm/getHRMUserInfo --- request: {\"maNhanVien\":\"VNPT018889\",\"email\":\"\",\"sdtDiDong\":\"\"} --- response: {\"data\":{\"tenNhanVien\":\"Nguyễn Thị Chi\",\"maDonviShop\":\"212.703.603\",\"maNhanVien\":\"VNPT018889\",\"idNhanVien\":\"42034\",\"maDiaBanCap1\":\"VNPT Bắc Ninh\",\"gioiTinh\":\"nu\",\"tenPhongbanShop\":\"VNPT Kinh Bắc\",\"sdtDiDong\":\"0911159266\",\"trangThai\":\"Xác nhận\",\"loaiDonVi\":\"VTT\",\"email\":\"chint.bnh@vnpt.vn\",\"maPhongbanShop\":\"212.703\",\"tenDonviShop\":\"Tổ Kinh doanh Địa bàn 1\"},\"errorCode\":0,\"message\":\"success\"}"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "a @tran_van_my  ơi, dữ liệu ngày tháng gửi sang bigdata, thì e gửi sang định dạng này nhé 09/08/2026 19:05:29"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "với các luồng lấy thông tin   user qua api này thì dùng mã đơn vị này tra cứu sang bảng hrm_đơn vị -> lấy mã tỉnh viết tắt"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "TH mã tỉnh đó null thì phải lấy lên đơn vị cha"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@tu_uyenn , Bùi Hoài Nam"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "a thử chat luôn với a Tuấn xem  a",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3565454551_3816",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a thử chat luôn với a Tuấn xem  a\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nguyễn Tiến Đạt</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

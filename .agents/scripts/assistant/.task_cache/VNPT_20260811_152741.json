@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260811_152741",
+  "group_name": "GDS_Đề án Phát triển nền tảng KD trên MTS",
+  "sender_name": "Ngô Anh",
+  "timestamp": "15:27 11/08/2026",
+  "trigger_message": "@minhhnhatt nắm thông tin nhé, anh sẽ trao đổi Quỳnh trao đổi lại với team em để xử lý gấp",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Chỗ này Việt đồng bộ lại thông tin để báo a Tr nhé."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ anh"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Đồng bộ nhanh rồi đầu giờ chiều trao đổi với anh nhé, Trà My ngồi cùng. @myntt2703"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Chiều 2h: Trà My( gọi cả Huyền Mai, Trang) lên b/c a Tr vụ KD di động, gồm 2 vấn đề: cơ chế, P&L điều chỉnh, nhân sự ngoài kỹ thuật;"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Chỗ nhân sự PTPM thì Học tính vo dự kiến cỡ bao nhiêu( bản chất là mình chưa xác định được đề bài và giải pháp nên tính vo thôi) để tính total cho file chỗ ngồi."
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@myntt2703 @hocnv2010"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Học đi làm chưa? Ko thì vào anh trao đổi nhanh"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "E đi rồi ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Qua gọi TM vào anh trao đổi nhanh ko anh phải chạy giờ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Món điều khoản T&C trên web MyVNPT đang ntn, kiểm tra luôn giúp anh để cập nhật @Phantom102 @tran_van_my, CC @myntt2703 @hocnv2010"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@vietmv92 xem có thông tin gì nghe bảo có bên đang đòi phạt"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "vâng anh, chỗ này KD đã đưa yêu cầu sang SP để cập nhật lại, các bạn có trao đổi với nhau về timeline, để em check lại với các bạn chỗ này, gấp thì phải ưu tiên xử lý ngay."
+    },
+    {
+      "sender_name": "Ngô Anh",
+      "text": "@minhhnhatt nắm thông tin nhé, anh sẽ trao đổi Quỳnh trao đổi lại với team em để xử lý gấp",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192106461_451364",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@minhhnhatt nắm thông tin nhé, anh sẽ trao đổi Quỳnh trao đổi lại với team em để xử lý gấp\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260811_161306",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "Nhu",
+  "timestamp": "16:13 11/08/2026",
+  "trigger_message": "@quynhmaihavi IT đang confirm là phần ký BBNT là ký nghiệm thu cho từng thuê bao ạ. Chỗ này chị check lại luồng của phía MYVNPT giúp em nhé",
+  "context_history": [
+    {
+      "sender_name": "Đặng",
+      "text": "1 đơn hàng (ma_gd) gồm nhiều thuê bao thì sẽ ký chung 1 hợp đồng hay có thể có nhiều hợp đồng cho các thuê bao khác nhau ạ?"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "khi tạo hđ thì sẽ có 1hd khách hàng, hđ khách hàng sẽ có liên kết với nhiều hđ thuê bao em ạ. Còn kí thì ký 1 hđ thôi là hđ khách hàng ý. \nMua nhiều thiết bị trên one đang coi mỗi thiết bị đó sẽ là 1 thuê bao riêng lẻ với loại hình thiết bị khác  \nVD em lắp gói Home Cam 1 \nThì sẽ có 1 thuê bao fiber và 1 thuê bao ip camera"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "như gói home cam 4 thì KH đó sẽ có thông tin thuê bao: 1 thuê bao fiber, 1 thuê bao mesh, 1 thuê bao camera đó"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh @tienhuytran207 ơi, gửi giúp em danh sách hợp đồng viễn thông với ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Còn BBNT thì sao cậu ? Ký chung hay riêng cho từng thuê bao ?"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Chị Nguyễn Thu Thủy ơi, hiện tại API myvnpt_chitiethd trả về mảng data mỗi phần tử đều có field trangthai_hd/trangthai_hd_id riêng. Chị cho em hỏi: nếu các thuê bao trong cùng 1 đơn có trạng thái khác nhau (VD Fiber \"Hoàn thành\", Camera \"Đang thi công\") thì trạng thái tổng của cả đơn lấy theo quy tắc nào ạ, hay hiện tại các thuê bao đang luôn đồng bộ cùng 1 trạng thái ạ?"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị Nguyễn Thu Thủy ơi, phần BBNT c xem giúp e là đang ký theo từng thuee bao hay ký cho cả hợp đồng thế ạ?"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "uh"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "sẽ ký cho cả hđ em ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Tại vì em đang thấy Quyên đang báo trong gr hợp đồng điện tử là ký BBNT cho từng thuê bao c ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "nó ký nghiệm thu cho HĐ thuê bao ý em"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "Biên bản nghiệm thu thì ký theo HĐ thuê bao, mỗi thuê bao sẽ có 1 hđ thuê bao khác nhau"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "các hđ thuê bao này sẽ có chung với nhau 1 hđ khách hàng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "dạ em cảm ơn chị ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quynhmaihavi IT đang confirm là phần ký BBNT là ký nghiệm thu cho từng thuê bao ạ. Chỗ này chị check lại luồng của phía MYVNPT giúp em nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_98",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quynhmaihavi IT đang confirm là phần ký BBNT là ký nghiệm thu cho từng thuê bao ạ. Chỗ này chị check lại luồng của phía MYVNPT gi...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

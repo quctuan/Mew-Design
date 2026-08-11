@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260810_135841",
+  "group_name": "[GDS]Tổ chức du lịch 2026",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "13:58 10/08/2026",
+  "trigger_message": "Bên du lịch đang xin cái file logo của mình để làm banner du lịch. Anh @hieunguyen271095 hay anh @quctuan có cho em xin với ạ",
+  "context_history": [
+    {
+      "sender_name": "Nguyen Quynh",
+      "text": "Chị @myntt2703 ơi, tiền quay lucky draw là mình lấy tạm từ quỹ Ban trước đúng k ạ? Sau này giải ngân thì bọn e khóc với ai đc ạ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "chị thấy tờ trình tổ chức hội thảo và khen thưởng dự án được phê duyệt rồi"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "e check vs a Bùi Anh xem tiến trinfh giải ngân ntn để mình xdinh được nguồn xly cho phù hợp nhé"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "@kietla01 liên hệ đc team văn nghệ chưa em?"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Hnay chắc lên 1 bài để mn còn cbi dresscode @Trangdt171 nhỉ!"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "E định mai ạ, khi mà chốt được backdrop thì thiết kế giấy mời, có dresscode luôn ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@hanggauu cố gắng hnay có keyvisual nhá"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "okeyc ơi, chị hoàn thiện order chưa ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Thiết kế sẽ từ backdrop đi ra thêm text thui, order backdrop chị ghi rồi, còn text trên thiệp c đang fill nha"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Chiều 3:00 nhé mn?"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Đồng bộ nhanh anh xem tình hình ntn, cả phần Hội thảo."
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "@kietla01 rà soát lại nd phần Hội Thảo chiều 3h báo cáo nhé!"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Em với anh @hieunguyen271095 đang rà soát rồi ạ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Hôm trước @hieunguyen271095 k họp cùng mn, e phải đồng bộ lại nội bộ các nội dung trao đổi để làm việc vs bên tour chứ, các nội dung nếu k có gì nhạy cảm em nên trao đổi qua nhóm để mn còn nắm đc thông tin và trạng thái các đầu việc, tránh TH 1 việc 2,3 người làm"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "vâng chị sáng e đồng bộ xong phần hội thảo với Kiệt rồi \nchiều @Trangdt171 cho anh xin mấy phút đồng bộ lại bên Gala nhé"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Bên du lịch đang xin cái file logo của mình để làm banner du lịch. Anh @hieunguyen271095 hay anh @quctuan có cho em xin với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5515504655_450743",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Bên du lịch đang xin cái file logo của mình để làm banner du lịch. Anh @hieunguyen271095 hay anh @quctuan có cho em xin với ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Ly Anh Kiet</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

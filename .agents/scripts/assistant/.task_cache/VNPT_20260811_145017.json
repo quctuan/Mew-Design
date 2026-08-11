@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260811_145017",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "14:50 11/08/2026",
+  "trigger_message": "Nhờ chị @lalethuy, a @Tuanjnfor review xem còn  cần update gì không ạ?\nNếu ổn rồi nhờ achij điền timeline con này ạ \nhttps://dvs.vnptmedia.vn/browse/GMYVNPT1-37",
+  "context_history": [
+    {
+      "sender_name": "thuy",
+      "text": "bỏ này là hủy tk đó Son"
+    },
+    {
+      "sender_name": "Son",
+      "text": "vậy ạ :("
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chứ k lần sau tra cứu lại mytv lại trả là vẫn hiển thị đó"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "làm sao mà lọc đc"
+    },
+    {
+      "sender_name": "Son",
+      "text": "dạ. thế thui để em nói lại với bên MyTV"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a Anh Thành ơi e thấy c Hạnh đang trao đổi app đang k lấy ttin này vì nặnng, e thấy trên app htai vẫn lấy đc ttin này mà nhỉ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Đúng e , vẫn lấy dc e ah"
+    },
+    {
+      "sender_name": "Son",
+      "text": "mà chị ơi, em mới trao đổi lại, thì tính năng này là bỏ hiển thị khỏi danh sách quản lý thuê bao thôi ạ :v\nchứ không phải hủy/ xóa hẳn tài khoản MyTV đó ạ."
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hủy trên myvnpt nhưng bản chất hệ thống gốc vẫn là mytv ma"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mytv họ cx ko thể làm như thé dc"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Dear anh @Tuanjnfor , anh Thành , anh @haipt1905 , em đã dev xong phần search và bàn giao api cho đội app ạ."
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT1-363\n\nhttps://stagingv2.myvnpt.com.vn/cms/xBanner/add\nhttps://stagingv2.myvnpt.com.vn/cms/xBanner/list\n\nchị @thuyph312 task này e đã đẩy staging nhờ c xem giúp e vs ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ok em"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@datnd2109 QC. Em Ánh chúng mình vào check nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Nhờ chị @lalethuy, a @Tuanjnfor review xem còn  cần update gì không ạ?\nNếu ổn rồi nhờ achij điền timeline con này ạ \nhttps://dvs.vnptmedia.vn/browse/GMYVNPT1-37",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_451344",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Nhờ chị @lalethuy, a @Tuanjnfor review xem còn  cần update gì không ạ? Nếu ổn rồi nhờ achij điền timeline con này ạ  https://dvs.v...\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Anh Nguyen</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Anh Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 51,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

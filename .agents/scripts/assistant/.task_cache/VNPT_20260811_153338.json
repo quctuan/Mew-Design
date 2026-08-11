@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260811_153338",
+  "group_name": "GDS_Đề án Phát triển nền tảng KD trên MTS",
+  "sender_name": "VNPT - Anh Cường - GĐ GDS",
+  "timestamp": "15:33 11/08/2026",
+  "trigger_message": "Món này gấp nên anh em xem luôn nhé. Việt chéc choác xem có thông tin gì về việc có bên nào định phạt ko.",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@myntt2703 @hocnv2010"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Học đi làm chưa? Ko thì vào anh trao đổi nhanh"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "E đi rồi ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Qua gọi TM vào anh trao đổi nhanh ko anh phải chạy giờ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Món điều khoản T&C trên web MyVNPT đang ntn, kiểm tra luôn giúp anh để cập nhật @Phantom102 @tran_van_my, CC @myntt2703 @hocnv2010"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@vietmv92 xem có thông tin gì nghe bảo có bên đang đòi phạt"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "vâng anh, chỗ này KD đã đưa yêu cầu sang SP để cập nhật lại, các bạn có trao đổi với nhau về timeline, để em check lại với các bạn chỗ này, gấp thì phải ưu tiên xử lý ngay."
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "@minhhnhatt nắm thông tin nhé, anh sẽ trao đổi Quỳnh trao đổi lại với team em để xử lý gấp"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Có mỗi cái văn bản thì làm luôn được chứ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Hay là cần làm để khách hàng xác nhận lại à?"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Chỗ này hình như TĐ có 1 hệ thống quản lý tập trung các đồng thuận của KH CN và TCDN @tran_van_my"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Có thể triển khai nhanh: sau khi KH đăng nhập, kiểm tra điều kiện nếu KH đã đồng thuận thì ko hiển thị, nếu KH chưa đồng thuận thì hiển thị T&C, kéo xuống đến hết thì có checkbox đồng ý và button xác nhận."
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "của Media thì nằm bên TSC ấy anh, không biết xong chưa"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Món này gấp nên anh em xem luôn nhé. Việt chéc choác xem có thông tin gì về việc có bên nào định phạt ko.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192106461_451372",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Món này gấp nên anh em xem luôn nhé. Việt chéc choác xem có thông tin gì về việc có bên nào định phạt ko.\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

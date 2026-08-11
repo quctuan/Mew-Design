@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260811_144956",
+  "group_name": "[GDS]-Teamlead",
+  "sender_name": "ViệtMV",
+  "timestamp": "14:49 11/08/2026",
+  "trigger_message": "Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành ( @nduythanh ), anh Tuấn ( @Tuanjnfor ), anh Phương ( @xhphuong1984 ), anh Mỹ ( @tran_van_my )\n\nEm đã đặt Meeting Room 1 từ 9h00–9h30 để trao đổi về Quy trình Triển khai phần mềm.\n\nMục tiêu sau buổi họp là các anh/chị Team Lead nắm rõ quy trình, từ đó hỗ trợ và hướng dẫn team member áp dụng thống nhất trong quá trình triển khai thực tế ạ.\n\nEm cảm ơn ạ.",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ anh vâng anh."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Về quy trình trong chiều nay em sẽ gửi thông tin cho các team dự án ạ.\n\nVề việc Training em phép book lịch họp với team lead vào 9h sáng mai ạ. Về cơ bản teamlead sẽ hỗ trợ các team member trong quá trình cần hiểu rõ thêm về quy trình ạ."
+    },
+    {
+      "sender_name": "thuy",
+      "text": "mỗi PM điều phối sai quy trình, đề nghị @vietmv92 đóng phạt 50k :))"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Hơi ít rồi chị nhé, 1 loét cho chẵn :)"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "tuân lệnh :))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Cái này cho ký nợ cuối năm có thưởng tổng kết chị nhỉ 😄"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "tiền tươi chứ, ai rảnh đâu ghi sổ nợ cho mài"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Thế để em yêu cầu các bạn PM KPI chép tay mỗi người 10 lần cho chắc =))))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Giờ không còn quỹ ban nữa. Em sợ không biết nộp vào đâu á 😐"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "quỹ phòng chứ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "ai đi làm giàu cho team khác"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hợp lý chị ạ. Cho chạy pilot 1 tháng xong bổ sung thêm  cơ chế phạt ngoài riêng của phòng 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Member nào làm sai teamlead tự đóng 50k. sau team lead tự làm việc với team member 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành ( @nduythanh ), anh Tuấn ( @Tuanjnfor ), anh Phương ( @xhphuong1984 ), anh Mỹ ( @tran_van_my )\n\nEm đã đặt Meeting Room 1 từ 9h00–9h30 để trao đổi về Quy trình Triển khai phần mềm.\n\nMục tiêu sau buổi họp là các anh/chị Team Lead nắm rõ quy trình, từ đó hỗ trợ và hướng dẫn team member áp dụng thống nhất trong quá trình triển khai thực tế ạ.\n\nEm cảm ơn ạ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4928594109_451342",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành ( @nduythanh ), anh ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

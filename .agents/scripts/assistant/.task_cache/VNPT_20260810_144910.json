@@ -1,0 +1,47 @@
+{
+  "task_id": "VNPT_20260810_144910",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "14:49 10/08/2026",
+  "trigger_message": "",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@quctuan chỗ đánh giá em thay đổi  form ah"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko a ơi, vẫn giữ nguyên mà"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "mới toanh"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_450775",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Hieu Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

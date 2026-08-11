@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260811_152712",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "ViệtMV",
+  "timestamp": "15:27 11/08/2026",
+  "trigger_message": "Dear mọi người,\n\ncc: Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành ( @nduythanh ), anh Tuấn ( @Tuanjnfor ), anh Phương ( @xhphuong1984 ), anh Mỹ ( @tran_van_my )\n\nEm xin phép gửi Quy trình Triển khai phần mềm đã được thống nhất giữa các Team Lead và lãnh đạo các phòng.\n\nQuy trình sẽ được áp dụng từ thời điểm gửi thông báo này đối với các ticket hiện tại của MyVNPT, bao gồm:\n    - BAU\n    - Chương trình xây dựng nền tảng kinh doanh trên MTS\n\nNhờ mọi người đọc, nắm thông tin và thực hiện theo đúng quy trình trong quá trình triển khai.\n\nTrong quá trình áp dụng, nếu có nội dung chưa rõ hoặc cần trao đổi thêm, mọi người vui lòng liên hệ trực tiếp PM hoặc Team Lead để được hỗ trợ và thống nhất cách thực hiện.\n\nCảm ơn mọi người.\n\nLink Quy trình: https://wiki.myvnpt.com.vn/books/quy-trinh/page/quy-trinh-trien-khai-san-pham-phan-mem",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "anh Sĩ ( @pvha_si ), anh Luật ( @LuatTD ),\n\nXem giúp em phía IT ai xử lý giúp bên em với ạ.\n\nHiện tại lỗi đang rất nhiều."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@vietmv92 , là Phan hay sao ấy a"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm, anh edit rồi 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Công đức vô lượng, thanks em zai nhá 😄"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nta tên là Hà :))"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "0843145555\nKH phản ánh qua mạng xã hội \nNick: Sơn Khương\nLink: https://www.facebook.com/messages/t/100007002285574?locale=vi_VN\nKH phản ánh chính chủ nhưng khi kiểm tra thông tin thuê bao trên App My VNPT thì báo tính năng chỉ cho người dùng chính chủ\nKH đang dung máy iPhone 11. KH đã tải cấu hình mới nhất nhưng vẫn không được. KH yêu cầu hỗ trợ."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@xhphuong1984 anh Phương xem giúp em thông tin này chỗ chị Lệ với ạ"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "e có vào dc link trên ko"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "a vào trang cá nhân họ ấy a"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "https://www.facebook.com/dopermind/posts/pfbid0tSTJhQGXDLc2JmJxTQk9jnW8YcDzX12BtTVSF8ifDpgg7o5itFPk5LYfZwbjpWmjl"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-09 08:46:45.113 INFO com.vnpt.logging.LoggingService - ---------------------------LOGGING REQUEST START----------------------------------- [VERSION]: TEL.unknown.unknown.unknown.unknown.unknown [IP]: 154.46.24.49 [API-PATH]: /tel_service/exportInvoice/export [REQUEST-ID]: 975cc396-7183-4f0c-82b3-5e8374d5c575 [DEVICE-INFO]: 9DE6D98A-2252-4624-8E12-926B3EAB4ACD|||iOS||5.5.6-2026071701|iPhone 11 Pro|26.2.1| [BODY REQUEST]: {\"provinceId\":\"THA\",\"customerCode\":\"843145555\",\"month\":\"202607\",\"type\":2,\"msisdn\":\"84843145555\",\"session\":\"\"} ---------------------------LOGGING REQUEST END-----------------------------------"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-09 08:46:45.116 INFO com.vnpt.logging.LoggingService - -------------------------LOGGING RESPONSE START--------------------- [API-PATH]: /tel_service/exportInvoice/export [REQUEST-ID]: 975cc396-7183-4f0c-82b3-5e8374d5c575 [TIME_PROCESS]: 4 ms [BODY RESPONSE]: {\"error_code\":\"18\",\"messages\":\"Tính năng chỉ có thể sử dụng cho thuê bao chính chủ\"} -------------------------LOGGING RESPONSE END---------------------"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "nhờ các em hỗ trợ a, khi nào thì message này nó  hiển thị lên với @lalethuy @Tuanjnfor @nduythanh"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "@havietngn nữa (cc @vietmv92 )"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear mọi người,\n\ncc: Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành ( @nduythanh ), anh Tuấn ( @Tuanjnfor ), anh Phương ( @xhphuong1984 ), anh Mỹ ( @tran_van_my )\n\nEm xin phép gửi Quy trình Triển khai phần mềm đã được thống nhất giữa các Team Lead và lãnh đạo các phòng.\n\nQuy trình sẽ được áp dụng từ thời điểm gửi thông báo này đối với các ticket hiện tại của MyVNPT, bao gồm:\n    - BAU\n    - Chương trình xây dựng nền tảng kinh doanh trên MTS\n\nNhờ mọi người đọc, nắm thông tin và thực hiện theo đúng quy trình trong quá trình triển khai.\n\nTrong quá trình áp dụng, nếu có nội dung chưa rõ hoặc cần trao đổi thêm, mọi người vui lòng liên hệ trực tiếp PM hoặc Team Lead để được hỗ trợ và thống nhất cách thực hiện.\n\nCảm ơn mọi người.\n\nLink Quy trình: https://wiki.myvnpt.com.vn/books/quy-trinh/page/quy-trinh-trien-khai-san-pham-phan-mem",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36169",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear mọi người,  cc: Dear chị Thủy ( @lalethuy ), chị Thúy ( @thuyph312 ), Minh ( @minhhnhatt ), anh Thông ( @thongnm ), anh Thành...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

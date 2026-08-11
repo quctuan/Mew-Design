@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260811_133831",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Eric Trần",
+  "timestamp": "13:38 11/08/2026",
+  "trigger_message": "@ngsong699 bạn à, thay vì confirm thì a Tuấn thả 100 điểm\nvậy là đoạn API chắc phải cho thêm 2 trường\n1 là đánh giá\n2 là improvement",
+  "context_history": [
+    {
+      "sender_name": "Anh",
+      "text": "Em gửi ticket ạ\n• CMS admin: https://dvs.vnptmedia.vn/browse/GMYVNPT1-513\n• CMS dev https://dvs.vnptmedia.vn/browse/GMYVNPT1-512"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ Rating này nhờ ae đánh giá và triển khai để hoàn thiện nốt những hạng mục cuối cùng nhé.\n@erictrannn , @ngsong699 , @tranlong \n\nNhờ Anh tạo giúp Task Jira cho phần Rating Mini App này nhé."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 phối hợp phần App nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@tranlong chú đẩy phần fix những lỗi ANTT hôm qua lên xong thì báo lại lên đây nhé."
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "phần ANTT e fix hết và đẩy lên staging r đó ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nhờ @ntiendat báo giúp ANTT verify lại nhé"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "em gửi ạ https://dvs.vnptmedia.vn/browse/GMYVNPT1-416"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em nhắn group rồi ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "alo a @Tuanjnfor à, vậy vẫn chốt như sau đúng k\n- Cho phép gõ đánh giá\n- Cho phép dưới 3 sao thì hiển thị ra cái tag để chọn nội dung cải thiện đúng k? (các nội dụng cải thiện fix cứng như UI)"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "Ngoài ra để tránh spam e nghĩ nên có cơ chế chặn ví dụ sau bao lâu mới được rate lại (ví dụ 1 lần/ngày chả hạn)"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "ae UIUX và a Tuấn cho ý kiến nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỉ cho rate 1 lần trong đời thôi chú"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "lấy vợ/chồng xong nhiều khi còn nghĩ lại được, thế mà anh cho người dùng đánh giá app 1 lần trong đời"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": ":("
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xóa đi tải lại vẫn dc mò"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "@ngsong699 bạn à, thay vì confirm thì a Tuấn thả 100 điểm\nvậy là đoạn API chắc phải cho thêm 2 trường\n1 là đánh giá\n2 là improvement",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_451258",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@ngsong699 bạn à, thay vì confirm thì a Tuấn thả 100 điểm vậy là đoạn API chắc phải cho thêm 2 trường 1 là đánh giá 2 là improveme...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

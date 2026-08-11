@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260810_133705",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "ViệtMV",
+  "timestamp": "13:37 10/08/2026",
+  "trigger_message": "@kietla01 tạo ticket Tuning nhé, Phía Hải ( @haipt1905 ) đang tích hợp SDK mới rồi\n\ncc: chị Thúy ( @thuyph312 ), anh Tuấn ( @Tuanjnfor )",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@haipt1905 xem giúp anh rồi báo lại nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Cái này là app IOS đi vào sdk EContract rồi a ạ"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "Giờ có làm gì để fix dc tạm cho kh ko e"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Vào trong SDK"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Thì bọn em báo SDK xem thêm thôi anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@haipt1905 em gửi giúp anh video lên nhóm có bên SDK để họ hỗ trợ xem nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E báo bên đó rồi ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em có add anh @xhphuong1984 vào nhóm nắm tt nhé ah"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "@Tuanjnfor và @haipt1905 xem hộ anh bên kia ai hỗ trợ được với"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Anh báo PM push nhé ah"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "ngoài @vietmv92 a vừa add thêm cả @kietla01 rồi; nhờ 2 AE trao đổi với bên IT giúp anhes"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "A @pvha_si ơi, hiện tại e đang thấy có nhiều khiếu nại về sdk econtract đang xuất hiện ở product, bên a có đang sửa gì phần này k ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Rất nhiều kn trên myvnpt 2 hôm nay về lỗi này, nhờ ace xem giúp sớm, cách xử lý tạm thời cho kh trước cũng dc"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@kietla01 tạo ticket Tuning nhé, Phía Hải ( @haipt1905 ) đang tích hợp SDK mới rồi\n\ncc: chị Thúy ( @thuyph312 ), anh Tuấn ( @Tuanjnfor )",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3176",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@kietla01 tạo ticket Tuning nhé, Phía Hải ( @haipt1905 ) đang tích hợp SDK mới rồi  cc: chị Thúy ( @thuyph312 ), anh Tuấn ( @Tuanj...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}
