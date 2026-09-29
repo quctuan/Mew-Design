@@ -138,7 +138,7 @@ Mew-Design/
   - Chuẩn hóa 5 Core Roles:
     - [pm.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/pm.md): Product Manager & Studio Producer
     - [ux_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ux_designer.md): Senior UX Flow Designer & Information Architect
-    - [ui_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ui_designer.md): Senior UI Visual Designer & Design System Engineer
+    - [ui_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ui%20design/ui_designer.md): Senior UI/UX Engineer & Design System Designer
     - [accountant.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/accountant.md): Studio Accountant & Financial Estimator
     - [legal_advisor.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/legal_advisor.md): Studio Legal Advisor & Contract Specialist
   - Xây dựng 5 Self-Contained Skills:

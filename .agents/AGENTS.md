@@ -35,7 +35,7 @@ Chào mừng bạn đến với **Mew-Design AI Studio System**. Tài liệu nà
 | :--- | :--- | :--- | :--- |
 | **Product Manager (PM)** | [pm.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/pm.md) | Tiếp nhận brief, phân tích yêu cầu, bóc tách SOW, lập PRD & điều phối tiến độ Sprint. | PRD, Sprint Backlog, SOW Brief |
 | **UX Flow Designer** | [ux_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ux_designer.md) | Kiến trúc thông tin, vẽ luồng logic Mermaid, viết UX Copywriting, bao bọc Unhappy paths & Edge cases. | UX Flowchart (Mermaid), UX Copy Specs |
-| **UI Visual Designer** | [ui_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ui_designer.md) | Thiết kế thị giác cao cấp, Design Tokens, Layout bento/asymmetric, Component specs, Figma integration. | UI Specs, Design System Tokens, Live UI Demo |
+| **UI Visual Designer** | [ui_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ui%20design/ui_designer.md) | Thiết kế thị giác cao cấp, Design Tokens, Layout bento/asymmetric, Component specs, Figma integration. | UI Specs, Design System Tokens, Live UI Demo |
 | **Studio Accountant** | [accountant.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/accountant.md) | Ước tính man-day, tính toán chi phí dự án, lập báo giá 3-tier, quản lý dòng tiền & mốc giải ngân. | Bảng Báo giá, Dự toán Ngân sách |
 | **Legal Advisor** | [legal_advisor.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/legal_advisor.md) | Soạn thảo hợp đồng thiết kế, thẩm định điều khoản SOW, bảo vệ quyền sở hữu trí tuệ (IP), lập biên bản nghiệm thu. | Hợp đồng Dịch vụ, Điều khoản SOW, Biên bản Nghiệm thu |
 
