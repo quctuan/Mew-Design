@@ -125,8 +125,36 @@ Mew-Design/
 
 ---
 
-## 🚀 4. Kế hoạch Thực thi Dọn dẹp & Tái cấu trúc
+## 🚀 4. Kế hoạch Thực thi Dọn dẹp & Tái cấu trúc (Đã Triển khai Hoàn tất ✅)
 
-- **Bước 1 (Cleanup)**: Gom nhóm/xóa các thư mục dư thừa (`sample_team/`, `frameworks/`), đổi tên `knowledge base` thành `knowledge_base`.
-- **Bước 2 (Restructure `.agents/`)**: Định hình 4 Roles chính (`PM`, `Designer`, `Accounting`, `Legal`) và các bộ Skills tương ứng.
-- **Bước 3 (Build Project Knowledge Base)**: Xây dựng cây thư mục `knowledge_base/projects/` và các template biểu mẫu dự án.
+- [x] **Bước 1 (Cleanup & Hạ tầng thư mục)**:
+  - Đổi tên & chuẩn hóa `knowledge base/` thành [`knowledge_base/`](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base). Tạo symlink `knowledge base -> knowledge_base` để duy trì tương thích ngược 100%.
+  - Gom các tài liệu nghiên cứu `frameworks/` vào `knowledge_base/studio_internal/frameworks/`.
+  - Phân loại tài liệu hiện có vào dự án [`knowledge_base/projects/my_vnpt/`](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/projects/my_vnpt).
+  - Chuẩn hóa thư mục [`apps/ui-library-building/`](file:///Users/tuanvuong/Documents/Mew-Design/apps/ui-library-building).
+
+- [x] **Bước 2 (Restructure `.agents/`)**:
+  - Khởi tạo [`.agents/AGENTS.md`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/AGENTS.md) - System Prompt & Operating Charter chung cho toàn bộ Studio.
+  - Chuẩn hóa 5 Core Roles:
+    - [pm.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/pm.md): Product Manager & Studio Producer
+    - [ux_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ux_designer.md): Senior UX Flow Designer & Information Architect
+    - [ui_designer.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/ui_designer.md): Senior UI Visual Designer & Design System Engineer
+    - [accountant.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/accountant.md): Studio Accountant & Financial Estimator
+    - [legal_advisor.md](file:///Users/tuanvuong/Documents/Mew-Design/.agents/roles/legal_advisor.md): Studio Legal Advisor & Contract Specialist
+  - Xây dựng 5 Self-Contained Skills:
+    - [`pm_prd_writing`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/skills/pm_prd_writing/SKILL.md): Kỹ thuật viết PRD chuẩn Gherkin & quản lý Sprint WBS
+    - [`ux_flow_design`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/skills/ux_flow_design/SKILL.md): Sơ đồ luồng Mermaid, UX writing thấu cảm, ma trận 4 trạng thái
+    - [`ui_visual_design`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/skills/ui_visual_design/SKILL.md): Visual cao cấp, Bento 2.0, Design Tokens, Anti-AI-slop
+    - [`accounting_quotation`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/skills/accounting_quotation/SKILL.md): Báo giá 3-tier, tính man-day, lịch giải ngân
+    - [`contract_drafting`](file:///Users/tuanvuong/Documents/Mew-Design/.agents/skills/contract_drafting/SKILL.md): Hợp đồng dịch vụ thiết kế, bảo vệ SHTT, biên bản nghiệm thu
+  - Lưu trữ an toàn các roles/skills cũ tại `.agents/roles/_archive/` và `.agents/skills/_archive/`.
+
+- [x] **Bước 3 (Build Project Knowledge Base & Templates)**:
+  - Khởi tạo bộ 6 biểu mẫu chuẩn tại [`knowledge_base/_templates/`](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates):
+    - [prd_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/prd_template.md): Mẫu PRD & User Stories
+    - [ux_spec_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/ux_spec_template.md): Mẫu đặc tả UX Flows Mermaid & Micro-copy
+    - [ui_spec_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/ui_spec_template.md): Mẫu đặc tả Visual UI & Design Tokens
+    - [quotation_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/quotation_template.md): Mẫu bảng báo giá thương mại 3-tier
+    - [design_contract_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/design_contract_template.md): Mẫu hợp đồng thiết kế dịch vụ UI/UX
+    - [handover_acceptance_template.md](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/_templates/handover_acceptance_template.md): Mẫu biên bản bàn giao & nghiệm thu
+  - Xây dựng bộ khung dự án mẫu chuẩn tại [`knowledge_base/projects/_sample_project/`](file:///Users/tuanvuong/Documents/Mew-Design/knowledge_base/projects/_sample_project).
