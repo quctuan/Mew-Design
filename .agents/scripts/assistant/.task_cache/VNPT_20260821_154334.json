@@ -1,0 +1,83 @@
+{
+  "task_id": "VNPT_20260821_154334",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Nhu",
+  "timestamp": "15:43 21/08/2026",
+  "trigger_message": "@quctuan ê lần đầu tôi thấy UI này đấy bro",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "truyền nhiều tag thì anh em truyền lên string cách nhau dấu phẩy thôi  🐍"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "nhiều tag thì truyền ntn"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "oke, hqua a chưa thấy note ở đâu xử lý cái này"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "thế trong tag có cái dấu phẩy ntn thì sao e"
+    },
+    {
+      "sender_name": "Song",
+      "text": "thôi để dấu \";\" đi anh"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh để dấu \"|\" đi anh"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@Tuanjnfor"
+    },
+    {
+      "sender_name": "Đinh Quốc",
+      "text": "@ngngthaonhu Chị ơi cái này khi sw qua tb khác thì có lấy lịch sử khác không hay cả gộp cả lịch sử vào ạ?"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "luồng nào đây em"
+    },
+    {
+      "sender_name": "Đinh Quốc",
+      "text": "Cài đặt ->nhân viên hỗ trợ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Cá nhân nào mà chuyển dc như này nhỉ?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nhầm group rồi @dinhwkhanh :D"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan ê lần đầu tôi thấy UI này đấy bro",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_455986",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ê lần đầu tôi thấy UI này đấy bro\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260909_220238",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Lê Kiên",
+  "timestamp": "22:02 09/09/2026",
+  "trigger_message": "kittle canva figma",
+  "context_history": [
+    {
+      "sender_name": "Hoang",
+      "text": "10r là anh"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Em tưởng 10r nên đi đá bát cháo :("
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Nhầm bên r"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Thế thôi ăn đi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Xong về họp"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": ":))"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Sr mn"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ksao:)))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Xong xuôi thì ping ae nhé"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Cho anh 1 số ví dụ thực tế nhé. Anh test thử."
+    },
+    {
+      "sender_name": "Phong",
+      "text": "https://meet.google.com/qmk-nwek-kzt EM gửi link"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@leek6998  @minhhnhatt"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "còn ai nữa tag nốt hộ em"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "Hưng"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "kittle canva figma",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_464732",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"kittle canva figma\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,74 @@
+{
+  "task_id": "VNPT_20260818_143929",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "14:39 18/08/2026",
+  "trigger_message": "khó khăn gì thì xô vào @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Hieu",
+      "text": "Text nó tự căng được đấy 😄"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nma kéo ngang thế nó bị méo hết hình tag ấy a"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Cho anh xin ví dụ được không"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nội dung tag dài ngắn khác nhau nhiều lắm, nên dùng ảnh kéo ngang thì nó méo đó"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "À cái này hông vấn đề gì em"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "vậy cái này làm component sau nhé hiện tại anh import cái hình cho feed đã"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke ạ, thế @celene_ne export hộ a Hiếu 1 ảnh tag xanh, 1 tag đỏ nhá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Chắc phải luôn cái tag vàng ở quản lý gói cước đó =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@hieu_tq https://drive.google.com/drive/folders/1vcTdoDyJKWG5Tn9bkSNtcRtrUpTvarlr?usp=drive_link\n\nEm gửi nhé ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@dangthtobi @nguyenvinhabu 2 đồng chí xem dần cho đỡ bỡ ngỡ nhé"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "khó khăn gì thì xô vào @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_454221",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"khó khăn gì thì xô vào @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hieu Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

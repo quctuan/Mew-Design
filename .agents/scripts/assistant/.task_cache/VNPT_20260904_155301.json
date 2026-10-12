@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260904_155301",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Rùa Con",
+  "timestamp": "15:53 04/09/2026",
+  "trigger_message": "môi trường nào thế Tuấn ?",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "đúng quy trình đã anh"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "nghiệm thu staging đi anh ạ."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "anh rà xem còn vấn đề gì không, PM chốt lịch bọn em theo thôi ạ"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@trieuld289  @giangnt2008  chỗ job này 2 ae báo QA  rà soát lại trên staging nhé."
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@haipt1905 Thành Một số bug giao diện chị thấy ae có note là fix sau nhưng chuyển trạng thái \"Pending\" là không đúng quy trình, gây hiểu nhầm trạng thái xử lý của bug. Nhờ AE rà soát các bug này giúp chị, chuyển đúng trạng thái. Trường hợp bắt buộc \"Pending\" Cần confirm PO/BA/UI... trước khi chuyển trạng thái và note rõ người xác nhận nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Dear @nduythanh , @Tuanjnfor \nGần đây có một số bug log cho App, App note do BE và chuyển cho BE. Sau khi BE xử lý xong chuyển trạng thái Fixed  + note thì task bị dừng hẳn lại, App chưa verify/tích hợp và Tester chưa thể test lại, dẫn đến bug thực tế vẫn chưa được giải quyết trong khi đã chuyển trạng thái \"Fixed\". Như vậy rất mất thời gian, ảnh hưởng tiến độ\n\nLuồng xử lý:\n1. App kiểm tra: Nếu lỗi do BE, comment rõ lý do + log và assign sang cho BE.\n2. BE xử lý: Sau khi fix xong API, assign ngược lại cho dev App.\n3. App tích hợp & verify: Dev App nhận lại bug, tích hợp API mới, kiểm tra hiển thị trên app và build bản mới.\n\nNhờ anh em dev hai bên chủ động trao đổi vs nhau, tuân thủ đúng luồng chuyển giao để tránh sót việc và ảnh hưởng tiến độ của dự án\nĐồng thời các comment nhờ ACE note tên để tiện trao đổi nhé."
+    },
+    {
+      "sender_name": "Phong",
+      "text": "2026-09-04 14:44:00.018 ERROR 4016 --- [ryBean_Worker-7] .c.j.TransactionReconciledPackageZeroJob : TransactionReconciledPackageZeroJob-20260904144400 | ex: java.lang.NullPointerException"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@name688899  cái job kia chạy lại đang báo như này ko rõ là có lỗi ko em xem cái job  của em này với nhé."
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "ae nuốt lỗi à?"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@thongnm ko login đc à a"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "đc r a"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": ":vv"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "môi trường nào thế Tuấn ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3701",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"môi trường nào thế Tuấn ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Rùa Con</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

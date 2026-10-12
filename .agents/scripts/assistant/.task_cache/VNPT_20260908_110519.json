@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260908_110519",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Song Nguyen",
+  "timestamp": "11:05 08/09/2026",
+  "trigger_message": "BE có cái luồng check session xem msisdn truyền lên có phải thành viên của session đó ko rồi",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "trước em có hỏi chị Như"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "mình đang nói nhóm group"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "hay homecombo ạ?"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "vì ảnh bên trên là grooup"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "ko phải nhóm homecombo"
+    },
+    {
+      "sender_name": "Song",
+      "text": "home grúp"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái em hỏi là group mà ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "..."
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "homecombo làm gì liên quan đến case chuyển thuê bao sang  thành viên khác đâu ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw   cái phần chọn thuê bao hiển thị này anh nghĩ em cần lưu thêm 1 state số đang được chọn. Với api getgroups,  rồi get danh sách số của mình này em gọi api truyền số đăng nhập/session từ native"
+    },
+    {
+      "sender_name": "Song",
+      "text": "còn các api về xem thông tin gói cước, tài khoản chính và lưu lượng data còn lại thì em gọi api truyền số đang được chọn"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "nhưng mà vấn đề là nó đều truyền session là session số của mình đăng nhập chứ khoogn phải số của thành viên mình chọn anh ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "nên nó mới bị 401"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh truyền session chủ nhóm, với số thành viên đây"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "ủa sao của anh lại đc mà của em lại báo 401 vậy"
+    },
+    {
+      "sender_name": "Song Nguyen",
+      "text": "BE có cái luồng check session xem msisdn truyền lên có phải thành viên của session đó ko rồi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_463156",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"BE có cái luồng check session xem msisdn truyền lên có phải thành viên của session đó ko rồi\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Song Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260818_100902",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Eric Trần",
+  "timestamp": "10:09 18/08/2026",
+  "trigger_message": "Hi Quỳnh @haipt1905 \nA đã trao đổi lại với @quctuan , a thông tin lại với mn như sau nhé;\n1 là các state này giống nhau background với EMI, khác nhau phần text thôi\n2 là Do state 1,2,3 các thông tin trong text sẽ động theo thông tin user (xưng hô anh/chị, SĐT, vv), còn state 0 text sẽ theo cấu hình nhé",
+  "context_history": [
+    {
+      "sender_name": "Eric Trần",
+      "text": "Hehe e chịu khó vào tài liệu cấu hình tính năng, ở cuối cùng a có cái link dẫn đến cái tên màn vs mã màn trên wiki"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "A đang k có máy tính để gửi e"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "À đây e ơi"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "https://wiki.myvnpt.com.vn/books/super-app-myvnpt/page/danh-sach-trang-cau-hinh-dong"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "trong này chỉ có Pre_homepage_spa thôi, chưa có phân biệt theo state ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "A chưa hiểu ý e :v"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "Sao lại lquan đến state nhỉ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@quynhmaihavi VNPT - Anh Thành @dohaidoan @name688899 Ngọc em đã bổ sung các mã tính năng cho phép cấu mình của phần homepage - nhóm ạ. nhờ mn update thêm giúp em\nchị Mai bổ sung giúp em UI thêm case nếu ko khai báo đủ các tính năng thì hiển thị trên app như thế nào ạ\n\nTài liệu danh sách tính năng: https://docs.google.com/spreadsheets/d/1FkCS3pw15QtWxV_rDW43IFgM4PLgq_-k/edit?gid=483816450#gid=483816450"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "cmt jira đi @havietngn , phần này rủi ro cao nợ cước, k có confirm jira bọn c k làm đâu"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "hôm trc cũng thống nhất rồi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "dạ chị"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "a @nduythanh, nhờ a xem giúp em con Widgets này với ạ. tỉ lệ pass round 1 thấp, vướng mắc phần call API\nhttps://docs.google.com/spreadsheets/d/1mnrMIekGPGKofgJQRUkVTFx_GivGn9nhGXfa6rwWm14/edit?gid=1399922469#gid=1399922469"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "hqua a báo chỗ Thúy rồi, đang cần @ntiendat  hỗ trợ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Em @ntiendat phản hồi giúp nhé, trông mong mỗi em 😄"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "Hi Quỳnh @haipt1905 \nA đã trao đổi lại với @quctuan , a thông tin lại với mn như sau nhé;\n1 là các state này giống nhau background với EMI, khác nhau phần text thôi\n2 là Do state 1,2,3 các thông tin trong text sẽ động theo thông tin user (xưng hô anh/chị, SĐT, vv), còn state 0 text sẽ theo cấu hình nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_453926",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hi Quỳnh @haipt1905  A đã trao đổi lại với @quctuan , a thông tin lại với mn như sau nhé; 1 là các state này giống nhau background...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1mnrMIekGPGKofgJQRUkVTFx_GivGn9nhGXfa6rwWm14/edit?gid=1399922469#gid=1399922469",
+    "https://docs.google.com/spreadsheets/d/1FkCS3pw15QtWxV_rDW43IFgM4PLgq_-k/edit?gid=483816450#gid=483816450"
+  ]
+}

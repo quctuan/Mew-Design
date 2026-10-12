@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260813_110545",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Huy Hoang",
+  "timestamp": "11:05 13/08/2026",
+  "trigger_message": " org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.CharacterEncodingFilter.doFilterInterna...TRUNCATED",
+  "context_history": [
+    {
+      "sender_name": "Thuy",
+      "text": "Sắp rồi cứ bình tĩnh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Join Meet hỏi trực tiếp cho nhanh 😄"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "nói chuyện với Hạnh không thể kiềm chế được a à :D"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "Các task đã done rồi nhé anh @ntiendat @tran_van_my @vietmv92"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Okay em, a chờ e lâu lắm roài"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành ), chị Thùy Anh ( @ngthuyanh ), chị Ngọc Linh ( @nguyenngoclinh1 ), Đức Hải, Trường Giang ( @giangnt2008 ), anh Văn Nam ( @name688899 ). chị Thúy ( @thuyph312 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy @tran_van_my @vietmv92 @hoangmanhcuong \n\nHiện tại MyVNPT đã Golive xong các hạng mục.\n\n1. QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu\n2. QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh\n3. QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM\n4. Điều chỉnh form đánh giá luồng Mua SIM và mua gói cước\n5. QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh\n\nCác công việc tối nay đã xong. Cảm ơn và chúc các anh/chị/em ngủ ngon ạ!"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a báo KH vào lại xem đc chưa nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhờ @phhoang276 check giúp c case này với"
+    },
+    {
+      "sender_name": "Huy",
+      "text": "em gửi log ạ\n2026-08-12 19:00:59.530 INFO com.vnpt.logging.LoggingService - -------------------------LOGGING RESPONSE START--------------------- [API-PATH]: /tel_service/active_sim/v2/setupVideoCallVer2 [REQUEST-ID]: 4e21834c-4c58-46ff-93e2-1fc8001536c1 [TIME_PROCESS]: 1307 ms [BODY RESPONSE]: {\"Message\":\"Lỗi hệ thống. Chúng tôi đã ghi nhận và sẽ khắc phục sớm.\",\"errorCode\":\"400\",\"isVc\":\"0\",\"isFailGender\":\"0\",\"isVideoCall\":1} -------------------------LOGGING RESPONSE END---------------------"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhờ c @ngthuyanh check giúp e xem ông này bị lỗi gì với ạ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "find country by name: Republic of Korea -> result: []"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lấy log gọi sang IT xem lỗi gì đi em"
+    },
+    {
+      "sender_name": "Huy",
+      "text": "em thấy còn mỗi log này\n2026-08-12 19:00:59.530 ERROR com.vnpt.controller.ActiveSimServiceV2Controller - 4e21834c-4c58-46ff-93e2-1fc8001536c1 | setupVideoCallVer2:java.lang.NullPointerException at com.vnpt.ultils.CCOSUtils.getSimsoOrderInput(CCOSUtils.java:1704) at com.vnpt.ultils.CCOSUtils.genCCOSModelVer2AddOtp_v6_Minio(CCOSUtils.java:957) at com.vnpt.controller.ActiveSimServiceV2Controller.setupVideoCallVer2(ActiveSimServiceV2Controller.java:1324) at sun.reflect.GeneratedMethodAccessor1206.invoke(Unknown Source) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:498) at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:485) at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) at com.vnpt.controller.ActiveSimServiceV2Controller$$EnhancerBySpringCGLIB$$4755d28e.setupVideoCallVer2(<generated>) at sun.reflect.GeneratedMethodAccessor1206.invoke(Unknown Source) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:498) at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) at javax.servlet.http.HttpServlet.service(HttpServlet.java:528) at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) at javax.servlet.http.HttpServlet.service(HttpServlet.java:596) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at com.vnpt.filter.RequestResponseEncryptFilter.doFilter(RequestResponseEncryptFilter.java:327) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) at"
+    },
+    {
+      "sender_name": "Huy",
+      "text": " org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at com.vnpt.security.AuthenticationFilter.doFilterInternal(AuthenticationFilter.java:57) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) at"
+    },
+    {
+      "sender_name": "Huy Hoang",
+      "text": " org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) at org.springframework.web.filter.CharacterEncodingFilter.doFilterInterna...TRUNCATED",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36322",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) at org.springframework.security.web....\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Huy Hoang</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

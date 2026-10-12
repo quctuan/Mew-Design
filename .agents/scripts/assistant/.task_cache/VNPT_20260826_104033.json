@@ -1,0 +1,99 @@
+{
+  "task_id": "VNPT_20260826_104033",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "ViệtMV",
+  "timestamp": "10:40 26/08/2026",
+  "trigger_message": "Dear anh @BaMoon1102 , anh @LuatTD , chị Nguyễn Thu Thủy , chị @lalethuy , @NguyetDang , @ngngthaonhu , anh @vietmv92 , chị @tienhuytran207 \nCC chị @myntt2703 \nEm gửi lại thông tin MoM hôm nay:\n1.Phía IT đề xuất đánh giá lại các yêu cầu trigger, lấy dữ liệu qua data lake (TSC) để tối ưu kết nối, hạn chế ảnh hưởng lên hệ thống core. PM GDS anh @vietmv92 hôm nay, 26/8 tìm đầu mối và tổ chức trao đổi 3 bên. Sau đó chốt phương án sớm. Ngoài ra MyVNPT đánh giá thêm phương án dự phòng sử dụng API OBC41. Trường hợp các phương án trên đều không khả thi thì GDS và IT sẽ đánh giá trển khai qua OneBSS\n2.  Quick win vẫn sử dụng luồng qua OneBSS, sau đó đánh giá luồng qua SPG\n3. (Không liên quan tới trigger): Phía IT sẽ gửi bàn giao API 14/09 để MyVNPT tích hợp",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "vì sau đó còn có nhân viên của địa bàn tư vấn và thay đổi theo mục đích của KH"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mọi người xem bổ sung các gói như này có thật sự cần thiết không ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Cái này chị comment rõ giúp em vào Jira và file thuyết mình, scope của quy trình mới sẽ chỉ áp dụng cho HCM và LĐ ==> Các tỉnh thành khác sẽ như thế nào nhé ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Hiện tại luồng BRCĐ trên app MyVNPT cũng đang có các job và nghiệp vụ riêng, nếu tách cả 2 luồng như này thì bên cạnh bổ sung thêm các job và nghiệp vụ mới, thì phải sửa cá các nghiệp vụ cũ để tách biệt (như noti, sms,...)"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "những điểm này nhờ mọi người cũng phải confirm rõ ràng giúp em ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Nếu ko còn thay đổi gì về các thông tin hiển thị, scope và các thông tinn cần thiết thì tronng sáng nay bọn em sẽ chốt các trường thông tin liên quan đế tài liệu API với OneBSS để DEV bên họ triển khai ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "các thông tin liên quan đến luồng thanh toán, hoàn tiền thì nhờ chị @quynhmaihavi chốt thông tin cho em để OneBSS có quy hoạch luôn cho phần này ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear @vietmv92, @quynhmaihavi\ncc: anh @BaMoon1102, anh @luat \nSau khi bên chị thẩm định tài liệu URD có 1 số vấn đề cần trao đổi. \n2 Em xem có thể sắp xếp thời gian trao đổi nhanh với chị 1 chút không? \nNêu được thì 10h trao đổi nhanh với chị nhé \nChị gửi link meet https://meet.google.com/gbz-usig-mfo"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "việt ơi, phần này liên quan đến kỹ thuật nên em join nữa nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@nduythanh Phía BE anh em nào đang đầu mối chính anh nhỉ 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Khả năng sau khi review API Requirement bên mình có khá khá vấn đề phát sinh phía IT 😢"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@PhongNK @luongtrandev  ae join xem nắm thông tin nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh @vietmv92 , chị Anh , anh @PhongNK , anh @luongtrandev ơi, mình vào nhé ạ, mình vào trao đổi nhé ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Em đồng bộ lại với team kết quả họp hôm nay ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear anh @BaMoon1102 , anh @LuatTD , chị Nguyễn Thu Thủy , chị @lalethuy , @NguyetDang , @ngngthaonhu , anh @vietmv92 , chị @tienhuytran207 \nCC chị @myntt2703 \nEm gửi lại thông tin MoM hôm nay:\n1.Phía IT đề xuất đánh giá lại các yêu cầu trigger, lấy dữ liệu qua data lake (TSC) để tối ưu kết nối, hạn chế ảnh hưởng lên hệ thống core. PM GDS anh @vietmv92 hôm nay, 26/8 tìm đầu mối và tổ chức trao đổi 3 bên. Sau đó chốt phương án sớm. Ngoài ra MyVNPT đánh giá thêm phương án dự phòng sử dụng API OBC41. Trường hợp các phương án trên đều không khả thi thì GDS và IT sẽ đánh giá trển khai qua OneBSS\n2.  Quick win vẫn sử dụng luồng qua OneBSS, sau đó đánh giá luồng qua SPG\n3. (Không liên quan tới trigger): Phía IT sẽ gửi bàn giao API 14/09 để MyVNPT tích hợp"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear anh @BaMoon1102 , anh @LuatTD , chị Nguyễn Thu Thủy , chị @lalethuy , @NguyetDang , @ngngthaonhu , anh @vietmv92 , chị @tienhuytran207 \nCC chị @myntt2703 \nEm gửi lại thông tin MoM hôm nay:\n1.Phía IT đề xuất đánh giá lại các yêu cầu trigger, lấy dữ liệu qua data lake (TSC) để tối ưu kết nối, hạn chế ảnh hưởng lên hệ thống core. PM GDS anh @vietmv92 hôm nay, 26/8 tìm đầu mối và tổ chức trao đổi 3 bên. Sau đó chốt phương án sớm. Ngoài ra MyVNPT đánh giá thêm phương án dự phòng sử dụng API OBC41. Trường hợp các phương án trên đều không khả thi thì GDS và IT sẽ đánh giá trển khai qua OneBSS\n2.  Quick win vẫn sử dụng luồng qua OneBSS, sau đó đánh giá luồng qua SPG\n3. (Không liên quan tới trigger): Phía IT sẽ gửi bàn giao API 14/09 để MyVNPT tích hợp",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_458480",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear anh @BaMoon1102 , anh @LuatTD , chị Nguyễn Thu Thủy , chị @lalethuy , @NguyetDang , @ngngthaonhu , anh @vietmv92 , chị @tienh...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>ViệtMV</b>",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 26,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"hôm nay\"",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

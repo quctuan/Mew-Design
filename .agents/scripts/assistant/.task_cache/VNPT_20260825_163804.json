@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260825_163804",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Quynh Mai",
+  "timestamp": "16:38 25/08/2026",
+  "trigger_message": "Anh Anh Thành , anh @Tuanjnfor ơi, Tăng giúp em cái banner trên chay nhanh xíu, trên 2s auto chuyển, cái banner dưới 5s auto chuyển áp dụng chung cho màn reward tất cả các state nhé ạ. Em đã update dev note https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=38696-23073&t=vXbdyaasdLEj51JN-4",
+  "context_history": [
+    {
+      "sender_name": "Hạnh",
+      "text": "vâng chị"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "có EX này rồi mà nhỉ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "oki e"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "task e tạo chưa có mô tả SRS đâu nhé @havietngn"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "kế hoạch t10 cơ mà :))"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "cứ từ từ :D"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "nó mục này cơ chị, lấy lưu lượng thoại/sms"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan , khi nào hiển thị cái thẻ kia e nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Khi thuê bao di động của thành viên nhóm chưa dùng gói cước ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chỗ này nếu e k lấy đc gói thì k cộng đc data thôi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nên TH xấu nhất sẽ là hiển thị 0/0"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "nếu có data mà ko có gói thì sao ạ????"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@quctuan ở màn Dịch vụ cua thành viên trường hợp thuê bao chưa xác thực thì hiển thị như nào vậy ạ?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=39115-115757&t=B6BaarEazVejJUFv-11\n\na gửi design nhé. \nCó tag \"Chưa xác thực\" ở card thuê bao. Trong chi tiết có banner yc xác thực"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh Anh Thành , anh @Tuanjnfor ơi, Tăng giúp em cái banner trên chay nhanh xíu, trên 2s auto chuyển, cái banner dưới 5s auto chuyển áp dụng chung cho màn reward tất cả các state nhé ạ. Em đã update dev note https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=38696-23073&t=vXbdyaasdLEj51JN-4",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_458074",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh Anh Thành , anh @Tuanjnfor ơi, Tăng giúp em cái banner trên chay nhanh xíu, trên 2s auto chuyển, cái banner dưới 5s auto chuyể...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=39115-115757&t=B6BaarEazVejJUFv-11",
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=38696-23073&t=vXbdyaasdLEj51JN-4"
+  ],
+  "doc_links": []
+}

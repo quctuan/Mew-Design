@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260821_183137",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "18:31 21/08/2026",
+  "trigger_message": "design system dùng chung thôi",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "nên hãy để mister HA quy hoạch"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "node mới thì nó linh hoạt hơn"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "nó chỉ quan tâm đến input format image là được"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em cũng nghĩ cái node nào làm gốc thì nên giữ nguyên bản gốc, đã thay đổi cấu trúc thì nên sinh ra node mới, cho dễ control"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "còn ví dụ mình làm crop ở node gen Ảnh thì cũng phải làm crop ở node upload ảnh"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "kiểu vậy thì nó double effort thôi"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "uh thế làm node mới đi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chốt thế nhé, cho dễ làm"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@celene_ne e làm Home Fiora nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "màn này dễ ko cần transfer gì đâu nhé @celene_ne =)))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hay vẫn cần? 😄"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Em coá cần :v em mới chỉ đang biết từ side menu MI ấn creative hub ra fiora playground :v dị cái home nè là từ đâu á"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Mí cái personalize crossword với star map transfer cho @anhiamt nhỉ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nó là 1 app riêng e ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "design system dùng chung thôi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456170",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"design system dùng chung thôi\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

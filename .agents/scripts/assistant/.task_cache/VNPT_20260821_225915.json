@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260821_225915",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "22:59 21/08/2026",
+  "trigger_message": "chắc vì đó là design của em",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a Tuấn giờ là Deepseek Flash V4 rồi"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "chỗ này chốt chỉ thay được thumbnail của clipart à"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "collection thì vẫn phải vào assets à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "cũng ntn thôi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đại khái là k cần quan tâm nó là collection hay clipart đâu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "chỉ cần nó là cái swatch thumbnail"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thì có thể đổi được bằng cách upload ảnh khác lên"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "? Có gặp nhau đâu"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Vl thần tốc"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Dù có mấy chi tiết k ai bảo a ấy cũng làm"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Màn này kiểu chuẩn 99% ấy"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "uh chưa có nghiệp vụ BE thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chứ FE nhìn giao diện có vẻ oke đấy"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "chắc vì đó là design của em",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456378",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chắc vì đó là design của em\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Lê Kiên</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

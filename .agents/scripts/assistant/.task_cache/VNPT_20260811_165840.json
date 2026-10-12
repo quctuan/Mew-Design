@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260811_165840",
+  "group_name": "[GDS]Tổ chức du lịch 2026",
+  "sender_name": "VNPT - Hằng Design",
+  "timestamp": "16:58 11/08/2026",
+  "trigger_message": "https://www.canva.com/design/DAHR-UEc0eg/ChSzUbEXETc-uDtFCUggqg/edit?ui=e30",
+  "context_history": [
+    {
+      "sender_name": "Nguyen Quynh",
+      "text": "GDS talent show vibe nhỉ=))))"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "T.T"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "mình là 1 đoàn hải tặc hả mn"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "=))))))"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Công ty hàng hải GDS"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "idea a Cường đó =))"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Vibe cty hàng hải với cty xuất nhập khẩu vl"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "https://stock.adobe.com/vn/images/futuristic-digital-surfer-riding-a-cybernetic-wave-in-virtual-reality/2119321429"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@hanggauu ơi có điều chỉnh bản nào nữa k e"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "E thấy có 2 game tạm ổn thôi. Mà trong plan của mình có 3 minigame. A yêu cầu bên tour bổ sung thêm kịch bản hoặc a nghĩ thêm 1 minigame nữa nhé ạ @hieunguyen271095"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Chắc hnay không kịp Thiệp mời rồi, mà mai ms thông báo thì muộn quá. @hanggauu cho chị xin cái bảng màu dresscode như này, để chị gửi thông báo nhé"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "3 màu xanh blue, trắng, be nha"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "dạ oke c"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "https://www.canva.com/design/DAHR-UEc0eg/ChSzUbEXETc-uDtFCUggqg/edit?ui=e30",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5515504655_451432",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.canva.com/design/DAHR-UEc0eg/ChSzUbEXETc-uDtFCUggqg/edit?ui=e30\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hằng Design</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

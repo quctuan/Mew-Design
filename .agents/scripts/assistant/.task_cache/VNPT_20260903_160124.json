@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260903_160124",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "VNPT - Như",
+  "timestamp": "16:01 03/09/2026",
+  "trigger_message": "các thông tin lqan đến hieeern thị UI thì nhờ anh tag chị @quynhmaihavi và bạn @quctuan giúp em nha ạ",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "@name688899   hình như  gọi oneLink  bị gì ấy anh  em thấy log này  \n2026-09-03 15:15:49 INFO  HttpClient:265 - time===12|0346def4-e8bc-4f98-833b-954dba2c5d74|http://10.144.40.219:28443/one-link/getDeviceInfo?serialNumber=|res===\"{\\\"errorCode\\\":405,\\\"errorMessage\\\":\\\"NOK_INVALID_PARAMETER\\\"}\""
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Lỗi này y chang khi gọi update password với update name này, cơ mà api list device bị lỗi nên đang chưa show được cho anh em"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Vào đọc code xem e. Trông như serialNumber đang bị rỗng"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "cố giúp em luôn anh @ngsong699 nhé, gấp lắm r"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@name688899  sai cấu hình gọi qua onebss hay sao ấy anh"
+    },
+    {
+      "sender_name": "Song",
+      "text": "đợi chút nhé anh cái này chờ bên vận hành fix lại :v"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Mách anh Mỹ bh"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "E curl thử trên server xem thế nào, nếu ko được e nhờ BA add vào gr onebss rồi e gửi cho họ lệnh curl của e check xem"
+    },
+    {
+      "sender_name": "Song",
+      "text": "em sang bảo anh Mỹ r anh, đợi anh Mỹ fix lại ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Oki e"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@aidenLeDevPDC  thử lại nhé anh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Được r ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @ngngthaonhu ơi, hiện tại trên figma không define case khởi động lại ở ngoài, nên team em đang làm như clip thì chị thấy ok không ạ, có timer count down y hệt như màn Chi tiết thiết bị và có lưu lại thời gian đếm, nói chung y hệt màn chi tiết thiết bị"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "các thông tin lqan đến hieeern thị UI thì nhờ anh tag chị @quynhmaihavi và bạn @quctuan giúp em nha ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_584",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"các thông tin lqan đến hieeern thị UI thì nhờ anh tag chị @quynhmaihavi và bạn @quctuan giúp em nha ạ\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

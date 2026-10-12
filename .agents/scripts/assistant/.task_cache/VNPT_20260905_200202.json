@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260905_200202",
+  "group_name": "MI Design",
+  "sender_name": "Minh Tam",
+  "timestamp": "20:02 05/09/2026",
+  "trigger_message": "anh @leek6998 check Campaign List hộ e nhé → link Figma",
+  "context_history": [
+    {
+      "sender_name": "Minh",
+      "text": "vc thật =)))"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "ok a"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "?"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "em k nhìn thấy à hay bị khó dùng"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "là do e k để ý"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "ban đầu nó ở 1 vị trí khác"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e move lại vị trí cũ r"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "size thumbnail của Kampaign có thể để tỉ lệ 1:1 k a @leek6998, vì ảnh spham thường để tỉ lệ 1:1"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "cap a xem"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "kiểu này"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "nhưng chưa biết để trạng thái ở đâu 🐒"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "về nhà đã, tí a check"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "campaign publish r có chuyển lại thành draft k nhỉ @Hoanganh1109"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "kiểu unpublish"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "với duplicate xong thì camp bị dup có ăn theo trạng thái của thằng gốc k"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "anh @leek6998 check Campaign List hộ e nhé → link Figma",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_462044",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @leek6998 check Campaign List hộ e nhé → link Figma\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

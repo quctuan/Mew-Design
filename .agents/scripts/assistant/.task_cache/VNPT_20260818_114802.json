@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260818_114802",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Quynh Mai",
+  "timestamp": "11:48 18/08/2026",
+  "trigger_message": "entry point bọn mình để ở trên https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHRyN-4 nhé",
+  "context_history": [
+    {
+      "sender_name": "Hiền",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hieunguyen271095 em thấy hết lỗi font rồi nhé anh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hello @koi_oh nhé =))"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "hello mng"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a Phuong @koi_oh ơi,e gửi lại link figma phần roaming mới nhé ạ, do đặt trong file cũ nặng quá, nên tách thành file riêng\n1. User chưa có gói/roaming chưa bật => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=40712-108038&t=mhFvQW3eIdQR8Qhz-4 \n2. User đang có gói => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47970&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉ bật Roaming => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47960&t=mhFvQW3eIdQR8Qhz-4 \n\nCác luồng khác:\n1. Prelogin: Chỉ yêu cầu nhập SDT, không cần nhập OTP => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=41975-271460&t=mhFvQW3eIdQR8Qhz-4 \n2. TB ngoại mạng => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-48053&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉnh sửa UI webview phần Hướng dẫn (Updating) => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&t=mhFvQW3eIdQR8Qhz-4 \n\n4. màn home ở nước ngoài: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=44077-330277&t=mhFvQW3eIdQR8Qhz-4 \n5. Quản lý đơn hàng: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=46322-225240&t=mhFvQW3eIdQR8Qhz-4"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @haulcw Hiền nắm thông tin ạ, mn lưu link mới lại giúp em ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Group này cơ @hainn191297 nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "=))"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Phần này bên Vivas đang là anh @haulcw và bạn Hiền làm"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@haulcw anh ơi bạn Hải sẽ chịu trách nhiệm api cho phần Shop internet và thiết bị anh ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "chị @havietngn ơi, màn Danh sách gói đi từ chỗ nào sang màn này vậy ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Gói Internet là chị @quynhmaihavi PO nha, nhờ c Mai phản hồi bạn giúp e ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "entry point bọn mình để ở trên https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHRyN-4 nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_454111",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"entry point bọn mình để ở trên https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHR...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47970&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47960&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-48053&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=44077-330277&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=40712-108038&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=46322-225240&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=41975-271460&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHRyN-4"
+  ],
+  "doc_links": []
+}

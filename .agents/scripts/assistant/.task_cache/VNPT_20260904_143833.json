@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260904_143833",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Thuy Phan",
+  "timestamp": "14:38 04/09/2026",
+  "trigger_message": "Dear @nduythanh , @Tuanjnfor \nGần đây có một số bug log cho App, App note do BE và chuyển cho BE. Sau khi BE xử lý xong chuyển trạng thái Fixed  + note thì task bị dừng hẳn lại, App chưa verify/tích hợp và Tester chưa thể test lại, dẫn đến bug thực tế vẫn chưa được giải quyết trong khi đã chuyển trạng thái \"Fixed\". Như vậy rất mất thời gian, ảnh hưởng tiến độ\n\nLuồng xử lý:\n1. App kiểm tra: Nếu lỗi do BE, comment rõ lý do + log và assign sang cho BE.\n2. BE xử lý: Sau khi fix xong API, assign ngược lại cho dev App.\n3. App tích hợp & verify: Dev App nhận lại bug, tích hợp API mới, kiểm tra hiển thị trên app và build bản mới.\n\nNhờ anh em dev hai bên chủ động trao đổi vs nhau, tuân thủ đúng luồng chuyển giao để tránh sót việc và ảnh hưởng tiến độ của dự án\nĐồng thời các comment nhờ ACE note tên để tiện trao đổi nhé.",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "chạy lại dữ liệu các mục nào e"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@nguyenngoclinh1 chị bàn giao a Phương nhé chị"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "@xhphuong1984 chỗ đồng bộ đơn từ oneBSS sang CMS Digishop của các dịch vụ Thuê+Mua Camera/Wifi Mesh có vde gì không anh mà em check thấy 100% đơn ở CMS đều là “Đang xử lý” mặc dù oneBSS đã hoàn công/thái huỷ. (Kênh VNPT và B2C)"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "em lấy từ đầu năm đến hôm nay thì chưa có đơn nào đc đồng bộ cả. (Danh mục: Thuê+Mua Camera/Wifi)"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "có phải chỗ này cũng là 1 phần ko @nguyenngoclinh1 ơi"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "ko anh ạh"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@erictrannn  cái job refund lên đang bị lỗi ->job khác a vừa update code em tạo anh task hotfix nhé."
+    },
+    {
+      "sender_name": "Phong",
+      "text": "[Hotfix] Hotfix job Refund  a có comment jra  rồi nha.  @ntiendat"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT-839"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "đúng quy trình đã anh"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "nghiệm thu staging đi anh ạ."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "anh rà xem còn vấn đề gì không, PM chốt lịch bọn em theo thôi ạ"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@trieuld289  @giangnt2008  chỗ job này 2 ae báo QA  rà soát lại trên staging nhé."
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@haipt1905 Thành Một số bug giao diện chị thấy ae có note là fix sau nhưng chuyển trạng thái \"Pending\" là không đúng quy trình, gây hiểu nhầm trạng thái xử lý của bug. Nhờ AE rà soát các bug này giúp chị, chuyển đúng trạng thái. Trường hợp bắt buộc \"Pending\" Cần confirm PO/BA/UI... trước khi chuyển trạng thái và note rõ người xác nhận nhé"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "Dear @nduythanh , @Tuanjnfor \nGần đây có một số bug log cho App, App note do BE và chuyển cho BE. Sau khi BE xử lý xong chuyển trạng thái Fixed  + note thì task bị dừng hẳn lại, App chưa verify/tích hợp và Tester chưa thể test lại, dẫn đến bug thực tế vẫn chưa được giải quyết trong khi đã chuyển trạng thái \"Fixed\". Như vậy rất mất thời gian, ảnh hưởng tiến độ\n\nLuồng xử lý:\n1. App kiểm tra: Nếu lỗi do BE, comment rõ lý do + log và assign sang cho BE.\n2. BE xử lý: Sau khi fix xong API, assign ngược lại cho dev App.\n3. App tích hợp & verify: Dev App nhận lại bug, tích hợp API mới, kiểm tra hiển thị trên app và build bản mới.\n\nNhờ anh em dev hai bên chủ động trao đổi vs nhau, tuân thủ đúng luồng chuyển giao để tránh sót việc và ảnh hưởng tiến độ của dự án\nĐồng thời các comment nhờ ACE note tên để tiện trao đổi nhé.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3692",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear @nduythanh , @Tuanjnfor  Gần đây có một số bug log cho App, App note do BE và chuyển cho BE. Sau khi BE xử lý xong chuyển trạ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thuy Phan</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260821_101804",
+  "group_name": "[GDS] Hồ sơ thuê thiết kế",
+  "sender_name": "Trà My",
+  "timestamp": "10:18 21/08/2026",
+  "trigger_message": "có thay đổi gì k @quctuan ?",
+  "context_history": [
+    {
+      "sender_name": "Trà My",
+      "text": "Hi Anh Em, Em/chị lập nhóm để xử lý bộ hồ sơ thanh toán chi phí thuê thiết kế."
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Thiều Minh Anh 🐯 xử lý chính nhé, các thông tin chuyên môn như yêu cầu các hạng mục, nghiệm thu thì @quctuan phối hợp cung cấp"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "https://docs.google.com/spreadsheets/d/1aOO_fzMAxeBVE-ltyy47l33ceVuqR0L1BC_Ywsnzqlw/edit?usp=sharing"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Chị gửi lại checklist các hồ sơ thủ tục cần thực hiện"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "anh @Phantom102 ơi! anh gửi giúp em 1 xin 1 bộ hso mẫu nhé!"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "trong quá trình thực hiện anh Bùi Anh sẽ hỗ trợ tư vấn, hướng dẫn, vướng mắc ở đâu báo chị để xử lý."
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "a đang xin VP 1 bộ chuẩn, có anh gửi lại nhé. Các nội dung a đang có thì hơi rời rạc chút"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "vâng anh!"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Các em thao khảo bộ hồ sơ VP gửi nhé, nó sẽ hơi khác về mặt nội dung còn các bước thì cơ bản sẽ giống nhau"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "đối với thuê thiết kế UI/UX thì quan trọng nhất là đưa ra được đầu bài sẽ thiết kế những gì, kết quả, sản phẩm trả lại là gì nhé"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Trước Tuấn có lên yêu cầu thiết kế ntn: https://docs.google.com/spreadsheets/d/1dx8L2Ot-7G3OgtifSZP-54VNVTStD3J9HZxWpv8IdXg/edit?gid=0#gid=0"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "có thay đổi gì k @quctuan ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5372743625_455782",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"có thay đổi gì k @quctuan ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trà My</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1aOO_fzMAxeBVE-ltyy47l33ceVuqR0L1BC_Ywsnzqlw/edit?usp=sharing",
+    "https://docs.google.com/spreadsheets/d/1dx8L2Ot-7G3OgtifSZP-54VNVTStD3J9HZxWpv8IdXg/edit?gid=0#gid=0"
+  ]
+}

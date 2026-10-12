@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260819_104205",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Eric Trần",
+  "timestamp": "10:42 19/08/2026",
+  "trigger_message": "@quctuan ơi",
+  "context_history": [
+    {
+      "sender_name": "thuy",
+      "text": "cache theo dữ liệu từ ngày đến ngày mà e"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "tháng đó chỉ là cách gọi ngắn gọn thôi, còn logic api là truyền fromdate-todate"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "em đã update lại nhé ạ, nhờ c @lalethuy c Anh check giúp e https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=42797-181247&t=amPdrKGPrSXMVn33-4"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Anh c update timeline task này của BA nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@havietngn chỗ cấu hình ctkm này c thấy cần đồng bộ realtime với mytv chứ mình k tự khai báo"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "khai báo sẽ có thể mất đồng bộ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "e chốt đi để báo team Mytv và BA sẽ trao đổi cách thức đồng bộ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vâng oki chị, vì e thấy htai nếu có ctkm thì mytv báo a Phương, nếu h đồng bộ được thì ok hơn ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "vậy e báo cho mytv trc đi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Hồng BA chủ trì task này nhé"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Em @havietngn , @tu_uyenn , qua trao đổi thì phần Feed đang có change request 2 mục UI để đồng bộ concept với phần Feed ở mục gói cước (bản final chốt về sau).\n\nChị đã tạo ticket update riêng: GMYVNPT1-539 — https://dvs.vnptmedia.vn/browse/GMYVNPT1-539\n(tách riêng khỏi GMYVNPT1-10 Feed)\nNhờ 2 em bổ sung vào phần Scope, tài liệu trong ticket\n\nNhờ a @Tuanjnfor, a @nduythanh, chị @thuyph312 sau khi có tài liệu thì break task và estimate phần change này ạ."
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "màn cá nhân mục cài đặt này ds các tinh năng này có cấu hình ko nhỉ em @ngngthaonhu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko cần đâu ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "@quctuan ơi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454650",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ơi\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=42797-181247&t=amPdrKGPrSXMVn33-4"
+  ],
+  "doc_links": []
+}

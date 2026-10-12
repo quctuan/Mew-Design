@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260911_084346",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Nam Công",
+  "timestamp": "08:43 11/09/2026",
+  "trigger_message": "@ngthuyanh , @quynhmaihavi  sao figma thì 3 tháng mà wifi lại 30 ngày?",
+  "context_history": [
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor  @name688899 , chị @thuyph312, chị @lalethuy  ơi, phần Gói cước có 3 ticket update/bổ sung luồng làm trên app mới, tài liệu BA còn 1 con thứ 2 tới hoàn thiện, nay chuyển sang team dev & QC\n \nMốc mong muốn: lên production trước 15/10 (đi cùng đợt QW DĐ 15/10).\n\nMình sẽ tổ chức 1 buổi kick-off để BA walkthrough tài liệu, dev + QC hỏi trực tiếp và estimate ngày code done / test done. \nTime: chiều thứ 2(14/09)\nNhờ a/ch phản hồi ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Quản lý đơn hàng bọn anh đang làm Mini App rồi"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "oki c"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "mini app mới làm quản lý Thiết bị chứ a Tuấn?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "e cứ tag các bạn BA làm trực tiếp vào chứ tag c làm gì"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "với chia khung tgian ra"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "tránh mất công nhiều ng ngồi họp cùng lúc"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cả đơn hàng nữa rồi em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @tranlong e có thêm subtask làm màn HDSD bằng Webview trong con Roaming ạ https://dvs.vnptmedia.vn/browse/GMYVNPT1-755\nNhờ a cíu net, cho em xin Webview URL trước thì toẹt zời luôn ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "a @tranlong kiếm cái ảnh nào của c Ánh xinh nhất làm background tạm thời lun a. Cho ae bên MiniApp làm việc có động lực 😁"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "a @quctuan ơi, cái popup này lúc nào cũng hiển thị như vậy à hay khi click vào cái avatar mới hiển thị ạ."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "luôn hiển thị nha, mn làm scroll trang này giúp a tăng padding bottom lên, để luôn sroll thấy dc full list thuê bao nhé. Ko bị con mascot che mất"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "@ngthuyanh chị ơi em có mấy mini app mới của bên VIVAS cần có mã tính năng chị sp e đoạn này với ạ"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "• VNPT Shop - Gói roaming\n• VNPT Shop - Gói internet và tb\n• VNPT Shop - Gói cước di động\n• Quản lý thanh toán\n• DiDong-goicuoc-myvnpt\nem cần thêm 5 cái này nữa ạ"
+    },
+    {
+      "sender_name": "Nam Công",
+      "text": "@ngthuyanh , @quynhmaihavi  sao figma thì 3 tháng mà wifi lại 30 ngày?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_465819",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@ngthuyanh , @quynhmaihavi  sao figma thì 3 tháng mà wifi lại 30 ngày?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Nam Công</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260826_080854",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "08:08 26/08/2026",
+  "trigger_message": "Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), chị Thúy ( @thuyph312 ), anh Tuấn Minh ( @nguyentu4nminh ), Tuyên ( @ngotuyen03 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy \n\nNhư đã trao đổi từ trước, trong ngày hôm nay ( 26/08 ) mình sẽ Golive nốt phần Web và Job của task Update lại luồng Term of service để bổ sung cho consent về chính sách bảo vệ dữ liệu người dùng mới. \n\nEm gửi mọi người scope Golive ạ\n\nThông tin Scope Golive: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-26082026\n\nAnh Minh ( @nguyentu4nminh ), Tuyên ( @ngotuyen03 ) cập nhật giúp em trong wiki các Module sẽ triển khai trong task này. Mọi người cmt trên Jira thông tin deploy sau khi QC đã thực hiện test xong nhé ạ.",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Logs DigiShop gọi"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Logs MyVNPT nhận"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Logs MyVNPT response"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Logs DigiShop gọi tiếp:\n2026-08-26 02:07:07,070 [INFO] (dao.EmsDAO):59 - URL:https://my.vnpt.com.vn/package_service/ems_shipping/updateOrderInfo,params: {\"simOrderInfo\":{\"serialSim\":\"1183385752\",\"simStatus\":9,\"initTime\":\"26/08/2026 02:07:06\",\"initHrmCode\":\"CTV084920\"},\"orderId\":\"MYVNPT2026082623717703\",\"secureCode\":\"xxxxxx\",\"requestId\":\"DIGI1787684826671\",\"msisdn\":\"84941035783\"}, Result: {\"errorCode\":\"0\",\"message\":\"Success\",\"orderId\":\"MYVNPT2026082623717703\"}"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Logs MyVNPT tiếp tục ghi nhận và response:\n2026-08-26 02:07:07.137 INFO  com.vnpt.logging.LoggingService -   -------------------------LOGGING RESPONSE--------------START---------------------  [API-PATH]: /package_service/ems_shipping/updateOrderInfo   [REQUEST-ID]: DIGI1787684826671   [TIME_PROCESS]: 362   [BODY RESPONSE]: {\"orderId\":\"MYVNPT2026082623717703\",\"error_code\":\"0\",\"message\":\"Success\"}   -------------------------LOGGING RESPONSE--------------END---------------------"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ngon r này"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "sau gửi kèm cái OrderID tìm cho nhanh nhé :("
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Hệ thống hoạt động đã hoạt động bình thường, cần theo dõi thêm sau rollback nha em @kietla01"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Anh @ntiendat đưa vào theo dõi giúp em nhé anh"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "báo cáo có sửa lại, beta đã test ok nhưng đẩy lại prod chưa ăn nhé bạn"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Hạng mục này cũng nhờ team hệ thống mai xử lý cho lên nhé ạ anh @ntiendat anh @tran_van_my. Xong báo lại QC test nhé @vanhtt14"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Ko ảnh hưởng gì tới tổng thể. CMS vẫn hoạt động bình thường đúng ko b"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "Ảnh hưởng báo cáo hoàn tiền thôi b"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Ok b"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Cảm ơn mọi người. Công việc tối nay đã hoàn thành. Chúc mọi người ngủ ngon nhé ạ!"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), chị Thúy ( @thuyph312 ), anh Tuấn Minh ( @nguyentu4nminh ), Tuyên ( @ngotuyen03 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy \n\nNhư đã trao đổi từ trước, trong ngày hôm nay ( 26/08 ) mình sẽ Golive nốt phần Web và Job của task Update lại luồng Term of service để bổ sung cho consent về chính sách bảo vệ dữ liệu người dùng mới. \n\nEm gửi mọi người scope Golive ạ\n\nThông tin Scope Golive: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-26082026\n\nAnh Minh ( @nguyentu4nminh ), Tuyên ( @ngotuyen03 ) cập nhật giúp em trong wiki các Module sẽ triển khai trong task này. Mọi người cmt trên Jira thông tin deploy sau khi QC đã thực hiện test xong nhé ạ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36630",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), chị Thúy ( @thuyph312 ), anh Tuấn Minh ( @nguyentu4nminh ), Tuyên ( @ngotuyen...\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 11,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "⚡ Khẩn: \"hôm nay\"",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

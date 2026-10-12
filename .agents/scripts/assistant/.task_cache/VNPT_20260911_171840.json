@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260911_171840",
+  "group_name": "SIM Số - revamp",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "17:18 11/09/2026",
+  "trigger_message": "Mình sẽ tích hợp thêm các luồng c nêu trên nhé ạ\nRiêng với luồng BH011 thì hiện GDS chưa nhận được văn bản từ VNP nên cũng chưa thống nhất off luồng. Nhờ c trao đổi lại với IT để giữ nguyên luồng cũ nhé",
+  "context_history": [
+    {
+      "sender_name": "Hạnh",
+      "text": "Nam chưa kịp ngáp nữa :)))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "Chbi gom sim chứ sắp tăng giá cơ ạ  🤣"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@vietmv92 anh xem giúp em các nội dung hqua họp ạ. em thấy có vài cái due trong tháng 9 ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@kietla01  Xem nhé. Trao đổi với Thùy Anh ( @ngthuyanh ) và Hà ( @havietngn ) để xem scope, kickoff cho anh em nắm thông tin và lên kế hoạch thực hiện"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Vâng anh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Xem luôn nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "phần này mình goplive sau có ảnh hưởng gì ko c nhỉ, nếu phần này thay đổi thì UI cần thay đổi khá nhiều chỗ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cứ để đấy cũng được. điều chỉnh thì áp dụng cho các đơn order thôi chứ đơn kit vẫn cần tự gọi 900"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT-774 \nc @lalethuy ơi e thấy PM báo chỗ này BA cần clear thêm thông tin, bên c cần thêm thông tin gì ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@vietmv92 @kietla01 @havietngn chỗ mở mã luồng này em thấy VNP báo là 20/9 sẽ đổi phân quyền thì mn xem bên mình có thực hiện ko nhé ạ, ko thì cần báo lại IT và VNP để ko điều chỉnh phân quyền. e gửi danh sách các mã luồng bên mình cần tích hợp thêm. \ndanh sách bảng phân quyền: https://docs.google.com/spreadsheets/d/1OblKTPllP4MuTKNXnOKp255LMsFwqp2_/edit?gid=571355193#gid=571355193\n\n\nBH005: Kênh nhân viên - mã gắn affiliate link của nhân viên\nBH008: Kênh Ngoài bán hàng trực tiếp - mã gắn affiliate link của kênh bán ngoài DIGIWEB\nBH003: Kênh Ngoài hợp tác kinh doanh - GIỚI THIỆU KHÁCH HÀNG CTVLK\nBH009: ĐUQ/ĐBL/CTV bán hàng/ CTV XHH/ Đại lý XHH Tạo đơn đặt hàng App DigiShop\nBH034: KH ĐẶT HÀNG SIM SỐ ( trên App/web của TĐL ví dụ Momo\nBH017: Kênh Ngoài hợp tác kinh doanh - GIỚI THIỆU KHÁCH HÀNG NHÂN VIÊN\nBH028: Kênh TĐL phân phối - SIM  DU LỊCH VẬT LÝ\nBH029: Kênh TĐL phân phối - ESIM DU LỊCH"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@kietla01  xem nhé, có gì BC anh"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@giangnt2008 c gửi thông tin IT ms đổi ip của gw định danh trên môi trường dev nhé"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "10.156.4.75:8080"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "Oke c"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Mình sẽ tích hợp thêm các luồng c nêu trên nhé ạ\nRiêng với luồng BH011 thì hiện GDS chưa nhận được văn bản từ VNP nên cũng chưa thống nhất off luồng. Nhờ c trao đổi lại với IT để giữ nguyên luồng cũ nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4941309523_466748",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Mình sẽ tích hợp thêm các luồng c nêu trên nhé ạ Riêng với luồng BH011 thì hiện GDS chưa nhận được văn bản từ VNP nên cũng chưa th...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1OblKTPllP4MuTKNXnOKp255LMsFwqp2_/edit?gid=571355193#gid=571355193"
+  ]
+}

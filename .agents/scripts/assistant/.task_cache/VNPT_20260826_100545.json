@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260826_100545",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "10:05 26/08/2026",
+  "trigger_message": "Hi @ngsong699 , b ơi mình hỏi chút về api phần gói cước. Hiện trên giao diện figma đang hiển thị cố định 4 loại gói. Trong api thì đang lấy danh sách các tab sẽ được hiển thị. Vậy các tab cố định hay không hay lấy theo API. Giao diện gói VIP sẽ khác giao diện gói khác thì có trường nào mapping để phân biệt ạ?",
+  "context_history": [
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor ơi, cái này đúng luồng chưa ạ?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 confirm nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "đúng r nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "kể từ lúc thanh toán đến hiện kết quả sẽ do native xử lý hết"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@hieunguyen271095 Hiếu review giúp mình PR với. https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/44"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "anh @hieunguyen271095 review giúp em MR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/45"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@dangthtobi xử lý cho a nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "bro check comment nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Mình phản hồi rồi nhé."
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "e check comment nhá"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "em vừa sửa luôn rồi ạ"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "merge rồi nhá e"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @haulcw ơi, api có vấn đề gì anh hỏi anh @ngsong699 giúp em ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi @ngsong699 , b ơi mình hỏi chút về api phần gói cước. Hiện trên giao diện figma đang hiển thị cố định 4 loại gói. Trong api thì đang lấy danh sách các tab sẽ được hiển thị. Vậy các tab cố định hay không hay lấy theo API. Giao diện gói VIP sẽ khác giao diện gói khác thì có trường nào mapping để phân biệt ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_458428",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hi @ngsong699 , b ơi mình hỏi chút về api phần gói cước. Hiện trên giao diện figma đang hiển thị cố định 4 loại gói. Trong api thì...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Hậu</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260828_112102",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "11:21 28/08/2026",
+  "trigger_message": "Thêm nữa chị Anh Nguyen giúp em confirm trường hợp hiển thị đa dạng tab (em không thấy có note trên figma hoặc em miss chỗ nào đó). Hiện tại trên figma có 4 loại gói (Ngày, tháng, VAS, VIP) ứng với layout tương ứng trên figma. Tuy nhiên quá trình ghép api là tab có thể linh động theo layout định nghĩa. Việc này khiến code component app bị thay đổi theo. Để phòng tránh các trường hợp đó thì bên chị giúp em liệt kê các phần sẽ config động được không ạ? Hiện qua trao đổi với design và đã xử lý ở code đó là phần động của danh mục tab gói ngày, tháng.",
+  "context_history": [
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiện a cũng chưa biết nguyên nhân vì chạy trên IOS vẫn ổn k bị sao"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "à a thêm 1 button vào Panel em viết thì click được => không bị đè view"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Em có nhánh con đó k? Để a xem có gì đặc biệt k"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "a cho e xin nhánh để e vào xem với a"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "mình chuyển trạng thái r nha"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Đây em ơi"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "a bọc nó vào 1 cái bottomsheet để có thể click, với đóng xuống nhá a"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Bọc vào BTS có vẻ k đúng giao diện lắm em nhỉ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Nó là floating"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "a không cho màu vào là được mà a"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "OK để a thử xem nhé"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "Em vừa xem thử thì nó ăn vào action scroll của view dưới thay vì action click của cái view payment. Anh check lại theo hướng này xem có tìm đươc root cause ko nhé ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiện thêm BottomSheet thì click được mỗi phần phương thức thanh toán. Mua ngay và xem chi tiết hiện chưa click được. Mình đang tìm hiểu theo hướng ăn vào sroll view nhé."
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "a chụp cho e UI vơi ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Mình gửi nhé. Load mãi mới lên được dữ liệu"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Thêm nữa chị Anh Nguyen giúp em confirm trường hợp hiển thị đa dạng tab (em không thấy có note trên figma hoặc em miss chỗ nào đó). Hiện tại trên figma có 4 loại gói (Ngày, tháng, VAS, VIP) ứng với layout tương ứng trên figma. Tuy nhiên quá trình ghép api là tab có thể linh động theo layout định nghĩa. Việc này khiến code component app bị thay đổi theo. Để phòng tránh các trường hợp đó thì bên chị giúp em liệt kê các phần sẽ config động được không ạ? Hiện qua trao đổi với design và đã xử lý ở code đó là phần động của danh mục tab gói ngày, tháng.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_459871",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Thêm nữa chị Anh Nguyen giúp em confirm trường hợp hiển thị đa dạng tab (em không thấy có note trên figma hoặc em miss chỗ nào đó)...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Hậu</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

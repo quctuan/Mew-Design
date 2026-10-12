@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260825_095956",
+  "group_name": "MakeIt FE team",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "09:59 25/08/2026",
+  "trigger_message": "Các luồng khác chốt sau",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "dùng đc ngày là hết plan :)))"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cho nó review a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ko a cho nó làm plan"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nma giờ thấy đắt quá nên a cũng méo dùng"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thà dùng glm còn hơn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "cơ mà a k dùng mấy gói này đâu m cứ bào đi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a còn 6 con plus"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "codex ngon kìa"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uwafa"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đợi ollama có glm-5.3 thì mua lại ollama"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ollama update chậm vc"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "@Hoanganh1109 cc Phong Hôm trước anh có confirm vụ mockup ảnh giới hạn kích thước ảnh là 10MB. Kích thước 10MB sẽ áp dụng cho toàn bộ logic update ảnh hay chỉ đoạn upload mockup v a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Cứ đi trước mockup đi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Các luồng khác chốt sau",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_457853",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Các luồng khác chốt sau\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

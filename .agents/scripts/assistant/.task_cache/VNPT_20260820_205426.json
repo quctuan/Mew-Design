@@ -1,0 +1,68 @@
+{
+  "task_id": "VNPT_20260820_205426",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Hoài Thanh",
+  "timestamp": "20:54 20/08/2026",
+  "trigger_message": "Anh follow theo step của figma òi, tham khảo bên customily nữa, docs chắc cũng ko đổi UI đâu =)))",
+  "context_history": [
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "hư hỏng lắm"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "@Hoanganh1109  accept cho @thientran_1999 vào figma anh phát"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@thientran_1999 cho t mail nhé"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "@Hoanganh1109 thientq@paditech.com ạ"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "t invite rồi nhé"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "Bất tỉnh táo =)))"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "Report 11-18/08:\n- Text personalize (done)\n- Sửa các effects (shadow/stroke/pattern...) của text layer để đáp ứng box mode và vertical alignment mới.\n- Vector layer: done UI\n+ Cần API upload svg ở library\n+ Cần API để normalize và convert file khi upload để sử dụng cho vector (file SVG, ESP, AI...)\n- Campaign:\n+ Step 1: done (đã tích hợp API mockup/artwork)\n+ Step 2: done UI (chờ API)\n+ Step 3: 50% UI (tuần này done, chờ API)\n- Check và sửa/revert lại code phần artwork bị mất"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "CC anh @minhhnhatt @hoangpham76 @Hoanganh1109"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "a k chờ docs cho con Campaign à :))"
+    },
+    {
+      "sender_name": "Hoài Thanh",
+      "text": "Anh follow theo step của figma òi, tham khảo bên customily nữa, docs chắc cũng ko đổi UI đâu =)))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_455466",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh follow theo step của figma òi, tham khảo bên customily nữa, docs chắc cũng ko đổi UI đâu =)))\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

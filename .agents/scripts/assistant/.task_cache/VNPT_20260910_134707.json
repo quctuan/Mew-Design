@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260910_134707",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Loc",
+  "timestamp": "13:47 10/09/2026",
+  "trigger_message": "anh @quctuan export giúp em mấy cá chấm trắng này với, em export bị nền đen anh ạ ;v",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, text trong cái badge đó thui"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "anh @quctuan  ơi xem giúp em, luồng đổi quà cho các loại quà còn lại chưa có màn đổi quà thành công ở đây, anh xem thêm giúp em nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@taminhtr Giúp t bổ sung cho Đoan nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à mn đã làm đến luồng sử dụng voucher chưa e nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cái màn có mã QR voucher ấy"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "giống màn này anh, em mới làm chỗ đổi Ưư đãi này thôi chưa xem chỗ sử dụng anh ạ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan , click vào đây đi đau e, chưa thấy vẽ nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ra chi tiết voucher ạ, có design r đó a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=39247-80059&t=wlfXXdgqYS2mqwLj-11"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đây ạ"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Anh Tuấn Vương Des anh ngồi ở chỗ nào vậy"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "anh chấm em phát. em bị khóa mõm á"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Khi click vào btn\"Sử dụng ngay\". Đoạn này thì mình có QR code rồi. Mình sẽ đưa QR đó ra để cho nhân viên ở quầy thanh toán. Vậy cái hành động navigate để \"Mở chi tiết ưu đãi trong kho quà của tôi\" màn đó như nào ta. Tác dụng để làm gì nhỉ ?"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Ví dụ muốn lấy lại QR đã đổi (Đổi ra rồi nhưng chưa dùng ngay)thì làm như nào(Có nút tải QR về máy hoặc chỗ lưu QR lại để tìm lại chứ nhỉ)"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh @quctuan export giúp em mấy cá chấm trắng này với, em export bị nền đen anh ạ ;v",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_465278",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @quctuan export giúp em mấy cá chấm trắng này với, em export bị nền đen anh ạ ;v\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Loc</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=39247-80059&t=wlfXXdgqYS2mqwLj-11"
+  ],
+  "doc_links": []
+}

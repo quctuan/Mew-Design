@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260817_172950",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "17:29 17/08/2026",
+  "trigger_message": "cái này theo luồng đơn ems htai là ems cấp 1 API tạo đơn hàng  , nếu có đơn thì mình gọi api đấy nhé",
+  "context_history": [
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "mng fill giúp e cái timeline golive expect với ưu tiên với nhé ạ, Vibeclub thì k cần vì ưu tiên 1 rồi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e gửi c ý r mà"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "về quy trình thì hiện tại bọn e sẽ đánh giá khả thi + lên specs (mô tả mong muốn/ design) cụ thể trước rồi mới bắt đầu đưa sang để PM đánh giá ưu tiên & align với các task hiện tại đang có rồi mới có timeline golive chuẩn được. Nên chỗ này mình cứ input expect timeline + ưu tiên để có sở cứ sau trao đổi với các PM nhé mng"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "À oke"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@vaanha ơi cái phần notify này bh c chạy thế, app đang định tuần sau lên, vì tuần trc vừa submit r"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tuần này submit nữa thì hơi sát"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ngay khi triển khai được các trigger di động thì sẽ chạy nha"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "khi nào triển khai đc các trigger đấy thế"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chắc đây là phần của a @Hoanganh1109, e gửi lại anh nhé"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "T đang hoàn thiện timeline triển khai, đang đợi test trước"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "m nghiệm thu nốt đi :))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "n chưa thành thình đâu a"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đang ở bước xác định PO"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "PM đang hỏi timeline :D a nắm timeline chỗ Hà r thfi báo lại cho Kiệt nhé :D"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cái này theo luồng đơn ems htai là ems cấp 1 API tạo đơn hàng  , nếu có đơn thì mình gọi api đấy nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_453767",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"cái này theo luồng đơn ems htai là ems cấp 1 API tạo đơn hàng  , nếu có đơn thì mình gọi api đấy nhé\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hà PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,89 @@
+{
+  "task_id": "VNPT_20260908_154435",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "15:44 08/09/2026",
+  "trigger_message": "Em xem bổ sung thêm 1 luồng nữa",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ), Hoàng Anh ( @Hoanganh1109 ), Thông tin gửi anh San tình hình thế nào rồi các em"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "bọn e đang viết a ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh vẫn nhớ có lần nào đó Hoàng Anh nói với anh PO có AI xịn lắm 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đều dùng tài khoản chát gpt thôi a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "https://docs.google.com/spreadsheets/d/1cJYzuLZL2bdTCoXg_39VL_6ppKX8Cs3yoqQleKtUuD8/edit?usp=sharing"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@vietmv92 e gửi nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "mới có 4 luồng 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Về cơ bản Khung anh thấy ok đấy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vì chỉ có 4 luồng quan trọng"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "tinh thần chuẩn thế còn gì a :))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Quan trọng hay KH sử dụng nhiều 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Quan trọng = KH dùng nhiều"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Thấy minh bảo có số liệu gì đó mà 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em xem bổ sung thêm 1 luồng nữa",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_463534",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Em xem bổ sung thêm 1 luồng nữa\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1cJYzuLZL2bdTCoXg_39VL_6ppKX8Cs3yoqQleKtUuD8/edit?usp=sharing"
+  ]
+}

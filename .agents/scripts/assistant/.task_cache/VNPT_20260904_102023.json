@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260904_102023",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hiền Nguyễn",
+  "timestamp": "10:20 04/09/2026",
+  "trigger_message": "@hieunguyen271095 @NguyetDang anh chị cho em hỏi luồng Đăng ký gói Internet, sau khi ấn Xác nhận đơn thì design em thấy điều hướng sang Tracking đơn hàng. Nhưng api thì em đang thấy có 2 trường hợp là gửi thẳng sang oneBSS với tạo đơn nháp, sau đó có thêm luồng submitFullOrder — hoàn tất đơn (OTP) và updatePackage — sửa đơn đã tạo (OTP).\nNhư vậy thì phía mini app cần xử lý những gì khi Đăng ký gói internet ạ?",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "@haulcw  em thêm 1 số data category gói cước r nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh thử lại xem có chưa"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Ok giờ a thử"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@nqthang21 báo lại hiện trạng API xem đang thiếu phần nào, chỗ Hiền còn vấn đề gì với anh @hainn191297 k em"
+    },
+    {
+      "sender_name": "Thắng",
+      "text": "a @ngsong699 đang note lại cho e rồi ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@aidenLeDevPDC ngoài các vấn đề em đã note bên trên thì ko anh ạ. Với em cần xin timline anh @hainn191297 phản hồi được các phần em note ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hết chiều nay luôn @hainn191297 được k ạ"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "dạ được nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Có chưa bạn @hainn191297"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "gửi lại Hiền nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@Nhanto99 welcome em Nhàn 99 nhé, anh @hainn191297 có lời chào kìa em"
+    },
+    {
+      "sender_name": "Tô",
+      "text": "Dạ e xin kính cẩn nghiêng mk chào a Hải ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@hainn191297 có cần order thêm anh em vivas test BE không bạn, cho nó uy tín chứ em Hiền bên tôi thấy hơi chật vật rồi, hứa lấy giá rẻ"
+    },
+    {
+      "sender_name": "Hiền Nguyễn",
+      "text": "@hieunguyen271095 @NguyetDang anh chị cho em hỏi luồng Đăng ký gói Internet, sau khi ấn Xác nhận đơn thì design em thấy điều hướng sang Tracking đơn hàng. Nhưng api thì em đang thấy có 2 trường hợp là gửi thẳng sang oneBSS với tạo đơn nháp, sau đó có thêm luồng submitFullOrder — hoàn tất đơn (OTP) và updatePackage — sửa đơn đã tạo (OTP).\nNhư vậy thì phía mini app cần xử lý những gì khi Đăng ký gói internet ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_461519",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@hieunguyen271095 @NguyetDang anh chị cho em hỏi luồng Đăng ký gói Internet, sau khi ấn Xác nhận đơn thì design em thấy điều hướng...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Hiền Nguyễn</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

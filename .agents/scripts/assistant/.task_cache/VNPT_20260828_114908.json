@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260828_114908",
+  "group_name": "[DigiShop Web][GDS]: Team triển khai dự án",
+  "sender_name": "Nguyễn Tiến Đạt",
+  "timestamp": "11:49 28/08/2026",
+  "trigger_message": "@tranlong nhờ anh Long xem giúp em thông tin này nhé, hiện tại ghi nhận lỗi search sim rất nhiều\n1. xem giúp em lại luồng xử lý\n2. Nếu không có sessinID thì có đi gọi lại sang IT xử lý không\n3. Trước đó e thấy in ra có thông tin tìm kiếm trong redis",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em vừa nhắn bảo cho em yên ổn sau nghỉ lễ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "sau nghỉ lễ còn 1 ngày thì thay"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "lúc đấy chắc chắn lỗi tiếp :D nhưng các bên xử lý thôi, chứ MyVNPT và DigiShop đã xử lý rồi"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "chia sẻ cách mà mình đã xử lý cho các đối tác đang gọi vào nhé em."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em gửi từ hôm mình bị rồi a ạ, nhưng bên đấy chia quản trị server thế nào ấy em cũng không rõ lắm. Thành ra mãi không xử lý"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "giờ em bảo xin mở mạng đi intranet luôn cho tiện"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "Quản lý bên trên có CDP là A. Tuyển và DigiShop App là A. Bắc ah em."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "CDP em đang nhắn anh Dũng - quản trị dịch vụ a ạ"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "anh nhắn anh Trường rồi nhé."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@tranlong em tìm theo traceId thì làm sao để biết được thông tin API của IT a nhỉ"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "tí  SOFT. Bùi Hoài Nam check chỗ này nhé"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "\"63bcc1f7-07f2-4f99-a24d-9ee8e1f83979\""
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@tranlong nhờ anh Long xem giúp em thông tin này nhé, hiện tại ghi nhận lỗi search sim rất nhiều\n1. xem giúp em lại luồng xử lý\n2. Nếu không có sessinID thì có đi gọi lại sang IT xử lý không\n3. Trước đó e thấy in ra có thông tin tìm kiếm trong redis",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3565454551_4161",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@tranlong nhờ anh Long xem giúp em thông tin này nhé, hiện tại ghi nhận lỗi search sim rất nhiều 1. xem giúp em lại luồng xử lý 2....\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Nguyễn Tiến Đạt</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

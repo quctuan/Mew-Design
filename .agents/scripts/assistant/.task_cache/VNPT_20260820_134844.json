@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260820_134844",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "13:48 20/08/2026",
+  "trigger_message": "=))))))))))))) sao lại coi đấy là bthg hả b",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "thì vân là chúng ta"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Ngạ chắc cũng ok"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke t dễ tính như 4' mà"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "bede nên dê tính à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "bede mới là khó tính, cno đĩ lắm"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "thấu hiểu quá rồi đó =)))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "svien ngành Y à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "bede toàn tìm dc mấy anh đẹp trai"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "bạn thì ko à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "kém thế"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tin này á"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tưởng chuyện này ở đây là bt =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuấn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko dc xấu tính"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xấu tính là bede"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=))))))))))))) sao lại coi đấy là bthg hả b",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_455145",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"=))))))))))))) sao lại coi đấy là bthg hả b\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Thuỳ Anh</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

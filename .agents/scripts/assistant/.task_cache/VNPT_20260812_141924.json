@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260812_141924",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Thành NV",
+  "timestamp": "14:19 12/08/2026",
+  "trigger_message": "a hỏi chút nữa @quctuan . ở màn hình này nếu ở trạng thái vừa logout. đã có thông tin user ở session login trước đó. thì nó có hiển thị khác ko e,",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Icon này cấu hình thui ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ko a đang nói đến chỗ slide ấy. ở home thì cho slide theo page còn trong vnpt thì e cho scrol ngang ko có slide."
+    },
+    {
+      "sender_name": "Thành",
+      "text": "mà a thấy chúng nó cũng cùng chung tính năng, chung nguồn chung mục đích"
+    },
+    {
+      "sender_name": "Thành",
+      "text": ":)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à oke, để e chỉnh chung 1 kiểu ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "với phần feed shop này ae đã code chưa a nhỉ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "phần feed ở shop có khác nhiều trong home ko nhỉ em. ae cũng đang tính dùng lại luôn"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nó là 1 đó a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tại cái thẻ gói cước đang thay đổi lại chút, nên bọn e xin phép update lại UI thẻ gói dc ko anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Mấy thẻ feed bán gói/sim/top-up ở home là từ Shop này bơm ra thui, nên coi chung là 1 component dc ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ae update thế nào nhỉ. e gửi lên đây để mn đánh giá mức độ ảnh hưởng xem sao nhé Tuấn."
+    },
+    {
+      "sender_name": "Thành",
+      "text": "vì phần feed đã done hết rồi nên mn cần đánh giá lại xem ảnh hưởng nhiều hay ít nha em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okie a ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "màn Shop ae hold lại giúp em 2 phần.\n- Danh mục life style (Update số lượng lifestyle)\n- Feed bán gói (Update UI thẻ gói)\n\nNay bọn em update rồi gửi mn đánh giá ạ"
+    },
+    {
+      "sender_name": "Thành NV",
+      "text": "a hỏi chút nữa @quctuan . ở màn hình này nếu ở trạng thái vừa logout. đã có thông tin user ở session login trước đó. thì nó có hiển thị khác ko e,",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_451739",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a hỏi chút nữa @quctuan . ở màn hình này nếu ở trạng thái vừa logout. đã có thông tin user ở session login trước đó. thì nó có hiể...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

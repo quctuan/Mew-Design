@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260818_154519",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "Minh Tam",
+  "timestamp": "15:45 18/08/2026",
+  "trigger_message": "@minhhnhatt @quynhmaihavi ac review giúp e khung trc nhé",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@tubibitu90 chị ơi, phần feed ở Home mình có đủ tiếng Anh chưa ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "có đủ trên link mà, thiếu phần nào cụ thể báo chị."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em xin lại link mí"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "https://drive.google.com/drive/folders/1FLAjrB4CqD7YyJyI-ZLmS7OWdzLEfxKA"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@havietngn trước e làm à cho a xin thông tin cái"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cái này có LDP gói thường mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "KD vẫn bắn như bthg"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "KD là ng yêu cầu mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chỗ này nếu muốn biết phương thức bắn ntn thì KD hỏi lại chị Huyền Mai và anh Xuân Phương"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chs lại hỏi lại mình"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "uh a đang xin thông tin mà, a đang muốn triển khai mà chưa biết trước ai làm để làm cái landing page tương tự cho luồng gói cước"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ý e là LDP gói cước thường hiện đang có r nên k cần làm 1 cái nữa ý"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "hay a muốn làm lại theo style guide mới?"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "ko a chỉ đổi gói cước thôi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/yfcu6sKsDkRhgmD3zckKEU/Internet---Family-Safe?node-id=236-3375&t=k6j2azzjq98cqZFZ-1\n\nlink draft family safe"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "@minhhnhatt @quynhmaihavi ac review giúp e khung trc nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_454255",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@minhhnhatt @quynhmaihavi ac review giúp e khung trc nhé\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Minh Tam</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/yfcu6sKsDkRhgmD3zckKEU/Internet---Family-Safe?node-id=236-3375&t=k6j2azzjq98cqZFZ-1"
+  ],
+  "doc_links": []
+}

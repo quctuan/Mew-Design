@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260817_164133",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "16:41 17/08/2026",
+  "trigger_message": "@minhhnhatt PO có tài liệu HDSD luồng này k nhỉ",
+  "context_history": [
+    {
+      "sender_name": "Trang",
+      "text": "chỗ này có phương án xử lý chưa nhỉ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e xin đc c TL cái văn bản này"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "theo chị được KTNV giải thích thì là do tỉnh khai báo nhân viên ko đúng Hà ạ. Tụi chị đã có VB để push họ khai chuẩn rồi (trước hồi chị về làm cái này thì mn nói trước đó đã có, và sau đó có thêm VB bên trên c gửi để push) nhưng vẫn chưa ổn => Cần thuê vận bên ngoài là vì vậy"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @Trangdt171 ơi phần này c hẹn với địa bàn đc chưa ạ? phần này cần triển khai sớm để kịp kế hoạch 15/10, bâyh cũng đang muộ so với kế hoạch r ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Địa bàn yêu cầu mình có đủ thông tin này, để buổi họp hiệu quả"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Kim cũng đang collect thêm thông tin"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "chắc c sẽ hẹn mai hoặc t4 nhé"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "1. Thông tin đơn hàng bên em sẽ API đẩy sang GHTK hay đẩy thông tin đơn hàng bằng cách nào.\n—> Bên em sẽ đẩy API sang GHTK \n2. Yêu cầu giao hàng : Giao xong bình thường là được, hay có cần cập nhật để kích hoạt Sim không, hay có yêu cầu POD kí nhận không.\n—> Cần update realtime thời gian nhận hàng để tính SLA khởi tạo/kích hoạt sim của KH \n3. Đóng gói hàng hóa : Dự kiến bên mình sẽ đói gói sản phẩm này như thế nào nhỉ.\n—> Đóng gói bằng phong bì thư"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Đây là 1 số câu hỏi bên vận chuyển hoả tốc đang hỏi bên mình nhờ làm rõ, chị @havietngn confirm giúp em câu trả lời của số 1, 2 để em gửi lại bên dvvc với ạ"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@Trangdt171 @vaanha @huyenmmai @elisetran các sếp ơi hiện tại e đang nhận khá nhiều đầu việc từ các ce KD về Growth với Gamification, chắc mình nên làm 1 file kế hoạch để e follow up với sắp xếp ưu tiên cho dễ 😄"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Ừ chỗ này chắc nhờ e list ra các đầu việc đang nhận order từ team KD, sau đó bên c sắp xếp lại ưu tiên hoặc nhờ Minh thêm người hỗ trợ nhé"
+    },
+    {
+      "sender_name": "Huyền Mai",
+      "text": "Nhắc mới nhớ: Chỗ gamification hôm trước kết luận như nào @Hoanganh1109 ơi."
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "E hứa với sếp là phía sản phẩm sẽ nhận owner về định hướng nma đang xin sau con VibeClub (15/10) mới có Roadmap các game/ quy hoạch sau này ạ :))"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "@minhhnhatt PO có tài liệu HDSD luồng này k nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_453683",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@minhhnhatt PO có tài liệu HDSD luồng này k nhỉ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Trang Đỗ</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

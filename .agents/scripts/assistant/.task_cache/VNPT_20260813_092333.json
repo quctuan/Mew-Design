@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260813_092333",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "09:23 13/08/2026",
+  "trigger_message": "Dear anh @vietmv92 , chị Anh , @NguyetDang , @ngngthaonhu \nCC chị @lalethuy \nPO đã trả lời danh sách câu hỏi của BA và cmt lên jira\nTrong danh sách, các câu chưa thể phản hồi ngay:\nCâu 1: Làm rõ vấn đề liên quan đến Ký HĐ trước/sau khi thanh toán: Hiện tại eContract không có khái niệm trạng thái Thanh toán. Khách hàng ký xong thì sẽ tự động gửi đến lãnh đạo luôn, nên hiện trạng eContract chưa có trigger check \"đã thanh toán\" trước khi chuyển ký lãnh đạo — cần PO xác nhận lại luồng thanh toán trước hay sau luồng ký BBNT?\nTrả lời: Thanh toán sau ký BBNT, sẽ book họp lại với eContract để đánh giá nội dung này, dự kiến tuần sau sau khi có phản hồi của pháp chế về các nội dung so khớp và lưu trữ\n\nCâu 1': PO cung cấp danh sách các fields cần đồng bộ sang OneBss sau khi ký HĐ, BBNT\nTrả lời: Phản hồi sau khi có phản hồi từ pháp chế\n\nCâu 7: Họp 3 bên với cả IT và Fintech về luồng thanh toán và hoàn tiền : hoàn tiền 1 phần ?\nTrả lời: Không có hoàn 1 phần vì thanh toán sau lắp đặt, sẽ book họp 3 bên nêú phía nghiệp vụ mong muốn họp làm rõ nghiệp vụ với FT và OneBSS\n\nCâu 8: Làm rõ việc có cần so khớp thông tin eKYC với thông tin hợp đồng không (nếu có cần so khớp những thông tin gì ?) Vì eContract xác nhận KHÔNG đối chiếu eKYC với thông tin HĐ (luồng mới eKYC ở App MyVNPT) — cần chốt lại thông tin phần này để xác định rõ ràng mục đích ekyc.\nTrả lời: Chờ phản hồi của pháp chế, eCOntract xác nhận sẽ thực hiện nếu pháp chế yêu cầu\nPO đã gửi yêu cầu hỗ trợ qua pháp chế ngày 7/8, pháp chế đang đánh giá",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear chị Anh , chị @lalethuy , anh @nduythanh , anh @PhongNK , @NguyetDang , chị @thuyph312 , Bà Nội Hạnh , anh @MinhHieu1997, @vaanha , CC chị @myntt2703 , CC anh @tran_van_my, CC anh @hocnv2010 em gửi lại thông tin task https://dvs.vnptmedia.vn/browse/GMYVNPT1-250 kịch bản kinh doanh đề xuất cho luồng BRCĐ, thời gian đề xuất kick off , 3h chiều mai"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@ngngthaonhu tham gia cùng @NguyetDang nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Mọi người ơi, mình ra phòng họp lớn nhé ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@luongtrandev  tham gia cùng nhé e"
+    },
+    {
+      "sender_name": "Luong",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://docs.google.com/spreadsheets/d/1LH0BFCX35FDNdfFgYoD6ML6NrUiOGxtH81j9LmQ1CzE/edit?gid=1671102497#gid=1671102497"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dear chị @quynhmaihavi \ncc anh @vietmv92\nTeam BA đã tổng hợp và cập nhật các vấn đề hiện còn vướng trong link jira bên dưới. Nhờ team PO hỗ trợ rà soát, phàn hồi và đưa ra thời gian phản hồi để BA có cơ sở tiếp tục triển khai các hạng mục liên quan.\nĐối với các vấn đề chưa thể chốt ngay, nhờ team PO ghi rõ dự kiến thời gian có phản hồi chính thức để BA chủ động kế hoạch triển khai và tránh ảnh hưởng tiến độ chung ạ\nNhờ anh/chị hỗ trợ cập nhật giúp team BA. Cảm ơn anh/chị!\nJira: https://dvs.vnptmedia.vn/browse/GMYVNPT1-516\nQ&A: https://docs.google.com/document/d/1puMyRfKFhUhNX16RHJHW9KP333Pa4W7kN1Zw0rXDVTA/edit?usp=sharing"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chuyên nghiệp quá 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Ánh ( Ánh - PM ) follow nhé"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "MOM 11/08\nWP8 chưa thể triển khai. Đang ở bước đánh giá khả thi, chốt 20/08.\n *Action: \n - Kinh doanh: làm rõ + đồng bộ định nghĩa gói với CDP\n - Data team: Check data so với yêu cầu kịch bản\n - Sau khi có data -> đánh giá dữ liệu nhận được → kết luận độ khả thi WP\n  * Rủi ro: bước request data qua bên khác có thể lâu -> không đảm bảo timline 15/10. Nên 20/08 mong muốn có đầy đủ dữ liệu/báo cáo tình trạng để đánh giá.\ncc a @tran_van_my, @vietmv92, @Phantom102"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Mở quyền edit nhé, ch yêu cầu rồi ý"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Với các nội dung BA phản hồi, @quynhmaihavi rà soát và trao đổi trực tiếp vs @NguyetDang  để làm rõ, tránh nhắn qua nhắn lại tốn thời gian mà k hiệu quả nhé!"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "sau khi trao đổi thống nhất thì note lại kết quả trên jira để mn cùng nắm đc"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng ạ, Chị @quynhmaihavi ơi, c check lại giúp e ạ, đối với các VĐ chưa thể chốt ngay (cần trao đổi với các bên) thì chị ghi deadline dự kiến vào đó giúp e vs ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear anh @vietmv92 , chị Anh , @NguyetDang , @ngngthaonhu \nCC chị @lalethuy \nPO đã trả lời danh sách câu hỏi của BA và cmt lên jira\nTrong danh sách, các câu chưa thể phản hồi ngay:\nCâu 1: Làm rõ vấn đề liên quan đến Ký HĐ trước/sau khi thanh toán: Hiện tại eContract không có khái niệm trạng thái Thanh toán. Khách hàng ký xong thì sẽ tự động gửi đến lãnh đạo luôn, nên hiện trạng eContract chưa có trigger check \"đã thanh toán\" trước khi chuyển ký lãnh đạo — cần PO xác nhận lại luồng thanh toán trước hay sau luồng ký BBNT?\nTrả lời: Thanh toán sau ký BBNT, sẽ book họp lại với eContract để đánh giá nội dung này, dự kiến tuần sau sau khi có phản hồi của pháp chế về các nội dung so khớp và lưu trữ\n\nCâu 1': PO cung cấp danh sách các fields cần đồng bộ sang OneBss sau khi ký HĐ, BBNT\nTrả lời: Phản hồi sau khi có phản hồi từ pháp chế\n\nCâu 7: Họp 3 bên với cả IT và Fintech về luồng thanh toán và hoàn tiền : hoàn tiền 1 phần ?\nTrả lời: Không có hoàn 1 phần vì thanh toán sau lắp đặt, sẽ book họp 3 bên nêú phía nghiệp vụ mong muốn họp làm rõ nghiệp vụ với FT và OneBSS\n\nCâu 8: Làm rõ việc có cần so khớp thông tin eKYC với thông tin hợp đồng không (nếu có cần so khớp những thông tin gì ?) Vì eContract xác nhận KHÔNG đối chiếu eKYC với thông tin HĐ (luồng mới eKYC ở App MyVNPT) — cần chốt lại thông tin phần này để xác định rõ ràng mục đích ekyc.\nTrả lời: Chờ phản hồi của pháp chế, eCOntract xác nhận sẽ thực hiện nếu pháp chế yêu cầu\nPO đã gửi yêu cầu hỗ trợ qua pháp chế ngày 7/8, pháp chế đang đánh giá",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_451957",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear anh @vietmv92 , chị Anh , @NguyetDang , @ngngthaonhu  CC chị @lalethuy  PO đã trả lời danh sách câu hỏi của BA và cmt lên jir...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/document/d/1puMyRfKFhUhNX16RHJHW9KP333Pa4W7kN1Zw0rXDVTA/edit?usp=sharing",
+    "https://docs.google.com/spreadsheets/d/1LH0BFCX35FDNdfFgYoD6ML6NrUiOGxtH81j9LmQ1CzE/edit?gid=1671102497#gid=1671102497"
+  ]
+}

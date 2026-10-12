@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260904_171143",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "17:11 04/09/2026",
+  "trigger_message": "cập nhật giúp em với ạ , tại vì em cần check và test dựa theo figma ạ",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "em có cop response 4.3 trả về đó , ở mytv thì chưa có trường nào để check dc là mytv fix hay mytv ott"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "tức là trog cái getGroupDetail đúng ko"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "đúng r ạ"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "ngoài cái lày thì còn thiếu món gì nữa. để tôi fix nốt."
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "đây anh ơi , anh xem có vấn đề nào fix dc anh fix giúp em với ,"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "vầng"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@hainn191297 @ngsong699"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái bug dòng 15 vs 49 nó thuộc case Chi tiets POPUP gói cước đang sử dụng \nphần này đều gọi api 1.2a để hiện thị các gói , anh cho em xin mockdata Đầy Đủ về thằng này được không ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "với lại em thấy phần roaming này nó có template khác so với template thẻ vuông \nCó gì anh update cả wiki mô tả ý nghĩa các trường đầy đủ giúp em với nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái 49  2 loại sms em hiển thị cả 2 loại sms nội ngoại như thoại luô"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh thấy db gói cước có riêng sms nội ngoại"
+    },
+    {
+      "sender_name": "Song",
+      "text": "chắc UI thiếu"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "dạ vầng thế thì chị @havietngn hay anh @quctuan cập nhật giúp em với ạ"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "cập nhật giúp em với ạ , tại vì em cần check và test dựa theo figma ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_461882",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"cập nhật giúp em với ạ , tại vì em cần check và test dựa theo figma ạ\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+  ]
+}

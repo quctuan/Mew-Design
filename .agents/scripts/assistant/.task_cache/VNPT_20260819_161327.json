@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260819_161327",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Quynh Mai",
+  "timestamp": "16:13 19/08/2026",
+  "trigger_message": "Chốt phương án 1 nhé @quctuan , ông @erictrannn",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "ai triển khai phần đó chị nhỉ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "để em gửi thông tin ạ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@nduythanh em gửi anh nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "đội ơn em Đạt"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@nduythanh xong báo lại Hạnh giúp nhé"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@giangnt2008  xử lý hộ a chỗ này nhé"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "[API-PATH]: /tel_service/account/getAccountInfo   [REQUEST-ID]: 2aa7d280-7f4f-4bc5-8283-cecfe6d87ada   [TIME_PROCESS]: 593 ms  [BODY RESPONSE]: {\"errorCode\":\"400\",\"message\":\"Lỗi hệ thống\"}\nanh @nduythanh @PhongNK check giúp e lỗi này nha"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "a @nguyentu4nminh ơi, a kiểm tra hộ e màn Phạm vị áp dụng hiện tại đang không thao tác được. https://stagingv2.myvnpt.com.vn/cms/roaming_scope/list"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "c Hạnh  ơi thử lại giúp em nhé"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "đc rồi nhưng sao trả về khác so với live thế nhỉ\n  \n[API-PATH]: /tel_service/mobile/getDataSMSVoice   [REQUEST-ID]: 5387f85a-514c-4c8c-8d17-b8cb9c3cb106   [TIME_PROCESS]: 392 ms  [BODY RESPONSE]: {\"result\":[{\"TOTAL\":100,\"REMAIN\":0,\"UNIT_VALUE\":\"\",\"BALANCE_CODE\":\"voice_add_limit\",\"BALANCE_NAME\":\"Thoại ngoại mạng\"}],\"error_code\":\"0\"}"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "REMAIN trên live trả về 76"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "Chỗ MYTV\n1. @havietngn chốt lại scope phần CTKM cho c nhé\n2. Setup họp với MYTV để trao đổi phần tích hợp kĩ thuật nhé Anh"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "e thử lại nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@havietngn check xử lý các cmt trên figma nữa"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chốt phương án 1 nhé @quctuan , ông @erictrannn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454873",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chốt phương án 1 nhé @quctuan , ông @erictrannn\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 31,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

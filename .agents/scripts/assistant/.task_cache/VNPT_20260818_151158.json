@@ -1,0 +1,75 @@
+{
+  "task_id": "VNPT_20260818_151158",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "15:11 18/08/2026",
+  "trigger_message": ".",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "nma kéo ngang thế nó bị méo hết hình tag ấy a"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Cho anh xin ví dụ được không"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nội dung tag dài ngắn khác nhau nhiều lắm, nên dùng ảnh kéo ngang thì nó méo đó"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "À cái này hông vấn đề gì em"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "vậy cái này làm component sau nhé hiện tại anh import cái hình cho feed đã"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke ạ, thế @celene_ne export hộ a Hiếu 1 ảnh tag xanh, 1 tag đỏ nhá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Chắc phải luôn cái tag vàng ở quản lý gói cước đó =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@hieu_tq https://drive.google.com/drive/folders/1vcTdoDyJKWG5Tn9bkSNtcRtrUpTvarlr?usp=drive_link\n\nEm gửi nhé ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@dangthtobi @nguyenvinhabu 2 đồng chí xem dần cho đỡ bỡ ngỡ nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "khó khăn gì thì xô vào @quctuan"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": ".",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_454227",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\".\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Phạm Thanh Hải</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

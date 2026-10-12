@@ -1,0 +1,83 @@
+{
+  "task_id": "VNPT_20260821_154012",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Nhu",
+  "timestamp": "15:40 21/08/2026",
+  "trigger_message": "luồng nào đây em",
+  "context_history": [
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "oke a, để em thử"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "oke r nha anh"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cái tag này chọn 1 tag thôi nhỉ"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "bên adroid em đang cho chọn nhiều tag"
+    },
+    {
+      "sender_name": "Song",
+      "text": "truyền nhiều tag thì anh em truyền lên string cách nhau dấu phẩy thôi  🐍"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "nhiều tag thì truyền ntn"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "oke, hqua a chưa thấy note ở đâu xử lý cái này"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "thế trong tag có cái dấu phẩy ntn thì sao e"
+    },
+    {
+      "sender_name": "Song",
+      "text": "thôi để dấu \";\" đi anh"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh để dấu \"|\" đi anh"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@Tuanjnfor"
+    },
+    {
+      "sender_name": "Đinh Quốc",
+      "text": "@ngngthaonhu Chị ơi cái này khi sw qua tb khác thì có lấy lịch sử khác không hay cả gộp cả lịch sử vào ạ?"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "luồng nào đây em",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_455978",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"luồng nào đây em\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

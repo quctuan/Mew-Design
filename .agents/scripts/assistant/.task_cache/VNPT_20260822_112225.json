@@ -1,0 +1,98 @@
+{
+  "task_id": "VNPT_20260822_112225",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "11:22 22/08/2026",
+  "trigger_message": "#Feed (Home)\n\nDear a @Tuanjnfor, a @nduythanh,\n\nTrong quá trình test Feed (https://dvs.vnptmedia.vn/browse/GMYVNPT1-10), QC phát hiện 2 vấn đề:\n\n• 2 màn Bán gói cước Tháng và Ngày lệch concept phần gói cước — do design gói cước chốt final sau, phần Feed ở Home chưa update theo\n• Kịch bản Loyalty \"Voucher sắp hết hạn\" ở Home Feeds chưa có — thiếu cả UI lẫn API, hiện QC chưa test được\n\n=> Xử lý: Em đã tạo ticket update để xử lý 2 phần này: https://dvs.vnptmedia.vn/browse/GMYVNPT1-539\n\nNhờ 2 anh sắp xếp triển khai giúp em ạ, cho em xin ngày có thể bàn giao QC để QC sắp xếp ạ\ncc chị @thuyph312, a @vietmv92",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Bình mới, Jira cũ thôi"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "a @Tuanjnfor con Tiện ích này test round 1 vẫn đang vướng. a xem chỗ này cần xử lý gì cho đội QC tiếp tục ạ?"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Con Màn VNPT shop này 24 tới hạn giờ đang Todo nữa a ạ. a xem giúp em cần ưu tiên con này không?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ok em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Để anh check lại với ae chút"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Dear em Anh ,\nCC: @vietmv92 , @nduythanh, @Tuanjnfor \n\nChị gửi report kết quả test cho 2 ticket [Search] và [Cài đặt]:\n\n1. Search (GMYVNPT1-75)\nTotal: 99 | Executed: 90 (90,9%)\n- Pass: 76 (76,8%)\n- Fail: 13 (13,1%)\n- Pending: 1 (1,0%)\n\n- [CMS - Nâng cấp công cụ quản lý từ khoá]: Chưa xử lý, chưa thể test.\n- Task còn một số bug chưa close\n\n2. Cá nhân - Cài đặt (GMYVNPT1-181)\nTotal: 174 | Executed: 172 (98,9%)\n- Pass: 95 (54,6%)\n- Fail: 28 (16,1%)\n- Pending: 49 (28,2%)\n\n- [Ngôn ngữ]: Pending số lượng lớn do tính năng đang phát triển, chưa thể check toàn bộ màn hình. Nhờ PM tạo task riêng để check lại toàn bộ app sau khi tính năng hoàn thiện.\n- [Cập nhật mã giới thiệu]: Lỗi, chưa test được. Cần DEV cung cấp plan fix cụ thể.\n- Task còn nhiều bug chưa close\n\nNhờ AE rà soát và phản hồi tiến độ xử lý fix bug và các đầu việc chưa làm .\nTrân trọng!"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ Cập nhật mã giới thiệu thì @ngsong699 xem giúp anh phần BE xem nhé."
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@nduythanh anh ơi, anh assign đầu mối  fix  api này giúp em với ạ, Hiện tại trong DB có data nhưng API trả về rỗng, độ ưu tiên cao  ạ\n[API-PATH]: /tel_service/homegroup/getGroups   [REQUEST-ID]: 3fa6a124-ab3f-47b3-a494-546e586cf75a   [TIME_PROCESS]: 203 ms  [BODY RESPONSE]: {\"requestId\":\"3fa6a124-ab3f-47b3-a494-546e586cf75a\",\"timestamp\":\"22/08/2026 08:52:42\",\"errorCode\":\"0\",\"message\":\"Thành công\",\"data\":{\"maxGroups\":10,\"canCreateMore\":true,\"groups\":[]}}"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@name688899  xem giúp a ai làm api này nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Dear em Anh \nCC: @vietmv92 , @Tuanjnfor , @nduythanh \nC thông tin lại ticket widget nhé\n3. Widget\nTotal: 307 | Executed: 307 (100%)\n- Pass: 257 (83,7%)\n- Fail: 48 (15,6%)\n- Pending: 2 (0,7%)\n\nTính năng về cơ bản hoạt động ổn định. Tuy nhiên còn một số lỗi:\n- Chưa điều hướng được mini app\n- Chưa xử lý lưu cache tối ưu hiệu năng\n\nNhờ ae xử lý sớm để đóng ticket"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT1-75\n\nhttps://stagingv2.myvnpt.com.vn/cms/keyword/list\nc @thuyph312  chỗ search trên cms em đã đẩy staging, nhờ c xem giúp e nhé"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@hainn191297 a nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@datnd2109 check luôn nhé em"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "a @quctuan ơi, cho bọn e xin 1 file gồm ảnh các icon Tiện tích, Danh mục, các ảnh Emi, để test cấu hình cho chuẩn với ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okie chiều a gửi nhá"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "#Feed (Home)\n\nDear a @Tuanjnfor, a @nduythanh,\n\nTrong quá trình test Feed (https://dvs.vnptmedia.vn/browse/GMYVNPT1-10), QC phát hiện 2 vấn đề:\n\n• 2 màn Bán gói cước Tháng và Ngày lệch concept phần gói cước — do design gói cước chốt final sau, phần Feed ở Home chưa update theo\n• Kịch bản Loyalty \"Voucher sắp hết hạn\" ở Home Feeds chưa có — thiếu cả UI lẫn API, hiện QC chưa test được\n\n=> Xử lý: Em đã tạo ticket update để xử lý 2 phần này: https://dvs.vnptmedia.vn/browse/GMYVNPT1-539\n\nNhờ 2 anh sắp xếp triển khai giúp em ạ, cho em xin ngày có thể bàn giao QC để QC sắp xếp ạ\ncc chị @thuyph312, a @vietmv92",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_456614",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"#Feed (Home)  Dear a @Tuanjnfor, a @nduythanh,  Trong quá trình test Feed (https://dvs.vnptmedia.vn/browse/GMYVNPT1-10), QC phát h...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Anh Nguyen</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Anh Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

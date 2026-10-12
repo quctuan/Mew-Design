@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260914_092940",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Koi V",
+  "timestamp": "09:29 14/09/2026",
+  "trigger_message": "xem mình có xử lý kịp deadline không",
+  "context_history": [
+    {
+      "sender_name": "Hai",
+      "text": "nếu đoạn này mà muốn xử lý nhanh để làm song song thì @NguyetDang gửi trước các field dược sử dụng, nguồn từ đâu trước, be có thể ghép trước cho tiện các bên"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Mục hình nền của danh mục thiết bị , chiều qua em đã trao đổi với anh @erictrannn rồi ạ, sẽ lấy ở trường icon 1 của danh mục con được khai báo tương ứng \nCMS : Quản lý nội dung > Danh sách danh mục > Loại gói cước : anh @erictrannn sẽ bổ sung thêm 1 giá trị cho cho Thiết bị BRCĐ ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Các trường thông tin của thiết bị thì đã có trong TL rồi ạ, để em bổ sung thêm các trường db tương ứng từ chỗ bạn Giang ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "cái này ae dev CMS đang triển khai Nguyệt nhé, hiện tại chưa có e ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "như nãy trao đổi, chốt lại chỗ này chỉ có 1 layout thôi nhé. Tất cả các action đưa hết vào ảnh banner. Sẽ bổ sung thêm mô tả banner, còn điều hướng đến danh mục nào thì có rồi."
+    },
+    {
+      "sender_name": "Song",
+      "text": "@koi_oh   anh giải đáp cái này cho em nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@aidenLeDevPDC ơi cho chị mô tả lỗi này của gói cước với: Không lấy được ảnh hero banner, category. để @haihd22 bên chị xử lý"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "với nhãn hiển thị ở card gói đã mua sẽ dựa vào 2 trường này\n\n• time_start\n• time_end\n\nnếu null => ở trạng thái chờ\nnếu có dữ liệu, time_start < now < time_end => đang kích hoạt\ntime_end < now => hết hạn"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "=> label là hardcode theo trạng thái"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@nqthang21"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "về phân biệt gói: hiện tại chưa phân biệt được, api cũng đang chỉ trả ra 1 object cho gói roaming thường\n\n\nsẽ bổ sung response cho gói RBAY vào api, hiện tại miniapp cứ tích hợp case chỉ có 1 gói trước nhé\n\n\ncc: @ngsong699 Anh Nguyen Hong \n\nchị @nguyenngoclinh1  push bên IT giúp e với ạ"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "cái này chưa chắc đâu nhé, vì giờ API của IT chưa đáp ứng được. Giờ muốn bổ sung thì phải yêu cầu IT update"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "nên e có cc cả chị Anh Nguyen  vô nắm tình hình ạ"
+    },
+    {
+      "sender_name": "Koi V",
+      "text": "xem mình có xử lý kịp deadline không",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_467437",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"xem mình có xử lý kịp deadline không\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Koi V</b>",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260912_165353",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "16:53 12/09/2026",
+  "trigger_message": "a Kiên là BA/PO/Designer à",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nên a nghĩ e là the choosen one Thanh Nga"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ngày xưa có @leek6998"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "bao h cần second one thì có kienleethegayboi nè a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh ngày xưa team bọn a mạnh lắm"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "giờ lom dom hẳn"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "team bây h mạnh vcl mà"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đi họp vẫn bị BA quát như con"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh Minh lại còn chấm công"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "disaster vl"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "người đi muộn nhiều nhất lịch sử lại chấm công"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "vip vậy anh"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh mỗi lần đi muộn 40p e rất ngại"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Sợ đi vào mng nhìn"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "hôm nay team e có BA mới, BA kiên expert"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nhưng sau khi quay sang chỗ a Minh e thấy yên tâm hơn hẳn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a Kiên là BA/PO/Designer à",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467123",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a Kiên là BA/PO/Designer à\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hoàng Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

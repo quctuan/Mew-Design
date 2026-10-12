@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260818_105324",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Quỳnh Đỗ",
+  "timestamp": "10:53 18/08/2026",
+  "trigger_message": "a @erictrannn ơi, Tiêu đề đang giới hạn 36 ký tự, ko đủ để cấu hình text như design ạ, thiếu chữ \"mới\"",
+  "context_history": [
+    {
+      "sender_name": "Anh",
+      "text": "a @nduythanh, nhờ a xem giúp em con Widgets này với ạ. tỉ lệ pass round 1 thấp, vướng mắc phần call API\nhttps://docs.google.com/spreadsheets/d/1mnrMIekGPGKofgJQRUkVTFx_GivGn9nhGXfa6rwWm14/edit?gid=1399922469#gid=1399922469"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "hqua a báo chỗ Thúy rồi, đang cần @ntiendat  hỗ trợ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Em @ntiendat phản hồi giúp nhé, trông mong mỗi em 😄"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "Hi Quỳnh @haipt1905 \nA đã trao đổi lại với @quctuan , a thông tin lại với mn như sau nhé;\n1 là các state này giống nhau background với EMI, khác nhau phần text thôi\n2 là Do state 1,2,3 các thông tin trong text sẽ động theo thông tin user (xưng hô anh/chị, SĐT, vv), còn state 0 text sẽ theo cấu hình nhé"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "vậy nên CMS cx k cần cấu hình thêm state đâu"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "State 0 text sẽ theo cấu hình và phần ảnh nền và mascot vẫn lấy theo cấu hình đúng ko ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "ừa, nhưng thực tế là state 1 2 3 thì background vs emi cx giống 0"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": ":D"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "@havietngn em ơi Home - Feed hiện tại chưa có phần mô tả tiếng anh, em thêm vào giúp chị trên figma nhé"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Bọn em tạo phiếu rồi ạ. https://cntt.vnpt.vn/browse/IT360-1627156\nEm đang chờ các anh IT mở mạng cho bọn em"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "@quctuan  anh ơi xem hộ em phần này với nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082\n\na gửi nhé, e kéo xuống phần Feed nha"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "vâng ạ em cảm ơn"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@vietmv92 em tác động chỗ này giúp cho nhanh nhé"
+    },
+    {
+      "sender_name": "Quỳnh Đỗ",
+      "text": "a @erictrannn ơi, Tiêu đề đang giới hạn 36 ký tự, ko đủ để cấu hình text như design ạ, thiếu chữ \"mới\"",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454045",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @erictrannn ơi, Tiêu đề đang giới hạn 36 ký tự, ko đủ để cấu hình text như design ạ, thiếu chữ \"mới\"\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Quỳnh Đỗ</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1mnrMIekGPGKofgJQRUkVTFx_GivGn9nhGXfa6rwWm14/edit?gid=1399922469#gid=1399922469",
+    "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082"
+  ]
+}

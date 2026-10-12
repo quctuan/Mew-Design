@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260826_094311",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "ViệtMV",
+  "timestamp": "09:43 26/08/2026",
+  "trigger_message": "Dear @vietmv92, @quynhmaihavi\ncc: anh @BaMoon1102, anh @luat \nSau khi bên chị thẩm định tài liệu URD có 1 số vấn đề cần trao đổi. \n2 Em xem có thể sắp xếp thời gian trao đổi nhanh với chị 1 chút không? \nNêu được thì 10h trao đổi nhanh với chị nhé \nChị gửi link meet https://meet.google.com/gbz-usig-mfo",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Em đã gọi TT BRCD họ sẽ hỗ trợ phản hồi trên nhóm 6 bên nhé anh"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị xem các phần này chị xem giúp em, comment ko phải mỗi về việc triển khai cho HCM và LĐ, mà bổ sung thêm các thoog tin khác ảnh hưởng đến API"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hơn nữa các mục này còn liên quan đến WP 2 nữa nhé chị"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko phải mỗi WP 3,4,5"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Nội dung WP2 là thay đổi thông tin các sản phẩm add on, do VNP thay đổi đề xuất chính sách add on cho kênh với phía kinh doanh ko thay đổi ko đc (thay đổi giá sản phẩm so với trc, và bổ sung sản phẩm add on MYTV, về cơ bản thì sản phẩm add on có thể thay đổi chính sách bất cứ khi nào trong quá trình vận hành nên nội dung này nhờ các bạn đánh giá thêm về công cụ để tối ưu phát triển)\n\nNgoài ra chỉ có một nội dung khác có thể liên quan đến API đó là thông tin CTV_id, lý do phải bổ sung là phía HCM đề xuất về quy trình chăm sóc khách hàng của họ nhân viên kỹ thuật chỉ hỗ trợ lắp đặt còn CTV là người phát triển đơn và chăm sóc chính.\n\nCòn lại là thông tin thay đổi liên qua đến scope thí điểm\n\nNếu có những ảnh hưởng khác, hoặc các nội dung trên ảnh hưởng timeline hoặc các bên không phối hợp, nhờ các bạn BA thông tin lại"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này em thấy đây chỉ là đơn order, không phải 1 đơn toàn trình"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nên làm đơn giản thôi, không nên đưa quá nhiều gói phức tạp vào"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "vì sau đó còn có nhân viên của địa bàn tư vấn và thay đổi theo mục đích của KH"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mọi người xem bổ sung các gói như này có thật sự cần thiết không ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Cái này chị comment rõ giúp em vào Jira và file thuyết mình, scope của quy trình mới sẽ chỉ áp dụng cho HCM và LĐ ==> Các tỉnh thành khác sẽ như thế nào nhé ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Hiện tại luồng BRCĐ trên app MyVNPT cũng đang có các job và nghiệp vụ riêng, nếu tách cả 2 luồng như này thì bên cạnh bổ sung thêm các job và nghiệp vụ mới, thì phải sửa cá các nghiệp vụ cũ để tách biệt (như noti, sms,...)"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "những điểm này nhờ mọi người cũng phải confirm rõ ràng giúp em ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Nếu ko còn thay đổi gì về các thông tin hiển thị, scope và các thông tinn cần thiết thì tronng sáng nay bọn em sẽ chốt các trường thông tin liên quan đế tài liệu API với OneBSS để DEV bên họ triển khai ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "các thông tin liên quan đến luồng thanh toán, hoàn tiền thì nhờ chị @quynhmaihavi chốt thông tin cho em để OneBSS có quy hoạch luôn cho phần này ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear @vietmv92, @quynhmaihavi\ncc: anh @BaMoon1102, anh @luat \nSau khi bên chị thẩm định tài liệu URD có 1 số vấn đề cần trao đổi. \n2 Em xem có thể sắp xếp thời gian trao đổi nhanh với chị 1 chút không? \nNêu được thì 10h trao đổi nhanh với chị nhé \nChị gửi link meet https://meet.google.com/gbz-usig-mfo",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_458328",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear @vietmv92, @quynhmaihavi cc: anh @BaMoon1102, anh @luat  Sau khi bên chị thẩm định tài liệu URD có 1 số vấn đề cần trao đổi. ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"urd\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

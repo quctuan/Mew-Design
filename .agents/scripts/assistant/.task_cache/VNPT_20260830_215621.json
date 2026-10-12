@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260830_215621",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "21:56 30/08/2026",
+  "trigger_message": "https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-263718&t=OLxSokT1yQNDP3E5-4\n\ntrên app cx có hd đây",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "@vietmv92 vào nữa e"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hà vào nữa @havietngn"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "accept e vs a"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Bản ghi active gần nhất là 12/5/2026"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Ra nước ngoài phải dùng hết 512kb mới active chứ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Phải dùng hết data mồi thì mới có trigger sang bên anh"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Lúc đó mới có log được"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-30 07:14:07.194 INFO com.vnpt.logging.LoggingService - -------------------------LOGGING RESPONSE--------------START--------------------- [API-PATH]: /package_service/trip/checkIrStatus [REQUEST-ID]: b2010ee7-6150-4f13-a13d-747e4f9d7973 [TIME_PROCESS]: 4767 [BODY RESPONSE]: {\"data\":{\"_children\":{\"hasTripRoaming\":{\"_value\":false},\"irActivated\":{\"_value\":true},\"hasDeposit \":{\"_value\":\"NO\"},\"packageRoamingUsing\":{\"_children\":{\"serviceCode\":{\"_value\":\"IR_RU3N\"},\"msisdn\":{\"_value\":\"84949368369\"},\"timeStart\":{\"_value\":\"29/08/2026 06:08:35\"},\"timeEnd\":{\"_value\":\"01/09/2026 12:39:59\"},\"listNational\":{},\"dataRoaming\":{\"_value\":0},\"dataRoamingTotal\":{\"_value\":10238976},\"packageName\":{\"_value\":\"RU3\"}},\"_nodeFactory\":{\"_cfgBigDecimalExact\":false}},\"hasPackageRoaming\":{\"_value\":true}},\"_nodeFactory\":{\"_cfgBigDecimalExact\":false}},\"error_code\":\"0\",\"message\":\"Success\"} -------------------------LOGGING RESPONSE--------------END---------------------"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://digishop.vnpt.vn/tin-tuc-km/doi-song/bat-chuyen-vung-quoc-te-tren-samsung"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@vietmv92"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "sếp có dùng samsung k a ơi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "thfi gửi cái hdan này"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "SMPP_SMS_LOG"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-263718&t=OLxSokT1yQNDP3E5-4\n\ntrên app cx có hd đây",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36796",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-26371...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-263718&t=OLxSokT1yQNDP3E5-4"
+  ],
+  "doc_links": []
+}

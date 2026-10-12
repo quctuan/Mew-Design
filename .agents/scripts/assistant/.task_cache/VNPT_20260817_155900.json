@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260817_155900",
+  "group_name": "[MyVNPT - Fintech] Reward hub",
+  "sender_name": "thuy la le",
+  "timestamp": "15:59 17/08/2026",
+  "trigger_message": "luồng này bên c có update trạng thái qua api nào k Tùng nhỉ?",
+  "context_history": [
+    {
+      "sender_name": "Trang",
+      "text": "Phần thủ tục xử lý CTKM cuối tuần trước FT - GDS mới thống nhất lại vai trò, chuyển đầu mối xử lý từ FT sang GDS. Bên mình đang xử lý thủ tục, sẽ báo lại khi có thông tin nhé"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "c @anhntn271  map lại giúp e quà để lấy data test với ạ"
+    },
+    {
+      "sender_name": "Ánh",
+      "text": "Thử lại mapid = 128333 e nhé"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "mapId này đc r nha c @anhntn271"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "Anh @vitanh1521 , ở API cấp phát quà có cần truyền missionTransactionAmount không anh?\nEm đang test thì detailPresentConfig với mapId = 128333 trả về amount = 50000, nhưng khi em call API Cấp phát quà, em truyền missionTransactionAmount bao nhiêu cũng không thấy báo lỗi. Anh check giúp em field này có được validate không với."
+    },
+    {
+      "sender_name": "Việt Anh",
+      "text": "trường này k cần truyền nhé e"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "okii a"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "chị @anhntn271 ơi, API này là bên chị sẽ gọi cập nhật lại trạng thái voucher cho MyVNPT đúng không ạ"
+    },
+    {
+      "sender_name": "Ánh",
+      "text": "dạ bên MYVNPT gọi ạ"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "bên c gọi cho bên em update lại trạng thái sử dụng voucher từ đối tác mới đúng chứ c nhờ"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "bên em gọi sang để rewardhub update thì không có ý nghĩa lắm"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "Có 2 kịch bản e ạ"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "1. Ng dùng chủ động kích hoạt(k có nguồn từ đối tác callback) => myvnpt gọi"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "2. Đối tác callback => rwh=> client (myvnpt)"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "Mục 2 thì quà urbox đang k có luồng callback Uyên nhé"
+    },
+    {
+      "sender_name": "thuy la le",
+      "text": "luồng này bên c có update trạng thái qua api nào k Tùng nhỉ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5187769908_453654",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"luồng này bên c có update trạng thái qua api nào k Tùng nhỉ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>thuy la le</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

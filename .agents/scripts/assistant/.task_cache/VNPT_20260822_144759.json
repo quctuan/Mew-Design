@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260822_144759",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Nhu",
+  "timestamp": "14:47 22/08/2026",
+  "trigger_message": "sao thanh toán tự động thì liên quan gì đến luồng thanh toán BRCĐ thế ạ?",
+  "context_history": [
+    {
+      "sender_name": "thuy",
+      "text": "@erictrannn chiều join cùng nhé"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "ace thông cảm những buổi họp plan trc giúp em\nnhà em con nhỏ, 2 vợ chồng lại cùng cơ quan, con k thể cứ vứt trên giường thế dc ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "vâng"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "lịch thì có từ hqua rồi, nhưng nay mới add e vào. Mà a cũng ko nghĩ BA hnay tham gia lại là em :))"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Đùa thôi nhưng lịch hơi gấp, lại dính cả 2 vc, cố gắng chút nhé"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "vâng a"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@NguyetDang ơi, chị bổ sung phần truyền thông lên jira https://dvs.vnptmedia.vn/browse/GMYVNPT1-247 rồi nhé, em reiview lại nha. CC chị Anh"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "https://meet.google.com/emy-kejc-rzr"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "link join họp 17h00 nhé"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng a, e có cmt note vào jra rồi, c check lại nhe ạ"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Thiều Minh Anh 🐯 vào nhé"
+    },
+    {
+      "sender_name": "Thiều Minh Anh 🐯",
+      "text": "dạ"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "chờ mấy phút VNP vào sau tí"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị @huyenmmai ơi, danh sách add on này chỉ áp dụng cho 2 gói độc quyền hay áp dụng chung cho các gói nhà mình bán phải đấy ạ? Giá MyTV ở đây là giá MyTV app thui, ko bao gồm set top box mytv phải ko chị ui"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "#QW BRCĐ 15/10 — WP11 Autopay (https://dvs.vnptmedia.vn/browse/GMYVNPT1-253)\nEm cập nhật tình trạng WP11 – Thanh toán tự động (Autopay) với luồng trả sau có liên kết Ví MM và VNPT Pay:\n• Trước đây: WP11 được đánh giá là dùng lại được luồng thanh toán tự động đã có, nên xếp gộp và follow theo kế hoạch WP3.\n• Sau khi rà lại: PO xác định luồng autopay khi áp cho BRCĐ có khác biệt về nghiệp vụ, không dùng lại nguyên trạng được → phải build thêm phần riêng cho BRCĐ.\n• Triển khai:\n 1. Hôm nay PO chốt xong kịch bản/giải pháp → chuyển sang Design\n 2. Có design em sẽ làm việc với đội phát triển để lấy estimate tiếp \nEm gửi để mọi người nắm: WP11 vẫn nằm trong scope và đang được triển khai ạ\n@quynhmaihavi, Son , @ngngthaonhu, @NguyetDang, chị @lalethuy, a @nduythanh, a @Tuanjnfor, a @vietmv92, chị @myntt2703"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "sao thanh toán tự động thì liên quan gì đến luồng thanh toán BRCĐ thế ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_456659",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"sao thanh toán tự động thì liên quan gì đến luồng thanh toán BRCĐ thế ạ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Nhu</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

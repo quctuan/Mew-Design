@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260908_172749",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đức",
+  "timestamp": "17:27 08/09/2026",
+  "trigger_message": "@quctuan gửi anh 3 icon này nhé để gửi sang bên api, anh export kiểu gì mà vẫn thừa khoảng trắng xung quanh",
+  "context_history": [
+    {
+      "sender_name": "Tubi",
+      "text": "Em cứ hỏi đi"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E thấy trong file của c, các phần này đang bị fix cứng, nhiều text đang lấy từ cấu hình, bên c có lọc đc các cái này k ạ ? E thấy trong file đang nhiều kiểu như này ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "hôm đấy ae bảo c cứ list hết ra, cái nào thuộc cấu hình ae tự chủ động bỏ ra mà"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "nên c cứ list cho đủ cho dễ follow"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Có vụ đấy à c :D E nhớ là có báo nhờ phía c lọc ấy ạ."
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E có nhớ vì vụ cấu hình tính năng e có báo là lấy theo API trả"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Có chắc chắn, lúc chạy ra trao đổi trực tiếp á, team e bảo là ae thấy phần nào cấu hình lúc làm tự nhặt ra"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E vẫn nhớ là báo nhờ bên c xử ạ, vì nhiều vùng config bọn e lấy trực tiếp qua bên API, giờ như này e cũng hơi khó lọc ra"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Giờ e chủ động bỏ đi, c xem thử hôm sau có file mới thì bỏ các phần lấy từ config giúp e với nhé c"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Ố kề, sau c sẽ ghi âm lại =)))"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "đây là lúc đầu, sau Tuấn hay ai gọi ra sau bảo thế, xong ae vui vẻ gật đầu đi về :))"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Vâng thôi hsau có sheet mới nhờ c bỏ các phần config giúp e với ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "ố kề"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Ơ c ơi, nhưng giờ e bỏ đi thì liệu bên c có phải đánh lại id không ạ ? Hay e cứ để nguyên đó trong code,chỉ không dùng nó thôi"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "K sao, c nghĩ cứ nguyên, coi như k dùng thôi"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan gửi anh 3 icon này nhé để gửi sang bên api, anh export kiểu gì mà vẫn thừa khoảng trắng xung quanh",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_463763",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan gửi anh 3 icon này nhé để gửi sang bên api, anh export kiểu gì mà vẫn thừa khoảng trắng xung quanh\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đức</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

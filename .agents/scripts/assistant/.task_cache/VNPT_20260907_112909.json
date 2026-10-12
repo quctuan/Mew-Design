@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260907_112909",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Đăng",
+  "timestamp": "11:29 07/09/2026",
+  "trigger_message": "a cho e xem UI phần này cần như thế nào với ạ, hiện đang gen QR kia bằng svg, hiện đang không phải là png, không biết luồng đấy sẽ cần ảnh để chia sẻ đi như nào vậy a",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Để tý em báo anh em thửu lại"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Cái chỉ tạo được 1 với bỏ cái Không lặp lại này chị chốt chưa để bên em update luôn ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@name688899 con lỗi này từ tuần trước chưa giải quyết dc. em giúp chị nhé. Hôm nay cần bàn giao cho bên mình rồi"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chốt em với chị @quynhmaihavi"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @hieunguyen271095 @monRich0 giúp em sáng nay cái mật khẩu wifi và cái QR Code nhé ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "e tút điện r a nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Cái tạo 1 thì khi có lịch không còn btn Thêm lịch mới nữa rồi anh @aidenLeDevPDC nhé, chỉ sửa lịch hoặc xáo lịch thôi\nCòn lặp lại thì đã bỏ ko lặp lại rồi, anh check figma lại nhé"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "chỗ QR code đợi anh @dangthtobi đẩy nha anh"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "Chỗ cái gen qr đang làm như này  thì có cần thêm gì nữa không a @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Thêm cái share nữa anh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Share ảnh ấy ạ, anh test luôn giúp em xem chạy chưa ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "còn ảnh qr thì chỉ gen mình ảnh qr kiểu png thôi để còn có background màu hoặc viền, em thấy như thế này là ok rồi ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "phần này em check bên thứ 3 - onelink trả về thiết bị có uptime => nên theo luồng code hiện có response   sẽ  trả về thiết bị oneline nhé ạ  cc @aidenLeDevPDC, chị @thuyph312"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Chỗ này ý chị là ae trao đổi vs tech, hoặc net để tìm nguyên nhân ấy. Nếu cần thì CC Anh Nguyen đi push"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Phần này bên em sẽ vẫn bàn giao nhé ạ, có gì chị check lại nếu k hiện giao diện báo lỗi thì báo lại để bên em cập nhật ạ"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "a cho e xem UI phần này cần như thế nào với ạ, hiện đang gen QR kia bằng svg, hiện đang không phải là png, không biết luồng đấy sẽ cần ảnh để chia sẻ đi như nào vậy a",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_747",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a cho e xem UI phần này cần như thế nào với ạ, hiện đang gen QR kia bằng svg, hiện đang không phải là png, không biết luồng đấy sẽ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Đăng</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

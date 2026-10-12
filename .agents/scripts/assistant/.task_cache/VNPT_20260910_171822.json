@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260910_171822",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "17:18 10/09/2026",
+  "trigger_message": "nhưng mà trên figma roaming làm gì cho vào gói khác gì đâu ạ , nó là một giao diện riêng ý ạ",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "ôi thế thì em làm sao làm dc case này nhỉ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "a bảo r cái này gọi cả  2 subpackageAll và  databandwidth,  cái phần miễn phí data truy cập thì em quét các gói trong getSubPackageAllV2, gói nào có mảng freeDataApps thì em tổng hợp lại 1 mảng ( lọc trùng ) rồi map ra hiển thị"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "ý là em biết gói nào thuộc dâta 4g5g\ngói nào thuộc thoại nội mạng,....\nđể mà map ra cho đúng ý ạ , Em dựa vào trường gì"
+    },
+    {
+      "sender_name": "Song",
+      "text": "ko, em cần gì biết, em cứ quét tất cả item trong cái subpackageAllv2 trả về thôi"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cứ chập chờn data trả về thế này là do bên thứ 3 hả anh"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "https://meet.google.com/uzr-vpma-rkb"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "anh ơi anh vào meet em hỏi với , nhắn tin khó diễn đạt quá"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@PhongNK @thuyph312 anh ơi cái này check dc chưa ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw     gói nào trong getSubPackageAllV2  không có category_id  thì em nhét hết vào UI gói khác nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "clear  nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "tạo mock data cho em xin phần đó anh ơi"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "homecombo thì vào gói khác , roaming thì sao  ạ, cách check như thế nào ạ  \ncho em xin thêm mockdata về phần này để done bottomsheet gói cước đang sử dụng nhé ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 @ngngthaonhu chưa clear dc anh chị ơi"
+    },
+    {
+      "sender_name": "Song",
+      "text": "roaming cũng thế em ơi"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cứ category_id null là cho vào phần gói khác đấy"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "nhưng mà trên figma roaming làm gì cho vào gói khác gì đâu ạ , nó là một giao diện riêng ý ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_465685",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"nhưng mà trên figma roaming làm gì cho vào gói khác gì đâu ạ , nó là một giao diện riêng ý ạ\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

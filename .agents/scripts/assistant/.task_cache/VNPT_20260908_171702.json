@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260908_171702",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "17:17 08/09/2026",
+  "trigger_message": "chị ơi , cập nhật figma giúp em với ạ @havietngn",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw  chỗ này clear chưa em"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em đang check lại chỗ session của app"
+    },
+    {
+      "sender_name": "Song",
+      "text": "nếu session hết hạn thì check cả đã có cái refreshtoken chưa nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "khi lấy gọi kiểu này thì nó sẽ luôn lấy session mới khi request call api rồi"
+    },
+    {
+      "sender_name": "Song",
+      "text": "check chỗ session bên mấy anh em mobile xem chứ postman ko có vấn đề gì đâu"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "đổi số sang số thứ 2 của mình k bị gì , mà đổi sang số của thành viên thì mới bị"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái số 151 là số thành viên của 210  đó em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh lấy sesion của 210  để gọi api msisdn 151 đó"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "native có hàm gọi lại làm mưới token rồi mà em gọi thay thế vào rồi vẫn chưa được"
+    },
+    {
+      "sender_name": "Song",
+      "text": "bảo bên native check lại nhé chứ anh cũng ko rõ code như nào"
+    },
+    {
+      "sender_name": "Song",
+      "text": "à có cái luồng thành viên yêu cầu thêm hạn mức sáng anh confirm BA, thì làm theo là chỉ cần ấn yêu cầu thêm hạn mức còn ko cần biết thêm hạn mức gì. Sử dụng api  7.6 Yêu cầu tăng hạn mức Thoại/Data  - anh mới update trên wiki em xem nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "để e check đã r e báo sau"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "ôi , thế em lại phải sửa rồi 😥"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "chị ơi , cập nhật figma giúp em với ạ @havietngn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_463755",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chị ơi , cập nhật figma giúp em với ạ @havietngn\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

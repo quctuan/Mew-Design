@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260903_203943",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Ngọc Anh",
+  "timestamp": "20:39 03/09/2026",
+  "trigger_message": "Anh Hưng đọc qua 1 lượt flow trên design trước nha ạ. Tầm 9r mình meet ok không ạ",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "app đang lỗi à ae?"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "để t xem coi bị sao"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "Hoài Phong @thientran_1999 @Acevip123   tổng hợp logwork tháng vừa rồi gửi anh nhé"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "@minhhnhatt  lên rồi đó ô"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "okie"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "Em xin phép add thêm QA mới ạ Hưng"
+    },
+    {
+      "sender_name": "Hưng",
+      "text": "Hii e chào mn, e là Hưng QA mới , hôm nay em chính thức join dự án team mình. Rất vui được làm việc và đồng hành cùng mọi người trong thời gian tới ạ."
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hi Hưng 😄"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "Ngọc Tối nay b rảnh không, nhờ b setup transfer dự án cho anh Hưng giúp t với"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Huỷ diệt app đi b"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nhờ e Hà trao đổi lại giải pháp để test cho canvas nhé :))"
+    },
+    {
+      "sender_name": "Ngọc Anh",
+      "text": "Anh Hưng đọc qua 1 lượt flow trên design trước nha ạ. Tầm 9r mình meet ok không ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_461359",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh Hưng đọc qua 1 lượt flow trên design trước nha ạ. Tầm 9r mình meet ok không ạ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Ngọc Anh</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

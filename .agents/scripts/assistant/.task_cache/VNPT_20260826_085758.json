@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260826_085758",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di Động - Tra cứu lịch sử sử dụng",
+  "sender_name": "Aiden Le",
+  "timestamp": "08:57 26/08/2026",
+  "trigger_message": "Cái case danh bạ này em mới biết lần đầu, trong figma k thấy note",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Hiện trạng khi  ấn vào xem chi tiết thằng 888 nó lại có thằng số khác ở dưới vì trong 1 ngày có nhiều ông số khác nhau"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @ngngthaonhu ơi xem giúp em với"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ý là gửi cùng 1 số trong ngnafy"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nhưng nhiều sms"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thì sẽ hiển thị như nào khi click vào xem chi tiết ạ?"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Danh sách chi tiết sử dụng đang gom theo ngày"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Khi ấn vào 1 item thì ra tất cả sms trong ngày"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Em muốn hỏi vì trong 1 ngày sẽ sms đến nhiều số nên để title ở item là số của tin nhắn đầu tiên trong ngày có đúng k"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "gom theo thuê bao đó e"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Bảng dữ liệu chi tiết group theo thuê bao, sắp xếp theo tên trong danh bạ A->z -> số, bao gồm:\nSố điện thoại định dạng 0xxxxxxxxx (nếu chưa cho phép truy cập danh bạ hoặc sđt không có trong danh bạ) hoặc Tên contact trong danh bạ (nếu đã cho phép truy cập danh bạ)\nNgày: định dạng dd/MM/yyyy\nSố tin nhắn cho thuê bao trong ngày"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Bảng dữ liệu sắp xếp theo thời gian desc, bao gồm:\nTên contact trong danh bạ hoặc sđt nhận tin nhắn, định dạng 0xxxxxxxx"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@aidenLeDevPDC e gửi lại thông tin nha ạ"
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Cái case danh bạ này em mới biết lần đầu, trong figma k thấy note",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5521166621_458246",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cái case danh bạ này em mới biết lần đầu, trong figma k thấy note\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

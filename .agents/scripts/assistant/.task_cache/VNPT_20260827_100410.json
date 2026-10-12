@@ -1,0 +1,81 @@
+{
+  "task_id": "VNPT_20260827_100410",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "10:04 27/08/2026",
+  "trigger_message": "ui",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "nhắc cả nhà iu"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "club này"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ko lắk đík đc"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "=))) lắm việc quá, làm mãi đ hết"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko phải vnpt mà tôi biết"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tưởng hqua đi xem đá póng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hnay vẫn đi làm à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cty giờ mất chất quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "qua làm đến 1r sáng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hnay có người đồn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tôi nghỉ việc"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ui",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459012",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"ui\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Thuỳ Anh</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260824_110105",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "11:01 24/08/2026",
+  "trigger_message": "vì luồng là user đang đọc thông tin consent",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uhm nghiệp vụ define thế rồi đúng k"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "vậy text của app thì vẫn dịch chứ a"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Hiện tại có title, subtitle, chọn/bỏ chọn tất cả và nút confirm là của app ạ, a @Hoanganh1109 confirm giúp e chỗ nào để tiếng việt với a nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh đợi tý a đang bổ sung vers TA"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "@haipt1905 em muốn cài bản MyVNPT STG trên iPhone để test, em cài TestFlight rồi. Anh gửi em link/invite bản STG với ạ."
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Hiện tại a cho e xin chính xác a cần test phần nào trong app stag để e gửi đúng version nhé a"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "e cần test phần ưu đãi của tôi a nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "https://testflight.apple.com/join/uQsrlTYH\nVersion 6.0.2 (2026080401)\nE gửi nhé a @trieuld289"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a update trong file rồi nhé cc @vanhtt14"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Tiếng việt hiện tại cũng khác trong figma à a ? Phần này cả UI và file đã đồng bộ chưa a nhỉ ?"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a đồng bộ lại rồi nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "c @ngthuyanh ơi, nếu call API checkConsent và saveConsent lỗi thì mình nên cho user back ra màn login hay cho đi dùng tiếp app như thường c nhỉ ?"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "a @Hoanganh1109 ơi a xem hộ e chỗ này"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "back ra login nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vì luồng là user đang đọc thông tin consent",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3452",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"vì luồng là user đang đọc thông tin consent\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hoàng Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

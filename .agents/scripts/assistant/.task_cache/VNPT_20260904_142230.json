@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260904_142230",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "14:22 04/09/2026",
+  "trigger_message": "Em đồng bộ nội dung họp với FT vụ V+ cho luồng BRCD, tóm tắt nội dung: FT đáp ứng đề xuất, có thể cộng điểm, đăng ký realtime, phía MyVNPT thực hiện gọi cộng điểm. Tuy nhiên cần đánh giá MyVNPT có đủ thông tin đăng ký Hội viên hay không",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Như",
+      "text": "a book họp đi ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em hỏi chút. thế này là phía IT đã cung cấp đủ dữ liệu thông tin realtime để làm trigger rồi đúng không chị"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "yesss"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Họp với TCS có cần IT không nhỉ 🙂"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "có anh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Okie em gái 🙂"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "trong trường hợp họ ko rõ dữ liệu OneBSS ntn"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Để em book họp, xong nhờ em chủ trì buổi họp giúp anh nhá 😄"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "anh chủ trì"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "em chỉ nói mong muốn api như nào thôi"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@vaanha ơi, chị gửi lại quy trình, nhờ em đánh giá bổ sung SLA nhé https://app.diagrams.net/#G1qXBkAvUwoupfci0VMqjZDZSXLj2o8t3e#%7B%22pageId%22%3A%229YxTcwFdmcv9Lqhjn2f-%22%7D"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "Chị ơi chị mở quyền cho e xem file với e ko mở được file ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh @Phantom102 ơi, phía FT đã phản hồi file câu hỏi của bên mình, trong đó họ có hỏi lại một số vấn đề: https://docs.google.com/spreadsheets/d/1mFzt_BmIRhGUr09EIgwLMqNXe_z5lIv1/edit?gid=1318258903#gid=1318258903\n1. Trước buổi họp, nhờ anh xem và đánh giá giúp các phản hồi này ạ. Câu hỏi nào cần VNP bổ sung/phản hồi thì nhờ anh gửi phía VNP, hoặc anh đánh giá giúp có cần tổ chức họp 3 bên không nhé anh.\n2. Đồng thời, cũng nhờ phía Kinh doanh chủ động đề xuất biểu mẫu báo cáo đối soát, thanh toán để nội bộ triển khai và các đơn vị liên quan có thể đánh giá trước về dữ liệu ạ, cũng như đối chiếu với các mẫu mà các bên liên quan khác đang đề xuất.\nCC chị @myntt2703"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "anh đọc rồi, em qua anh trao đổi thông tin nhé"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Nội dung này phía KD chủ trì xly với các bên nên a @Phantom102 estimate thời gian và báo lại giúp em anh nhé!"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Em đồng bộ nội dung họp với FT vụ V+ cho luồng BRCD, tóm tắt nội dung: FT đáp ứng đề xuất, có thể cộng điểm, đăng ký realtime, phía MyVNPT thực hiện gọi cộng điểm. Tuy nhiên cần đánh giá MyVNPT có đủ thông tin đăng ký Hội viên hay không",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_461689",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Em đồng bộ nội dung họp với FT vụ V+ cho luồng BRCD, tóm tắt nội dung: FT đáp ứng đề xuất, có thể cộng điểm, đăng ký realtime, phí...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1mFzt_BmIRhGUr09EIgwLMqNXe_z5lIv1/edit?gid=1318258903#gid=1318258903"
+  ]
+}

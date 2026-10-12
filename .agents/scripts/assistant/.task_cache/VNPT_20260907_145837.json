@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260907_145837",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Hai Nguyen",
+  "timestamp": "14:58 07/09/2026",
+  "trigger_message": "Vì có 1 số lỗi khác cũng đang gấp. sáng mai bạn thử lại nhé",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "phần này anh cho em xin response example chuẩn để  , 3 loại layout_type dạng đầy đủ của 3 loại 2,3,4 để em mockdata phần này với ạ \nHiện tại em đang check tài khoản có gói Vip mà layoutType trả về null nên k hiện \nEm xin mấy lần rồi @ngsong699 @hainn191297 @luongtrandev 😢"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@thuyph312 chị ơi , cái này thì bh được hoàn tiền thế ạ .Với lại cho em xin số nào đăng ký  và có thể test dc ạ"
+    },
+    {
+      "sender_name": "Luong",
+      "text": "ok, để mình gửi lại nhé"
+    },
+    {
+      "sender_name": "Luong",
+      "text": "mình có để phản hồi trong dòng 15 nhé:   \"layoutType\": 1// 1: Layout Nạp nhanh 2: Layout Thẻ vuông 3: Layout Thẻ ngang 4: Layout Thẻ VAS\n      \"description\": \"Goi cuoc data toc do cao\","
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "sao response ngắn thế này ạ , em thấy response thật dài lắm mà"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "gen giúp em đoạn mockdataa đầy đủ đi anh ơi , em thấy tùy loại layouttype mà response trả về khác nhau đó ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "data trả về so với cái anh đưa đây ạ , làm gì có trường packageCode đâu ạ"
+    },
+    {
+      "sender_name": "Luong",
+      "text": "để anh check lại xem"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Phần này cho em xin thông tin với ạ @quctuan @ngngthaonhu @ngsong699"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@hainn191297 phần này anh check giúp em được chưa anh ơi"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Alo chị Anh ơi hiện tại có ai support giúp em con này và con VNPT Shop k ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "K thấy ai phản hồi gì"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "cc anh @Tuanjnfor"
+    },
+    {
+      "sender_name": "Hai Nguyen",
+      "text": "Vì có 1 số lỗi khác cũng đang gấp. sáng mai bạn thử lại nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_462586",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Vì có 1 số lỗi khác cũng đang gấp. sáng mai bạn thử lại nhé\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

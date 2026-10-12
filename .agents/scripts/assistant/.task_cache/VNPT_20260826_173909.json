@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260826_173909",
+  "group_name": "AI @Ứng dụng trong công việc chung @GDS",
+  "sender_name": "HocNV2010",
+  "timestamp": "17:39 26/08/2026",
+  "trigger_message": "Để xem cụ thể các luồng/mong muốn ntn ạ",
+  "context_history": [
+    {
+      "sender_name": "Hoàng",
+      "text": "còn đề xuất mua account"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "hôm trước thống kê có mấy cái: Gemini, Claude, NotebookLM, ChatGPT , Canva Pro"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "phần công cụ cơ bản anh đề xuất dùng Claude để đồng bộ với phần quy trình sản phẩm, @Phantom102 @myntt2703 xem ok không"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "em nhất trí nhé, e đang tự mua claude pro rồi. Nếu còn có thể chọn 1 công cụ khác thì em vote Gemini, còn chỉ đc chọn 1 thì theo số đông thôi ạ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "K biết hôm trước ACE trao đổi thống nhất phần AI ntn nhỉ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "trong danh mục hôm trước a Học gửi e lại k thấy nhắc tới Claude"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Riêng phần số 1,6 vẫn còn liên quan đến AI nên đang xem xét lại. Các phần khác thì có thể tiến hành mua"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "hôm trước bảo AI tách ra trao đổi riêng"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "@hocnv2010 hướng dẫn với cho anh Phương vào dùng AI GDS giúp anh cái nhé, cho mảng HTKH"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Là cái gì anh nhỉ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "làm 1 con bot hỗ trợ khách hàng em ạ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "hoặc cái gì đó tương tự thế"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "người dùng là nhân viên nhà mình"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Vâng, các a chuẩn bị thông tin trước đi, lúc nào ngồi vs em ạ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Để xem cụ thể các luồng/mong muốn ntn ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4352388828_19",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Để xem cụ thể các luồng/mong muốn ntn ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>HocNV2010</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

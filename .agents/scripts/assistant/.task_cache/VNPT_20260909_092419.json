@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260909_092419",
+  "group_name": "[DigiShop Web][GDS]: Team triển khai dự án",
+  "sender_name": "Hoàng Kỳ Lâm",
+  "timestamp": "09:24 09/09/2026",
+  "trigger_message": "vụ này gấp, ae xem luôn nhé",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "sang kia mà :D"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "hơi giựt mình :v"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "chắc nay cậu run, :D"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "các task golive hôm nay bọn e test xong rồi nhé @kietla01 \nCC a @ntiendat , c @thuyph312 , a @tranlong"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), chị Thúy ( @thuyph312 ), Văn ( @Ngocvan203 ), Nam ( Bùi Hoài Nam ), anh Long ( @tranlong ), Vân Anh ( @vanhtt14 ), chị Ánh ( Ngọc ), chị Thùy Anh ( @ngthuyanh ), chị Uyên ( @tu_uyenn )\n\ncc:  @hocnv2010 @lalethuy @vietmv92 \n\nHiện tại DigiShop đã Golive xong các hạng mục.\n\n1. Tuning job hoàn tiền thủ công\n2. [Tuning] Ngắt ký tự điểm giao dịch khi điểm gia dịch dài quá 100 ký tự\n3. [BE] [MeshCam] Đổi tham số đồng bộ trạng thái đơn MeshCam\n4. [CMS] Bổ sung loại thuê bao khi xuất file excel đơn hàng cho đơn sim số\n\nCác công việc tối nay đã hoàn thành. Chúc mọi người ngủ ngon ạ!"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "🚨 ISSUE DETECTED\n \nIssue: Trigger Log DSPRODUCT - /opt/logs/api_dsproduct/dsproduct.log\nHost: 10.144.126.133_ecoshop-app04\nValue: 2026-09-09 08:30:33.551  INFO  --- com.vnptmedia.soft.utils.Tools [traceId=] : apiUrl: http://123.31.36.151:8888/smsbn/api ==== postJson: {\"RQST\":{\"name\":\"send_sms_list\",\"REQID\":\"178891743350110691852\",\"LABELID\":\"142139\",\"CONTRACTID\":\"13108\",\"CONTRACTTYPEID\":\"1\",\"TEMPLATEID\":\"11494715\",\"PARAMS\":[{\"NUM\":\"1\",\"CONTENT\":\"0911691095\"},{\"NUM\":\"2\",\"CONTENT\":\"2026090938238470\"},{\"NUM\":\"3\",\"CONTENT\":\"651126\"},{\"NUM\":\"4\",\"CONTENT\":\"47.500\"},{\"NUM\":\"5\",\"CONTENT\":\"thanh toan khi nhan hang (chua gom phi giao hang 20.000d)\"},{\"NUM\":\"6\",\"CONTENT\":\"Chung toi se lien he va giao SIM trong 24h - 72h lam viec\"},{\"NUM\":\"7\",\"CONTENT\":\"website DigiShop\"}],\"SCHEDULETIME\":\"\",\"MOBILELIST\":\"84949334199\",\"ISTELCOSUB\":\"0\",\"AGENTID\":\"336\",\"APIUSER\":\"khcn_vshop\",\"APIPASS\":\"q4RL6MFfFM\",\"USERNAME\":\"TT-KHCN-KM\",\"DATACODING\":\"0\",\"ENCRYPTED\":\"0\"}} ===== ResponseObject:{\"RPLY\":{\"name\":\"send_sms_list\",\"ERROR\":\"28\",\"ERROR_DESC\":\"so luong ky tu tham bien thu 5 vuot qua han muc khai bao.\"}}\nSeverity: High\nStarted at: 08:31:06 2026.09.09 \n\nEvent ID: 201778"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Chỗ gửi SMS mới deploy tối qua có lỗi do thay đổi template. @tranlong AE  dev kiểm tra rồi phản hồi lại để mình có phương án xử lý nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nhưng mà c tưởng có mtr beta rồi chứ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "hiện giờ vẫn chưa có à"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "a @Phuongutc28051986 ơi, khi thao tác trên đt Samsung, khi bấm vào Menu \"Di động\", trang tự động nhảy thẳng vào tab con \"gói cước di động\" => nhờ a hỗ trợ điều chỉnh khẩn giúp e để các thao tác có thể chọn riêng biệt 5 tab con (đồng bộ như trên thiết bị Iphone và PC) nhé ạ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "@hoangkylam nhờ anh bố trí giúp một anh em kiểm tra giúp em nội dung này nhé, cái này Lđ Tập Đoàn test nên ưu tiên giúp em"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "có chị ạ, nhưng bị miss case này"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "@Hoanganh1109 xem giúp anh hiển thị như thế nào là đúng"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "xong @thuyph312 test lại giúp anh trên android, ios và PC"
+    },
+    {
+      "sender_name": "Hoàng Kỳ Lâm",
+      "text": "vụ này gấp, ae xem luôn nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3565454551_4224",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"vụ này gấp, ae xem luôn nhé\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

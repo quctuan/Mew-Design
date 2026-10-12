@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260815_142252",
+  "group_name": "[GDS] Team Quản lý SP&DV",
+  "sender_name": "Trà My",
+  "timestamp": "14:22 15/08/2026",
+  "trigger_message": "Nhóm QC vs PO, TK chưa qua nhà hàng à chị @thuyph312 @minhhnhatt  @quctuan",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "C gửi nha"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @myntt2703 ơi phần này mình trình onl qua EOF đúng k ạ"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Chị bảo Chi rồi nhé"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Thay mặt BTC Phòng Quản lý SP&DV, em/chị gửi mọi người 3 options no bụng dự kiến của chúng ta vào tối t6 giao lưu Phòng tuần này. Vì bữa này là bữa tự chi nên sẽ trưng cầu ý dân để cho phù hợp túi tiền của số đông ạ."
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Option 3 là bate chăng?"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Lưu ý vs mng là 4 bữa còn lại đều ăn set menu cơm giống 1-2 😁 nên mới thêm option gọi món có lẩu cho khác đi"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Thế c xem có option nào siêu nghèo k, để 4 hôm còn lại ăn cảm giác cho đã"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "mang gà với xôi đi a"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "=)) kịch sàn rồi, riêng m nên uống nâu đá trừ bữa nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Được chị, đặc biệt phải là nâu đá vị cóc vải thiều"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Anh Phương anh Lâm uống không thấy feedback tào tháo đuổi đâu nên vô tư nhé 😆"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Ace nghỉ ngơi 18h00 tối nay tập trung tại sảnh khách sạn, xe số 01 - bks 29e - 21922 sẽ hỗ trợ đưa đoàn sang nhà hàng nhé!"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Ace xuống sảnh nhé!"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Nhóm QC vs PO, TK chưa qua nhà hàng à chị @thuyph312 @minhhnhatt  @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5241378184_453010",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhóm QC vs PO, TK chưa qua nhà hàng à chị @thuyph312 @minhhnhatt  @quctuan\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trà My</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

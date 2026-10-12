@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260907_094932",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Quynh Mai",
+  "timestamp": "09:49 07/09/2026",
+  "trigger_message": "Cái tạo 1 thì khi có lịch không còn btn Thêm lịch mới nữa rồi anh @aidenLeDevPDC nhé, chỉ sửa lịch hoặc xáo lịch thôi\nCòn lặp lại thì đã bỏ ko lặp lại rồi, anh check figma lại nhé",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "UI đang có phần Lặp lại mặc định là \"Không lặp lại\" không đúng nha ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@taminhtr ơi, nắm thông tin nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh @aidenLeDevPDC ơi, phần này chưa có mini app nhưng native có rồi, anh điều hướng vào native giúp em nhé. Nhờ anh @hieunguyen271095 gửi thông tin cho dev mini app ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312 xem giúp em phần 4, 5 này nhé ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Mục 4. C đang đi mượn thêm device. Khi nào có chị báo nhé\nMục 5. Như đã báo hôm trước, thiết bị test đã off và ngắt cả nguồn điện nhưng api vẫn báo Online. Chỗ này nhờ AE BE check thêm vs Net để trả lời nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@ngsong699"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "chỗ này ae dùng thử Common native openFeature truyền SUPPORT_TAB xem có mở được màn hỗ trợ ra ko nhé \nđể vào support internet thì sẽ cần app update và truyền thêm payload"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@aidenLeDevPDC @Thangngw"
+    },
+    {
+      "sender_name": "Song",
+      "text": "Nam  cái này khởi động lại 1 lúc xong tắt phát nữa hộ anh với"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Để tý em báo anh em thửu lại"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Cái chỉ tạo được 1 với bỏ cái Không lặp lại này chị chốt chưa để bên em update luôn ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@name688899 con lỗi này từ tuần trước chưa giải quyết dc. em giúp chị nhé. Hôm nay cần bàn giao cho bên mình rồi"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chốt em với chị @quynhmaihavi"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @hieunguyen271095 @monRich0 giúp em sáng nay cái mật khẩu wifi và cái QR Code nhé ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "e tút điện r a nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Cái tạo 1 thì khi có lịch không còn btn Thêm lịch mới nữa rồi anh @aidenLeDevPDC nhé, chỉ sửa lịch hoặc xáo lịch thôi\nCòn lặp lại thì đã bỏ ko lặp lại rồi, anh check figma lại nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_738",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cái tạo 1 thì khi có lịch không còn btn Thêm lịch mới nữa rồi anh @aidenLeDevPDC nhé, chỉ sửa lịch hoặc xáo lịch thôi Còn lặp lại ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

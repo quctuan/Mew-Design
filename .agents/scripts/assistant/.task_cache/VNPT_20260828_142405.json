@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260828_142405",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "14:24 28/08/2026",
+  "trigger_message": "đanh đá quá ko tuấn",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "Học onl"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có gì ăn k"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "bánh ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "kẹo M&M"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "sữa"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@quctuan b chưa về à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "chưa :))  tắc quá, ngồi tí nữa  r về"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cứ đi r sẽ đến"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Họp gì thế hà"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "căng thẳng"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "họp rv tiếnd độ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": ";D"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đanh đá quá ko tuấn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459998",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"đanh đá quá ko tuấn\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

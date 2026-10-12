@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260914_123422",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Song Nguyen",
+  "timestamp": "12:34 14/09/2026",
+  "trigger_message": "có UI mũi tên dẫn đến luồng đằng sau sau khi click không ạ ? nếu nó ra màn chi tiết gói tiếp thì đúng thế dó anh",
+  "context_history": [
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "sau tất cả những gói này nó sẽ đều group chung là gói VD 149"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "lõi nó là nhiều gói khác nhau => gom nhóm\n\n\ncái chu kỳ chỉ là 1 option để hiển thị thôi.\n\nchứ không phải 1 gói với nhiều chu kỳ"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "sau @ngsong699 sẽ trả cho em tất cả các gói này,"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "đúng rồi chị @nguyenngoclinh1 . EM đang hiểu là ntn cơ"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "mng hiểu giống nhau rồi đó 😂️️️️️️"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "làm thoi"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Vâng tại e đọc đoạn này với giải thích bên trên thấy sai sai"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "đúng rồi"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "lõi nó khác nhau, chu kỳ, giá tiền khác nhau"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Vậy em chốt lại sẽ là có nhiều gói (cùng tên) nhưng khác về chu kì. Mỗi gói có mã riêng, id riêng?"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "về mặt khai  báo hiện đang khai gói theo từng chu kỳ mà"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "còn về bản chất sản phẩm thì nó là 1 gói, VD149"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@ngsong699 Vậy đoạn này khi a chọn chu kì khác thì coi như gọi lại api chi tiết của gói mới."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "A hiểu thế đúng k Sông"
+    },
+    {
+      "sender_name": "Song Nguyen",
+      "text": "có UI mũi tên dẫn đến luồng đằng sau sau khi click không ạ ? nếu nó ra màn chi tiết gói tiếp thì đúng thế dó anh",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_467684",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"có UI mũi tên dẫn đến luồng đằng sau sau khi click không ạ ? nếu nó ra màn chi tiết gói tiếp thì đúng thế dó anh\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Song Nguyen</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

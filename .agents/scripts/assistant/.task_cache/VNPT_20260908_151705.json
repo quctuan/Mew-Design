@@ -1,0 +1,89 @@
+{
+  "task_id": "VNPT_20260908_151705",
+  "group_name": "Pickleball Đồi Chè club",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "15:17 08/09/2026",
+  "trigger_message": "C đã đồng ý đâu",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Dạo này nhìn khác nhỉ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Sao biết hay thế"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "trưqa nay vừa đánh với bạn thân xong"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhưng ko p partner nữa r"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "ĐĂNG KÝ GIẢI PICKLEBALL KHỐI CƠ QUAN TỔNG CÔNG TY VNPT-Media\n\nDear ACE, với tinh thần thể thao là không ngừng bỏ cuộc, mời ACE ban mình đăng ký tham gia giải Pickleball khối cơ quan TCT và giật cup ạ 🥰.\n\n🎯 THÔNG TIN GIẢI ĐẤU\n\n📅 Dự kiến tổ chức: 10/10/2026\n🏆 Nội dung thi đấu: Đôi Nam – Nữ | Đôi Nữ | Đôi Nam\n👥 Đối tượng: VP TCT, Ban KHĐT, Ban KTTC, Ban CLSP, Ban NS, Ban GDS\n⏰ Hạn đăng ký: Thứ Sáu, 11/09/2026\n\n👉 Đăng ký ngay tại:\nhttps://docs.google.com/spreadsheets/d/1WS_v4Uy14iG2gHFdYF4nJycZ3Ln5-RrKo5XgeAUJGFY/edit?gid=0#gid=0"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Vào việc đi cả nhà"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@minhhaido8 outsource nhân sự giật giải được ko"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Đôi nam nam đi @minhhnhatt @quctuan  @hieunguyen271095"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@minhhnhatt @quctuan thấy rõ 1 đôi vô địch đây rồi"
+    },
+    {
+      "sender_name": "Đỗ",
+      "text": "ăn giải của media thì lại mang tiếng lắm ạ =)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "giải nghệ r a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "giờ xách nước bổ cam thôi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lát toi trả bạn cái vợt =)))"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "C đã đồng ý đâu",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4929015005_463442",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"C đã đồng ý đâu\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Trang Đỗ</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1WS_v4Uy14iG2gHFdYF4nJycZ3Ln5-RrKo5XgeAUJGFY/edit?gid=0#gid=0"
+  ]
+}

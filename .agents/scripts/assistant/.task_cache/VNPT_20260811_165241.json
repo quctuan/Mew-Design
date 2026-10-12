@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260811_165241",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Thuy Phan",
+  "timestamp": "16:52 11/08/2026",
+  "trigger_message": "@kietla01 @vietmv92 \nChị gửi Plan team QC nhé:\n• GMYVNPT-780 [Tuning] Tích hợp SDK eContract mới: Hạnh\n• GMYVNPT1-240 QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu: Hạnh, Nam, Vân Anh\n• GMYVNPT1-499 QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh: Hạnh, Nam, Vân Anh\n• GMYVNPT1-321 QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh: Vân Anh\n• GMYVNPT1-324 QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM: Đạt\n\nEstimate: T+2h\nNgoài ra cần IT hỗ trợ:\n- Hỗ trợ xóa thông tin thuê bao\n- Hỗ trợ kiểm tra thông tin thuê bao sau đăng ký và hòa mạng \n- Hỗ trợ xử lý lỗi nghiệp vụ phát sinh (nếu có)",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "vâng, đang sắp vào queue và đọc a ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@thuyph312 Chị Thúy xem gửi trước estimate của team QC giúp em nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Lại Thuỷ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Xem các tích ai test và test mất bao lâu. để Kiệt chủ động lên start và end time"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "dỗi luôn chị"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ý em là sếp @lalethuy  à"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Máy Mac phần mềm gõ tiếng việt nó hơi ngu chị ạ 😢"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "chị chắc chưa dùng Mac 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị cũng thấy phần mềm đấy nó ngủ đúng không chị 😄"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "100k thôi e"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Vâng anh"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "@kietla01 @vietmv92 \nChị gửi Plan team QC nhé:\n• GMYVNPT-780 [Tuning] Tích hợp SDK eContract mới: Hạnh\n• GMYVNPT1-240 QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu: Hạnh, Nam, Vân Anh\n• GMYVNPT1-499 QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh: Hạnh, Nam, Vân Anh\n• GMYVNPT1-321 QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh: Vân Anh\n• GMYVNPT1-324 QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM: Đạt\n\nEstimate: T+2h\nNgoài ra cần IT hỗ trợ:\n- Hỗ trợ xóa thông tin thuê bao\n- Hỗ trợ kiểm tra thông tin thuê bao sau đăng ký và hòa mạng \n- Hỗ trợ xử lý lỗi nghiệp vụ phát sinh (nếu có)",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36199",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@kietla01 @vietmv92  Chị gửi Plan team QC nhé: • GMYVNPT-780 [Tuning] Tích hợp SDK eContract mới: Hạnh • GMYVNPT1-240 QWDD - Sim s...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuy Phan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

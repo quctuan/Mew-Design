@@ -1,0 +1,85 @@
+{
+  "task_id": "VNPT_20260910_135611",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Quỳnh Đỗ",
+  "timestamp": "13:56 10/09/2026",
+  "trigger_message": "@haipt1905 trao đổi nhé",
+  "context_history": [
+    {
+      "sender_name": "Koi",
+      "text": "@havietngn  bổ sung UI xong thì reply ở thread này + báo bên group gds-vivas để dev biết update nhé.\n\n+ t sẽ update srs cho đầy đủ."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "trc e có cf với VNP là k cần nhà mạng r ạ, và hiện trên CMS của mình cũng chỉ cấu hình theo QG thui nên e bỏ ạ"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "chốt theo PO và không có chỉnh sửa gì design/srs.\n\nchị Anh Nguyen  xem sắp xếp bổ sung task cho @ngsong699  giúp e với ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "cho chị xin thời gian xong phần này với Sông ơi"
+    },
+    {
+      "sender_name": "Song",
+      "text": "2 ngày nhé chị  nhưng tuần sau em mới bắt đầu đc"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ),  Như ( @ngngthaonhu ), anh Vũ ( @leanhvu88 ), chị Thúy ( @thuyph312 ) Mai ( @quynhmaihavi )\n\nLịch vụ nàychốt 9h30 sáng mai (11/09) nhé ạ"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@ngotuyen03 \nxem lại c bug này nhé\nhttps://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?pli=1&gid=1327688618#gid=1327688618&range=C5"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chị @lalethuy c @nguyenngoclinh1 c @ngngthaonhu ơi, nhờ các c check phần này giúp e với ạ"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "a @quctuan ơi, dev đang báo ảnh Mascot ban đầu đang thống nhất luôn nằm góc phải với kích cỡ 200x200"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "Mascot màn Login rồi nằm ở góc, màn Prelogin thì như nào ạ? A confirm lại giúp e nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, vẫn ghim góc phải nhưng kích thước nó đang bị bé quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "200x200 là màn Home mà nhỉ"
+    },
+    {
+      "sender_name": "Quỳnh Đỗ",
+      "text": "@haipt1905 trao đổi nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_465307",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"@haipt1905 trao đổi nhé\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Quỳnh Đỗ</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?pli=1&gid=1327688618#gid=1327688618&range=C5"
+  ]
+}

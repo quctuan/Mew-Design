@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260908_172510",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "ViệtMV",
+  "timestamp": "17:25 08/09/2026",
+  "trigger_message": "Dear chị Nhàn ( @alicedinh ), Nguyệt ( @NguyetDang ), Ánh ( Ánh - PM )\n\nSau khi trao đổi thống nhất với chị Nhàn, thì muộn nhất Deadline 14/09 phía chị Nhàn sẽ bàn giao API để MyVNPT tích hợp nhé.\n\nMọi người nắm thông tin để phối hợp với chị Nhàn giúp anh nhé.",
+  "context_history": [
+    {
+      "sender_name": "Phan Ngọc",
+      "text": "Hi Nguyệt, \nanh gửi tài liệu API tích hợp cập nhật trạng thái đã thanh toán của hợp đồng"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@NguyetDang nhận tài liệu e ơi"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Anh @thopnn , anh @tienhuytran207 ơi, hôm trước họp chốt là Trạng thái thanh toán OneBSS và eContract phối hợp đồng bộ với nhau mà ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Tài liệu API chi tiết HĐ và hàm SDK khi nào bên anh gửi ạ"
+    },
+    {
+      "sender_name": "Tiến Huy",
+      "text": "tài liệu api này là đồng bộ trạng thái thanh toán giữa onebss với eContract đấy ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Em bên Mvynpt ạ, anh thơ tag nhầm đầu mối rồi ạ, cc chị [BA_IT_VNPT] Chị Thuỷ IT"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "bạn ơi thế là vẫn chưa có tài liệu API, SDK bên MyVNPT request ạ?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @SongTung_SI"
+    },
+    {
+      "sender_name": "Phan Ngọc",
+      "text": "Dear  chị Nguyễn Thu Thủy BA OneBSS\nphía eContract gửi lại tài liệu API tích hợp gồm:\n-Cập nhật API tạo hợp đồng (bổ sung tham số trạng thái thanh toán)\n- API tra cứu hợp đồng\n-API cập nhật trạng thái thanh toán"
+    },
+    {
+      "sender_name": "Tiến Huy",
+      "text": "tài liệu SDK phía eContract đang thực hiện và sẽ bổ sung trước ngày 15/9. Nhờ @NguyetDang Nguyễn Thu Thủy chốt tài liệu api này giúp em ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị ko phải bên MyVNPT em ạ.  \nSDK thay đổi thì phía đầuAPP Employee của bên chị phải cập nhật lại theo SDK mới này hả e?"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Nguyệt ( @NguyetDang ) review giúp anh nhé em"
+    },
+    {
+      "sender_name": "Tiến Huy",
+      "text": "dạ tài liệu này có phần II.1 Tạo hợp đồng (bổ sung thêm paymentStatus) với II.3 Cập nhật trạng thái đã thanh toán hợp đồng là ở phía bên OneBSS. Về SDK thì là giữa myVNPT với eContract thôi ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Trên là tài liệu tích hợp chung cho cả Onebss ạ, Myvnpt dùng API tra cứu hđ thôi anh ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "SDK thì bên chị cũng dùng mà, bên chị cũng có app employee đó em"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear chị Nhàn ( @alicedinh ), Nguyệt ( @NguyetDang ), Ánh ( Ánh - PM )\n\nSau khi trao đổi thống nhất với chị Nhàn, thì muộn nhất Deadline 14/09 phía chị Nhàn sẽ bàn giao API để MyVNPT tích hợp nhé.\n\nMọi người nắm thông tin để phối hợp với chị Nhàn giúp anh nhé.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_297",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear chị Nhàn ( @alicedinh ), Nguyệt ( @NguyetDang ), Ánh ( Ánh - PM )  Sau khi trao đổi thống nhất với chị Nhàn, thì muộn nhất De...\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

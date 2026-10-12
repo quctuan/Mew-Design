@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260911_115023",
+  "group_name": "Bao giờ đi du lịch được thì đổi tên",
+  "sender_name": "Hung Nguyen",
+  "timestamp": "11:50 11/09/2026",
+  "trigger_message": "@quctuan @minhhnhatt",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "😇😇😇"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Son à"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "=))))"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "Thấy bảo nay đi chơi vs ny"
+    },
+    {
+      "sender_name": "Son",
+      "text": "ai đấy 👀"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "quen thế nhỉ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Bỏ bu lộ hết bí mật r 🤣Nam ác quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dhs đông đủ vl :))"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "Ý tưởng lớn gặp nhau"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "ko gọi xún ăn cùng"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "@namvumanh mua cho bạn gói xoi"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Tập cầm iphone duo cho quen"
+    },
+    {
+      "sender_name": "Hung",
+      "text": ":)"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Bên kia nay nhịn à"
+    },
+    {
+      "sender_name": "Hung Nguyen",
+      "text": "@quctuan @minhhnhatt",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2677793724_11453",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan @minhhnhatt\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hung Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

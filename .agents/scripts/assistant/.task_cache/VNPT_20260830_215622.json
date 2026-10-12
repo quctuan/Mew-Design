@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260830_215622",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "ViệtMV",
+  "timestamp": "21:56 30/08/2026",
+  "trigger_message": "anh Học ( @hocnv2010 ), anh Tuấn ( @Tuanjnfor ) và anh em nắm thông tin nhé ạ",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "SMPP_SMS_LOG"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-263718&t=OLxSokT1yQNDP3E5-4\n\ntrên app cx có hd đây"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Cái này có biết là máy Android nào không 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@havietngn"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "84916608158"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "https://stagingv2.myvnpt.com.vn/cms/"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@havietngn ơi, c có check sâu thì VIP chưa bật data roaming trên thiết bị nhé, nên chưa có phiên data để gói RU3 kích hoạt. E báo đầu mối hướng dẫn bật nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "E ko a ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "VNP  check đc ra Kh chưa bật roaming trên TB r"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Đang hiểu: chưa kích hoạt roaming thì hiển thị thời hạn là 33 ngày( 3 ngày của gói+30 ngày) => Đến 1/10 là đúng; việc hiển thị dung lượng còn lại do quy tắc của đội MyVNPT ( ko rõ có tài liệu không) quy định phải cấu hình >9999 ứng với gói không giới hạn."
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "chỗ đề xuất cho bạn liệu có đúng ko ạ?"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Đúng anh ạ"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "e/a a đã cập nhật lại các gói unlimited data"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Báo cáo anh Triệu ( Anh Triệu - Phó TGD Media ), anh Cường ( @hoangmanhcuong ),\n\nEm xin phép tổng hợp tình trạng thuê bao của Sếp như sau:\n\n01. Ngày hết hạn 01/10/2026: Gói cước RU3 hiện chưa được kích hoạt. Qua kiểm tra với bên NET, nguyên nhân là thiết bị chưa bật chuyển vùng dữ liệu (Data Roaming). Vì vậy, dữ liệu IT cung cấp là chính xác.\n\n02. Về dung lượng Data: MyVNPT hiển thị chưa chính xác do lỗi cấu hình trên CMS. Hiện cấu hình đã được cập nhật và thông tin đã hiển thị đúng là “Dữ liệu không giới hạn”.\n\nEm xin báo cáo để các anh nắm thông tin ạ."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Học ( @hocnv2010 ), anh Tuấn ( @Tuanjnfor ) và anh em nắm thông tin nhé ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36811",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh Học ( @hocnv2010 ), anh Tuấn ( @Tuanjnfor ) và anh em nắm thông tin nhé ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/J8XLTB7xPZXuqQ9aXVNEgD/Chuy%E1%BB%83n-v%C3%B9ng-Qu%E1%BB%91c-t%E1%BA%BF--Roaming-?node-id=21924-263718&t=OLxSokT1yQNDP3E5-4"
+  ],
+  "doc_links": []
+}

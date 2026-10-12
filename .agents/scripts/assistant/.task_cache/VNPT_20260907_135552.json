@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260907_135552",
+  "group_name": "Line 1: Super App",
+  "sender_name": "VNPT - Như",
+  "timestamp": "13:55 07/09/2026",
+  "trigger_message": "@thuyph312 chị ơi QC nào đang test luồng concept cá nhân thì chị báo bạn ấy join cùng em với ạ nhỡ có phần nào chốt mới ạ",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Như",
+      "text": "rtong sáng nay nhé em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@hainn191297 con Quản lý lưu lượng gói cước, em support các bạn nhé.\n@name688899 em nhảy vào support @ngsong699 nhé, đẩy nhanh chỗ sông giúp chị"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "phần của em hiện taị cũng đang sp miniapp phần Quản lý thiết bị internet rồi ạ + fix bug nữa. Chị assign đồng chí khác giúp em với, chị Anh Nguyen"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "lại em @name688899 chị điều đào giúp chị phát"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "oki c"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "UC thêm mới XBanner nhé em"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "chị bổ sung thêm 2 trường nữa là Tần suất hiện lại và Số lần đóng tối đa. E đang thấy thiếu ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@ngthuyanh  Phần widget hoá đơn viễn thông - Homegroup    => đoạn lấy ra đơn hàng viễn thông  OB  t đang ko biết lấy theo điều kiện nào ( đơn chưa thanh toán hay tất cả ) hay lấy trong khoảng thời gian nào.  Lấy từ bảng SIMSO_ORDERS  hay lấy từ bảng nào. Nhờ bạn giải đáp giúp t nhé  cc Nam"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "đơn OB là gọi api mà @ngsong699"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "đọc flow chưa e?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "bảng lưu thông tin OB thì @PhongNK gửi lại cho @ngsong699 nhé"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "MYVNPT_INVOICE_HISTORY"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "Có chỗ login Digital ID trên supperApp có 1 số vấn đề cần làm rõ thêm chỗ này anh book để trao đổi thêm nhé @ngngthaonhu @luongtrandev @ngsong699 . hiện 2h @ngngthaonhu có lịch hợp với VNP nên chỗ này xin phép lùi sang 9h sáng mai nhé mn. cc anh @hocnv2010"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "dạ vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "@thuyph312 chị ơi QC nào đang test luồng concept cá nhân thì chị báo bạn ấy join cùng em với ạ nhỡ có phần nào chốt mới ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_462423",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@thuyph312 chị ơi QC nào đang test luồng concept cá nhân thì chị báo bạn ấy join cùng em với ạ nhỡ có phần nào chốt mới ạ\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Như</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260912_162155",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "16:21 12/09/2026",
+  "trigger_message": "có đoạn ở design này có bị ảnh hưởng gì k",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Hiện tại đang bị gắn với properties panel bên phải hơi dị"
+    },
+    {
+      "sender_name": "Lê",
+      "text": ":) vl thế à"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh tưởng là nó làm gắn với layout luôn r"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh e thấy dev code thế mà"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": ":)))"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ảo vl"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "1 bug"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "doạnd dấy làm giống kittle"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "thế cái personalize chốt để ở panel phải hay là làm mode"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "cứ để ở panel đi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Oke ko?"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ọk"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "có đoạn ở design này có bị ảnh hưởng gì k",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467045",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"có đoạn ở design này có bị ảnh hưởng gì k\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Lê Kiên</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

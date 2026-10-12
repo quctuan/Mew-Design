@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260910_001421",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "00:14 10/09/2026",
+  "trigger_message": "Uh lúc đấy mình ngồi research xem nên design như thế nào",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Thế mới ko bị bắt bẻ =)) chứ ko có ng vào hỏi vặn cho lại đ trả lời dc mất"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "cái gì k biết thì mình nói nước đôi cho chắc à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "https://x.com/semochkin_alex/status/2097664889032434119?s=46"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "quy trình cũng the same lúc làm con Vibe Club\nnma mất tgian nhất kp chỗ gen visual cho mascot, mà là nghĩ chọn hình con gì để vừa dễ nhớ  vừa match với concept branding, rồi câu chuyện đằng sau con mascot"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh khúc research với ideate"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thôi mình làm sau :)))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đơn giản thôi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Làm cái tính năng moodboard"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Cho nó bookmark từ nhiều nguồn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Rồi bê lên Fiora để Iterate"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://clipo.one/\n\nuhm, có mấy ae VN làm con tool để lưu trữ reference hay phết. Cũng là save mọi thứ lên 1 canvas"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đẹp thế :))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t cũng dùng 1 tool để lưu reference, nó tích hợp vào browser như này"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh t cũng dùng con này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Fiora xem có dc ko, thì bấm phát là cho vào kho assets luôn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh lúc đấy mình ngồi research xem nên design như thế nào",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_464810",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Uh lúc đấy mình ngồi research xem nên design như thế nào\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260912_003722",
+  "group_name": "GDS_Đề án Phát triển nền tảng KD trên MTS",
+  "sender_name": "HocNV2010",
+  "timestamp": "00:37 12/09/2026",
+  "trigger_message": "Paid CPI benchmark: ~22–28K/user\n→ referral/cross-promotion có thể giảm xuống khoảng 8–10K/install\n→ embedded SDK trên app đã có user không phải trả chi phí để tạo install mới\n→ ngân sách chủ yếu còn tích hợp + activation/incentive + measurement + duy trì notification\n→ vì vậy dải 2–5K/qualified RAU có thể dùng làm ROM",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Conferrence để make noise thôi. Chứ đưa vào miễn phí thì tốn lắm."
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Example: 1 cuộc cơ bản có 5 người:"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Suppose that 5 users joined a room at the same time and the communication lasted for 60 minutes.\n\nUser A, B, and C turned on their microphone and camera, each with a video resolution set to 720 × 480. User D turned on his microphone only. User E did not turn on his microphone and camera, but he shared his screen, with resolution set to 1920 × 1080.\n\nUse A, B, C, and D subscribed to all audio and video streams. User E subscribed to audio only.\n\nUser A stayed in room for 30 minutes and left. User B, C, D and E stayed for 60 minutes"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Total cost: $3.3579 + $0.0594 = $3.4173"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Em gửi lại anh bản cập nhật ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Báo cáo không còn sử dụng giả định 7,5 tỷ đồng/1 triệu RAU/năm. => Chuyển sang 2 khung giá 2,3,5 thì có sở cứ gì ko?"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Theo mức giá trung bình phát triển liên kết anh ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "ZEGO Core được tính trên benchmark giá công khai tại thời điểm 11/09/2026, với giả định cơ sở 2 participant-minutes thoại và 0,5 participant-minutes video trên mỗi Communication MAU/tháng, cộng 20% dự phòng. => đoạn này anh chưa hiểu lắm."
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "À, cái này mức giá theo theo cơ sơ, nhưng giả định thì nó là số phút mỗi user anh ạ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "cộng trừ thêm 20% bù trừ chi phí"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "bóc tách call, chat, conference ra riêng và theo các giả định khác nhau để có con số sát nhất"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Tức là mỗi 1 MAU có 2 phút thoại mỗi tháng ?"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Vâng, 2 phút thoại, 0.5p video anh ạ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Phần này thì em cũng research theo đơn giá thị trường và có 1 số usecase install mới, nhưng của mình thì là tích hợp lên người dùng sẵn có nên sẽ thấp hơn nhiều"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Paid CPI benchmark: ~22–28K/user\n→ referral/cross-promotion có thể giảm xuống khoảng 8–10K/install\n→ embedded SDK trên app đã có user không phải trả chi phí để tạo install mới\n→ ngân sách chủ yếu còn tích hợp + activation/incentive + measurement + duy trì notification\n→ vì vậy dải 2–5K/qualified RAU có thể dùng làm ROM",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192106461_466825",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Paid CPI benchmark: ~22–28K/user → referral/cross-promotion có thể giảm xuống khoảng 8–10K/install → embedded SDK trên app đã có u...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>HocNV2010</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"motion\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

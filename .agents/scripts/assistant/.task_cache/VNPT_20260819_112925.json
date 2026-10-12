@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260819_112925",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "11:29 19/08/2026",
+  "trigger_message": "Để trao đổi chi tiết thì mình phải nói lại luồng vì có kỹ thuật mà",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "Kịch bản này em sẽ trao đổi thêm với chị Mai và báo lại nhé ạ"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Sáng ngày mai chị/em book họp với IT, enContract lúc 10:00 - 11:30 nhé. các em vướng gì k? @quynhmaihavi, @ngngthaonhu , @NguyetDang"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@NguyetDang @ngngthaonhu anh setup họp với IT vào 10-1130 sáng mai để trao đổi về API Requiremt của WP 3, 4, 5 nhé"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Em gửi lại hiện trạng luồng tracking đơn brcđ, còn một số vấn đề sau chưa chốt để anh chị nắm thông tin ạ:\n1.  Chưa chốt đơn vị so khớp thông tin eKYC vs HĐ \n2. Danh sách nguồn tiền thanh toán.\n3. Phí, chiết khấu theo từng nguồn tiền —- chưa có danh sách\n4. Luồng đối soát và tài khoản nhận tiền —- chưa có thông tin.\n5. Luồng truyền thông trên MyVNPT (SMS, notification) — chưa chốt và có đầy đủ thông tin của toàn bộ các luồng\n6. Cơ chế ký BBNT khi đơn có TB cần lập và TB không cần lập\n7. Thông tin so khớp EKYC \n_Cần chốt: Không sử dụng thông tin EKYC để nâng state KH , không so khớp thông tin ekyc với thông tin tài khoản MyVNPT => thông tin EKYC chỉ dc sử dụng để so khớp thông tin hợp đồng\n_Thiếu các luồng so khớp thất bại hoặc luông KH chọn ko tái sử dụng thông tin giấy tờ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@NguyetDang @quynhmaihavi Đầu mối OneBSS phía IT là ai nhỉ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "C Thu Thủy"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mọi người xem @ chị ấy trong group chung với IT để anh push thêm"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Okie em"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Buổi họp sáng nay sao trao đổi nhiều về Kịch Bản thế Mai ( @quynhmaihavi ) 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh tưởng kịch bản là đã Ok hết rồi chứ 😄"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Có trao đổi  kịch bản đâu anh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "sáng nay tính chỉ trao đổi về API Req và kế hoạch thôi 😄"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Có thấy thay đổi gì đâu"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Đây là giải đáp thắc mắc của các bên mà"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Để trao đổi chi tiết thì mình phải nói lại luồng vì có kỹ thuật mà",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_454697",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Để trao đổi chi tiết thì mình phải nói lại luồng vì có kỹ thuật mà\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Quynh Mai</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260818_103847",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Hieu Tran",
+  "timestamp": "10:38 18/08/2026",
+  "trigger_message": "@quctuan em chỗ này cho bên android thêm cái nút thêm số điện thoại được không",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Sao bê đc a ? MiniApp là mini app, app native là ae tự code chứ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a tưởng thẻ gói thì tạo thành comp rồi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko reuse dc hả"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Chỗ này sao bị cắt 1 phần thế a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "figma nó lag đó, e xem lại nhá"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan ơi nhờ e báo chị em ai làm phần vnpt shop cho a xin bộ img của list life style này nhé,\nA xin ảnh png nhé."
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Vâng anh đợi em xíu nha"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Trong lúc đợi có thể nghe hát một bài dc ko em"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Em hát thì em có thể nhờ các anh một chân nhảy phụ đạo được khom ạ 🫶"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Giới thiệu với em Dancer @DuyTuan_App \nĐến từ miền Đông nước Lào"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "muốn nghe lại bài Cô nàng say xỉn thì P rất cần say xỉn để hát nhé"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Thành Anh Thành ơi em gửi ảnh export nha\nhttps://drive.google.com/drive/folders/11K7epp33mlCPCz1fRJzsMnBgKlJcg1Cg?usp=sharing"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a xin nhé."
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "anh ơi có hướng xử lý như nào để user biết phải hoàn tất thêm thành viên ko? như em thêm số đt chỉ cần click vùng khác là ẩn bàn phím dẫn đến việc chưa hoàn tất thêm thành viên"
+    },
+    {
+      "sender_name": "Hieu Tran",
+      "text": "@quctuan em chỗ này cho bên android thêm cái nút thêm số điện thoại được không",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_454018",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan em chỗ này cho bên android thêm cái nút thêm số điện thoại được không\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Hieu Tran</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

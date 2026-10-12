@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260907_143912",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Duy.Tuan",
+  "timestamp": "14:39 07/09/2026",
+  "trigger_message": "chỗ icon + background fix cứng hay config e nhỉ @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "là sao anh nhỉ, text nó dài quá ko đủ ấy"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "là mình cho nó tự scroll luôn à anh"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chứ ko phải đợi ng dùng thao tác"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à ko, ý là đang bị cắt lẹm chỗ này"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "vâng vậy em sẽ để bằng viền, còn lại để ng dùng tự thao tác scroll ngang để xem hết"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okii"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan ơi đoạn điều hướng này có chưa nhỉ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "trong màn chi tiết ưu đãi ấy e"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "hay nó là cái này nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đúng r a ơi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chính xác ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ukie ae"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@quctuan ơi, chiều nay 15h30 có vướng gi không.\nChú họp nhanh với ae Dev tý nhé.\nAnh thấy ae báo UI có thay đổi nhưng giờ ae mới biết"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okee a ơi"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "chỗ icon + background fix cứng hay config e nhỉ @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_462536",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chỗ icon + background fix cứng hay config e nhỉ @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Duy.Tuan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

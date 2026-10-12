@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260912_091503",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Quỳnh Đỗ",
+  "timestamp": "09:15 12/09/2026",
+  "trigger_message": "Chỗ này luồng cũ gửi otp về số chủ nhóm là đúng nhé ạ, e vừa check rồi",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "{\n    \"method\": \"POST\",\n    \"url\": \"https://stagingv2.myvnpt.com.vn/package_service/hvc/validateUD/\",\n    \"headers\": {\n        \"Authorization\": \"Bearer a60bd62fed0cf1076e93af76114f196bd9c5a48155b2bac88afe15c49595414b\",\n        \"Content-Type\": \"application/json\",\n        \"Device-Info\": \"0d59f3cf-16f3-4679-8f5d-3c41efb50aff|0d59f3cf-16f3-4679-8f5d-3c41efb50aff|unknown|Android|48:83:B4:CA:00:6F|3.4.04.Staging|CPH1923|9|48:83:B4:CA:00:6F\",\n        \"Language\": \"vi_VN\"\n    },\n    \"parameters\": {\n        \"requestId\": \"bbed2b19-a364-490e-9ba2-68e3b8978c09\",\n        \"msisdn\": \"84886253608\",\n        \"session\": \"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3M2I3YzNjYy02NjI5LTRlYjctOTJkNi1mNjAzZGUzZmYxNTYiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJmZmRhNWRmMS1hZjQwLTQ0YTgtYTllMS1iYjEwMDkyN2E3ZWIiLCJpYXQiOjE3ODkxMjE5NjEsImV4cCI6MTc4OTEyMjg2MSwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI1NDgzOGNiNC05MjE2LTRlZTUtOTM0Yi0xZGMzYTkxOGNiODMiLCJwb3N0X3R5cGUiOiIwIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImZhYnptcjVyVDVLSV81c1dMS0t1WTQ6QVBBOTFiRlB4U2E3LUxGUW1rQnFzWnFsSHBzcDktd1ByNWMyVnZmdFZsQ2h1TlpKckxici1CeGtUblBITHVLMGVxbW5YZEJfYmlEZFMxMW9VcG4wTE9VcnR3aWdaVkttZERKalE1NXBhc3VKcnNJckxzcHNrR0kiLCJtc2lzZG4iOiI4NDg4NjI1MzYwOCIsImN1c3RvbWVyX2lkIjoxNjExODUxNn0.GJxNk9Pqd24j81yA1YFhddmwj2MUhBW4bNTkQ3oBTlw\",\n        \"secureCode\": \"18e13dc23a9749b7bc61cb77666ef3dc8c59c9817fadae8671df4dccbd74e12b\"\n    },\n    \"body\": \"{\\\"requestId\\\":\\\"bbed2b19-a364-490e-9ba2-68e3b8978c09\\\",\\\"msisdn\\\":\\\"84886253608\\\",\\\"session\\\":\\\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3M2I3YzNjYy02NjI5LTRlYjctOTJkNi1mNjAzZGUzZmYxNTYiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJmZmRhNWRmMS1hZjQwLTQ0YTgtYTllMS1iYjEwMDkyN2E3ZWIiLCJpYXQiOjE3ODkxMjE5NjEsImV4cCI6MTc4OTEyMjg2MSwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI1NDgzOGNiNC05MjE2LTRlZTUtOTM0Yi0xZGMzYTkxOGNiODMiLCJwb3N0X3R5cGUiOiIwIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImZhYnptcjVyVDVLSV81c1dMS0t1WTQ6QVBBOTFiRlB4U2E3LUxGUW1rQnFzWnFsSHBzcDktd1ByNWMyVnZmdFZsQ2h1TlpKckxici1CeGtUblBITHVLMGVxbW5YZEJfYmlEZFMxMW9VcG4wTE9VcnR3aWdaVkttZERKalE1NXBhc3VKcnNJckxzcHNrR0kiLCJtc2lzZG4iOiI4NDg4NjI1MzYwOCIsImN1c3RvbWVyX2lkIjoxNjExODUxNn0.GJxNk9Pqd24j81yA1YFhddmwj2MUhBW4bNTkQ3oBTlw\\\",\\\"secureCode\\\":\\\"18e13dc23a9749b7bc61cb77666ef3dc8c59c9817fadae8671df4dccbd74e12b\\\"}\"\n}"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "{\n    \"method\": \"POST\",\n    \"url\": \"https://stagingv2.myvnpt.com.vn/package_service/hvc/checkUD/\",\n    \"headers\": {\n        \"Authorization\": \"Bearer a60bd62fed0cf1076e93af76114f196bd9c5a48155b2bac88afe15c49595414b\",\n        \"Content-Type\": \"application/json\",\n        \"Device-Info\": \"0d59f3cf-16f3-4679-8f5d-3c41efb50aff|0d59f3cf-16f3-4679-8f5d-3c41efb50aff|unknown|Android|48:83:B4:CA:00:6F|3.4.04.Staging|CPH1923|9|48:83:B4:CA:00:6F\",\n        \"Language\": \"vi_VN\"\n    },\n    \"parameters\": {\n        \"requestId\": \"ac69f8d3-0964-4f16-9154-c67916214da3\",\n        \"msisdn\": \"84886253608\",\n        \"session\": \"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3M2I3YzNjYy02NjI5LTRlYjctOTJkNi1mNjAzZGUzZmYxNTYiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJmZmRhNWRmMS1hZjQwLTQ0YTgtYTllMS1iYjEwMDkyN2E3ZWIiLCJpYXQiOjE3ODkxMjE5NjEsImV4cCI6MTc4OTEyMjg2MSwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI1NDgzOGNiNC05MjE2LTRlZTUtOTM0Yi0xZGMzYTkxOGNiODMiLCJwb3N0X3R5cGUiOiIwIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImZhYnptcjVyVDVLSV81c1dMS0t1WTQ6QVBBOTFiRlB4U2E3LUxGUW1rQnFzWnFsSHBzcDktd1ByNWMyVnZmdFZsQ2h1TlpKckxici1CeGtUblBITHVLMGVxbW5YZEJfYmlEZFMxMW9VcG4wTE9VcnR3aWdaVkttZERKalE1NXBhc3VKcnNJckxzcHNrR0kiLCJtc2lzZG4iOiI4NDg4NjI1MzYwOCIsImN1c3RvbWVyX2lkIjoxNjExODUxNn0.GJxNk9Pqd24j81yA1YFhddmwj2MUhBW4bNTkQ3oBTlw\",\n        \"secureCode\": \"bba6dea05a8b1d1e7e45000abdc95b4dbfa866d5a994b8b1f40487b4d202c7fa\"\n    },\n    \"body\": \"{\\\"requestId\\\":\\\"ac69f8d3-0964-4f16-9154-c67916214da3\\\",\\\"msisdn\\\":\\\"84886253608\\\",\\\"session\\\":\\\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3M2I3YzNjYy02NjI5LTRlYjctOTJkNi1mNjAzZGUzZmYxNTYiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJmZmRhNWRmMS1hZjQwLTQ0YTgtYTllMS1iYjEwMDkyN2E3ZWIiLCJpYXQiOjE3ODkxMjE5NjEsImV4cCI6MTc4OTEyMjg2MSwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI1NDgzOGNiNC05MjE2LTRlZTUtOTM0Yi0xZGMzYTkxOGNiODMiLCJwb3N0X3R5cGUiOiIwIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImZhYnptcjVyVDVLSV81c1dMS0t1WTQ6QVBBOTFiRlB4U2E3LUxGUW1rQnFzWnFsSHBzcDktd1ByNWMyVnZmdFZsQ2h1TlpKckxici1CeGtUblBITHVLMGVxbW5YZEJfYmlEZFMxMW9VcG4wTE9VcnR3aWdaVkttZERKalE1NXBhc3VKcnNJckxzcHNrR0kiLCJtc2lzZG4iOiI4NDg4NjI1MzYwOCIsImN1c3RvbWVyX2lkIjoxNjExODUxNn0.GJxNk9Pqd24j81yA1YFhddmwj2MUhBW4bNTkQ3oBTlw\\\",\\\"secureCode\\\":\\\"bba6dea05a8b1d1e7e45000abdc95b4dbfa866d5a994b8b1f40487b4d202c7fa\\\"}\"\n}"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "HVC em gọi vẫn bị lỗi ạ @haihd22 @thuyph312 @ngsong699"
+    },
+    {
+      "sender_name": "Nhi",
+      "text": "@thuyph312 em test hết tất cả các số rồi c ạ ,không số nào thêm được"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@thuyph312 @ngsong699 tối em sẽ cop request để vào file sheet để nhờ a @ngsong699 check giúp em ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Cho c response nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Dạ vầng ạ , để chút em sẽ gửi lại ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "vì file trackking k có cột điền response nên em để ở file tổng hợp vấn đề rồi ạ \nhttps://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601\ndòng 38 ạ @thuyph312"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@PhongNK chủ nhóm thêm thành viên thì phải send otp về số chủ nhóm chứ ạ , anh có nhầm gì k ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "84886510497 là số của member mà anh"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Hiện tại có các vấn đề sau em thấy đã đánh done 11 tháng 9 nhưng em check lại thì chưa được: \n1: Data ưu đãi đặc quyền không có để làm phần đổi quà . Qua em call api thì lại bị lỗi 499\n2.: Dịch vụ tiện ích không cập nhật được \n3: Thêm thành viên HVC chưa được . Đồng nghĩa là cũng k test được case xóa và thay thế \n4: Thêm thành viên Homcombo chưa được . Đồng nghĩa là cũng k test được case xóa và thay thế \n5: Chuyển sang số của thành viên nhóm bị 401 .BE báo miniapp check lại , miniapp đang debug và có thể sẽ nhờ native hỗ trợ  cùng vấn đề này \n6: Hiển thị popup gói cước đang sử dụng .Đã được datatest nhưng ở roaming vẫn đang trả thiếu trường anh Hảihd báo T2 anh Sông check \n\nEm đã note vào cột note của các task, anh chị xem điền lại timeline mới giúp em ạ\nfile : https://docs.google.com/spreadsheets/d/1Rlyj9K5sVI7GT5Mh5oEv6uh7y39iLktAyxwLI01veWE/edit?gid=731997540#gid=731997540\nEm gửi lại những vấn đề còn tồn đọng trong miniapp này ạ @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Gửi về số thành viên nha"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Chủ nhóm add nhưng phải hỏi ý kiến thành viên kiểu thế"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Cái này anh chị em xem khi nào đánh lại timeline end giúp em và nếu cần thì book họp riêng để đảm bảo clear chính xác vấn đề -> đảm bảo chính xác về mặt commit timeline nhé ạ \ncc chị Anh"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "ok để e thử"
+    },
+    {
+      "sender_name": "Quỳnh Đỗ",
+      "text": "Chỗ này luồng cũ gửi otp về số chủ nhóm là đúng nhé ạ, e vừa check rồi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_466840",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chỗ này luồng cũ gửi otp về số chủ nhóm là đúng nhé ạ, e vừa check rồi\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Quỳnh Đỗ</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601",
+    "https://docs.google.com/spreadsheets/d/1Rlyj9K5sVI7GT5Mh5oEv6uh7y39iLktAyxwLI01veWE/edit?gid=731997540#gid=731997540"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260826_141934",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Kim Thien",
+  "timestamp": "14:19 26/08/2026",
+  "trigger_message": "Cái đó do bên Kênh (đầu mối chị Lê Minh) họ quy hoạch để đảm bảo ghi nhận DT/sl theo các quy định, mình ko can thiệp, chỉ can thiệp dc trên các luồng của kênh online thôi (mấy cái đó chị trao đổi nhiều với Media rồi mà, các kênh offline người ta tk có công cụ để kênh họ làm cho KH rồi, KH của kênh đó người ta ko kêu thì mình kêu làm gì, làm tốt TN luồng của mình đi đã)",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vì mình đang gặp vấn đề app cũ/ mới và phải tách thành từng concept cho từng ch trình"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nếu build app cũ thì tự nhiên ae làm chán chê xong sang T10 làm lại từ đầu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@elisetran mấy giờ họp c ơi"
+    },
+    {
+      "sender_name": "Nhu Quynh",
+      "text": "@Hoanganh1109  Tầm 3h nhé Hoàng Anh ơi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Quy trình đóng gói dự kiến:\n• Sau khi phát sinh đơn hàng, hệ thống My VNPT sẽ tự động truyền thông tin đơn hàng sang hệ thống của đơn vị vận chuyển. Đơn vị vận chuyển sẽ trả về mã vận đơn cùng thông tin người gửi/người nhận để địa bàn in và dán lên phong bì thư. Địa bàn không cần thực hiện thao tác tạo vận đơn thủ công.\n• Địa bàn thực hiện chuẩn bị SIM trắng, in thông tin vận đơn và dán lên phong bì thư trước khi bàn giao cho đơn vị vận chuyển đến nhận hàng.\n\nVề phần phong bì thư đóng gói, hiện có 02 phương án như sau:\n• Sử dụng phong bì thư do đơn vị vận chuyển cung cấp (có thể phát sinh chi phí, hiện đang trao đổi với đối tác để đàm phán thêm).\n• Sử dụng phong bì thư do địa bàn tự chuẩn bị.\n\nNhờ các anh/chị cho ý kiến giúp bọn em phương án 2 này có gặp vướng mắc gì trong quá trình triển khai hay không (về quy cách đóng gói, nhận diện thương hiệu, chi phí hoặc các vấn đề vận hành khác) để bên em tổng hợp và hoàn thiện phương án."
+    },
+    {
+      "sender_name": "Kim",
+      "text": "phần quy trình sẽ là ntn nhé ạ"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Kỳ vọng sản lượng luồng giao SIM hỏa tốc\n\nHiện tại, sản lượng luồng giao SIM qua địa bàn tại Hà Nội đạt khoảng 400 đơn/tháng.\n\nViệc triển khai luồng giao SIM hỏa tốc hướng tới mục tiêu nâng cao trải nghiệm khách hàng, đáp ứng nhu cầu nhận SIM trong ngày và giảm thời gian chờ nhận SIM so với các hình thức giao nhận hiện tại.\n\nDo đây là mô hình mới và chưa có dữ liệu thực tế để làm cơ sở dự báo, các số liệu dưới đây được xây dựng theo hướng kỳ vọng vận hành:\n\n• Giai đoạn pilot: kỳ vọng sản lượng đạt khoảng 200 - 300 đơn/tháng, tương đương 50% - 75% sản lượng hiện tại của luồng giao SIM qua địa bàn.\n• Sau khi quy trình vận hành ổn định và mở rộng phạm vi triển khai: kỳ vọng sản lượng đạt khoảng 500 - 700 đơn/tháng, tương đương 125% - 175% sản lượng hiện tại của luồng giao SIM qua địa bàn.\n\nSản lượng thực tế sẽ được theo dõi và đánh giá trong quá trình triển khai để làm cơ sở điều chỉnh phương án vận hành, SLA và kế hoạch mở rộng trong giai đoạn tiếp theo."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "luồng SIM nhận tại PGD là luồng BH011 nhé c @Trangdt171"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Dự kiến hiệu quả sau khi triển khai luồng SIM ship hoả tốc:\n• Hiện trạng: 400 đơn/tháng SIM vật lý vận chuyển qua địa bàn Hà Nội.\n• Giai đoạn pilot: Kỳ vọng 200 - 300 đơn/tháng ship hoả tốc\n• Giai đoạn mở rộng và đẩy mạnh: 400-500 đơn/tháng ship hoả tốc."
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Viết ngắn gọn như này nhé"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Từ đấy thì e báo lại địa bàn 2 nội dung cần trả lời mình, đề xuất timeline phản hồi, tag c Ngọc vào"
+    },
+    {
+      "sender_name": "Huyền Mai",
+      "text": "@quynhmaihavi ơi, cho c xin HDSD CMS Reward Hub với"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Đã golive đâu chị, đang phát triển mà phía BA chưa tổ chức đào tạo công cụ"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Chị ơi, liên quan đến việc định hướng các KH lên MyVNPT để ĐK TTTB, trước em được giải thích là chỉ được vài luồng, còn những luồng khác (đặc biệt là những luồng liên quan đến địa bàn) thì không được vì nó ảnh hưởng đến việc ghi nhận đơn hàng cho nhân viên địa bàn.\n\nTuy nhiên thì mình đều thấy là đưa KH lên được app ĐK TTTB thì sau này họ sẽ có xu hướng sử dụng app cho các hoạt động tiếp theo (mua sim, mua gói...).\n\nEm muốn hỏi là mình đang bị vướng ở đoạn chưa có sở cứ để trao đổi với các đơn vị khác để thuyết phục họ ạ chị, hay còn lí do nào nữa không ạ :?\nVì em thấy LĐ TĐ cũng có VB chỉ đạo về việc đưa tối đa các hoạt động của KH lên môi trường số, nên mình có thể dựa vào đó để làm sở cứ cũng được ạ."
+    },
+    {
+      "sender_name": "Kim Thien",
+      "text": "Cái đó do bên Kênh (đầu mối chị Lê Minh) họ quy hoạch để đảm bảo ghi nhận DT/sl theo các quy định, mình ko can thiệp, chỉ can thiệp dc trên các luồng của kênh online thôi (mấy cái đó chị trao đổi nhiều với Media rồi mà, các kênh offline người ta tk có công cụ để kênh họ làm cho KH rồi, KH của kênh đó người ta ko kêu thì mình kêu làm gì, làm tốt TN luồng của mình đi đã)",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_458633",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cái đó do bên Kênh (đầu mối chị Lê Minh) họ quy hoạch để đảm bảo ghi nhận DT/sl theo các quy định, mình ko can thiệp, chỉ can thiệ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Kim Thien</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260827_142545",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "Đặng Nguyệt",
+  "timestamp": "14:25 27/08/2026",
+  "trigger_message": "Anh @LuatTD, chị [BA_IT_VNPT] Chị Thuỷ IT ơi, e thấy luồng tra cứu đồng bộ đang có 2 API này, thì sẽ dùng API nào ạ:\n_API lấy ds hđ 6tháng : myvnpt_ds_hopdong6thang\n_API lấy biến động tb luỹ kế: sp_media_lay_biendong_thuebao_luyke",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị đã note thông tin bảng và trường dữ liệu rồi em nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Nguyễn Thu Thủy ơi, chị xem đề xuất này của em nha"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị đã note vào tài liệu bên chị rồi"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @alicedinh ơi bảng dữ liệu này có các thông tin rồi ạ. Nhờ chị check và xử lý tiếp ạ"
+    },
+    {
+      "sender_name": "Đinh Nhàn",
+      "text": "Mình đã check xong và điền kết quả ở cột K-L và có câu hỏi/note ở cột M ạ. Nếu cần mình khảo sát thêm thì bảo mình ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "Em chú ý chỗ trạng thái hđ nhé.  trạng thái hđ là trạng thái của thuê bao nên 1 hđ kh sẽ có trường hợp: thuê bao A thì đang ở trạng thái \"Đã hoàn thành\"; thuê bao B đang ở trạng thái \"Đang điều hành thi công\"; Thuê bao C \"Đã thi công xong\""
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị @alicedinh ơi chị cho em hỏi chút ạ, em thấy có trong file note là dump hằng ngày, nghia là cuối ngày T mới lấy hết dữ liệu của ngày đó đúng ko ạ?"
+    },
+    {
+      "sender_name": "Đinh Nhàn",
+      "text": "vâng ạ, để mình ghi rõ độ trễ dữ liệu ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "dạ em cảm ơn chị ạ. nhờ anh Anh Nguyen anh @vietmv92 note giúp em thông tin này ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "anh @LuatTD chị Nguyễn Thu Thủy ơi, với case nếu bọn em gọi API OBC41, case em gọi tần suất 1ph 1 lần thì có ảnh hưởng đến OneBSS ko ạ?"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "Để 3p được k"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "Thuỷ xem báo Qc thực hiện loadtest giúp anh để đánh giá"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "Miễn là thông tin trên app đầy đủ nhất, không cần realtime lắm đâu :D"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "giờ sao còn OBC41 thế nữa a"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "đợt e đã làm lại bộ api tra cứu với Nguyễn Thu Thủy rồi mà"
+    },
+    {
+      "sender_name": "Đặng Nguyệt",
+      "text": "Anh @LuatTD, chị [BA_IT_VNPT] Chị Thuỷ IT ơi, e thấy luồng tra cứu đồng bộ đang có 2 API này, thì sẽ dùng API nào ạ:\n_API lấy ds hđ 6tháng : myvnpt_ds_hopdong6thang\n_API lấy biến động tb luỹ kế: sp_media_lay_biendong_thuebao_luyke",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_215",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh @LuatTD, chị [BA_IT_VNPT] Chị Thuỷ IT ơi, e thấy luồng tra cứu đồng bộ đang có 2 API này, thì sẽ dùng API nào ạ: _API lấy ds h...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đặng Nguyệt</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

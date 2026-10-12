@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260828_145657",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "HOANG PHUONG",
+  "timestamp": "14:56 28/08/2026",
+  "trigger_message": "chỗ này có tối ưu lại luồng dc ko e",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "cháu ko đăng nhập app dc"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@haipt1905 vào xem kìa, iOS đó :D"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Bản store à c :( c kill app thử lại xem e với c @ngngthaonhu"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "đang call saveConsent á c"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E có show loading ở đây rùi :v hay mạng chậm tí nên nó lag ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Đây là c hết session"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Tự logout"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "C thử các loại mạng r"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-28 14:41:43.792 INFO com.vnpt.logging.LoggingService - ---------------------------LOGGING REQUEST START----------------------------------- [VERSION]: TEL.unknown.unknown.unknown.unknown.unknown [IP]: 113.185.83.179 [API-PATH]: /tel_service/active_sim/v2/validateMxt [REQUEST-ID]: afc7c097-e747-4bef-9be3-c98259b522ab [DEVICE-INFO]: 6C9C8495-E4CF-43E3-9260-4890764DF28A|||iOS||5.5.7-2026081302|iPhone 12 Pro Max|26.6| [BODY REQUEST]: {\"orderId\":\"MYVNPT2026082523708310\",\"mxt\":\"499726\",\"activeToken\":\"ae71b0eb161fddc730055b3699571d638f5c19a9fa9beeb9594d69c18e141ef6\",\"msisdn\":\"84855933972\",\"session\":\"xxx\",\"requestId\":\"e464ba47-fc44-411d-9751-b3d5f62387c3\"} ---------------------------LOGGING REQUEST END-----------------------------------"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-28 14:41:43.811 INFO com.vnpt.logging.LoggingService - -------------------------LOGGING RESPONSE START--------------------- [API-PATH]: /tel_service/active_sim/v2/validateMxt [REQUEST-ID]: afc7c097-e747-4bef-9be3-c98259b522ab [TIME_PROCESS]: 26 ms [BODY RESPONSE]: {\"error_code\":\"1203\",\"messages\":\"Mã giữ số này đang không dành cho số điện thoại bạn đăng ký kích hoạt. Vui lòng kiểm tra lại\"} -------------------------LOGGING RESPONSE END---------------------"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "KH nhập đúng mã GS rồi; mà sao vẫn báo là không đúng vậy nhỉ @ngthuyanh"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "khởi tạo thành công chưa ạ anh"
+    },
+    {
+      "sender_name": "HOANG PHUONG",
+      "text": "chỗ này có tối ưu lại luồng dc ko e",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3633",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chỗ này có tối ưu lại luồng dc ko e\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>HOANG PHUONG</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

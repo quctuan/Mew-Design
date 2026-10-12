@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260904_161051",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Phong Nguyen",
+  "timestamp": "16:10 04/09/2026",
+  "trigger_message": "2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:61 - Running job: TransactionReconciledPackageZeroJob at 2026-09-02T12:33:00.082\n2026-09-02 12:33:00 INFO  EmailQueueServiceImpl:80 - PushEmailQueueJob-2026-09-02T12:33:00.004 update SIMSO_ORDERS emailQueued = 1, result = 1\n2026-09-02 12:33:00 INFO  EmailQueueServiceImpl:117 - PushEmailQueueJob-2026-09-02T12:33:00.004 insert record in table EMAIL_QUEUE, result = 1\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:77 - TransactionReconciledPackageZeroJob-20260902123300 Tìm thấy file: bao_cao_goi_31082026.csv\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:94 - TransactionReconciledPackageZeroJob-20260902123300 | Số giao dịch trong file CSV bao_cao_goi_31082026.csv cần xử lý: 1073\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroServiceImpl:205 - TransactionReconciledPackageZeroJob-20260902123300 Update topup status for table TRANSACTION_ADDTIONAL_INFO, resultUpdate = 1\n2026-09-02 12:33:00 WARN  SqlExceptionHelper:137 - SQL Error: 932, SQLState: 42000\n2026-09-02 12:33:00 ERROR SqlExceptionHelper:142 - ORA-00932: inconsistent datatypes: expected DATE got NUMBER\n\n2026-09-02 12:33:00 INFO  AbstractBatchImpl:213 - HHH000010: On release of batch it still contained JDBC statements\n2026-09-02 12:33:00 ERROR SimsoOrderCustomeRepositoryImpl:52 - TransactionReconciledPackageZeroJob-20260902123300 | ex: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement\n2026-09-02 12:33:00 ERROR TransactionReconciledPackageZeroJob:128 - TransactionReconciledPackageZeroJob-20260902123300 | ex: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement",
+  "context_history": [
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@thongnm ko login đc à a"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "đc r a"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": ":vv"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "môi trường nào thế Tuấn ?"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "ukie"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Con job này  chỗ Giang và Triều đẩy code cho con job refund lại đang để nhầm kiểu dữ liệu cho cột active_date(nó là kiểu Date nhưng lại đang để Long )  trên entity simso_order  -> làm ảnh hưởng tới job khác (TransactionReconciledPackageZeroJob Chỗ Nam )   inconsistent datatypes: expected DATE got NUMBER   ."
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "ae thay đổi gì mà lại lỗi này e???"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "sửa cho vui hay sao ae???"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Triều nó để nhầm kiều Date thành Long 😭"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "cái job refund e test ok r, còn job kia e k có thông tin là job gì, e chạy thử ở staging thì nó đang lỗi kia a"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "ae để ý chỗ này, mọi thứ có thể lừa dối, nhưng log thì không"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "đến log còn không đúng nữa thì chịu"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "đã chuẩn chưa nhỉ e?"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Chuẩn anh ạ"
+    },
+    {
+      "sender_name": "Rùa Con",
+      "text": "vậy đã fix ở staging chưa ae?"
+    },
+    {
+      "sender_name": "Phong Nguyen",
+      "text": "2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:61 - Running job: TransactionReconciledPackageZeroJob at 2026-09-02T12:33:00.082\n2026-09-02 12:33:00 INFO  EmailQueueServiceImpl:80 - PushEmailQueueJob-2026-09-02T12:33:00.004 update SIMSO_ORDERS emailQueued = 1, result = 1\n2026-09-02 12:33:00 INFO  EmailQueueServiceImpl:117 - PushEmailQueueJob-2026-09-02T12:33:00.004 insert record in table EMAIL_QUEUE, result = 1\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:77 - TransactionReconciledPackageZeroJob-20260902123300 Tìm thấy file: bao_cao_goi_31082026.csv\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:94 - TransactionReconciledPackageZeroJob-20260902123300 | Số giao dịch trong file CSV bao_cao_goi_31082026.csv cần xử lý: 1073\n2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroServiceImpl:205 - TransactionReconciledPackageZeroJob-20260902123300 Update topup status for table TRANSACTION_ADDTIONAL_INFO, resultUpdate = 1\n2026-09-02 12:33:00 WARN  SqlExceptionHelper:137 - SQL Error: 932, SQLState: 42000\n2026-09-02 12:33:00 ERROR SqlExceptionHelper:142 - ORA-00932: inconsistent datatypes: expected DATE got NUMBER\n\n2026-09-02 12:33:00 INFO  AbstractBatchImpl:213 - HHH000010: On release of batch it still contained JDBC statements\n2026-09-02 12:33:00 ERROR SimsoOrderCustomeRepositoryImpl:52 - TransactionReconciledPackageZeroJob-20260902123300 | ex: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not execute statement\n2026-09-02 12:33:00 ERROR TransactionReconciledPackageZeroJob:128 - TransactionReconciledPackageZeroJob-20260902123300 | ex: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3715",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"2026-09-02 12:33:00 INFO  TransactionReconciledPackageZeroJob:61 - Running job: TransactionReconciledPackageZeroJob at 2026-09-02T...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Phong Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

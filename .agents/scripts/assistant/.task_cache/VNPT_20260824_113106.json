@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260824_113106",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Son Do",
+  "timestamp": "11:31 24/08/2026",
+  "trigger_message": "dạ chị @elisetran chị @Trangdt171 ơi, em vẫn tiếp tục trao đổi với ABBank các thông tin cần thiết để xây dựng luồng sản phẩm bên mình đúng không ạ?",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thế có được tính là Final 80% k c :))"
+    },
+    {
+      "sender_name": "Huyền Mai",
+      "text": "nhìn sườn bài thì có thể ok đó"
+    },
+    {
+      "sender_name": "Huyền Mai",
+      "text": "còn nhìn chi tiết thì chắc chưa :("
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "chưa có các gói cụ thể hả c"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@huyenmmai sếp ơi có đổi đc các activities theo cái chủ đề club với dân chơi k"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "bắn cung với rung cây hơi lạc đề :v"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "rung cột thì ok hơn"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@Trangdt171 @tkim03 ơi mình chốt ndung phản hồi vs địa bàn chưa? mng gửi địa bàn nehs"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nhớ push timeline phản hồi từ họ nha"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "những ndung về tiêu chuẩn đóng gói thì chắc alo bên GHTK là hỏi dc luôn mà nhỉ? thì mình trả lời địa bàn luôn"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "em đang trao đổi về quy trình đóng gói r ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ukii ❤️"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Hôm nay sẽ phải hồi được các nội dung sau nhé @tkim03:\n1. Quy trình đóng gói\n2. Dự kiến hiệu quả, số lượng SIM đăng ký hoả tốc"
+    },
+    {
+      "sender_name": "Nhu Quynh",
+      "text": "@Hoanganh1109 Hoàng Anh ơi, job hợp tác với bên TW Đoàn, trong hôm nay bên mình đang cần hoàn thiện phương án kinh doanh của chương trình 1 \"Bán sớm SIM VIBE tặng voucher khi khách hàng mua qua kênh TW Đoàn - app TNVN\" (Luồng bán qua Landing page).\n\nTrong đó có 03 nội dung này nhờ Hoàng Anh nghiên cứu, đề xuất luồng trải nghiệm khách hàng và ghi nhận cho B2B nha.\n\n• Luồng mua SIM VIBE (khách hàng thực hiện mua SIM trên app My VNPT, luồng đăng nhập như nào cho ghi nhận thông tin từ app TNVN không, làm sao để lưu vết được khách hàng này từ nguồn app TNVN/ladingpage)\n• Luồng trả thưởng voucher trên app My VNPT (luồng trả thưởng hiện tại nên như thế nào để khả thi triển khai được trong tháng 9/2026)\n• Luồng sử dụng voucher trên app My VNPT"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "oke chị bọn e cũng đang nghĩ luồng rồi"
+    },
+    {
+      "sender_name": "Son Do",
+      "text": "dạ chị @elisetran chị @Trangdt171 ơi, em vẫn tiếp tục trao đổi với ABBank các thông tin cần thiết để xây dựng luồng sản phẩm bên mình đúng không ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_457211",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"dạ chị @elisetran chị @Trangdt171 ơi, em vẫn tiếp tục trao đổi với ABBank các thông tin cần thiết để xây dựng luồng sản phẩm bên m...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Son Do</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

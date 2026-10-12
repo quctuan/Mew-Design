@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260826_140421",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di Động - Tra cứu lịch sử sử dụng",
+  "sender_name": "Aiden Le",
+  "timestamp": "14:04 26/08/2026",
+  "trigger_message": "Nên tạm thời em sẽ k làm tròn nữa anh @quctuan nhé, có gì hôm sau bàn giao anh chị dùng thử cần gì cải tiến chỗ này cứ báo lại em ạ",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Hiện tại api đang trả về từng tin nhắn một, trải phẳng, k gộp. Logic gộp nằm ở client. \nChị phải clear cho em rõ là từng group sms 1 là nó phải cùng ngày, cùng thuê bao\nHay chỉ cần cùng thuê bao thôi\n\nNếu chỉ gộp theo cùng thuê bao -> Ấn vào chi tiết thì sẽ hiện đúng thuê bao đó nhưng sẽ khác ngày\nNếu gộp cả 2 yếu tố thì khi mở ra mới được là hiển thị đúng thuê bao đó thôi và trong cùng 1 ngày"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "tức là group by cả thuê bao và ngày tháng đúng k ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "gom theo thuê bao và theo ngày tháng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xem chi tiết ngày đó thì ấy theo từng giờ phút"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Ok ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "clear r ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Cái title mình để max bao nhiêu dòng ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @havietngn"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @ngngthaonhu ơi hiện tại đang làm cột oy của biểu đồ theo logic làm tròn, ở đây giá trị cao nhất là 1410 thì cột oy mốc lớn nhất đang để là 1450 cơ mà khi chia thành các mốc nó bị lẻ ( 1087,5 ) thì mình có cần làm tròn bỏ số thập phân ở các mốc k ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Có, làm tròn giúp em ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "1 thui ạ, nếu dài hơn thì trimtext giúp mình"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "làm tròn cả k ổn lắm, vì có những case dữ liệu bé, bắt buộc phải để thập phân anh ạ."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Ví dụ max có 6 thôi chẳng hạn chắc chắn phải có mấy mốc 4.5 với 1.5 nếu làm tròn đi thì sai hết dữ liệu."
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Nên tạm thời em sẽ k làm tròn nữa anh @quctuan nhé, có gì hôm sau bàn giao anh chị dùng thử cần gì cải tiến chỗ này cứ báo lại em ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5521166621_458626",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nên tạm thời em sẽ k làm tròn nữa anh @quctuan nhé, có gì hôm sau bàn giao anh chị dùng thử cần gì cải tiến chỗ này cứ báo lại em ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Aiden Le</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,76 @@
+{
+  "task_id": "VNPT_20260914_192549",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "19:25 14/09/2026",
+  "trigger_message": "có lẽ cần techlead vào xem luồng implement hiện tại thế nào và thống nhất chi tiết các field luôn nhé",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỗ này có Hà phần gói cước, topup. còn Mai thì nắm luồng đổi esim a ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "mình định setup ntn cho phù hợp a nhỉ?"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm anh cũng đang xem trao đổi với anh San xem có chia thời gian cho 3 luồng này không"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mai ( @quynhmaihavi ), Hà ( @havietngn ) nắm thông tin tối nay join nhé, Dự kiến 8h30 bắt đầu, còn thời gian cụ thể cho từng Mục nếu clear được với chỗ anh San thì anh sẽ báo lại."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Tối nay cần phần quản trị các phương thức thanh toán và hoàn thiện nốt 2 luồng 4g, topup nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ), chị Thủy ( @lalethuy )\n\nxem giúp em PO và BA đang làm phần này giúp em để tối nay join trao đổi với anh San nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỗ này Son join giúp a nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "E hỏi Linh và T. anh đi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Nay c đang đau họng và ho nên k tham gia đâu"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "8h30 - Tối nay Sơn ( Son Do - PO - GDS ), Hà ( @havietngn ), chị Linh ( @nguyenngoclinh1 ), Thùy Anh ( @ngthuyanh ) join cùng nhé ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "có lẽ cần techlead vào xem luồng implement hiện tại thế nào và thống nhất chi tiết các field luôn nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_468001",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"có lẽ cần techlead vào xem luồng implement hiện tại thế nào và thống nhất chi tiết các field luôn nhé\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

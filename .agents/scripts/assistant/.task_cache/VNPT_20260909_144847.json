@@ -1,0 +1,100 @@
+{
+  "task_id": "VNPT_20260909_144847",
+  "group_name": "Line 1: Super App",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "14:48 09/09/2026",
+  "trigger_message": "chị  c @lalethuy @nguyenngoclinh1 c @ngngthaonhu a @erictrannn ơi, hiện để hiển thị được các gói k bán trên My VNPT thì bên e có thiết kế thêm 1 section riêng trong bts Các gói đang sử dụng (https://www.figma.com/design/yO7NYj7heKt2ExHRnrl16G/Qu%E1%BA%A3n-l%C3%BD-G%C3%B3i-c%C6%B0%E1%BB%9Bc%E2%80%A8--D%E1%BB%8Bch-v%E1%BB%A5?node-id=4128-5192&t=Me368coeWuZe8wDm-4)\nKhi nhấn vào gói cước => điều hướng đến chi tiết gói cước ko bán trên MyVNPT (bsung màn mới trên miniapp VNPT Shop) (https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=51283-164765&t=E8kepQoyFnGs6HiF-4)\n\nVậy nhờ mn đánh giá giúp e để e tạo task nhé ạ \ncc c Anh Nguyen ạ",
+  "context_history": [
+    {
+      "sender_name": "Nam",
+      "text": "a @leanhvu88 ơi task [Gói cước di động] Bổ sung luồng check điều kiện đăng ký gói BA là c Linh. Trao đổi chung a trao đổi ở gr này nhé"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "@nguyenngoclinh1 @name688899 anh xin jira + srs vs nhé timeline dự kiến bao h nhỉ"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "timeline chung thì phải hỏi PM chứ anh :))"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "còn em estimate phần SRS của BA thôi ạh, phần này phát sinh, 11/9 e bàn giao SRS nhé anh"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "vậy chỗ này bao h có srs nhỉ , timeline của PM là bao h @name688899  nhỉ. Anh mới join cũng chưa rõ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "c Anh bảo e lên chung cùng hôm 15/10"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "chỗ này vậy dev cần xong stagging bao h nhỉ Anh Nguyen"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Con này mong muốn lên cùng đợt QW Di Động 15/10. cần tichs hợp xong trước 5/10 để Qc test ạ"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "oke vậy anh gi nhận chỗ này dev BE nhận kế hoạch dev xong stagging là 4/10 nhé. để anh trao đổi BA phân tích SRS rồi báo lại cụ thể sau ngày có srs nếu có phát sinh nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "em tag a trong ticket sau khi có duedate từ BA để a tạo subtask và set timeline cho subtask nhé ạ"
+    },
+    {
+      "sender_name": "Vu",
+      "text": "oke e"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "SELFCARE.PACKAGE ==> gói di động\nMYVNPT.WIRED_PACKAGE ==> gói brcđ\nMYVNPT_NEW.TBL_CATEGORY ==>  danh mục (chung cả gói di động lẫn brcđ)\nSELFCARE.PACKAGE_CATEGORY ==> map danh mục với gói di động\nMYVNPT.WIRED_PACKAGE_CATEGORY ==> map danh mục mới gói brcđ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@erictrannn ơi, chỗ này để đảm bảo khi golive Line 1 các gói cước khai test trước trên beta rồi khi golive chuyển sang môi trường product. Mà ko cần khai lại thông tin gói nữa, chỉ cần chuyển môi trường. Chỗ này BE sẽ dò qua xem các api cần nâng cấp bắt thêm chỗ môi trường, cần nhờ bên App phối hợp cùng. C Anh cho e xin 1 ae App support cùng được"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": ":D vâng a, nhờ ae dev hỗ trợ nhé để trong quá trình chuyển đổi k bị ảnh hưởng cái luồng cũ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "các công cụ khai báo thì ae CMS cx đã hỗ trợ khai báo chia 2 môi trường beta/production, giờ cần ae BE và App hỗ trợ tiếp"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chị  c @lalethuy @nguyenngoclinh1 c @ngngthaonhu a @erictrannn ơi, hiện để hiển thị được các gói k bán trên My VNPT thì bên e có thiết kế thêm 1 section riêng trong bts Các gói đang sử dụng (https://www.figma.com/design/yO7NYj7heKt2ExHRnrl16G/Qu%E1%BA%A3n-l%C3%BD-G%C3%B3i-c%C6%B0%E1%BB%9Bc%E2%80%A8--D%E1%BB%8Bch-v%E1%BB%A5?node-id=4128-5192&t=Me368coeWuZe8wDm-4)\nKhi nhấn vào gói cước => điều hướng đến chi tiết gói cước ko bán trên MyVNPT (bsung màn mới trên miniapp VNPT Shop) (https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=51283-164765&t=E8kepQoyFnGs6HiF-4)\n\nVậy nhờ mn đánh giá giúp e để e tạo task nhé ạ \ncc c Anh Nguyen ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_464367",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chị  c @lalethuy @nguyenngoclinh1 c @ngngthaonhu a @erictrannn ơi, hiện để hiển thị được các gói k bán trên My VNPT thì bên e có t...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=51283-164765&t=E8kepQoyFnGs6HiF-4)",
+    "https://www.figma.com/design/yO7NYj7heKt2ExHRnrl16G/Qu%E1%BA%A3n-l%C3%BD-G%C3%B3i-c%C6%B0%E1%BB%9Bc%E2%80%A8--D%E1%BB%8Bch-v%E1%BB%A5?node-id=4128-5192&t=Me368coeWuZe8wDm-4)"
+  ],
+  "doc_links": []
+}

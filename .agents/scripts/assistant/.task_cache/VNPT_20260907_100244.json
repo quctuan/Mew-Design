@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260907_100244",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Thành NV",
+  "timestamp": "10:02 07/09/2026",
+  "trigger_message": "@quctuan ơi đoạn điều hướng này có chưa nhỉ",
+  "context_history": [
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "màn này là màn nào e nhỉ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "màn điện/nước cũ thui a ạ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "ok e"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Khum"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "1 cốc bia z"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "phần mời thêm thành viên , đang để 2 item 1 dòng, nếu ko đủ thì em cho scroll ngang đc ko anh @quctuan  nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Oke em, nma đừng để bị cắt như chỗ khoanh đỏ nhá. Cho đến mép màn hình giúp a với"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "là sao anh nhỉ, text nó dài quá ko đủ ấy"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "là mình cho nó tự scroll luôn à anh"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chứ ko phải đợi ng dùng thao tác"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à ko, ý là đang bị cắt lẹm chỗ này"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "vâng vậy em sẽ để bằng viền, còn lại để ng dùng tự thao tác scroll ngang để xem hết"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okii"
+    },
+    {
+      "sender_name": "Thành NV",
+      "text": "@quctuan ơi đoạn điều hướng này có chưa nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_462228",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ơi đoạn điều hướng này có chưa nhỉ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thành NV</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

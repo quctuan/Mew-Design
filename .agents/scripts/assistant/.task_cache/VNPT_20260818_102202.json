@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260818_102202",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "10:22 18/08/2026",
+  "trigger_message": "ơ tg vụ này c @celene_ne đang trao đổi với dev điều chỉnh design",
+  "context_history": [
+    {
+      "sender_name": "Tubi",
+      "text": "Ơ Emi tóc thẳng"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "chắc vì EMI tương lai khác với hiện tại"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Chỉ là đổi kiểu tóc"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ăn sáng ko mn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Hay ra ngoài ăn sáng lượn lờ k mn"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Mọi ngừi đâu ruig"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Mn checkout chưa dị"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chưa"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Chị toy vẫn rất chill =))"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Mng ai đi ăn k 😄"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@tubibitu90 chị ơi cứu e chỗ này phát"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "anh ơi đang thiếu tên tiếng anh của các button:\nXem trạng thái  đơn hàng\nXem thông tin eSIM\nCài đặt eSIM ngay\nMua thêm thẻ cào\nCách dùng dịch vụ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Tiền xe cộ mấy hôm các bạn hú lên nhóm nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@quynhmaihavi e hỏi chút, chị có biết hiện tại muốn dùng lại landing page giới thiệu các gói của Roaming trước đây đã làm thì làm ntn k nhỉ? Bên KD đang muốn tận dụng lại để gửi mời khách dùng gói qua mấy kênh noti, sms,..."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ơ tg vụ này c @celene_ne đang trao đổi với dev điều chỉnh design",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_453980",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"ơ tg vụ này c @celene_ne đang trao đổi với dev điều chỉnh design\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hà PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

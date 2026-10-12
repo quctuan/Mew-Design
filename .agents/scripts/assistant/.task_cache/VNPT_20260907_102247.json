@@ -1,0 +1,79 @@
+{
+  "task_id": "VNPT_20260907_102247",
+  "group_name": "[MEIDA-VNP] Tặng điểm BRCD OMO",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "10:22 07/09/2026",
+  "trigger_message": "Dear chị @maihuongvnes , anh @nttung0112, chị Chị Thảo dictionary, chị Đỗ Minh , chị Thao Linh, chị Anh , @NguyetDang, chị @lalethuy , @GiangTTH \nCC anh @dotrungthanh , chị @myntt2703 , anh @vietmv92 \nEm gửi MoM cuộc họp hôm nay ngày 4/9/2026, nội dung liên quan đến kịch bản tặng điểm BRCD OMO như sau:  \n1.Chốt kịch bản gồm hai nội dung:\n_ Chương trình tặng 5000 điểm cho khách hàng phát triển mới BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) hoàn thành đơn thực hiện xác nhận nhận điểm trên App MYVNPT\n_ Chương trình tặng 1000 điểm cho khách hàng đánh giá đơn hàng hoàn thành hoặc đánh giá và trải nghiệm nghiệm thu đơn hàng BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) thực hiện xác nhận nhận điểm trên App MYVNPT\n2. Hướng xử lý kịch bản: \n_ Hướng chính (FT đã có API, MyVNPT đánh giá thông tin gửi để đăng ký phía MyVNPT có đủ thông tin hay không): \n+ Ưu tiên gọi tặng điểm realtime với trường hợp khách hàng đã có tài khoản V+ \n+ Auto tạo tài khoản V+ và tặng điểm ngay tại luồng đăng ký MyVNPT với khách hàng chưa có tài khoản — với điều kiện MyVNPT đủ thông tin KH\n_ Nhánh phụ khi dữ liệu đăng ký tự động không đáp ứng:\n+ Nếu không auto được → quay lại luồng đẩy file, tận dụng luồng đẩy file V+ cũ và phối hợp với IT (khi đó phải xử lý độ trễ,  độ trễ phản hồi và đăng ký T+1)\n3. Việc cần làm:\nFT gửi API luồng đăng ký cho GDS. Nhờ @GiangTTH , chị Chị Thảo dictionary , chị @maihuongvnes hỗ trợ\nGDS check API: đủ trường tạo tài khoản V+ không? Nhờ @NguyetDang hỗ trợ , CC chị @thuy\nGDS hỏi IT: hiện có SMS \"lắp đặt thành công\" chưa? Sửa được template để thêm link nhận điểm không? Trường hợp chưa có SMS, sử dụng trước luồng noti trên App MyVNPT\n(Case dự phòng trong trường hợp luồng chính ko đủ dữ liệu) GDS anh @vietmv92 tìm đầu mối IT phối hợp đẩy dữ liệu, hỏi IT khả năng cộng điểm real-time.\nNgoài ra đánh giá thêm timeline cho trường hợp đăng ký tự động phía FT cần tách luồng và cấp API riêng cho MyVNPT so với luồng đăng ký chủ động của khách hàng qua App",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear chị @maihuongvnes , anh @nttung0112, chị Chị Thảo dictionary, chị Đỗ Minh , chị Thao Linh, chị Anh , @NguyetDang, chị @lalethuy , @GiangTTH \nCC anh @dotrungthanh , chị @myntt2703 , anh @vietmv92 \nEm gửi MoM cuộc họp hôm nay ngày 4/9/2026, nội dung liên quan đến kịch bản tặng điểm BRCD OMO như sau:  \n1.Chốt kịch bản gồm hai nội dung:\n_ Chương trình tặng 5000 điểm cho khách hàng phát triển mới BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) hoàn thành đơn thực hiện xác nhận nhận điểm trên App MYVNPT\n_ Chương trình tặng 1000 điểm cho khách hàng đánh giá đơn hàng hoàn thành hoặc đánh giá và trải nghiệm nghiệm thu đơn hàng BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) thực hiện xác nhận nhận điểm trên App MYVNPT\n2. Hướng xử lý kịch bản: \n_ Hướng chính (FT đã có API, MyVNPT đánh giá thông tin gửi để đăng ký phía MyVNPT có đủ thông tin hay không): \n+ Ưu tiên gọi tặng điểm realtime với trường hợp khách hàng đã có tài khoản V+ \n+ Auto tạo tài khoản V+ và tặng điểm ngay tại luồng đăng ký MyVNPT với khách hàng chưa có tài khoản — với điều kiện MyVNPT đủ thông tin KH\n_ Nhánh phụ khi dữ liệu đăng ký tự động không đáp ứng:\n+ Nếu không auto được → quay lại luồng đẩy file, tận dụng luồng đẩy file V+ cũ và phối hợp với IT (khi đó phải xử lý độ trễ,  độ trễ phản hồi và đăng ký T+1)\n3. Việc cần làm:\nFT gửi API luồng đăng ký cho GDS. Nhờ @GiangTTH , chị Chị Thảo dictionary , chị @maihuongvnes hỗ trợ\nGDS check API: đủ trường tạo tài khoản V+ không? Nhờ @NguyetDang hỗ trợ , CC chị @thuy\nGDS hỏi IT: hiện có SMS \"lắp đặt thành công\" chưa? Sửa được template để thêm link nhận điểm không? Trường hợp chưa có SMS, sử dụng trước luồng noti trên App MyVNPT\n(Case dự phòng trong trường hợp luồng chính ko đủ dữ liệu) GDS anh @vietmv92 tìm đầu mối IT phối hợp đẩy dữ liệu, hỏi IT khả năng cộng điểm real-time.\nNgoài ra đánh giá thêm timeline cho trường hợp đăng ký tự động phía FT cần tách luồng và cấp API riêng cho MyVNPT so với luồng đăng ký chủ động của khách hàng qua App"
+    },
+    {
+      "sender_name": "Huong",
+      "text": "@quynhmaihavi ơi add giúp chị @GiangTTH vào nhé"
+    },
+    {
+      "sender_name": "Huong",
+      "text": "bên c k add đc"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Thao Linh, chị Đỗ Minh ơi, sau khi check với IT về SMS, bên It đang báo là hiện có SMS nội mạng sau khi hoàn thành hđ lắp đặt nhưng chỉ nhắn được số nội mạng, không nhắn đc cho thuê bao ngoại mạng, các chị có muốn tận dụng luôn luồng này ko ạ?"
+    },
+    {
+      "sender_name": "Đỗ Minh",
+      "text": "Nội mạng thì thêm vào SMS này ok em ạ, còn phần ngoại mạng lại là chủ yếu thì SMS từ đâu nhỉ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Hiện theo phản hồi của IT thì ngoại mạng ko có SMS chị ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Đỗ Minh , chị Thao Linh ơi, em thông tin lại là phía IT vừa check code lại thì ko còn SMS nào thông báo hoàn thành đơn thành công đâu ạ, 2 chị nắm thông tin đánh giá xem mình có bổ sung SMS hay ko và qua BRN nào nhé ạ"
+    },
+    {
+      "sender_name": "Đỗ Minh",
+      "text": "Vậy Thảo Linh xem về mặt sản phẩm nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị @maihuongvnes , @GiangTTH ơi, gửi lại giúp bên em API để bên em đánh giá input với ạ. CC @NguyetDang , @ngngthaonhu nhé"
+    },
+    {
+      "sender_name": "Giangg",
+      "text": "em vào nhóm sau em đang không thấy tin nhắn trước ạ, chị Mai cho em xin lại nội dung với"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Dear chị @maihuongvnes , anh @nttung0112, chị Chị Thảo dictionary, chị Đỗ Minh , chị Thao Linh, chị Anh , @NguyetDang, chị @lalethuy , @GiangTTH \nCC anh @dotrungthanh , chị @myntt2703 , anh @vietmv92 \nEm gửi MoM cuộc họp hôm nay ngày 4/9/2026, nội dung liên quan đến kịch bản tặng điểm BRCD OMO như sau:  \n1.Chốt kịch bản gồm hai nội dung:\n_ Chương trình tặng 5000 điểm cho khách hàng phát triển mới BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) hoàn thành đơn thực hiện xác nhận nhận điểm trên App MYVNPT\n_ Chương trình tặng 1000 điểm cho khách hàng đánh giá đơn hàng hoàn thành hoặc đánh giá và trải nghiệm nghiệm thu đơn hàng BRCD (đơn hàng chứa tối thiểu 1 thuê bao fiber) thực hiện xác nhận nhận điểm trên App MYVNPT\n2. Hướng xử lý kịch bản: \n_ Hướng chính (FT đã có API, MyVNPT đánh giá thông tin gửi để đăng ký phía MyVNPT có đủ thông tin hay không): \n+ Ưu tiên gọi tặng điểm realtime với trường hợp khách hàng đã có tài khoản V+ \n+ Auto tạo tài khoản V+ và tặng điểm ngay tại luồng đăng ký MyVNPT với khách hàng chưa có tài khoản — với điều kiện MyVNPT đủ thông tin KH\n_ Nhánh phụ khi dữ liệu đăng ký tự động không đáp ứng:\n+ Nếu không auto được → quay lại luồng đẩy file, tận dụng luồng đẩy file V+ cũ và phối hợp với IT (khi đó phải xử lý độ trễ,  độ trễ phản hồi và đăng ký T+1)\n3. Việc cần làm:\nFT gửi API luồng đăng ký cho GDS. Nhờ @GiangTTH , chị Chị Thảo dictionary , chị @maihuongvnes hỗ trợ\nGDS check API: đủ trường tạo tài khoản V+ không? Nhờ @NguyetDang hỗ trợ , CC chị @thuy\nGDS hỏi IT: hiện có SMS \"lắp đặt thành công\" chưa? Sửa được template để thêm link nhận điểm không? Trường hợp chưa có SMS, sử dụng trước luồng noti trên App MyVNPT\n(Case dự phòng trong trường hợp luồng chính ko đủ dữ liệu) GDS anh @vietmv92 tìm đầu mối IT phối hợp đẩy dữ liệu, hỏi IT khả năng cộng điểm real-time.\nNgoài ra đánh giá thêm timeline cho trường hợp đăng ký tự động phía FT cần tách luồng và cấp API riêng cho MyVNPT so với luồng đăng ký chủ động của khách hàng qua App",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5565839268_462268",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear chị @maihuongvnes , anh @nttung0112, chị Chị Thảo dictionary, chị Đỗ Minh , chị Thao Linh, chị Anh , @NguyetDang, chị @laleth...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Anh Nguyen</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Anh Nguyen</b>",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 34,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "⚡ Khẩn: \"hôm nay\"",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

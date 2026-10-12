@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260907_151229",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "15:12 07/09/2026",
+  "trigger_message": "Dear anh @Phantom102 , @vaanha , cc chị Anh , em gửi lại tóm tắt vấn đề thanh toán, đối soát hiện tại như sau:\nI. Hiện trạng làm việc với các bên, đánh giá khả thi:\n1. Phía FT:\n• Xác nhận có thể đáp ứng các đề bài thanh toán (theo hướng bán mới hoặc thu hộ) => Dự kiến triển khai theo hướng thu hộ để đồng bộ luồng với toàn bộ kênh bán.\n• Phương thức, phí kinh doanh đã đề xuất\n2. Phía VNP: xác nhận có thể đứng ra đối soát tập trung nhưng cần GDS phối hợp xây dựng quy trình triển khai đồng bộ\n3. Phía địa bàn: cf có thể triển khai phương án đối soát tập trung \n II. Đánh giá, đề xuất:\n• Hiện tại vấn đề thanh toán, đối soát đang chậm, rủi ro mốc golive 15/10 và ảnh hưởng tới luồng  BRCD OMO đang đề xuất với các bên\n• Đề xuất phía Kinh doanh (GDS) trao đổi phối hợp, làm việc với kế toán VNP, đại bàn, kế toán TCT để xác định phương án, vai trò các bên, quy trình và biểu mẫu đối soát \n• Chậm nhất 10/9 chốt phương án.\n CC báo cáo: anh @hoangmanhcuong , chị @myntt2703 nắm thông tin",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear anh @hocnv2010 , chị @myntt2703 , anh @vietmv92 , chị @lalethuy , @ngngthaonhu , @NguyetDang , @vaanha , chị @thuyph312 , anh @xhphuong1984 , Thiều Minh Anh 🐯 , chị Anh , anh @vietmv92 , anh @PhongNK , anh @nduythanh , anh @Tuanjnfor \nEm đồng bộ lại thông tin họp thanh toán, hoàn tiền, đối soát với FT với nội bộ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear anh @ducnanh , chị Vân , chị Mai , anh @Phantom102 , Son , chị Anh \nCC anh @dotrungthanh , chị @myntt2703 , anh @vietmv92 \nCC nắm thông tin anh @hocnv2010 , chị @lalethuy , @NguyetDang \nEm gửi lại MoM cuộc họp hôm nay\nHọp về Thanh toán, Đối soát và Hoàn tiền luồng Lắp đặt BRCD (04/09/2026)\nMô hình đối soát\n_ FT khuyến nghị đi theo luồng thu hộ giống với luồng bán SIM và đối soát sẽ giống luồng đó (không phải làm gì mới)\n+ Lí do: Đơn lắp mới đồng bộ từ địa bàn, My VNPT thực hiện thu hộ tiền ==> nên đi theo mô hình thu hộ tiền\n_ GDS đối soát với FT phần tiền; GDS đối soát với VNP phần hàng\nPhương thức thanh toán:\n_ Nguồn tiền cho phép với dịch vụ này: kinh doanh GDS chốt tất cả nguồn tiền ngoại trừ thẻ quốc tế:\n+ Ví\n+ MM\n+ VietQR\n+ Thẻ nội địa\n+ Ngân hàng liên kết ví\n_ FT khuyến nghị lưu ý team triển khai nên làm luồng này giống với luồng SIM số bán gói để đưa về đúng tài khoản nhận tiền.\n_ Phí thu người dùng: 0đ\n_ Chiết khấu: 0đ\nHoàn tiền:\n_ GDS làm rõ lại với bên cung cấp dịch vụ có hoàn tiền không, và hoàn tiền vào bước nào\n_ Về hệ thống, cơ bản là chỉ cần GDS lập lênh hoàn tiền thì phía Money sẽ hoàn.\nBiểu báo cáo, đối soát:\n_ Kinh doanh đề xuất biểu gửi VNP đánh giá, xây dựng quy trình thanh toán, đối soát (@vaanha)"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Hôm trươcs có báo chương trình tặng điểm này sẽ làm 15/10 (có thể thương lượng nếu k kịp)\nHôm trươcs đi họp với FT về @quynhmaihavi cũng có gửi meeting note vào đây tag bên BA ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@ngngthaonhu"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "mốc đầu tiên đã trượt rồi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "thời gian kế tiếp là bh?"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Hiện tại MOM em gửi thì kịch bản đã chốt và có đề xuất phương án ở đây,  thông tin bọn em gửi vào ngày 4/9, nhờ phía BA, và DEV đánh giá giúp bọn em là các anh chị cần thời gian và nguồn lực như thế nào để hoàn thành bọn em sẽ dựa vào đó báo cáo và đề xuất timeline nhé ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Theo quy định thì chốt ở đâu e?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "MoM có các việc cần làm là ai làm và bao giờ xong?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chưa xong các việc cần check đó thì lấy sở cứ đâu để đề xuất timeline?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@NguyetDang chỗ Huy eContract có nói hôm nay gửi lại tài liệu API nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "nay bên mình sẽ gửi lại tài liệu api trước nha"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Em đã chốt kịch bản với VNP và FT vào ngày 4/9 và đã gửi lên jira https://dvs.vnptmedia.vn/browse/GMYVNPT1-500. Em đang push FT gửi lại API hoặc timeline gửi API nhé ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear anh @Phantom102 , @vaanha , cc chị Anh , em gửi lại tóm tắt vấn đề thanh toán, đối soát hiện tại như sau:\nI. Hiện trạng làm việc với các bên, đánh giá khả thi:\n1. Phía FT:\n• Xác nhận có thể đáp ứng các đề bài thanh toán (theo hướng bán mới hoặc thu hộ) => Dự kiến triển khai theo hướng thu hộ để đồng bộ luồng với toàn bộ kênh bán.\n• Phương thức, phí kinh doanh đã đề xuất\n2. Phía VNP: xác nhận có thể đứng ra đối soát tập trung nhưng cần GDS phối hợp xây dựng quy trình triển khai đồng bộ\n3. Phía địa bàn: cf có thể triển khai phương án đối soát tập trung \n II. Đánh giá, đề xuất:\n• Hiện tại vấn đề thanh toán, đối soát đang chậm, rủi ro mốc golive 15/10 và ảnh hưởng tới luồng  BRCD OMO đang đề xuất với các bên\n• Đề xuất phía Kinh doanh (GDS) trao đổi phối hợp, làm việc với kế toán VNP, đại bàn, kế toán TCT để xác định phương án, vai trò các bên, quy trình và biểu mẫu đối soát \n• Chậm nhất 10/9 chốt phương án.\n CC báo cáo: anh @hoangmanhcuong , chị @myntt2703 nắm thông tin",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_462608",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear anh @Phantom102 , @vaanha , cc chị Anh , em gửi lại tóm tắt vấn đề thanh toán, đối soát hiện tại như sau: I. Hiện trạng làm v...\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

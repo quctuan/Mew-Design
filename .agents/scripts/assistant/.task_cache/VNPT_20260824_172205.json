@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260824_172205",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hiền Nguyễn",
+  "timestamp": "17:22 24/08/2026",
+  "trigger_message": "anh @hieunguyen271095 review PR giúp em với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/41",
+  "context_history": [
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@hieunguyen271095 Hiếu review giúp mình pr với. \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/39"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hieunguyen271095 anh tiện review lại giúp em MR này luôn với ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@ngsong699 Song ơi mình hỏi chút. Về API 6.6 nếu truyền category_id là id của tab thì sẽ lấy ra toàn bộ các danh mục (Lướt mạng xã hội, chiến game thần tốc, nạp nhanh Data...) và thông tin gói cước tương ứng của danh mục. Nếu lọc các gói cước theo danh mục cụ thể (ví dụ lướt mạng xã hội thả ga) thì truyền category_id của danh mục đó thôi đúng k? Ngoài ra durations, app_names... có list Enum cụ thể từ BE không Song?"
+    },
+    {
+      "sender_name": "Song",
+      "text": "phần category với api 6.6 hiện tại chỉ truyền  id danh mục cha get được từ api 6.5 nhé ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@haihd22  em support phần lọc api  danh sách danh mục con +  gói cước"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@ngsong699 Mình hỏi thêm các api về đổi số điện thoại, ngoại mạng, pre-login thì mình thấy được ở đâu trên wiki ạ?"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@haulcw   à chỗ này em thiếu chút, truyền đc cả category con (VD siêu ưu đãi data nhé,  sẽ ra array 1 item của category con đó thôi"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "durations, app_names đều là filter ạ. Trong code không có enum cố định cho 2 field này ạ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "durations và app_names truyền lên thì nó sẽ có data như này ạ {\n  \"category_id\": 123,\n  \"category_type\": 1,\n  \"msisdn\": \"849xxxxxxx\",\n  \"durations\": [1, 7, 30],\n  \"app_names\": [\"Facebook\", \"TikTok\", \"YouTube\"]\n}"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "bro check comment nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiếu check lại mình với nhé. Thank bro. @hieunguyen271095"
+    },
+    {
+      "sender_name": "Thắng",
+      "text": "a @hieunguyen271095 review giúp e PR với ạ \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/42"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "roaming @dangthtobi sẽ care cho ae nhé"
+    },
+    {
+      "sender_name": "Hiền Nguyễn",
+      "text": "anh @hieunguyen271095 review PR giúp em với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/41",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_457563",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @hieunguyen271095 review PR giúp em với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/41\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Hiền Nguyễn</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

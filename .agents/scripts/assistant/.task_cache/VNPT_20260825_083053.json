@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260825_083053",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "Nhu",
+  "timestamp": "08:30 25/08/2026",
+  "trigger_message": "nếu thế thì chị @quynhmaihavi xem giúp em chỗ này vì còn lquan đến việc trao đổi với VinaPhone về luồng, quy hoạch kênh thu và macong nữa nhé ạ",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "trên app nó sẽ check các tỉnh áp dụng ký BBNT điện tử thì khi nghiệm thu trên app"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "hệ thống dựa vào hđ đó có phải 1 trong 3 loại hđ kia ko, có nằm trong danh sách tỉnh bắt buộc ký BBNT ko, nếu phải thì khi nhấn nút nghiệm thu  => sẽ đẩy thông tin qua econtract để sinh BBNT điện tử"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "ký hđ xong mới nghiệm thu thành công đc"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "còn ko bắt buộc ký thì nó sẽ ko sinh bbnt đâu em ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị Nguyễn Thu Thủy ơi em hỏi chút ạ, phần Hợp đồng điện tử có trường hợp tỉnh A cho phép ký HDĐT, tỉnh B ko không ạ?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị Nguyễn Thu Thủy ơi, sau khi trao đổi với BA bên em về list API request. Chị cho em xin timeline bàn giao API spec và API với ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị Nguyễn Thu Thủy ơi cho em xin timeline API này với ạ\ncc a Đức @BaMoon1102, a @vietmv92"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Trọng Đức ( @BaMoon1102 ) xem giúp em vụ này với nhé. Sáng họp trên phòng lãnh đạo em có remind đấy anh 😢"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị có trao đổi với Nguyệt, mai chị sẽ trao đổi với dev bên chị để chốt lại thời gian bàn giao; chị đang viết lại mô tả api và trigger"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Dạ. Em nắm thông tin ạ. Cảm ơn chị Thuỷ!"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "@ngngthaonhu phần này liên quan đến Thoái trả, em báo với anh chị bên VNP vào chuẩn hóa luôn đối với việc thoái trả thì sẽ ghi nhận hình thức trả kênh thu như nào ở bên chị nhé. Đang bị vướng ở 2 cái api: 1 api cập nhật lại thông tin số tiền thoái trả từ bên em về bên chị, bên em đang thoái trả 1 cục tiền về, tụi chị đang ko rõ sẽ ghi nhận tiền trả đó đang đc trả qua kênh nào. Cái này để sáng mai trao đổi nốt nhé."
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này account myvnpt đang gọi vào api này thì có phân biệt luôn đc là myvnpt ko ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hay chị muốn join VNP để quy hoạch luôn ạ chị Nguyễn Thu Thủy ạ?"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "quy hoạch luôn chứ em, nó ở phần số hóa dòng tiền đó, thống nhất luôn nếu thoái trả tiền từ bên em thì phải quy định map sang bên chị là hình thức trả kênh thu gì luôn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nếu thế thì chị @quynhmaihavi xem giúp em chỗ này vì còn lquan đến việc trao đổi với VinaPhone về luồng, quy hoạch kênh thu và macong nữa nhé ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_162",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"nếu thế thì chị @quynhmaihavi xem giúp em chỗ này vì còn lquan đến việc trao đổi với VinaPhone về luồng, quy hoạch kênh thu và mac...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

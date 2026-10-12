@@ -1,0 +1,100 @@
+{
+  "task_id": "VNPT_20260822_151542",
+  "group_name": "Line 1: Super App",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "15:15 22/08/2026",
+  "trigger_message": "chị Hong a @Tuanjnfor ơi, e gửi phần áp voucher trong luồng thanh toán, nhờ mn bsung thêm giúp e ạ https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48235-98585&t=rdcESRC5AkAyEAqG-4",
+  "context_history": [
+    {
+      "sender_name": "Ngọc",
+      "text": "@nduythanh anh ơi, anh assign đầu mối  fix  api này giúp em với ạ, Hiện tại trong DB có data nhưng API trả về rỗng, độ ưu tiên cao  ạ\n[API-PATH]: /tel_service/homegroup/getGroups   [REQUEST-ID]: 3fa6a124-ab3f-47b3-a494-546e586cf75a   [TIME_PROCESS]: 203 ms  [BODY RESPONSE]: {\"requestId\":\"3fa6a124-ab3f-47b3-a494-546e586cf75a\",\"timestamp\":\"22/08/2026 08:52:42\",\"errorCode\":\"0\",\"message\":\"Thành công\",\"data\":{\"maxGroups\":10,\"canCreateMore\":true,\"groups\":[]}}"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@name688899  xem giúp a ai làm api này nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Dear em Anh \nCC: @vietmv92 , @Tuanjnfor , @nduythanh \nC thông tin lại ticket widget nhé\n3. Widget\nTotal: 307 | Executed: 307 (100%)\n- Pass: 257 (83,7%)\n- Fail: 48 (15,6%)\n- Pending: 2 (0,7%)\n\nTính năng về cơ bản hoạt động ổn định. Tuy nhiên còn một số lỗi:\n- Chưa điều hướng được mini app\n- Chưa xử lý lưu cache tối ưu hiệu năng\n\nNhờ ae xử lý sớm để đóng ticket"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT1-75\n\nhttps://stagingv2.myvnpt.com.vn/cms/keyword/list\nc @thuyph312  chỗ search trên cms em đã đẩy staging, nhờ c xem giúp e nhé"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@hainn191297 a nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@datnd2109 check luôn nhé em"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "a @quctuan ơi, cho bọn e xin 1 file gồm ảnh các icon Tiện tích, Danh mục, các ảnh Emi, để test cấu hình cho chuẩn với ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okie chiều a gửi nhá"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "#Feed (Home)\n\nDear a @Tuanjnfor, a @nduythanh,\n\nTrong quá trình test Feed (https://dvs.vnptmedia.vn/browse/GMYVNPT1-10), QC phát hiện 2 vấn đề:\n\n• 2 màn Bán gói cước Tháng và Ngày lệch concept phần gói cước — do design gói cước chốt final sau, phần Feed ở Home chưa update theo\n• Kịch bản Loyalty \"Voucher sắp hết hạn\" ở Home Feeds chưa có — thiếu cả UI lẫn API, hiện QC chưa test được\n\n=> Xử lý: Em đã tạo ticket update để xử lý 2 phần này: https://dvs.vnptmedia.vn/browse/GMYVNPT1-539\n\nNhờ 2 anh sắp xếp triển khai giúp em ạ, cho em xin ngày có thể bàn giao QC để QC sắp xếp ạ\ncc chị @thuyph312, a @vietmv92"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Để anh check lại xem đã nhé"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Dear anh Học ( @hocnv2010 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( @nduythanh ), chị Thúy ( @thuyph312 ), anh Việt ( @vietmv92 ),\n\nCc: Chị Mai ( @quynhmaihavi ), chị Ánh ( Chị Ánh ) nắm thông tin giúp em ạ\n\nVới phần Reward - Đặc quyền hội viên, FT dự kiến sẽ bao giao API từ ngày 26/08 - 11/09. Em xin phép gửi các mốc triển khai dự kiến với phần Reward - Đặc quyền hội viên:\n\n- 11/09: Fintech bàn giao API\n- 26/09: BE MyVNPT bàn giao API\n- 01/10: App bàn giao Test Staging\n- 10/10: QC test done Staging \n- 12/10: Bàn giao VNP test nghiệm thu\n- 14/10: QC test done Beta\n- 15/10: Golive\n\nNhờ các a/c xem giúp em lịch này có vấn đề gì không. Nếu không có phản hồi gì thì em xin phép chốt timeline của phần Reward - Đặc quyền hội viên như trên nhé ạ."
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Nếu đi theo cái này thì có rủi ro gì nữa ko e?"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Có một rủi ro là khi test nghiệm thu bên VNP có thể yêu cầu sửa gì đó ạ."
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Có phương án gì dự phòng t/h này để đảm bảo mốc timeline trên ko e?"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Mình có thể thống nhất trước với VNP là tiêu chí nghiệm thu phần Đặc quyền hội viên sẽ dựa trên kịch bản đã chốt. Nếu VNP có mong muốn thay đổi gì thì sẽ đưa vào xử lý ở Phase sau ạ."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chị Hong a @Tuanjnfor ơi, e gửi phần áp voucher trong luồng thanh toán, nhờ mn bsung thêm giúp e ạ https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48235-98585&t=rdcESRC5AkAyEAqG-4",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_456701",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chị Hong a @Tuanjnfor ơi, e gửi phần áp voucher trong luồng thanh toán, nhờ mn bsung thêm giúp e ạ https://www.figma.com/design/9B...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 33,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48235-98585&t=rdcESRC5AkAyEAqG-4"
+  ],
+  "doc_links": []
+}

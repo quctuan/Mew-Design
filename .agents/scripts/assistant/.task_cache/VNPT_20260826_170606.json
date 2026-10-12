@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260826_170606",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Thắng Ngô",
+  "timestamp": "17:06 26/08/2026",
+  "trigger_message": "a @dangthtobi review giúp e PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/46",
+  "context_history": [
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi @ngsong699 , b ơi mình hỏi chút về api phần gói cước. Hiện trên giao diện figma đang hiển thị cố định 4 loại gói. Trong api 6.5 thì đang lấy danh sách các tab sẽ được hiển thị. Vậy các tab cố định hay không hay lấy theo API? Giao diện gói VIP sẽ khác giao diện gói khác thì có trường nào mapping để phân biệt ạ?"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái danh sách danh mục cha này  có thể thêm hoặc xoá bớt nên nó động nha ạ, ko fix cứng 4 loại đó"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái giao diện thì anh có thể dùng cái layoutType"
+    },
+    {
+      "sender_name": "Song",
+      "text": "đợi chút em tìm cái logic layoutType"
+    },
+    {
+      "sender_name": "Song",
+      "text": "1: Layout Nạp nhanh\n2: Layout Thẻ vuông\n3: Layout Thẻ ngang\n4: Layout Thẻ VAS"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "mãi ko thấy lên phản hồi nhỉ, check lại hỗ t phát bro"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Nó hiện pending 🥲"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Mình muốn confirm chút @ngsong699 : \n1.Các tab sẽ không cố định mà lấy theo api, list trong tab dựa vào layout để hiển thị. Nếu dùng layout theo 4 kiểu layout => Bạn có thể chụp giúp mình 4 kiểu ứng với các thẻ nào không hoặc có SRS tương ứng k (thực tế trên giao diện mình thấy nhiều lại thẻ hơn) ? \n2. Làm thế nào để phân biệt gói VIP? (Gói VIP có backgroud và layout chi tiết khác)\n3. Các bạn BE phần gói cước comment giúp mình thêm các Enum và giải thích ý nghĩa như layoutType hoặc hôm trước là app_names, duration vào Wiki được không? Để đỡ mất thời gian confirm các bên."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@ngsong699 Bên bạn confirm giúp mình sớm nhé."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Phần này ghi vào file vấn đề api đi anh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "để tracking"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Có liên quan 1 chút đến design và luồng khác với design nên a hỏi luôn trên này mn nắm rõ ấy mà."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Nếu vậy anh @ngsong699 confirm sớm giúp bên em nhé ạ phần VNPT Shop này rủi ro tiến độ lắm\ncc chị Anh"
+    },
+    {
+      "sender_name": "Song",
+      "text": "oke a bao giờ xong em báo lại nhé"
+    },
+    {
+      "sender_name": "Thắng Ngô",
+      "text": "a @dangthtobi review giúp e PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/46",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_458863",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @dangthtobi review giúp e PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/46\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Thắng Ngô</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

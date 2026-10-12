@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260827_105255",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "10:52 27/08/2026",
+  "trigger_message": "@tkim03 tổng hợp các vấn đề vào đây nhé:\n• Thẩm quyền kí hợp đồng vs đơn vị vận chuyển thứ 3\n• Mở 39 luồng",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "luồng SIM nhận tại PGD là luồng BH011 nhé c @Trangdt171"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Dự kiến hiệu quả sau khi triển khai luồng SIM ship hoả tốc:\n• Hiện trạng: 400 đơn/tháng SIM vật lý vận chuyển qua địa bàn Hà Nội.\n• Giai đoạn pilot: Kỳ vọng 200 - 300 đơn/tháng ship hoả tốc\n• Giai đoạn mở rộng và đẩy mạnh: 400-500 đơn/tháng ship hoả tốc."
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Viết ngắn gọn như này nhé"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Từ đấy thì e báo lại địa bàn 2 nội dung cần trả lời mình, đề xuất timeline phản hồi, tag c Ngọc vào"
+    },
+    {
+      "sender_name": "Huyền Mai",
+      "text": "@quynhmaihavi ơi, cho c xin HDSD CMS Reward Hub với"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Đã golive đâu chị, đang phát triển mà phía BA chưa tổ chức đào tạo công cụ"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Chị ơi, liên quan đến việc định hướng các KH lên MyVNPT để ĐK TTTB, trước em được giải thích là chỉ được vài luồng, còn những luồng khác (đặc biệt là những luồng liên quan đến địa bàn) thì không được vì nó ảnh hưởng đến việc ghi nhận đơn hàng cho nhân viên địa bàn.\n\nTuy nhiên thì mình đều thấy là đưa KH lên được app ĐK TTTB thì sau này họ sẽ có xu hướng sử dụng app cho các hoạt động tiếp theo (mua sim, mua gói...).\n\nEm muốn hỏi là mình đang bị vướng ở đoạn chưa có sở cứ để trao đổi với các đơn vị khác để thuyết phục họ ạ chị, hay còn lí do nào nữa không ạ :?\nVì em thấy LĐ TĐ cũng có VB chỉ đạo về việc đưa tối đa các hoạt động của KH lên môi trường số, nên mình có thể dựa vào đó để làm sở cứ cũng được ạ."
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Cái đó do bên Kênh (đầu mối chị Lê Minh) họ quy hoạch để đảm bảo ghi nhận DT/sl theo các quy định, mình ko can thiệp, chỉ can thiệp dc trên các luồng của kênh online thôi (mấy cái đó chị trao đổi nhiều với Media rồi mà, các kênh offline người ta tk có công cụ để kênh họ làm cho KH rồi, KH của kênh đó người ta ko kêu thì mình kêu làm gì, làm tốt TN luồng của mình đi đã)"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "@minhhnhatt đầu mối chị Minh thật ạ :))))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "thế next step chắc book  họp vs c Minh thôi nhỉ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tkim03 ơi thế e setup họp vs c Minh nhé, xong chắc nhờ c My join cùng"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "E cứ trao đổi, trình bày vấn đề:\n• Nhận chỉ đạo của tập đoàn, nhằm mục đích nâng cao tiện ích & sự thuận tiện của KH khi đăng ký TTTB, tụi em đang muốn trao đổi về việc mở rộng luồng đăng ký TTTB trên My VNPT, nhiều nhất có thể. \n• Với những luồng k thể mở thì đang gặp vấn đề gì ...\n• Nhờ chị tham gia buổi họp trao đổi"
+    },
+    {
+      "sender_name": "Nhu Quynh",
+      "text": "@Hoanganh1109 Hoàng Anh ơi, chị gửi 1 số thông tin input để e thiết kế luồng trải nghiệm mua SIM, landingpage cho chương trình bán sớm TW Đoàn nhé. \nhttps://docs.google.com/document/d/1DvNUsqEF-f3c0tCdKbANQ28_06QAdd6IEt_xvkH7Yho/edit?tab=t.0\nHoàng Anh ơi, luồng bán trên lading page là phục vụ cho đợt bán sớm. Còn luồng bán chính thức sau ngày 15/10 mọi người tính dần nhé."
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "C @hanhlnm xem cùng e nhé"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "@tkim03 tổng hợp các vấn đề vào đây nhé:\n• Thẩm quyền kí hợp đồng vs đơn vị vận chuyển thứ 3\n• Mở 39 luồng",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_459091",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@tkim03 tổng hợp các vấn đề vào đây nhé: • Thẩm quyền kí hợp đồng vs đơn vị vận chuyển thứ 3 • Mở 39 luồng\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Trang Đỗ</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/document/d/1DvNUsqEF-f3c0tCdKbANQ28_06QAdd6IEt_xvkH7Yho/edit?tab=t.0"
+  ]
+}

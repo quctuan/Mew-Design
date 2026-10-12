@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260914_191153",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "19:11 14/09/2026",
+  "trigger_message": "Ghê vậy :))) làm detail phết:)))",
+  "context_history": [
+    {
+      "sender_name": "Ken",
+      "text": "mưa to"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Nếu họp onl thì e xin nghỉ vì chưa có gì update còn họp off thì e đến nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Uh a thấy mưa"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ko to nma thôi họp onl cũng dc"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "oke aaạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Nga mấy h available hả e?"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "luôn bây giờ trở đi h nào cũng dc a, trc 9h tối ạ"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "e ăn cắp h vingr :))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "thế 8h nhé"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "ok a"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@taminhtr a có comment 1 số ndung trong phần Pricing và Prj của bên Fiora. e check nhé"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Ýe"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ýe = mai done"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm =)) xem cho hỉu ngành thui"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ghê vậy :))) làm detail phết:)))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467988",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Ghê vậy :))) làm detail phết:)))\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>VNPT - Anh Minh PO</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

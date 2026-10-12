@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260818_114153",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Trà My",
+  "timestamp": "11:41 18/08/2026",
+  "trigger_message": "Em gửi thông tin nhé!\n1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc phải có nhân viên địa bàn gặp trực tiếp ký HĐ cho KH sẽ rất tệ về trải nghiệm. Nên nếu  trong tuần này  đối tác cf k hoàn thành trong T8 thì mình sẽ tạm pending.\n2. KB KD: Hiện tại Data đang đánh giá mức độ khả thi của dữ liệu, trong TH dữ liệu k sẵn sàng sẽ chuyển KB recommendation đơn giản hơn/ tận dụng luồng sẵn có\n3. Chương trình Loyalty bản chất là mình xin được thêm trong quá trình làm việc với các bên nhằm tăng thiện cảm vs KH, k nằm trong mục tiêu QW. Hiện tại phía TT KD Online đã xong phương án để Ban PTTT duyệt, team sẽ cố gắng thúc đẩy, nhưng đây được coi là 1 chương trình CSKH chứ k phải chính sách gắn liền mãi mãi vs kênh, nên em đề xuất k đưa vào bắt buộc ép tiến độ 15/10",
+  "context_history": [
+    {
+      "sender_name": "Huyền Mai",
+      "text": "@quynhmaihavi ơi, chị gửi trước thông tin cơ bản của gói cước internet độc quyền dành cho giới trẻ của My VNPT. Chi tiết thông tin chi tiết như sau\n- Gói 195K : Home My VNPT: Internet 300MB ULM + 01 Mesh + GRN/FS. Không phân biệt nội/ngoại thành\n- Gói 215K: Home Cam My VNPT: Internet 300MB ULM + 01 Mesh + 01 Cam (3 ngày) + GRN/FS. Không phân biệt nội/ngoại thành.\n- Các gói add-on: Theo quy định hiện hành.\nGói cước chỉ mở đăng ký qua MyVNPT và mở vào các chương trình flash sale (dự kiến theo khung giờ 12-16h mỗi ngày)\nChi tiết @vaanha sẽ gửi lại sau"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "mục này giờ kế hoạch ntn Anh"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Phần này @quynhmaihavi hẹn hôm nay trao đổi chỗ chị @myntt2703 xem có còn trong scope đợt này không ạ?"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "a @Tuanjnfor @nduythanh BRCĐ 15/10 bắt đầu Dev triển khai được rồi ạ. có 2 WP2, WP10(em có highlight) BA đã xong tài liệu. nhờ ae estimate và đưa vaò triển khai ạ\nhttps://docs.google.com/spreadsheets/d/1ueMCJO3vWMXaJQpC0oq7b1uDZSr8lMG7w2hzaQKOxHk/edit?gid=1285135901#gid=1285135901"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "CÁi WP2 thì đang là Mini App đội OS đang triển khai, anh có comment"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "ngon thíaaaaa. em update liền ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quynhmaihavi mọi người đang bổ sung thêm các UI mà ko báo cho BA và các bên khác ạ?"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@quctuan ơi, màn Exception case bổ sung hôm qua đánh giúp chị cái note đỏ nhé. 10' nữa @ngngthaonhu , @NguyetDang có thời gian thì qua chỗ UI mình trao đổi nhanh chỗ này một chút nha"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Nội dung này là thay đổi theo FB hôm thứ 5, BA, PO và PM trao đổi quanh nội dung trường hợp chưa lập BBNT đấy, nếu cần làm rõ thì mình trao đổi nhanh lại nhé @NguyetDang , @ngngthaonhu"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "@quynhmaihavi ơi con Family safe này báo lên đây luôn nhé"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Dear chị @myntt2703 , em @quynhmaihavi,\ncc: a @hocnv2010, a @vietmv92, chị @lalethuy, a @Tuanjnfor \nVề plan con BRCĐ mốc 15/10, hiện còn 3 WP chưa đánh giá được tính khả thi và chưa chốt được giải pháp:\n 1. WP7.2 – Family Safe\n 2. WP8 – Kịch bản kinh doanh: nâng gói mua thiết bị\n 3. Chương trình tặng điểm Loyalty\n3 WP này đang là rủi ro trực tiếp đến mốc 15/10: nếu 20/8 chưa chốt được hết hướng giải pháp thì team sẽ không kịp triển khai.\nEm xin thông tin chị My, Mai để có phương án mình xử lý sớm ạ."
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@NguyetDang , Chị @lalethuy ơi, theo yêu cầu của pháp chế bọn em đã chốt các nội dung cần OneBSS lưu trữ các thông tin sau:\nEm đã note cho phía BA các thông tin cần đẩy cho OneBSS theo kết luận của pháp chế:\n_ Mã phiên eKYC / Session ID / Token\n_ Thời gian eKYC\n_ MyVNPT Session ID \n_ Thông tin device (nếu có), IP (nếu có) \n_ Mã thanh toán đơn (nếu thực hiện thaanh toán trên MYVNPT)\n_ Mã hợp đồng, Mã BBNT”\n_ Thời gian ký\nThấy BA báo là vẫn vướng, thì em đang muốn hỏi là cần bổ sung hoặc làm rõ thêm nội dung gì vậy ạ?"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Em gửi thông tin nhé!\n1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc phải có nhân viên địa bàn gặp trực tiếp ký HĐ cho KH sẽ rất tệ về trải nghiệm. Nên nếu  trong tuần này  đối tác cf k hoàn thành trong T8 thì mình sẽ tạm pending.\n2. KB KD: Hiện tại Data đang đánh giá mức độ khả thi của dữ liệu, trong TH dữ liệu k sẵn sàng sẽ chuyển KB recommendation đơn giản hơn/ tận dụng luồng sẵn có\n3. Chương trình Loyalty bản chất là mình xin được thêm trong quá trình làm việc với các bên nhằm tăng thiện cảm vs KH, k nằm trong mục tiêu QW. Hiện tại phía TT KD Online đã xong phương án để Ban PTTT duyệt, team sẽ cố gắng thúc đẩy, nhưng đây được coi là 1 chương trình CSKH chứ k phải chính sách gắn liền mãi mãi vs kênh, nên em đề xuất k đưa vào bắt buộc ép tiến độ 15/10",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_454102",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Em gửi thông tin nhé! 1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trà My</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Trà My</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"duyệt\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1ueMCJO3vWMXaJQpC0oq7b1uDZSr8lMG7w2hzaQKOxHk/edit?gid=1285135901#gid=1285135901"
+  ]
+}

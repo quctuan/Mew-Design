@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260813_162329",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "16:23 13/08/2026",
+  "trigger_message": "nhanhhhhhhh @havietngn @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "hên xui =)))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "hong bíc nứa"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "sao bằng 6 thế..."
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đi làm gì @quctuan"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko đi cũng mất tiền r, tội gì ko đi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "bạn suy nghĩ lại ko, thì mai tôi đón"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đi còn tự túc kìa"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "=))) tự túc ăn 1 bữa thui, còn lại có budget makk"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ai thích tự ăn ngoài thì báo thui"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tưởng b đi xe riêng để lái về nhà chơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh t đi xe riêng mà, thế mới đón dc chứ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "CẢ NHÀ ƠIIIIIIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "SANG ĐÂY CHƠI"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nhanhhhhhhh @havietngn @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_452343",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"nhanhhhhhhh @havietngn @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

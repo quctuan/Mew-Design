@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260824_084302",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Aiden Le",
+  "timestamp": "08:43 24/08/2026",
+  "trigger_message": "Anh có thể thông tin qua giúp em là tính năng nào dùng cái nào được không ạ, hoặc có tài liệu nào cho bên em tham khảo phần mapping này, vì giao diện con này nhiều nên đang không rõ cái nào dùng api nào. \nNgoài ra phần này còn có cả luồng thanh toán ( bên em vẫn phải làm 1 phần ) và luồng kết quả giao dịch nữa. Nếu chỉ có thông tin về tên api thôi thì rất khó làm ạ. Trong tài liệu wiki thì lại không có tài liệu nào ghi rõ cho FE biết luồng tích hợp API là cái nào. \ncc anh @Tuanjnfor",
+  "context_history": [
+    {
+      "sender_name": "Hieu",
+      "text": "bên e làm luôn nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "cả cái này giúp em ạ @hieunguyen271095"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "làm như đã chốt với @haulcw nhé \nnhưng chỗ huỷ thuê bao thì chỉ có xử lý OTP là native thôi nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "ok b. Các phần OTP sau cũng xử lý ở native Hiếu nhỉ?"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "ko"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "sau OTP là miniapp nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "À ý mình là dính đến BTS OTP ý"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Ví dụ phần đăng nhập để thanh toán cũng có OTP"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "ko t đang nói riêng case huỷ thôi"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "còn đoạn thanh toán thì như trao đổi từ hôm trước, tính từ bts là all native"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "luồng huỷ ko liên quan đến thanh toán thì sẽ ntn nhé: \n(miniapp)bấm huỷ -> (miniapp) gọi APIKit OTP ->(Native) Hiện màn OTP -> (miniapp) xử lý các tương tác trong OTP (vd như sai OTP), data cần thiết sẽ đc đẩy từ native sang -> (miniapp) đúng otp thì xử lý tiếp tại miniapp"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "ok mình nắm được trường hợp hủy rồi ạ. Mình đang phân vân trường hợp pre-login. Luồng nó sẽ như nào Hiếu nhỉ? Panel thanh toán native sẽ check phiên (chưa đăng nhập) -> hiện modal otp -> đăng nhập (miniapp lấy data cần thiết) và thực hiện mua như bình thường?"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 ơi, trên wiki phần API Mini App mình đã có đầy đủ tài liệu của phần VNPT Shop gói cước di động chưa ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@aidenLeDevPDC   có r anh, dùng 3 api này"
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Anh có thể thông tin qua giúp em là tính năng nào dùng cái nào được không ạ, hoặc có tài liệu nào cho bên em tham khảo phần mapping này, vì giao diện con này nhiều nên đang không rõ cái nào dùng api nào. \nNgoài ra phần này còn có cả luồng thanh toán ( bên em vẫn phải làm 1 phần ) và luồng kết quả giao dịch nữa. Nếu chỉ có thông tin về tên api thôi thì rất khó làm ạ. Trong tài liệu wiki thì lại không có tài liệu nào ghi rõ cho FE biết luồng tích hợp API là cái nào. \ncc anh @Tuanjnfor",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_456884",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh có thể thông tin qua giúp em là tính năng nào dùng cái nào được không ạ, hoặc có tài liệu nào cho bên em tham khảo phần mappin...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Aiden Le</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

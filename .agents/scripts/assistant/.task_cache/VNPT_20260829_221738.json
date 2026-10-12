@@ -1,0 +1,83 @@
+{
+  "task_id": "VNPT_20260829_221738",
+  "group_name": "[GDS]-Teamlead",
+  "sender_name": "VNPT - Anh Cường - GĐ GDS",
+  "timestamp": "22:17 29/08/2026",
+  "trigger_message": "Cái này check gấp nhé @hoangkylam @xhphuong1984",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Em nghĩ là do mạng 4G Vinaphone về vấn đề IPV6"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Em vừa update app, vào thì hiển thị T&C bình thường, Đồng ý thì vào app bình thường"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Logout login lại thì ko hiện lại popup và vào app ok"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@ntiendat mình bật force update chưa em?"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@vietmv92 anh Việt xem ạ, hôm trước a bảo e k cần bật"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Có nâng cấp module thôi ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Ko force update đâu chị"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ko gọi thì ko check, KH dùng app bình thường ko cần đồng ý consent mới à"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Là sao chị nhỉ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Clear rồi nhé chị Thuý"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ok. E comment vào jira nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Data chuyển vùng hơn 10tr MB"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Cái này check gấp nhé @hoangkylam @xhphuong1984",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4928594109_460342",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cái này check gấp nhé @hoangkylam @xhphuong1984\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

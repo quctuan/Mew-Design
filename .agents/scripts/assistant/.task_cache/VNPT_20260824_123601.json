@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260824_123601",
+  "group_name": "[GDS]-Teamlead",
+  "sender_name": "Hoàng Kỳ Lâm",
+  "timestamp": "12:36 24/08/2026",
+  "trigger_message": "nghiệp vụ a Đức, mạng anh Tuấn",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "tất cả HDSD CMS, thống nhất sẽ cập nhật vào 1 nguồn thôi nhé?"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "k a, từ giờ sẽ đưa lên wiki, vẫn chia page"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "k dùng các bản online"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "em xem hộ a nhé"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "Tuyệt đối không thực hiện công việc bảo dưỡng, tác động, nâng cấp phần mềm, phần cứng gây ảnh hưởng tới hoạt động của các hệ thống thiết bị đang khai thác trên mạng trong khoảng thời gian từ 23h00 ngày 26/8/2026 đến 24h00 ngày 03/9/2026. Trong trường hợp đặc biệt, phải báo cáo trực tiếp Tổng giám đốc để có chỉ đạo. \n\nthời gian đóng băng theo VB của TCT nhé @vietmv92"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ anh"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Các app kênh đang lỗi TTTB, app mình vẫn bt chứ anh em?"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "e thấy hình như tù 8h30 đến h không thấy có cập nhật nào thành công ạ (cc @tran_van_my @tran_van_my )"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "còn ko nhận thấy lượng KN đổ về nhiều"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "A. Lâm trao đổi với phía IT thì bên đó đang bị lỗi Server."
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "@hocnv2010 @tran_van_my vụ này IT đã thay IP, giữ nguyên domain"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "anh em xem có cần đổi bên mình không"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "10.159.35.84:80 thanh 10.165.11.16:80  (PDTT)"
+    },
+    {
+      "sender_name": "Hoàng Kỳ Lâm",
+      "text": "nghiệp vụ a Đức, mạng anh Tuấn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4928594109_457262",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"nghiệp vụ a Đức, mạng anh Tuấn\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hoàng Kỳ Lâm</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

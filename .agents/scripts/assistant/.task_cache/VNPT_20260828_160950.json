@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260828_160950",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Nhu",
+  "timestamp": "16:09 28/08/2026",
+  "trigger_message": "@quctuan note UI lấy phần nào của tên cho e ạ",
+  "context_history": [
+    {
+      "sender_name": "Thuy",
+      "text": "Notification:\n- Đang lỗi push noti, đã báo dev check từ ngày 19/8 nhưng vẫn chưa ai check được => không tạo data để test tiếp được.\n- Phần điều hướng noti: 1 số luồng điều hướng vào màn chi tiết thông tin thuê bao, VD: noti xác thực đổi imei, đối với luồng concept, login số khác sẽ chỉ xem noti và không đi xác thực cho số đổi imei được do đang điều hướng vào chi tiết thuê bao login chứ không vào màn chi tiết thuê bao đổi imei => cần confirm lại luồng này"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ok c, @giangnt2008  xem cho a nhé"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "@vanhtt14  thử lại giúp t nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Chị Anh Nguyen em vừa gửi request vào link. Chị accept giúp em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312 giúp em với"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Trên là bảng tổng bug, còn đây là bảng Bug đang cần fix nhé cả nhà"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Hải ơi, e req lại giúp nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor, Thành con Vietlott https://dvs.vnptmedia.vn/browse/GMYVNPT1-227\nanh xem giúp em có nguồn lực làm chưa ạ? thì sắp xếp giúp em nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chưa đâu em. Hiện các phần đã chốt còn đang chưa ổn dc"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "vâng ạ. e đẩy ưu tiên xuống. ra lễ mình xem lại nhé ạ"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "chị @ngngthaonhu ơi, e đang thấy nội dung các XBanner trên figma có tên thuê bao, kỳ hóa đơn. Vậy ở cms có phải cấu hình tham số ở nội dung ko ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tên thuê bao ý của em là Tuấn à?"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cấu hình tham số nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này lấy tên của user"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan note UI lấy phần nào của tên cho e ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_460102",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan note UI lấy phần nào của tên cho e ạ\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260908_164119",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "16:41 08/09/2026",
+  "trigger_message": "Chia sẻ đâu, cái muốn nói là việc 5 Luồng mình đưa ra mà KH sử dụng nhiều thì nếu được cũng đưa ra thông tin nào đó để có thể hiểu được mức độ nhiều thế nào 🙂",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "còn 1 luồng dki TTTB"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "cho vào bg thì hơi lởm"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Trước anh thấy Minh nói rất nhiều App MyVNPT là app seflcare việc tra cứu thông tin là rất quan trọng 😄"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nma nó xong giai đoạn đấy r mà a =))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "DK TTTB được coi là chưa phải KH. Luồng này làm sau 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Giai đoạn có quá quan trọng không 😄"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "à oke a"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "để e bổ sung"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Anh nghĩ là cứ liệt kê theo tiêu chí luồng KH sử dụng nhiều nhất"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Lấy top 5 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Nếu có sở cứ số liệu thì tốt, nếu số liệu nhạy cảm thỉ có thể note ngắn ngọn về mức độ sử dụng của người dùng 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nma mình chia sẻ cái đấy cho SA làm gì a :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "A ấy yêu cầu cái đấy thì cũng hơi thiếu hiểu biết về bảo mật dữ liệu nhể :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Hay là ký NDA rồi nên share thoải mái"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chia sẻ đâu, cái muốn nói là việc 5 Luồng mình đưa ra mà KH sử dụng nhiều thì nếu được cũng đưa ra thông tin nào đó để có thể hiểu được mức độ nhiều thế nào 🙂",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_463661",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chia sẻ đâu, cái muốn nói là việc 5 Luồng mình đưa ra mà KH sử dụng nhiều thì nếu được cũng đưa ra thông tin nào đó để có thể hiểu...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

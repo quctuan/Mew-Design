@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260814_152431",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "Hoàng Anh",
+  "timestamp": "15:24 14/08/2026",
+  "trigger_message": "Nghe gay lọ thế",
+  "context_history": [
+    {
+      "sender_name": "Hoàng Anh",
+      "text": ":v đm 2 đứa kia k chịu trả lời"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Vl aggamemnon"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "https://vnexpress.net/kiet-suc-vi-hau-ha-ai-5106149.html"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "à hqua c vừa phát hiện ra 1 quán pizza ngay Láng Hạ mới mở ăn rất okila nha https://www.facebook.com/share/1ErjTu8hah/?mibextid=wwXIfr"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Mấy zờ mình lên đường z ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tí ngồi đây ko"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có đội chị Trang, cái Chi"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "View đỉnh chóp z"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ae ngồi ngắm hoàng hôn :))"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Nhà hàng bên đó book ăn bên Hòn Gai á, hay quán cafe"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Bấm vào thấy luôn:))"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Nghe gay lọ thế",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_452701",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Nghe gay lọ thế\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

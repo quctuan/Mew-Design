@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260826_142851",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đức",
+  "timestamp": "14:28 26/08/2026",
+  "trigger_message": "@quctuan cho anh ảnh này định dạng webp nhé",
+  "context_history": [
+    {
+      "sender_name": "Minh",
+      "text": "e đã update lại thành comp tracking progress nhé ạ"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "ý là sao nhỉ, đẩy lên link em gửi đi em\nhttps://drive.google.com/drive/folders/1BasWP-qxgGMuSTvk-WapN7v_ROnGY8Sy"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "nó là comp trong DS, khôm phải ảnh a ơi 👀"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@haipt1905 phần tab này trong DS đã làm chưa nhỉ"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E làm rồi, tạo component rồi c, nó đang chạy trong notification rồi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Z a @Cuong9668 tham khảo lấy comp đó nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "cho em hỏi chút, sao chỗ này nhìn sai sai nhỉ em ko hiểu lắm @quctuan"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e đã chỉnh lại nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Phần click card này từ pre login, sau đó yêu cầu login và đi vào tạo nhóm, e thấy cần call check xem có đủ điều kiện tạo thêm nhóm không. Nếu không đủ đk để tạo thêm nhóm thì nên hiển thị như nào a @quctuan nhỉ"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E chỉ đang hiển thị toast là \"Bạn đã tham gia tối đa \\(data.maxGroups) nhóm\""
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan cho anh ảnh này định dạng webp nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_458649",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan cho anh ảnh này định dạng webp nhé\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đức</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+  ],
+  "doc_links": []
+}

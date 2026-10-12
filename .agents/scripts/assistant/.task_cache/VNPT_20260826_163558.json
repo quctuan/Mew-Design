@@ -1,0 +1,76 @@
+{
+  "task_id": "VNPT_20260826_163558",
+  "group_name": "[Rewardhub] nội bộ ban GDS",
+  "sender_name": "ViệtMV",
+  "timestamp": "16:35 26/08/2026",
+  "trigger_message": "Kiệt ( @kietla01 ) xem follow kickoff và lên planing nhé\n\nAnh note thêm: Ticket này sẽ áp dụng làm scope cho vụ thử nghiệp AI WorkBench chỗ anh Tuấn.\n\ncc: chị Thủy ( @lalethuy ), anh Tuấn ( @Tuanjnfor ), chị Thúy ( @thuyph312 )",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Nhờ chị @Trangdt171 gửi lại kịch bản mới lên ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Chị @nanatran91 sẽ phụ trách nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Nhờ chị @nanatran91 gửi lại kịch bản mới nhé ạ"
+    },
+    {
+      "sender_name": "Tran",
+      "text": "Để chị thống nhất với team rồi gửi lại mn nhé. Thank all!"
+    },
+    {
+      "sender_name": "Nhu Quynh",
+      "text": "Dear @quynhmaihavi và @Hoanganh1109, chị gửi mọi người kịch bản chương trình triển khai suất bán sớm sim VIBE qua kênh TW Đoàn mà sắp tới bên mình sẽ triển khai:\nhttps://docs.google.com/document/d/1_naeHbDSXEDSNB4uu7J6eusbqK8pxqc5/edit#heading=h.k2dam0avbkni"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dưới sự chỉ đạo của team lead, em xin phép giới thiệu PO phụ trách nội dung này là @Hoanganh1109 và @hanhlnm ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em chạy đi đâu đấy Mai 😐"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em bỏ rơi bọn anh à 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Phần này KD vào muộn thế. anh em BA, Dev, Test các thứ xong hết rồi giờ vào thay đổi thế này 😢"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Phần này liên quan đến nội dung Quick Win Kinh Doanh có cùng kịch bản triển khai voucher mà timeline còn chạy trước kịch bản cũ. Nên để tối ưu thì bắt buộc thay đổi ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Kiệt ( @kietla01 ) xem follow kickoff và lên planing nhé\n\nAnh note thêm: Ticket này sẽ áp dụng làm scope cho vụ thử nghiệp AI WorkBench chỗ anh Tuấn.\n\ncc: chị Thủy ( @lalethuy ), anh Tuấn ( @Tuanjnfor ), chị Thúy ( @thuyph312 )",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5266764929_458839",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Kiệt ( @kietla01 ) xem follow kickoff và lên planing nhé  Anh note thêm: Ticket này sẽ áp dụng làm scope cho vụ thử nghiệp AI Work...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/document/d/1_naeHbDSXEDSNB4uu7J6eusbqK8pxqc5/edit#heading=h.k2dam0avbkni"
+  ]
+}

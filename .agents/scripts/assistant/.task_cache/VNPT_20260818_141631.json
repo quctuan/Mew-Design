@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260818_141631",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "14:16 18/08/2026",
+  "trigger_message": "@quctuan ae mình có xích mích gì ko nhỉ",
+  "context_history": [
+    {
+      "sender_name": "Phuong",
+      "text": "Để em export nha"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "https://drive.google.com/file/d/1KBt2HD2t8G96rAJbihd0t6RWXA0NnGIy/view?usp=drive_link"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Thành Em gửi lại ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ SĐT này ae có chặn chỉ cho nhập 10 số thôi ko ạ?"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Hình như là  có đấy"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=51129-83687&t=PCHUBj5EDp1VbTJO-11\n\nVới e bổ sung thêm case nhập SĐT ko hợp lệ nhá"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "oke em"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@quctuan ơi cho anh xin cái hình tag này với"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@celene_ne giúp a Hiếu chỗ này nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Phần tag này nội dung đang cấu hình, nên sẽ ko cố định 1 loại tag, khả năng ko dùng ảnh dc a ạ. \nChắc phải tạo thành comp cho tag, để nó khung tag nó auto layout theo nội dung bên trong @hieu_tq"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "🙁"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ cong cong này đang ghim ở góc phải, nên export ảnh cái này dc, rồi ghép với box bên trên dc ko a nhỉ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Anh export ra thì nó cái đường nối :)"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@hieu_tq https://drive.google.com/file/d/1zhrbyOe4qCN5TH27XNjGHJCk0BZM-wH1/view?usp=drive_link\nAnh thử thay bằng cái này giúp em nha"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Anh cần nguyên cả cái tag cơ 🙁"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "@quctuan ae mình có xích mích gì ko nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_454171",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ae mình có xích mích gì ko nhỉ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hieu Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=51129-83687&t=PCHUBj5EDp1VbTJO-11"
+  ],
+  "doc_links": []
+}

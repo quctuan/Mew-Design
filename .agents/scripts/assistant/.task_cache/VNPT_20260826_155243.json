@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260826_155243",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "15:52 26/08/2026",
+  "trigger_message": "a @quctuan ơi mấy chỗ liên quan lưu ảnh như này, e thấy chưa có popup hỏi xin quyền a nhỉ",
+  "context_history": [
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@haipt1905 phần tab này trong DS đã làm chưa nhỉ"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E làm rồi, tạo component rồi c, nó đang chạy trong notification rồi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Z a @Cuong9668 tham khảo lấy comp đó nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "cho em hỏi chút, sao chỗ này nhìn sai sai nhỉ em ko hiểu lắm @quctuan"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e đã chỉnh lại nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Phần click card này từ pre login, sau đó yêu cầu login và đi vào tạo nhóm, e thấy cần call check xem có đủ điều kiện tạo thêm nhóm không. Nếu không đủ đk để tạo thêm nhóm thì nên hiển thị như nào a @quctuan nhỉ"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E chỉ đang hiển thị toast là \"Bạn đã tham gia tối đa \\(data.maxGroups) nhóm\""
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan cho anh ảnh này định dạng webp nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=51129-83755&t=hec5zxD6YcDwLExh-11\n\nBáo pop-up như này e nhá"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Vâng a, nhưng sẽ hiện ở Home page nha a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm chuẩn r"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://drive.google.com/file/d/1Ik0U6r0dnmXEKStJHWDMBNG4skcb0K8z/view?usp=drive_open\n\ne gửi nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "a @quctuan ơi mấy chỗ liên quan lưu ảnh như này, e thấy chưa có popup hỏi xin quyền a nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_458743",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @quctuan ơi mấy chỗ liên quan lưu ảnh như này, e thấy chưa có popup hỏi xin quyền a nhỉ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Phạm Thanh Hải</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=51129-83755&t=hec5zxD6YcDwLExh-11",
+    "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+  ],
+  "doc_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260908_173315",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Minh Tam",
+  "timestamp": "17:33 08/09/2026",
+  "trigger_message": "k hiểu chuyện gì xảy ra với luồng SIM",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@hanggauu @taminhtr giải trình nốt đi mn :))"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "dạ rùi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Chờ tí"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "đã giải trình nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okee"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "@quctuan T fix xong rùi nhó"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okiela"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "cái ảnh bg màn hình chính ấy làm sao để lấy lúc a fill theo chế độ aspect fit nó vẫn fill đủ màn hình e nhỉ"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "cái bg ở dưới á em"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "a lầy ảnh bữa e gửi để chố độ aspect fit nó k dc phải để fill nhưng nó bị lỗi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "có ai hỉu khôm ạ"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "@quctuan Tuấn ơi Emi là sẽ đè lên các UI chứ ko nằm cùm frame với BG nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đúng rùi"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "okiela"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "k hiểu chuyện gì xảy ra với luồng SIM",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_463768",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"k hiểu chuyện gì xảy ra với luồng SIM\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Minh Tam</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

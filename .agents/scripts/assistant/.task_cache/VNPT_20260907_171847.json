@@ -1,0 +1,79 @@
+{
+  "task_id": "VNPT_20260907_171847",
+  "group_name": "SIM Số - revamp",
+  "sender_name": "ViệtMV",
+  "timestamp": "17:18 07/09/2026",
+  "trigger_message": "Giờ bị ép deadline nhiều nó khác 😢",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "oki chị, sang tháng chị nhé"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "chỉ cần 1 click, chỉ cần 1 paste, có ngay kết quả"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "2026-09-07 16:24:52 ERROR ApiResource - 8487550200657788|myvnpt_list_gt_noicap|Can not create groovy script: /home/myvnpt/services/APIProcess_v2/bin/conf/script/myvnpt_list_gt_noicap.groovy\n@name688899"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hôm trước bảo update công nghệ thần thánh lắm mà"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Sao lại chờ tận sang tháng 😐\n\n @ntiendat"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "staging queue dài a ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Xem cung cấp trong tuần này thôi chứ. Nói sang tháng anh Mỹ nghe thấy lại cười cho ==!"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "việc khó làm trước, việc dễ để sau ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dễ khó gì tầm này, xem hỗ trợ chị em QC với chứ giờ vất quá 😄"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "thực ra trước giờ vẫn thế :D"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "a cứ trêu em :D"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Giờ bị ép deadline nhiều nó khác 😢",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4941309523_462793",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Giờ bị ép deadline nhiều nó khác 😢\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260821_222451",
+  "group_name": "MI Design",
+  "sender_name": "Minh Tam",
+  "timestamp": "22:24 21/08/2026",
+  "trigger_message": "ê cái preview as buyer của mình k còn goal là nhìn ra mối liên hệ giữa condition show - when nữa hả các a",
+  "context_history": [
+    {
+      "sender_name": "Minh",
+      "text": "Tiềm năng designer"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Ừ tin là anh Minh biết vẽ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "1 ng designer giỏi thì ko bg cần đòi wf 😄 @taminhtr"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Designer giỏi thì cũng cần bắt đầu từ đâu đó"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Create Kampaign xong rùi nhé a @leek6998"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "thg @leek6998 gey hnay gặp a Minh Hoàng xong im thế?"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "i am quit"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ngồi làm MI"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "a Ken gone Vin thật à"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "gặp a Hoàng có gì hot k? 😄"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "à k họ mượn anh về"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh làm xong thì lại quay về team cũ"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "ê cái preview as buyer của mình k còn goal là nhìn ra mối liên hệ giữa condition show - when nữa hả các a",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456307",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"ê cái preview as buyer của mình k còn goal là nhìn ra mối liên hệ giữa condition show - when nữa hả các a\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Minh Tam</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

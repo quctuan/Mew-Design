@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260825_081109",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Thuy Phan",
+  "timestamp": "08:11 25/08/2026",
+  "trigger_message": "có trong từng sheet có trạng thái block luồng rồi đó",
+  "context_history": [
+    {
+      "sender_name": "Vân Anh",
+      "text": "button này để hết là Đồng ý nhé a @Hoanganh1109 , các màn khác đang thế, mỗi 1 màn duy nhất Tôi đồng ý :v, app khỏi phải sửa nữa a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "oke"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "t gửi lại bản fix text consent nhé @vanhtt14"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "6.2.0(2026082402) TF nhé"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "e gửi 2 bản app chỗ consent, a @Hoanganh1109 , c @ngthuyanh nghiệm thu app trước giúp e nhé"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "chính sách bảo vệ thông tin khách hàng lấy chính sách mới đợt vừa xong update đúng k a @Hoanganh1109 , jira đang note là file chính sách cũ"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đúng rồi update r nhé"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "ACE check bug sheet Report nha. @Tuanjnfor @nduythanh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Các màu là như nào c nhỉ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Màu mục đích chia theo cụm dev thôi c, Mọi ng để ý theo số lượng bug đang open là đc, chi tiết thì trong từng sheet nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Có đánh dấu cái nào block luồng dc ko c"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "có trong từng sheet có trạng thái block luồng rồi đó",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3480",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"có trong từng sheet có trạng thái block luồng rồi đó\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuy Phan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

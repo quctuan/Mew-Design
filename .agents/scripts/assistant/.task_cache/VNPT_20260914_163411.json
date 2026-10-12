@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260914_163411",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Duy.Tuan",
+  "timestamp": "16:34 14/09/2026",
+  "trigger_message": "@quctuan",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Thành @haipt1905 vụ hình Emi ở màn prelogin hqua ấy mn.\nSize Emi và BG thì size ở các màn đều đồng nhất rồi.\nEmi: 240x240px\nBG: 375x480\n———\n\nNma riêng màn Prelogin này ae cho hình con emi thấp xuống 1 đoạn kiểu này dc ko nhỉ. E đang muốn phần nền trắng đè lên hình Emi 1 chút"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E nghĩ cái này a thiết kế rồi set ảnh vào cho phù hợp a ạ, chứ nhiều chỗ dùng chung mà chỉ sửa mỗi để phục vụ 1 màn nó k hợp lí lắm"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okee"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "đoạn này em vừa xem so với tài liệu, đang bị ko đồng nhất. Tài liệu đang là đủ điểm mới đi nhập thông tin @quctuan anh xem giúp em nhé ạ"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "@Tuanjnfor Anh Tuấn ơi anh có thể add em vào group nhận OTP để check app được khom ạ 👉👈 Em thankiu anh ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nhờ Thành add nhé em"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "Thành Anh Thành ơi, quả bóng này em nhờ anh xíu được hem ạ 👀"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Muốn nhờ gi cầm chén lên em ah"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "Tuấn lead em khom cho anh ạ 👀 Giữ member lắm ko lại vẽ bay bổng quá khó code 👀"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a @Tuanjnfor  add bạn ấy đi anh. e ko có quyền 😅"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Done nhé"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "Em vào được rùi ạ. Em cảm ưn các anh ạ 🤟"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan màn này, nội dung kia lấy ở config hay gì e nhỉ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_467879",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Duy.Tuan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260820_105005",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Thành NV",
+  "timestamp": "10:50 20/08/2026",
+  "trigger_message": "@Hoanganh1109 @quctuan ơi chỗ này mk đã có ngôn ngữ anh việt cho ae chưa nhỉ.",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "mỗi gr anh nhắc 1 người à"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Nhiều group quá, nên mỗi group nhắn 1 người em ạ. không để group daed 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Phương  @xhphuong1984 join chưa anh :d"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "phần di động là Hồng BA nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Như chỉ làm phần brcđ thôi"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ chị"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Hồng ( chị Hồng - BA - GDS ) join nắm thông tin giúp em nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Để sau liên quan tới việc tích hợp API và đồng bộ dữ liệu EPC về Product catalog bên MyVNPT ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Kính mời anh @BaMoon1102  ( đầu mối gói trên hệ thống hiện hữu), chị @Truong_Thi_Hien (ccbs) , @hazyflame  ( a @LuatTD, chị @Truong_Thi_Hien: CCBS , anh @ntbinh05 QTVH: KMCB, @giangnbt QTVH: SPS) (Employe), anh @vietmv92  (  MyVNPT, Digishop app) , anh @trongbac (Digishop app) , anh @daoduongdt5  (ccos, CCOS QR) , chị Tuyet  (kênh chuỗi, SMCS sim bundle, MNP) , chị Mai  (VNPT PAY),  SMS 900: anh @ntbinh05 (@NgocNTN cấu hình tra cứu) , SMS 888: anh @giangnbt , SMCS sim bundle: anh @tanlm05  ( Media) , anh @ntbinh05 (employe)... e xin phép được mời các anh chị tham gia họp về nội dung triển khai gói di động lên ODA ( các điểm chạm kênh, hệ thống gói hiện hữu cần thực hiện khai báo như nào để đáp ứng đc triển khai đồng bộ từ khách hàng đến điều hành sản xuất)"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Phương ( @xhphuong1984 )\n\n08h30 sáng mai, Thứ Năm ngày 20/08/2026.\n\ntham gia họp cùng em nhá 😄"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@kietla01 @ntiendat @thuyph312 task nội bộ đây nhé\nhttps://dvs.vnptmedia.vn/browse/GMYVNPT-745"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "@nduythanh , cái này các anh chuyển sang link mới xem ạ"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "anh @Tuanjnfor Thành  em gửi chỗ webview consent nhé các a\n\nStaging: https://stagingv2.myvnpt.com.vn/chinh-sach-rieng-tu\n\nBeta: https://beta.myvnpt.com.vn/chinh-sach-rieng-tu\n\nProd: https://my.vnpt.com.vn/chinh-sach-rieng-tu"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@Locnguyen17 @haipt1905 ae tích hợp nhé"
+    },
+    {
+      "sender_name": "Thành NV",
+      "text": "@Hoanganh1109 @quctuan ơi chỗ này mk đã có ngôn ngữ anh việt cho ae chưa nhỉ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3370",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@Hoanganh1109 @quctuan ơi chỗ này mk đã có ngôn ngữ anh việt cho ae chưa nhỉ.\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thành NV</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

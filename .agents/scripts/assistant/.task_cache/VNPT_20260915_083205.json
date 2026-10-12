@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260915_083205",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "Son Do",
+  "timestamp": "08:32 15/09/2026",
+  "trigger_message": "Tuấn @tuanin34 ơi, liên quan tới Autopay, phần nạp tiền tự động, \nGiờ hệ thống đang phải tách mỗi một hình thức nạp là một hóa đơn nạp tự động khác nhau (do là bên SDK mình tích hợp chưa hỗ trợ cùng một hóa đơn nạp có 2 hình thức nạp).",
+  "context_history": [
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "cái này là chọn đầu số à chị"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Vì để chọn được số thì cần truyền SDT sang kho số => kho số sẽ giữ số đấy trong 20p để KH thao tác nhập tt và thanh toán => các kênh khác k lấy được số KH đang chọn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cái này này"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "vâng nhg mà ở bên trong"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "thì là cho chọn cái gì ấy ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ah như cũ thui, tt thfi chọnd dầu số, tsau là đầu số + cck"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "em done luồng pre log rồi ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "chị ơi cái này mình để vuoowts lên một màn được ko ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "theo cá nhân em dùng kiểu này rồi, giống con tammi, em có painpoint ko so sánh được các gói, và cứ phải thoát ra thoát vào ấy ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "với cả em thấy vuốt lọc ở trên mà nó sroll into view thì nó tiện hơn ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "scroll to"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "giống chọn đồ ở Be"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "nếu như có nhiều thì em vẫn có thể tới được các mục khác"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "phần này có nh loại gói, n chia thành các nhu cầu riêng biệt r ý, nên mình chia vào các cate cho user tìm trong đó cho dễ\nđây cũng là concept chung của các phần bán gói rùi"
+    },
+    {
+      "sender_name": "Son Do",
+      "text": "Tuấn @tuanin34 ơi, liên quan tới Autopay, phần nạp tiền tự động, \nGiờ hệ thống đang phải tách mỗi một hình thức nạp là một hóa đơn nạp tự động khác nhau (do là bên SDK mình tích hợp chưa hỗ trợ cùng một hóa đơn nạp có 2 hình thức nạp).",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_468144",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Tuấn @tuanin34 ơi, liên quan tới Autopay, phần nạp tiền tự động,  Giờ hệ thống đang phải tách mỗi một hình thức nạp là một hóa đơn...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Son Do</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

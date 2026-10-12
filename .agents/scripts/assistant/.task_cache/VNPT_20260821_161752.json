@@ -1,0 +1,89 @@
+{
+  "task_id": "VNPT_20260821_161752",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "16:17 21/08/2026",
+  "trigger_message": "a thấy thg Flora có vẻ cũng ngon đấy, ko khác gì Magnific lắm đâu, có khi clear hơn 😄 @leek6998 @quctuan",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "vào đi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "dcu"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ở highland hết mà"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Từ từ a"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Quá mea"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Mưa"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://t.me/+lltEPKvMj1pmNjM1"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://gay-system.vercel.app/"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "quoctuan161299@gmail.com"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "makeit-dev.myshopify.com\n123456"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "https://www.figma.com/board/1AbPntI62IFyMALbuRWZOx/MI-Concept?node-id=731-3559&t=Rj0i1lj4SusYZj5a-1"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "hey bruh @taminhtr kampaign đã done chưa"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chờ tí"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "a thấy thg Flora có vẻ cũng ngon đấy, ko khác gì Magnific lắm đâu, có khi clear hơn 😄 @leek6998 @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456034",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a thấy thg Flora có vẻ cũng ngon đấy, ko khác gì Magnific lắm đâu, có khi clear hơn 😄 @leek6998 @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/board/1AbPntI62IFyMALbuRWZOx/MI-Concept?node-id=731-3559&t=Rj0i1lj4SusYZj5a-1"
+  ],
+  "doc_links": []
+}

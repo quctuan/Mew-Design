@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260827_100956",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "10:09 27/08/2026",
+  "trigger_message": "vibe club gấp thế à",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ui"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "căng thặng"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đừng bạn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ngta đồn thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tôi ở đây để lên phó tổng"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "đã dzị"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ậu cần 3 thư ký hong"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "hãy nhớ những ng bạn trong nhóm này bạn nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "lúc đấy công việc mỗi ngày chỉ là đi mua cf cho sếp Như thôi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nghĩ đã thấy sướng r :))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cậu cf sáng còn tớ mua đồ ăn dặm bủi chiều nhá"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tự chia nhau thoi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dc bạn, mình cứ tềnh tàng thế thôi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chúng mìn hòa thuận mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cgi mà 1r vậy"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vibe club gấp thế à",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459035",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"vibe club gấp thế à\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

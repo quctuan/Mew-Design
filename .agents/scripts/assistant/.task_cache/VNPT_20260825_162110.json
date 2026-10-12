@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260825_162110",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "16:21 25/08/2026",
+  "trigger_message": "Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), anh Minh ( @minhhnhatt ), anh Thông ( @thongnm ), chị Thúy ( @thuyph312 ), chị Hạnh ( Hạnh ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy \n\nTicket GoLive này sẽ bổ sung thêm 2 ticket nữa là: \n1. [SIM số] Update lưu thông tin đơn EMS\n\nNội dung em đã cập nhật lên wiki: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-25082026\n\nNhờ phía anh Mỹ ( @tran_van_my ) và chị Thúy ( @thuyph312 ) điền giúp em thời gian hoàn thành các công việc của team mình nhé ạ.",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "QA Hạnh con nào thế em"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "đây anh @ntiendat"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "cái này test production à"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em test giúp anh mấy phát nữa với"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "beta đấy anh"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "beta đâu, đang production đấy"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "thế anh xem lại đi em test đúng beta rồi đó"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "check giúp anh nhé"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "2026-08-25 16:04:24.592 ERROR com.vnpt.external.ems.EmsConnect - [39a7b67f-f6c4-47eb-ac32-369fc736ab58] url: https://digishop.vnpt.vn/apiprod/myvnpt/createEMSSimOrder | time: 8 ms | requestBody: {\"orderCode\":\"MYVNPT2026082523692662\",\"simNumber\":\"84941073805\",\"mxt\":\"152802\",\"stock\":\"146\",\"cuoc_camket\":0,\"thoigian_camket\":0,\"loaitb_id\":21,\"simType\":2,\"simPrice\":12500,\"shippingPrice\":25000,\"networkJoinFee\":25000,\"productCode\":\"SPS_PRODUCT_VINA690_YT50G\",\"productPrice\":50000,\"customerFullName\":\"ĐỖ THỊ THÚY QUỲNH\",\"customerPhone\":\"84888452833\",\"paymentType\":null,\"paymentStatus\":1,\"deliveryMethod\":7,\"provinceId\":\"10\",\"wardId\":\"11733\",\"address\":\"57A huynh thuc khang,P. Láng,TP. Hà Nội\",\"createdDate\":\"2026-08-25 16:04:24\",\"cpCode\":\"MyVNPT\"} | ex: I/O error on POST request for \"https://digishop.vnpt.vn/apiprod/myvnpt/createEMSSimOrder\": sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target; nested exception is javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "vẫn lỗi nhé anh @ntiendat"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "sao production lại đi gọi nhỉ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "ngoài module này còn module nào gọi sang digishop nữa không a nhỉ @nduythanh"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Có mấy con package, tel_service,  Job"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "e check mấy con này nhé"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), anh Minh ( @minhhnhatt ), anh Thông ( @thongnm ), chị Thúy ( @thuyph312 ), chị Hạnh ( Hạnh ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy \n\nTicket GoLive này sẽ bổ sung thêm 2 ticket nữa là: \n1. [SIM số] Update lưu thông tin đơn EMS\n\nNội dung em đã cập nhật lên wiki: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-25082026\n\nNhờ phía anh Mỹ ( @tran_van_my ) và chị Thúy ( @thuyph312 ) điền giúp em thời gian hoàn thành các công việc của team mình nhé ạ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36443",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear Anh Mỹ ( @tran_van_my ), anh Đạt ( @ntiendat ), anh Minh ( @minhhnhatt ), anh Thông ( @thongnm ), chị Thúy ( @thuyph312 ), ch...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Ly Anh Kiet</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

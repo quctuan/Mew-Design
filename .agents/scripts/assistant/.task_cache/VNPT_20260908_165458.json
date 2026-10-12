@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260908_165458",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "16:54 08/09/2026",
+  "trigger_message": "@aidenLeDevPDC ae làm luồng này rồi hỗ trợ các b chưa biết giúp a nhé",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "@hainn191297 hôm nay có support được k bạn, confirm giúp tôi nhé\ncc chị Anh"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Chỗ này a @leanhvu88 với @hainn191297 xem chia cv nhé ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chốt cho em ai nhận support với ạ, hiện tại con vnpt shop này vẫn luôn là rủi ro lớn nhất về mạt tiến độ, tiến độ tích hợp api khó đảm bảo được thời gian test và bàn giao như mình đã đề ra, riêng ngày hôm qua em chưa thấy phản hồi gì từ đội BE trong khi đang có nhiều vấn đề được liệt kê ạ"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "hiện tại thì mình nhận nhé."
+    },
+    {
+      "sender_name": "Hai",
+      "text": "nay mình sẽ support trả lời nốt các câu hỏi của phần VNPT shop internet"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Trong sáng nay check hết giúp tôi vấn đề nhé, cái nào không sửa được luôn thì ghi lại deadline giúp tôi"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "@aidenLeDevPDC a báo mn lấy code mới từ main về nhá, e mới cập nhật v1.1.5, nhánh nào chưa có thì báo lại e với ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh em update nhé ạ @haulcw Hiền @nqthang21"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Nhờ @NguyetDang giúp anh chốt lại xem có thực sự cần thiết việc check địa danh tỉnh thành ko và nếu ko thì dẫn đến case gì tiếp (ví dụ ai là người check thông tin này, state machine của order sẽ đi ntn tiếp, etc).\n\nCòn như trao đổi giữa anh với Nguyệt thì cái thông tin này nó có thể thay đổi nhiều (phát sinh tên địa chỉ mới chẳng hạn) và mình cũng chỉ map tới mức tỉnh thành, cũng ko thể lần nào cũng gọi API sang phía 3rd để check liên tục"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Luồng check map theo danh mục địa danh hành chính mới này , PO đã cập nhật là bỏ rồi ạ\nNên hiện tại khi vào luồng đăng ký chỉ có 2 nhánh : chọn địa chỉ (đã có) or Thêm địa chỉ mới thôi anh nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "@hieunguyen271095 anh sp cho bạn Hiền luồng tích hợp từ miniapp gọi các API thông qua việc AES giúp em với"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "gọi luồng secureCode ah"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "đugns rồi"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "sủ dụng secureCodeData nhé"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "@aidenLeDevPDC ae làm luồng này rồi hỗ trợ các b chưa biết giúp a nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_463704",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@aidenLeDevPDC ae làm luồng này rồi hỗ trợ các b chưa biết giúp a nhé\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Hieu Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

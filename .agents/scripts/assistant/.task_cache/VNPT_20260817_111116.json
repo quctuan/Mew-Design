@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260817_111116",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "11:11 17/08/2026",
+  "trigger_message": "ui họ đến bước này r cơ à",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=))))))))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xinh gái thì j cx biết"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "vl =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Xin chào mừng các thành viên mới gia nhập Ban dự án GDS ⭐️🌟🎊🎉\n- Anh: Hoàng Kỳ Lâm (sinh năm 1982)\nVTCV: Tổ phó Tổ QLSP&DV\n- Bạn: Đỗ Hằng (sinh năm 2000)\nVTCV: Chuyên viên Thiết kế UI/UX\n- Bạn: Lại Thị Linh (sinh năm 2001)\nVTCV: Chuyên viên Vận hành-Khai thác\n\nCả nhà cùng chào đón các thành viên nha ạ🤩"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "sao b ko kể cho chúng tôi hóng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đây à"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "b để chúng toi tự tìm ra sự thật à"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=)))))))))))))))))))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tôi mới biết thôi mà :)) với mới chớm, đã có gì đâuu"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "họ chơm nhau rồi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "haiz"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "bạn bắt gặp ai z"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lạc hậu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "da fuk"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "toi bắt gặp đôi đấy đi ăn trưa riêng mí nhau =)))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ui họ đến bước này r cơ à",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_453411",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"ui họ đến bước này r cơ à\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Nhu</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

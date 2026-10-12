@@ -1,0 +1,102 @@
+{
+  "task_id": "VNPT_20260909_200853",
+  "group_name": "[MEIDA-VNP] Tặng điểm BRCD OMO",
+  "sender_name": "Quynh Mai",
+  "timestamp": "20:08 09/09/2026",
+  "trigger_message": "Chị Đỗ Minh , chị Thao Linh ơi, em gửi lại kịch bản đã điều chỉnh nhớ 2 chị cf và review lại nội dung https://docs.google.com/document/d/1vFk1VXWgPMlz9pMAxICxa6BO9GRWL7u0JfPhu3nRfbE/edit?tab=t.0#heading=h.uac97len3tae\n\nMình cố gắng chốt trong ngày mai nhé hai chị",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Như",
+      "text": "với luồng này cũng ko nằm trong scope golive 15/10"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@GiangTTH ơi, xem giúp chị chỗ gửi lại API để đánh giá nhé. Hoặc cho chị xin lại timeline Gửi lại API nhé"
+    },
+    {
+      "sender_name": "Giangg",
+      "text": "em gửi lại API tích điểm cho KH theo sự kiện\nTài liệu https://docs.google.com/document/d/1rEUhTks8H2RrIvKUOn2Dk1Tdl-UQ8YO3ziRwes4cCkE/edit?tab=t.0 . Mục 3.21. API tích điểm loyaltyManagement/earn/addPointDaily\nĐối với thuê bao đã là hội viên Loyalty thì Loyalty tặng điểm tùy theo kịch bản ( campaignDetailCode và productNumber)\nĐối với thuê bao chưa là hội viên loyalty, cho phép cấu hình auto đăng ký hội viên, sau đó, tặng điểm thùy theo kịch bản"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@NguyetDang , @ngngthaonhu ơi, nắm thông tin đánh giá phương án sử dụng API này nha"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Chị Giangơi, c accept request tài liệu giúp em e với ạ"
+    },
+    {
+      "sender_name": "Giangg",
+      "text": "c accept r nhé, e xem được chưa"
+    },
+    {
+      "sender_name": "Huong",
+      "text": "Phía FT gửi API r nhé ạ nhờ @quynhmaihavi phản hồi lại muộn nhất 11/9 để FT sắp xếp kế hoạch & nguồn lực nhé."
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "mở quyên xem giúp tôi để bên tôi xem nhé Giang"
+    },
+    {
+      "sender_name": "Giangg",
+      "text": "t vừa cập nhật nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Đỗ Minh , chị Thao Linh , anh @nttung0112 , chị @maihuongvnes , @GiangTTH , 4h35, chiều nay, em mời mọi người tham gia meet Q&A làm rõ 1 số câu hỏi liên quan đến kịch bản tặng điểm BRCD nhé ạ https://meet.google.com/kcc-bzng-yxr"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "e accept a với nhé"
+    },
+    {
+      "sender_name": "Huong",
+      "text": "Acc giúp c nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Thao Linh ơi"
+    },
+    {
+      "sender_name": "Thao Linh",
+      "text": "ACE ơi, em/chị vẫn chưa họp xong ạ, xin phép mọi người join họp sau một chút ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị @maihuongvnes ơi, bọn em xác nhận triển khai luồng theo hướng sử dụng API realtime nhé ạ. Nhờ chị đánh giá timeline và sắp xếp nguồn lực ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Đỗ Minh , chị Thao Linh ơi, em gửi lại kịch bản đã điều chỉnh nhớ 2 chị cf và review lại nội dung https://docs.google.com/document/d/1vFk1VXWgPMlz9pMAxICxa6BO9GRWL7u0JfPhu3nRfbE/edit?tab=t.0#heading=h.uac97len3tae\n\nMình cố gắng chốt trong ngày mai nhé hai chị",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5565839268_464708",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chị Đỗ Minh , chị Thao Linh ơi, em gửi lại kịch bản đã điều chỉnh nhớ 2 chị cf và review lại nội dung https://docs.google.com/docu...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Mở tài liệu Google Docs/Sheet đính kèm để đối soát kịch bản & URD",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 33,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/document/d/1vFk1VXWgPMlz9pMAxICxa6BO9GRWL7u0JfPhu3nRfbE/edit?tab=t.0#heading=h.uac97len3tae",
+    "https://docs.google.com/document/d/1rEUhTks8H2RrIvKUOn2Dk1Tdl-UQ8YO3ziRwes4cCkE/edit?tab=t.0"
+  ]
+}

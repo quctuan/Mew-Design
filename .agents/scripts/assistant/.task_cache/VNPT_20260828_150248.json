@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260828_150248",
+  "group_name": "VNP&FIN_MYVNPT@Hỗ trợ Xử lý khiếu nại",
+  "sender_name": "HOANG PHUONG",
+  "timestamp": "15:02 28/08/2026",
+  "trigger_message": "@ngthuyanh (@ntiendat ) xem giúp a luồng đồng bộ với",
+  "context_history": [
+    {
+      "sender_name": "Lệ",
+      "text": "thử lại nhiều lần vẫn lỗi, KH nói ko được xử lý đơn hàng của KH, em xem gấp giúp chị với nhé"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "các chị xin video giúp e nhé @ThuTrang66 @ThuLegqkn"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "2026-08-28 14:41:43.811 ERROR com.vnpt.service.impl.ValidateMxtServiceImpl - afc7c097-e747-4bef-9be3-c98259b522ab validateMxt BH013 | mã giữ số wrong"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "mình tự thao tác để check cụ thể lỗi cho k/hàng đó Phương"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "chị khởi tạo sim trước mới dc hay sao đó"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "trên CMS MyVNPT có kiểm tra trạng thái đó ạ"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "có lệnh khởi tạo sim và đang chờ ĐKTT để kích hoạt"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "cms My VNPT ko ghi nhận mốc tgian khởi tạo ah?"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "đúng thế ạ"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "vậy lỗi sys chứ đâu phải do k/hàng"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "mình đã chọn gửi lại mã giữ số nhưng ko được"
+    },
+    {
+      "sender_name": "HOANG PHUONG",
+      "text": "@ngthuyanh (@ntiendat ) xem giúp a luồng đồng bộ với",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2259406769_3185",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@ngthuyanh (@ntiendat ) xem giúp a luồng đồng bộ với\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>HOANG PHUONG</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

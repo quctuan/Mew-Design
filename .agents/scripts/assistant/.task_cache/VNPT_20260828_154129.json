@@ -1,0 +1,83 @@
+{
+  "task_id": "VNPT_20260828_154129",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hiền Nguyễn",
+  "timestamp": "15:41 28/08/2026",
+  "trigger_message": "@quynhmaihavi @hainn191297 trên design em thấy có card Gói độc quyền này khác với layout các card khác. Em dựa vào đâu để hiển thị tương ứng các card này anh chị nhỉ?",
+  "context_history": [
+    {
+      "sender_name": "Hiền",
+      "text": "em đang ko vpn thì gọi lỗi http 499 anh ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "bật VPN mới success 200"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Thế thì vpn thôi. Nhưng như thế thì bên app đang test như thế nào đấy @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Mấy api mình ghép thấy k cần VPN"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Thế thì hơi lạ . Vì ApI có lên rồi. Để em gửi thêm postman vậy"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Sáng có báo mà quên mất"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hainn191297 2 api này em em xin response có data để ghép giao diện với ạ. Trường hợp em truyền msisdn: '' result cũng rỗng ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@quynhmaihavi chị cho em hỏi tag icon ở gói cước là tag nào vậy chị nhỉ. \nVới hiện tại wiki mô tả có 4 loại categoryType mà trong design có 6 loại card thì FE mapping tương ứng như nào vậy ạ?"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Tag icon là cái đỏ ở góc này nhé"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Các nội dung còn lại là thumbnail"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hainn191297 giao diện em khoanh đỏ ở card, em mapping từ trường nào anh nhỉ, trên wiki em ko thấy mô tả trường nào cho phần hiển thị này anh ạ"
+    },
+    {
+      "sender_name": "Hiền Nguyễn",
+      "text": "@quynhmaihavi @hainn191297 trên design em thấy có card Gói độc quyền này khác với layout các card khác. Em dựa vào đâu để hiển thị tương ứng các card này anh chị nhỉ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_460073",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quynhmaihavi @hainn191297 trên design em thấy có card Gói độc quyền này khác với layout các card khác. Em dựa vào đâu để hiển thị...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Hiền Nguyễn</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

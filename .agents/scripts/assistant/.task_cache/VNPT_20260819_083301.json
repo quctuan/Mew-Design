@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260819_083301",
+  "group_name": "[GDS] Team Quản lý SP&DV",
+  "sender_name": "Tubi",
+  "timestamp": "08:33 19/08/2026",
+  "trigger_message": "Deadline 11h00",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@cicinq166 ơi nhờ e trình ký bản này giúp c nha"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Do có 1 chút nhầm lẫn về số lượng người tham dự ăn tối thứ 6 vừa rồi (tính cả bạn Hường không tham gia) ,team mình vui lòng gửi bổ sung giúp em 16,288VNĐ tiền ăn tối ạ. Rất xin lỗi cả phòng đã phiền mọi người.  \n Trừ Sơn, Khánh, Vân Anh, Minh (chưa đóng - vui lòng đóng theo số tiền tổng trên file) và Hằng + Gia Linh (đã đóng đủ)\nhttps://docs.google.com/spreadsheets/d/1egbJKCoPDAsms4DqhJSaOHGk20Sm7cnzBt9MJiFtfLo/edit?gid=0#gid=0"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "Hay có tạm triệt tiêu vào quỹ ban hông chị. Hoặc ghi nợ. Hnao đóng quỹ mn đóng kèm đỡ lắt nhắt"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "H Ck cũng nhanh tiện mà, khoản nào xong khoản đó :d. Tại tiền này chị không đụng vào tk quỹ ban. Mọi người chịu khó thêm 1 lần ck nhé. Mai cho ăn ngon 😍"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vì thương chị nên e quyết định chuyển 17k"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Đội ơn em, chị nhỏ 2 giọt nước mắt cảm động 🥲"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "mai cho thêm lựa chọn khác ngoài trà sữa đi Thủy :))"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Mai chỉ uống nước lọc thôi anh ạ 🤣"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Mai thất tịch cho e 1 offer đậu đỏ..."
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "Em ăn chỉ tốn đậu đỏ thôi kkk"
+    },
+    {
+      "sender_name": "Tran",
+      "text": "C Thuỷ mát tay lắm, có khi ăn đậu đỏ c Thuỷ đặt Nam cuối năm lại lấy V"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Deadline 11h00",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5241378184_454352",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Deadline 11h00\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1egbJKCoPDAsms4DqhJSaOHGk20Sm7cnzBt9MJiFtfLo/edit?gid=0#gid=0"
+  ]
+}

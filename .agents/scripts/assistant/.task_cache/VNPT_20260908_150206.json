@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260908_150206",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "15:02 08/09/2026",
+  "trigger_message": "Gửi tài liệu URD có được k? Đằng nào chẳng sang đó bài ngửa =)) @minhhnhatt",
+  "context_history": [
+    {
+      "sender_name": "Trang",
+      "text": "2 gộp làm 1 của @vaanha này =))"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "đẳng cấp"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "chắc chị @vaanha  đang gato vs nữ chính"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "sao những lúc tnay chị ko gọi em @quynhmaihavi"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "À chị quên mất đáng ra chị phải nói anh em là các anh qua làm vc với em Hà. Chỗ này em ko biết gì cả"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chỉ có em Hà mới giải quyết đc"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @Trangdt171 ơi, chỗ này nhờ bên c bsung giúp e với ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tkim03 ơi e book họp chưa? book sớm nhé để a còn báo c My"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "c ý còn sắp xếp sang đấy hỗ trợ mình"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ko lại chậm 1 tuần ko có output thêm gì"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "chị TL đang chưa nghe dthoai ạ 😭😭😭"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "trong hnay em sẽ hẹn đc ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "okie thế để a báo c My trong hnay mình báo lại c ý nhá"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "chỗ này mình có thể nói chi tiết đc đến đâu ạ anh @minhhnhatt ới"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "Gửi tài liệu URD có được k? Đằng nào chẳng sang đó bài ngửa =)) @minhhnhatt",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_463374",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Gửi tài liệu URD có được k? Đằng nào chẳng sang đó bài ngửa =)) @minhhnhatt\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trang Đỗ</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"urd\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

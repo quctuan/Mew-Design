@@ -1,0 +1,98 @@
+{
+  "task_id": "VNPT_20260910_155615",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "15:56 10/09/2026",
+  "trigger_message": "Nó là webp à a a :)) Có thể cho e png 3x để thay thế cho lẹ k a",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "https://testflight.apple.com/join/uQsrlTYH"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "CLick link này là dcd nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chỗ này anh xem bổ sung giúp em nhé @quctuan"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "đã thêm nhé"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan chỗ ưu đãi này, kéo xuống dưới có load more ko e"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Description: Quý khách vui lòng tải lại trang để tạo lại mã QR thanh toán mới.\n\nTitle: Giao dịch đã hết hạn\n\nButton: Tải lại"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan a gửi"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh @quctuan cho em xin mấy cái chấm trắng này nhé anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=45530-181653&t=3WCjYQBNnaJGnmoV-11\n\ne bổ sung r nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "sao ko lấy cả BG xanh kèm chấm trắng luôn hả e"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "ok anh vậy em xin cả nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://drive.google.com/file/d/1jJoI05-L4820LGMgdNauTnrMMVZRej04/view\na gửi nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Thành @haipt1905 ae nào làm màn này thế ạ.\nGiúp e thay cái hình illus cho nét với. Trên app đang bị vỡ hình quá\n\nLink 2 ảnh:\nhttps://drive.google.com/file/d/1cSAMIcmhL6-u5brwBXlIRxj8ofzUh3Ev/view\n\nhttps://drive.google.com/file/d/1_OdRn9UfiD11EHvcCRD9ndNIgpz4dP4C/view"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37346-21563&t=a8Yy7mu3ZY0Q1TRr-1"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Ok thank you"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "Nó là webp à a a :)) Có thể cho e png 3x để thay thế cho lẹ k a",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_465549",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Nó là webp à a a :)) Có thể cho e png 3x để thay thế cho lẹ k a\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Phạm Thanh Hải</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37346-21563&t=a8Yy7mu3ZY0Q1TRr-1",
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=45530-181653&t=3WCjYQBNnaJGnmoV-11"
+  ],
+  "doc_links": []
+}

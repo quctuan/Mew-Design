@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260826_165725",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "16:57 26/08/2026",
+  "trigger_message": "anh trả về đúng giúp em được k , vì anh bảo sử hiển thị theo format GB, thì figma cũng sửa lại giúp em với ạ",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "ý là em lấy trường và hiển thị  ở màn cài đặt lưu lượng đúng chưa ạ , em có chụp hình response trả về đó ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cả cái default của thanh trượt nữa thì sao ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "default để giá trị hiện tại đi em"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Nếu hiển thị data khả dụng còn lại trong tháng là tổng data và hạn mức cung cấp là data đang sử dụng hiện tại \nThì \nkhi em so sánh cái  thanh trượt sẽ so sánh vượt quá so với tổng data  và hạn mức thấp hơn sẽ so sánh với data sử dụng hiện tại"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "CHốt như thế này anh nhỉ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "anh ơi , xóa thành viên của HVC cũng cần mà \ntài liệu ghi otp Required"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "truyền rỗng hả anh @ngsong699"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Với lại hiện tại các cái case thêm mới của HVC và Homecombo  đang không thêm được nên em k test được chức năng xóa thành viên  và rời nhóm đâu ạ , xóa rồi thì k check dc case thành viên"
+    },
+    {
+      "sender_name": "Song",
+      "text": "truyền \"\" nhé em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Dạ vầng ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "https://prnt.sc/MfW5TH15sO-r"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "còn cái này sao nó lại trả về dạng này anh nhỉ"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "anh trả về đúng giúp em được k , vì anh bảo sử hiển thị theo format GB, thì figma cũng sửa lại giúp em với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_458852",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh trả về đúng giúp em được k , vì anh bảo sử hiển thị theo format GB, thì figma cũng sửa lại giúp em với ạ\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

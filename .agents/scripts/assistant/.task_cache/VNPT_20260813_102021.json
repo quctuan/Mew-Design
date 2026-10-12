@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260813_102021",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "10:20 13/08/2026",
+  "trigger_message": "lái con sóng cơ à =))",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "Cài cái khuy lại"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "A Minh đi đâu r ấy =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "SẾP ƠIIIIIIIII"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "??????"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ơ kìa"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "SẾP CÓ TIỀN CHỨ CHÚNG EM CÓ ĐÂUUU"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "không ký hay là chưa ký"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ngta gọi là"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chuưa duyệt"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "vinh danh làm gì khi mà tiền ko có"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "làm gì có tiền?"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mà tặng"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "làm màu vl"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lái con sóng cơ à =))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_452009",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"lái con sóng cơ à =))\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Thuỳ Anh</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

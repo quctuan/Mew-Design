@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260911_113224",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Hoàng Hải",
+  "timestamp": "11:32 11/09/2026",
+  "trigger_message": "5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15406,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010072\",\"billCode\":\"8405010072\",\"fullName\":\"NGUYỄN TRUNG THÀNH\",\"address\":\"PHƯỜNG BÌNH HÒA, THÀNH PHỐ THUẬN AN, BÌNH DƯƠNG\",\"isOwner\":0,\"amount\":132000,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN TRUNG THÀNH\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"}]}}}",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Ko phải như thế này, do timeline là 15/10 thì đang giữ theo phương án hiện tại. Mục tiêu cuối cùng vẫn là phải là hợp nhất đc con người từ dữ liệu gốc nhé anh"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh note rõ giúp em"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em note bổ sung thế này là được rồi nhé. anh không cần edit lại nữa đâu"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Vụ này anh dự kiến họp chiều nay với IT và VNP, setup được anh báo lại thông tin cụ thể nhé Mai ( @quynhmaihavi ), Như ( @ngngthaonhu )"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Anh Nguyen chỗ này đang chưa rõ, chưa đến data test nhé. Sheet bên vivas chị chuyển asisgn cho e để theo dõi nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Bên đó có note cần xin mock data ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "mock data thì phải hỏi dev chứ"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "cái này phục vụ cho màn hình nào đấy Nam"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Ds hóa đơn nhóm a ạ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "[API-PATH]: /tel_service/homegroup/getGroupBills  [REQUEST-ID]: 2910109e-663b-43db-a17a-a154fb943e60  [TIME_PROCESS]: 662 ms [BODY RESPONSE]: {\"requestId\":\"2910109e-663b-43db-a17a-a154fb943e60\",\"timestamp\":\"11/09/2026 11:26:12\",\"errorCode\":\"0\",\"message\":\"Thành công\",\"data\":{\"vien_thong\":{\"type\":\"vien_thong\",\"totalAmount\":1050000,\"count\":1,\"bills\":[{\"billId\":33,\"serviceType\":5,\"type\":\"vien_thong\",\"customerId\":\"16118257\",\"account\":\"84812024210\",\"billCode\":\"HCM-GT/00140144\",\"provinceCode\":\"HUE\",\"fullName\":\"Hô Thị Thanh Bình\",\"isOwner\":0,\"amount\":1050000,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"Hô Thị Thanh Bình\"}]},\"dien\":{\"type\":\"dien\",\"totalAmount\":0,\"count\":1,\"bills\":[{\"billId\":15654,\"serviceType\":12,\"type\":\"dien\",\"customerId\":\"16118832\",\"account\":\"PB15070066938\",\"billCode\":\"PB15070066938\",\"isOwner\":0,\"amount\":0,\"status\":3,\"statusName\":\"KHONG_NO_CHUA_QUA_HAN\",\"providerName\":\"Tổng công ty Điện lực miền Nam\",\"providerCode\":\"EVN_VTU\"}]},\"nuoc\":{\"type\":\"nuoc\",\"totalAmount\":6777865,\"count\":7,\"bills\":[{\"billId\":12010,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118257\",\"account\":\"CNNA_000153\",\"billCode\":\"CNNA_000153\",\"isOwner\":0,\"amount\":17940,\"status\":1,\"statusName\":\"CON_NO\",\"providerName\":\"THAWACO\",\"providerCode\":\"THAWACO\",\"dkTraTruoc\":\"-1\"},{\"billId\":15401,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010056\",\"billCode\":\"8405010056\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1434850,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15402,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010057\",\"billCode\":\"8405010057\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1686750,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15403,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010070\",\"billCode\":\"8405010070\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1434850,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":14120,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118257\",\"account\":\"8405010078\",\"billCode\":\"8405010078\",\"fullName\":\"NGUYỄN THÀNH NAM\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1938650,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH NAM\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15409,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010071\",\"billCode\":\"8405010071\",\"fullName\":\"NGUYỄN THÀNH VINH\",\"address\":\"PHƯỜNG BÌNH HÒA, THÀNH PHỐ THUẬN AN, BÌNH DƯƠNG\",\"isOwner\":0,\"amount\":132825,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH VINH\",\"providerName\":\"CTCP nước - môi trường Bình Dương"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15406,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010072\",\"billCode\":\"8405010072\",\"fullName\":\"NGUYỄN TRUNG THÀNH\",\"address\":\"PHƯỜNG BÌNH HÒA, THÀNH PHỐ THUẬN AN, BÌNH DƯƠNG\",\"isOwner\":0,\"amount\":132000,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN TRUNG THÀNH\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"}]}}}"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "em thử thì nó vẫn ra data"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "Nam a cho em xin request của a với ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "đây e"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "[API-PATH]: /tel_service/homegroup/getGroupBills  [REQUEST-ID]: e91f48e8-fc09-4574-80c8-34f93985277b  [TIME_PROCESS]: 948 ms [BODY RESPONSE]: {\"requestId\":\"e91f48e8-fc09-4574-80c8-34f93985277b\",\"timestamp\":\"11/09/2026 10:26:35\",\"errorCode\":\"0\",\"message\":\"Thành công\",\"data\":{\"vien_thong\":{\"type\":\"vien_thong\",\"totalAmount\":1050000,\"count\":1,\"bills\":[{\"billId\":33,\"serviceType\":5,\"type\":\"vien_thong\",\"customerId\":\"16118257\",\"account\":\"84812024210\",\"billCode\":\"HCM-GT/00140144\",\"provinceCode\":\"HUE\",\"fullName\":\"Hô Thị Thanh Bình\",\"isOwner\":0,\"amount\":1050000,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"Hô Thị Thanh Bình\"}]},\"dien\":{\"type\":\"dien\",\"totalAmount\":0,\"count\":1,\"bills\":[{\"billId\":15654,\"serviceType\":12,\"type\":\"dien\",\"customerId\":\"16118832\",\"account\":\"PB15070066938\",\"billCode\":\"PB15070066938\",\"isOwner\":0,\"amount\":0,\"status\":3,\"statusName\":\"KHONG_NO_CHUA_QUA_HAN\",\"providerName\":\"Tổng công ty Điện lực miền Nam\",\"providerCode\":\"EVN_VTU\"}]},\"nuoc\":{\"type\":\"nuoc\",\"totalAmount\":6777865,\"count\":7,\"bills\":[{\"billId\":12010,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118257\",\"account\":\"CNNA_000153\",\"billCode\":\"CNNA_000153\",\"isOwner\":0,\"amount\":17940,\"status\":1,\"statusName\":\"CON_NO\",\"providerName\":\"THAWACO\",\"providerCode\":\"THAWACO\",\"dkTraTruoc\":\"-1\"},{\"billId\":15401,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010056\",\"billCode\":\"8405010056\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1434850,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15402,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010057\",\"billCode\":\"8405010057\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1686750,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15403,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010070\",\"billCode\":\"8405010070\",\"fullName\":\"NGUYỄN THÀNH CÔNG\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1434850,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH CÔNG\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":14120,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118257\",\"account\":\"8405010078\",\"billCode\":\"8405010078\",\"fullName\":\"NGUYỄN THÀNH NAM\",\"address\":\"CĂN36-LÔA KDC 5A ĐÔ THỊ BÀU BÀNG-THỊ TRẤN LAI UYÊN\",\"isOwner\":0,\"amount\":1938650,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH NAM\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15409,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010071\",\"billCode\":\"8405010071\",\"fullName\":\"NGUYỄN THÀNH VINH\",\"address\":\"PHƯỜNG BÌNH HÒA, THÀNH PHỐ THUẬN AN, BÌNH DƯƠNG\",\"isOwner\":0,\"amount\":132825,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN THÀNH VINH\",\"providerName\":\"CTCP nước - môi trường Bình Dương"
+    },
+    {
+      "sender_name": "Hoàng Hải",
+      "text": "5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"},{\"billId\":15406,\"serviceType\":14,\"type\":\"nuoc\",\"customerId\":\"16118832\",\"account\":\"8405010072\",\"billCode\":\"8405010072\",\"fullName\":\"NGUYỄN TRUNG THÀNH\",\"address\":\"PHƯỜNG BÌNH HÒA, THÀNH PHỐ THUẬN AN, BÌNH DƯƠNG\",\"isOwner\":0,\"amount\":132000,\"status\":1,\"statusName\":\"CON_NO\",\"customerName\":\"NGUYỄN TRUNG THÀNH\",\"providerName\":\"CTCP nước - môi trường Bình Dương 5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/bill_biwase.jpg\"}]}}}",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_466402",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"5\",\"providerCode\":\"BIWASE\",\"providerIconImg\":\"https://vnptpay.vn/appgw/resourses/images/services/water/biwase.jpg\",\"providerBillIm...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hoàng Hải</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

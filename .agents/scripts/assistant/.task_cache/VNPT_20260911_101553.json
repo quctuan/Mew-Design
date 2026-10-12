@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260911_101553",
+  "group_name": "CLB Pickleball CQ_Media",
+  "sender_name": "Song Anh",
+  "timestamp": "10:15 11/09/2026",
+  "trigger_message": "ACE GDS dành mấy phút để chốt sớm giúp BTC nhé, để BCH CĐ KCQ còn có phương án tổ chức @hoangkylam @minhhnhatt @havietngn @hieunguyen271095 @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "ừa"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chứ giải mà trong T9 thì bọn e cố gắng tgia hết =))"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "chưa có đối nào gánh được anh :))"
+    },
+    {
+      "sender_name": "Song",
+      "text": "có thày Nghĩa :)"
+    },
+    {
+      "sender_name": "Song",
+      "text": "c sẽ báo cáo với BCH xem có đẩy ngày sớm lên dc ko"
+    },
+    {
+      "sender_name": "Song",
+      "text": "nếu đẩy lên cuối tháng 9 thì các em có tham gia dc không"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "26/9"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "Song Anh VAS Trao đổi xem bên đó tối đa là bao nhiêu đội"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "chỗ GDS đó"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "chỗ ACE chưa đký đó"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "để mình tính toán dự trù số lượng xem có đủ đội không"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "26/9 mà tổ chức thì như nào ACE"
+    },
+    {
+      "sender_name": "Tê cê",
+      "text": "chỗ GDS mà full dky tham gia thì có khoảng bao nhiêu đôi hả các em"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "để e hỏi lại bên e ạ"
+    },
+    {
+      "sender_name": "Song Anh",
+      "text": "ACE GDS dành mấy phút để chốt sớm giúp BTC nhé, để BCH CĐ KCQ còn có phương án tổ chức @hoangkylam @minhhnhatt @havietngn @hieunguyen271095 @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5088986415_466069",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"ACE GDS dành mấy phút để chốt sớm giúp BTC nhé, để BCH CĐ KCQ còn có phương án tổ chức @hoangkylam @minhhnhatt @havietngn @hieungu...\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Song Anh</b>"
+  ],
+  "scoring": {
+    "score": 16,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

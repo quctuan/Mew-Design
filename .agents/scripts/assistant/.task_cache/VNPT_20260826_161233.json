@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260826_161233",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Nhu",
+  "timestamp": "16:12 26/08/2026",
+  "trigger_message": "@quctuan ui như này là sai với hạn mức bạn nha",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "là sao nhỉ em đang hơi rối"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "tức là 2 cái này nó sẽ lấy như thế nào anh chị nhỉ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "à anh hiểu r"
+    },
+    {
+      "sender_name": "Song",
+      "text": "thế thì cái data khả dụng này phải lấy kiểu  total data gói -  ( tổng hạn mức data đã set cho các thành viên khác )"
+    },
+    {
+      "sender_name": "Song",
+      "text": "nó là giới hạn của cái thanh trượt"
+    },
+    {
+      "sender_name": "Song",
+      "text": "còn cái hạn mức cung cấp là giá trị khi thanh trượt ở điểm nào"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "nếu thế thì default là hiện cái gì anh"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "trước khi kéo ý ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em đg đọc cái cũ mà cái cũ này nó trình bày figma khác"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái hạn mức cung cấp default là data đã sử dụng của thành viên đó"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "đúng k anh nhỉ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@havietngn  nhờ em giải đáp  cái \"data khả dụng còn lại trong tháng\" tính như nào nhé, cả cái default của thanh trượt"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 \nhttps://prnt.sc/dqp__fGdrFB2\nhttps://prnt.sc/9au-ErToWy6E\nở ngoài là em lấy nhưu thế chuẩn rồi anh nhỉ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan ui như này là sai với hạn mức bạn nha",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_458782",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ui như này là sai với hạn mức bạn nha\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260914_113412",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Minh Tam",
+  "timestamp": "11:34 14/09/2026",
+  "trigger_message": "https://www.figma.com/design/6uyPlw7kBTUrsIKKJZ0AUe/Landing-page-TW-%C4%90o%C3%A0n?node-id=68-9813&t=QtOTUbzyHtijoBqV-1",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "@taminhtr giúp t bổ sung scrolling màn này nhá"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "okie"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "body text dùng để mô tả đoạn văn mình dùng 16px hay 14px ấy nhỉ :v"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=52069-114519&t=v7liHTB7fTn5NzP6-1\n\nt gửi nhé"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "t hay dùng 14"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "16px có vẻ dễ đọc hơn nhỉ. Cái đoạn Long Biên là 16px, Emi bảo trì là 14px"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "xem trên app"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "https://www.facebook.com/share/v/1D4ffssTqr/?mibextid=wwXIfr"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Ngta làm chàm hay quoé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://docs.google.com/spreadsheets/d/1rua7aSSU8UMZB5w3A4CYJN-u-FytdWJ9xHeUeL37gAU/edit?gid=0#gid=0"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t gửi file log bug nhé. Sẽ test trên 2 device:\n- iOS: dùng máy cá nhân test\n- Android: mượn máy QC"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Mỗi luồng thì duplicate sang 1 trang riêng để log"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Bug về UI thì đính kèm link figma. Screenshot bản test đặt cạnh màn design để dễ so sánh"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "https://www.figma.com/design/6uyPlw7kBTUrsIKKJZ0AUe/Landing-page-TW-%C4%90o%C3%A0n?node-id=68-9813&t=QtOTUbzyHtijoBqV-1",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_467672",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/6uyPlw7kBTUrsIKKJZ0AUe/Landing-page-TW-%C4%90o%C3%A0n?node-id=68-9813&t=QtOTUbzyHtijoBqV-1\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Minh Tam</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 14,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/6uyPlw7kBTUrsIKKJZ0AUe/Landing-page-TW-%C4%90o%C3%A0n?node-id=68-9813&t=QtOTUbzyHtijoBqV-1",
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=52069-114519&t=v7liHTB7fTn5NzP6-1"
+  ],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1rua7aSSU8UMZB5w3A4CYJN-u-FytdWJ9xHeUeL37gAU/edit?gid=0#gid=0"
+  ]
+}

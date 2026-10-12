@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260819_084406",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "08:44 19/08/2026",
+  "trigger_message": "ms có 3tr mà =))",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Nhức đầu đúng lúc ghê"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "để e cử Tuấn lên"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "được đấy"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "trắng trẻo"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "to cao"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tôi mà lên là từ nay về sau đ dc chia gì nữa đâu =))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "b ăn hết ko để lại vụn à =))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "hnay trời đẹp nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "v mà phải ngồi đây"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "mà lại còn đ dc chia đồng nào"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mát trời"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "và hôm nay có 2 cuộc họ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tsao nhỉ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ms có 3tr mà =))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_454385",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"ms có 3tr mà =))\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Thuỳ Anh</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

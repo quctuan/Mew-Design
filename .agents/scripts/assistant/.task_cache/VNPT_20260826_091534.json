@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260826_091534",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "09:15 26/08/2026",
+  "trigger_message": "https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=7719-391119&t=7lsIlU9Dc0pY3HmA-1",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "code đi"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "nhờ em Tâm mô tả cái này ở màn Home"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Cái gì thế anh Kiên"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "cái sidebar mới"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh có align với cái pricing mới r"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Vâng"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "?? lễ phép thế"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Chứ sao ??"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "@taminhtr ?"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "viết tắt của Fiora"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://lnkd.in/p/grcZs4vv"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "Có 1 task làm thumbnail nhờ em xử hộ a @taminhtr"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=7719-391119&t=7lsIlU9Dc0pY3HmA-1",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_458263",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=7719-391119&t=7lsIlU9Dc0pY3HmA-1\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Kiên</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=7719-391119&t=7lsIlU9Dc0pY3HmA-1"
+  ],
+  "doc_links": []
+}

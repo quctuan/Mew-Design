@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260828_174738",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Thuy Phan",
+  "timestamp": "17:47 28/08/2026",
+  "trigger_message": "Dear em Anh Nguyen \nCC: @vietmv92, @Tuanjnfor, @nduythanh \nChị gửi report các task đang còn tồn đọng đến hiện tại\n1. Concept cá nhân\nTotal: 83 | Executed: 83 (100,0%)\n- Pass: 50 (60,2%)\n- Fail: 0 (0,0%)\n- Pending: 33 (39,8%)\n\nĐã kiểm thử luồng đồng bộ dữ liệu cá nhân theo DIgital ID( dữ liệu định danh, dữ liệu  nhóm, dữ liệu đơn hàng, thanh toán,...): \n   + Luồng nội mạng với các trạng thái  xác thực( 1 số case không có data test- case tương tự đã pass)\n   +Luồng ngoại mạng chưa test được case  có dịch vụ fiber( không có data) , case EKYC( chưa có luồng và điểm chạm ở app)\n    + Còn các dữ liệu  về đơn hàng, về thành toán đang được hiển thị trên mini app-> chờ tích bàn giao mini app mới check.\n    + Đã kiểm thử luồng chuyển định danh  (chưa test luồng  hợp nhất định danh - Migrate dữ liệu khi Golive)\n\n2. Search\nTotal: 99 | Executed: 90 (90,9%)\n- Pass: 75 (75,8%)\n- Fail: 12 (12,1%)\n- Pending: 3 (3,0%)\n\nGói cước Vas đang chờ BA confirm lại \nBug CMS chưa thấy Inprogress\nCòn 1 số bug Mobile\n\n3. Notification\nTotal: 42 | Executed: 4 (9,5%)\n- Pass: 2 (4,8%)\n- Fail: 2 (4,8%)\n- Pending: 0 (0,0%)\n\nDev sửa nhưng lỗi chưa test tiếp được\n\n4. Xbanner CMS\nTotal: 469 | Executed: 391 (83,4%)\n- Pass: 250 (53,3%)\n- Fail: 141 (30,1%)\n- Pending: 0 (0,0%)\n\nXbanner APP: Chưa test được do chưa hoàn thiện CMS\n\n5. Home cá nhân\nTotal: 98 | Executed: 96 (98,0%)\n- Pass: 63 (64,3%)\n- Fail: 24 (24,5%)\n- Pending: 9 (9,2%)\nTỉ lệ pass còn thấp, phụ thuộc vào các cụm tính năng chưa hoàn thiện\n\n6. Home nhóm\nTotal: 507 | Executed: 455 (89,7%)\n- Pass: 334 (65,9%)\n- Fail: 89 (17,6%)\n- Pending: 32 (6,3%)\n\nCòn nhiều bug chưa xử lý\n\n7. Feed (CMS - Feeds)\nTotal: 1987 | Executed: 1824 (91,8%)\n- Pass: 1639 (82,5%)\n- Fail: 0 (0,0%)\n- Pending: 185 (9,3%)\nFeed đang chưa test thông được các kịch bản app, còn rất nhiều lỗi. Đã tạo luồng riêng để trao đổi và xử lý cụm Feed\n\n8. Quản lý hiển thị gói cước\nTotal: 251 | Executed: 174 (69,3%)\n- Pass: 165 (65,7%)\n- Fail: 9 (3,6%)\n- Pending: 0 (0,0%)\n\nTask còn 1 số bug chưa xử lý. Nhiều phần mới bổ sung tài liệu nên chưa test được\n\n10. Cài đặt\nCòn 1 số bug liên quan SDK => hiện tại chưa xử lý được\n\nCác task hiện đang bước vào giai đoạn cao điểm, trong khi số lượng bug tồn đọng chưa xử lý còn khá nhiều. \nCác task tỉ lệ pass ở Round 1 hiện nay đang ở mức thấp (Dưới 70% trong khi QC đã tiến hành verify bug luôn trước khi report)\nĐề nghị các ace dev thực hiện unit test đầy đủ trước khi bàn giao cho QC nhằm đảm bảo chất lượng  và tiến độ chung của dự án.\nTrân trọng!",
+  "context_history": [
+    {
+      "sender_name": "Thành",
+      "text": "ok c, @giangnt2008  xem cho a nhé"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "@vanhtt14  thử lại giúp t nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Chị Anh Nguyen em vừa gửi request vào link. Chị accept giúp em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312 giúp em với"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Trên là bảng tổng bug, còn đây là bảng Bug đang cần fix nhé cả nhà"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Hải ơi, e req lại giúp nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor, Thành con Vietlott https://dvs.vnptmedia.vn/browse/GMYVNPT1-227\nanh xem giúp em có nguồn lực làm chưa ạ? thì sắp xếp giúp em nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chưa đâu em. Hiện các phần đã chốt còn đang chưa ổn dc"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "vâng ạ. e đẩy ưu tiên xuống. ra lễ mình xem lại nhé ạ"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "chị @ngngthaonhu ơi, e đang thấy nội dung các XBanner trên figma có tên thuê bao, kỳ hóa đơn. Vậy ở cms có phải cấu hình tham số ở nội dung ko ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tên thuê bao ý của em là Tuấn à?"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cấu hình tham số nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này lấy tên của user"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan note UI lấy phần nào của tên cho e ạ"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "Dear em Anh Nguyen \nCC: @vietmv92, @Tuanjnfor, @nduythanh \nChị gửi report các task đang còn tồn đọng đến hiện tại\n1. Concept cá nhân\nTotal: 83 | Executed: 83 (100,0%)\n- Pass: 50 (60,2%)\n- Fail: 0 (0,0%)\n- Pending: 33 (39,8%)\n\nĐã kiểm thử luồng đồng bộ dữ liệu cá nhân theo DIgital ID( dữ liệu định danh, dữ liệu  nhóm, dữ liệu đơn hàng, thanh toán,...): \n   + Luồng nội mạng với các trạng thái  xác thực( 1 số case không có data test- case tương tự đã pass)\n   +Luồng ngoại mạng chưa test được case  có dịch vụ fiber( không có data) , case EKYC( chưa có luồng và điểm chạm ở app)\n    + Còn các dữ liệu  về đơn hàng, về thành toán đang được hiển thị trên mini app-> chờ tích bàn giao mini app mới check.\n    + Đã kiểm thử luồng chuyển định danh  (chưa test luồng  hợp nhất định danh - Migrate dữ liệu khi Golive)\n\n2. Search\nTotal: 99 | Executed: 90 (90,9%)\n- Pass: 75 (75,8%)\n- Fail: 12 (12,1%)\n- Pending: 3 (3,0%)\n\nGói cước Vas đang chờ BA confirm lại \nBug CMS chưa thấy Inprogress\nCòn 1 số bug Mobile\n\n3. Notification\nTotal: 42 | Executed: 4 (9,5%)\n- Pass: 2 (4,8%)\n- Fail: 2 (4,8%)\n- Pending: 0 (0,0%)\n\nDev sửa nhưng lỗi chưa test tiếp được\n\n4. Xbanner CMS\nTotal: 469 | Executed: 391 (83,4%)\n- Pass: 250 (53,3%)\n- Fail: 141 (30,1%)\n- Pending: 0 (0,0%)\n\nXbanner APP: Chưa test được do chưa hoàn thiện CMS\n\n5. Home cá nhân\nTotal: 98 | Executed: 96 (98,0%)\n- Pass: 63 (64,3%)\n- Fail: 24 (24,5%)\n- Pending: 9 (9,2%)\nTỉ lệ pass còn thấp, phụ thuộc vào các cụm tính năng chưa hoàn thiện\n\n6. Home nhóm\nTotal: 507 | Executed: 455 (89,7%)\n- Pass: 334 (65,9%)\n- Fail: 89 (17,6%)\n- Pending: 32 (6,3%)\n\nCòn nhiều bug chưa xử lý\n\n7. Feed (CMS - Feeds)\nTotal: 1987 | Executed: 1824 (91,8%)\n- Pass: 1639 (82,5%)\n- Fail: 0 (0,0%)\n- Pending: 185 (9,3%)\nFeed đang chưa test thông được các kịch bản app, còn rất nhiều lỗi. Đã tạo luồng riêng để trao đổi và xử lý cụm Feed\n\n8. Quản lý hiển thị gói cước\nTotal: 251 | Executed: 174 (69,3%)\n- Pass: 165 (65,7%)\n- Fail: 9 (3,6%)\n- Pending: 0 (0,0%)\n\nTask còn 1 số bug chưa xử lý. Nhiều phần mới bổ sung tài liệu nên chưa test được\n\n10. Cài đặt\nCòn 1 số bug liên quan SDK => hiện tại chưa xử lý được\n\nCác task hiện đang bước vào giai đoạn cao điểm, trong khi số lượng bug tồn đọng chưa xử lý còn khá nhiều. \nCác task tỉ lệ pass ở Round 1 hiện nay đang ở mức thấp (Dưới 70% trong khi QC đã tiến hành verify bug luôn trước khi report)\nĐề nghị các ace dev thực hiện unit test đầy đủ trước khi bàn giao cho QC nhằm đảm bảo chất lượng  và tiến độ chung của dự án.\nTrân trọng!",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_460236",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear em Anh Nguyen  CC: @vietmv92, @Tuanjnfor, @nduythanh  Chị gửi report các task đang còn tồn đọng đến hiện tại 1. Concept cá nh...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thuy Phan</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

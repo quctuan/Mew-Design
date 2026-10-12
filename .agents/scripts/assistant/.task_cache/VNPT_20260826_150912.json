@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260826_150912",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Phong",
+  "timestamp": "15:09 26/08/2026",
+  "trigger_message": "Em vào figma =))",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "nhờ ae update side bar mới + top navigation mới nhé"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=2427-55948&t=UofHzUsFLFRN2QZc-1"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Đang cần ảnh lỗi dùng chung đó ông ơi."
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Tiình hình là trong khi create artwork chưa tạo ra artwork id lúc đấy đã có thể upload font, shape, pattern nên sẽ không biết font, … thuộc artwork nào @Hoanganh1109 Hoài"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thể sửa thôi :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "*bổ sung"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Ý là nó chưa tạo xong artwork đấy anh , nên việc dùng cho 1 artwork đó k đc, 1 là tất cả artwork, 2 là chỉ từng cho layer"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "Upload font thì giữ cái id đó xong lúc tạo thì gửi lên đc hông"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Thế sao dùng chung được ở các layer khác a 😅"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "lúc nó vào artwork là tạo 1 artwork rồi mà"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "sao lại k lưu được nhỉ"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Mình nghĩ case này dùng draftId cũng được bao giờ save thì update lại artworkid của assets sau"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Tài khoản makeit.developer2025@gmail.com là ai cầm ấy nhỉ"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "@Hoanganh1109"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "làm gì đó em"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Em vào figma =))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_458691",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Em vào figma =))\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/vcGwy2vzC6VpcVLoghRrOE/Create-Artwork?node-id=2427-55948&t=UofHzUsFLFRN2QZc-1"
+  ],
+  "doc_links": []
+}

@@ -1,0 +1,81 @@
+{
+  "task_id": "VNPT_20260907_084607",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Aiden Le",
+  "timestamp": "08:46 07/09/2026",
+  "trigger_message": "Nhưng vấn đề là trên figma có giao diện chọn không lặp lại",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "\"status\": \"Offline\","
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Nhưng bh nó đang online"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "cái này anh ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@ngsong699"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Api đặt lịch nếu không muốn lặp lại hôm nào cả"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "{\n    \"method\": \"POST\",\n    \"url\": \"https://stagingv2.myvnpt.com.vn/gnms_service/v2/reboot_device_schedule/\",\n    \"headers\": {\n        \"Authorization\": \"Bearer a60bd62fed0cf1076e93af76114f196bd9c5a48155b2bac88afe15c49595414b\",\n        \"Content-Type\": \"application/json\",\n        \"Device-Info\": \"5CAB3A89-CAAB-45AB-8B93-04984BDEBD29|||iOS||6.1.0-2026082802|iPhone 12|26.3|\",\n        \"Language\": \"vi_VN\"\n    },\n    \"parameters\": {\n        \"msisdn\": \"84826601291\",\n        \"session\": \"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4ZWU1OTU1Ny05N2YxLTQxMTAtYjA4OC04NzMyMmY3NDI2NjEiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJhOWUyYTkxYS1jMjM3LTQwMDktYmUxMC0xNmFlNWI2YTE4MTgiLCJpYXQiOjE3ODg1Nzg0MjQsImV4cCI6MTc4ODU3OTMyNCwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI2YTYwOTI1ZC1kMzVhLTQyNDItYjc4NC0xNmY1YmFkMDc5ZGQiLCJwb3N0X3R5cGUiOiIxIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImRZWDVndldhUjBXUW9YbS1WVGpCX1I6QVBBOTFiRU5RZDlmQ2pyM2Y0UlpZdzZzWjk0Y19NMnVzNUF3SWliVG1MQjNTbHFuSHNLQUF1dHFyMGF1QzFWM21jOWE0dm1TV1lkUWY4TTJxenpOSXpNb05xbEVNVVZSWGc0aTB1S3h0LXBOdGUtZUdGZ2ZBWmciLCJtc2lzZG4iOiI4NDgyNjYwMTI5MSIsImN1c3RvbWVyX2lkIjoxNjExNzEwNH0.3wqdWdOJL2vanUlCc6_ve_JXNwQkklj4yd-DvhHTqqU\",\n        \"optical\": \"VNPT0737C740\",\n        \"hour\": \"10\",\n        \"minute\": \"0\",\n        \"dayOfWeek\": \"\"\n    },\n    \"body\": \"{\\\"msisdn\\\":\\\"84826601291\\\",\\\"session\\\":\\\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4ZWU1OTU1Ny05N2YxLTQxMTAtYjA4OC04NzMyMmY3NDI2NjEiLCJpc3MiOiJteXZucHQiLCJzdWIiOiJhOWUyYTkxYS1jMjM3LTQwMDktYmUxMC0xNmFlNWI2YTE4MTgiLCJpYXQiOjE3ODg1Nzg0MjQsImV4cCI6MTc4ODU3OTMyNCwidG9rZW5fdHlwZSI6IkFDQ0VTUyIsImNsaWVudF9pZCI6Im15dm5wdC1tb2JpbGUiLCJhdWQiOiJteXZucHQtYXBwIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBwaG9uZSIsImRpZ2l0YWxfaWRfc3RhdGUiOjMsInNlc3Npb25faWQiOiI2YTYwOTI1ZC1kMzVhLTQyNDItYjc4NC0xNmY1YmFkMDc5ZGQiLCJwb3N0X3R5cGUiOiIxIiwiRkNNX1JFR0lTVFJBVElPTl9UT0tFTiI6ImRZWDVndldhUjBXUW9YbS1WVGpCX1I6QVBBOTFiRU5RZDlmQ2pyM2Y0UlpZdzZzWjk0Y19NMnVzNUF3SWliVG1MQjNTbHFuSHNLQUF1dHFyMGF1QzFWM21jOWE0dm1TV1lkUWY4TTJxenpOSXpNb05xbEVNVVZSWGc0aTB1S3h0LXBOdGUtZUdGZ2ZBWmciLCJtc2lzZG4iOiI4NDgyNjYwMTI5MSIsImN1c3RvbWVyX2lkIjoxNjExNzEwNH0.3wqdWdOJL2vanUlCc6_ve_JXNwQkklj4yd-DvhHTqqU\\\",\\\"optical\\\":\\\"VNPT0737C740\\\",\\\"hour\\\":\\\"10\\\",\\\"minute\\\":\\\"0\\\",\\\"dayOfWeek\\\":\\\"\\\"}\"\n}"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Thì bên em đang truyền \"dayOfWeek\": \"\""
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "mà bị lỗi NOK_INVALID_PARAMETER"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh xem em với"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Morning chị Anh ,\nHôm nay phải bàn giao con app này, chậm mất mấy hôm rồi. Để bàn giao được em xin liệt kê các vấn đề còn lại để 2 team phối hợp hoàn thiện trong sáng nay để chiều có thể nghiệm thu ạ: \n1. Tính năng copy mật khẩu wifi bị lỗi trên ios, anh @hieunguyen271095 fix lại luôn giúp em ạ \n2. Tính năng gen QR code cần bổ sung trên main app android và ios vì vậy nhờ anh @monRich0 và anh @hieunguyen271095 bổ sung luôn giúp em ạ\n3. API tạo lịch bị lỗi khi không truyền day of week cho trường hợp không lặp lại, anh @ngsong699 clear lại giúp em case này ạ \n4. Bổ sung giúp em tài khoản có thiết bị deviceType = 1 để bên em test nốt case thiết bị Mesh type = 1 chị @thuyph312 xem giúp em ạ \n5. Chưa test được case thiết bị modem bị lỗi không hoạt động, chị @thuyph312 anh @ngsong699 xem lại giúp em để bên em check lại case hiển thị thiết bị không hoạt động to đùng ở màn home ạ. \nMọi người xem nếu được bổ sung luôn trong sáng nay để bên em kịp kiểm thử lại lần cuối và bàn giao app ạ \ncc anh @Tuanjnfor"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Nhờ Anh Nguyen xem các phần giúp anh.\nCần thì ace họp nhanh chút để triển khai nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái này  bắt buộc phải truyền  hay sao mà anh  @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Nhưng vấn đề là trên figma có giao diện chọn không lặp lại",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_701",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhưng vấn đề là trên figma có giao diện chọn không lặp lại\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Aiden Le</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

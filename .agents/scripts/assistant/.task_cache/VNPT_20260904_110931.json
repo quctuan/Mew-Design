@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260904_110931",
+  "group_name": "Line 1: Mini App Center",
+  "sender_name": "Tuan Tran",
+  "timestamp": "11:09 04/09/2026",
+  "trigger_message": "Test đúng theo luồng MAC Admin chứ c.\nQuét QR sau đó test ok thì approve cho Dev\nSau đó Dev nhấn publish mới ăn vào tiện ích",
+  "context_history": [
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "user theo tk của em các bạn chưa gán quyền vào nhóm"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "F5 đi em"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "VPN của e vào thử cũng vẫn ko được ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "gitlab vào bình thường ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "A @Tuanjnfor ơi con Top up, Rating đã ready để test chưa ạ?"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "ok em. nhắn trao đổi riêng thêm thông tin để xử lý"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "@ntiendat em check lại xem sub repo khai báo trỏ về IP nào nhé, chưa đúng thì sửa lại."
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em thấy khai đúng rồi ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Sẵn sàng rồi em"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "em check thêm xem sao trả ra IP Public nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312 chị ơi"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Hết nguồn lực zồi"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "mà mini app giờ test QR hay test tích hợp vào tiện ích vậy @Tuanjnfor"
+    },
+    {
+      "sender_name": "Tuan Tran",
+      "text": "Test đúng theo luồng MAC Admin chứ c.\nQuét QR sau đó test ok thì approve cho Dev\nSau đó Dev nhấn publish mới ăn vào tiện ích",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5084187166_461603",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Test đúng theo luồng MAC Admin chứ c. Quét QR sau đó test ok thì approve cho Dev Sau đó Dev nhấn publish mới ăn vào tiện ích\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Tuan Tran</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

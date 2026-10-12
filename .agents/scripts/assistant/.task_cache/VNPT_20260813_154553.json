@@ -1,0 +1,32 @@
+{
+  "task_id": "VNPT_20260813_154553",
+  "group_name": "[HST My VNPT]_Hoàn tiền mua sắm_GDS x FinTech",
+  "sender_name": "Son Do",
+  "timestamp": "15:45 13/08/2026",
+  "trigger_message": "@maihuongvnes chị ơi, chị accept quyền truy cập file figma của mini app Hoàn tiền giúp em với ạ.",
+  "context_history": [
+    {
+      "sender_name": "Son Do",
+      "text": "@maihuongvnes chị ơi, chị accept quyền truy cập file figma của mini app Hoàn tiền giúp em với ạ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5352048827_452322",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@maihuongvnes chị ơi, chị accept quyền truy cập file figma của mini app Hoàn tiền giúp em với ạ.\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

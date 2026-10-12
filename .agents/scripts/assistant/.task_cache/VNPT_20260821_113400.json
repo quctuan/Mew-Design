@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260821_113400",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "11:34 21/08/2026",
+  "trigger_message": "Cảm ơn e Hà e Tuấn mang lộc về cho team nhé 🤣🤣",
+  "context_history": [
+    {
+      "sender_name": "Tubi",
+      "text": "Dán băng dính vào"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "E uống nước lẩu kèm topping cũng dc"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "quanh đây có lẩu nào ngon z mng"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "ăn nhậu k =))) có quán bạn c ở Láng Hạ"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "chị thích nà được"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Cạnh Queen bee, để c đặt bàn nhé, chốt k"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "chốt"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "xin 1 cái tên c ơi"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "a Hôt quán"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "mấy lần nhậu chưa có chị để san sẻ cùm iem"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "quá khả năng r =))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Tự nhiên gần đến giờ ăn thì lại có quà à?:)))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Bữa trưa hnay nhiều thịt r:))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Cảm ơn e Hà e Tuấn mang lộc về cho team nhé 🤣🤣",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_455831",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cảm ơn e Hà e Tuấn mang lộc về cho team nhé 🤣🤣\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

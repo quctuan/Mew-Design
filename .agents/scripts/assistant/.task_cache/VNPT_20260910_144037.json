@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260910_144037",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Loc",
+  "timestamp": "14:40 10/09/2026",
+  "trigger_message": "anh @quctuan cho em xin mấy cái chấm trắng này nhé anh",
+  "context_history": [
+    {
+      "sender_name": "Manh",
+      "text": "Anh Tuấn Vương Des anh ngồi ở chỗ nào vậy"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "anh chấm em phát. em bị khóa mõm á"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Khi click vào btn\"Sử dụng ngay\". Đoạn này thì mình có QR code rồi. Mình sẽ đưa QR đó ra để cho nhân viên ở quầy thanh toán. Vậy cái hành động navigate để \"Mở chi tiết ưu đãi trong kho quà của tôi\" màn đó như nào ta. Tác dụng để làm gì nhỉ ?"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Ví dụ muốn lấy lại QR đã đổi (Đổi ra rồi nhưng chưa dùng ngay)thì làm như nào(Có nút tải QR về máy hoặc chỗ lưu QR lại để tìm lại chứ nhỉ)"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh @quctuan export giúp em mấy cá chấm trắng này với, em export bị nền đen anh ạ ;v"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@haipt1905 hey bạn ơi, thêm mail t và P vào testflight để test app với"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "vtphuong2306@gmail.com"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "mingtam5236@gmail.com"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "https://testflight.apple.com/join/uQsrlTYH"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "CLick link này là dcd nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chỗ này anh xem bổ sung giúp em nhé @quctuan"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "đã thêm nhé"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan chỗ ưu đãi này, kéo xuống dưới có load more ko e"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Description: Quý khách vui lòng tải lại trang để tạo lại mã QR thanh toán mới.\n\nTitle: Giao dịch đã hết hạn\n\nButton: Tải lại"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan a gửi"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh @quctuan cho em xin mấy cái chấm trắng này nhé anh",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_465422",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @quctuan cho em xin mấy cái chấm trắng này nhé anh\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Loc</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

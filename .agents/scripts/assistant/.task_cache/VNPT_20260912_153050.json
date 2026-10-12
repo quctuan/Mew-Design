@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260912_153050",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "15:30 12/09/2026",
+  "trigger_message": "Chỗ preview em nghĩ vẫn giữ đường nối nhưng gắn nó cố định với layout ntn",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Okela đấy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Chính ra làm free canvas có cái hay"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "nếu để layer panel này thì anh k biết nên hiển thị 1 layout hay nhiều layout"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Là zoom dễ"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "cái luồng mình đang làm chỉ focus 1 layout"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Fixed canvas zoom bằng browser vỡ hết màn hình"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nhiều chứ"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nếu mình làm thanh layer để nó navigate được nhanh"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thì làm cho nhiều lây ao luôn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Mà thế đ nào cái add image dev làm sai hết mịa nghiệp vụ nhỉ"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ừ, thôi đằng nào cũng làm lại nghiệp vụ mới"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "cái rêcent thành bà nó cái list library"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Chỗ preview em nghĩ vẫn giữ đường nối nhưng gắn nó cố định với layout ntn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467018",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chỗ preview em nghĩ vẫn giữ đường nối nhưng gắn nó cố định với layout ntn\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

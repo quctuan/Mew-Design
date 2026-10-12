@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260907_103033",
+  "group_name": "SIM Số - revamp",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "10:30 07/09/2026",
+  "trigger_message": "@giangnt2008 update hộ c nốt cả cái OTP nữa. số hộ chiếu này đky cho 2 số rồi nên trong luồng nghiệp vụ sẽ phải nhập otp gửi về các số đã đky trước đó, thì em truyền thêm gtri OTP vào hàm v8 nữa",
+  "context_history": [
+    {
+      "sender_name": "Ly Anh",
+      "text": "Anh @minhhnhatt xem giúp em nhé ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@name688899 anh check giúp em xem sao trường loaitb ở API tiep-nhan-v7a lại truyền = 0 vs ạ. bên IT ko có giá trị này bên ko phân biệt đc  ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "\"request_id\":\"MYVNPT-84523489-84816108608-1786625072456-307319\""
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "\"thongtindonhang\":{\"tinh_id\":21,\"dichvu_vt\":2,\"loaitb_id\":0,\"ngay_yc\":\"13/08/2026 19:44:32\",\"ten_kh\":\"TRIỆU PHƯƠNG THẢO\",\"so_dt\":\"84816108608\",\"diachi_kh\":[{\"tinh_id\":21,\"diachi\":\"TDP Bà Triệu\\nLiên Bảo, Thành phố Vĩnh Yên, Vĩnh Phúc\"}],\"tskt_tb\":[{\"ma_tb\":\"84816108608\",\"ma_kit\":\"NA\",\"loaisim\":\"2\",\"tien_sim\":12500,\"tien_hm\":25000,\"tien_goicuoc\":0,\"tong_tien\":37500,\"kenh_toantrinh\":0,\"yeucau_id\":0,\"goi_cuoc\":\"NA\",\"chuky_goi\":\"0\",\"giatri_ck\":0,\"phi_giao_hang\":0}],\"tt_dh\":[{\"hinhthuc_dh\":5,\"sla_id\":22,\"kit_type\":3,\"ht_nhanhang\":1}],\"tt_thanhtoan\":[{\"tthd_id\":1,\"ht_thanhtoan\":1}],\"kenh\":1,\"so_gt\":\"026197003856\",\"loai_gt\":\"45\",\"ngay_cap\":\"27/03/2021\",\"noi_cap\":\"CQH\",\"ngay_sinh\":\"03/12/1997\",\"quoc_tich\":\"232\",\"gioi_tinh\":\"1\",\"ma_luong\":\"BH023\",\"kenh_dktt\":1,\"nguoi_khoitao\":\"\",\"ngay_khoitao\":\"\",\"nguoi_dktt\":\"MYVNPT\",\"ngay_dktt\":\"13/08/2026 19:44:32\",\"tien_sim\":\"12500\",\"tien_hm\":\"25000\",\"tong_tien\":\"37500\",\"kenh_toantrinh\":\"0\",\"yeucau_id\":\"0\",\"phi_giao_hang\":\"0\",\"sla_id\":\"22\",\"ht_thanhtoan\":\"\",\"ht_nhanhang\":\"1\"},\"customer_use_id\":\"1\",\"msin\":\"1077525217\",\"txnId\":\"a1fa3ae2-1a6d-4128-bc08-e8beb85b644d\"}"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "2026-08-13 19:41:41.355 INFO  com.vnpt.logging.LoggingService - -------------------------LOGGING RESPONSE START---------------------  [API-PATH]: /tel_service/active_sim/v2/regCheckInfo   [REQUEST-ID]: 681c83a8-40b3-4ed7-889b-97dce3835878   [TIME_PROCESS]: 976 ms  [BODY RESPONSE]: {\"result\":{\"loaitbId\":\"21\",\"provinceCode\":\"\",\"maLuong\":\"BH023\",\"msisdn\":\"84816108608\",\"simType\":\"2\",\"serialSim\":\"1077525217\",\"transId\":\"MYVNPT-84523489\",\"activeToken\":\"438508135e8c09c699cc430951cc63dbc7403a6471e27feb66483a8752fe01e5\",\"channel\":\"3\"},\"error_code\":\"0\",\"messages\":\"Success\",\"checkSum\":\"490680ab640047bd1c2ca0b60414707b0af96856c069404c4d64523a816ff536\"}   -------------------------LOGGING RESPONSE END---------------------"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@name688899 anh check sớm giúp em nhé ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "h dl giao ban tập đoàn đang k phân biệt đc là trả trước hay trả sau đây"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@giangnt2008 em check giúp c xem có bị update thông tin này ở json đơn hàng ko. giá trị 1 vs 0 này truyền ở thông tin ĐKTTTB bên ngoài thôi. json đơn hàng ko đổi rule"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@havietngn em xem phần này có update gì ko. hay IT trả lỗi gì thì show lỗi đó"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@kietla01 em xem lịch golive bên mình đi. chỗ update UI cho lỗi quá hạn 30p chưa có"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@ngthuyanh @kietla01 tối mai bên t sẽ upcode chỗ thêm 2 trường vào add-update nhá, mn xem để phối hợp cùng nhé ạ, vì phải upcode đồng thời ko thì sẽ lỗi đó"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Chị @havietngn với anh @minhhnhatt xem giúp em phần này với ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c đang trao đổi vs BA r nhé"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@giangnt2008 update hộ c nốt cả cái OTP nữa. số hộ chiếu này đky cho 2 số rồi nên trong luồng nghiệp vụ sẽ phải nhập otp gửi về các số đã đky trước đó, thì em truyền thêm gtri OTP vào hàm v8 nữa",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4941309523_462271",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@giangnt2008 update hộ c nốt cả cái OTP nữa. số hộ chiếu này đky cho 2 số rồi nên trong luồng nghiệp vụ sẽ phải nhập otp gửi về cá...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuỳ Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

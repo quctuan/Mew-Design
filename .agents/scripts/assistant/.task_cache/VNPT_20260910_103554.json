@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260910_103554",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Lê Kiên",
+  "timestamp": "10:35 10/09/2026",
+  "trigger_message": "hoặc là clip content như figma",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "như này chuẩn r"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "Vậy để revert code =)))"
+    },
+    {
+      "sender_name": "Hoài",
+      "text": "Tính toán các kiểu ko cho kéo ra ngoài cho đã xong revert :v"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "life"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@leek6998 Hôm qua quên mất chưa đề cập: Tính năng clamping khi kéo layer ra ngoài là quyết định trước đây của @Hoanganh1109.\n\nMình hoàn toàn có thể bỏ clamping và làm theo kiểu ẩn layer như bên Kittl. Tuy nhiên, team cần chốt lại xem có cho phép layer nằm ngoài layout hay không. Nếu đồng ý, mình có thể tham khảo cách của Kittl: tạo một layout chung (canvas) để chứa toàn bộ các layer dạng này."
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ừa sau bọn e dùng thấy cũng hơi lỏ"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "chắc làm như thằng Kitlll nma hiện mờ mờ"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Cái này chắc a Kiên xem ntn cho hợp lý"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "hiện mờ khó chịu lắm, tổng thể đang nhìn artwork thấy phía ngoài mờ mờ"
+    },
+    {
+      "sender_name": "Lê",
+      "text": ":)"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Uh chốt như Kiên trình bày hqa ý"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thế sau click lại thì click qua layer à"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ko có mờ gì hết"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ừ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Bay luôn"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "hoặc là clip content như figma",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_465061",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"hoặc là clip content như figma\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

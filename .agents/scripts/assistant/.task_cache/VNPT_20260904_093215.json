@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260904_093215",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Quynh Mai",
+  "timestamp": "09:32 04/09/2026",
+  "trigger_message": "Chuẩn rồi anh, nhưng nó vào chi tiết một form trong Hỗ trợ anh ạ, nhờ @quctuan gán màn nha",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "em thấy oke r a nha"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Thanks anh, anh em đỡ phải update"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chỗ này okie nhé ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Mình bổ sung hộ em trường hợp cho đếm ngược 2' để icon để xám như text disable lun nhé ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Ok ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 giải đáp giúp em mấy case em đang hỏi với, từ api bị 405 đến mấy case liên quan màn QR và copy mật khẩu ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @monRich0 em có PR cho con này, lâu không gửi PR với cả sửa i18n nên hơi nhiều file, anh thông cảm nhé ạ\n\nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/52"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "nhiều thật"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "6 là chủ nhật, 0 là thứ 2 à anh @ngsong699"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Với cả API chặn thiết bị kết nối và mở thiết bị kết nối là cái nào anh @ngsong699 nhỉ, em check trên api docs chưa thấy ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Check nốt giúp em api chặn và mở chặn thiết bị kết nối nhé ạ @ngsong699"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 sáng nay xem luôn mấy cái này để bên em bổ sung luôn trong sáng nay cho QC ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @quynhmaihavi ơi cái tạo phiếu hỗ trợ này là sẽ mở đến mini app khác đúng k ạ, bên em đang k biết ấn Tạo phiếu hỗ trợ là mở sang luồng nào ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Vâng đúng rồi anh, chuyển qua Trung tâm hỗ trợ anh nhé. @quctuan ơi, link hộ TTHT vào với nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Nó là 1 mini app riêng chị nhỉ, cùng địa chỉ với cái Hỗ trợ ở ngoài màn home đúng k ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chuẩn rồi anh, nhưng nó vào chi tiết một form trong Hỗ trợ anh ạ, nhờ @quctuan gán màn nha",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_612",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chuẩn rồi anh, nhưng nó vào chi tiết một form trong Hỗ trợ anh ạ, nhờ @quctuan gán màn nha\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Quynh Mai</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

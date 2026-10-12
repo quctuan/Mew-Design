@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260824_142247",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Nhu",
+  "timestamp": "14:22 24/08/2026",
+  "trigger_message": "@quctuan bạn đọc dc tin nhắn này ko",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "phần banner đến hạn của trả sau này nữa , hiển thị khi nào thế ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Khi có cước trả sau của mã thuê bao internet đó ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tươn tự với cước trả sau của di động thôi ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này mình có đc trả vè dichj vụ gói VIP khi đa đăng kí hoặc khi đi vào luồng sau khi đăn kí xong chưa ạ?"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái này em thấy rồi"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái bottomsheet này đúng không ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Nếu người dùn đã có/hoặc sau kkhi đăng kí xong và có rồi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thì ko hiện nữa thôi ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn cho chị 1 UI vào đây phản hồi các thông tin lquan đến UI của các Mini App đi nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "tức là người dùng đã kích hoạt dịch vụ tiện ích gói vip ở bottomsheets này rồi thì sẽ không hiển thị banner chia sẻ data nhóm nữa đúng không chị"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đăng ký tiện ích VIP"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "và share data nhóm"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "là 2 phần khác nhau mà ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mình có đang bị nhầm gì ko ạ?"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan bạn đọc dc tin nhắn này ko",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_457419",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan bạn đọc dc tin nhắn này ko\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

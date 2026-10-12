@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260909_163738",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "16:37 09/09/2026",
+  "trigger_message": "@havietngn ơi. clear nghiệp vụ chỗ này nhé. gấp giúp chị cho các bạn làm tiếp",
+  "context_history": [
+    {
+      "sender_name": "Hieu",
+      "text": "Android có bị lỗi này ko Hiền"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Android còn đang chưa chạy ấy anh nên k biết ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "oki e. @aidenLeDevPDC chỗ này bên e mở webview nhé. Đã confirm vs BA @koi_oh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Url hay là feature screen vậy ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@koi_oh ơi, url nhỉ e"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "cái đó mng nhúng webview vào miniapp được thì tốt nhất a. k out ra trình duyệt"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@koi_oh em ơi phần nghiệp vụ này em giúp chị"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "gói di động này chị Linh xử lý ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "tất nhiên là sẽ webview trong mini app r =)))"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "thì chắc là url thôi"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "e có để trong wiki là url rồi đó ạ"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "hardcode cái url đó, còn content hdsd thì có thể update thẳng vào url webview => không cần CMS config riêng"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "Anh Nguyen  chị add chị linh vào giúp e nhé ạ, e add không được"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @lalethuy ơi, chị có thể giúp e phần này được không ạ?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@havietngn ơi. clear nghiệp vụ chỗ này nhé. gấp giúp chị cho các bạn làm tiếp",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_464608",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@havietngn ơi. clear nghiệp vụ chỗ này nhé. gấp giúp chị cho các bạn làm tiếp\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

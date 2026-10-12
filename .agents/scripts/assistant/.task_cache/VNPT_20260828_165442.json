@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260828_165442",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "16:54 28/08/2026",
+  "trigger_message": "@quctuan nhí nhảnh ko",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Lời hay ý đẹp chỉ nói 1 lần thui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Hà nói lại cho chị đi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "=)) Tuấn bảo chị xinh gái"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Tuấn bảo chị sai"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "sai gính"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@ngthuyanh chụp lại màn hình cho tui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "sáng nay chấm công"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xinh lắm"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cbh thấy đi làm mà chấm công xinh như này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh cục vàng của a vâm mà lại"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "sợ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ngta chắc đang debug facebook"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ừm sáng sớm. não nó chưa nhí nhảnh được"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan nhí nhảnh ko",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_460180",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan nhí nhảnh ko\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

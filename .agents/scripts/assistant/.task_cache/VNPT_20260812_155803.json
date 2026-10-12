@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260812_155803",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Phuong Vu",
+  "timestamp": "15:58 12/08/2026",
+  "trigger_message": "@quctuan cái này là đã sắp xếp thứ tự hiển thị chưa nhỉ Tuấn ơi",
+  "context_history": [
+    {
+      "sender_name": "Phuong",
+      "text": "Chợt nhận ra bây giờ các app BTS đè BTS nhiều phết =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "nhưng họ hem làm ani trượt lên"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "mà là trượt ngang"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Ko biết có phải Figma đổi logic stroke hay khom, cái stroke inside thì giờ làm tăng size của elm lên"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@celene_ne Phương ơi, chỗ list icon dịch vụ này đổi thành slide như trang Prelogin dc ko, để đồng bộ 1 kiểu thui, dev tái sử dụng dc luôn"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "được á"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Lifestyle giờ chỉ còn 5 mục này thui nhá @celene_ne"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "okie nha"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "team dev tha thiết mời c Phương đi nhậu tối t6"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "@celene_ne"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "cái chì thía"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "khom thấy có chữ P nào cả"
+    },
+    {
+      "sender_name": "Phuong Vu",
+      "text": "@quctuan cái này là đã sắp xếp thứ tự hiển thị chưa nhỉ Tuấn ơi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_451835",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan cái này là đã sắp xếp thứ tự hiển thị chưa nhỉ Tuấn ơi\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Phuong Vu</b>"
+  ],
+  "scoring": {
+    "score": 32,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

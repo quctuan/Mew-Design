@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260912_172802",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "Tuan Nguyen Dominic",
+  "timestamp": "17:28 12/09/2026",
+  "trigger_message": "chị cái mục 3 design chị ở đâu đó ạ",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đổi lại giúp c nhe"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 ơi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Sửa giúp chị những phần sau:\n1. Tiêu đề trang\n- Sửa thành Mua SIM kèm gói ưu đãi\n\n2. Bỏ bộ lọc + pill tabs\n\n3. Tại 2 section: MXH thả ga + Data thoại thêm button Xem tất cả\nDirect sang trang chi tiết danh mục (Trang này đã có design, để ở trong figma r nhé)"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "2 thẻ gói ở shop và luồng sim đang khác nhau"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e đồng nhất giúp c nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Bấm nút chọn này có chọn gói dc luôn k nhỉ, hay đều ra chi tiết gói thế"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "Chọn là chọn luôn ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "Còn ấn vào card thì mới ra chi tiết"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Đồng bộ thì lại ko có chỗ để btn “chọn” nhỉ :))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 nhớ sửa  chỗ này cho c nhé \nLuồng prelogin thì vẽ theo flow này giúp c, sau khi chọn số thfi cho nhập sdt => ra màn xác nhận tt luôn https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=1329-171441&t=30WhuUuRmKdZOI65-4"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen Dominic",
+      "text": "chị cái mục 3 design chị ở đâu đó ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_467158",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chị cái mục 3 design chị ở đâu đó ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Tuan Nguyen Dominic</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=1329-171441&t=30WhuUuRmKdZOI65-4"
+  ],
+  "doc_links": []
+}

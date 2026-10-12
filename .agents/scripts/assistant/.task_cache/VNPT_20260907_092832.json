@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260907_092832",
+  "group_name": "Line 1: Super App",
+  "sender_name": "HocNV2010",
+  "timestamp": "09:28 07/09/2026",
+  "trigger_message": "Chỗ Mini apps bên đối tác báo là còn nhiều API lỗi, 1 số chưa có và họ sẽ ko bàn giao kịp tiến độ nếu support chậm và chưa cung cấp kịp thời. Ánh GDS Ánh Nguyễn và Tuấn @Tuanjnfor check cụ thể xem em nhé. Làm chi tiết: \n- Phân công rõ từng members vào từng mini app cụ thể/từng api cụ thể \n- Có log rõ lỗi, timeline fix cụ thể \n- Khai báo task jira chi tiết đặt type fix bug",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "uhm trong design ko có entrypoint mà\nhttps://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=40263-122379&t=w9pisHGv8RCzGvZ4-11"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Báo cáo bug theo tính năng.\nChị @thuyph312, con Quản lý nhóm, Home-nhóm chị xem giúp em có nên verify dần đi không ạ?\ncon CMS Xbanner đang cần fix bug để test được App ạ, nhờ a @nduythanh giups em với ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "chỗ Home-nhóm đang chờ chỗ app build lại ms check dc á cjij"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Thành bao giờ có bản build ấy em?"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "4h e build"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Bên c đang verify lại rồi nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "có case này em chưa thấy UI nhỉ anh @quctuan xem giúp em ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@nguyentu4nminh em fix bug Xbanner đang báo có mấy Bug High cần fix để test tiếp app. em giúp chị xử lý ngay nhé. báo từ tuần trước rồi em \nhttps://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=1952578166#gid=1952578166"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "ok chị"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "à nhưng cái đó ko ảnh hưởng test app chị nhé"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "do Đạt chưa hiểu thui chị"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@datnd2109, chị @thuyph312"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "chỗ a @nguyentu4nminh chưa biết cần có tham số gì để chỉnh lại cms ạ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Chỗ Mini apps bên đối tác báo là còn nhiều API lỗi, 1 số chưa có và họ sẽ ko bàn giao kịp tiến độ nếu support chậm và chưa cung cấp kịp thời. Ánh GDS Ánh Nguyễn và Tuấn @Tuanjnfor check cụ thể xem em nhé. Làm chi tiết: \n- Phân công rõ từng members vào từng mini app cụ thể/từng api cụ thể \n- Có log rõ lỗi, timeline fix cụ thể \n- Khai báo task jira chi tiết đặt type fix bug",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_462195",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chỗ Mini apps bên đối tác báo là còn nhiều API lỗi, 1 số chưa có và họ sẽ ko bàn giao kịp tiến độ nếu support chậm và chưa cung cấ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>HocNV2010</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=40263-122379&t=w9pisHGv8RCzGvZ4-11"
+  ],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=1952578166#gid=1952578166"
+  ]
+}

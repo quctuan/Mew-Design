@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260912_152410",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "15:24 12/09/2026",
+  "trigger_message": "design là design, còn personalize là personalize ấy",
+  "context_history": [
+    {
+      "sender_name": "Lê",
+      "text": "shining"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ko e cụt tay"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "có 2 cục dưới là gì thế"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "E đang định làm cái switch mode"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "=))))"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "làm thế thì scope to"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "thay đổi lớn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thôi xoá đi vậy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nhưng chắc chỗ này phải nghĩ xem khi chuyển sang tab personalize thì thanh toolbar bên tay trái lúc đấy sẽ ảnh hưởng ntn"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh cho cút luôn r"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thế lúc add phải chuyển về tab design à"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "chỉ có layer panel có tác dụng thôi"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ừ"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "design là design, còn personalize là personalize ấy",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_466992",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"design là design, còn personalize là personalize ấy\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Lê Kiên</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

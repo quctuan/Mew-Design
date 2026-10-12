@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260909_110223",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "11:02 09/09/2026",
+  "trigger_message": "bản mới có phần này đang lỗi chữ ký luồng mã hoá nên chờ chút nhé Nam",
+  "context_history": [
+    {
+      "sender_name": "Đăng",
+      "text": "Đợi chút mình gửi cho phần QR code, với hướng dẫn nhá.\nPhần này không đưa vào core được vì chỉ app này dùng đến nó"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Gửi riêng em cũng được ạ"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "native có phải xử lý gì ko anh"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "cái này chắc không cần đâu e"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cái này sao r nhỉ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "[API-PATH]: /tel_service/account/getAccountInfo/   [REQUEST-ID]: 9d4b8a11-65c2-4ce4-bc0c-2c7d6bb0d0d7   [TIME_PROCESS]: 10 ms  [BODY RESPONSE]: {\"error_code\":\"401\",\"messages\":\"Hết hạn phiên đăng nhập. Vui lòng đăng nhập lại\"} \n@ngsong699   xem em api khi chủ nhóm gọi cho thành viên nhé"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@ngsong699  cái này fix chưa a?"
+    },
+    {
+      "sender_name": "Song",
+      "text": "update r nhé em"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "chưa dc a ơi"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "[API-PATH]: /tel_service/account/getAccountInfo/   [REQUEST-ID]: 13d97c01-59d7-4caf-8d63-e742b5aa9328   [TIME_PROCESS]: 10 ms  [BODY RESPONSE]: {\"error_code\":\"401\",\"messages\":\"Hết hạn phiên đăng nhập. Vui lòng đăng nhập lại\"}"
+    },
+    {
+      "sender_name": "Song",
+      "text": "a xin số chủ nhóm và số thành viên"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "0911278688\nthành viên 0826601291"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@quynhmaihavi   sao đến nghiệm thu r còn chưa có cái này?"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Để bên em bổ sung, anh Hiếu mới báo hôm trước chưa kịp đẩy lên bản mới nhất"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "có rồi đó anh ạ, đoạn đó note sai, chứ ở 1 figma khác có rồi"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "bản mới có phần này đang lỗi chữ ký luồng mã hoá nên chờ chút nhé Nam",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_770",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"bản mới có phần này đang lỗi chữ ký luồng mã hoá nên chờ chút nhé Nam\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hieu Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

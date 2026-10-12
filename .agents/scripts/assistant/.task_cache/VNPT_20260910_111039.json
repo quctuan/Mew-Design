@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260910_111039",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Manh Nguyen",
+  "timestamp": "11:10 10/09/2026",
+  "trigger_message": "Anh Tuấn Vướng Des anh ngồi ở chỗ nào vậy",
+  "context_history": [
+    {
+      "sender_name": "Loc",
+      "text": "A @quctuan cho em hỏi truờng hợp sdt chưa xác thực hiển thị tag mà màn hình k đủ để hiện thig cho hiển thị như nào thế anh"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "nó sẽ bị lệch như này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em truncate text rồi cho chạy giúp a với"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "cho chạy mỗi text chưa xác thực à anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, text trong cái badge đó thui"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "anh @quctuan  ơi xem giúp em, luồng đổi quà cho các loại quà còn lại chưa có màn đổi quà thành công ở đây, anh xem thêm giúp em nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@taminhtr Giúp t bổ sung cho Đoan nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à mn đã làm đến luồng sử dụng voucher chưa e nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cái màn có mã QR voucher ấy"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "giống màn này anh, em mới làm chỗ đổi Ưư đãi này thôi chưa xem chỗ sử dụng anh ạ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan , click vào đây đi đau e, chưa thấy vẽ nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ra chi tiết voucher ạ, có design r đó a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=39247-80059&t=wlfXXdgqYS2mqwLj-11"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đây ạ"
+    },
+    {
+      "sender_name": "Manh Nguyen",
+      "text": "Anh Tuấn Vướng Des anh ngồi ở chỗ nào vậy",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_465149",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh Tuấn Vướng Des anh ngồi ở chỗ nào vậy\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Manh Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=39247-80059&t=wlfXXdgqYS2mqwLj-11"
+  ],
+  "doc_links": []
+}

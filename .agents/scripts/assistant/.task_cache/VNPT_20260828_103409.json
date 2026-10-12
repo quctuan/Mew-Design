@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260828_103409",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Thuy Phan",
+  "timestamp": "10:34 28/08/2026",
+  "trigger_message": "Notification:\n- Đang lỗi push noti, đã báo dev check từ ngày 19/8 nhưng vẫn chưa ai check được => không tạo data để test tiếp được.\n- Phần điều hướng noti: 1 số luồng điều hướng vào màn chi tiết thông tin thuê bao, VD: noti xác thực đổi imei, đối với luồng concept, login số khác sẽ chỉ xem noti và không đi xác thực cho số đổi imei được do đang điều hướng vào chi tiết thuê bao login chứ không vào màn chi tiết thuê bao đổi imei => cần confirm lại luồng này",
+  "context_history": [
+    {
+      "sender_name": "Eric Trần",
+      "text": "hi @ngsong699 , như vừa trao đổi thì đoạn UI của gói cước di động chúng ta lấy như sau nhé:\n- Đối với background của danh mục (cha/con) ta lấy theo trường icon 1(bản chất vẫn là upload ảnh)\n- Đối với banner ứng với các danh mục cha, ta lấy theo icon 2 \n- Nguyên tắc là trên công cụ ta khai báo các trường nào thì trả ra cho app đủ bạn nhé, còn chơi lego ntn thì mình phối hợp tiếp với ae App để chọn đúng trường lên :D"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "anh @Tuanjnfor ơi phần QLDH này trc mình đang chốt thực hiện trên native app, với các update mới này thì mình có chuyển hết phần qldh lên mini app k a ? hay vẫn để native app ạ?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Hiện đang làm Mini App r em"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a Anh Thành c Hạnh ơi, phân vùng này trong tab Shop hiện mình chưa có điều hướng nên nhờ mn ẩn giúp e nhé ạ, sau có điều hướng e sẽ tạo task bổ sung sau ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@haipt1905 ẩn đi nhé chú"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "@datnd2109 nắm thông tin nhé em"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT1-20\nanh @Tuanjnfor Anh Nguyen  @lalethuy xem giúp em chuyển task này về mini app, vào timeline vào giao như nào nhé vì hiện tại đang lịch bàn giao phần này rồi"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor, Thành, a @nduythanh ơi, xem giúp em bug report này, sắp xếp anh em fix bug giúp em với ạ\nhttps://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=546866655#gid=546866655"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @nguyenngoclinh1 c Anh Nguyen ơi, phần miniapp gói cước di động e có  tunning 1 chút, mong muốn ghép chung vào phần đang làm hiện tại, nhờ các c đánh giá giúp e ạ https://dvs.vnptmedia.vn/browse/GMYVNPT1-675"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "a @nguyentu4nminh ơi, note hộ e lý do 1 số bug bị reject với nhé."
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "***SOS***\nThời điểm nước rút rồi, mình ưu tiên fix bug nhé các bác ơi, chị gửi bảng phong thần:\n@hieu_tq (đua top lun em ơi), Thành  @dohaidoan  @hainn191297 @dzungnt2412 @nguyentu4nminh  @haipt1905\n@Locnguyen17 @giangnt2008  @DuyTuan_App"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "tổng 285 bug cơ à 😐"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Sao cái ông Trần Quang Hiếu kia kinh thế em"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "link bug nhé: https://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=546866655#gid=546866655"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Notification đang có các vấn đề nghiêm trọng, không test tiếp được. Nhờ AE xử lý sớm giúp để team QC tiến hành kiểm thử. @nduythanh xem giúp t nhé.\nCC: Anh Nguyen , @vietmv92"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "Notification:\n- Đang lỗi push noti, đã báo dev check từ ngày 19/8 nhưng vẫn chưa ai check được => không tạo data để test tiếp được.\n- Phần điều hướng noti: 1 số luồng điều hướng vào màn chi tiết thông tin thuê bao, VD: noti xác thực đổi imei, đối với luồng concept, login số khác sẽ chỉ xem noti và không đi xác thực cho số đổi imei được do đang điều hướng vào chi tiết thuê bao login chứ không vào màn chi tiết thuê bao đổi imei => cần confirm lại luồng này",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_459814",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Notification: - Đang lỗi push noti, đã báo dev check từ ngày 19/8 nhưng vẫn chưa ai check được => không tạo data để test tiếp được...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thuy Phan</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=546866655#gid=546866655"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260903_173753",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "17:37 03/09/2026",
+  "trigger_message": "a review phần SIM cho",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "trong lúc chờ nhận sim, KH có thể xác thực giấy tờ -> sai"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "cái này hôm gọi điện trao đổi a có nói e rồi đó"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "mình ko dc phép nói ntnay 😄"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "KH bắt buộc chỉ có thể xác thực thông tin sau khi nhận sim thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỉ là mình hỏi KH là có phải KH cũ trc? nếu đúng thì đến khi nhận sim -> xác thực sẽ dc bypass"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "thế em để phần hỏi đáp ngay ở ngoài luôn nhớ ạ, anh đợi em xíu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "anh xem trước mấy phần mua SIM giúp em ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=871-243732&t=zEk8Hh2PpKe5XOek-4"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "anh ơi anh check giúp em ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@minhhnhatt"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Chiều a xem nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "anh trai ơiisii"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nhớ check giúp em nhớ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tuanin34 ơi tối nay rảnh giờ nào ko?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ae call trao đổi phát"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "a review phần SIM cho",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_461335",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a review phần SIM cho\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Anh Minh PO</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=871-243732&t=zEk8Hh2PpKe5XOek-4"
+  ],
+  "doc_links": []
+}

@@ -1,0 +1,56 @@
+{
+  "task_id": "VNPT_20260827_155734",
+  "group_name": "Media@HĐTDTT VNPT",
+  "sender_name": "VNPT - Chị Thư HR",
+  "timestamp": "15:57 27/08/2026",
+  "trigger_message": "Mời anh chị của hội đồng \"Chuyên viên UI/UX\" tham gia vào group chung ạ\n\nhttps://t.me/+llem2iy9iGE4ZGM1",
+  "context_history": [
+    {
+      "sender_name": "TA B",
+      "text": "Em gửi chị Thư kết quả ban D9.2026_BanPV07_DE ạ.\n1. Tổng số ứng viên đăng kí tham gia: 31\n- Tổng số ứng viên checkin: 19\n- Tổng số ứng viên vắng: 12\n- Tổng số ứng viên dự thi online: 19\n+ Đạt: 10\n+ Loại: 9\n2. Tổng số ứng viên tham gia phỏng vấn: 10\n- Tổng số ứng viên HĐ đánh giá đạt: 4\n- Tổng số ứng viên HĐ đánh giá loại: 6\nVNPT NET tích nhận ứng viên Trần Việt Cường\nMedia không tích nhận ứng viên nào"
+    },
+    {
+      "sender_name": "Вùі Κhắс Нuy🔥",
+      "text": "Em gửi chị Thư kết quả ban D9.2026_BanPV02_ANTT ạ.\n1. Tổng số ứng viên đăng kí tham gia: 13\n- Tổng số ứng viên checkin: 10\n- Tổng số ứng viên vắng: 3\n- Tổng số ứng viên dự thi online: 10\n+ Đạt: 7\n+ Loại: 3\n2. Tổng số ứng viên tham gia phỏng vấn: 7\n- Tổng số ứng viên HĐ đánh giá đạt: 1\n- Tổng số ứng viên HĐ đánh giá loại: 6"
+    },
+    {
+      "sender_name": "Bùi Văn",
+      "text": "Em gửi chị Thư kết quả ban D9.2026_BanPV11_Dev AI/Dev NET ạ.\n1. Tổng số ứng viên đăng kí tham gia: 16\n- Tổng số ứng viên checkin: 9\n- Tổng số ứng viên vắng: 7\n- Tổng số ứng viên dự thi online: 9\n+ Đạt: 9\n+ Loại: 0\n2. Tổng số ứng viên tham gia phỏng vấn: 9\n- Tổng số ứng viên HĐ đánh giá đạt: 5\n- Tổng số ứng viên HĐ đánh giá loại: 4"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Mời ACE hội đồng QA join group https://t.me/+PK-3hkbTJT01YThl"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Mời ace hội đồng \"Nhân viên kiểm thử\" join group https://t.me/+zooWxQ6Cvfc4ZmM9"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "mời anh chị em hội đồng BA “Chuyên viên Phân tích nghiệp vụ”\nhttps://t.me/+p3ReEd-weDIzMWNl"
+    },
+    {
+      "sender_name": "VNPT - Chị Thư HR",
+      "text": "Mời anh chị của hội đồng \"Chuyên viên UI/UX\" tham gia vào group chung ạ\n\nhttps://t.me/+llem2iy9iGE4ZGM1",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_498681166_459381",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Mời anh chị của hội đồng \"Chuyên viên UI/UX\" tham gia vào group chung ạ  https://t.me/+llem2iy9iGE4ZGM1\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

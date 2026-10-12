@@ -1,0 +1,76 @@
+{
+  "task_id": "VNPT_20260826_142358",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đỗ Hải Đoan",
+  "timestamp": "14:23 26/08/2026",
+  "trigger_message": "cho em hỏi chút, sao chỗ này nhìn sai sai nhỉ em ko hiểu lắm @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Quy",
+      "text": "E hỏi chút nếu cái nội dung text dài ra thì view này vẫn ăn theo ảnh vuông rồi text...\nHay là sẽ kéo dài view ra ạ"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "text max 2 dòng, dài hơn thì text... ạ"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "cho anh 4 ảnh này định dạng webp nhé @taminhtr"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e đã update lại thành comp tracking progress nhé ạ"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "ý là sao nhỉ, đẩy lên link em gửi đi em\nhttps://drive.google.com/drive/folders/1BasWP-qxgGMuSTvk-WapN7v_ROnGY8Sy"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "nó là comp trong DS, khôm phải ảnh a ơi 👀"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@haipt1905 phần tab này trong DS đã làm chưa nhỉ"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E làm rồi, tạo component rồi c, nó đang chạy trong notification rồi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Z a @Cuong9668 tham khảo lấy comp đó nhé"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "cho em hỏi chút, sao chỗ này nhìn sai sai nhỉ em ko hiểu lắm @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_458639",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"cho em hỏi chút, sao chỗ này nhìn sai sai nhỉ em ko hiểu lắm @quctuan\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Đỗ Hải Đoan</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16060-1512&t=YGGORCr0SJLIFZdP-1"
+  ],
+  "doc_links": []
+}

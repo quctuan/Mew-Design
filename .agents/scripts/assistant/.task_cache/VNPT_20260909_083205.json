@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260909_083205",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "08:32 09/09/2026",
+  "trigger_message": "Kính gửi: Thơm Qlsp , anh Kiên @LTK_HNI , anh Sang @trandanhsang – Ban SP,\nCC: Các anh LĐ: Sếp Phương , GĐ Ban ĐHKD Dũng , @dothanhdt1 , Ban SP Trần Ngọc Minh (thay b/c)\nĐể đồng bộ nội dung giữa Chuyên đề Kênh bán hàng và các Chuyên đề 3, 4, 8 / Chuyên đề Tiền lương (Chuyên đề 10) liên quan đến việc ghi nhận dữ liệu bán hàng, em xin trao đổi và đề nghị thống nhất một số nội dung cụ thể như sau:\n1. Ghi nhận dữ liệu kênh Online\nThống nhất nguyên tắc bóc tách và ghi nhận dữ liệu bán hàng qua kênh Online: xác định doanh số ghi nhận về TCT hay ghi nhận cho Viễn thông Tỉnh trong trường hợp Tỉnh thực hiện bán hàng thông qua các sàn thương mại điện tử (shoppee, tiktok).\n2. Thống nhất phương án xử lý các bộ KIT tồn của kênh cũ\nĐề nghị thống nhất phương án xử lý đối với các trường hợp bộ KIT tồn, cụ thể:\nCác bộ KIT được đóng KIT từ năm 2019 nhưng chưa được lưu trên bảng dữ liệu đóng KIT tập trung: giai đoạn đầu chưa xây dựng bảng lưu dữ liệu đóng KIT nên hiện hệ thống chưa có thông tin bộ KIT để thực hiện chuyển sang bước đăng ký TTTB.\nCác bộ KIT đã xuất bán trước năm 2017: phát sinh trước thời điểm triển khai hệ thống quản lý hàng hóa tập trung SMCS, do đó hiện hệ thống không có thông tin bộ KIT để thực hiện chuyển sang bước đăng ký TTTB.\nĐề nghị thống nhất nguyên tắc và phương án xử lý dữ liệu đối với các trường hợp KIT tồn nêu trên, đảm bảo xử lý được các tồn tại của kênh cũ và không ảnh hưởng đến việc triển khai luồng bán hàng mới.\n3. Thống nhất luồng bán hàng mới\nThống nhất luồng bán hàng mới để đồng bộ triển khai chính thức, dự kiến từ ngày 15/9/2026, trên các điểm chạm bán hàng gồm:\nApp MyVNPT;\nApp DigiShop;\nApp VNPT Employee.\nThời gian, địa điểm họp\nThời gian: 14h00, ngày 09/9/2026.\nĐịa điểm: Phòng họp lớn – Ban Giao dịch số – VNPT Media (tòa nhà 1 tầng nằm phía sau Tập đoàn).\nĐề nghị Ban SP cử nhân sự liên quan tham dự họp để cùng trao đổi, thống nhất các nội dung nêu trên và đảm bảo tiến độ triển khai.\nThành phần đã setup gồm:\nBan ĐHKD: Trung tâm ĐHK; Trung tâm Online.\nVNPT IT: Trung tâm DTC.\nVNPT Media: Trung tâm GDS; Trung tâm TSC.\nBan SP: Đề nghị cử các nhân sự phụ trách/liên quan đến các nội dung trên tham dự.\nKính đề nghị các anh/chị sắp xếp tham dự và cho ý kiến thống nhất để các đơn vị liên quan có cơ sở đồng bộ thiết kế, dữ liệu và triển khai hệ thống theo kế hoạch.\nTrân trọng cảm ơn!",
+  "context_history": [
+    {
+      "sender_name": "Trang",
+      "text": "Chị này oách thật"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Mai được diện kiến chị r"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Lo cái phòng họp k đủ chỗ quá"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "có bị ồn ko =))))))"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "chắc thiếu cái mic"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "K dám nói cạnh cái cửa ra vào, giữa thanh thiên bạch nhật :("
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "được 16-17ng, không gian mở ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Chắc mai c k nói cụm từ Các em là nhà máy đâu nhỉ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Có"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Đất nhà bọn e đó"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "C coi chừng"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "không gian mở =)))"
+    },
+    {
+      "sender_name": "Thien",
+      "text": "hài điên"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Nói vậy cho họ vào tròng đã :( có gì tính sau"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Fyi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Kính gửi: Thơm Qlsp , anh Kiên @LTK_HNI , anh Sang @trandanhsang – Ban SP,\nCC: Các anh LĐ: Sếp Phương , GĐ Ban ĐHKD Dũng , @dothanhdt1 , Ban SP Trần Ngọc Minh (thay b/c)\nĐể đồng bộ nội dung giữa Chuyên đề Kênh bán hàng và các Chuyên đề 3, 4, 8 / Chuyên đề Tiền lương (Chuyên đề 10) liên quan đến việc ghi nhận dữ liệu bán hàng, em xin trao đổi và đề nghị thống nhất một số nội dung cụ thể như sau:\n1. Ghi nhận dữ liệu kênh Online\nThống nhất nguyên tắc bóc tách và ghi nhận dữ liệu bán hàng qua kênh Online: xác định doanh số ghi nhận về TCT hay ghi nhận cho Viễn thông Tỉnh trong trường hợp Tỉnh thực hiện bán hàng thông qua các sàn thương mại điện tử (shoppee, tiktok).\n2. Thống nhất phương án xử lý các bộ KIT tồn của kênh cũ\nĐề nghị thống nhất phương án xử lý đối với các trường hợp bộ KIT tồn, cụ thể:\nCác bộ KIT được đóng KIT từ năm 2019 nhưng chưa được lưu trên bảng dữ liệu đóng KIT tập trung: giai đoạn đầu chưa xây dựng bảng lưu dữ liệu đóng KIT nên hiện hệ thống chưa có thông tin bộ KIT để thực hiện chuyển sang bước đăng ký TTTB.\nCác bộ KIT đã xuất bán trước năm 2017: phát sinh trước thời điểm triển khai hệ thống quản lý hàng hóa tập trung SMCS, do đó hiện hệ thống không có thông tin bộ KIT để thực hiện chuyển sang bước đăng ký TTTB.\nĐề nghị thống nhất nguyên tắc và phương án xử lý dữ liệu đối với các trường hợp KIT tồn nêu trên, đảm bảo xử lý được các tồn tại của kênh cũ và không ảnh hưởng đến việc triển khai luồng bán hàng mới.\n3. Thống nhất luồng bán hàng mới\nThống nhất luồng bán hàng mới để đồng bộ triển khai chính thức, dự kiến từ ngày 15/9/2026, trên các điểm chạm bán hàng gồm:\nApp MyVNPT;\nApp DigiShop;\nApp VNPT Employee.\nThời gian, địa điểm họp\nThời gian: 14h00, ngày 09/9/2026.\nĐịa điểm: Phòng họp lớn – Ban Giao dịch số – VNPT Media (tòa nhà 1 tầng nằm phía sau Tập đoàn).\nĐề nghị Ban SP cử nhân sự liên quan tham dự họp để cùng trao đổi, thống nhất các nội dung nêu trên và đảm bảo tiến độ triển khai.\nThành phần đã setup gồm:\nBan ĐHKD: Trung tâm ĐHK; Trung tâm Online.\nVNPT IT: Trung tâm DTC.\nVNPT Media: Trung tâm GDS; Trung tâm TSC.\nBan SP: Đề nghị cử các nhân sự phụ trách/liên quan đến các nội dung trên tham dự.\nKính đề nghị các anh/chị sắp xếp tham dự và cho ý kiến thống nhất để các đơn vị liên quan có cơ sở đồng bộ thiết kế, dữ liệu và triển khai hệ thống theo kế hoạch.\nTrân trọng cảm ơn!",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_463871",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Kính gửi: Thơm Qlsp , anh Kiên @LTK_HNI , anh Sang @trandanhsang – Ban SP, CC: Các anh LĐ: Sếp Phương , GĐ Ban ĐHKD Dũng , @dothan...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

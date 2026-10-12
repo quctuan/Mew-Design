@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260822_140803",
+  "group_name": "[Super App] Trao đổi BA, Tech MyVNPT và MyTV",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "14:08 22/08/2026",
+  "trigger_message": "Nhờ chị Hải Anh, a @dodinhtien review giúp các phần request API từ phía GDS và cho bên em xin timeline có nhận được API spec/API với ạ",
+  "context_history": [
+    {
+      "sender_name": "Hải Anh",
+      "text": "kt có Tiến và anh Thiên thôi"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "phần cước OTT này @dodinhtien phụ trách đến bây giờ nhỉ"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "ok chị , mai hop ott hay cả fix chị"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "thấy mấy bạn trên kia nói trao đổi với c H"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "chắc chỉ có OTT thôi"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "chứ gói fix thì chắc là gói combo rồi"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "thì đâu có lấy từ bên mình đâu"
+    },
+    {
+      "sender_name": "Hải Anh",
+      "text": "còn sau này gói fix mà bán lẻ thì mới lấy bên mình"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "@havietngn  vào họp nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "em mời anh/chị Hải Anh, @dodinhtien tham gia họp ạ"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "a join rồi nha"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "anh @dodinhtien ơi, a cho e xin ds mã lỗi của của api check TB đủ đk mua gói với ạ"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "error_code: 1 => thành công\nTrả về kèm thông tin: tên gói, giá tiền, chu kỳ, và các khuyến mại (nếu có).\n\nCác trường hợp Lỗi (Tất cả đều có error_code: 0)  , trả về message lỗi"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "hiện tại api check chỉ có 2 case này thôi nha @havietngn"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "Em note lại phần yêu cầu API như trao đổi trong cuộc họp hum qua nha anh @dodinhtien chị Hải Anh, anh chị xem lại giúp em nhé: \n1. Api lấy danh sách gói thuê bao có thể đăng ký:\n- Request: anh @dodinhtien đánh giá xem có cần thêm tham số để truyền kênh bán vào không? vì có thể sau mỗi kênh bán mở bán các gói khác nhau -> danh sách các gói được đăng ký phải lọc trong danh sách này.\n- Respon -> trả thêm các thông tin:\n+ % khuyến mại\n+ Tên chương trình khuyến mại ( ví dụ: KM cuối tuần )\n+ Giá gói sau khuyên mại ( giá gói thực trừ) \n\n2. Api kiểm tra thuê bao có được đăng ký gói\n- Respone -> trả thêm các thông tin:\n+ % khuyến mại\n+ Tên chương trình khuyến mại ( ví dụ: KM cuối tuần )\n\n3. Api thực hiện DK/HUY gói\n- Request: bổ sung tham số truyền vào nguồn tiền trừ KH ( TKC hoặc nguồn tiền khác).\nE cảm ơn anh chị!"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Nhờ chị Hải Anh, a @dodinhtien review giúp các phần request API từ phía GDS và cho bên em xin timeline có nhận được API spec/API với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5589708935_456625",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhờ chị Hải Anh, a @dodinhtien review giúp các phần request API từ phía GDS và cho bên em xin timeline có nhận được API spec/API v...\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Anh Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

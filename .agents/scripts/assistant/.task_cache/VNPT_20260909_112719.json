@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260909_112719",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "11:27 09/09/2026",
+  "trigger_message": "Minh ( @minhhnhatt ) 3 luồng này thì tối nay trao đổi với PO nào tham gia em nhỉ",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Lấy top 5 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Nếu có sở cứ số liệu thì tốt, nếu số liệu nhạy cảm thỉ có thể note ngắn ngọn về mức độ sử dụng của người dùng 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nma mình chia sẻ cái đấy cho SA làm gì a :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "A ấy yêu cầu cái đấy thì cũng hơi thiếu hiểu biết về bảo mật dữ liệu nhể :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Hay là ký NDA rồi nên share thoải mái"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chia sẻ đâu, cái muốn nói là việc 5 Luồng mình đưa ra mà KH sử dụng nhiều thì nếu được cũng đưa ra thông tin nào đó để có thể hiểu được mức độ nhiều thế nào 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mà xem bổ sung thêm luồng thứ 5 nữa lâu thế à, Hiện tại anh vẫn thấy có 4 luồng 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mà Mua Sim vẫn đưa vào à @minhhnhatt @Hoanganh1109"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "bọn e đnag họp tý"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "a đợi e chút ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Okie nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@vietmv92 e bổ sung rồi nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ) Vụ pain point xem gửi lại giúp anh nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Painpoint có ghi luôn trong file của HA gửi r mà a"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "trong 5 luồng này a thấy di chi tiết trước 3 luồng: mua gói cước 4/5g, topup, đổi esim"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ) 3 luồng này thì tối nay trao đổi với PO nào tham gia em nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_464158",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Minh ( @minhhnhatt ) 3 luồng này thì tối nay trao đổi với PO nào tham gia em nhỉ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

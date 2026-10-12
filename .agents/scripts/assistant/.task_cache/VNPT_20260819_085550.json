@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260819_085550",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "08:55 19/08/2026",
+  "trigger_message": "tuấn bít YB và QB ko",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn nói cho bạn chị đi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tôi tưởng bạn khen sếp bạn mà"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "kp khen =)) mà là ko ảnh hưởng gì đến cv của tôi thì tôi thấy ok thui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tôi sẽ cho bạn 1 cái nhìn khác nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko ảnh hưởng đến cv"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ảnh hưởng đến cách nhìn người =))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nhắn đi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "xong xoá"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko nhắn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nói mồm"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dm chắc cốp thế"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nói ở VP cũng có dc đâu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hà đâu r"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "vẫn ngồi đây"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn YB và QB đấy"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuấn bít YB và QB ko",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_454469",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"tuấn bít YB và QB ko\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

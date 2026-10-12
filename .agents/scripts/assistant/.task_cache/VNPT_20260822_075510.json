@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260822_075510",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "07:55 22/08/2026",
+  "trigger_message": "Fiora sẽ gom chung design + research về làm một à:))",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thực chất là để setup preview thôi mà"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "thế là ảnh up local không có pa"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "cứ kéo trên đó à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ừa"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "Ngọc anh HA confirm nha"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "thực ra print area cũng chỉ là khái niệm mà bọn nhà in nó đưa ra cho mấy thg POD này để đặt ảnh trong đấy, lúc in cho chuẩn ko mất nét thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chứ preview trên store thì dí bòi qtam"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ừa"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nếu dùng cái luồng mockup thì có thể làm được hiệu ứng đẹp"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "và tái sử dụng được cho nhiều camp"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nma nó cũng hơi advanced nên thường user mới cũng méo hiểu cái đấy để làm gì"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "màn này trong luồng nào thế?"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "step 1 2 của create campaign"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "https://ytuong.substack.com/p/lam-sao-e-tao-ra-mot-san-pham-winning"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Fiora sẽ gom chung design + research về làm một à:))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456433",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Fiora sẽ gom chung design + research về làm một à:))\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

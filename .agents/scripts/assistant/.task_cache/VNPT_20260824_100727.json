@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260824_100727",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Ngọc Ánh",
+  "timestamp": "10:07 24/08/2026",
+  "trigger_message": "@ngthuyanh \nticket: https://dvs.vnptmedia.vn/browse/GMYVNPT1-83\nUC-HOME-GROUP.15.EX.1: Tên nhóm trống hoặc chứa ký tự đặc biệt - Trigger: Tại bước 6, chủ nhóm xóa trắng tên nhóm hoặc nhập ký tự đặc biệt không được phép. - Response: App báo lỗi ngay tại giao diện và disable nút Cập nhật.\nem hỏi lại đoạn[ơ App báo lỗi ngay tại giao diện] thì sẽ hiển thị message error ngay dưới Textbox ạ? trong figma đang ko design case này",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "402 ở mọi API à a"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ko của thằng refreshToken thôi chứ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "402 refreshToken thôi em"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "Nhưng thực tế chưa có ct nào chạy đâu. Nên e check lại chỗ này và update lại figma giúp c nhé @havietngn"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "cảm giác 2 ce đang chưa hiểu đúng ý nhau đâu trao đổi lại nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái này test đc r nhé em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "à BE lên thôi còn app anh chưa biết :v Nam    cc anh Thành NV  @haipt1905"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": ":( nhiều thứ quá hẹn thứ 2 nhé Nam"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "cái này cho mình xin thêm thông tin về user login được ko Ngọc"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "hi chị Anh Nguyen \nNhờ chị tạo 1 task jira phục vụ CMS gói mytv giúp em với ạ\nĐây là jira cho luồng mytv https://dvs.vnptmedia.vn/browse/GMYVNPT1-185"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị gửi nhé: https://dvs.vnptmedia.vn/browse/GMYVNPT1-633"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "e cảm ơn chị"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "hiện tại em đang thấy trả về data r anh ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @nduythanh, a @Tuanjnfor, Sau report của bên QC chị @thuyph312 về các phần test thì em nhờ các a xem giúp em không lại để trôi mất ạ, phần report đang để comment các ticket ạ\n•Widgets\n•Search\n• Cài Đặt"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "phần này 2 anh check và có timline chưa ạ? a @nduythanh, a @Tuanjnfor"
+    },
+    {
+      "sender_name": "Ngọc Ánh",
+      "text": "@ngthuyanh \nticket: https://dvs.vnptmedia.vn/browse/GMYVNPT1-83\nUC-HOME-GROUP.15.EX.1: Tên nhóm trống hoặc chứa ký tự đặc biệt - Trigger: Tại bước 6, chủ nhóm xóa trắng tên nhóm hoặc nhập ký tự đặc biệt không được phép. - Response: App báo lỗi ngay tại giao diện và disable nút Cập nhật.\nem hỏi lại đoạn[ơ App báo lỗi ngay tại giao diện] thì sẽ hiển thị message error ngay dưới Textbox ạ? trong figma đang ko design case này",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_457100",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@ngthuyanh  ticket: https://dvs.vnptmedia.vn/browse/GMYVNPT1-83 UC-HOME-GROUP.15.EX.1: Tên nhóm trống hoặc chứa ký tự đặc biệt - T...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Ngọc Ánh</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

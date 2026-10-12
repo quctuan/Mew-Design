@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260827_140048",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "14:00 27/08/2026",
+  "trigger_message": "@ngngthaonhu vs @NguyetDang xem giúp chị bổ sung như này về nghiệp vụ, luồng  thì oki k? Với phần này làm thì chị  tạo ticket mới update thôi",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "giờ push chỗ chị Thủy điền thông tin vào thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị @quynhmaihavi chị Anh Nguyen  ơi, bên phía econtract đã phản hồi timeline dự kiến chưa ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Phần Vinaphone Plus cũng chưa có thông tin, mọi người off UI đi giúp em ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Họ phản hồi qua email theo timeline này nhé, chị có CC em trong mail đấy  em check lại nha"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Phần V+ VNP ban PTTT và KDOL chốt kịch bản và số điểm tặng rồi nhưng book họp FT đang hẹn sau lễ, cái này em đánh giá trước theo kịch bản gửi lên, cmt cho VNP nhé, xong qua lễ mình họp với các bên"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "các thông tin cho các tỉnh khác ngoài HCM và LĐ, chị cũng comment và chốt trong file thuyết minh cho em nhé"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "Chị @quynhmaihavi ơi"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Bên VNP edit lại nhé @vaanha , có nghĩa cam mesh vẫn đc add on nhiều , nhưng mỗi loại một gói cloud"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@NguyetDang ơi, chỗ này cần chặn giao diện cho phần đăng ký add on MyTV chị có bổ sung dev note, đã gửi inbox em, em check lại figma nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cái này là bổ sung them scope, bổ sung công cụ, và nghiệp vụ lấy dữ liệu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị Anh Nguyen xem cho em nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@ngngthaonhu, chị Anh ơi, nhờ chị/em đánh giá timeline phát sinh cho phần add on MyTV"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@ngngthaonhu vs @NguyetDang xem giúp chị bổ sung như này về nghiệp vụ, luồng  thì oki k? Với phần này làm thì chị  tạo ticket mới update thôi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_459172",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@ngngthaonhu vs @NguyetDang xem giúp chị bổ sung như này về nghiệp vụ, luồng  thì oki k? Với phần này làm thì chị  tạo ticket mới ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Anh Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

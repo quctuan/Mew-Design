@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260831_220931",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Thien Tran",
+  "timestamp": "22:09 31/08/2026",
+  "trigger_message": "cho em hỏi là cart page & checkout page có file design chưa nhỉ? Nếu có cho em xin với ạ",
+  "context_history": [
+    {
+      "sender_name": "Phong",
+      "text": "Con này ông kia vibe code ra cái web =)) source code thì public =))  Thế là mò được git là lấy hết được source code"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@hoangpham76 @Acevip123 update chỗ cào data cho e cái"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "up lên folder luôn à"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "tưởng để 10k xong up"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@hoangpham76 a vào up tay nốt lần này thôi a , sắp có tự đẩy lên r 😅"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "là sắp có chưa"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Sắp r e đang test r"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@Acevip123 xoá giúp anh các camp acrylics với bỏ các camp từ 3 clipart trở xuống nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@Hoanganh1109 camp acrylics là gì a"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "e biết r"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@hoangpham76 nào rảnh a lấy nốt hiện tại nhé để e đẩy up driver lên r chạy lại"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "chạy lại từ đầu á"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "hay như nào"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Chạy lại từ đầu hoặc e lọc product đã chạy rồi chạy tiếp"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "thế lọc product đã chạy r chạy tiếp đo"
+    },
+    {
+      "sender_name": "Thien Tran",
+      "text": "cho em hỏi là cart page & checkout page có file design chưa nhỉ? Nếu có cho em xin với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_460502",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"cho em hỏi là cart page & checkout page có file design chưa nhỉ? Nếu có cho em xin với ạ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thien Tran</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

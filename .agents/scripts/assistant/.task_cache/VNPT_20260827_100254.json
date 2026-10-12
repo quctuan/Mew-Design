@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260827_100254",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "10:02 27/08/2026",
+  "trigger_message": "@quctuan ơiiii",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "Với lại hiện tại các cái case thêm mới của HVC và Homecombo  đang không thêm được nên em k test được chức năng xóa thành viên  và rời nhóm đâu ạ , xóa rồi thì k check dc case thành viên"
+    },
+    {
+      "sender_name": "Song",
+      "text": "truyền \"\" nhé em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Dạ vầng ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "https://prnt.sc/MfW5TH15sO-r"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "còn cái này sao nó lại trả về dạng này anh nhỉ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "anh trả về đúng giúp em được k , vì anh bảo sử hiển thị theo format GB, thì figma cũng sửa lại giúp em với ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw   à  hay cái này em làm tròn thành số nguyên được không ( làm tròn ở cái hiển thị thôi )"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "dc ạ , thế em làm trong nhé , em sợ nếu đúng data thì bị ảnh hưởng thôi , nên e mới hỏi lại"
+    },
+    {
+      "sender_name": "Song",
+      "text": "không sao đâu em thế chốt làm tròn nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Dạ vầng ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "anh chị đang đổi lại thiết kế ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em thấy đang sửa"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@havietngn chị ơi chốt cái này chưa ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@quctuan ơiiii",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_459000",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan ơiiii\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Anh Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

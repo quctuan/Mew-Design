@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260910_105701",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Duy.Tuan",
+  "timestamp": "10:57 10/09/2026",
+  "trigger_message": "@quctuan , click vào đây đi đau e, chưa thấy vẽ nhỉ",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E hỏi tí chỗ này với a @quctuan, avatar emi chỗ này lại cấu hình cứng"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Còn những thằng này là động à a a"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "có mấy cái này là cấu hình avatar emi thôi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm đúng r, mấy cái feed dạng news nội dung nó linh hoạt nên a cấu hình.\nCòn feed dạng recommends thì fixed theo kịch bản recommends r"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "A @quctuan cho em hỏi truờng hợp sdt chưa xác thực hiển thị tag mà màn hình k đủ để hiện thig cho hiển thị như nào thế anh"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "nó sẽ bị lệch như này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em truncate text rồi cho chạy giúp a với"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "cho chạy mỗi text chưa xác thực à anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, text trong cái badge đó thui"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "anh @quctuan  ơi xem giúp em, luồng đổi quà cho các loại quà còn lại chưa có màn đổi quà thành công ở đây, anh xem thêm giúp em nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@taminhtr Giúp t bổ sung cho Đoan nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à mn đã làm đến luồng sử dụng voucher chưa e nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cái màn có mã QR voucher ấy"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "giống màn này anh, em mới làm chỗ đổi Ưư đãi này thôi chưa xem chỗ sử dụng anh ạ"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "@quctuan , click vào đây đi đau e, chưa thấy vẽ nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_465121",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan , click vào đây đi đau e, chưa thấy vẽ nhỉ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Duy.Tuan</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

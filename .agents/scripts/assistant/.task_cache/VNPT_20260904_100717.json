@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260904_100717",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "10:07 04/09/2026",
+  "trigger_message": "@quctuan Anh Nguyen @ngsong699 @giangnt2008 anh chị ơi , hỗ trợ giúp em với ạ",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "trả như nào em cứ hiện thế"
+    },
+    {
+      "sender_name": "Song",
+      "text": "category null thì nó cũng ko có layoutType đâu"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "nó đều hiển thị vào cái tin nhắn này anh nhỉ , ưu tiên theo thứ tự bên phải"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "này chắc phải xin anh response đầy đủ để mockdataa thôi chứ kiểu này cũng k test dc"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@giangnt2008 ơi, e support phần này cho @ngsong699 nhé. Sông share lại file các vấn đề cần hỗ trợ cho MiniApp cho Giang support tiếp"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@aidenLeDevPDC giờ Giang support tiếp task này e có gì tag Giang nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "dạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "mọi vấn đề em đều có note ở trong này rồi ạ , có gì em nhờ anh @giangnt2008 xem giúp em với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@giangnt2008 anh ơi , a đọc file có chỗ nào em note khó hiểu hay thiếu thông tin để check k ạ"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "anh note thêm cả api liên quan trong doc nữa cho anh nhé @Thangngw"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em có cột request để curl rồi ạ , để e xem cái nào còn thiếu thì em bổ sung ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 @giangnt2008 dc phần nào 2 anh update vào file với thông báo giúp em nhé ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@quctuan xem chị cái này với"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "@quctuan Anh Nguyen @ngsong699 @giangnt2008 anh chị ơi , hỗ trợ giúp em với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_461485",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan Anh Nguyen @ngsong699 @giangnt2008 anh chị ơi , hỗ trợ giúp em với ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thang. Xuan</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+  ]
+}

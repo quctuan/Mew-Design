@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260904_143330",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "Quynh Mai",
+  "timestamp": "14:33 04/09/2026",
+  "trigger_message": "Chị Nguyễn Thu Thủy ơi, cho em hỏi 1 chút, hiện sau khi khách hàng hoàn thành lắp đặt BRCD One đã có luồng SMS thông báo nào chưa ạ",
+  "context_history": [
+    {
+      "sender_name": "Đinh Nhàn",
+      "text": "rồi anh ạ"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "vnptraw_daily.GG_ONEBSS_CSS_HD_KHACHHANG\nvnptraw_daily.GG_ONEBSS_CSS_HD_THUEBAO\nvnptraw_daily.GG_ONEBSS_CSS_PHIEUTT_HD"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "Mấy bảng này cần online đúng k e ?"
+    },
+    {
+      "sender_name": "[IT-DTC] Tạ Đăng Luật",
+      "text": "Các bảng dữ liệu cần đang đồng bộ online rùi bên e chủ động trao đổi tiếp nội bộ xem làm j nhé"
+    },
+    {
+      "sender_name": "Đinh Nhàn",
+      "text": "đây là các bảng realtime đã đồng bộ rồi anh, ready to use"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Nhàn ( @alicedinh ), chị Thủy ( Nguyễn Thu Thủy - BA - DTC )\n\ncc: Nguyệt ( @NguyetDang  ), Như (  @ngngthaonhu )\n\nVề cơ bản dữ liệu Realtime phía BigData đã confirm ready.\n\nEm xin phép book lịch họp online vào 9h ngày 03/09 để trao đổi chi tiết về 2 API trigger nhé chị Nhàn ( @alicedinh )\n\nPhần này phía chị Thủy ( Nguyễn Thu Thủy - BA - DTC ) join cùng giúp bên em nhé ạ.\n\nLink GG Meet: https://meet.google.com/wgp-wjmo-kwr"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Nhàn ( @alicedinh ), chị Thủy ( Nguyễn Thu Thủy - BA - DTC )\n\ncc: Nguyệt ( @NguyetDang  ), Như (  @ngngthaonhu )\n\n\nLịch họp sáng nay bên em xin phép lùi lại đầu giờ chiều nay vào 2h30 nhé ạ.\n\nEm cảm ơn mọi người ạ."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Thủy ( Nguyễn Thu Thủy - BA - DTC ) ơi chị join meet nhé ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị vào rồi"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ chị"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Chị @alicedinh  ơi, em gửi spec payload 2 Kafka Trigger (create_fiber & update_fiber) phục vụ đồng bộ đơn BRCĐ Realtime về My VNPT.\nNhờ chị và team rà soát thông số, đồng thời phản hồi giúp bên em kế hoạch kết nối và triển khai dự kiến nhé ạ. Em cảm ơn chị \nhttps://docs.google.com/document/d/1gTyqiLgyncwI_oYf0a6afOeF15suw_R4tve0z-kqFmE/edit?usp=sharing\nNOTE: Myvnpt chỉ lấy thông tin đơn hàng lắp đặt ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Nhàn ( @alicedinh ) xem giúp em sáng nay gửi được kế hoạch ban giao 2 API trigger Realtime theo mô tả trên ạ."
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Thao Linh ơi, vụ V+ họp lúc 9h30, sáng nay em gửi link họp online nhé ạ, nhờ chị báo chị Nguyệt giúp em ạ https://meet.google.com/gof-xtqp-bwh Em cảm ơn chị nhé"
+    },
+    {
+      "sender_name": "Thao Linh",
+      "text": "okay Mai nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Nguyễn Thu Thủy ơi, cho em hỏi 1 chút, hiện sau khi khách hàng hoàn thành lắp đặt BRCD One đã có luồng SMS thông báo nào chưa ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_252",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Chị Nguyễn Thu Thủy ơi, cho em hỏi 1 chút, hiện sau khi khách hàng hoàn thành lắp đặt BRCD One đã có luồng SMS thông báo nào chưa ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/document/d/1gTyqiLgyncwI_oYf0a6afOeF15suw_R4tve0z-kqFmE/edit?usp=sharing"
+  ]
+}

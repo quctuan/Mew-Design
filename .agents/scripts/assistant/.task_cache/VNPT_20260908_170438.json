@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260908_170438",
+  "group_name": "SIM Số - revamp",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "17:04 08/09/2026",
+  "trigger_message": "14h00 chiều mai ngày 09/09/2026 họp review các luồng bán hàng mới, đồng bộ ghi nhận doanh thu trên các điểm chạm bán hàng, bóc tách từng công đoạn theo user ghi nhận.",
+  "context_history": [
+    {
+      "sender_name": "kimchi",
+      "text": "❌ Bạn không có quyền sử dụng lệnh này. Chỉ admin mới được phép xóa số khỏi whitelist."
+    },
+    {
+      "sender_name": "Nam",
+      "text": "2026-09-08 16:05:12 INFO  LoggingService - TraceId: Digishop_1788858312597 -   -------------------------LOGGING RESPONSE--------------START---------------------  [API-PATH]: /package_service/ems_shipping/updateOrderInfo   [REQUEST-ID]: Digishop_1788858312597   [TIME_PROCESS]: 52   [BODY RESPONSE]: {\"error_code\":\"04\",\"message\":\"Dữ liệu không hợp lệ\"}   -------------------------LOGGING RESPONSE--------------END---------------------"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@ngthuyanh  chỗ case tracking  trường hợp  vneid hết hạn 30p SLA của add- update đang  điều hướng vào màn ký phiếu luôn( đã  xác thực từ c06 thành công) thì xử lý ntn chị?"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "log ghi rõ mà e. E ko đọc log r :))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "Đi kiểu gì mà vào đc ký phiếu mà chưa vneid xong nhỉ. Vneid xong rồi thì add update luôn từ lúc đó rồi chứ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "vneid xong r. nhưng mà add update quá 30p"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "tracking check db thì là xong r"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "add update quá 30p thì cx ra màn báo lỗi luôn, ko đi tiếp vào màn ký phiếu"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "xong thoát app vào tracking thì sao ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ns chung là lách để qua cái 30p à =)) đến đoạn gọi tiep-nhan IT cx check mà"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lỗi thì làm lại từ đầu"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "by pass nhé?"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ừm"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @ngthuyanh ơi, ngày mai VNP và c Minh sang mình họp các nội dung này, c join cùng e nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "14h00 chiều mai ngày 09/09/2026 họp review các luồng bán hàng mới, đồng bộ ghi nhận doanh thu trên các điểm chạm bán hàng, bóc tách từng công đoạn theo user ghi nhận.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4941309523_463719",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"14h00 chiều mai ngày 09/09/2026 họp review các luồng bán hàng mới, đồng bộ ghi nhận doanh thu trên các điểm chạm bán hàng, bóc tác...\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

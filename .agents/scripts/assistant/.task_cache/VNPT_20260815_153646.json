@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260815_153646",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "Tuan Nguyen",
+  "timestamp": "15:36 15/08/2026",
+  "trigger_message": "ôi em miss cái này",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "oki anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em xong rồi, anh check giúp em pphaanf mua SIM nha j"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@quctuan anh ơi anh check giúp em nhớ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tối về em quẩy phần kích hoạt"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okie để a xem"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=18408-18220&t=CK8QeN9TyDGZgc53-11\n\nLuồng mua SIM vật lý thiếu phần mua thành công. Nó là các case mà em từng làm ở version app cũ ấy.\nCho phép mua SIM xong thì eKYC trước"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "với a comment trong figma, e check nhé @tuanin34\nsửa xong thì làm tiếp phần kích hoạt"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em done rồi nhâ j"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okee em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Done phần kích hoạt luôn r hở"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko ạ :))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cái sửa ở trên ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "À uh, làm tiếp phần kích hoạt luôn nhá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Phần này e để đâu đó, a check ko thấy"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "ôi em miss cái này",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_453070",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"ôi em miss cái này\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Tuan Nguyen</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=18408-18220&t=CK8QeN9TyDGZgc53-11"
+  ],
+  "doc_links": []
+}

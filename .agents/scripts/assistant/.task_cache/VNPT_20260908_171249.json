@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260908_171249",
+  "group_name": "Line 1: Super App",
+  "sender_name": "thuy la le",
+  "timestamp": "17:12 08/09/2026",
+  "trigger_message": "luồng yc IT gửi trigger sang IT cũng reject, đợt đó @hocnv2010 có bảo để LĐ tác động đấy",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ),  Như ( @ngngthaonhu ), anh Vũ ( @leanhvu88 ), chị Thúy ( @thuyph312 )\n\n8h30 sáng mai mình ngồi nhanh trao đổi chút nhé ạ."
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "A tự tin mình xong dc trc 9h ko ạ?"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Tự tin thì anh có thừa á 😐"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chốt, sau 9h BA họp vụ khác đó"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "quá giờ Việt giải quyết hết"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chưa họp em thấy áp lực quá 😢"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em nghĩ sẽ trước 9h thôi. vì BA và anh em BE ngồi trước rồi 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Giờ đồng bộ lại với PO để trao đổi phương án 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Vũ ( @leanhvu88 ) cũng bảo với em là nhanh thôi 😐"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "mục này còn chưa có api tra cứu đc toàn bộ thuê bao di động cùng cccd"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "hiện hữu có những số doanh nghiệp đang là 1 cccd có 1000 thuê bao di động"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "và sẽ ko có dc =))))))"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "nên đã k khả thi từ đầu rồi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "đã trao đổi từ cả tháng trc"
+    },
+    {
+      "sender_name": "thuy la le",
+      "text": "luồng yc IT gửi trigger sang IT cũng reject, đợt đó @hocnv2010 có bảo để LĐ tác động đấy",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_463746",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"luồng yc IT gửi trigger sang IT cũng reject, đợt đó @hocnv2010 có bảo để LĐ tác động đấy\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>thuy la le</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

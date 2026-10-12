@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260828_142150",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Nhu",
+  "timestamp": "14:21 28/08/2026",
+  "trigger_message": "@havietngn @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "anh gọi ra cái này"
+    },
+    {
+      "sender_name": "Song",
+      "text": "có 404 đâu nhỉ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "em thử đổi số xem"
+    },
+    {
+      "sender_name": "Song",
+      "text": "à"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh thấy r nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw   thử lại xem nhé"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Dạ vầng ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "để tối e thử lại"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@havietngn @ngngthaonhu chị ơi , chị xem giúp em chỗ này với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "anh ơi , anh chưa trả về đâu ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699"
+    },
+    {
+      "sender_name": "Song",
+      "text": "em cứ set theo logic đấy trc,  anh thêm vào sau"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "tất cả các tab cá nhân , homcombo, roaming , nhóm thành viên (HVC)\nđều gọi chung api 1.2a khi mà mở popup gói cước tôi đang sử dụng anh nhỉ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 anh ơi xác nhận giúp em với"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "phần này 2 chị cũng xác nhận phản hồi giúp em với ạ @havietngn @ngngthaonhu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_459993",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@havietngn @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

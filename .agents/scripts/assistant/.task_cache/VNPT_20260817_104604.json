@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260817_104604",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Anh Nguyen",
+  "timestamp": "10:46 17/08/2026",
+  "trigger_message": "Nhờ @name688899, a @Tuanjnfor, chị @thuyph312 xem, update các task trên master plan giúp ạ. Có nhiều phần đã tới deadline ạ",
+  "context_history": [
+    {
+      "sender_name": "Quỳnh",
+      "text": "iOS đang hiển thị bts login, login xong điều hướng vào thẳng Tính năng"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@ngthuyanh cc @dohaidoan @hieu_tq \ntại màn Quản lý nhóm, 2 chức năng này đang chưa được define, bổ sung thêm giúp c điều hướng như  nào nhé"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "em gửi mô tả ạ \nlick bts Hỗ trợ: https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16292-8097&p=f&m=dev"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oki làm như ios nha"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "adr kiếm đc quả popup ở đâu thế kb :v"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "@Locnguyen17 sửa chỗ này nữa nhé :v"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "luồng cũ nó thế đó chị"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@dohaidoan @hieu_tq mn bố sung nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "upd giúp c nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhờ a @quctuan upd giúp e design chỗ này nhé ạ\nTruy cập tiện ích k đc sd pre login => bts đăng nhập"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=50360-68288&t=Nxu38WCGNtgoWykz-11\n\na gửi nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@Locnguyen17 @dohaidoan ơi, nhờ mn update theo các case giúp c nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @thuyph312 ơi, đơn vị tiền tệ eng và vie mình đều để \"đ\" nhé ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@datnd2109 e check đồng bộ phần này nhé"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Nhờ @name688899, a @Tuanjnfor, chị @thuyph312 xem, update các task trên master plan giúp ạ. Có nhiều phần đã tới deadline ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_453215",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhờ @name688899, a @Tuanjnfor, chị @thuyph312 xem, update các task trên master plan giúp ạ. Có nhiều phần đã tới deadline ạ\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 22,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=50360-68288&t=Nxu38WCGNtgoWykz-11",
+    "https://www.figma.com/design/LEPP6mucy8IwApPlDQ7VAH/-Mobile-App--Design-System?node-id=16292-8097&p=f&m=dev"
+  ],
+  "doc_links": []
+}

@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260914_231501",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "23:15 14/09/2026",
+  "trigger_message": "chắc mai xong luồng này r",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "wireframe bằng sticht nhanh phết"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "con stitch ngon k a trai gey"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "làm wireframe a thấy oke"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chắc sẽ làm thêm auto topup nhé @Hoanganh1109"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "dùng cho sướng đít"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Stitch nâng cấp làm wf ổn phết nhỉ :))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ngày xưa nó làm nhìn kinh vãi loz"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "uh bg đỡ r"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "trông na ná 1 phần mềm nào đó mà k thể nhớ là pm nào"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nma vẫn kinh 😄"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chắc train = bộ ds của gg"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "material u"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "kinh"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "am hiểu thế"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chắc mai xong luồng này r",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_468118",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chắc mai xong luồng này r\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

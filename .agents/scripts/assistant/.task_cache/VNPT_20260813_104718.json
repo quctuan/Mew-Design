@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260813_104718",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Loc",
+  "timestamp": "10:47 13/08/2026",
+  "trigger_message": "a Tuấn export giúp em cái arrow bubble chat này với, em export ra ko có màu gì ;))",
+  "context_history": [
+    {
+      "sender_name": "Thành",
+      "text": "vì phần feed đã done hết rồi nên mn cần đánh giá lại xem ảnh hưởng nhiều hay ít nha em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okie a ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "màn Shop ae hold lại giúp em 2 phần.\n- Danh mục life style (Update số lượng lifestyle)\n- Feed bán gói (Update UI thẻ gói)\n\nNay bọn em update rồi gửi mn đánh giá ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a hỏi chút nữa @quctuan . ở màn hình này nếu ở trạng thái vừa logout. đã có thông tin user ở session login trước đó. thì nó có hiển thị khác ko e,"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "hay mặc định là như này luôn ."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Dùng chung 1 kiểu như này thui ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ukie e"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "chốt đó. a code rồi mà sửa là 5 chén nhé"
+    },
+    {
+      "sender_name": "Thành",
+      "text": ":)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có gì em nhờ Phương ạ =))"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@quctuan Cái icon này nó bị lệch sang 1 bên"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "căn giữa giúp anh với"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "done ạ"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "a Tuấn export giúp em cái arrow bubble chat này với, em export ra ko có màu gì ;))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_452059",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a Tuấn export giúp em cái arrow bubble chat này với, em export ra ko có màu gì ;))\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Loc</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

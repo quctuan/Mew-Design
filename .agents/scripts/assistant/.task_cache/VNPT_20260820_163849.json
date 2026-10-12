@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260820_163849",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Phuong Vu",
+  "timestamp": "16:38 20/08/2026",
+  "trigger_message": "@quctuan @taminhtr anh cị em GDS Design iu quí, hình như bộ DS của mình bị lẫn màu ở đâu đó vào phải hông :v",
+  "context_history": [
+    {
+      "sender_name": "Phuong",
+      "text": "đúm nà càng đông càng vui"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "nhưng đi trốn thì khom thể đi cả team PO =))"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "thế c Hà ở lại hy sinh"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "quân cờ chính trị"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "c cũng canh miếu, KDoanh đang tóm c, các bé làm việc vui nhớ, hớ hớ"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "nghe tiếng cả 2 sếp lun"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "sếp đã dìa"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "gòi lun"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "đúm, về cả 2 roài nhé =)))"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "kế hoạch đổ bể"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "chắc a Tuấn nói thế cho team tỉnh ngủ thu"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chắc là bth k có sếp mn cũng hay trốn 👀"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "để xem =)) PO vẫn đi thì đi =))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a Minh cũng rén r :))"
+    },
+    {
+      "sender_name": "Phuong Vu",
+      "text": "@quctuan @taminhtr anh cị em GDS Design iu quí, hình như bộ DS của mình bị lẫn màu ở đâu đó vào phải hông :v",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_455322",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan @taminhtr anh cị em GDS Design iu quí, hình như bộ DS của mình bị lẫn màu ở đâu đó vào phải hông :v\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Phuong Vu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

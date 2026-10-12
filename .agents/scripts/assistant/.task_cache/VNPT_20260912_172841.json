@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260912_172841",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "17:28 12/09/2026",
+  "trigger_message": "UI cũ là chọn bên design à",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đâu vẫn là cái personalize thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Oke cũng dc đấy"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Cái này mới à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh mới múa"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Để làm gì thế"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Thấy hơi fuck taph"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "A thấy đây là jtbd của Campagin"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Để add collection vô"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Hơn là của Artwork"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đâu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đổi UI thôi mà"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Có khác gì cái cũ đâu"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Oke để thẩm lại phát"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Anh vẫn chỉ có add và remove"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "UI cũ là chọn bên design à",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467201",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"UI cũ là chọn bên design à\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

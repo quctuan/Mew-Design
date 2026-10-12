@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260818_103750",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "10:37 18/08/2026",
+  "trigger_message": "anh @quctuan ơi em này sinh năm 98 á",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chứ có mỗi phí sinh tồn thì ko dám tiêu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuần này làm thứ 7 đấy"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cả nhà bieestt chưa"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vãi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tg tuần sau"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko đi chơi mà cũng bị bắt làm bù à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuần này mà"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuần sau nghỉ mà"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "nghỉ bù cho đợt nghỉ lễ mà"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ko phải nghỉ bù để đi du nịch"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "yes"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e tg tuần sau gần lễ thfi mới làm bù"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "hóa ra tuần này lun"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082\n\na gửi nhé, e kéo xuống phần Feed nha"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "anh @quctuan ơi em này sinh năm 98 á",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_454006",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @quctuan ơi em này sinh năm 98 á\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082"
+  ]
+}

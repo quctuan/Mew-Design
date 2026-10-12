@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260907_224049",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "Tuan Nguyen",
+  "timestamp": "22:40 07/09/2026",
+  "trigger_message": "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=246-72330&t=gd2ALo2Gs4AGsBDR-4",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "anh ơi cái mua sim data thì ở màn điền thông tin ấy ạ, có cần đổi gói cước ko anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "vì em thấy để vào thì coi như là chọn loại SIM khác rồi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "với cả mua SIM data em thêm 1 step chọn số ở đây nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Đều là chọn gói & số thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ko cần thêm step đâu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nma ở trong chọn số nó có phần tìm kiếm nữa ấy anh ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Thì e cho tìm đơn giản thôi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "E cứ follow nguyên tắc:\n- Mua sim số đẹp -> focus chọn số, chọn gói làm lean\n- mua sim gói xịn -> focus chọn gói, chọn số làm lean"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ko skip hay bỏ gì nhé:))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tuanin34"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Nếu vẫn chưa clear thì tối call a hdan thêm nha"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "anh ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "anh check giúp em phần mua sim trc với ạ"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=246-72330&t=gd2ALo2Gs4AGsBDR-4",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_462927",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=246-72330&t=gd2ALo2Gs4AGsBDR-4\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Tuan Nguyen</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 14,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/teW7BIxIOuzWPWcRD1RP8O/SIM-s%E1%BB%91?node-id=246-72330&t=gd2ALo2Gs4AGsBDR-4"
+  ],
+  "doc_links": []
+}

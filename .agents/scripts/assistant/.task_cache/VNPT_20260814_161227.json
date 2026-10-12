@@ -1,0 +1,80 @@
+{
+  "task_id": "VNPT_20260814_161227",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "Tubi",
+  "timestamp": "16:12 14/08/2026",
+  "trigger_message": "Tuấn hãy đợi =)) còn lâu nhé, c ốp 7749 lần r",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Ko có nhưng"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "thế mai đi nhé, bên này Tâm cũng đang mơ đẹp lắm"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "4h đi k"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Okee, c Phương ngóng đi chơi lắm r"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Thấy bảo tàng cách đây 10km ò :v"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "quán này á"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "gần mà, ngay bờ biển thui"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Tập trung chưa mng"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "Em dậy rùi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "4h nhá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Che đẹp đim"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chuẩn cái này r :)))"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Tuấn hãy đợi =)) còn lâu nhé, c ốp 7749 lần r",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_452750",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Tuấn hãy đợi =)) còn lâu nhé, c ốp 7749 lần r\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Tubi</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

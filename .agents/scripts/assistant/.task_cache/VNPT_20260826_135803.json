@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260826_135803",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "13:58 26/08/2026",
+  "trigger_message": "oki, ưu tiên giúp c trc luồng tái sử dụng tttb nhé, xong luồng đó gửi trc giúp c nha",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Với user lần đầu vào, em thêm 1 cái coach-mark để focus vào chỗ đổi loại SIM, tham khảo mấy mẫu này nhé @tuanin34"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ngoài ra về UI card đó xem có improve thêm dc gì ko, cho các vùng nội dung clear hơn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 ơi 9h call meet chỗ SIM chút đc ko e"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em call đc ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oki"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Cho a xin cái link vs nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://meet.google.com/twk-bawy-qaf"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e gửi nhé['"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chị ớii"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cho em zô zới"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 ơi khi nào e xong đc phần mình trao đổi tối hqua"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tối nay em sửa ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tối nay xong đc ko e"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oki, ưu tiên giúp c trc luồng tái sử dụng tttb nhé, xong luồng đó gửi trc giúp c nha",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_458621",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"oki, ưu tiên giúp c trc luồng tái sử dụng tttb nhé, xong luồng đó gửi trc giúp c nha\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hà PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

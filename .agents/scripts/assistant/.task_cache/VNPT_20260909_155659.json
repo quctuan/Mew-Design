@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260909_155659",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "15:56 09/09/2026",
+  "trigger_message": "Hi chị Anh Nguyen , em chưa clear về nghiệp vụ một số chỗ, chị giải đáp giúp em với ạ\n1. Section Trải nghiệm toàn diện hơn (theo comment figma) sẽ fix cứng tại tất cả collection gói cước nạp nhanh. Hiện tại các tab hiển thị theo dạng thẻ (layoutType) vậy tất cả tab nào có dạng thẻ dạng nạp nhanh đều fix cứng hiển thị phần này ở footer ạ? Và hiện có button Mua gói tháng nhưng thực tế sẽ không có khái niệm gói tháng (theo cấu hình), vậy khi click button Mua gói tháng sẽ điều hướng đi đâu ạ?\n2. Tương tự với hiển thị thêm của phần dành cho \"Gói tháng\", \"Gói VIP\" sẽ hiển thị như thế nào ạ? Nếu theo cấu hình BE cho biết là lấy trường nào trong api.",
+  "context_history": [
+    {
+      "sender_name": "Nam",
+      "text": "mục mấy nhỉ e"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "5.2.2 > khối trung tâm hỗ trợ ạ"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "a click link này là đi thẳng đến đó mà"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "em dùng hàm httpWithSecureCore đang bị lỗi, anh giúp em có bị sai ở đâu k ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "tải bản mới nhất di"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hiền đang dev với android đúng k em"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Android có hỗ trợ k ạ, bản mới nhất ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@SilverBullet2201 hỗ trợ bên android nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @SilverBullet2201 ơi khi nào có bản android để bạn Hiền bên em test lại cái này ạ, trong chiều nay có k ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @hieunguyen271095 hiện tại bên em test bên ios thì đã ok rồi cái httpWithSecureCode ấy, nhưng bên android thì chưa được, anh @SilverBullet2201 xem giúp bên em khi nào được với ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "mọi người báo lỗi lưu ý báo cả lỗi ở iOS hay Android nữa nhé, đặc biệt khi liên quan đến APIkit\n@aidenLeDevPDC lưu ý nhắc ae, để bên a rà cho chính xác"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Vâng ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hieunguyen271095 em test trên IOS thì api /package_service/device/getDevice với request deviceTypeCode: \"CAMERA\" bị lỗi ạ (deviceTypeCode: \"MESH\" thì ok)\n{\n    \"url\": \"https://stagingv2.myvnpt.com.vn/package_service/device/getDevice\",\n    \"body\": {\n        \"requestId\": \"0f3f3c4c-fe25-4867-a04b-1a0855c321f4\",\n        \"secureCode\": \"5fd9c842575b337a7e88a2a8b0106bdc241f5d864280754cc74031cd4f28ea7a\",\n        \"session\": \"<hidden>\",\n        \"msisdn\": \"84826601291\",\n        \"deviceId\": 0,\n        \"deviceTypeCode\": \"CAMERA\"\n    },\n    \"guest\": false\n}\n\n{\n    \"errorCode\": \"99\",\n    \"message\": \"JSON parse error\"\n}"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi chị Anh Nguyen , em chưa clear về nghiệp vụ một số chỗ, chị giải đáp giúp em với ạ\n1. Section Trải nghiệm toàn diện hơn (theo comment figma) sẽ fix cứng tại tất cả collection gói cước nạp nhanh. Hiện tại các tab hiển thị theo dạng thẻ (layoutType) vậy tất cả tab nào có dạng thẻ dạng nạp nhanh đều fix cứng hiển thị phần này ở footer ạ? Và hiện có button Mua gói tháng nhưng thực tế sẽ không có khái niệm gói tháng (theo cấu hình), vậy khi click button Mua gói tháng sẽ điều hướng đi đâu ạ?\n2. Tương tự với hiển thị thêm của phần dành cho \"Gói tháng\", \"Gói VIP\" sẽ hiển thị như thế nào ạ? Nếu theo cấu hình BE cho biết là lấy trường nào trong api.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_464456",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hi chị Anh Nguyen , em chưa clear về nghiệp vụ một số chỗ, chị giải đáp giúp em với ạ 1. Section Trải nghiệm toàn diện hơn (theo c...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Hậu</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

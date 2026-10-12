@@ -13,6 +13,7 @@ wiki/token_full.json
 *.xlsx
 *.pdf
 *.png
+!**/.agents/**/image/*.png
 urd_doc_*.txt
 temp_*.py
 temp_*.json

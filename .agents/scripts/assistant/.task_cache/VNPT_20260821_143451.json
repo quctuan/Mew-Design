@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260821_143451",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đức",
+  "timestamp": "14:34 21/08/2026",
+  "trigger_message": "à cho anh thêm cái avatar này webp nhé @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "em xin nhé:3"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan cho anh cái background đang xử lý và đang giao hàng định dạng webp nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cái này mình tạo shape và pick màu dc k a nhỉ, màu này đã tạo token trong design system r. \n\nVề sau có update đổi màu thì cũng dễ"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "anh @quctuan ơi, sao cái bottomSheet thanh toán này lại khác component thế anh nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm do cái top-up nó phải hiện nội dung chiết khấu"
+    },
+    {
+      "sender_name": "Trọng Hiếu",
+      "text": "cái nút X bên trên thì sao anh"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "cái đấy chắc bỏ ra ngoài để mini app sẽ đóng cái bottomsheet xuống @quctuan ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm chỗ trải nghiệm top-up với mua gói đang khác chút chỗ này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Bỏ dấu x ra ngoài bts hả e"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "cái đấy mini app đang mở bottomsheet chứa view thanh toán native nên để mini app tự đóng luôn a"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "ukm thế cho anh cái ảnh này định dạng webp nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Oke ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Oke nha"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "à cho anh thêm cái avatar này webp nhé @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_455906",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"à cho anh thêm cái avatar này webp nhé @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đức</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

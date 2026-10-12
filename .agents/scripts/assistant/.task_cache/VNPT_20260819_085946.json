@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260819_085946",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "08:59 19/08/2026",
+  "trigger_message": "nma m bít vụ ở quê Tuấn chưa",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "vẫn ngồi đây"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn YB và QB đấy"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Yên Bái, Quảng Bình ??"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "oh"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "bít à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko =)))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ngây thơ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "các b ko kể, t sao biết dc cgi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "lạc hậu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "sang kia để nghe à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "gọi Hà đi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nghe xong thì nhận tiền 2/9 xong đi nhậu nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Ngạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "để xem có bị bắt trả lại nữa ko đã :)))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chuyện này nên nói trên bàn nhậu thui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nma m bít vụ ở quê Tuấn chưa",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_454486",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"nma m bít vụ ở quê Tuấn chưa\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Nhu</b>"
+  ],
+  "scoring": {
+    "score": 23,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

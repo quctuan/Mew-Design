@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260824_110613",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "11:06 24/08/2026",
+  "trigger_message": "a @Hoanganh1109 chốt hộ e theo figma hay theo file của a với a nhé",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "https://testflight.apple.com/join/uQsrlTYH\nVersion 6.0.2 (2026080401)\nE gửi nhé a @trieuld289"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a update trong file rồi nhé cc @vanhtt14"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Tiếng việt hiện tại cũng khác trong figma à a ? Phần này cả UI và file đã đồng bộ chưa a nhỉ ?"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a đồng bộ lại rồi nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "c @ngthuyanh ơi, nếu call API checkConsent và saveConsent lỗi thì mình nên cho user back ra màn login hay cho đi dùng tiếp app như thường c nhỉ ?"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "a @Hoanganh1109 ơi a xem hộ e chỗ này"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "back ra login nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vì luồng là user đang đọc thông tin consent"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "chứ chưa thực hiện xác nhận để đi tiếp"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nên vẫn về màn login để đi theo các case của luồng login"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "@Locnguyen17"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "@Locnguyen17 sửa chỗ EN màn xác nhận giúp t nhé"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "vậy a bổ sung luôn trong tài liệu giúp em nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Chỗ này trong file note của a, e đang thấy để là chọn tất cả ạ"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "a @Hoanganh1109 chốt hộ e theo figma hay theo file của a với a nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3459",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @Hoanganh1109 chốt hộ e theo figma hay theo file của a với a nhé\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Phạm Thanh Hải</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

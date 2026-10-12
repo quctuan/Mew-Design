@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260904_101127",
+  "group_name": "[GDS-VIVAS]-MiniApp-QL thiết bị Internet",
+  "sender_name": "Aiden Le",
+  "timestamp": "10:11 04/09/2026",
+  "trigger_message": "Anh @quctuan xem hộ em với ạ",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "6 là chủ nhật, 0 là thứ 2 à anh @ngsong699"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Với cả API chặn thiết bị kết nối và mở thiết bị kết nối là cái nào anh @ngsong699 nhỉ, em check trên api docs chưa thấy ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Check nốt giúp em api chặn và mở chặn thiết bị kết nối nhé ạ @ngsong699"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 sáng nay xem luôn mấy cái này để bên em bổ sung luôn trong sáng nay cho QC ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @quynhmaihavi ơi cái tạo phiếu hỗ trợ này là sẽ mở đến mini app khác đúng k ạ, bên em đang k biết ấn Tạo phiếu hỗ trợ là mở sang luồng nào ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Vâng đúng rồi anh, chuyển qua Trung tâm hỗ trợ anh nhé. @quctuan ơi, link hộ TTHT vào với nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Nó là 1 mini app riêng chị nhỉ, cùng địa chỉ với cái Hỗ trợ ở ngoài màn home đúng k ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chuẩn rồi anh, nhưng nó vào chi tiết một form trong Hỗ trợ anh ạ, nhờ @quctuan gán màn nha"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Cái này chắc phải làm sau rồi, mấy case mở mini app khác sẽ tích hợp sau khi có"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái QR chắc sử dụng  SSID với Password để gen thôi anh @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái password hình như bên mobile phải tự decrypt"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @hieunguyen271095 có thông tin gì mấy cái này k ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@hieunguyen271095"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@monRich0 rà giúp a code native chỗ này đang xử lý ntn nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị @quynhmaihavi cho em hỏi cái thẻ này chỉ có Moderm ( device type 3, 4 ) thì mới hiện đúng k ạ, mesh thì có hiện không, vì hiện tại đang chưa có tài khoản test nào có dữ liệu moderm lỗi để hiển thị cả"
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Anh @quctuan xem hộ em với ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4435824770_620",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Anh @quctuan xem hộ em với ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Aiden Le</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

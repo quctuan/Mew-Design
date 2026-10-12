@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260819_102246",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hieu Nguyen",
+  "timestamp": "10:22 19/08/2026",
+  "trigger_message": "@quctuan trao đổi với Hiền nhé",
+  "context_history": [
+    {
+      "sender_name": "Hiền",
+      "text": "Entry point em thấy ko có action gì đến màn Danh sách gói cước ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tại trang Internet, ở section gói cước nổi bật có button \"Mũi tên\" xem thêm. Bấm sẽ điều hướng sang trang \"Danh sách gói cước\" ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em có bổ sung note trên figma r ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "em cảm ơn ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hieunguyen271095 anh review giúp em PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/34"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@hieunguyen271095 Hiếu xem giúp mình BaseBottomSheet với. Hiện trong base icon X bọc radius 4 góc vuông trong khi tất cả design bottomSheet đều là bo tròn."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Theo base"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cái này bị ở bên nào nhỉ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "android? iOS? hay cả 2?"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiện ios bị. Android mình k thấy bị nhé. @hieunguyen271095"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "t xin iOS version và iphone mấy"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "chỗ code này đẩy branch nào chưa ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Iphone 13, version 18.4.1. Mình chưa đẩy. Xíu mình đẩy nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "đẩy xong gửi branch t check nhé"
+    },
+    {
+      "sender_name": "Hieu Nguyen",
+      "text": "@quctuan trao đổi với Hiền nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_454610",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan trao đổi với Hiền nhé\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hieu Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

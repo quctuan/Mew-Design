@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260914_100855",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "10:08 14/09/2026",
+  "trigger_message": "Tối nay cần phần quản trị các phương thức thanh toán và hoàn thiện nốt 2 luồng 4g, topup nhé",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mà Mua Sim vẫn đưa vào à @minhhnhatt @Hoanganh1109"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "bọn e đnag họp tý"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "a đợi e chút ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Okie nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@vietmv92 e bổ sung rồi nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ) Vụ pain point xem gửi lại giúp anh nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Painpoint có ghi luôn trong file của HA gửi r mà a"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "trong 5 luồng này a thấy di chi tiết trước 3 luồng: mua gói cước 4/5g, topup, đổi esim"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ) 3 luồng này thì tối nay trao đổi với PO nào tham gia em nhỉ (Hoàng Anh hay Hà,....)"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỗ này có Hà phần gói cước, topup. còn Mai thì nắm luồng đổi esim a ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "mình định setup ntn cho phù hợp a nhỉ?"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm anh cũng đang xem trao đổi với anh San xem có chia thời gian cho 3 luồng này không"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Mai ( @quynhmaihavi ), Hà ( @havietngn ) nắm thông tin tối nay join nhé, Dự kiến 8h30 bắt đầu, còn thời gian cụ thể cho từng Mục nếu clear được với chỗ anh San thì anh sẽ báo lại."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Tối nay cần phần quản trị các phương thức thanh toán và hoàn thiện nốt 2 luồng 4g, topup nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_467514",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Tối nay cần phần quản trị các phương thức thanh toán và hoàn thiện nốt 2 luồng 4g, topup nhé\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>ViệtMV</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

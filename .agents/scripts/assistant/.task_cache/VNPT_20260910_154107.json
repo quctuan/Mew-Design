@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260910_154107",
+  "group_name": "[GDS] - Đăng ký/Cập nhật thông tin thuê bao",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "15:41 10/09/2026",
+  "trigger_message": "@kietla01 @havietngn cái task điều chỉnh luồng CNTTTB cho thuê bao trả sau cần check ảnh 13 thay vì ảnh 3 đang đưa vào kế hoạch khi nào bắt đầu đó. ko điều chỉnh thì trả sau ko xác thực đc, VNP đang kêu nhiều khiếu nại lắm",
+  "context_history": [
+    {
+      "sender_name": "Lại",
+      "text": "Thuê bao này e thấy có log xác thực khi đổi thiết bị nhưng ko thành công thôi ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@kietla01 Follow vụ này nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@name688899 phối hợp check giúp anh nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Vụ Cache Loyalty để anh Follow cho"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Vâng anh"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhờ anh @name688899 a Anh Thành check giúp e case này nhé ạ, VNP đang báo mất nhiều KH vì bị gặp lỗi này ạ"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Anh @name688899 đang check rồi nhé chị"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "chắc do vụ thiếu otp và sai loaitb_id truyền vào ở tiepnhan-v8 đối vs hộ chiếu đó e"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "cái này Thùy Anh tạo task nâng cấp r"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Chắc chắn ko anh"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "sáng đang check lỗi theo case đấy mà =))"
+    },
+    {
+      "sender_name": "Nam",
+      "text": ":))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cái này bh golive thế ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "a bàn giao cho QA r"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@kietla01 check giúp c xem ticket này khi nào golive để c thông tin lại vnp vs nhe"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@kietla01 @havietngn cái task điều chỉnh luồng CNTTTB cho thuê bao trả sau cần check ảnh 13 thay vì ảnh 3 đang đưa vào kế hoạch khi nào bắt đầu đó. ko điều chỉnh thì trả sau ko xác thực đc, VNP đang kêu nhiều khiếu nại lắm",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4884906704_465512",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@kietla01 @havietngn cái task điều chỉnh luồng CNTTTB cho thuê bao trả sau cần check ảnh 13 thay vì ảnh 3 đang đưa vào kế hoạch kh...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuỳ Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

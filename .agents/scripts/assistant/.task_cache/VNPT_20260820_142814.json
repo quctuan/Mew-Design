@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260820_142814",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Kim Thien",
+  "timestamp": "14:28 20/08/2026",
+  "trigger_message": "Kính gửi các anh/chị,\n\nSau buổi trao đổi hôm nay về phương án triển khai luồng mua SIM vật lý trên My VNPT, hai bên đã thống nhất và ghi nhận một số nội dung như sau:\n\nNội dung đã thống nhất:\nSLA chuẩn bị SIM của luồng giao SIM qua địa bàn hiện tại:\n48 giờ kể từ khi phát sinh đơn hàng.\n\nCác nội dung cần tiếp tục làm rõ:\n• Quy trình đóng gói SIM và bàn giao cho đơn vị vận chuyển (sẽ cập nhật lại sau khi hoàn tất ký kết với đối tác vận chuyển).\n• Cơ chế ghi nhận đơn hàng cho cá nhân và đơn vị\n• Quy trình xuất hóa đơn cho đơn vị\n• Rà soát, cập nhật lại thông tin địa chỉ các phòng giao dịch để đảm bảo phục vụ công tác giao nhận.\n• Đánh giá sản lượng đơn hàng dự kiến sau khi triển khai luồng mới để làm cơ sở xây dựng phương án vận hành.\n\nBên em sẽ tiếp tục phối hợp với các đơn vị liên quan để hoàn thiện các nội dung trên và cập nhật lại tới các anh/chị trong thời gian sớm nhất.\n\nEm cảm ơn các anh/chị!",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ukii"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "anh @minhhnhatt chị @havietngn ơi mng ra bàn đối diện phòng họp lớn nhé ạ, bên đối tác đến rùi ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "s họp đối tác mà ngồi cái bàn sida thế"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "https://docs.google.com/spreadsheets/d/1SThGgdfeef3utnNyc8y5E7AUyLWh8brkGI91E2wRWS0/edit?usp=sharing\n\nem gửi mng bảng so sánh sơ bộ giữa Ahamove và GHTK ạ\n\nTheo đánh giá của em sau khi trao đổi qua vs 2 bên thì em thấy hiện tại GHTK đang khả thi hơn một chút. Bên GHTK có mức giá khá rõ ràng, chủ động trao đổi các vấn đề liên quan đến kết nối hệ thống và API cũng như vị trí các điểm gdich,... Khi trao đổi, bên họ cũng đặt nhiều câu hỏi để tìm hiểu nhu cầu nghiệp vụ của mình.\nVề báo giá chính xác thì họ hẹn muộn nhất là t3 tuần sau họ sẽ gửi lại mình ạ\n\nVới Ahamove thì hiện chưa có mức giá fixed cho dịch vụ giao hỏa tốc, chỉ áp dụng chính sách chiết khấu theo tổng cước vận chuyển. Phần kỹ thuật em có hỏi về việc kết nối API ntn nhưng thông tin phản hồi vẫn còn khá ngắn gọn và chưa làm rõ được phương án tích hợp\n\nnhờ anh chị đánh giá thêm giúp em ạ"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Link họp địa bàn 9h sáng nay nhé @havietngn @minhhnhatt: https://meet.google.com/ayy-uoku-nyg"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "anh @minhhnhatt cho em xin văn bản có chữ kí anh Liêm với ạ :))))))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tặng KIM"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "em KIM xin chị HÀ ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@havietngn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://meet.google.com/rzz-ovez-mms"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@tkim03 gửi lại MOM buổi họp sáng nay với HNI nhé"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "vâng em đang soạn r ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tkim03 @Trangdt171 ơi nhờ mng sum up lại ndung để phản hồi địa bàn nhé. Xong mình chốt next step trong group này luôn nhỉ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "xem timeline next step ntn cho phù hợp"
+    },
+    {
+      "sender_name": "Kim Thien",
+      "text": "Kính gửi các anh/chị,\n\nSau buổi trao đổi hôm nay về phương án triển khai luồng mua SIM vật lý trên My VNPT, hai bên đã thống nhất và ghi nhận một số nội dung như sau:\n\nNội dung đã thống nhất:\nSLA chuẩn bị SIM của luồng giao SIM qua địa bàn hiện tại:\n48 giờ kể từ khi phát sinh đơn hàng.\n\nCác nội dung cần tiếp tục làm rõ:\n• Quy trình đóng gói SIM và bàn giao cho đơn vị vận chuyển (sẽ cập nhật lại sau khi hoàn tất ký kết với đối tác vận chuyển).\n• Cơ chế ghi nhận đơn hàng cho cá nhân và đơn vị\n• Quy trình xuất hóa đơn cho đơn vị\n• Rà soát, cập nhật lại thông tin địa chỉ các phòng giao dịch để đảm bảo phục vụ công tác giao nhận.\n• Đánh giá sản lượng đơn hàng dự kiến sau khi triển khai luồng mới để làm cơ sở xây dựng phương án vận hành.\n\nBên em sẽ tiếp tục phối hợp với các đơn vị liên quan để hoàn thiện các nội dung trên và cập nhật lại tới các anh/chị trong thời gian sớm nhất.\n\nEm cảm ơn các anh/chị!",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_455196",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Kính gửi các anh/chị,  Sau buổi trao đổi hôm nay về phương án triển khai luồng mua SIM vật lý trên My VNPT, hai bên đã thống nhất ...\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 11,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "⚡ Khẩn: \"hôm nay\"",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1SThGgdfeef3utnNyc8y5E7AUyLWh8brkGI91E2wRWS0/edit?usp=sharing"
+  ]
+}

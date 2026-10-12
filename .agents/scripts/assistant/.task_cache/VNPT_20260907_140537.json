@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260907_140537",
+  "group_name": "[Media-VNP-IT] MyVNPT - Quickwin BRCD Mốc 15/10/2026",
+  "sender_name": "Nguyễn Thu Thủy",
+  "timestamp": "14:05 07/09/2026",
+  "trigger_message": "@quynhmaihavi phần QW này bên em ngoài tác động đến các hợp đồng lắp đặt mới, bên em có tác động đến các luồng hợp đồng khác không? như hợp đồng dịch chuyển, thay đổi thông tin khách hàng, thay đổi tốc độ ....",
+  "context_history": [
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Thao Linh ơi, vụ V+ họp lúc 9h30, sáng nay em gửi link họp online nhé ạ, nhờ chị báo chị Nguyệt giúp em ạ https://meet.google.com/gof-xtqp-bwh Em cảm ơn chị nhé"
+    },
+    {
+      "sender_name": "Thao Linh",
+      "text": "okay Mai nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Chị Nguyễn Thu Thủy ơi, cho em hỏi 1 chút, hiện sau khi khách hàng hoàn thành lắp đặt BRCD One đã có luồng SMS thông báo nào chưa ạ"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "để chị hỏi lại rồi báo em nhé"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Okie chị, em cảm ơn chị nha"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "Khi hoàn thành hđ lắp đặt có nhắn tin cho khách hàng nhưng chỉ nhắn được số nội mạng, không nhắn đc cho thuê bao ngoại mạng em nhé"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị vừa nhờ anh DEV check lại ở form hoàn công hợp đồng, anh báo không thấy đoạn code gửi SMS nữa, trước trên hệ thống ĐHSX thì có, lên ONEBSS thì không tháy đoạn code đó nữa ^^"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @tienhuytran207 ơi, sắp tới mốc 9/9 bàn giao SDK với API rồi ạ. Bên anh có còn vướng gì cần GDS support không ạ?"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Anh @tienhuytran207 ơi, hôm trước em thấy anh bảo tầm 6/9 là có thể gửi trước tài liệu API và hàm mới rồi ạ, anh sắp xếp gửi sớm giúp bên em nhé ạ"
+    },
+    {
+      "sender_name": "Tiến Huy",
+      "text": "các anh/chị onebss cho em hỏi các hợp đồng ký bên myvnpt này được tạo từ API/sdk hay luồng cụ thể nào ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "nhờ chị Nguyễn Thu Thủy support a Huy với ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị Nhàn ( @alicedinh ) xem giúp em khi nào ban giao API Trigger để bên em tích hợp ạ"
+    },
+    {
+      "sender_name": "Đinh Nhàn",
+      "text": "Do có update về dữ liệu nên mình đang xem, chiều nay sẽ báo ngày bàn giao ạ."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ chị"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "chị có chat với Huy rồi, bên chị truyền data vào SDK của eContract, rồi gọi api để lấy thông tin về"
+    },
+    {
+      "sender_name": "Nguyễn Thu Thủy",
+      "text": "@quynhmaihavi phần QW này bên em ngoài tác động đến các hợp đồng lắp đặt mới, bên em có tác động đến các luồng hợp đồng khác không? như hợp đồng dịch chuyển, thay đổi thông tin khách hàng, thay đổi tốc độ ....",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4208350936_266",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quynhmaihavi phần QW này bên em ngoài tác động đến các hợp đồng lắp đặt mới, bên em có tác động đến các luồng hợp đồng khác không...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Nguyễn Thu Thủy</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

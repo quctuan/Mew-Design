@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260818_135751",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Dat Nguyen Duc",
+  "timestamp": "13:57 18/08/2026",
+  "trigger_message": "a @erictrannn ơi, từ khóa xu hướng đang để giới hạn 20 ký tự, ko đủ so với design ạ",
+  "context_history": [
+    {
+      "sender_name": "Thuy",
+      "text": "CE vẫn đang test những phần test được nha c"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "ủa e thấy tên a Luật r mà"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm thằng em Đạt nó chuyển anh Luật rồi =))))"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "mặc định đó chị ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chọn cái này thì lúc nào mà chả về Minh"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "dù có chuyển assignee có khi IT cũng bắt tạo lại phiếu"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em Đạt tạo phiếu nhiều sao lại tạo lỗi thế ==!"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Có tạo lại không để anh push lại anh Luật"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chứ khong lại bị chửi cho ==!"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@ntiendat"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "chuyển a Luật là được rồi ạ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em chuyển rồi"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "giờ chuyển sang IT360 nên phải chọn đúng dịch vụ, khi chọn đúng dịch vụ nó tự nhảy về Minh thôi ạ"
+    },
+    {
+      "sender_name": "Dat Nguyen Duc",
+      "text": "a @erictrannn ơi, từ khóa xu hướng đang để giới hạn 20 ký tự, ko đủ so với design ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454138",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @erictrannn ơi, từ khóa xu hướng đang để giới hạn 20 ký tự, ko đủ so với design ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Dat Nguyen Duc</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

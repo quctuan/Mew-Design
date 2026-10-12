@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260813_145621",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "14:56 13/08/2026",
+  "trigger_message": "Sao bê đc a ? MiniApp là mini app, app native là ae tự code chứ",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "có gì em nhờ Phương ạ =))"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@quctuan Cái icon này nó bị lệch sang 1 bên"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "căn giữa giúp anh với"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "done ạ"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "a @quctuan export giúp em cái arrow bubble chat này với, em export ra ko có màu gì ;))"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "e xin nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Thành e gửi feed gói cước trang Shop ạ.\nChỉ update UI thẻ gói đã có trong mini app gói di động vào đây thui ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Ui sao nó bị khó thế :("
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@hieu_tq @dohaidoan ơi mn xem đánh giá giúp anh nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E làm ấy a :)) E thấy k ổn"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Trong mini app gói di động cũng đang dùng các thẻ này r. Nên ae bê ra thôi, kp code mới chỗ này"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Nhiều layout quá a @quctuan, rồi nếu scroll ngang thì scroll cả 2 cái cùng lúc hay scroll ở chỗ nào thì chỉ ở cột đó a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "scroll ngang cùng lúc luôn nhá"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "Sao bê đc a ? MiniApp là mini app, app native là ae tự code chứ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_452273",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"Sao bê đc a ? MiniApp là mini app, app native là ae tự code chứ\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Phạm Thanh Hải</b>"
+  ],
+  "scoring": {
+    "score": 32,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

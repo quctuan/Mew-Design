@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260817_110055",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "11:00 17/08/2026",
+  "trigger_message": "@quctuan bạn hiện lên sugges tiktok tôi",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "rất nhanh nhẹn"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Vậy 100% là đ có 8tr à :("
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chưa tin dc sự thật à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Còn 2.9 cũng mông lung"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tỉnh chưa"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "con mọe"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "phải"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Khéo phải ở HL thêm mấy ngày để healing"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "dm đ chi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thifg đ hoàn thuế"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Uhm còn khoản thuế nữa, sắp hết mẹ năm r"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "đợi năm sau hoàn thuế cho cả 2 năm =)))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ọe"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vnp có chi 15/8 mà"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "éo dc nắc đít r"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan bạn hiện lên sugges tiktok tôi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_453377",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan bạn hiện lên sugges tiktok tôi\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

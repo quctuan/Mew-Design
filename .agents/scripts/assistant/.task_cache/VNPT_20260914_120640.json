@@ -1,0 +1,98 @@
+{
+  "task_id": "VNPT_20260914_120640",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "12:06 14/09/2026",
+  "trigger_message": "Trung ương đoàn bọn chị chốt phase sau nhé, sẽ note lại, phía App, kinh doanh @vaanha review Ui sáng chị gửi nha, chốt xong báo lại SP nhé",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chốt là PO.\n\nBA tư vấn, đánh giá thôi 🙂"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "hôm qua em vs Nguyệt nói xem ảnh hưởng gì k đấy?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "Thế chỗ này @quynhmaihavi xem tham vấn chỗ BA rồi báo nhé"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Liên quan chỗ thanh toán BRCĐ: Mai, Hà qua chỗ anh trao đổi nhanh nhé. Chốt để làm"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh @Phantom102 ơi, em gửi lại link jira https://dvs.vnptmedia.vn/browse/GMYVNPT1-247 nhờ anh cmt các nội dung liên quan đến thanh toán lên link chốt cho các bên và đánh giá trc timeline gửi lại biểu đối soát nhé ạ. EM cảm ơn anh"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Anh @Phantom102 , chị @quynhmaihavi ơi, em vừa cf với chị Thuỷ bên Onebss việc truyền thông tin loại hình thu hộ ( Thu qua trung gian thanh toán/ Thu qua hạ tầng thanh toán/Số hóa thu cước)  sang Onebss khi đi gạch nợ là bắt buộc ạ, nên nhờ anh chị xem lại giúp em ạ"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "Bên mình ko phải trung gian thanh toán, cũng ko phải hạ tầng thanh toán (cái này chỉ áp dụng khi 1 đối tác bên ngoài gọi vào hệ thống của Money và Money gọi sang IT gạch nọ/cấp hàng) ==> e cứ truyền sang là Số hóa thu cước (cũng ko hẳn đúng, nhưng nó là tên gọi chung nên cứ áp vậy)."
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Dạ vâng ạ"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Vậy anh note vào jira giúp em ạ"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "@quynhmaihavi có thông tin anh cần em confirm lại: với các Tỉnh em đã trao đổi, Tỉnh trả lời có thể đối soát tập trung và thanh toán tập trung về Vinaphone có đúng ko?"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Vâng khi trao đổi thì họ đang đồng ý như vậy, bên KDOL cũng đang đề xuất đối soát tập trung anh ạ"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "anh đã cmt jira nhé, bao gồm dữ liệu cần để đối soát các bên."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@NguyetDang @hieunguyen271095 mn ơi, e mới bổ sung button này trên top nav, điều hướng sang Quản lý đơn hàng ạ\n\nhttps://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=37831-43348&t=g1jQpoPqcCRbKdic-11"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "@NguyetDang , @ngngthaonhu , anh @Phantom102 ơi, chị Anh ơi,  9h30 mình họp nhanh vụ xử lý thanh toán ở phòng họp lớn nhé ạ"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Cho em xin UI với chị @quynhmaihavi ơi :D"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Trung ương đoàn bọn chị chốt phase sau nhé, sẽ note lại, phía App, kinh doanh @vaanha review Ui sáng chị gửi nha, chốt xong báo lại SP nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_467682",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Trung ương đoàn bọn chị chốt phase sau nhé, sẽ note lại, phía App, kinh doanh @vaanha review Ui sáng chị gửi nha, chốt xong báo lạ...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Quynh Mai</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=37831-43348&t=g1jQpoPqcCRbKdic-11"
+  ],
+  "doc_links": []
+}

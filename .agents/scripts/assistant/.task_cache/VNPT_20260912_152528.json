@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260912_152528",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "15:25 12/09/2026",
+  "trigger_message": "anh định cho 1 nút back to design to hơn",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "thay đổi lớn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thôi xoá đi vậy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nhưng chắc chỗ này phải nghĩ xem khi chuyển sang tab personalize thì thanh toolbar bên tay trái lúc đấy sẽ ảnh hưởng ntn"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "anh cho cút luôn r"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thế lúc add phải chuyển về tab design à"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "chỉ có layer panel có tác dụng thôi"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ừ"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "design là design, còn personalize là personalize ấy"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "như dev mode thì k add đc gì"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "đúng thuần đi dev"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "hay là lúc đấy mình ẩn cái panel đang mở đi là được"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "check inspect"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nhỡ đâu user ngu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "K biết chuyển lại"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "anh định cho 1 nút back to design to hơn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467000",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh định cho 1 nút back to design to hơn\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Lê Kiên</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

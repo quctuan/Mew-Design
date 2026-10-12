@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260912_151819",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "15:18 12/09/2026",
+  "trigger_message": "khi nó switch option thì cái khu vực preview demo sẽ thay đổi",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Xong tạo luôn file khuôn mẫu để in 3D được"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ảo ma thật"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Chắc Blender giống kiểu Figma của mấy con sản phẩm 3D"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "k khéo mai kia có cả personalize cho ngành nội thất"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Đưa các xưởng gỗ VN vươn mình"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "khó build"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ừ dùng blender làm model luôn :)"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@leek6998 thế này oke hơn ko a trai gei"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "ngon đấy"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "vẽ luôn đi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "?"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a thấy dễ hiểu k"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "có"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "thêm cái ảnh dễ hiểu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "khi nó switch option thì cái khu vực preview demo sẽ thay đổi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_466972",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"khi nó switch option thì cái khu vực preview demo sẽ thay đổi\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

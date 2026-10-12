@@ -1,0 +1,99 @@
+{
+  "task_id": "VNPT_20260826_214630",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "21:46 26/08/2026",
+  "trigger_message": "https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=42571-20328&t=N4L2M8lCw5i3CvGR-11",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 ơi 9h call meet chỗ SIM chút đc ko e"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em call đc ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oki"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Cho a xin cái link vs nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://meet.google.com/twk-bawy-qaf"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e gửi nhé['"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chị ớii"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cho em zô zới"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@tuanin34 ơi khi nào e xong đc phần mình trao đổi tối hqua"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tối nay em sửa ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tối nay xong đc ko e"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oki, ưu tiên giúp c trc luồng tái sử dụng tttb nhé, xong luồng đó gửi trc giúp c nha"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "chị ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "chị cho em xin lại wỉeame hôm qua với ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=42571-20328&t=N4L2M8lCw5i3CvGR-11",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_458877",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=42571-20328&t=N4L2M8lCw5i3CvGR-11\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/xYNdNAxepr2NpBd3LV8rq1/SIM-S%E1%BB%91-2025?node-id=42571-20328&t=N4L2M8lCw5i3CvGR-11"
+  ],
+  "doc_links": []
+}

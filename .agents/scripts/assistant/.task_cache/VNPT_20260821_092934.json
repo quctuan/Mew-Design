@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260821_092934",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Loc",
+  "timestamp": "09:29 21/08/2026",
+  "trigger_message": "anh @quctuan giờ text dài hiển thị ko đủ như trong dialog thì xử lí như nào h anh nhỉ ;)))",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "a @hieu_tq  nhận sửa chỗ này à a:v"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 a ơi, e xin contact người làm mini app Gói internet với, e trao đổi mấy chỗ có animation"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "a vừa @ đó"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan ơi a hỏi chút"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "feed bên tab vnpt shop có loading của feed như bên home ko nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "hmm chắc ko cần đâu ạ :))"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ukie e . chốt nhá. '"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke ạ"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chỗ này đồng bộ thành 1 text giống nhau được ko nhỉ anh @quctuan"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "rời nhóm vs rời khỏi nhóm"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Đồng bộ \"rời nhóm\" đó, chắc sửa sót"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "chỗ này nữa anh @quctuan , chỗ thì đã hiểu chỗ thì Tôi đã hiểu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okie \"Tôi đã hiểu\" nha"
+    },
+    {
+      "sender_name": "Loc",
+      "text": "anh @quctuan giờ text dài hiển thị ko đủ như trong dialog thì xử lí như nào h anh nhỉ ;)))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_455688",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"anh @quctuan giờ text dài hiển thị ko đủ như trong dialog thì xử lí như nào h anh nhỉ ;)))\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Loc</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

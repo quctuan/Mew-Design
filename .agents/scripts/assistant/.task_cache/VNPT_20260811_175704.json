@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260811_175704",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "17:57 11/08/2026",
+  "trigger_message": "Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành ), chị Thùy Anh ( @ngthuyanh ), chị Ngọc Linh ( @nguyenngoclinh1 ), Đức Hải, Trường Giang ( @giangnt2008 ), anh Văn Nam ( @name688899 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy @tran_van_my @thuyph312 \n\nThông tin buổi Golive ngày mai ( 12/08 ) đã được cập nhật tại đây: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-qw-di-dong-12082026\n\nMọi người nắm thông tin giúp em nhé ạ!",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "chị cũng thấy phần mềm đấy nó ngủ đúng không chị 😄"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "100k thôi e"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Vâng anh"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@kietla01 @vietmv92 \nChị gửi Plan team QC nhé:\n• GMYVNPT-780 [Tuning] Tích hợp SDK eContract mới: Hạnh\n• GMYVNPT1-240 QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu: Hạnh, Nam, Vân Anh\n• GMYVNPT1-499 QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh: Hạnh, Nam, Vân Anh\n• GMYVNPT1-321 QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh: Vân Anh\n• GMYVNPT1-324 QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM: Đạt\n\nEstimate: T+2h\nNgoài ra cần IT hỗ trợ:\n- Hỗ trợ xóa thông tin thuê bao\n- Hỗ trợ kiểm tra thông tin thuê bao sau đăng ký và hòa mạng \n- Hỗ trợ xử lý lỗi nghiệp vụ phát sinh (nếu có)"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "DS (bật chuông) bao gồm BA trực tiếp, BE làm trực tiếp và BE lead (anh Thành @nduythanh )\n\nNote: mọi người không cần trực chat hay thức cùng. chỉ cần bật chuông để call hỗ trợ nếu có vấn đề phát sinh."
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "done nha"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "các e có cách nào tra cứu, hoặc biết đầu mối nào hỗ trợ dc ko @vietmv92 @lalethuy"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "api này là của bên mình mà, đây là rule chặn nội bộ chứ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Cái này app check lại chưa  truyền session login rồi ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@Tuanjnfor Thành  check giúp t chỗ này xem nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Trên iOS thôi nhỉ c"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "a xóa thông tin session đi đó e"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "lần tới sẽ để xxxx để AE đỡ nhầm"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành ), chị Thùy Anh ( @ngthuyanh ), chị Ngọc Linh ( @nguyenngoclinh1 ), Đức Hải, Trường Giang ( @giangnt2008 ), anh Văn Nam ( @name688899 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy @tran_van_my @thuyph312 \n\nThông tin buổi Golive ngày mai ( 12/08 ) đã được cập nhật tại đây: https://wiki.myvnpt.com.vn/books/myvnpt-golive/page/myvnpt-golive-qw-di-dong-12082026\n\nMọi người nắm thông tin giúp em nhé ạ!",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36209",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Ly Anh Kiet</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

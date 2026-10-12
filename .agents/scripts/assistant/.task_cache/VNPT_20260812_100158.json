@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260812_100158",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Phuong Vu",
+  "timestamp": "10:01 12/08/2026",
+  "trigger_message": "Ko biết có phải Figma đổi logic stroke hay khom, cái stroke inside thì giờ làm tăng size của elm lên",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "đây nhá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "đúm là phải hỏi chuyên gia 👉"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "ko thể tin được"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Giải đấu cấp độ đội tuyển quốc gia châu Âu t lấy logo nè được khom nhỉ =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@tubibitu90 @quctuan Chị Thủy đang wording lại thì màn xin quyền truy cập danh bạ nè có ở cả home thì chỗ Tuấn cũm cần đồng bộ ó"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke nha"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@quctuan Tuấn ơi thông báo tắt roaming là dùng cái này nhỉ :v"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, dùng cái này đi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@quctuan bạn ơi, những luồng này đang làm lại nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Mua sim đang làm lại thui, còn đổi esim với mua thẻ vẫn giữ nguyên nhá"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "hok làm lại UI lun á"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Chợt nhận ra bây giờ các app BTS đè BTS nhiều phết =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "nhưng họ hem làm ani trượt lên"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "mà là trượt ngang"
+    },
+    {
+      "sender_name": "Phuong Vu",
+      "text": "Ko biết có phải Figma đổi logic stroke hay khom, cái stroke inside thì giờ làm tăng size của elm lên",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_451607",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Ko biết có phải Figma đổi logic stroke hay khom, cái stroke inside thì giờ làm tăng size của elm lên\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

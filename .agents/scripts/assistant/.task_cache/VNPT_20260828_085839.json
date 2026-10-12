@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260828_085839",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "08:58 28/08/2026",
+  "trigger_message": "thì c ý thắc mắc sao p tạo thêm 1 luồng trong khi đã có luồng nv địa bàn giao",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a Nguyên  ý"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "gd vas hsy"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Có case buttom chưa đủ điều kiện mua gói à"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ngày trc làm bcl"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đúmm"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "bạn than a C"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Đây à"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đúng royy"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "xin cám ơn"
+    },
+    {
+      "sender_name": "Hanh Le Nguyen",
+      "text": "@huyenmmai Chị ơi, phản hồi giúp bọn e phần này vs"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@havietngn e trao đổi với c Minh về vụ mở 39 luồng thì chị í phản hồi như nào thế"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e có trao đổi mở 39 luòng đâu"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "ô chị bảo sáng hôm í gọi mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "htrc mới goiij điện trao đổi qua về vụ nếu muốn ghép luồng dvvct3 vào bh011 thì làm tn thoi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "thì c ý thắc mắc sao p tạo thêm 1 luồng trong khi đã có luồng nv địa bàn giao",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_459698",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"thì c ý thắc mắc sao p tạo thêm 1 luồng trong khi đã có luồng nv địa bàn giao\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

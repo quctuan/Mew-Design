@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260827_153518",
+  "group_name": "[GDS-VIVAS] MiniApp",
+  "sender_name": "Aiden Le",
+  "timestamp": "15:35 27/08/2026",
+  "trigger_message": "Báo cáo các anh lãnh đạo, cùng các anh chị tham gia dự án, em xin tổng hợp các vấn đề sau buổi họp đồng bộ (28/-8) như sau:\nMini app quản lý thanh toán: \n - Chưa có api redirect tài khoản chính\n - Api thèm thẻ liên kết lỗi, cổng thanh toán lỗi\n -> Trong chiều nay (27 tháng 😍  GDS xử lý dứt điểm vấn đề tránh để deadline bị dời đến 11 tháng 9\nMini app lịch sử thanh toán:\n -> Gửi nghiệm thu từ chiều nay 27 tháng 8\nMini app thanh toán tự động: \n - Api SDK đăng ký không trả về dữ liệu\n - Lỗi API danh sách thông tin Service Provider \n - Chưa có đầu api lịch sử thanh toán \n - Api auto pay chưa có trạng thái đăng ký\n -> Trong chiều nay (27 tháng 😍 GDS xử lý dứt điểm vấn đề tránh để deadline bị dời đến 11 tháng 9\nDi động/ Internet/ My-TV QL lưu lượng / gói:\n - Nhiều vấn đề cả API và Data tét\n - Deadline dễ bị chậm hơn mốc 9 tháng 9\n -> AnhLmv gửi lại file tổng hợp các vấn đề data test, ThuyPH điền thông tin data test và các trường hợp cần test  bằng tiền thật. Deadline chiều nay 27 tháng 8.\nTra cứu lịch sử sử dụng \n -> Gửi nghiệm thu từ chiều nay 27 tháng 8\n Internet - QL Wi-Fi / thiết bị Internet\n -> Gửi nghiệm thu vào 28 tháng 8\nVNPT SHOP - Gói Internet và thiết bị\n - Chưa có tài liệu api, postman \n -> GDS cập nhật, gửi lại thông tin chiều nay 27 tháng 8\nVNPT Shop - Gói cước\n - Chưa có tài liệu api, postman\n -> GDS cập nhật, gửi lại thông tin chiều nay 27 tháng 8\nVNPT Shop - Roaming\n - Chưa có tài liệu api, postman\n -> Thắng Ngô ( Vivas ) gửi lại bảng thông tin danh sách các api cần theo màn hình, anh Sông cập nhật lại thông tin  trong sáng mai 28 tháng 8\nAnh @hieunguyen271095 @phandangthai @hocnv2010",
+  "context_history": [
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dùng tài khoản trả phí add share vào là đc nhé Việt Anh @aidenLeDevPDC. E cung cấp để share là đc"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Em đã báo lại acc r ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@aidenLeDevPDC \nBên anh đã add tài khoản chú gửi vào các Figma dự án rồi nhé.\nChú sử dụng giúp tài khoản đấy vào xem có thấy đủ thông tin để làm không.\nĐể bên anh bàn giao lại 2 tài khoản 06 và 08 cho QC bên anh."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Dạ vâng các chị em QC đang vào xem rồi anh ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chưa được anh ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "ai accept request đó"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@quctuan hỗ trợ accept giúp anh tài khoản anh gửi vào phần này nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "done ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@aidenLeDevPDC tài khoản Figma bên em dùng ko vđ gì nhỉ? c xin phép lấy lại 2 acc 06 và 08 nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "https://meet.google.com/tex-rukx-yrp"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Dear các anh chị em tham gia dự án, em gửi mọi người link họp đồng bộ hàng tuần ạ, 2h chiều nay mình họp nhé ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @Tuanjnfor @hieunguyen271095 @ngsong699"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312  2h join họp luôn nhé ạ. xem phần nghiệm thu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 họp nắm tt giúp anh nhé"
+    },
+    {
+      "sender_name": "Aiden Le",
+      "text": "Báo cáo các anh lãnh đạo, cùng các anh chị tham gia dự án, em xin tổng hợp các vấn đề sau buổi họp đồng bộ (28/-8) như sau:\nMini app quản lý thanh toán: \n - Chưa có api redirect tài khoản chính\n - Api thèm thẻ liên kết lỗi, cổng thanh toán lỗi\n -> Trong chiều nay (27 tháng 😍  GDS xử lý dứt điểm vấn đề tránh để deadline bị dời đến 11 tháng 9\nMini app lịch sử thanh toán:\n -> Gửi nghiệm thu từ chiều nay 27 tháng 8\nMini app thanh toán tự động: \n - Api SDK đăng ký không trả về dữ liệu\n - Lỗi API danh sách thông tin Service Provider \n - Chưa có đầu api lịch sử thanh toán \n - Api auto pay chưa có trạng thái đăng ký\n -> Trong chiều nay (27 tháng 😍 GDS xử lý dứt điểm vấn đề tránh để deadline bị dời đến 11 tháng 9\nDi động/ Internet/ My-TV QL lưu lượng / gói:\n - Nhiều vấn đề cả API và Data tét\n - Deadline dễ bị chậm hơn mốc 9 tháng 9\n -> AnhLmv gửi lại file tổng hợp các vấn đề data test, ThuyPH điền thông tin data test và các trường hợp cần test  bằng tiền thật. Deadline chiều nay 27 tháng 8.\nTra cứu lịch sử sử dụng \n -> Gửi nghiệm thu từ chiều nay 27 tháng 8\n Internet - QL Wi-Fi / thiết bị Internet\n -> Gửi nghiệm thu vào 28 tháng 8\nVNPT SHOP - Gói Internet và thiết bị\n - Chưa có tài liệu api, postman \n -> GDS cập nhật, gửi lại thông tin chiều nay 27 tháng 8\nVNPT Shop - Gói cước\n - Chưa có tài liệu api, postman\n -> GDS cập nhật, gửi lại thông tin chiều nay 27 tháng 8\nVNPT Shop - Roaming\n - Chưa có tài liệu api, postman\n -> Thắng Ngô ( Vivas ) gửi lại bảng thông tin danh sách các api cần theo màn hình, anh Sông cập nhật lại thông tin  trong sáng mai 28 tháng 8\nAnh @hieunguyen271095 @phandangthai @hocnv2010",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5477510891_459354",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Báo cáo các anh lãnh đạo, cùng các anh chị tham gia dự án, em xin tổng hợp các vấn đề sau buổi họp đồng bộ (28/-8) như sau: Mini a...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Aiden Le</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

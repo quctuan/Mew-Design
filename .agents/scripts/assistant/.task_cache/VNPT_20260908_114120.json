@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260908_114120",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Minh Tam",
+  "timestamp": "11:41 08/09/2026",
+  "trigger_message": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37291-26785&t=8lrJstrvZEaYh9K2-1\n\nNote trạng thái ở đây ạ",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "okee a ơi"
+    },
+    {
+      "sender_name": "Duy.Tuan",
+      "text": "chỗ icon + background fix cứng hay config e nhỉ @quctuan"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Fix lun đi ạ, hạng thành viên ko thay đổi đâu"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Hiện đang chưa có phòng họp.\nChắc ae lùi 15p nhé @quctuan ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oke a ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ae ra phòng họp lớn trao đổi chút nhé.\n@quctuan , Thành App GDS , @haipt1905"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "@quctuan ơi hỗ trợ em xin ảnh này với, em export bị lỗi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Okie"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "a gửi nhá"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "cho anh ảnh này định dạng webp nhé @quctuan"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e gửi nhé https://drive.google.com/file/d/1xiY63mkHFMF5NwzoJet3dm69BHzNt0_D/view?usp=sharing"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Hi"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "Hi"
+    },
+    {
+      "sender_name": "Manh",
+      "text": "cho em hỏi mấy cái UI status màn hình này được định nghĩa ở đâu thế"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37291-26785&t=8lrJstrvZEaYh9K2-1\n\nNote trạng thái ở đây ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_463258",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37291-26785&t=8lrJstrvZEaYh9K2-1  Note trạng thái ở đây ạ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Minh Tam</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 14,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/0jgmooS4BxllHnXHu9OL5t/Rewards?node-id=37291-26785&t=8lrJstrvZEaYh9K2-1"
+  ],
+  "doc_links": []
+}

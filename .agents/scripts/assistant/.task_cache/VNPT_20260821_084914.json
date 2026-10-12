@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260821_084914",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "08:49 21/08/2026",
+  "trigger_message": "nào !",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "Họp với S của Hà và Tuấn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Cứ bùn bùn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "=))))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chắc do thiếu P"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "P là gì"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "..."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Phương - Sơn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "s quê YB mà"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à dm nhầm đối tượng hic"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ôi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ava 2 bạn cùng tone đấy"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dm như kiểu tôi cầm máy chụp bạn ấy nhỉ :))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "gửi ảnh đi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nào !",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_455614",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"nào !\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Nhu</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

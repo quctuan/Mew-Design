@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260914_100555",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "10:05 14/09/2026",
+  "trigger_message": "mời thêm @quctuan đại diện team UIUX đi nghe cùng để về phổ biến cho team về cách phối hợp nhé",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Em đang thử dùng gemini để tạo mẫu cho Emi state default ở homepage, xong đưa idea cho đội OS.\n\nCái này sẽ chạy loop trên Home. Nên vừa vào sẽ chào mừng, xong thêm tí yêu tố công nghệ, thân thiện đằng sau"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "mn có feedback gì với mấy hoạt cảnh ko, để e chỉnh sửa"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "k có Emi cosplay à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Hey Emi say Meow"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "Emi đang đeo 2 cái đồng hồ nè :v Ước được chin 1 cái"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Uh nháp thôi, detail để cno làm chứ :)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Kể sau làm dc kiểu tap vào con Emi xong nó response lại thì oke hơn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh làm nhanh k Tammi làm mất"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "có vẻ lời giải đây rồi a trai gay https://payloadcms.com/use-cases/headless-ecommerce"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "@minhhnhatt"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ngon đấy e zai gey"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Lên cả tàu điện"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "team PO tầm 10h30 mình ngồi vs nhau chút để trao đổi về mô hình tổ chức, định hướng chia line nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "mời thêm @quctuan đại diện team UIUX đi nghe cùng để về phổ biến cho team về cách phối hợp nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_467508",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"mời thêm @quctuan đại diện team UIUX đi nghe cùng để về phổ biến cho team về cách phối hợp nhé\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

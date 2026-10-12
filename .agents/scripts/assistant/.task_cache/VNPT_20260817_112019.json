@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260817_112019",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "11:20 17/08/2026",
+  "trigger_message": "vụ kiss á",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "chịu, tôi cũng cãi nhau"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "vào t5"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xong iu nhao"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "nhanh quá"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chưa iu"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đang tìm hiểu th mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "mn để các bạn tự nhiên"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "???????????"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan hôn nhau rôi thì tìm hiểu răng lợi à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "viêm nướu ko af"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "khám nha khoa một chút"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "làm gì có nhể, ai kể thế =))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t kbiet vụ đó =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "vụ kiss á",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_453456",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"vụ kiss á\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Nhu</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

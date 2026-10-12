@@ -1,0 +1,75 @@
+{
+  "task_id": "VNPT_20260826_093815",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "09:38 26/08/2026",
+  "trigger_message": "@quctuan cho ai UI vào giải thích cho App OS hộ tôi đi",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "rất ok nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đọc CV k"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "làm ở 9pay thâay"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "đã có tiền đi lăk đík"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "mời các quý nhân lên kèo nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ko phải con số tôi muốn thấy"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "lắk 1 cái hết tiền lun"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "cây bạn là cây gì thế @quctuan"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t cũng đ nhớ =)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "trông lạ lạ nên chọn thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan cho ai UI vào giải thích cho App OS hộ tôi đi",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_458306",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan cho ai UI vào giải thích cho App OS hộ tôi đi\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260911_104653",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Thu Phương",
+  "timestamp": "10:46 11/09/2026",
+  "trigger_message": "Cái đó designer bọn em tính là full background, khoảng trắng bên dưới sẽ do designer thiết kế trong ảnh. Như vậy thì có rủi ro bị lệch khoảng trắng gì khi responsive sang các thiết bị khác không ạ?",
+  "context_history": [
+    {
+      "sender_name": "Hai",
+      "text": "còn cái hôm nay có 1 số chỗ vướng phần cấu hình"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "nên đang chờ BA tiêu hoá thêm"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "Ngoài 2 api anh thêm thì có thêm phần nào done anh nhỉ"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "Để note hết lại trong file nhé."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@hainn191297 ơi, check giúp bên tôi với, 2 api đổi mới đang chưa có trên wiki k có document để bên tôi ghép bạn ạ. Ngoài ra có mấy issue đang note lại \"Tạm thời\" thì bên tôi sẽ không ghép đâu nhé, vì ghép bh thì hôm sau phải update lại sẽ rất mất công. Các api mà báo mock data thì Hải confirm giúp là sẽ không thay đổi trong tương lai nhé \ncc chị Anh ạ \nBạn check lại trên file tracking nhé, tôi có đổi lại trạng thái 1 số task sau khi recheck lại đó, chi tiết thì trao đổi với Hiền giúp tôi"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "2 cái này tôi có gửi trước toàn bộ Curl rồi, vì docs nó nhiều bên cùng sửa quá nên ưu tiên sau"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hiền đánh giá xem có đủ không thì ghép trước cho Hải nhé, còn k thì em request thêm giúp anh"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "còn cái tạm thời thì dùng từ hơi sai. trường này sẽ dùng. Nhưng logic tạm thời trả về thông tin để ghép thôi. ko ảnh hưởng tới FE"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Mình linh động chút vì có file tracking rồi, nếu nhiều case phải clear quá thì phải đợi update tài liệu mới được Hiền"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "mấy cái tạm thời bạn cũng confirm k thay đổi trong tương lai là được"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "nó là trường để đủ giao diện nên sẽ ko thay đổi"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "còn logic thì có cái chưa có đủ thông tin, t vẫn phải trả ra trước"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi chị Anh Nguyen , hiện tại ảnh collection a/c muốn hiển thị full background hay mỗi phần bên trên ạ? Như trên design đang là fullBg (trên ảnh dưới trắng)"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Em gửi ảnh thực tế của collection khi ghép xong từ api đó ạ."
+    },
+    {
+      "sender_name": "Thu Phương",
+      "text": "Cái đó designer bọn em tính là full background, khoảng trắng bên dưới sẽ do designer thiết kế trong ảnh. Như vậy thì có rủi ro bị lệch khoảng trắng gì khi responsive sang các thiết bị khác không ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_466247",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Cái đó designer bọn em tính là full background, khoảng trắng bên dưới sẽ do designer thiết kế trong ảnh. Như vậy thì có rủi ro bị ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thu Phương</b>"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

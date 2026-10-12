@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260902_232853",
+  "group_name": "[GDS]-Teamlead",
+  "sender_name": "VNPT - Anh Cường - GĐ GDS",
+  "timestamp": "23:28 02/09/2026",
+  "trigger_message": "1. Kiểm tra lỗi xem máy anh và a Tr có vđ gì mấy phiên vừa rồi @ntiendat; 2.Xem lại luồng đoạn đăng xuất, tắt app, vào app thì đã đăng nhập @minhhnhatt",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "đúng rồi, CMS đang để số đó"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "ngày trước a nhớ lúc lấy giá trị, nó đã loại trừ TH data với gói unlimited"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "tóm lại con số 10tr kia là cấu hình ở cms"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a muốn k giới hạn thì anh cấu hình lớn hơn 999.999"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "chỗ hiển thị data này, e cập nhật lại số  rồi a @hoangmanhcuong @vietmv92 @nduythanh"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "bên mình xem ntn đã ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Hệ thống đang lỗi à? Đăng nhập MyVNPT thành công bằng 1 trong 2 phương thức nhưng vẫn đứng im ở đó"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@hoangkylam @tran_van_my"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "số của anh đứng em ạ, số của em thì đang bình thường, để e check thử số a ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "số a Tr cũng bị đấy"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Của anh thì vừa thủ 3 lần đều bị"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Cài bản mới nhất nhé @ntiendat"
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "Em vừa thử OTP và 4G cũng bình thường"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Tắt app vào lại thì ok, đăng xuất xong  đăng nhập lại vẫn ok, đăng xuất xong tắt app, xong vào lại thì tự đăng nhập"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "1. Kiểm tra lỗi xem máy anh và a Tr có vđ gì mấy phiên vừa rồi @ntiendat; 2.Xem lại luồng đoạn đăng xuất, tắt app, vào app thì đã đăng nhập @minhhnhatt",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4928594109_460574",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"1. Kiểm tra lỗi xem máy anh và a Tr có vđ gì mấy phiên vừa rồi @ntiendat; 2.Xem lại luồng đoạn đăng xuất, tắt app, vào app thì đã ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Cường - GĐ GDS</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

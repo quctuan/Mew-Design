@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260904_180439",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "18:04 04/09/2026",
+  "trigger_message": "Dev họ đang làm có khá nhiều bug dù cho đã có design chi tiết",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "T2 tuần sau đê :v"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Cô giáo Nga à"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "t2 tuần sau nhé các sếp"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "tuần này tranh thủ chém nhau chút"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "?"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "E ra sấy bọn a à"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Brrrrrrrr"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "sấy được sấy luôn"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": ":))) ko đủ trình sấy thoai"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "kkk"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Làm đc là sấy đc"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Goal rất rõ ràng :)))"
+    },
+    {
+      "sender_name": "Thanh Nga",
+      "text": "để làm được xong có cớ sấy chút :)))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Okela :)))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nma goal này a thấy cũng đáng để làm đấy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Dev họ đang làm có khá nhiều bug dù cho đã có design chi tiết",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_461931",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dev họ đang làm có khá nhiều bug dù cho đã có design chi tiết\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hoàng Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

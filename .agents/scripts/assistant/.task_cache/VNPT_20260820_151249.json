@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260820_151249",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Kim Thien",
+  "timestamp": "15:12 20/08/2026",
+  "trigger_message": "Kính gửi các anh/chị,\n\nSáng nay, hai team HNI và My VNPT đã trao đổi 2 nội dung như sau:\n\n1. Đề xuất triển khai luồng vận chuyển SIM hoả tốc\n\nCác nội dung cần làm rõ từ phía My VNPT:\n\n• Quy trình đóng gói SIM và bàn giao cho đơn vị vận chuyển (sẽ cập nhật sau khi hoàn tất ký kết với đối tác vận chuyển).\n• Cơ chế ghi nhận đơn hàng cho cá nhân và đơn vị.\n• Quy trình xuất hóa đơn cho đơn vị.\n• Đánh giá sản lượng đơn hàng dự kiến sau khi triển khai luồng vận chuyển mới để làm cơ sở xây dựng phương án vận hành.\n\n2. Đề xuất SLA luồng giao SIM vật lý\n\nNội dung đã thống nhất: SLA chuẩn bị SIM của luồng giao SIM qua địa bàn: 48 giờ kể từ thời điểm phát sinh đơn hàng.\n\nNội dung cần làm rõ từ phía My VNPT: \nRà soát, cập nhật lại thông tin địa chỉ các phòng giao dịch để đảm bảo phục vụ công tác giao nhận.\n\nDo các nội dung trên cần làm việc và thống nhất với nhiều đầu mối liên quan, team My VNPT sẽ tổng hợp và gửi lại thông tin tới các anh/chị trong thời gian sớm nhất.\n\nEm cảm ơn anh/chị ạ.",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@havietngn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://meet.google.com/rzz-ovez-mms"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@tkim03 gửi lại MOM buổi họp sáng nay với HNI nhé"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "vâng em đang soạn r ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@tkim03 @Trangdt171 ơi nhờ mng sum up lại ndung để phản hồi địa bàn nhé. Xong mình chốt next step trong group này luôn nhỉ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "xem timeline next step ntn cho phù hợp"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "Kính gửi các anh/chị,\n\nSau buổi trao đổi hôm nay về phương án triển khai luồng mua SIM vật lý trên My VNPT, hai bên đã thống nhất và ghi nhận một số nội dung như sau:\n\nNội dung đã thống nhất:\nSLA chuẩn bị SIM của luồng giao SIM qua địa bàn: 48 giờ kể từ khi phát sinh đơn hàng.\n\nCác nội dung cần tiếp tục làm rõ:\n• Quy trình đóng gói SIM và bàn giao cho đơn vị vận chuyển (sẽ cập nhật lại sau khi hoàn tất ký kết với đối tác vận chuyển).\n• Cơ chế ghi nhận đơn hàng cho cá nhân và đơn vị\n• Quy trình xuất hóa đơn cho đơn vị\n• Rà soát, cập nhật lại thông tin địa chỉ các phòng giao dịch để đảm bảo phục vụ công tác giao nhận.\n• Đánh giá sản lượng đơn hàng dự kiến sau khi triển khai luồng mới để làm cơ sở xây dựng phương án vận hành.\n\nBên em sẽ tiếp tục phối hợp với các đơn vị liên quan để hoàn thiện các nội dung trên và cập nhật lại tới các anh/chị trong thời gian sớm nhất.\n\nEm cảm ơn các anh/chị!"
+    },
+    {
+      "sender_name": "Kim",
+      "text": "mng xem giúp em còn thiếu thông tin nào không ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chắc @havietngn ngồi lại cùng Kim chỗ này phát wording cho chuẩn xác lại tý nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "vs cả mỗi gạch đầu dòng thì đề xuất timeline luôn nhá"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Phân tách lại rõ 2 nội dung nữa"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "e viết như này bị rối quá"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "có 2 nội dung hnay mình trao đổi với địa bàn"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "từng nội dung có vấn đề gì thì ghi rõ lại"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "với đi theo flow sáng nay mình trao đổi thì mn sẽ dễ hình dung hơn:\n1. Đề xuất luồng vận chuyển SIM hoả tốc\n2. SLA đề xuất với địa bàn"
+    },
+    {
+      "sender_name": "Kim Thien",
+      "text": "Kính gửi các anh/chị,\n\nSáng nay, hai team HNI và My VNPT đã trao đổi 2 nội dung như sau:\n\n1. Đề xuất triển khai luồng vận chuyển SIM hoả tốc\n\nCác nội dung cần làm rõ từ phía My VNPT:\n\n• Quy trình đóng gói SIM và bàn giao cho đơn vị vận chuyển (sẽ cập nhật sau khi hoàn tất ký kết với đối tác vận chuyển).\n• Cơ chế ghi nhận đơn hàng cho cá nhân và đơn vị.\n• Quy trình xuất hóa đơn cho đơn vị.\n• Đánh giá sản lượng đơn hàng dự kiến sau khi triển khai luồng vận chuyển mới để làm cơ sở xây dựng phương án vận hành.\n\n2. Đề xuất SLA luồng giao SIM vật lý\n\nNội dung đã thống nhất: SLA chuẩn bị SIM của luồng giao SIM qua địa bàn: 48 giờ kể từ thời điểm phát sinh đơn hàng.\n\nNội dung cần làm rõ từ phía My VNPT: \nRà soát, cập nhật lại thông tin địa chỉ các phòng giao dịch để đảm bảo phục vụ công tác giao nhận.\n\nDo các nội dung trên cần làm việc và thống nhất với nhiều đầu mối liên quan, team My VNPT sẽ tổng hợp và gửi lại thông tin tới các anh/chị trong thời gian sớm nhất.\n\nEm cảm ơn anh/chị ạ.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_455227",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Kính gửi các anh/chị,  Sáng nay, hai team HNI và My VNPT đã trao đổi 2 nội dung như sau:  1. Đề xuất triển khai luồng vận chuyển S...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Kim Thien</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

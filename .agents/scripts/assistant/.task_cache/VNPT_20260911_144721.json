@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260911_144721",
+  "group_name": "MI Design",
+  "sender_name": "Lê Kiên",
+  "timestamp": "14:47 11/09/2026",
+  "trigger_message": "P có làm xong assets @Hoanganh1109 em review hộ anh nhé",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Rồi bê lên Fiora để Iterate"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://clipo.one/\n\nuhm, có mấy ae VN làm con tool để lưu trữ reference hay phết. Cũng là save mọi thứ lên 1 canvas"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "đẹp thế :))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t cũng dùng 1 tool để lưu reference, nó tích hợp vào browser như này"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh t cũng dùng con này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Fiora xem có dc ko, thì bấm phát là cho vào kho assets luôn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh lúc đấy mình ngồi research xem nên design như thế nào"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Bản chất là làm lâu hay nhanh thì vấn đề vẫn là do skill th Design"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Mình k giúp nghĩ thay cho họ được"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nma mục tiêu của mình là đưa tất cả các tools vào"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uhm, làm quá trình design của cno tiện hơn thui"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Để họ có thể nghĩ được dễ & tốt nhất"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Build harness cho Designer :))"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "con nè có lần cư giang mận đã đặt vấn đề là liệu dữ liệu có bị dùng để owner training AI hay khom :v"
+    },
+    {
+      "sender_name": "Lê Kiên",
+      "text": "P có làm xong assets @Hoanganh1109 em review hộ anh nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_466582",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"P có làm xong assets @Hoanganh1109 em review hộ anh nhé\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Lê Kiên</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

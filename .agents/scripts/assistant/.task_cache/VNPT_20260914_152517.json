@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260914_152517",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "15:25 14/09/2026",
+  "trigger_message": "Dạng vuông, dạng ngang, nạp nhanh thì cũng đều đi theo collection (có title và điều hướng). Trên figma như em chụp thì có 2 dạng tab trải phẳng.",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Vậy trên Ui thì title là gì c"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chỗ title thì fix cứng đúng rồi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chỉ có phần mô tả ở dưới mới lấy từ cấu hình lên"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh @tranlong  cho em xin field với bảng nào với"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "e hỏi Minh nhé"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "bạn bình tĩnh a Dũng đang thêm nốt cái tiêu đề cho cái banner"
+    },
+    {
+      "sender_name": "Trần Hoàng",
+      "text": "Dũng nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@celene_ne Phương cho Sông xin ảnh bg của tab, bg collection để Sông up thử lên cấu hình để bên mình test xem có bị vỡ ảnh cũng như chuẩn Bg theo cấu hình chưa nhé."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "chị @nguyenngoclinh1 xem em trường hợp này với ạ. Ac test bên em cũng cần clear phần này ạ."
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "ý là hiển thị cái j hả em"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "cái này là các gói thuộc danh mục cha luôn"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "ko có danh mục con như gói Ngày/ tháng"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "còn hiển thị thì theo layout chọn rồi mà"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Vậy nên theo em hiểu sẽ không có trường hợp như trên figma như em chụp chị nhỉ? Trên figma có 2 tab trải phẳng."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Dạng vuông, dạng ngang, nạp nhanh thì cũng đều đi theo collection (có title và điều hướng). Trên figma như em chụp thì có 2 dạng tab trải phẳng.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_467810",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dạng vuông, dạng ngang, nạp nhanh thì cũng đều đi theo collection (có title và điều hướng). Trên figma như em chụp thì có 2 dạng t...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260909_095226",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Đức",
+  "timestamp": "09:52 09/09/2026",
+  "trigger_message": "@quctuan cho anh 3 cái ảnh này png nhé, bên backend lại yêu cầu sang định dạng png :)))",
+  "context_history": [
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E có nhớ vì vụ cấu hình tính năng e có báo là lấy theo API trả"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Có chắc chắn, lúc chạy ra trao đổi trực tiếp á, team e bảo là ae thấy phần nào cấu hình lúc làm tự nhặt ra"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "E vẫn nhớ là báo nhờ bên c xử ạ, vì nhiều vùng config bọn e lấy trực tiếp qua bên API, giờ như này e cũng hơi khó lọc ra"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Giờ e chủ động bỏ đi, c xem thử hôm sau có file mới thì bỏ các phần lấy từ config giúp e với nhé c"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Ố kề, sau c sẽ ghi âm lại =)))"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "đây là lúc đầu, sau Tuấn hay ai gọi ra sau bảo thế, xong ae vui vẻ gật đầu đi về :))"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Vâng thôi hsau có sheet mới nhờ c bỏ các phần config giúp e với ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "ố kề"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Ơ c ơi, nhưng giờ e bỏ đi thì liệu bên c có phải đánh lại id không ạ ? Hay e cứ để nguyên đó trong code,chỉ không dùng nó thôi"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "K sao, c nghĩ cứ nguyên, coi như k dùng thôi"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan gửi anh 3 icon này nhé để gửi sang bên backend, anh export kiểu gì mà vẫn thừa khoảng trắng xung quanh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỉ icon ko hay cả vòng tròn bao bên ngoài nữa thế a"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "cả vòng tròn bao quanh bên ngoài nữa em nhé, design hiển thị như nào thì cho anh như vậy đi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "e gửi ạ"
+    },
+    {
+      "sender_name": "Đức",
+      "text": "@quctuan cho anh 3 cái ảnh này png nhé, bên backend lại yêu cầu sang định dạng png :)))",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_464010",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan cho anh 3 cái ảnh này png nhé, bên backend lại yêu cầu sang định dạng png :)))\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Đức</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

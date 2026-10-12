@@ -1,0 +1,72 @@
+{
+  "task_id": "VNPT_20260911_082742",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Eric Trần",
+  "timestamp": "08:27 11/09/2026",
+  "trigger_message": "vâng, công cụ danh mục này sử dụng chung cho rất nhiều luồng, nên có luồng mới lại sửa chút chị ạ",
+  "context_history": [
+    {
+      "sender_name": "Rùa Con",
+      "text": "e thử lại nhé"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "Chị Hong danh mục trên cms đang thay đổi à chị"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "í này hay quá a"
+    },
+    {
+      "sender_name": "Đinh Quốc",
+      "text": "https://docs.google.com/spreadsheets/d/12UI5uk6rzGGJH01z89QBOQ4NpQge98jomv8rmbWt2HM/edit?gid=848360048#gid=848360048 @name688899 Anh check giúp em on off sms với ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "duyệt giúp a vs. A ko có quyền xem"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Done"
+    },
+    {
+      "sender_name": "Đinh Quốc",
+      "text": "rồi ah ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "oki e"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "của @erictrannn nè, sáng c thấy @erictrannn mới cho xem mockup mà đã lên sóng lun rồi à"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "vâng, công cụ danh mục này sử dụng chung cho rất nhiều luồng, nên có luồng mới lại sửa chút chị ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3840",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"vâng, công cụ danh mục này sử dụng chung cho rất nhiều luồng, nên có luồng mới lại sửa chút chị ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/12UI5uk6rzGGJH01z89QBOQ4NpQge98jomv8rmbWt2HM/edit?gid=848360048#gid=848360048"
+  ]
+}

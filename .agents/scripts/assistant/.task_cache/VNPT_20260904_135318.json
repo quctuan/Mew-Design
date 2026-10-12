@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260904_135318",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Ngọc Ánh",
+  "timestamp": "13:53 04/09/2026",
+  "trigger_message": "chủ nhóm có thể xác thực cho thành viên hả anh? trong tài liệu thì ko có chức năng này",
+  "context_history": [
+    {
+      "sender_name": "thuy",
+      "text": "@datnd2109 test theo cái này đã nhé"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "C @havietngn, a @quctuan ơi, xem giúp e bts Chọn địa chỉ\n+ Danh sách nhóm chỉ bao gồm các nhóm user là chủ nhóm đúng ko ạ ?\n+ Nếu chọn thành viên ko có thuê bao internet nào thì Danh sách địa chỉ hiển thị như nào ? Hay nếu ko có thì ẩn thẻ tên thành viên ?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "- Danh sách nhóm chỉ gồm các nhóm mà user là chủ nhóm\n- Nếu thành viên không sử dụng dịch vụ -> Ẩn thẻ tên thành viên"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "bạn tôi ơi @quctuan \nNgày xưa mình đang có các loại tag icon ntn. B giúp tôi quy định xem các loại này ứng với màu sắc ntn để mình sử dụng xuyên suốt cho nhiều dịch vụ với"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "ví dụ hot - màu đỏ chả hạn, ý tôi là vậy"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "mình quy định chung thì sau ae mới vào làm k phải hỏi lại :D"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=36306-90835&t=w9pisHGv8RCzGvZ4-11\n\nđây nhá"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "yêu"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "trả lời câu hỏi của e cho phần tag icon đây @NguyetDang  nhé, e note lại để cho ae làm phần app brcđ xử lý nhá"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "BRCD em đang thấy tk tag khác anh ạ @quctuan"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Anh @quctuan xem lại giúp em cho đồng bộ nhé ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à bên trên là tag icon tiện ích.\nCòn cái này là tag gói cước. Gói cước BRCĐ thì chỉ có đúng 1 loại như e gửi thôi"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@quctuan em chưa thấy anh gửi lại phần này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh ko xác thực dc thì ko hiện entry point xác thực thôi mà, còn thông tin thuê bao vẫn thấy được chứ. \nNên điều hướng vào đây là đúng r"
+    },
+    {
+      "sender_name": "Ngọc Ánh",
+      "text": "chủ nhóm có thể xác thực cho thành viên hả anh? trong tài liệu thì ko có chức năng này",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_461670",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"chủ nhóm có thể xác thực cho thành viên hả anh? trong tài liệu thì ko có chức năng này\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Ngọc Ánh</b>"
+  ],
+  "scoring": {
+    "score": 32,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/zlEC3PlD37tAJLFbdUGCnm/Homepage?node-id=36306-90835&t=w9pisHGv8RCzGvZ4-11"
+  ],
+  "doc_links": []
+}

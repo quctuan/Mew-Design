@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260820_141204",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "14:12 20/08/2026",
+  "trigger_message": "nhiều bên bị chính thấy gửi email tố cáo",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "thấu hiểu quá rồi đó =)))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "svien ngành Y à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "bede toàn tìm dc mấy anh đẹp trai"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "bạn thì ko à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "kém thế"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tin này á"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tưởng chuyện này ở đây là bt =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tuấn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko dc xấu tính"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "xấu tính là bede"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=))))))))))))) sao lại coi đấy là bthg hả b"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "thế mình là ng bất thường à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tưởng chỉ quản công việc thui chứ nhể, chuyện bên ngoài là chuyện riêng :))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Vnpt lag 1 gia đình mà"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "gia đình mà keo từng đồng"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nhiều bên bị chính thấy gửi email tố cáo",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_455174",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"nhiều bên bị chính thấy gửi email tố cáo\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

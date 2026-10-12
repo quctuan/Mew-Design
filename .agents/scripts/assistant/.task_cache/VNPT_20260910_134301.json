@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260910_134301",
+  "group_name": "Tuyệt đối bí mật",
+  "sender_name": "Hung Nguyen",
+  "timestamp": "13:43 10/09/2026",
+  "trigger_message": "Màn nhám giảm hiệu ứng nếp gấp thôi chứ nó vẫn ở đấy",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Đi ăn chưa?:))"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "+100k vào quỹ mua iphone duo"
+    },
+    {
+      "sender_name": "Hung",
+      "text": ":))"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Ơ là có ăn koo"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Có"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Đi chưa"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Để qua"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Em đợi nãy h đó"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "😂😂"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Đi thôi"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Thôi đi :)"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Okee"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Xuống chưa"
+    },
+    {
+      "sender_name": "Hung",
+      "text": ":)))"
+    },
+    {
+      "sender_name": "Hung Nguyen",
+      "text": "Màn nhám giảm hiệu ứng nếp gấp thôi chứ nó vẫn ở đấy",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192539938_465265",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Màn nhám giảm hiệu ứng nếp gấp thôi chứ nó vẫn ở đấy\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260914_114041",
+  "group_name": "Bao giờ đi du lịch được thì đổi tên",
+  "sender_name": "Vu Manh Nam",
+  "timestamp": "11:40 14/09/2026",
+  "trigger_message": "@quctuan  qua chưa em",
+  "context_history": [
+    {
+      "sender_name": "Hung",
+      "text": "Từ ios 26.2 cơ mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "luồng trên app làm đc 3 năm r"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Xong chuẩn bị đập đi outsource cho V mini nào đấy đúng k"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "🙂"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Cái VoLTE, VoWifi chính là cái trò gọi từ app đến sđt của bọn Tami đấy"
+    },
+    {
+      "sender_name": "Hung",
+      "text": "Khác nhau tí UI"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "đi ăn ko bên Tuấn"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "có ạ"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "oke abr"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "mùa thu hà nội r"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "thế mà em chưa có được a"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Đi thôii"
+    },
+    {
+      "sender_name": "Thùy Dương",
+      "text": "Ăn gì nhờ"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "15 16 17 18 cm"
+    },
+    {
+      "sender_name": "Vu Manh",
+      "text": "chọn di"
+    },
+    {
+      "sender_name": "Vu Manh Nam",
+      "text": "@quctuan  qua chưa em",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2677793724_11494",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan  qua chưa em\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Vu Manh Nam</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

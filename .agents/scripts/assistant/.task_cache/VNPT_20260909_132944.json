@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260909_132944",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "VNPT - Như",
+  "timestamp": "13:29 09/09/2026",
+  "trigger_message": "done thì chị review",
+  "context_history": [
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "chị @thuyph312 chỗ data test này ch support với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@thuyph312 chị ơi , em vừa nhận dc tiền hoàn rồi . Chị cho em xin số để em mua gói có thể test và check dc phần roaming này với ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ok e nha"
+    },
+    {
+      "sender_name": "Song",
+      "text": "Nam   em hỗ trợ thêm này"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Quỳnh  test dở thì thêm hộ cái  homcombo vs nè"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Quỳnh chị ơi thêm giúp em với"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "e thêm rồi, a check lại nhé"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "đang có 5/9 thành viên"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em thấy vẫn chưa dc"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c @ngngthaonhu ơi, bên e có bổ sung nghiệp vụ về việc quản lý các gói k bán và điều hướng khi nhấn vào 1 card gói cước, nhờ c check và đánh  giúp e nhé ạ\n\nĐối với các gói đang sử dụng là gói ngày, gói tháng,.. => khi nhấn vào sẽ điều hướng sang màn chi tiết gói ở VNPT shop (đã bsung điều hướng trên figma) => nhấn back —> quay trở lại bts các gói cước đang sd ở miniapp \" Quản lý gói cước và dịch vụ\"\n\nCác gói cước không bán sẽ hiển thị ở 1 danh mục riêng là \"Gói khác\" , khi nhấn vào => điều hướng sang màn chi tiết gói cước không bán trên My VNPT (màn mới, sẽ nằm luôn ở miniapp VNPT Shop)"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Quỳnh"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "e đọc nhầm thêm homegroup, để e check lại nhé ạ"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "a đăng nhập số này nhé ạ 0888452833, đã là thành viên 1 nhóm homecombo"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "ok e đã thấy r nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "cái này em sửa UI và báo lại team app + BE để sửa luồng gói trước nhé"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "done thì chị review",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_464216",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"done thì chị review\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Như</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

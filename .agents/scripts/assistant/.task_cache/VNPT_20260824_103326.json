@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260824_103326",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "10:33 24/08/2026",
+  "trigger_message": "Tiếng việt hiện tại cũng khác trong figma à a ? Phần này cả UI và file có đồng bộ k a nhỉ ?",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "sau có vers tiếng Anh thì mình update trong web là được"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "a @Hoanganh1109 tiltle với checkbox chọn/bỏ chọn tất cả là của app a"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "có các điều khoản mới lấy từ api thôi a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ơ thế à, trước a thấy c Thuỷ bảo dùng web"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "web là màn chính sách ấy a"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "đây là màn chỉnh sửa điều khoản"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uhm nghiệp vụ define thế rồi đúng k"
+    },
+    {
+      "sender_name": "Vân Anh",
+      "text": "vậy text của app thì vẫn dịch chứ a"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Hiện tại có title, subtitle, chọn/bỏ chọn tất cả và nút confirm là của app ạ, a @Hoanganh1109 confirm giúp e chỗ nào để tiếng việt với a nhé"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "uh đợi tý a đang bổ sung vers TA"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "@haipt1905 em muốn cài bản MyVNPT STG trên iPhone để test, em cài TestFlight rồi. Anh gửi em link/invite bản STG với ạ."
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Hiện tại a cho e xin chính xác a cần test phần nào trong app stag để e gửi đúng version nhé a"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "e cần test phần ưu đãi của tôi a nhé"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "https://testflight.apple.com/join/uQsrlTYH\nVersion 6.0.2 (2026080401)\nE gửi nhé a @trieuld289"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "a update trong file rồi nhé cc @vanhtt14"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "Tiếng việt hiện tại cũng khác trong figma à a ? Phần này cả UI và file có đồng bộ k a nhỉ ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3446",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Tiếng việt hiện tại cũng khác trong figma à a ? Phần này cả UI và file có đồng bộ k a nhỉ ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Phạm Thanh Hải</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 8,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

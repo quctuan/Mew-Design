@@ -1,0 +1,63 @@
+{
+  "task_id": "VNPT_20260814_143304",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "14:33 14/08/2026",
+  "trigger_message": "Có 1 luồng kqgd chung đó",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Chị Phuong gửi screenshot và câu hỏi vào giúp em ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@aidenLeDevPDC có câu hỏi gì cho figma thì gửi đến @quctuan nhé bruv"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Hi @havietngn, cho mình hỏi scope phần VNPT shop\n1. Chỉ bật Roaming theo mô tả là chỉ on/off toggle hay có thêm Giới thiệu dịch vụ và Ước tính chi phí?\n2. Chỉnh sửa UI webview phần Hướng dẫn theo link figma Vivas chỉ làm phần Hướng dẫn cài đặt chuyển vùng trên thiết bị đúng không?\n3. Các phần Chi tiết gói cước, Pre-login, Đổi SĐT, Sử dụng ngoại mạng, Thanh toán trong link Gói cước 4G/5G có thuộc phạm vi Vivas phải làm không?"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chị Anh  xem tiếp giúp em phần này nữa ạ"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@havietngn ơi, Gói 4G/5G và gói tháng luồng kết quả giao dịch sẽ đi tiếp tới màn nào vậy?"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "1. Thêm phần gthieu dv và ước tính chi phí\n2. Làm tất nha, nma cái phần hdan này đang chưa đc upd bản mới nhất, t2 bên mình back lại nhé\n3.có nha"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Có 1 luồng kqgd chung đó",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_452674",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Có 1 luồng kqgd chung đó\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hà PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

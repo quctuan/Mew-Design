@@ -1,0 +1,83 @@
+{
+  "task_id": "VNPT_20260824_095626",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "09:56 24/08/2026",
+  "trigger_message": "@hieunguyen271095 Hiếu review giúp mình pr với. \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/39",
+  "context_history": [
+    {
+      "sender_name": "Hieu",
+      "text": "ko t đang nói riêng case huỷ thôi"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "còn đoạn thanh toán thì như trao đổi từ hôm trước, tính từ bts là all native"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "luồng huỷ ko liên quan đến thanh toán thì sẽ ntn nhé: \n(miniapp)bấm huỷ -> (miniapp) gọi APIKit OTP ->(Native) Hiện màn OTP -> (miniapp) xử lý các tương tác trong OTP (vd như sai OTP), data cần thiết sẽ đc đẩy từ native sang -> (miniapp) đúng otp thì xử lý tiếp tại miniapp"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "ok mình nắm được trường hợp hủy rồi ạ. Mình đang phân vân trường hợp pre-login. Luồng nó sẽ như nào Hiếu nhỉ? Panel thanh toán native sẽ check phiên (chưa đăng nhập) -> hiện modal otp -> đăng nhập (miniapp lấy data cần thiết) và thực hiện mua như bình thường?"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 ơi, trên wiki phần API Mini App mình đã có đầy đủ tài liệu của phần VNPT Shop gói cước di động chưa ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@aidenLeDevPDC   có r anh, dùng 3 api này"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh có thể thông tin qua giúp em là tính năng nào dùng cái nào được không ạ, hoặc có tài liệu nào cho bên em tham khảo phần mapping này, vì giao diện con này nhiều nên đang không rõ cái nào dùng api nào. \nNgoài ra phần này còn có cả luồng thanh toán ( bên em vẫn phải làm 1 phần ) và luồng kết quả giao dịch nữa. Nếu chỉ có thông tin về tên api thôi thì rất khó làm ạ. Trong tài liệu wiki thì lại không có tài liệu nào ghi rõ cho FE biết luồng tích hợp API là cái nào. \ncc anh @Tuanjnfor"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@hieunguyen271095 xem ae vào phụ trách Mini App này hỗ trợ Việt Anh nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Vâng ạ vì con VNPT Shop này rất rủi ro nên em cũng muốn quá trình tích hợp api là gọn gàng nhất, mỗi mini app chỉ được tích hợp < 5 ngày làm việc thôi thì mới kịp tiến độ, vì vậy em mong anh chị em giúp đỡ ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Anh Nguyen follow giúp anh xem mắc ở đâu mình giải quyết luôn cho kịp nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "chỗ này của gói cước di động @ngsong699 hỗ trợ nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@aidenLeDevPDC         \n+ api   6.5  Danh sách danh mục cha,  để lấy danh sách các tab ( gói data ngày, gói tháng, gói vip, gói gtgt,... ) \n\n+ api  6.6  Lấy danh sách danh mục con + kèm gói cước(Vd: Lướt mạng xã hội thả ga,...  )  của danh mục con đó    dựa theo id danh mục cha( vdgói ngày, gói tháng,gói vip ) .  Api này cũng dùng trong trang đc navigate khi click  \"xem tất cả\" và có lọc các gói cước theo điều kiện\n+ API 6.7 chi tiết gói cước hiển thị trong màn chi tiết gói cước"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@hieunguyen271095 Hiếu review giúp mình pr với. \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/39",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_457084",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@hieunguyen271095 Hiếu review giúp mình pr với.  https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/...\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Lê Hậu</b>"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

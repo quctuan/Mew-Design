@@ -1,0 +1,82 @@
+{
+  "task_id": "VNPT_20260825_135239",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "Thành Nguyễn Duy",
+  "timestamp": "13:52 25/08/2026",
+  "trigger_message": "gần đây hình như có luồng nào gọi sang dev/test ấy nhỉ Nam",
+  "context_history": [
+    {
+      "sender_name": "Anh",
+      "text": "1 MYVNPT2026082423640412 13967398 84943588876 Toàn trình Trả trước Esim 0 0 25.000 84975071785 THÂN VĂN DƯƠNG YOLO100M 100.000 25.000 SPS_PRODUCT_VINA690_YOLO100M 150.000 null,,null,Tỉnh Bắc Ninh Bắc Ninh QRCode 242434 Chưa hoàn thành 24/08/2026 17:51:37 VQR202608240104157211 24/08/2026 17:52:07 Thanh toán thành công Không\n\n@xhphuong1984 @ljnhh Anh KH có đki sim toàn trình nhưng nhập mgs thì lại báo mgs không dành cho thuê bao này, ace check giúp để phản hồi lại Đài ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "số ngày khởi tạo thành công chưa ạ"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Chưa c ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chưa khởi tạo thì ko đi đky đc đâu. c thấy log khởi tạo đang timed out mà"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "add số vào whitelist 0329955058"
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "Đã nhận yêu cầu thêm số 0329955058. Đang chờ xác nhận từ admin..."
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "Bạn không có quyền xác nhận."
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Dear anh Thành ( Anh Thành ), Hải ( @haipt1905 ), Vân Anh ( @vanhtt14 ), chị Thùy Anh ( @ngthuyanh ), anh Hoàng Anh ( @Hoanganh1109 ),\n\nNhư đã trao đổi trước, nội dung task này em đã cập nhật, Nhờ các anh/chị hỗ trợ nhé ạ\nhttps://dvs.vnptmedia.vn/browse/GMYVNPT-787"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "C ơi esim này khởi tạo thành công r mà trên CMS vẫn k hiển thị tgian hoàn thành ạ"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "24/08/2026 17:52:38  NEW   Mở  [SPS] Khởi tạo Esim từ DIGISHOP SPS_PRODUCT_VINA690_YOLO100M  myvnpt  2226277563      BNH\n\nccos ghi nhận rồi"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "anh Thành ( @nduythanh ) vụ này anh em nào hỗ trợ với IT để làm rõ thông tin được anh nhỉ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "Chuyển url thôi em, ae nào cũng đc, vấn đề là cần test tính năng nào"
+    },
+    {
+      "sender_name": "Thành Nguyễn Duy",
+      "text": "gần đây hình như có luồng nào gọi sang dev/test ấy nhỉ Nam",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3503",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"gần đây hình như có luồng nào gọi sang dev/test ấy nhỉ Nam\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thành Nguyễn Duy</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

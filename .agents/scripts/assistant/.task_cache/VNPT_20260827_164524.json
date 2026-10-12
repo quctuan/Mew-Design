@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260827_164524",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "16:45 27/08/2026",
+  "trigger_message": "@quctuan",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "bao giờ mua vé ới chị"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": ";D"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "oke =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đi 2 mình à"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "rủ đc thim ai thì rủ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "2 mình chill chill cx đc mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "9 ng 10 ý"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "=)))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "c dễ ợt"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đừng treking là dc"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "why.."
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đi bộ xíu th"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "lên đồi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "à uh cái đấy thì dc ;D"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459484",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuỳ Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

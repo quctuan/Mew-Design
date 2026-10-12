@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260818_110739",
+  "group_name": "Line 1: Super App",
+  "sender_name": "thuy la le",
+  "timestamp": "11:07 18/08/2026",
+  "trigger_message": "dễ dãi với ng khác là tàn nhẫn với bản thân @erictrannn :D",
+  "context_history": [
+    {
+      "sender_name": "Eric Trần",
+      "text": ":D"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "@havietngn em ơi Home - Feed hiện tại chưa có phần mô tả tiếng anh, em thêm vào giúp chị trên figma nhé"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Bọn em tạo phiếu rồi ạ. https://cntt.vnpt.vn/browse/IT360-1627156\nEm đang chờ các anh IT mở mạng cho bọn em"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "@quctuan  anh ơi xem hộ em phần này với nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082\n\na gửi nhé, e kéo xuống phần Feed nha"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "vâng ạ em cảm ơn"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@vietmv92 em tác động chỗ này giúp cho nhanh nhé"
+    },
+    {
+      "sender_name": "Quỳnh",
+      "text": "a @erictrannn ơi, Tiêu đề đang giới hạn 36 ký tự, ko đủ để cấu hình text như design ạ, thiếu chữ \"mới\""
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Dear em Anh \nCC: @vietmv92 , @nduythanh, @Tuanjnfor \n\nChị gửi kết quả rà soát task Search (GMYVNPT1-75) sau khi nhận bàn giao:\n\niOS\n- Home: Đủ thông tin, đáp ứng yêu cầu bàn giao.\n- Tiện ích: Chưa có mục \"Tiện ích đề xuất\" ở Tab Tiện ích, hiện vẫn đang hiển thị các mục của Search app cũ.\n\nAndroid\n- Home: Thiếu phần \"Xu hướng tìm kiếm\".\n- Tiện ích: Chưa triển khai chức năng Search cho Tab Tiện ích.\n\nCMS\n- Chưa triển khai phần quản lý từ khóa.\n\nVới các thiếu sót trên, task hiện chưa đủ điều kiện để QC nhận bàn giao kiểm thử.\nNhờ AE rà soát và hoàn thiện đầy đủ các tính năng còn thiếu, đồng thời build sớm bản full cho tính năng bàn giao để team QC tiến hành kiểm thử đúng tiến độ.\nCảm ơn ACE!"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chị comment jira thêm giúp em nhé chị Thúy ( @thuyph312 )"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@vietmv92"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "hộ c chỗ này nữa nhé"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "hờ hờ 36 ký tự của b đấy @quctuan ơi :D"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "thế tăng cho tôi lên 50 nhé =))"
+    },
+    {
+      "sender_name": "thuy la le",
+      "text": "dễ dãi với ng khác là tàn nhẫn với bản thân @erictrannn :D",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454065",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"dễ dãi với ng khác là tàn nhẫn với bản thân @erictrannn :D\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>thuy la le</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1fzSpiorm35NnreCYVHksVLIx_x8KMXwJ/edit?gid=558894082#gid=558894082"
+  ]
+}

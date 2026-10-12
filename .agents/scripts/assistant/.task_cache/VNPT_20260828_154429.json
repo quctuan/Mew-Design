@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260828_154429",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "15:44 28/08/2026",
+  "trigger_message": "chị @ngngthaonhu ơi, e đang thấy nội dung các XBanner trên figma có tên thuê bao, kỳ hóa đơn. Vậy ở cms có phải cấu hình tham số ở nội dung ko ạ",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "BA bên mình kiệm lời mà"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "để lần sau nền nã"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "quen r"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tớ nghĩ kem nền thì cậu có chứ nền nã thì..."
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ồ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "họ coog khai ko nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "họ là ai"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cty yêu đương nhiều quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "kbiet nói ai"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "kinh nhỉ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ai nữa mà nhiều"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chị"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chị có giấu đâu =))))))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chị @ngngthaonhu ơi, e đang thấy nội dung các XBanner trên figma có tên thuê bao, kỳ hóa đơn. Vậy ở cms có phải cấu hình tham số ở nội dung ko ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_460081",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chị @ngngthaonhu ơi, e đang thấy nội dung các XBanner trên figma có tên thuê bao, kỳ hóa đơn. Vậy ở cms có phải cấu hình tham số ở...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

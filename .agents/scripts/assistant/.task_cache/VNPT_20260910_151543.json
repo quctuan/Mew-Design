@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260910_151543",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Khang",
+  "timestamp": "15:15 10/09/2026",
+  "trigger_message": "Em gửi bản build mới Android nhé ạ. Trên bản này đã fix 2 lỗi:\n1. Api Thiết bị: Danh sách thiết bị, Chi tiết thiết bị, Đăng ký thiết bị gọi trên android lỗi\n2. BTS thanh toán đang lỗi chưa test được mua hàng (android chỉ hiện skleton, k hiện gì thêm)\n\nVề bug \"Chưa có thông tin luồng event trả về cho miniApp  sau luồng thanh toán\" hiện tại cần thống nhất lại luồng xử lý nên đang chưa có event trả về. Chỗ này khi thống nhất được thì sẽ triển khai và báo lại sau ạ",
+  "context_history": [
+    {
+      "sender_name": "Eric Trần",
+      "text": "mình báo team CMS hỗ trợ r nhé, khi nào có staging mình sẽ báo lại b\nc Linh note trong tài liệu cho các bạn ấy là các thông tin banner CỦA DANH MỤC thì lấy trong phần e mô tả ở trên nhé."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @ngsong699 check lại em với, có mấy phần liên quan đến roaming bên em check lại đang bị lỗi, anh confirm giúp em nhé, có gì @nqthang21 giải thích thêm nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Chưa có api Nội dung hướng dẫn\nChưa có api Câu hỏi thường gặp \n\n2 cái này mình chốt chuyển sang web view thì đang chưa có url, cái này @koi_oh gửi lại anh được k em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "em mới phản hồi và test thử trưa nay bên cột map thông tin gds phản hồi đó ạ @aidenLeDevPDC"
+    },
+    {
+      "sender_name": "Song",
+      "text": "anh cap thiếu r"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "URL thì ai phát triển thì a @name688899  có đầu mối k tag vô xử lý giúp e nhé ạ.\n\ne chưa nhận được thông tin là webview là url nào.\n\ntài liệu srs cũng chỉ note là hardcode thôi (cụ thể url nào thì dev gửi giúp e với ạ)"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "e tag a Long add a ấy gửi giúp a"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "a ko add a ấy được"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@nqthang21 em ơi check lại 1 lượt giúp anh luôn nhé, cái nào vẫn còn issue thì em bôi đỏ tên task giúp anh nhé"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "Anh Nguyen  chị thêm vào group giúp e với chị ơi.\n\nmember k add được thì phải"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "chắc cái anh Long đó k cho add vào nhóm: \nhttps://t.me/+_wkQofBXAUE3MTc1"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Em gửi anh ấy cái link join nhóm anh ấy tự vào"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&m=dev\n\n\n@tranlong  đây nhé a"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "anh @hainn191297 ơi,  trong file Tracking xử lý vấn đề có api nào done chưa anh, để em ghép dần ạ"
+    },
+    {
+      "sender_name": "Lê Khang",
+      "text": "Em gửi bản build mới Android nhé ạ. Trên bản này đã fix 2 lỗi:\n1. Api Thiết bị: Danh sách thiết bị, Chi tiết thiết bị, Đăng ký thiết bị gọi trên android lỗi\n2. BTS thanh toán đang lỗi chưa test được mua hàng (android chỉ hiện skleton, k hiện gì thêm)\n\nVề bug \"Chưa có thông tin luồng event trả về cho miniApp  sau luồng thanh toán\" hiện tại cần thống nhất lại luồng xử lý nên đang chưa có event trả về. Chỗ này khi thống nhất được thì sẽ triển khai và báo lại sau ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_465477",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Em gửi bản build mới Android nhé ạ. Trên bản này đã fix 2 lỗi: 1. Api Thiết bị: Danh sách thiết bị, Chi tiết thiết bị, Đăng ký thi...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Khang</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&m=dev"
+  ],
+  "doc_links": []
+}

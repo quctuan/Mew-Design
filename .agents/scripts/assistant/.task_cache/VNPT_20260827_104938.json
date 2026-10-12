@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260827_104938",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "10:49 27/08/2026",
+  "trigger_message": "@quctuan tôi nhờ bạn cái này dc ko",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "quá đau khổ r"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thé thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chào"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cho tôi tiền đi lặn"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "lâu chưa dc ai thả thính"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nói gì đi b"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "bạn có thể cho tôi 1 bộ phận của xe đạp ko"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ko cho"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cốc cốc cốc"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "mở cửa cho anh đê"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dm trc ngồi xem ông anh Mạnh tán gái, 10 con thì Knock knock gõ cửa cả 10 con =))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "miễn là 10 ng khác nhau thì vẫn dùng đc 1 bài =)))))))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh nhưng có mấy case chúng nó là bạn của nhau :)))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@quctuan tôi nhờ bạn cái này dc ko",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459083",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan tôi nhờ bạn cái này dc ko\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260914_142406",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "14:24 14/09/2026",
+  "trigger_message": "variable sẽ ntn nhé @tuanin34 @quctuan",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "lol :v"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ơ sao e up dc à"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "A up éo dc"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ảo thế"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "thế mới hay :)))"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nma sao cứ lỗi lỗi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Để mai test thử bản chính xem thế nào"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Uh"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "A Minh nên đổi hàng cắt tóc"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nhìn vô học thật"
+    },
+    {
+      "sender_name": "Ken",
+      "text": "chụp xem"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "khuyên thật lòng"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chiều nay a sẽ thấy"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "variable sẽ ntn nhé @tuanin34 @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_467753",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"variable sẽ ntn nhé @tuanin34 @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Anh Minh PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260827_144447",
+  "group_name": "VNP&FIN_MYVNPT@Hỗ trợ Xử lý khiếu nại",
+  "sender_name": "Thu Trang Vu",
+  "timestamp": "14:44 27/08/2026",
+  "trigger_message": "942869954: k/hàng cần reply gấp. k/c Media",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "app mình có hỗ trợ tính năng này ko e @minhhnhatt @havietngn ơi"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "855582872: nhờ Media check gấp dùm CCOS này do k/hàng đang cần sdung. tks!"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "em ko vào dc ccos, chị gửi giúp e nd KH khiếu nại nhé"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "gd  thanh toán bị timeout, là chưa trừ tiền KH thành công. Họ đã kiểm tra giao dịch trên TK ngân  hàng chưa chị"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "chưa trừ  tiền ngân hàng, thì làm lại đơn mới"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "còn timeout, nhưng thành công rồi; thì để nhờ FT check lại giao dịch xem ạ"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "thanh toán thành còn thì ngoài mail, sẽ có đơn hàng - vào dây lấy mã QR của họ @ThuTrang66"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "KH chưa thanh toán bất cứ đơn nào đâu c @ThuTrang66"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "mình đã báo đồng nghiệp xử lý trhop này xem lại rùi. tks!"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "các bạn dùng user xử lý của GDS vui lòng chọn PHẢN HỒI các CCOS về Đài dùm. ko chọn Chuyển xử lý đến HTKH_DĐ_GQKN để bị quá hạn do CCOS ko cảnh báo cho user được phản hồi nắm tình hình. tks!"
+    },
+    {
+      "sender_name": "Thu Trang",
+      "text": "916848190: k/hàng cần check Lsu cuộc gọi của tháng 8 trong hôm nay. CCOS đã chuyển đến GDS. tks!"
+    },
+    {
+      "sender_name": "Thu Trang Vu",
+      "text": "942869954: k/hàng cần reply gấp. k/c Media",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2259406769_3163",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"942869954: k/hàng cần reply gấp. k/c Media\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

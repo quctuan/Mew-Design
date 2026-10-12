@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260826_093705",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thang. Xuan",
+  "timestamp": "09:37 26/08/2026",
+  "trigger_message": "với lại em thấy cái luồng nâng cấp gói từ banner xanh đang bị ẩn đi là sao ạ ?",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "anh ơi , cái gói cước đang dùng , hiện đang gọi api 1.2 ,nhưng logic lại hiển thị cho riêng từng tap , thì ở riêng từng filter hả anh"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 anh ơi"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@Thangngw  anh nhớ 3 tab riêng đã có api riêng cho 3 cái rồi mà nhỉ,  cái 1.2 thì em dùng cho tab cá nhân thôi..."
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "là lấy api chi tiết gói luôn đúng k anh nhỉ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 em có note thêm một số vấn đề ở trong sheets , anh xem giúp em với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái này em đọc tin nhắn cũ thấy có rồi ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@havietngn   xoá thành viên HomeCombo trước là cần xác nhận OTP  khi xoá, giờ  UI không có là bỏ  OTP hả  em,  cc bạn @ngngthaonhu"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Cái phần này là sao thế ạ , em chưa hiểu Logic phân biệt Chủ nhóm có gói cước đăng ký riêng và Chủ nhóm chỉ có duy nhất gói cước nhóm Home Combo @ngngthaonhu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Cá nhân thì xem thông tin gói"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "còn có thể họ tham gia cả 1 gói homecombo ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "mình có thông tin loại gói mà đúng ko ạ"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "homecombo gọi 1 api riêng mà ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "tức là gói đang sử dụng ở cá nhân không có thì nó sẽ rơi vào trường hợp này"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "Lưu lượng hiển thị tại Tab Cá nhân sẽ là lưu lượng được cấp trong nhóm"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "cái này thì cơ chế thì em vẫn lấy như cũ thôi đúng k anh , còn trả về thế nào là bên BE  sẽ trả đúng trong trường hợp này anh nhỉ @ngsong699"
+    },
+    {
+      "sender_name": "Thang. Xuan",
+      "text": "với lại em thấy cái luồng nâng cấp gói từ banner xanh đang bị ẩn đi là sao ạ ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_458299",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"với lại em thấy cái luồng nâng cấp gói từ banner xanh đang bị ẩn đi là sao ạ ?\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Thang. Xuan</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

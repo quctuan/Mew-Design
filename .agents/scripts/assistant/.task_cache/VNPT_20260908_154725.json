@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260908_154725",
+  "group_name": "Line 2: Xây dựng nền tảng kiến trúc mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "15:47 08/09/2026",
+  "trigger_message": "DK TTTB được coi là chưa phải KH. Luồng này làm sau 🙂",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Về cơ bản Khung anh thấy ok đấy"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "vì chỉ có 4 luồng quan trọng"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "tinh thần chuẩn thế còn gì a :))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Quan trọng hay KH sử dụng nhiều 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Quan trọng = KH dùng nhiều"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Thấy Minh bảo có số liệu gì đó mà 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em xem bổ sung thêm 1 luồng nữa"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Có 1 cái vô lý 😄"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ơ thế là thêm 1 luồng linh tinh vào à :))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hết r a ạ =))"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "còn 1 luồng dki TTTB"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "cho vào bg thì hơi lởm"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Trước anh thấy Minh nói rất nhiều App MyVNPT là app seflcare việc tra cứu thông tin là rất quan trọng 😄"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nma nó xong giai đoạn đấy r mà a =))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "DK TTTB được coi là chưa phải KH. Luồng này làm sau 🙂",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5240157419_463555",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"DK TTTB được coi là chưa phải KH. Luồng này làm sau 🙂\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

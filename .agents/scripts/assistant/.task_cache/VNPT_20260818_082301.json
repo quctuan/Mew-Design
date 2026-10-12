@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260818_082301",
+  "group_name": "[MyVNPT - Fintech] Reward hub",
+  "sender_name": "Nguyen Tung",
+  "timestamp": "08:23 18/08/2026",
+  "trigger_message": "urbox k có luồng callback",
+  "context_history": [
+    {
+      "sender_name": "Triều",
+      "text": "Anh @vitanh1521 , ở API cấp phát quà có cần truyền missionTransactionAmount không anh?\nEm đang test thì detailPresentConfig với mapId = 128333 trả về amount = 50000, nhưng khi em call API Cấp phát quà, em truyền missionTransactionAmount bao nhiêu cũng không thấy báo lỗi. Anh check giúp em field này có được validate không với."
+    },
+    {
+      "sender_name": "Việt Anh",
+      "text": "trường này k cần truyền nhé e"
+    },
+    {
+      "sender_name": "Triều",
+      "text": "okii a"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "chị @anhntn271 ơi, API này là bên chị sẽ gọi cập nhật lại trạng thái voucher cho MyVNPT đúng không ạ"
+    },
+    {
+      "sender_name": "Ánh",
+      "text": "dạ bên MYVNPT gọi ạ"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "bên c gọi cho bên em update lại trạng thái sử dụng voucher từ đối tác mới đúng chứ c nhờ"
+    },
+    {
+      "sender_name": "Tú",
+      "text": "bên em gọi sang để rewardhub update thì không có ý nghĩa lắm"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "Có 2 kịch bản e ạ"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "1. Ng dùng chủ động kích hoạt(k có nguồn từ đối tác callback) => myvnpt gọi"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "2. Đối tác callback => rwh=> client (myvnpt)"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "Mục 2 thì quà urbox đang k có luồng callback Uyên nhé"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "luồng này bên c có update trạng thái qua api nào k Tùng nhỉ?"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "Mục 4. API update trạng thái sử dụng_cho phép rewardhub thông tin lại trạng thái sử dụng voucher của khách hàng được gửi về từ đối tác (Cấp mới)\n\nem thấy các bạn có yêu cầu cung cấp 1 API cập nhật trạng thái quà, luồng này thì không có đâu ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@nttung0112 vậy chỗ @tu_uyenn request thiếu 1 api để đồng bộ lại trạng thái từ rwh theo luồng số 2, bên c sẽ update yc api đó xong e xem bh bàn giao đc nhé"
+    },
+    {
+      "sender_name": "Nguyen",
+      "text": "e có nhắn ở trên"
+    },
+    {
+      "sender_name": "Nguyen Tung",
+      "text": "urbox k có luồng callback",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5187769908_453844",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"urbox k có luồng callback\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nguyen Tung</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

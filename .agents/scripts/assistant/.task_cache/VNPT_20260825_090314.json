@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260825_090314",
+  "group_name": "Line 1: Super App",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "09:03 25/08/2026",
+  "trigger_message": "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48923-65063 c thửu lại giúp e nhé ạ",
+  "context_history": [
+    {
+      "sender_name": "Dat",
+      "text": "a @quctuan ơi, cho e xin file này với ạ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@hainn191297 anh ơi chỗ ảnh avatar của home nhóm đang gặp case là nếu đi vào chỉnh sửa thông tin nhóm, app ko phân biệt được trước đó user chọn ảnh nào để tick lại. nếu app hiển thị lại ảnh ava từ lúc tạo nhóm lên thì sẽ có trường hợp 1 ảnh sẽ hiển thị 2 lần. em có trao đổi vs dev app thì phương án là gán ID cho ảnh để lúc sau vào chỉnh sửa thì BE trả thêm thông tin để app phân biệt ạ. anh update thêm giúp em\ncc @dohaidoan @hieu_tq Ngọc"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@erictrannn Quỳnh\nmn giúp t sửa lại kích thước file ảnh cấu hình theo như này với:\n \nĐịnh dạng: PNG, JPG, GIF\n- Feed:\n+ Banner: <= 20MB\n+ Avatar Emi: <= 1MB\n- Danh mục, tiện ích\n+ Icon: <= 1MB\n- Header tùy biến:\n+ Background: <= 5MB\n+ Mascot: <= 5MB"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "trả thêm luôn thông tin avatarName trong response của API getGroups, getGroupDetail, updateGroup là được nhé  @dohaidoan và @hieu_tq.\nCreateGroup thì có sẵn rồi"
+    },
+    {
+      "sender_name": "Đỗ Hải Đoan",
+      "text": "vâng anh"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Dear a @Tuanjnfor c @lalethuy c @ngngthaonhu a @nduythanh c Anh Nguyen, luồng quản lý đơn hàng theo như trao đổi lần trc đang sử dụng UI cũ, UI mới sẽ lên cùng QW di động.\nHiện e có update thêm 2 luồng QLĐH gói di động (https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48474-197667&t=dVnconNkx6bMJWVP-4) và QLDDH gói roaming (https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48450-99031&t=dVnconNkx6bMJWVP-4), nhờ mn đánh giá và đưa vào kế hoạch t10 giúp e với ạ \n\nNgoài ra phần quickaction e có tạo lại task do trc phần này đang chưa involve BE vào, bên e  cũng có update UI và rule phần này, nhờ c @nguyenngoclinh1 a @name688899 a Anh Thành đánh giá giúp e nhé ạ https://dvs.vnptmedia.vn/browse/GMYVNPT1-642"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ok em"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "em tách về UI của phần quản lý đơn hàng để chị xem lại nhé"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ví trước là ko có tab của quản lý gói di động"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chỉ có quản lý roaming, sim và internet thôi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e vẫn để hết trong file figma QLDH đấy c"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vâng cái này bsung thêm ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "link figma trong này đang trỏ k đúng vùng sửa"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@havietngn sửa lại link đi"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48923-65063 c thửu lại giúp e nhé ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_457829",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48923-65063 c thửu lại giúp e nhé ạ\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48923-65063",
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48474-197667&t=dVnconNkx6bMJWVP-4)",
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=48450-99031&t=dVnconNkx6bMJWVP-4),"
+  ],
+  "doc_links": []
+}

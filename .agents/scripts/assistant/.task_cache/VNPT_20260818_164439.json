@@ -1,0 +1,84 @@
+{
+  "task_id": "VNPT_20260818_164439",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Hiền Nguyễn",
+  "timestamp": "16:44 18/08/2026",
+  "trigger_message": "@hieunguyen271095 anh review giúp em PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/34",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @haulcw Hiền nắm thông tin ạ, mn lưu link mới lại giúp em ạ"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Group này cơ @hainn191297 nhé"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "=))"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Phần này bên Vivas đang là anh @haulcw và bạn Hiền làm"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "@haulcw anh ơi bạn Hải sẽ chịu trách nhiệm api cho phần Shop internet và thiết bị anh ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "chị @havietngn ơi, màn Danh sách gói đi từ chỗ nào sang màn này vậy ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "Gói Internet là chị @quynhmaihavi PO nha, nhờ c Mai phản hồi bạn giúp e ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "entry point bọn mình để ở trên https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHRyN-4 nhé"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "Entry point em thấy ko có action gì đến màn Danh sách gói cước ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Tại trang Internet, ở section gói cước nổi bật có button \"Mũi tên\" xem thêm. Bấm sẽ điều hướng sang trang \"Danh sách gói cước\" ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em có bổ sung note trên figma r ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "em cảm ơn ạ"
+    },
+    {
+      "sender_name": "Hiền Nguyễn",
+      "text": "@hieunguyen271095 anh review giúp em PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/34",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_454287",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@hieunguyen271095 anh review giúp em PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/34\"</i>",
+  "action_items": [
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Hiền Nguyễn</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"review\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=45397-308602&t=nrhDreRRPH6KHRyN-4"
+  ],
+  "doc_links": []
+}

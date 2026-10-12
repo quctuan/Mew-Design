@@ -1,0 +1,99 @@
+{
+  "task_id": "VNPT_20260824_111905",
+  "group_name": "GDS - Phát triển ứng dụng mới",
+  "sender_name": "ViệtMV",
+  "timestamp": "11:19 24/08/2026",
+  "trigger_message": "Dear anh Cường ( @hoangmanhcuong ), anh Minh ( @minhhnhatt ),\n\nCC: chị My ( @myntt2703 ), anh Học ( @hocnv2010 ).\n\n\n===== Red Alert =====\n\n\nLiên quan đến QW Di Động với mốc 15/10, Tính tới thời điểm hiện tại chưa có WP nào khả thi Scope và Deadline. Nhờ các anh xem xét,\n\n\nI. Về Scope\n\nHiện các WP chưa chốt được Scope/kịch bản nghiệp vụ để làm việc với IT, cụ thể:\n\n1. Sim số (WP 1, 2, 3)\n     - Kịch bản triển khai với các địa bàn chưa được thống nhất.\n     - Chưa tìm được và làm việc với đơn vị vận chuyển thứ ba.\n\n2. Gói cước (WP 4)\n    - Phương án đăng ký và gia hạn gói cước chưa được thống nhất, chốt với VNP.\n\n3. Roaming\n    - WP 5: Hệ thống IT chưa sẵn sàng; WP hiện bị block bởi PYC IT360-1335039 liên quan đến tạm thu CKD trả sau.\n    - WP 6: Kịch bản đặt cọc và hoàn cọc online giữa Media và VNP chưa được thống nhất.\n\nII. Về timeline\n\nTừ thời điểm hiện tại đến 15/10 còn khoảng 7 tuần. Trong khi đó, các kịch bản nghiệp vụ chưa được thống nhất, nên chưa thể bắt đầu phát triển nội bộ cũng như phối hợp phát triển với IT.\n\nƯớc tính sơ bộ các đầu việc cần thiết:\n    - 01 tuần: Làm rõ và chốt kịch bản với IT.\n    - 01 tuần: Làm rõ yêu cầu API, thống nhất phương án và kế hoạch triển khai với IT.\n    - 04 tuần: IT phát triển.\n    - 01 tuần: Tích hợp.\n    - 01 tuần: Kiểm thử Staging.\n    - 01 tuần: Kiểm thử Beta.\n\nNhư vậy, tổng thời gian tối thiểu ước tính là 8 tuần, chưa bao gồm thời gian xử lý các nội dung có độ phức tạp cao hơn như trả sau, địa bàn và tích hợp với đơn vị vận chuyển thứ ba.\n\nDo đó, đề nghị các anh xem xét Scope/kịch bản cho từng WP, đồng thời đánh giá lại tính khả thi của mốc 15/10 hoặc xác định phương án ưu tiên Scope phù hợp.\n\n\nNote: DS WP:\n    - WP1 – Xây dựng luồng mua SIM mới (tách nhu cầu mua SIM số đẹp / SIM kèm gói cước ưu đãi)\n    - WP2 – Xây dựng luồng giao SIM hoả tốc\n    - WP3 – Điều chỉnh luồng ĐKTTTB (update thêm luồng BH)\n    - WP4 – Xây dựng luồng autopay bằng các nguồn tiền khác\n    - WP5 – Luồng mua gói 0đ cho TB trả sau, cho/ tặng gói cho TB trả sau (login và prelogin)\n    - WP6 – Đặt cọc và hoàn cọc online",
+  "context_history": [
+    {
+      "sender_name": "Trà My",
+      "text": "vâng anh!"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Nhiều task liên quan đến PO bị chậm deadline nhiều quá @myntt2703 @minhhnhatt"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Mà cũng chưa thấy báo lại gì cả"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Chỗ này ai bên Sản phẩm có thể trả lời và xác nhận giúp anh để ae làm việc tiếp hay bỏ ra khỏi version 15/9 ko?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "vâng để e check lại r báo lại nhé ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "trước đây thì nguồn lực design outsource được dùng cho phần này, tuy nhiên phần Quickwin di động có timeline 5/8 gấp quá nên bọn e điều chuyển bạn đấy sang làm phần QW trc"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hiện tại vẫn chưa có thêm nguồn lực theo request ban đầu, nên đang bị chậm ạ"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Uh, thế bjo báo lại đc anh? Vì nhiều phần outsourcing và có thời gian"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Và các phần nội bộ bàn giao cũng chậm rồi"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ) check lại mai 9h ngồi lại với anh nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Vâng mai 9h e vs Tuấn ngồi vs a nhé ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hay tối anh em ngồi trước vài phút nhỉ 😄"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@minhhnhatt Minh ngồi được chưa Minh ơi"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "A đợi e nốt 5p nhé ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm nhá"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear anh Cường ( @hoangmanhcuong ), anh Minh ( @minhhnhatt ),\n\nCC: chị My ( @myntt2703 ), anh Học ( @hocnv2010 ).\n\n\n===== Red Alert =====\n\n\nLiên quan đến QW Di Động với mốc 15/10, Tính tới thời điểm hiện tại chưa có WP nào khả thi Scope và Deadline. Nhờ các anh xem xét,\n\n\nI. Về Scope\n\nHiện các WP chưa chốt được Scope/kịch bản nghiệp vụ để làm việc với IT, cụ thể:\n\n1. Sim số (WP 1, 2, 3)\n     - Kịch bản triển khai với các địa bàn chưa được thống nhất.\n     - Chưa tìm được và làm việc với đơn vị vận chuyển thứ ba.\n\n2. Gói cước (WP 4)\n    - Phương án đăng ký và gia hạn gói cước chưa được thống nhất, chốt với VNP.\n\n3. Roaming\n    - WP 5: Hệ thống IT chưa sẵn sàng; WP hiện bị block bởi PYC IT360-1335039 liên quan đến tạm thu CKD trả sau.\n    - WP 6: Kịch bản đặt cọc và hoàn cọc online giữa Media và VNP chưa được thống nhất.\n\nII. Về timeline\n\nTừ thời điểm hiện tại đến 15/10 còn khoảng 7 tuần. Trong khi đó, các kịch bản nghiệp vụ chưa được thống nhất, nên chưa thể bắt đầu phát triển nội bộ cũng như phối hợp phát triển với IT.\n\nƯớc tính sơ bộ các đầu việc cần thiết:\n    - 01 tuần: Làm rõ và chốt kịch bản với IT.\n    - 01 tuần: Làm rõ yêu cầu API, thống nhất phương án và kế hoạch triển khai với IT.\n    - 04 tuần: IT phát triển.\n    - 01 tuần: Tích hợp.\n    - 01 tuần: Kiểm thử Staging.\n    - 01 tuần: Kiểm thử Beta.\n\nNhư vậy, tổng thời gian tối thiểu ước tính là 8 tuần, chưa bao gồm thời gian xử lý các nội dung có độ phức tạp cao hơn như trả sau, địa bàn và tích hợp với đơn vị vận chuyển thứ ba.\n\nDo đó, đề nghị các anh xem xét Scope/kịch bản cho từng WP, đồng thời đánh giá lại tính khả thi của mốc 15/10 hoặc xác định phương án ưu tiên Scope phù hợp.\n\n\nNote: DS WP:\n    - WP1 – Xây dựng luồng mua SIM mới (tách nhu cầu mua SIM số đẹp / SIM kèm gói cước ưu đãi)\n    - WP2 – Xây dựng luồng giao SIM hoả tốc\n    - WP3 – Điều chỉnh luồng ĐKTTTB (update thêm luồng BH)\n    - WP4 – Xây dựng luồng autopay bằng các nguồn tiền khác\n    - WP5 – Luồng mua gói 0đ cho TB trả sau, cho/ tặng gói cho TB trả sau (login và prelogin)\n    - WP6 – Đặt cọc và hoàn cọc online",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5262024656_457200",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear anh Cường ( @hoangmanhcuong ), anh Minh ( @minhhnhatt ),  CC: chị My ( @myntt2703 ), anh Học ( @hocnv2010 ).   ===== Red Aler...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>ViệtMV</b>",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 34,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "⚡ Khẩn: \"deadline\"",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

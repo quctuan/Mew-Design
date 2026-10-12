@@ -1,0 +1,103 @@
+{
+  "task_id": "VNPT_20260818_100315",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "10:03 18/08/2026",
+  "trigger_message": "a Phuong @koi_oh ơi,e  gửi lại link figma mới nhé ạ, do đặt trong file cũ nặng quá, nên tách thành file riêng\n1. User chưa có gói/roaming chưa bật => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=40712-108038&t=mhFvQW3eIdQR8Qhz-4 \n2. User đang có gói => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47970&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉ bật Roaming => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47960&t=mhFvQW3eIdQR8Qhz-4 \n\nCác luồng khác:\n1. Prelogin: Chỉ yêu cầu nhập SDT, không cần nhập OTP => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=41975-271460&t=mhFvQW3eIdQR8Qhz-4 \n2. TB ngoại mạng => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-48053&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉnh sửa UI webview phần Hướng dẫn (Updating) => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&t=mhFvQW3eIdQR8Qhz-4 \n\n4. màn home ở nước ngoài: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=44077-330277&t=mhFvQW3eIdQR8Qhz-4 \n5. Quản lý đơn hàng: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=46322-225240&t=mhFvQW3eIdQR8Qhz-4",
+  "context_history": [
+    {
+      "sender_name": "Aiden",
+      "text": "Anh @hieunguyen271095 check giúp em case này với ạ, cái này hôm qua em cũng bị ở cái quản lý thiết bị sau khi merge bản base code mới nhất"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hiền case này em check android đúng k"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "em check cả ios lẫn android đều bị ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "do lỗi code mà anh, trước nó nhận value truyền vào, giờ bị fix cứng font-weight là normal nên các chỗ dùng đều bị ghi đè thành normal hết ạ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cái này trong bộ format code mới liên quan đến đọc font từ hostapp\nae chờ xíu bên source code đang rà lại nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "ngoài vấn đề này ae còn vấn đề gì với font nữa không"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/tree/VNPTShop/roaming_packages/main"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "a gửi nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "lấy basecode mới xem chỗ này còn vấn đề không nhé"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hiền em pull từ nhánh main của mini app về xem hết lỗi k nhé"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@hieunguyen271095 em thấy hết lỗi font rồi nhé anh"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hello @koi_oh nhé =))"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "hello mng"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a Phuong @koi_oh ơi,e  gửi lại link figma mới nhé ạ, do đặt trong file cũ nặng quá, nên tách thành file riêng\n1. User chưa có gói/roaming chưa bật => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=40712-108038&t=mhFvQW3eIdQR8Qhz-4 \n2. User đang có gói => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47970&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉ bật Roaming => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47960&t=mhFvQW3eIdQR8Qhz-4 \n\nCác luồng khác:\n1. Prelogin: Chỉ yêu cầu nhập SDT, không cần nhập OTP => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=41975-271460&t=mhFvQW3eIdQR8Qhz-4 \n2. TB ngoại mạng => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-48053&t=mhFvQW3eIdQR8Qhz-4 \n3. Chỉnh sửa UI webview phần Hướng dẫn (Updating) => https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&t=mhFvQW3eIdQR8Qhz-4 \n\n4. màn home ở nước ngoài: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=44077-330277&t=mhFvQW3eIdQR8Qhz-4 \n5. Quản lý đơn hàng: https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=46322-225240&t=mhFvQW3eIdQR8Qhz-4",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_453912",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a Phuong @koi_oh ơi,e  gửi lại link figma mới nhé ạ, do đặt trong file cũ nặng quá, nên tách thành file riêng 1. User chưa có gói/...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 33,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc",
+      "🎨 Thiết kế: \"sửa\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47970&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-47960&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43422-48053&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=44077-330277&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=43085-37343&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=40712-108038&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=46322-225240&t=mhFvQW3eIdQR8Qhz-4",
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=41975-271460&t=mhFvQW3eIdQR8Qhz-4"
+  ],
+  "doc_links": []
+}

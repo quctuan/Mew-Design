@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260828_085726",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "08:57 28/08/2026",
+  "trigger_message": "Nó vẫn là design mà",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "mới có này =))"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Kinh"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Figma càng ngày càng thông minh"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@Hoanganh1109 bạn ơi, ảnh thumb artwork có cần thể hiện size canvas của artwork đó k hay chỉ cần ảnh thoi, vì mỗi artwork có cho set nhiều size khác nhau"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Ảnh thôi cũng dc"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Thumb thôi mà"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Chỉ ảnh thôi"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Thông tin size hiển thị ra cũng k giúp đc gì cho user cả thì k cần hiện làm gì"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Tại thấy kittl có"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ừa sau pilot khách hỏi thì mình làm"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "cái layout nó có màu bg, có cần show k e @Hoanganh1109"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ko"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "À"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Có chứ"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nó vẫn là design mà",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_459660",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nó vẫn là design mà\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hoàng Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

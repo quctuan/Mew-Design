@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260904_105429",
+  "group_name": "Line 1: Super App",
+  "sender_name": "thuy la le",
+  "timestamp": "10:54 04/09/2026",
+  "trigger_message": "cáu bàt thì @havietngn, @quctuan trả lời đi,",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "ok e"
+    },
+    {
+      "sender_name": "Nguyễn Tuấn Minh 👀",
+      "text": "@ngngthaonhu  bổ sung các tham số vào tài liệu giúp t vs nhé"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "ok tôi update theo từng dịch vụ nhé"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "@quctuan @havietngn hai bác xem giúp tôi chỗ này với. Data trên live có rất nhiều bản ghi first name của user null; hoặc nếu bóc tách từ full name thì có các case bị thiếu khoảng cách hoặc bị đảo ngược nên cũng ko bóc tách dc. .Cái này các bác có thay đổi nội dung ko hiển thị tên như các XBanner khác dc kko?"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Ánh ơi cái này chưa có trong masterplan à e?"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "em đang để bên BRCđ ạ. em đưa vào phần Line 1 nhé ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ xBanner này mình bỏ hiển thị tên cá nhân, chỉ dùng chung là \"Bạn\" thôi nhé. Update design r nha"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "@ngngthaonhu xem lại giúp chị mini app lịch sử thanh toán,  dịch vụ điện nước đang bị sai order_type: nước 14, điện 12 nha"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @Tuanjnfor, @nduythanh, @name688899 phần bug này giờ e cần timeline cho từng tính năng ạ.\nEm gửi báo cáo bug 3/09 theo Dev\ncc a @hocnv2010"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Ok em"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "@ngthuyanh \nTicket: https://dvs.vnptmedia.vn/browse/GMYVNPT1-83\nEm có log 1 bug <Không hiển thị đủ danh sách thuê bao của thành viên trong dịch vụ truyền hình MyTV>\nVà phía BE có note lại \n<Nguyên nhân do phát sinh 1 loại dịch vụ là myTV OTT từ tính năng Dịch vụ cá nhân sau khá lâu thời điểm làm Homegroup. Tuy cùng là loại OTT nhưng nghiệp vụ dữ liệu bên trong rất khác. Chỉ đang cố gắng lấy đủ thông tin và ko làm thay đổi hiện trạng.\ncái này Dev đã raise từ đầu tháng khi làm tính năng Dịch vụ cá nhân, hỏi là ảnh hưởng từ dịch vụ này với những tính năng nào nhưng ko thấy BA hay PM phản hồi gì>\nxem giúp em phần này còn ảnh hưởng tính năng dịch vụ nào khác ko\ncc @hainn191297 \nhttps://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=1682466632#gid=1682466632&range=C45"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "cái này a đang refer đến Dịch vụ của tôi như vậy đang ko đúng, chủ nhóm thì không xác thực thay thành viên được\ndesign lại giúp em"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "chị @ngngthaonhu ơi, ở màn detail, mã thuê bao kia là lấy re_name hay account, mã thanh toán là lấy bill_code hay account ạ."
+    },
+    {
+      "sender_name": "thuy",
+      "text": "Mã thuê bao là account, mã thanh toán là bill_code"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "màn danh sách sẽ hiển thị re_name hay account ạ"
+    },
+    {
+      "sender_name": "thuy la le",
+      "text": "cáu bàt thì @havietngn, @quctuan trả lời đi,",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_461579",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"cáu bàt thì @havietngn, @quctuan trả lời đi,\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>thuy la le</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/12KHLYa2J-Uk5MskaKJqd-nwM6SIbz82v0FjqEhOLtSc/edit?gid=1682466632#gid=1682466632&range=C45"
+  ]
+}

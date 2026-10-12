@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260821_190418",
+  "group_name": "MI Design",
+  "sender_name": "Minh Tam",
+  "timestamp": "19:04 21/08/2026",
+  "trigger_message": "Tiềm năng designer",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Ko"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Khéo lúc đấy ae mình mở dashboard cả ngày"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Camera chạy bằng cơm"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "uh thôi trc mắt thế"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "xong tối ưu sau"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Hãy tóm tắt đoạn hội thoại trên bằng 1 brief ngắn gọn đủ case đi các ae"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "oke để spec ở đây r nhé @taminhtr"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "đọc note là dc nhé"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Hmm oke a"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "project nhé @leek6998"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "A M kéo figma đẹp thế"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "wireframe thôi mà =))"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Có tiềm năng design Fiora"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Chắc lâu r e k thấy wf từ các PO"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Nên thấy đẹp"
+    },
+    {
+      "sender_name": "Minh Tam",
+      "text": "Tiềm năng designer",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_456285",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Tiềm năng designer\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Minh Tam</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

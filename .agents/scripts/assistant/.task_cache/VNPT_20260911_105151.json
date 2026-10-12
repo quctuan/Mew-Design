@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260911_105151",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "10:51 11/09/2026",
+  "trigger_message": "Vậy chốt phần này là fullBg đúng k @celene_ne ? Việc còn lại design sẽ thiết kế sau.",
+  "context_history": [
+    {
+      "sender_name": "Hai",
+      "text": "2 cái này tôi có gửi trước toàn bộ Curl rồi, vì docs nó nhiều bên cùng sửa quá nên ưu tiên sau"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Hiền đánh giá xem có đủ không thì ghép trước cho Hải nhé, còn k thì em request thêm giúp anh"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "còn cái tạm thời thì dùng từ hơi sai. trường này sẽ dùng. Nhưng logic tạm thời trả về thông tin để ghép thôi. ko ảnh hưởng tới FE"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Mình linh động chút vì có file tracking rồi, nếu nhiều case phải clear quá thì phải đợi update tài liệu mới được Hiền"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "mấy cái tạm thời bạn cũng confirm k thay đổi trong tương lai là được"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "nó là trường để đủ giao diện nên sẽ ko thay đổi"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "còn logic thì có cái chưa có đủ thông tin, t vẫn phải trả ra trước"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi chị Anh Nguyen , hiện tại ảnh collection a/c muốn hiển thị full background hay mỗi phần bên trên ạ? Như trên design đang là fullBg (trên ảnh dưới trắng)"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Em gửi ảnh thực tế của collection khi ghép xong từ api đó ạ."
+    },
+    {
+      "sender_name": "Thu",
+      "text": "Cái đó designer bọn em tính là full background, khoảng trắng bên dưới sẽ do designer thiết kế trong ảnh. Như vậy thì có rủi ro bị lệch khoảng trắng gì khi responsive sang các thiết bị khác không ạ?"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Responsive mà Phương mong muốn là gì nhỉ? (Trên đa dạng thiết bị hay chỉ thuần mobile?)"
+    },
+    {
+      "sender_name": "Thu",
+      "text": "chỉ thuần mobile thui ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Thuần mobile thì k ảnh hưởng mấy đâu. Chỉ là sẽ hơi mờ nếu thiết bị to hơn chút. (Nếu ảnh phân giải cao từ api thì cũng k mờ lắm)"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiện ghép với 4 ảnh hôm trước xin b thì không vấn đề gì."
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Vậy chốt phần này là fullBg đúng k @celene_ne ? Việc còn lại design sẽ thiết kế sau.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_466259",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Vậy chốt phần này là fullBg đúng k @celene_ne ? Việc còn lại design sẽ thiết kế sau.\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Hậu</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Lê Hậu</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"chốt\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

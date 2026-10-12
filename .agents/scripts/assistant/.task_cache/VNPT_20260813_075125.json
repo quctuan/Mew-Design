@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260813_075125",
+  "group_name": "GDS_Đề án Phát triển nền tảng KD trên MTS",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "07:51 13/08/2026",
+  "trigger_message": "1. Tái sử dụng thông tin thuê bao: \nKhách hàng hiện hữu của VinaPhone sẽ tiết kiệm tối đa thời gian đăng ký thông tin cho SIM mới nhờ hệ thống tự động sử dụng sẵn các thông tin cá nhân đã cung cấp trước đó.\n\n2. Bổ sung tính năng Nạp nhanh & Gợi ý (Màn hình Shop): \nKhách hàng có thể nạp Data tức thì khi cần gấp, đồng thời tiếp cận ngay các ưu đãi (nếu có) trên màn hình chính.\n\n3. Cải tiến bộ lọc chu kỳ gói cước: \nKhách hàng dễ dàng lọc và tìm kiếm nhanh chóng các gói cước theo chính xác thời hạn sử dụng mong muốn (ngày/tháng/năm).\n\n4. Phân loại danh sách gói cước theo phong cách sống (Lifestyle): \nKhách hàng có thể dễ dàng khám phá và lựa chọn các gói cước được thiết kế tối ưu cho đúng sở thích và phong cách sống của riêng mình.\n\n5. Tích hợp gợi ý gói cước trong luồng mua SIM: \nKhách hàng sẽ được hệ thống chủ động đề xuất các gói cước đi kèm SIM phù hợp và tiết kiệm nhất ngay trong quá trình chọn mua.\n\n6. Xây dựng Form đánh giá trải nghiệm (CES): \nKhách hàng có thêm kênh trực tiếp để dễ dàng đóng góp ý kiến, giúp ứng dụng nâng cấp và mang lại trải nghiệm mua sắm mượt mà hơn trong tương lai.",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Món này gấp nên anh em xem luôn nhé. Việt chéc choác xem có thông tin gì về việc có bên nào định phạt ko."
+    },
+    {
+      "sender_name": "Trần Mỹ",
+      "text": "Dạ em cũng ko nắm được, để em hỏi xem anh ạ"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "https://dantri.com.vn/kinh-doanh/grab-bi-phat-gan-14-ty-dong-do-vi-pham-quyen-loi-nguoi-tieu-dung-20260808143025518.htm"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Toàn thông báo cho tất cả các đơn vị sở hữu,phát triển website,app về vụ này nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "liên quan đến dữ liệu cá nhân"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "đảm bảo làm theo đúng chuẩn"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Món này, Bùi Anh, Học, Minh xem nhanh, chiều đối tác sang giới thiệu( cỡ 4:30, anh đang hẹn)"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "@Phantom102 @hocnv2010 @minhhnhatt"
+    },
+    {
+      "sender_name": "Ngô",
+      "text": "đối tác chốt time này chưa ạ?"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Lát mình có họp này ko hả a"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Cỡ 16:46 nhé"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Vụ golive di động sao rồi @vietmv92 nhỉ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dạ 22h start anh ạ."
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Uh xong cho anh sum kết quả nhé, note đã nâng cấp đc gì ( góc nhìn khách hàng) @minhhnhatt"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "1. Tái sử dụng thông tin thuê bao: \nKhách hàng hiện hữu của VinaPhone sẽ tiết kiệm tối đa thời gian đăng ký thông tin cho SIM mới nhờ hệ thống tự động sử dụng sẵn các thông tin cá nhân đã cung cấp trước đó.\n\n2. Bổ sung tính năng Nạp nhanh & Gợi ý (Màn hình Shop): \nKhách hàng có thể nạp Data tức thì khi cần gấp, đồng thời tiếp cận ngay các ưu đãi (nếu có) trên màn hình chính.\n\n3. Cải tiến bộ lọc chu kỳ gói cước: \nKhách hàng dễ dàng lọc và tìm kiếm nhanh chóng các gói cước theo chính xác thời hạn sử dụng mong muốn (ngày/tháng/năm).\n\n4. Phân loại danh sách gói cước theo phong cách sống (Lifestyle): \nKhách hàng có thể dễ dàng khám phá và lựa chọn các gói cước được thiết kế tối ưu cho đúng sở thích và phong cách sống của riêng mình.\n\n5. Tích hợp gợi ý gói cước trong luồng mua SIM: \nKhách hàng sẽ được hệ thống chủ động đề xuất các gói cước đi kèm SIM phù hợp và tiết kiệm nhất ngay trong quá trình chọn mua.\n\n6. Xây dựng Form đánh giá trải nghiệm (CES): \nKhách hàng có thêm kênh trực tiếp để dễ dàng đóng góp ý kiến, giúp ứng dụng nâng cấp và mang lại trải nghiệm mua sắm mượt mà hơn trong tương lai.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192106461_451922",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"1. Tái sử dụng thông tin thuê bao:  Khách hàng hiện hữu của VinaPhone sẽ tiết kiệm tối đa thời gian đăng ký thông tin cho SIM mới ...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>VNPT - Anh Minh PO</b>",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 26,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "⚡ Khẩn: \"gấp\"",
+      "🎨 Thiết kế: \"góp ý\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

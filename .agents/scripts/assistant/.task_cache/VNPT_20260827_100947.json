@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260827_100947",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "10:09 27/08/2026",
+  "trigger_message": "cgi mà 1r vậy",
+  "context_history": [
+    {
+      "sender_name": "Nhu",
+      "text": "tôi nghỉ việc"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ui"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "căng thặng"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đừng bạn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ngta đồn thôi"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "tôi ở đây để lên phó tổng"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "đã dzị"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ậu cần 3 thư ký hong"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "hãy nhớ những ng bạn trong nhóm này bạn nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "lúc đấy công việc mỗi ngày chỉ là đi mua cf cho sếp Như thôi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nghĩ đã thấy sướng r :))"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cậu cf sáng còn tớ mua đồ ăn dặm bủi chiều nhá"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tự chia nhau thoi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dc bạn, mình cứ tềnh tàng thế thôi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chúng mìn hòa thuận mà"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cgi mà 1r vậy",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_459033",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"cgi mà 1r vậy\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

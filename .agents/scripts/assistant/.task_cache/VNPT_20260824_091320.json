@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260824_091320",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Eric Trần",
+  "timestamp": "09:13 24/08/2026",
+  "trigger_message": "hi chị Anh Nguyen \nNhờ chị tạo 1 task jira phục vụ CMS gói mytv giúp em với ạ\nĐây là jira cho luồng mytv https://dvs.vnptmedia.vn/browse/GMYVNPT1-185",
+  "context_history": [
+    {
+      "sender_name": "Thành",
+      "text": "anh @name688899 @ngsong699 ơi hôm trước ae sử api refreshToken xong chưa ạ. cho ae xin lại mã lỗi nhé ạ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái này chưa sửa xong anh ơi"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ukie ae"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái này map sẵn  mã 402 nhé anh Thành NV"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "okie để ae đấu trước vào code."
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@haipt1905 ơi xem xử lý chỗ mã lỗi này nhé c"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "402 ở mọi API à a"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "ko của thằng refreshToken thôi chứ"
+    },
+    {
+      "sender_name": "Song",
+      "text": "402 refreshToken thôi em"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "Nhưng thực tế chưa có ct nào chạy đâu. Nên e check lại chỗ này và update lại figma giúp c nhé @havietngn"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "cảm giác 2 ce đang chưa hiểu đúng ý nhau đâu trao đổi lại nhé"
+    },
+    {
+      "sender_name": "Song",
+      "text": "cái này test đc r nhé em"
+    },
+    {
+      "sender_name": "Song",
+      "text": "à BE lên thôi còn app anh chưa biết :v Nam    cc anh Thành NV  @haipt1905"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": ":( nhiều thứ quá hẹn thứ 2 nhé Nam"
+    },
+    {
+      "sender_name": "Hai",
+      "text": "cái này cho mình xin thêm thông tin về user login được ko Ngọc"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "hi chị Anh Nguyen \nNhờ chị tạo 1 task jira phục vụ CMS gói mytv giúp em với ạ\nĐây là jira cho luồng mytv https://dvs.vnptmedia.vn/browse/GMYVNPT1-185",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_457020",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"hi chị Anh Nguyen  Nhờ chị tạo 1 task jira phục vụ CMS gói mytv giúp em với ạ Đây là jira cho luồng mytv https://dvs.vnptmedia.vn/...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

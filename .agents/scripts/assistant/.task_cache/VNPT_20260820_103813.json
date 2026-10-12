@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260820_103813",
+  "group_name": "AI @SDLC @GDS",
+  "sender_name": "Tuan Tran",
+  "timestamp": "10:38 20/08/2026",
+  "trigger_message": "Nhờ @minhhnhatt , @quctuan , chị @lalethuy , @thuyph312 xem giúp nhân sự tham gia với nhé ah",
+  "context_history": [
+    {
+      "sender_name": "HocNV2010",
+      "text": "Ơ 3h rồi này, bắt đầu thôi em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chị @lalethuy ơi, mình có hẹn 10h30 ah 😄\nChị qua phòng họp nhỏ nhé ah"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "à ok"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Chỗ quy trình đã cập nhật lại deliverables chưa @hocnv2010 @vietmv92"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "final workflow, deliverables, template, check list( yêu cầu mandatory, optional) xong đưa vào chạy pilot"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Đã chốt chưa @hocnv2010 @vietmv92 @Tuanjnfor ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Cường - GĐ GDS",
+      "text": "Plan là tuần này làm pilot prj nhỉ?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Dạ chỗ này bọn em có điều chỉnh lại kế hoạch chút ah.\nDo chưa chốt được kịp quy trình chuẩn và việc áp dụng quy trình ấy vào chạy luôn project sẽ mất thời gian.\nNên hiện tại phần này anh Học có chia thành 2 phase.\nPhase 1 bọn em sẽ triển khai skill áp dụng cho quy trình hiện tại mọi người đang triển khai.\nSau đó là tiến hành Phase 2 sau khi đã chốt được quy trình chuẩn và input, output của các Role ạ.\nEm đang điều chỉnh lại Master Plan, đầu giờ sáng mai em xin phép gửi lại ạ."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Kế hoạch em đang dự kiến là Tuần này sẽ hoàn thiện và cái đặt xong các skill cho quy trình hiện tại.\nBắt đầu từ Thứ 2 tuần sau (17/08) sẽ làm pilot project ạ."
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Hi mọi người,\nHiện tại hệ thống AI Workbench đã triển khai xong.\nCác Skills đã có đang dựa trên trao đổi với các Team để thiết lập.\n\nEm xin phép book họp vào lúc 16h00 hôm nay(19/08) để trao đổi một số thông tin:\n1. Thiết lập Team triển khai công việc trên hệ thống AI Workbench\n2. Hướng dẫn và Demo chức năng của hệ thống\n3. Kế hoạch triển khai\n\nNhờ mọi người cử giúp nhân sự ở mỗi Role một người để tham gia triển khai công việc sử dụng hệ thống AI Workbench nhé.\n• PO nhờ @minhhnhatt \n• UI/UX nhờ @quctuan \n• BA nhờ chị @lalethuy \n• DEV: Sẽ có 2 người BE và FE. BE thì tớ đề xuất Lương nhé @nduythanh ơi. FE thì sẽ để Khang\n• QC nhờ @thuyph312"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Hiện đang bị full phòng họp nên em xin phép chuyển lịch này qua 10h30 sáng mai.\nNhờ mọi người sắp xếp cử nhân sự tham gia giúp ạ!"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "@Tuanjnfor ơi có họp k?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Có ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Em mời mọi người ra phòng họp lớn nhé ah"
+    },
+    {
+      "sender_name": "Tuan Tran",
+      "text": "Nhờ @minhhnhatt , @quctuan , chị @lalethuy , @thuyph312 xem giúp nhân sự tham gia với nhé ah",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3919615973_202",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhờ @minhhnhatt , @quctuan , chị @lalethuy , @thuyph312 xem giúp nhân sự tham gia với nhé ah\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Tuan Tran</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

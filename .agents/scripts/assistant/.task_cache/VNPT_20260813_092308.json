@@ -1,0 +1,90 @@
+{
+  "task_id": "VNPT_20260813_092308",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "Tuan Nguyen",
+  "timestamp": "09:23 13/08/2026",
+  "trigger_message": "@quctuan anh ơi anh check giúp em nhớ",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "anh ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "chỗ này sao anh chia 3 cục ở 1 card ấy anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "à e cứ làm listing như bt nha, a nháp v thui"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "với cả chỗ này"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "trả trước với trả sau"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "nó có khác thông tin gì nhau khum anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Danh sách gói thì ko khác gì nhau, nma khi bấm chọn gói trả sau thì hiện thông tin confirm này giúp a"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oki anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Sang step thông tin nhận hàng, sẽ có thêm cước cam kết ở chỗ tổng tiền"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@tuanin34 Nhớ sửa a chỗ này để nổi bật hơn nhé, giờ đang chìm vào BG quá"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Với e trình bày flow giống bản cũ a làm ấy, cho dể follow"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "1. MUA SIM SỐ ĐẸP\n- Mua eSIM:\n  + Trả trước\n  + Trả sau\n\n- Mua SIM vật lý:\n  + Chỉ cần làm trả trước\nTrả sau note tương tự bên trên là dc\n\n2. MUA SIM KÈM GÓI ƯU ĐÃI\nTương tự, nhưng chỉ cần làm đến step Thông tin nhận hàng. Vì đoạn sau giống hệt bên trên"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "oki anh"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "em xong rồi, anh check giúp em pphaanf mua SIM nha j"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "@quctuan anh ơi anh check giúp em nhớ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_451952",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan anh ơi anh check giúp em nhớ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Tuan Nguyen</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

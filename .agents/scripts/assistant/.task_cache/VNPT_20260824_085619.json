@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260824_085619",
+  "group_name": "[GDS-VIVAS] MiniApp",
+  "sender_name": "Tuan Tran",
+  "timestamp": "08:56 24/08/2026",
+  "trigger_message": "@aidenLeDevPDC \nBên anh đã add tài khoản chú gửi vào các Figma dự án rồi nhé.\nChú sử dụng giúp tài khoản đấy vào xem có thấy đủ thông tin để làm không.\nĐể bên anh bàn giao lại 2 tài khoản 06 và 08 cho QC bên anh.",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "oke chị lọc xong em báo lại"
+    },
+    {
+      "sender_name": "Phan Thai",
+      "text": "chỗ gói cước để test lại phải mua gói bằng tiền thật, chỗ này anh @hocnv2010 @Tuanjnfor check lại chứ tiền xăng lại quá tiền xe thì toang"
+    },
+    {
+      "sender_name": "Phan Thai",
+      "text": "staging thì chỉ cần giả lập, chứ cứ làm gói mấy trăm K/request, thì chi phí phát sinh nhiều quá"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "MOM Weekly sync up 21/08\nĐã chốt\n •Bàn giao các đợt:\n  • 28/08 Lịch sử thanh toán, Di Động - Tra cứu lịch sử sử dụng, QL thiết bị Internet\n  • 04/09 Di động /Internet/ MyTV- QL lưu lượng / gói cước / roaming\n  • 09/09 Quản lý thanh toán, Thanh toán tự động\n  • 11/09 Gói cước di động\n  • 15/09:Gói Internet và thiết bị, Gói Roaming, Gói cước MyTV\n • Lịch sử thanh toán: mock data cho những case GDS chưa thể cung cấp datatest, kèm note để test lại khi có data thật\n • VNPT Shop: BE self-test trước khi bàn giao\n • Vivas gửi lại bảng data test ghi rõ yêu cầu, tình trạng,….\nĐang block/ cần xem xét\n • BE luồng QL lưu lượng gói (Di động/Internet/MyTV) —> GDS @ngsong699  xem phân tích block xem phần nào của  IT và Media -> Escalate xử lý tiếp\n • Thiết bị Internet: BE (Hải) check xem API nào đã có, API nào cần làm => estimate lại\n       - Test các gói dùng tiền thật -> Vivas báo lại lãnh đạo"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Anh @phandangthai , @aidenLeDevPDC ơi,\nHiện tại bên GDS đang bị full tài khoản Figma trả phí.\nHiện 2 tài khoản bọn em đang cấp cho đội OS để làm thì nhờ các anh chủ động mua tài khoản trả phí khác nhé ah.\nEm xin rút 2 tài khoản này để bàn giao lại cho QC bên em.\nEm xin rút từ thứ 2 tuần tới nhé ạ. Nhờ các anh chuẩn bị giúp tài khoản để không bị gián đoạn công việc\n\n- Tài khoản 6:\ndev06.gds.vnpt@gmail.com\n\n- Tài khoản 8:\ndev08.gds.vnpt@gmail.com\n\nDo thiết kế đang có những Dev Note nên cần phải có tài khoản Figma trả phí mới có thể xem được."
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "là bên em tự mua tk figma dev cho 2 cái 6 và 8 mà anh đang gửi ấy ạ"
+    },
+    {
+      "sender_name": "Phan Thai",
+      "text": "chịu @Tuanjnfor ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Cái này là công cụ để ae làm việc mà anh.\nGiống như thiết bị máy tính cho ae code"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Bên em có tk figma pro, hay là anh add tk bên em vào"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "như thế được k anh @Tuanjnfor"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Dc mà"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ này em gửi lại tài khoản pro để bên anh add vào các figma dự án"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Còn 2 tài khoản 6 và 8 thì bên anh sẽ rút lại để bàn giao cho QC bên anh"
+    },
+    {
+      "sender_name": "HocNV2010",
+      "text": "Dùng tài khoản trả phí add share vào là đc nhé Việt Anh @aidenLeDevPDC. E cung cấp để share là đc"
+    },
+    {
+      "sender_name": "Aiden",
+      "text": "Em đã báo lại acc r ạ"
+    },
+    {
+      "sender_name": "Tuan Tran",
+      "text": "@aidenLeDevPDC \nBên anh đã add tài khoản chú gửi vào các Figma dự án rồi nhé.\nChú sử dụng giúp tài khoản đấy vào xem có thấy đủ thông tin để làm không.\nĐể bên anh bàn giao lại 2 tài khoản 06 và 08 cho QC bên anh.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5477510891_456981",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@aidenLeDevPDC  Bên anh đã add tài khoản chú gửi vào các Figma dự án rồi nhé. Chú sử dụng giúp tài khoản đấy vào xem có thấy đủ th...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Tuan Tran</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

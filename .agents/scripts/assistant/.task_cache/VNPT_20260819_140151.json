@@ -1,0 +1,101 @@
+{
+  "task_id": "VNPT_20260819_140151",
+  "group_name": "BU BRCD (Quickwin)",
+  "sender_name": "Quynh Mai",
+  "timestamp": "14:01 19/08/2026",
+  "trigger_message": "Dear chị Nguyễn Thu Thủy , anh @tienhuytran207 , anh @BaMoon1102, anh @pvha_si , anh @thopnn , @NguyetDang , @ngngthaonhu . CC chị @lalethuy , chị @myntt2703 , chị Anh , anh @vietmv92, \nCC đại bàn: anh @CuongNguyen_VNPT , chị Chị Dung VNPT Lâm Đồng , \nCC VinaPhone: anh Trần Sách Trưởng , chị @nguyenphuongngan , anh @Phuongutc28051986 , chị Thao Linh , chị C Dinh Thuý VNP \nEm gửi lại MoM hôm nay:\n_ Về việc so khớp thông tin hợp đồng, eContract chủ động so khớp , thông tin so khớp là ID giấy tờ\n_ eContract dựng UI SDK theo yêu cầu của MyVNPT, em gửi lại UI ạ https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=38237-20895&t=nrhDreRRPH6KHRyN-4 \nPhía MyVNPT sẽ bổ sung 2 màn UI bao gồm:\n_ UI cho trường hợp đã hoàn thành bước ký BBNT rồi và đi từ hợp đồng qua thanh toán\n_ UI so khớp thông tin hợp đồng ko thành công \nSau đó báo lại eCOntract, để eContract có thể xây dựng giao diện\n_ Yêu cầu ký đầu nhân viên sau khi thanh toán: Cần bổ sung trạng thái chờ thanh toán trên eContract, phía MyVNPT cần tạo CR cho eContraact, phần này nhờ anh @tienhuytran207 cf giúp bên em có thể gửi mail yêu cầu, và các thông tin cần cho mail nội dung chi tiết như nao, em sẽ gửi yêu cầu chính thức cc lãnh đạo và đầu mối các bên vào nhé anh (VNP,IT, địa bàn). Trạng thái thanh toán OneBSS và eContract phối hợp đồng bộ với nhau theo yêu cầu\nĐồng thời nhờ anh @tienhuytran207 gửi lại giúp em SDK sau ký sẽ có giao diện như nào để bên em tham khảo và chỉnh để thuận tiện cho SDK\n_ eContract đánh gia chi tiết các API phía MyVNPT yêu cầu cập nhật\n_ Nhờ phía chị Nguyễn Thu Thủy OneBSS cung cấp danh sách thuê bao bắt buộc lập BBNT (timeline mong muốn trong tuần này) để MyVNPT check thêu bao cần ký BBNT\n_ Ký BBNT sẽ bao gồm 2 case: ký gộp theo khách hàng (tất cả chung 1 BBNT) và ký 1 lần trên tất cả các thuê bao bắt buộc ký BBNT (mổi thuê bao 1 BBNT)\n_ Chi tiết API giữa One và MyVNPT sẽ trao đổi giữa các BA",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Còn thuyết phục các bên là điều đương nhiên"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Econrtact Out họp rồi đấy :'(. Chưa chốt được API Req và kế hoạch 😢"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Anh thấy vẫn còn nhiều thứ phía PO cần chốt với IT (BBNT, Trạng thái, confirm gì đó với địa bàn, kiểm tra pháp chế, ....), phía Mai note lại chỉnh sửa rồi tổ chức họp thêm 1 lần nữa để final (Yêu cầu của final sẽ không phát sinh kịch bản hay thông tin liên quan cần hcoots)"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Song song phía Nguyệt buổi tới cần chủ động show màn hình trình bày về các API Req mà em đã gửi cho IT"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Để OneBSS và eContract confirm luôn."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Sau đó phía Ánh ( Ánh - PM ) sẽ trao đổi về phần kế hoạch"
+    },
+    {
+      "sender_name": "Đặng",
+      "text": "Hôm nay mn có trao đổi chi tiết yêu cầu API , SDK ..rồi ạ ,nhưng cũng có một số thông tin  bên IT cũng không thể chốt ngay là có đáp ứng được hay không và họ cần check lại với nội bộ nữa ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Uhm em, Như cuối buổi họp trao đổi, Chiều nay, em với chị Thu Thủy clear với nhau về API Req giúp anh nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Để mai chị Thu Thủy đồng bộ thông tin nội bộ phía IT xem có khả thi hay không"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Về eContract hôm nay chưa chốt được gì,\n\nÁnh ( Ánh - PM ) xem MoM chỗ Mai rồi xem tính next action tiếp theo thế nào."
+    },
+    {
+      "sender_name": "Anh",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Anh Việt ko họp ạ? Sao anh cứ làm rồi loạn đội hình ấy"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "??????????"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Anh nhắc em, 14h có cuộc họp với team EPC"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Em đồng bộ lại MoM với nội bộ ạ, theo nội dung này:\nBọn em cần bổ sung một số UI edge case bao gồm:\n_ UI BBNT (nội dung này eCOntract sẽ dựng SDK)\n_ Ngoài ra sau làm rõ với IT, cần bổ sung một số thông tin trên đơn hàng tracking và trường hợp thuê bao trả sau.\n_ Liên quan đến phản hồi nội bộ BA , UI sẽ bổ sung các edge case eKYC"
+    },
+    {
+      "sender_name": "Quynh Mai",
+      "text": "Dear chị Nguyễn Thu Thủy , anh @tienhuytran207 , anh @BaMoon1102, anh @pvha_si , anh @thopnn , @NguyetDang , @ngngthaonhu . CC chị @lalethuy , chị @myntt2703 , chị Anh , anh @vietmv92, \nCC đại bàn: anh @CuongNguyen_VNPT , chị Chị Dung VNPT Lâm Đồng , \nCC VinaPhone: anh Trần Sách Trưởng , chị @nguyenphuongngan , anh @Phuongutc28051986 , chị Thao Linh , chị C Dinh Thuý VNP \nEm gửi lại MoM hôm nay:\n_ Về việc so khớp thông tin hợp đồng, eContract chủ động so khớp , thông tin so khớp là ID giấy tờ\n_ eContract dựng UI SDK theo yêu cầu của MyVNPT, em gửi lại UI ạ https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=38237-20895&t=nrhDreRRPH6KHRyN-4 \nPhía MyVNPT sẽ bổ sung 2 màn UI bao gồm:\n_ UI cho trường hợp đã hoàn thành bước ký BBNT rồi và đi từ hợp đồng qua thanh toán\n_ UI so khớp thông tin hợp đồng ko thành công \nSau đó báo lại eCOntract, để eContract có thể xây dựng giao diện\n_ Yêu cầu ký đầu nhân viên sau khi thanh toán: Cần bổ sung trạng thái chờ thanh toán trên eContract, phía MyVNPT cần tạo CR cho eContraact, phần này nhờ anh @tienhuytran207 cf giúp bên em có thể gửi mail yêu cầu, và các thông tin cần cho mail nội dung chi tiết như nao, em sẽ gửi yêu cầu chính thức cc lãnh đạo và đầu mối các bên vào nhé anh (VNP,IT, địa bàn). Trạng thái thanh toán OneBSS và eContract phối hợp đồng bộ với nhau theo yêu cầu\nĐồng thời nhờ anh @tienhuytran207 gửi lại giúp em SDK sau ký sẽ có giao diện như nào để bên em tham khảo và chỉnh để thuận tiện cho SDK\n_ eContract đánh gia chi tiết các API phía MyVNPT yêu cầu cập nhật\n_ Nhờ phía chị Nguyễn Thu Thủy OneBSS cung cấp danh sách thuê bao bắt buộc lập BBNT (timeline mong muốn trong tuần này) để MyVNPT check thêu bao cần ký BBNT\n_ Ký BBNT sẽ bao gồm 2 case: ký gộp theo khách hàng (tất cả chung 1 BBNT) và ký 1 lần trên tất cả các thuê bao bắt buộc ký BBNT (mổi thuê bao 1 BBNT)\n_ Chi tiết API giữa One và MyVNPT sẽ trao đổi giữa các BA",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5294994516_454734",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear chị Nguyễn Thu Thủy , anh @tienhuytran207 , anh @BaMoon1102, anh @pvha_si , anh @thopnn , @NguyetDang , @ngngthaonhu . CC chị...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Quynh Mai</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token",
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 36,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "⚡ Khẩn: \"hôm nay\"",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/9BvwuBW0npFTeFMspnySYn/VNPT-Shop?node-id=38237-20895&t=nrhDreRRPH6KHRyN-4"
+  ],
+  "doc_links": []
+}

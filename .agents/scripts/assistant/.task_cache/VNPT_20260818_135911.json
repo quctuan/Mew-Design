@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260818_135911",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Eric Trần",
+  "timestamp": "13:59 18/08/2026",
+  "trigger_message": ":))) giờ bạn muốn lên bao nhiêu đây @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "mặc định đó chị ạ"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chọn cái này thì lúc nào mà chả về Minh"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "dù có chuyển assignee có khi IT cũng bắt tạo lại phiếu"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Em Đạt tạo phiếu nhiều sao lại tạo lỗi thế ==!"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Có tạo lại không để anh push lại anh Luật"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chứ khong lại bị chửi cho ==!"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@ntiendat"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "chuyển a Luật là được rồi ạ"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "em chuyển rồi"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "giờ chuyển sang IT360 nên phải chọn đúng dịch vụ, khi chọn đúng dịch vụ nó tự nhảy về Minh thôi ạ"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "a @erictrannn ơi, từ khóa xu hướng đang để giới hạn 20 ký tự, ko đủ so với design ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "k đủ cho cái dòng cuối cùng đúng k e"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "Dòng 2 cũng ko đủ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": ":))) giờ bạn muốn lên bao nhiêu đây @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454142",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\":))) giờ bạn muốn lên bao nhiêu đây @quctuan\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Eric Trần</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

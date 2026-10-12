@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260811_163101",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "16:31 11/08/2026",
+  "trigger_message": "Nhà tuấn biệt phủ à",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "ko thì chẳng lẽ đi workshop hở b =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đi cắm hoa"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cho làm guộc shóp chả mực"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "=))))) dc nhỉ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "có đi k mà đòi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ng gãy trước chắc chắn ko phải chúng toi"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=))))))))))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "=))) ko chúng chị thì ai"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": ";D"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "m chắc chưa"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ko gãy thì hẹnn cuối tuần này ở HL =))"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "weeknd à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "đc nhỉ"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "ở HL có weekdn khum =))"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "HL chắc chỉ có lăk đik thui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Nhà tuấn biệt phủ à",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_451391",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Nhà tuấn biệt phủ à\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nhu</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

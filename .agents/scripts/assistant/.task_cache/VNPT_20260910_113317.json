@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260910_113317",
+  "group_name": "[My VNPT] OS Tuấn",
+  "sender_name": "VNPT - Anh Minh PO",
+  "timestamp": "11:33 10/09/2026",
+  "trigger_message": "chỗ này oke hết chưa các bạn? @havietngn @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "mà để cả câu hỏi kia thì dài quá"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "ko phù hợp cái bước nhận SIM"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "uh nma a đang thấy UI này nó bị mờ quá"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "kiểu ko ai để ý mà đọc để bấm vào ý"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "trên góc độ nó là 1 tiện ích dành cho KH, thì nó cần nổi bật hơn"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỗ này button lạ nhỉ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@quctuan e check final hộ a 1 lượt về UI với nhé"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "em thấy bản bây giờ cx thế ấy anh ạ :)))"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "nma nó là nút search"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "à ko"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "em đổi phía trên rồi"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "em chưa đổi lại ở dưới"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": ":))"
+    },
+    {
+      "sender_name": "Tuan Nguyen",
+      "text": "soziiiiii"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hehee ukii"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "chỗ này oke hết chưa các bạn? @havietngn @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5261807612_465166",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"chỗ này oke hết chưa các bạn? @havietngn @quctuan\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Anh Minh PO</b>"
+  ],
+  "scoring": {
+    "score": 35,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

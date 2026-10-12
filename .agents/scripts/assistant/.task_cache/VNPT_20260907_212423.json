@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260907_212423",
+  "group_name": "MI Design",
+  "sender_name": "VNPT - Hoàng Anh",
+  "timestamp": "21:24 07/09/2026",
+  "trigger_message": "https://www.figma.com/files/team/1557641631057077560/folder/466539399?fuid=1396353631020085187",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Thì thấy step 1-3 oke hết r"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Trừ mỗi step 2 thui"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "delete campaign draft với published có gì khác nhau k a"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Giống nhau. Đều cần popup confirm"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "tối nay họp k em @Hoanganh1109"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "có nhé a zai"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Nay mình ngồi 2lands đúm k mn"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Uh 2land nhé"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "Ngọc"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "Xong Home vs Prj chưa? @celene_ne @taminhtr"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "chưa huhu"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "https://www.figma.com/board/1AbPntI62IFyMALbuRWZOx/MI-Concept?node-id=0-1&t=OMfT9JNLqutMcDjm-1"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "https://www.figma.com/files/team/1557641631057077560/folder/466539399?fuid=1396353631020085187",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5052245562_462918",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"https://www.figma.com/files/team/1557641631057077560/folder/466539399?fuid=1396353631020085187\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hoàng Anh</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 29,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/files/team/1557641631057077560/folder/466539399?fuid=1396353631020085187",
+    "https://www.figma.com/board/1AbPntI62IFyMALbuRWZOx/MI-Concept?node-id=0-1&t=OMfT9JNLqutMcDjm-1"
+  ],
+  "doc_links": []
+}

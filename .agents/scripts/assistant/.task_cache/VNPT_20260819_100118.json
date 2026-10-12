@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260819_100118",
+  "group_name": "PO / UIUX (PTSP-GDS)",
+  "sender_name": "Hoàng Anh",
+  "timestamp": "10:01 19/08/2026",
+  "trigger_message": "chuẩn chỉnh phết nhỉ có cả đeo thẻ nhân viên",
+  "context_history": [
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "uh a đang xin thông tin mà, a đang muốn triển khai mà chưa biết trước ai làm để làm cái landing page tương tự cho luồng gói cước"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ý e là LDP gói cước thường hiện đang có r nên k cần làm 1 cái nữa ý"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "hay a muốn làm lại theo style guide mới?"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "ko a chỉ đổi gói cước thôi"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "https://www.figma.com/design/yfcu6sKsDkRhgmD3zckKEU/Internet---Family-Safe?node-id=236-3375&t=k6j2azzjq98cqZFZ-1\n\nlink draft family safe"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "@minhhnhatt @quynhmaihavi ac review giúp e khung trc nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@taminhtr b check lại giúp t với nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@Hoanganh1109 bạn báo team UI rà hết lại phần này cho tôi nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "Nó là Nguồn tiền thì là nguồn tiền thanh toán ==> hiển thị thẻ/ví/bankk liên kết"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "số tiền gốc thì là số tiền khi chưa trừ phí/chiết khấu/kkhuyeens mại ạ"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "đã fix nhé"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "tóc vuốt chất thật :))"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "nhìn như game thời 2015 ấy nhỉ"
+    },
+    {
+      "sender_name": "Son",
+      "text": "như gunny :))"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "chuẩn chỉnh phết nhỉ có cả đeo thẻ nhân viên",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5017281698_454586",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"chuẩn chỉnh phết nhỉ có cả đeo thẻ nhân viên\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Hoàng Anh</b>"
+  ],
+  "scoring": {
+    "score": 39,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/yfcu6sKsDkRhgmD3zckKEU/Internet---Family-Safe?node-id=236-3375&t=k6j2azzjq98cqZFZ-1"
+  ],
+  "doc_links": []
+}

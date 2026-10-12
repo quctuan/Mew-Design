@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260904_032810",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Hà Nguyễn",
+  "timestamp": "03:28 04/09/2026",
+  "trigger_message": "A Hưng hơi sốc, nên đang để thời gian tự ngó thêm design anh ạ",
+  "context_history": [
+    {
+      "sender_name": "Hưng",
+      "text": "Hii e chào mn, e là Hưng QA mới , hôm nay em chính thức join dự án team mình. Rất vui được làm việc và đồng hành cùng mọi người trong thời gian tới ạ."
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hi Hưng 😄"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "Ngọc Tối nay b rảnh không, nhờ b setup transfer dự án cho anh Hưng giúp t với"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Huỷ diệt app đi b"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Nhờ e Hà trao đổi lại giải pháp để test cho canvas nhé :))"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "Anh Hưng đọc qua 1 lượt flow trên design trước nha ạ. Tầm 9r mình meet ok không ạ"
+    },
+    {
+      "sender_name": "Hưng",
+      "text": "9r okiii nha, có gì gửi a link meet nhá"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "Dạ em link meet ạ\nhttps://meet.google.com/iur-unbs-vub"
+    },
+    {
+      "sender_name": "Hưng",
+      "text": "accept a vô nha"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "https://meet.google.com/vvg-gfmo-ith\nEm gửi ạ"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "accept đi Ngọc"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "https://meet.google.com/ppy-aqvo-rvu"
+    },
+    {
+      "sender_name": "Hà",
+      "text": "Ngọc Hưng mn vào meet này nha"
+    },
+    {
+      "sender_name": "Ngọc",
+      "text": "https://github.com/MakeIT-POD/makeit-docs"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "nét chưa ae"
+    },
+    {
+      "sender_name": "Hà Nguyễn",
+      "text": "A Hưng hơi sốc, nên đang để thời gian tự ngó thêm design anh ạ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_461375",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"A Hưng hơi sốc, nên đang để thời gian tự ngó thêm design anh ạ\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Hà Nguyễn</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

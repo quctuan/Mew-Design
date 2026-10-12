@@ -1,0 +1,93 @@
+{
+  "task_id": "VNPT_20260821_153710",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "15:37 21/08/2026",
+  "trigger_message": "???",
+  "context_history": [
+    {
+      "sender_name": "Tuan",
+      "text": "Trông chán vcl =)))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Hẹn bữa nữa để chụp lại"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "Ngạ nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chốt"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nàooooooooooo"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko dám tag tuấn"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": ";D"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "sợ lắm"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "case study à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "@havietngn em tim là ý gì"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "thích à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": ";D"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "chị em nối bước nhau"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "khá là oke kk"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "???",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_455966",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"???\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>VNPT - Hà PO</b>"
+  ],
+  "scoring": {
+    "score": 47,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

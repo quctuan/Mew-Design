@@ -1,0 +1,95 @@
+{
+  "task_id": "VNPT_20260818_140229",
+  "group_name": "[GDS] Design Team",
+  "sender_name": "Phuong Vu",
+  "timestamp": "14:02 18/08/2026",
+  "trigger_message": "@quctuan t chưa biết nên xuất cho dev cái tag như thế nào vì cái text là sẽ thay đổi kí tự rùi nên xuất cả cái tag theo kích thước này sẽ ko đúng lắm nhỉ",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "team dev tha thiết mời c Phương đi nhậu tối t6"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "@celene_ne"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "cái chì thía"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "khom thấy có chữ P nào cả"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "@quctuan cái này là đã sắp xếp thứ tự hiển thị chưa nhỉ Tuấn ơi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Giải trí - Gaming MXH - Du lịch - Mua sắm - Học tập"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Xếp như này nhá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "okiee"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "@celene_ne Phương ơi, khéo tách phần Roaming và Quản lý đơn hàng ra làm 2 file riêng nhá, cho figma shop đỡ bị nặng quá"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Okie chắc tách phần Roaming ra trước vì QLĐH đang chưa có gì lắm"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Tình hình là copy sang file mới thì mấy cái flow bị lệch đi hết :D"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "hay duplicate r xóa page"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "ừa okie rùi nhó"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "check comp xem có bị xóa k"
+    },
+    {
+      "sender_name": "Phuong",
+      "text": "Comp vẫn okie"
+    },
+    {
+      "sender_name": "Phuong Vu",
+      "text": "@quctuan t chưa biết nên xuất cho dev cái tag như thế nào vì cái text là sẽ thay đổi kí tự rùi nên xuất cả cái tag theo kích thước này sẽ ko đúng lắm nhỉ",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5176170358_454149",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@quctuan t chưa biết nên xuất cho dev cái tag như thế nào vì cái text là sẽ thay đổi kí tự rùi nên xuất cả cái tag theo kích thước...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Phuong Vu</b>"
+  ],
+  "scoring": {
+    "score": 20,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

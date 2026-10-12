@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260821_164204",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Nhu",
+  "timestamp": "16:42 21/08/2026",
+  "trigger_message": "chưa dc nói với nyc câu nào",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "mắt e 1/10"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nên em mới nhìn nhầm người"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": ":("
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "c nghi mày lại sắp lò vi sóng lắm"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "lại lại"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "nói khí ko phải chứ ảnh này hơi điềm"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "bạn đã bị bao vây"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "rút điện r ytam"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "cuộc hẹn ngạ là bao h ấy nhỉ cả nhà"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tuần sau lễ à"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "hay mai"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "cũng dc"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ái chà, Như quay lại r à"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "để tuần sau lễ điii =))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh tuỳ thui"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "chưa dc nói với nyc câu nào",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_456110",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"chưa dc nói với nyc câu nào\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Nhu</b>"
+  ],
+  "scoring": {
+    "score": 47,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn",
+      "❓ Có câu hỏi / Cần phản hồi"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

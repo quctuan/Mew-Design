@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260818_101045",
+  "group_name": "GDS_Đề án Phát triển nền tảng KD trên MTS",
+  "sender_name": "Trà My",
+  "timestamp": "10:10 18/08/2026",
+  "trigger_message": "1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc phải có nhân viên địa bàn gặp trực tiếp ký HĐ cho KH sẽ rất tệ về trải nghiệm. Nên nếu  trong tuần này  đối tác cf k hoàn thành trong T8 thì mình sẽ tạm pending.\n2. KB KD: Hiện tại Data đang đánh giá mức độ khả thi của dữ liệu, trong TH dữ liệu k sẵn sàng sẽ chuyển KB recommendation đơn giản hơn/ tận dụng luồng sẵn có\n3. Chương trình Loyalty bản chất là mình xin được thêm trong quá trình làm việc với các bên nhằm tăng thiện cảm vs KH, k nằm trong mục tiêu QW. Hiện tại phía TT KD Online đã xong phương án để Ban PTTT duyệt, team sẽ cố gắng thúc đẩy, nhưng đây được coi là 1 chương trình CSKH chứ k phải chính sách gắn liền mãi mãi vs kênh, nên em đề xuất k đưa vào bắt buộc ép tiến độ 15/10",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt )\n\ncc: My ( @myntt2703 )\n\nVụ QW Di động cũng rất vấn đề rủi ro tới khả thi thực hiện của cả QW Di Động"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "BRCD ít nhất vẫn có 1 số WP vẫn đang chạy. Di động thì hiện tại đang dừng ở phía PO."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Từ giờ tới 15/10 còn khoảng 8 tuần gì đó.\n\n• 1 Tuần test Beta\n• 1 tuần test Staging\n• 1 tuần tích hợp\n• 4 tuần IT Implement\n\n=> Tính sơ sơ cũng 7/8 tuần rồi. đây là TH quá hoàn hảo để thực hiện.\n\nChưa nói thời gian cho BA, cho Impelemtn nội bộ bên mình, rủi ro delay khi trao đổi với IT và việc IT có đáp ứng được theo yêu cầu của mình không......\n\nNên giờ QW Di Động đang rất vấn đề"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@vietmv92 a ơi htrc a mail cho VNP để push bên ý chốt sớm ndung cho mình theo ndung a Cường hdan chưa ạ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "hình như e ko trong loop mail đấy nên ko thấy"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Chết thật. VNP là anh Cường giao cho Squad lead làm việc với VNP mà nhỉ 😢"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "e tưởng trc giờ mail hoặc comment trong group để push tiến độ là PM chứ nhỉ?"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "nếu vậy để e mail cũng dc"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "trước anh push tất cả các bên, qua mấy lần anh Cường có điều chỉnh lại, anh chỉ Push IT thôi. VNP, địa bàn, TD thì squad lead sẽ làm."
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "còn các ndung này bản chất là vướng ở VNP, cần escalate lên LĐ để push hộ r chứ ko phải dừng ở PO. a note vậy bọn e cũng có chốt hộ VNP dc đâu mà =)))"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Không phải PO, Chuẩn là Squad Lead 🙂"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "PO chỗ Hà anh thấy bạn ấy cũng làm hết sức có thể rồi"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Phần này anh raise Squad Lead và phía My aware được và có thể support bọn em thêm."
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hơn nữa phía anh Cường, anh Học cũng nắm được thêm thông tin để có thể hỗ trợ mức nào đó 🙂"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "vâng a"
+    },
+    {
+      "sender_name": "Trà My",
+      "text": "1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc phải có nhân viên địa bàn gặp trực tiếp ký HĐ cho KH sẽ rất tệ về trải nghiệm. Nên nếu  trong tuần này  đối tác cf k hoàn thành trong T8 thì mình sẽ tạm pending.\n2. KB KD: Hiện tại Data đang đánh giá mức độ khả thi của dữ liệu, trong TH dữ liệu k sẵn sàng sẽ chuyển KB recommendation đơn giản hơn/ tận dụng luồng sẵn có\n3. Chương trình Loyalty bản chất là mình xin được thêm trong quá trình làm việc với các bên nhằm tăng thiện cảm vs KH, k nằm trong mục tiêu QW. Hiện tại phía TT KD Online đã xong phương án để Ban PTTT duyệt, team sẽ cố gắng thúc đẩy, nhưng đây được coi là 1 chương trình CSKH chứ k phải chính sách gắn liền mãi mãi vs kênh, nên em đề xuất k đưa vào bắt buộc ép tiến độ 15/10",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5192106461_453929",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"1. Family Safe sẽ phải đánh giá lại mức độ sẵn sàng của đối tác, hiện tại họ chưa có thanh toán online, việc phải có nhân viên địa...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trà My</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>Trà My</b>"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"duyệt\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

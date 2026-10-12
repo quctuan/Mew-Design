@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260909_135617",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Nam",
+  "timestamp": "13:56 09/09/2026",
+  "trigger_message": "a @leanhvu88 ơi task [Gói cước di động] Bổ sung luồng check điều kiện đăng ký gói BA là c Linh. Trao đổi chung a trao đổi ở gr này nhé",
+  "context_history": [
+    {
+      "sender_name": "ViệtMV",
+      "text": "Ra phòng họp nhé anh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Vụ họp này lùi lại lịch nhé ạ. Hiện PO đang đi họp vụ khác ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Lịch em báo lại sau ạ"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Ticket này phía IT đóng nhầm 😐"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "@lalethuy Xem chuyển trạng thái lại giúp em với được không"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@erictrannn"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@DuyTuan_App    cái này có trên  phần  roaming hồi trc chưa anh nhỉ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "thôi thì đoạn này a @koi_oh hỗ trợ e tiếp nhé, số phận r :D"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "okay e 😂️️️️️️"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "chịu"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "e tạo lại đi"
+    },
+    {
+      "sender_name": "thuy",
+      "text": "xong lại chờ thêm 1 tháng phê duyệt nữa"
+    },
+    {
+      "sender_name": "Koi",
+      "text": "màn hình này chốt lại là ở trên webview nhé.\n\n\ncác mục hdsd, faq,...etc sẽ build trên web.\n\n\nsrs đang update...."
+    },
+    {
+      "sender_name": "Koi",
+      "text": "cc @havietngn \n\nnhờ PO và design update phần note + design ở SCR-HDSD để tránh dev làm sai nhé"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Minh ( @minhhnhatt ),  Như ( @ngngthaonhu ), anh Vũ ( @leanhvu88 ), chị Thúy ( @thuyph312 ) Mai ( @quynhmaihavi )\n\nLịch vụ này lùi sang 9h30 sáng mai nhé ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "a @leanhvu88 ơi task [Gói cước di động] Bổ sung luồng check điều kiện đăng ký gói BA là c Linh. Trao đổi chung a trao đổi ở gr này nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_464258",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"a @leanhvu88 ơi task [Gói cước di động] Bổ sung luồng check điều kiện đăng ký gói BA là c Linh. Trao đổi chung a trao đổi ở gr này...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Nam</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

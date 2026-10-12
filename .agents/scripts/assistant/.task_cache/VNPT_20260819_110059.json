@@ -1,0 +1,87 @@
+{
+  "task_id": "VNPT_20260819_110059",
+  "group_name": "Line 1: Super App",
+  "sender_name": "Eric Trần",
+  "timestamp": "11:00 19/08/2026",
+  "trigger_message": "thế thì nếu gói A , b upload ảnh thumbnail của nó lên có chữ Internet +truyền hình\nNhưng b add nó vào cả danh mục hộ kinh doanh thì trong danh mục hộ kinh doanh nó vẫn hiện lên chữ Internet + truyền hình đấy b nhé",
+  "context_history": [
+    {
+      "sender_name": "thuy",
+      "text": "Hồng BA chủ trì task này nhé"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "Anh",
+      "text": "Em @havietngn , @tu_uyenn , qua trao đổi thì phần Feed đang có change request 2 mục UI để đồng bộ concept với phần Feed ở mục gói cước (bản final chốt về sau).\n\nChị đã tạo ticket update riêng: GMYVNPT1-539 — https://dvs.vnptmedia.vn/browse/GMYVNPT1-539\n(tách riêng khỏi GMYVNPT1-10 Feed)\nNhờ 2 em bổ sung vào phần Scope, tài liệu trong ticket\n\nNhờ a @Tuanjnfor, a @nduythanh, chị @thuyph312 sau khi có tài liệu thì break task và estimate phần change này ạ."
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "màn cá nhân mục cài đặt này ds các tinh năng này có cấu hình ko nhỉ em @ngngthaonhu"
+    },
+    {
+      "sender_name": "Nhu",
+      "text": "ko cần đâu ạ"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "@quctuan ơi"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "cái này chính là tên danh mục nhỉ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "t nghĩ nên tách riêng ra, vì có danh mục thì tag trên gói lại ko trùng với tên danh mục"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "hầy, thế mà b vẽ như tên danh mục vậy"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "thế có gói nào nằm trong nhiều danh mục k"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "à cái gói độc quyền hay hộ kinh doanh đấy nó nằm trong ảnh thumbnail của gói à"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "uh đúng rùi"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Trường hợp này có đó"
+    },
+    {
+      "sender_name": "Eric Trần",
+      "text": "thế thì nếu gói A , b upload ảnh thumbnail của nó lên có chữ Internet +truyền hình\nNhưng b add nó vào cả danh mục hộ kinh doanh thì trong danh mục hộ kinh doanh nó vẫn hiện lên chữ Internet + truyền hình đấy b nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_454668",
+      "is_mentioned": true,
+      "is_reply_to_me": true
+    }
+  ],
+  "context_sentence": "<i>\"thế thì nếu gói A , b upload ảnh thumbnail của nó lên có chữ Internet +truyền hình Nhưng b add nó vào cả danh mục hộ kinh doanh th...\"</i>",
+  "action_items": [
+    "Đọc nội dung phản hồi và tiếp tục trao đổi với <b>Eric Trần</b>"
+  ],
+  "scoring": {
+    "score": 24,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn",
+      "🎯 Reply tin nhắn bạn"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

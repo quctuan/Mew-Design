@@ -1,0 +1,88 @@
+{
+  "task_id": "VNPT_20260828_145655",
+  "group_name": "[Super App] Trao đổi BA, Tech MyVNPT và MyTV",
+  "sender_name": "Tiến Đỗ",
+  "timestamp": "14:56 28/08/2026",
+  "trigger_message": "+ % khuyến mại —> Chưa có —> Nhờ anh check lại trả thêm tỷ lệ % KM giúp e\n\n=> cái này mình xài trường promotion_value nha",
+  "context_history": [
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "hiện tại nếu mua qua phương thức là TKC , thì hệ thống mytv đã tự gia hạn rồi em, phía myvnpt ko cần phải gọi gia hạn"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "à vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "a @dodinhtien ơi, bên a đang xét điều kiện đăng ký gói theo loại gói (VD VIP, VIPmax) chứ ko p theo chu kỳ đâu đúng ko ạ"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "đúng rồi e"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "xet theo gói chứ ko theo chu kì"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "a @dodinhtien ơi, em xin cái doc API với ạ"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "a gửi nha"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "em xem phần API package-available nha"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "em xin ạ. \nchị @nguyenngoclinh1 , Hong nhận hàng chị ơiiiii"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "oki"
+    },
+    {
+      "sender_name": "Hong",
+      "text": "anh @dodinhtien ơi, hình như API đang bị thiếu chút mấy thông tin hôm trc bên e có order, a check lại giúp e với nhé:\n1. Api lấy danh sách gói thuê bao có thể đăng ký:\n- Request: anh @dodinhtien đánh giá xem có cần thêm tham số để truyền kênh bán vào không? vì có thể sau mỗi kênh bán mở bán các gói khác nhau -> danh sách các gói được đăng ký phải lọc trong danh sách này.\n          —> Nhờ a check lại cần truyền thêm Channel vào api lấy ds k ạ?\n- Respon -> trả thêm các thông tin:\n+ % khuyến mại —>Chưa có trong Object \"Main_Package\"  —> Nhờ anh check lại trả thêm tỷ lệ % KM giúp e\n+ Tên chương trình khuyến mại ( ví dụ: KM cuối tuần ) —> ok đã có\n+ Giá gói sau khuyên mại ( giá gói thực trừ) —> ok đã có\n\n2. Api kiểm tra thuê bao có được đăng ký gói\n- Respone -> trả thêm các thông tin:\n+ % khuyến mại —>  Chưa có —> Nhờ anh check lại trả thêm tỷ lệ % KM giúp e\n+ Tên chương trình khuyến mại ( ví dụ: KM cuối tuần ) —> Chưa có —> Nhờ anh check lại giúp e\n\n3. Api thực hiện DK/HUY gói\n- Request: bổ sung tham số truyền vào nguồn tiền trừ KH ( TKC hoặc nguồn tiền khác) —>  Chưa có —> Nhờ anh check lại giúp e nhé\nE cảm ơn anh chị!"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "đoạn gói addon này bị thừa, gói main thì chưa có"
+    },
+    {
+      "sender_name": "Ngọc Linh",
+      "text": "khả năng a Tiến add bị nhầm :))"
+    },
+    {
+      "sender_name": "Tiến Đỗ",
+      "text": "+ % khuyến mại —> Chưa có —> Nhờ anh check lại trả thêm tỷ lệ % KM giúp e\n\n=> cái này mình xài trường promotion_value nha",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5589708935_460030",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"+ % khuyến mại —> Chưa có —> Nhờ anh check lại trả thêm tỷ lệ % KM giúp e  => cái này mình xài trường promotion_value nha\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Tiến Đỗ</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"motion\""
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

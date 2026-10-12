@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260820_163114",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "Lê Hậu",
+  "timestamp": "16:31 20/08/2026",
+  "trigger_message": "Hi chị @quynhmaihavi, chị Mai ơi em hỏi chút phần Shop - Miniapp Gói cước di động. Luồng thanh toán  như QR, chọn ngân hàng, điều hướng Bank App,... sẽ chuyển sang native app hay miniapp sẽ xử lý ạ?",
+  "context_history": [
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Theo base"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "cái này bị ở bên nào nhỉ"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "android? iOS? hay cả 2?"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiện ios bị. Android mình k thấy bị nhé. @hieunguyen271095"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "t xin iOS version và iphone mấy"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "chỗ code này đẩy branch nào chưa ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Iphone 13, version 18.4.1. Mình chưa đẩy. Xíu mình đẩy nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "đẩy xong gửi branch t check nhé"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "@quctuan trao đổi với Hiền nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiếu ơi account git của b là Trọng Hiếu hay Văn Hiếu nhỉ?"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "Văn Hiếu nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@hieunguyen271095 Hiếu review giúp mình PR cũng như kiểm tra hiển thị trên Iphone phần BottomSheet (tab gói GTGT, VIP -> màn chi tiết) trên IPhone với nhé. \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/36"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "@quctuan mình xin background của phần Emi assistant với ạ, hiện tại mình export bg bị dính text ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "okilâ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "phần này nó có animation ở BG, đợi mình điều chỉnh chút r gửi lại file JSON ạ"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hi chị @quynhmaihavi, chị Mai ơi em hỏi chút phần Shop - Miniapp Gói cước di động. Luồng thanh toán  như QR, chọn ngân hàng, điều hướng Bank App,... sẽ chuyển sang native app hay miniapp sẽ xử lý ạ?",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_455304",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hi chị @quynhmaihavi, chị Mai ơi em hỏi chút phần Shop - Miniapp Gói cước di động. Luồng thanh toán  như QR, chọn ngân hàng, điều ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Lê Hậu</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

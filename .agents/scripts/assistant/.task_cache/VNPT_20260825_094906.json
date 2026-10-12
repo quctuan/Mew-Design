@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260825_094906",
+  "group_name": "[GDS-VIVAS]-MiniApp-VNPT Shop",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "09:49 25/08/2026",
+  "trigger_message": "@koi_oh ơi, luồng prelogin bên t có bổ sung thêm TH TB ngoại mạng và bổ sung thêm banner mời KH đăng nhập sau khi mua gói thành công, nhờ c update cho dev giúp t vs nhe https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=48440-86162&t=GM4vlDmzaIpqMbSF-4",
+  "context_history": [
+    {
+      "sender_name": "Song",
+      "text": "@haihd22  em support phần lọc api  danh sách danh mục con +  gói cước"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "@ngsong699 Mình hỏi thêm các api về đổi số điện thoại, ngoại mạng, pre-login thì mình thấy được ở đâu trên wiki ạ?"
+    },
+    {
+      "sender_name": "Song",
+      "text": "@haulcw   à chỗ này em thiếu chút, truyền đc cả category con (VD siêu ưu đãi data nhé,  sẽ ra array 1 item của category con đó thôi"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "durations, app_names đều là filter ạ. Trong code không có enum cố định cho 2 field này ạ"
+    },
+    {
+      "sender_name": "Hoàng",
+      "text": "durations và app_names truyền lên thì nó sẽ có data như này ạ {\n  \"category_id\": 123,\n  \"category_type\": 1,\n  \"msisdn\": \"849xxxxxxx\",\n  \"durations\": [1, 7, 30],\n  \"app_names\": [\"Facebook\", \"TikTok\", \"YouTube\"]\n}"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "bro check comment nhé"
+    },
+    {
+      "sender_name": "Lê Hậu",
+      "text": "Hiếu check lại mình với nhé. Thank bro. @hieunguyen271095"
+    },
+    {
+      "sender_name": "Thắng",
+      "text": "a @hieunguyen271095 review giúp e PR với ạ \nhttps://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/42"
+    },
+    {
+      "sender_name": "Hieu",
+      "text": "roaming @dangthtobi sẽ care cho ae nhé"
+    },
+    {
+      "sender_name": "Hiền",
+      "text": "anh @hieunguyen271095 review PR giúp em với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/41"
+    },
+    {
+      "sender_name": "Thắng",
+      "text": "a @dangthtobi review giúp e PR với ạ https://gitlab.myvnpt.com.vn/gds_app/miniapp_team/miniappmyvnpt/-/merge_requests/42"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "cái này có đẩy thiếu gì không e, a vào nhánh đấy run thử thì lỗi"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "cái này merge rồi nhá e"
+    },
+    {
+      "sender_name": "Thắng",
+      "text": "a chạy cái yarn assets:gen thì mới có icon với ảnh ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@koi_oh ơi, luồng prelogin bên t có bổ sung thêm TH TB ngoại mạng và bổ sung thêm banner mời KH đăng nhập sau khi mua gói thành công, nhờ c update cho dev giúp t vs nhe https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=48440-86162&t=GM4vlDmzaIpqMbSF-4",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5531006099_457846",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@koi_oh ơi, luồng prelogin bên t có bổ sung thêm TH TB ngoại mạng và bổ sung thêm banner mời KH đăng nhập sau khi mua gói thành cô...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>VNPT - Hà PO</b>",
+    "Mở link Figma đính kèm để kiểm tra layout & chỉnh sửa token"
+  ],
+  "scoring": {
+    "score": 33,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Kèm link Figma / Doc",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [
+    "https://www.figma.com/design/R5Mx32crLjH3vT086iax3D/Roaming?node-id=48440-86162&t=GM4vlDmzaIpqMbSF-4"
+  ],
+  "doc_links": []
+}

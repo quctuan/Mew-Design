@@ -1,0 +1,78 @@
+{
+  "task_id": "VNPT_20260827_153222",
+  "group_name": "[Design, DEV] Trao đổi UI mới",
+  "sender_name": "Phạm Thanh Hải",
+  "timestamp": "15:32 27/08/2026",
+  "trigger_message": "2 ui này 1 ở home pre login, 1 ở vnpt shop có đồng bộ dc k a @quctuan",
+  "context_history": [
+    {
+      "sender_name": "Thành",
+      "text": "@quctuan ơi phần layout a khoanh đỏ trong lịch trải nghiệm này ae đang chủ ý để glass à em. A thấy spam nhiều layout glass quá drop đó @@"
+    },
+    {
+      "sender_name": "Đăng",
+      "text": "@quctuan Phần này UI cũ đang để trong 1 cái bottomsheet, bản mới sẽ trải phẳng ra đây luôn à a?"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "ảnh hưởng performance hả a, thế để bọn e điều chỉnh ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Top-up ko thay đổi UI gì đâu a, chỉ đổi mỗi đoạn thanh toán thui"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "uh em . hiện tại app mk đang hỗ trợ nhiều device version thấp , nên cái gì ko cần thiết thì ae để bt thôi em"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "case này là khi user lần đầu vào mua thẻ, nếu đã từng mua rồi thì nó collapse cái HDSD này đi ạ"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@taminhtr a thấy người hay có mấy cái react lạ lắm nhé, coi trừng ae team app đấy :)))))"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e vẫn coi trừng mà a"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "e bỏ glass rùi nhé a Thành 🐒"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "@toandvx ơi c theo dõi nhé."
+    },
+    {
+      "sender_name": "Toản",
+      "text": "Ok a ơi"
+    },
+    {
+      "sender_name": "Phạm Thanh Hải",
+      "text": "2 ui này 1 ở home pre login, 1 ở vnpt shop có đồng bộ dc k a @quctuan",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5103914620_459349",
+      "is_mentioned": true,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"2 ui này 1 ở home pre login, 1 ở vnpt shop có đồng bộ dc k a @quctuan\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 12,
+    "level": "HIGH",
+    "badge": "🔥 HIGH (ƯU TIÊN CAO)",
+    "emoji_dot": "🟠",
+    "reasons": [
+      "🎯 Tag trực tiếp bạn"
+    ]
+  },
+  "urgency": "🔥 HIGH (ƯU TIÊN CAO)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

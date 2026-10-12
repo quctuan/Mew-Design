@@ -1,0 +1,91 @@
+{
+  "task_id": "VNPT_20260914_101605",
+  "group_name": "SIM Số - revamp",
+  "sender_name": "VNPT - Hà PO",
+  "timestamp": "10:16 14/09/2026",
+  "trigger_message": "@kietla01 c Anh Nguyen ơi, phần này e tách tahfnh 2 ticket nhé ạ\n1. BS Ghi nhận dữ liệu luồng BH https://dvs.vnptmedia.vn/browse/GMYVNPT-880\n2. QWDD - SIM - Điều chỉnh luồng ĐKTTTB (update thêm luồng BH) https://dvs.vnptmedia.vn/browse/GMYVNPT1-615",
+  "context_history": [
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "Đi theo bảng quy định của VNP mà, IT điều chỉnh theo thui"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@havietngn luồng này bên mình có điều chỉnh theo ko nhỉ. sửa cả luồng order vs khởi tạo đó"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "ko c ạ, để e trao đổi với chỗ c Thúy và c Minh"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@name688899 @tranlong @thuyph312 anh chị ơi điều chỉnh giúp em mã HRM đang fix trong các API sau để gọi test ạ. trường hrmuser (API khởi tạo), hrm (API tiep-nhan-v8) 2 kênh đang fix là MYVNPT, DIGIWEB thì điều chỉnh theo 2 mã HRM mới này ạ. nhờ team QC test giúp em full luồng đăng ký cho 2 đơn bán trên My vs Digi sau khi dev update mã hrm ạ\nAPI khởi tạo :http://10.159.28.180:8088/mediagw/g/vsb_api\nAPI đăng ký: http://10.165.88.219/api/smcs/|service===tiep-nhan-v8"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "@ngthuyanh, @BuiHongPhu, @phuongnk chị đã gắn 2 HRM của DIGIWEB và MYVNPT theo 2 mã sau vào thành viên kênh 701 như sau: 1. MyVNPT: VNPT027877  Ngô Thảo Linh  0889849368  thaolinh@vnpt.vn\n2. Digishop web (B2C): VNPT027932 - Phùng Thị Thúy Hằng - 0916101989 - thuyhangpt@vnpt.vn => Thùy Anh gọi test thử cho chị xem ntn nhé, xem có đky được không, và ghi nhận dữ liệu ntn?"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT-880\n@kietla01 ơi c gửi ticket cho phần này nhé\n\ncc c @ngthuyanh phối hợp ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Chỗ này Dev đã update rồi à e"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "chưa ạ. em đang báo dev update trc ạ, xong thì mí đên QC ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "uki, có jira chưa nhỉ @kietla01 ?"
+    },
+    {
+      "sender_name": "Name",
+      "text": "cái này dealine như nào e nhỉ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "phần này golive 20/9 cùng IT ạ"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "https://dvs.vnptmedia.vn/browse/GMYVNPT-880\nCùng đây rồi chị"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Task digi riêng chứ nhỉ?"
+    },
+    {
+      "sender_name": "Name",
+      "text": "@luongtrandev ơi, e xem qua task này, chiều đi họp cùng a nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "@kietla01 c Anh Nguyen ơi, phần này e tách tahfnh 2 ticket nhé ạ\n1. BS Ghi nhận dữ liệu luồng BH https://dvs.vnptmedia.vn/browse/GMYVNPT-880\n2. QWDD - SIM - Điều chỉnh luồng ĐKTTTB (update thêm luồng BH) https://dvs.vnptmedia.vn/browse/GMYVNPT1-615",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4941309523_467526",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"@kietla01 c Anh Nguyen ơi, phần này e tách tahfnh 2 ticket nhé ạ 1. BS Ghi nhận dữ liệu luồng BH https://dvs.vnptmedia.vn/browse/G...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>VNPT - Hà PO</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 19,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

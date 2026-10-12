@@ -1,0 +1,86 @@
+{
+  "task_id": "VNPT_20260907_153458",
+  "group_name": "Bạn có thông báo mới",
+  "sender_name": "Thuỳ Anh",
+  "timestamp": "15:34 07/09/2026",
+  "trigger_message": "tuấn",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "tháng 10 có thì tháng 11 đi là đẹp"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "chỉ sợ lên hết lịch trình tiêu tiền r tiền lại k có như đợt 2/9 :("
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "dc bạn, lúc nào đi sẽ báo"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "thời tiết đẹp quá nhie"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "sao nại khoanh t6"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=)))))))"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "trời đẹp này đi học nó phí"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "nào bạn"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "=))))))))"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "hợp đi date"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "ai cho đi date nào"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "đi date hẳn với 4 ng còn gì"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "có ai ngon ko"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "tuấn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5112797468_462664",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"tuấn\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Thuỳ Anh</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 15,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO"
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

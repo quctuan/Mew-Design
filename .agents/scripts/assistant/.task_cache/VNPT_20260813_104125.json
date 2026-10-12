@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260813_104125",
+  "group_name": "[GDS] PO - KD",
+  "sender_name": "Trang Đỗ",
+  "timestamp": "10:41 13/08/2026",
+  "trigger_message": "Alo t vừa gọi trao đổi với đầu mối địa bàn Hà Nội, thì các chị có trao đổi lại một số vấn đề gặp phải khi xử lý đơn My VNPT:\n1. K tìm được đơn trên hệ thống\n2. KH phải thanh toán nhiều lần, k rõ lý do\n3. Không có tài liệu hướng dẫn cụ thể về việc xử lý đơn My VNPT trên các hệ thống. Chị í ví dụ là trên app Employee có rất nhiều luồng để tìm và xử lý 1 đơn hàng, nếu sai luồng gì đó dẫn đến đơn bị huỷ. Chứ k phải HNI muốn huỷ đơn My VNPT để ship ngoài",
+  "context_history": [
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c xem phù hợp k nhé"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "@huyenmmai ng chị ơi đã chốt đc thêm hạng mục chính sách nào chưa :))"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Chỗ SLA luồng EMS thì đưa luồng mới vào để xin ý kiến của địa bàn chứ nhỉ @havietngn"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "luồng cũ thì mình đâu cần xin ý kiến địa bàn nữa đâu, đang xây luồng mới mà"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "với bản SLA này sẽ để xin ý kiến VinaPhone luôn, nên các e cứ bổ sung đầy đủ luồng vào nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "đúng r"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e có vẽ luồng mới mà"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@tkim03 đồng bộ lại thông tin nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "luồng giao vận qua địa bàn trc là địa bàn khởi tạo và giao + ĐKTTTB"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "nên e k vẽ vào"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Chị hẹn lịch khoảng t5 trao đổi SLA với địa bàn"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "@havietngn hay @tkim03 trao đổi xem ai trình bày nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "e trao dổi với Kim r đấy c, các phần SLA lquan đến địa bàn thì team KD chủ trì, còn nhg SLA lquan đến Sp thì bên e đang trao đổi với VNP r"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "nhưng PO vẫn cần join cùng nhé @minhhnhatt"
+    },
+    {
+      "sender_name": "Trang",
+      "text": "Có nội dung kịch bản luồng giao vận qua đơn vị vận chuyển thứ 3 cần trình bày nữa"
+    },
+    {
+      "sender_name": "Trang Đỗ",
+      "text": "Alo t vừa gọi trao đổi với đầu mối địa bàn Hà Nội, thì các chị có trao đổi lại một số vấn đề gặp phải khi xử lý đơn My VNPT:\n1. K tìm được đơn trên hệ thống\n2. KH phải thanh toán nhiều lần, k rõ lý do\n3. Không có tài liệu hướng dẫn cụ thể về việc xử lý đơn My VNPT trên các hệ thống. Chị í ví dụ là trên app Employee có rất nhiều luồng để tìm và xử lý 1 đơn hàng, nếu sai luồng gì đó dẫn đến đơn bị huỷ. Chứ k phải HNI muốn huỷ đơn My VNPT để ship ngoài",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_4865367952_452052",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Alo t vừa gọi trao đổi với đầu mối địa bàn Hà Nội, thì các chị có trao đổi lại một số vấn đề gặp phải khi xử lý đơn My VNPT: 1. K ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>Trang Đỗ</b>"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

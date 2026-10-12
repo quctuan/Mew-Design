@@ -1,0 +1,96 @@
+{
+  "task_id": "VNPT_20260904_101904",
+  "group_name": "[GDS-VIVAS]-MiniApp-Di động - QL lưu lượng / gói cước / roaming",
+  "sender_name": "Thuy Phan",
+  "timestamp": "10:19 04/09/2026",
+  "trigger_message": "Đang gđ gấp rút, nếu chị bị miss thì e cứ call nhé",
+  "context_history": [
+    {
+      "sender_name": "Thang.",
+      "text": "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "mọi vấn đề em đều có note ở trong này rồi ạ , có gì em nhờ anh @giangnt2008 xem giúp em với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@giangnt2008 anh ơi , a đọc file có chỗ nào em note khó hiểu hay thiếu thông tin để check k ạ"
+    },
+    {
+      "sender_name": "Trường Giang",
+      "text": "anh note thêm cả api liên quan trong doc nữa cho anh nhé @Thangngw"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em có cột request để curl rồi ạ , để e xem cái nào còn thiếu thì em bổ sung ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@ngsong699 @giangnt2008 dc phần nào 2 anh update vào file với thông báo giúp em nhé ạ"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "@quctuan xem chị cái này với"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@quctuan Anh Nguyen @ngsong699 @giangnt2008 anh chị ơi , hỗ trợ giúp em với ạ"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "@thuyph312 chị ơi , phần này chị cho em xin thêm số để check dc nốt case này với ạ"
+    },
+    {
+      "sender_name": "Tuan",
+      "text": "Chỗ này đang chưa chốt dc phương án, để mình trao đổi thêm với PO r báo lại nhá"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "chỗ này 089 muốn là chủ nhóm hay thành viên e?"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "sớm giúp em trong hôm nay với ạ , để cuối tuần em tranh thủ ghép nốt để kịp t2 join test ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "c support luôn"
+    },
+    {
+      "sender_name": "Thang.",
+      "text": "em muốn xin thêm 1 số là chủ nhóm nữa ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Oki"
+    },
+    {
+      "sender_name": "Thuy Phan",
+      "text": "Đang gđ gấp rút, nếu chị bị miss thì e cứ call nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5320354749_461513",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Đang gđ gấp rút, nếu chị bị miss thì e cứ call nhé\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"gấp\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": [
+    "https://docs.google.com/spreadsheets/d/1U-1VsiKnsX_VZ_AnYIxWCkJTtvDYEKmea_FnxDfY0h4/edit?pli=1&gid=1432608601#gid=1432608601"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260914_083317",
+  "group_name": "Line 1: Super App",
+  "sender_name": "ViệtMV",
+  "timestamp": "08:33 14/09/2026",
+  "trigger_message": "Dear Như ( @ngngthaonhu ),\nCC: Chị Thủy LL ( @lalethuy ), anh Học ( @hocnv2010 ), Ánh ( Ánh - PM )\n\nTối thứ Sáu vừa rồi, anh Dũng (VNP) có trao đổi riêng với anh về phương án triển khai API Trigger khi CCCD của thuê bao có thay đổi.\n\nTheo góp ý từ anh Dũng, phương án API Trigger phía IT có thể sẽ gặp nhiều khó khăn khi triển khai, do:\n\n01. Số lượng điểm chạm cần cài đặt trigger lớn\n\n    - Riêng luồng Employee hiện có ít nhất khoảng 6 luồng cần đặt trigger, chưa bao gồm các điểm chạm khác như DigishopWeb, SMCS, MyVNPT, v.v.\n\n02. Rủi ro ảnh hưởng đến hiệu năng đối với thuê bao trả sau\n\n    - Việc truy vấn thông tin thuê bao trả sau liên quan đến số lượng bảng lớn; hiện có khoảng 64 bảng quản lý thông tin thuê bao trả sau.\n\nDo đó, anh Dũng đề xuất trong buổi họp sắp tới với IT, bên mình nên chuẩn bị thêm phương án đồng bộ dữ liệu định kỳ, dự kiến 2 lần/ngày, thông qua API hoặc FTP.\n\nDữ liệu đồng bộ bao gồm danh sách các CCCD có thay đổi liên quan từ 2 thuê bao trở lên. Trong danh sách sẽ thể hiện các thuê bao được thêm mới vào hoặc xóa khỏi CCCD tương ứng.\n\nNhờ Như và chị Thủy tham khảo để chuẩn bị thêm phương án trao đổi với IT trong buổi họp tới.\n\nTrân trọng.",
+  "context_history": [
+    {
+      "sender_name": "Tú",
+      "text": "mấy kịch bản này mà không xác định được giới tinh để chung là Cảm ơn bạn được không @havietngn"
+    },
+    {
+      "sender_name": "Thoa",
+      "text": "kịch bản giới thiệu vietlot cũng đang có điều kiện giới tính ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "giới tính trong TTTB có (đvs TB VNP đã định danh), kb mình lấy từ đó ra đc ko  ạ?"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Như ( @ngngthaonhu ), Mai ( @quynhmaihavi )\n\nAlo 2 em gái, Chỗ anh Dũng đang bận họp vụ khác, nên khi nào anh Dũng họp xong anh em mình sẽ trao đổi vụ API Trigger nhé. chắc khoảng 3-4h gì đó là start họp thôi 🙂"
+    },
+    {
+      "sender_name": "VNPT - Như",
+      "text": "@vietmv92 EM đang có PYC liên quan đến bổ sung lấy thêm thông tin của thuê bao phục vụ cho luông login\nAnh follow để push giúp em nhé ạ \nhttps://cntt.vnpt.vn/browse/IT360-1632687"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "[API-PATH]: /tel_service/homegroup/shareBill   [REQUEST-ID]: 0445bd99-8078-423c-98ec-a081fad5893e   [TIME_PROCESS]: 763 ms  [BODY RESPONSE]: {\"errorCode\":\"400\",\"message\":\"Lỗi hệ thống\"}    @name688899  xem em với"
+    },
+    {
+      "sender_name": "Name",
+      "text": "@hainn191297 check cho Công Nam e nhé"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "c Anh Nguyen ơi, e có tạo task tuning 2 phần này, nhờ c đánh giá và sx và đưa vào KH giúp e với ạ\n\n[MiniApp QL Gói cước và dịch vụ] Bổ sung điều hướng gói cước đang sử dụng: https://dvs.vnptmedia.vn/browse/GMYVNPT-877\n[MiniApp VNPT Shop] Bổ sung UI gói cước không bán trên My VNPT + Gói Roaming đang sử dụng: https://dvs.vnptmedia.vn/browse/GMYVNPT1-758"
+    },
+    {
+      "sender_name": "Anh Nguyen",
+      "text": "mấy con này cũng lên cùng QW DĐ 15/10 à e?"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "vâng, ghép luôn vào mấy miniapp đang dev ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "{\n  \"result\": [\n    {\n      \"name\": \"FCLUB\",\n      \"code\": \"FCLUB\",\n      \"package_id\": \"\",\n      \"cycle\": \"3\",\n      \"data\": \"3\",\n      \"data_type\": \"1\",\n      \"unreg_type\": 1,\n      \"onnet_call_amount\": \"1500\",\n      \"offnet_call_amount\": \"60\",\n      \"priority\": \"60\",\n      \"price\": \"79000\",\n      \"time_start\": \"10/06/2026 00:04:41\",\n      \"time_end\": \"06/12/2026 23:59:59\",\n      \"package_type\": 0,\n      \"imageUrl\": \"https://api-myvnpt.vnpt.vn/Media/Images/21102020/fclub.png\",\n      \"imageUrl2\": \"https://cms-staging-myvnpt.vnptvas.vn/images/vasPkgs/1694051727651Internet_default01.jpg\",\n      \"cycleDesc\": \"1 tháng\",\n      \"listHotKey\": \"\",\n      \"starRates\": \"\",\n      \"sms_onnet_amount\": 0,\n      \"sms_offnet_amount\": 0,\n      \"img_url\": \"https://api-myvnpt.vnpt.vn/Media/Images/21102020/fclub.png\",\n      \"is_hot_package\": 0,\n      \"description\": \"<p>90GB Data, 1500p nội mạng,&nbsp;60p ngoại mạng.</p>\",\n      \"tag_code\": \"SERVICE_NEW\",\n      \"is_tag_icon\": 0,\n      \"data_unit\": \"GB\",\n      \"data_period_type\": \"DAY\",\n      \"data_period_text\": \"ngày\",\n      \"data_display\": \"3GB/ngày\",\n      \"freeDataApps\": [\n        {\n          \"id\": 1,\n          \"name\": \"Threads\",\n          \"iconUrl\": \"/freeDataApp/c93c0843daf84b8da15c41a7effec97e.png\"\n        },\n        {\n          \"id\": 2,\n          \"name\": \"Youtube\",\n          \"iconUrl\": \"/freeDataApp/068f0c5eaf9d4a4fa83260cc9c3f34c5.png\"\n        },\n        {\n          \"id\": 3,\n          \"name\": \"Instagram\",\n          \"iconUrl\": \"/freeDataApp/153fe2be798a4e6caa42c6905bb4ee62.png\"\n        },\n        {\n          \"id\": 4,\n          \"name\": \"TikTok\",\n          \"iconUrl\": \"/freeDataApp/81552b50494a44cc8bc70965af6a03a4.png\"\n        },\n        {\n          \"id\": 5,\n          \"name\": \"Facebook\",\n          \"iconUrl\": \"/freeDataApp/80a20f2fb164444f84d4b9d0b033d0f4.png\"\n        },\n        {\n          \"id\": 6,\n          \"name\": \"Zalo\",\n          \"iconUrl\": \"/freeDataApp/f29a27a688e7412eadd3f67d87d771c4.jpg\"\n        }\n      ]\n    },\n    {\n      \"name\": \"IR_R500N\",\n      \"code\": \"IR_R500N\",\n      \"package_id\": \"\",\n      \"cycle\": \"20\",\n      \"data\": \"0\",\n      \"data_type\": \"3\",\n      \"unreg_type\": 1,\n      \"onnet_call_amount\": \"0\",\n      \"offnet_call_amount\": \"0\",\n      \"priority\": \"1\",\n      \"price\": \"500000\",\n      \"time_start\": \"10/09/2026 16:45:29\",\n      \"time_end\": \"09/11/2026 16:45:28\",\n      \"duration\": \"30\",\n      \"package_type\": 1,\n      \"imageUrl\": \"https://stagingv2.myvnpt.com.vn/cms/images/vasPkgs/17539484025261710122379772VAS-18.jpg\",\n      \"imageUrl2\": \"https://stagingv2.myvnpt.com.vn/cms/images/vasPkgs/17539484066841710122393568VAS-19.jpg\",\n      \"cycleDesc\": \"13 tháng\",\n      \"listHotKey\": \"\",\n      \"starRates\": \"4.9\"\n    }\n  ],\n  \"error_code\": \"0\",\n  \"messages\": \"Success\",\n  \"root_image\": \"https://api-myvnpt.vnpt.vn/vas/images\"\n}"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "."
+    },
+    {
+      "sender_name": "Nam",
+      "text": "."
+    },
+    {
+      "sender_name": "Nam",
+      "text": "@name688899 xem em sao map root_image vào ko xem dc ảnh với ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "/tel_service/mobile/getSubPackageAll"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Dear Như ( @ngngthaonhu ),\nCC: Chị Thủy LL ( @lalethuy ), anh Học ( @hocnv2010 ), Ánh ( Ánh - PM )\n\nTối thứ Sáu vừa rồi, anh Dũng (VNP) có trao đổi riêng với anh về phương án triển khai API Trigger khi CCCD của thuê bao có thay đổi.\n\nTheo góp ý từ anh Dũng, phương án API Trigger phía IT có thể sẽ gặp nhiều khó khăn khi triển khai, do:\n\n01. Số lượng điểm chạm cần cài đặt trigger lớn\n\n    - Riêng luồng Employee hiện có ít nhất khoảng 6 luồng cần đặt trigger, chưa bao gồm các điểm chạm khác như DigishopWeb, SMCS, MyVNPT, v.v.\n\n02. Rủi ro ảnh hưởng đến hiệu năng đối với thuê bao trả sau\n\n    - Việc truy vấn thông tin thuê bao trả sau liên quan đến số lượng bảng lớn; hiện có khoảng 64 bảng quản lý thông tin thuê bao trả sau.\n\nDo đó, anh Dũng đề xuất trong buổi họp sắp tới với IT, bên mình nên chuẩn bị thêm phương án đồng bộ dữ liệu định kỳ, dự kiến 2 lần/ngày, thông qua API hoặc FTP.\n\nDữ liệu đồng bộ bao gồm danh sách các CCCD có thay đổi liên quan từ 2 thuê bao trở lên. Trong danh sách sẽ thể hiện các thuê bao được thêm mới vào hoặc xóa khỏi CCCD tương ứng.\n\nNhờ Như và chị Thủy tham khảo để chuẩn bị thêm phương án trao đổi với IT trong buổi họp tới.\n\nTrân trọng.",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5289994351_467334",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear Như ( @ngngthaonhu ), CC: Chị Thủy LL ( @lalethuy ), anh Học ( @hocnv2010 ), Ánh ( Ánh - PM )  Tối thứ Sáu vừa rồi, anh Dũng ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>",
+    "Review giao diện và phản hồi ý kiến chuyên môn với <b>ViệtMV</b>"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"góp ý\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

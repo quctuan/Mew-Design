@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260812_142838",
+  "group_name": "[GDS] Team Quản lý SP&DV",
+  "sender_name": "Tubi",
+  "timestamp": "14:28 12/08/2026",
+  "trigger_message": "Deadline 5' nữa mng vote hết đi nhé",
+  "context_history": [
+    {
+      "sender_name": "Tubi",
+      "text": "đã cho cold brew vào rồi còn làm khó =)) chọn cold brew đi"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "đã cafe lại còn cóc vải thiều"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "mất chất quá chị ạ"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "e có món nào đỡ ngọt không"
+    },
+    {
+      "sender_name": "Nguyen Quynh",
+      "text": "anh cố chấp nhỉ"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "chung thuỷ em ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Có cold brew chanh vàng, chọn đi @Hoanganh1109 \nGiảm đường là đỡ ngọt ạ, 1 ngày ngọt ngào đi anh @xhphuong1984 , cuối tuần tăng đạm rồi"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "thế giảm giúp a kịch đường nhé:)"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "ai k uống ct cốm mà uống ct hoàng kim thì nhắn em nhé"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "vâng ạ"
+    },
+    {
+      "sender_name": "VNPT - Hà PO",
+      "text": "cho e giảm 70 đường ạ"
+    },
+    {
+      "sender_name": "Hoàng Anh",
+      "text": "cho e 30 đường"
+    },
+    {
+      "sender_name": "Minh",
+      "text": "cho e giảm 50 đường ạ"
+    },
+    {
+      "sender_name": "VNPT - Hằng Design",
+      "text": "em cũm giảm 50đ c ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Auto ít ngọt 50 đường, mng ai giảm nữa thì nhắn nhé ạ"
+    },
+    {
+      "sender_name": "Tubi",
+      "text": "Deadline 5' nữa mng vote hết đi nhé",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5241378184_451750",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Deadline 5' nữa mng vote hết đi nhé\"</i>",
+  "action_items": [
+    "Ưu tiên xử lý ngay trong ngày để kịp tiến độ bàn giao"
+  ],
+  "scoring": {
+    "score": 7,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "⚡ Khẩn: \"deadline\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

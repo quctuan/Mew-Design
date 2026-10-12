@@ -1,0 +1,97 @@
+{
+  "task_id": "VNPT_20260903_164445",
+  "group_name": "Công nhân MyVNPT",
+  "sender_name": "ViệtMV",
+  "timestamp": "16:44 03/09/2026",
+  "trigger_message": "Hoàng Anh ( @Hoanganh1109 ), Minh ( @minhhnhatt )\n\nXem vụ Landing Page TW 15/09 thế nào nhé. Chứ anh thấy Ticket Jira trống trơn, trong khi đó master plan Due của PO/UI/UX là 07/09. Thế này thì làm sao chạy kịp 😐\n\n1. Master Plan - LP TWD\n2. Ticket: Triển khai luồng bán sớm VIBE CLUB với TW Đoàn",
+  "context_history": [
+    {
+      "sender_name": "HOANG",
+      "text": "KH nhập đúng mã GS rồi; mà sao vẫn báo là không đúng vậy nhỉ @ngthuyanh"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "khởi tạo thành công chưa ạ anh"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "chỗ này có tối ưu lại luồng dc ko e"
+    },
+    {
+      "sender_name": "Thuỳ Anh",
+      "text": "đang bị sao mà cần tối ưu vậy anh"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "đơn chưa khởi tạo sim, mà KH kích hoạt thì nó báo như trên"
+    },
+    {
+      "sender_name": "HOANG",
+      "text": "KH và VNP đều đang chưa nắm dc"
+    },
+    {
+      "sender_name": "Phạm Thanh",
+      "text": "Add số vào whitelist 84949368369"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "add số vào whitelist 0949368369"
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "Đã nhận yêu cầu thêm số 0949368369. Đang chờ xác nhận từ admin..."
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "Bạn không có quyền xác nhận."
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "add số vào whitelist 0916608158"
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "Đã nhận yêu cầu thêm số 0916608158. Đang chờ xác nhận từ admin..."
+    },
+    {
+      "sender_name": "kimchi",
+      "text": "✅ Đã thêm số điện thoại 0916608158 vào whitelist."
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "@All ACE request quyền folder chung cho team PT giúp em vs ạ"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "https://drive.google.com/drive/folders/1AtMoZ334FoLFOZ_plGOAXO_R4MCr2BGY"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Hoàng Anh ( @Hoanganh1109 ), Minh ( @minhhnhatt )\n\nXem vụ Landing Page TW 15/09 thế nào nhé. Chứ anh thấy Ticket Jira trống trơn, trong khi đó master plan Due của PO/UI/UX là 07/09. Thế này thì làm sao chạy kịp 😐\n\n1. Master Plan - LP TWD\n2. Ticket: Triển khai luồng bán sớm VIBE CLUB với TW Đoàn",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_3650594272_3647",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hoàng Anh ( @Hoanganh1109 ), Minh ( @minhhnhatt )  Xem vụ Landing Page TW 15/09 thế nào nhé. Chứ anh thấy Ticket Jira trống trơn, ...\"</i>",
+  "action_items": [
+    "Phản hồi câu hỏi / giải đáp thắc mắc cho <b>ViệtMV</b>",
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 27,
+    "level": "CRITICAL",
+    "badge": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+    "emoji_dot": "🔴",
+    "reasons": [
+      "👑 VIP / Sếp / PO",
+      "❓ Có câu hỏi / Cần phản hồi",
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🚨 CRITICAL (CỰC KỲ KHẨN CẤP)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

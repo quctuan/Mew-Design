@@ -1,0 +1,94 @@
+{
+  "task_id": "VNPT_20260813_075536",
+  "group_name": "MyVNPT - All team triển khai",
+  "sender_name": "Ly Anh Kiet",
+  "timestamp": "07:55 13/08/2026",
+  "trigger_message": "Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành ), chị Thùy Anh ( @ngthuyanh ), chị Ngọc Linh ( @nguyenngoclinh1 ), Đức Hải, Trường Giang ( @giangnt2008 ), anh Văn Nam ( @name688899 ). chị Thúy ( @thuyph312 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy @tran_van_my @vietmv92 @hoangmanhcuong \n\nHiện tại MyVNPT đã Golive xong các hạng mục.\n\n1. QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu\n2. QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh\n3. QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM\n4. Điều chỉnh form đánh giá luồng Mua SIM và mua gói cước\n5. QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh\n\nCác công việc tối nay đã xong. Cảm ơn và chúc các anh/chị/em ngủ ngon ạ!",
+  "context_history": [
+    {
+      "sender_name": "Dat",
+      "text": "e đang ko vào được kibana"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "https://kibana.myvnpt.com.vn/"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "VPN vào trang này"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "pass vẫn vậy đúng ko ạ. em đang ko qua được lớp đầu tiên"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "a gửi e qua tin nhắn đấy"
+    },
+    {
+      "sender_name": "Dat",
+      "text": "em vào được r ạ"
+    },
+    {
+      "sender_name": "Nam",
+      "text": "Test hôm nay có vẻ êm quá nhỉ ace. Cảm giác an tâm lạ thường 😂"
+    },
+    {
+      "sender_name": "Ly Anh",
+      "text": "Dớp đấy anh ơi =)))))"
+    },
+    {
+      "sender_name": "Thành",
+      "text": "a thấy hôm golive nào cũng êm đềm thế mà"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "QA Hạnh chưa xong à e"
+    },
+    {
+      "sender_name": "Thuy",
+      "text": "Sắp rồi cứ bình tĩnh"
+    },
+    {
+      "sender_name": "ViệtMV",
+      "text": "Join Meet hỏi trực tiếp cho nhanh 😄"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "nói chuyện với Hạnh không thể kiềm chế được a à :D"
+    },
+    {
+      "sender_name": "Hạnh",
+      "text": "Các task đã done rồi nhé anh @ntiendat @tran_van_my @vietmv92"
+    },
+    {
+      "sender_name": "Nguyễn Tiến Đạt",
+      "text": "Okay em, a chờ e lâu lắm roài"
+    },
+    {
+      "sender_name": "Ly Anh Kiet",
+      "text": "Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh Thành ( Thành ), chị Thùy Anh ( @ngthuyanh ), chị Ngọc Linh ( @nguyenngoclinh1 ), Đức Hải, Trường Giang ( @giangnt2008 ), anh Văn Nam ( @name688899 ). chị Thúy ( @thuyph312 )\n\ncc:  @Phantom102 @Trangdt171 @hocnv2010 @minhhnhatt @lalethuy @tran_van_my @vietmv92 @hoangmanhcuong \n\nHiện tại MyVNPT đã Golive xong các hạng mục.\n\n1. QWDD - Sim số - Tái sử dụng TTTB cho KH hiện hữu\n2. QWDD - Gói cước - Bổ sung kịch bản phục vụ kinh doanh\n3. QWDD - Sim số - Kịch bản highlight các gói cước bundle SIM\n4. Điều chỉnh form đánh giá luồng Mua SIM và mua gói cước\n5. QWDD - Điều chỉnh luồng VNeID, NFC hiện hữu tích hợp với kho định danh\n\nCác công việc tối nay đã xong. Cảm ơn và chúc các anh/chị/em ngủ ngon ạ!",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_2049354892_36312",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Dear Văn ( @Ngocvan203 ), chị Hạnh ( Hạnh ), Nam ( Nam ), Vân Anh ( @vanhtt14 ), Đạt ( @datnd2109 ), anh Tuấn ( @Tuanjnfor ), anh ...\"</i>",
+  "action_items": [
+    "Rà soát nội dung trao đổi và phản hồi lại <b>Ly Anh Kiet</b> nếu cần"
+  ],
+  "scoring": {
+    "score": 4,
+    "level": "NORMAL",
+    "badge": "🟡 NORMAL (TIÊU CHUẨN)",
+    "emoji_dot": "🟡",
+    "reasons": [
+      "🎨 Thiết kế: \"luồng\""
+    ]
+  },
+  "urgency": "🟡 NORMAL (TIÊU CHUẨN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}

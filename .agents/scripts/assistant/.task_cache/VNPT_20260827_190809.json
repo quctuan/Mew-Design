@@ -1,0 +1,92 @@
+{
+  "task_id": "VNPT_20260827_190809",
+  "group_name": "MakeIt FE team",
+  "sender_name": "Phong",
+  "timestamp": "19:08 27/08/2026",
+  "trigger_message": "Hỏi chút ai làm design phần layer panel cho artwork với. Muốn hỏi kĩ là muốn xem hành vi di chuyển của phần reorder này như nào vì thấy giao diện này là đang khác với bên mockup. Muốn xin mẫu để chính xác nhất",
+  "context_history": [
+    {
+      "sender_name": "Hoang",
+      "text": "chưa được vào figma à"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": ":v"
+    },
+    {
+      "sender_name": "Hoang",
+      "text": "phần này anh Giao cho Tuấn xử lý rồi nhé @Hoanganh1109 hoa"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Tk của em có devmode  nhưng không có quyền xem componet gốc.  Nên vẫn cần tk account của team"
+    },
+    {
+      "sender_name": "VNPT - Anh Minh PO",
+      "text": "@leek6998 add Phong vào nhé"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "https://transitions.dev/"
+    },
+    {
+      "sender_name": "Lê",
+      "text": "có cái này ngon phết, ae đỡ mần aniamtion"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "Phong Hoài chỗ text ae bỏ min/ max size default giúp e"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "với cả app mình dùng cho design in ấn nên size thường nó to"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ae xem giúp e tăng cái size canvas lên có ảnh hưởng gì k"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "hiện tại vừa add layout mới vào nó đã max zoom rồi"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Thử lại thử xem em ơi. Xem ok chưa"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "okie a"
+    },
+    {
+      "sender_name": "VNPT - Hoàng Anh",
+      "text": "ngon rồi đấy ạ"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "@Acevip123  ơi. Hiện tại API này \nhttps://api.makeitpod.net/api/upload/images/bulk đang chặn 5MB Nhưng giờ cho chặn đến 10MB rồi. Bao giờ tiện thì update giúp với"
+    },
+    {
+      "sender_name": "Phong",
+      "text": "Hỏi chút ai làm design phần layer panel cho artwork với. Muốn hỏi kĩ là muốn xem hành vi di chuyển của phần reorder này như nào vì thấy giao diện này là đang khác với bên mockup. Muốn xin mẫu để chính xác nhất",
+      "link": null,
+      "view_link": "https://t.me/mew629_bot?start=view_5234091329_459558",
+      "is_mentioned": false,
+      "is_reply_to_me": false
+    }
+  ],
+  "context_sentence": "<i>\"Hỏi chút ai làm design phần layer panel cho artwork với. Muốn hỏi kĩ là muốn xem hành vi di chuyển của phần reorder này như nào vì...\"</i>",
+  "action_items": [
+    "Cập nhật / chỉnh sửa file thiết kế Figma theo yêu cầu"
+  ],
+  "scoring": {
+    "score": 0,
+    "level": "LOW",
+    "badge": "⚪ LOW (THÔNG TIN)",
+    "emoji_dot": "⚪",
+    "reasons": []
+  },
+  "urgency": "⚪ LOW (THÔNG TIN)",
+  "message_link": null,
+  "figma_links": [],
+  "doc_links": []
+}
