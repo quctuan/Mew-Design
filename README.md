@@ -1,123 +1,137 @@
-# 🚀 Chào mừng đến với Workspace GDS-MyVNPT (Agentic AI Workspace)
+# 🎨 Mew-Design Studio: Agent System Operating Charter
 
-Chào mừng bạn gia nhập dự án! Đây là một **Không gian làm việc kết hợp Trí tuệ Nhân tạo (Agentic AI Workspace)**, nơi bạn sẽ làm việc cùng trợ lý Antigravity được "trang bị vũ khí" là các quy trình làm việc chuyên nghiệp (Team Frameworks) để giải quyết bài toán từ nghiên cứu, thiết kế đến lập trình phần mềm.
-
-Tài liệu này sẽ hướng dẫn bạn – những thành viên mới – cách tương tác và khai thác tối đa sức mạnh của Antigravity trong dự án này.
+Chào mừng bạn đến với **Mew-Design AI Studio System**. Tài liệu này định nghĩa hệ quy chuẩn vận hành, nguyên tắc tương tác và tiêu chuẩn bàn giao giữa các AI Agents trong toàn bộ studio thiết kế.
 
 ---
 
-## 🏗️ 1. Khái Niệm Cốt Lõi: Nhập Vai Tuần Tự (Sequential Role-Playing)
+## 🏛️ 1. Triết lý Vận hành Cốt lõi (Core Principles)
 
-Trong workspace này, chúng ta sử dụng cơ chế **"Một Siêu Đặc Vụ Đội Nhiều Mũ"**.
-Thay vì phải dùng các phần mềm phức tạp hay dòng lệnh (Terminal) để mở nhiều màn hình cho nhiều AI chat với nhau, trợ lý Antigravity của bạn có khả năng **Tự động thay đổi vai trò** (Nhập vai tuần tự) để xử lý một bài toán lớn từ đầu đến cuối một cách mượt mà và tập trung.
+1. **High Agency & End-to-End Ownership:**
+   - Mỗi Agent sở hữu trọn vẹn miền chuyên môn của mình. Không tạo ra các câu trả lời lý thuyết sáo rỗng hay các bản nháp dang dở.
+   - Đầu ra luôn là tài liệu sẵn sàng áp dụng hoặc code/asset có thể chạy được (Production-ready).
 
-Antigravity sẽ tự động đọc các "Sổ tay nhân viên" (Role Prompts) của từng bộ phận. Ví dụ: Khi thiết kế tính năng, nó sẽ đóng vai Quản lý (PM) để lập kế hoạch -> Đổi mũ thành UX Designer để vẽ vòng đời sử dụng -> Đổi mũ thành UI Designer để vẽ giao diện -> Cuối cùng đóng vai Quality Reviewer (QR) để tự chấm điểm chéo chính bản vẽ của mình trước khi giao nộp!
+2. **Anti-AI-Slop & Craftsmanship First:**
+   - Nói không với thiết kế rập khuôn của AI: cấm màu tím neon generic, cấm lạm dụng card trắng viền xám, cấm copywriting sáo rỗng ("Elevate", "Next-gen", "Revolutionary").
+   - Giao diện phải có chiều sâu thị giác, typography tinh tế, tương tác vi mô (micro-physics) và tuân thủ các quy luật thị giác thực tế.
 
----
+3. **Multi-Track Workflow (Phân luồng Linh hoạt):**
+   - **Internal Fast-Track (Dự án nội bộ / VNPT):** Tinh gọn thủ tục, tập trung vào URD, phân tích luồng UX, kiểm thử edge case, tự động hóa Jira/Logwork và đồng bộ Figma/Code.
+   - **Web-Explore to Figma Track:** Thử nghiệm nhanh bố cục & motion bằng HTML phone frames trên trình duyệt, render kiểm tra tự động và chấm điểm (critique) trước khi chuyển sang Figma.
+   - **Figma Design System Track:** Thiết kế Wireframe & Production UI trực tiếp trên Figma canvas thông qua Figma MCP, bám sát Design Tokens và auto-layout.
+   - **Motion & Code Prototype Track:** Dựng animation tương tác bằng Figma Reactions, LottieFiles Creator hoặc Motion Prototype (deploy Vercel & port Android).
 
-## 👥 2. Các Đội/Quy Trình (Team Templates) Có Sẵn
-
-Tùy vào tính chất công việc, bạn có thể yêu cầu Antigravity nhập vai và sử dụng chuẩn mực làm việc của một trong các Team sau. Dưới đây là danh sách, vai trò các thành viên và quy trình phối hợp của từng team:
-
-### ✏️ 2.1. Thiết Kế Sản Phẩm (UX/UI Design)
-- **Tên team:** `ux-design-team`
-- **Mục tiêu:** Phân tích nhu cầu ẩn sâu (Jobs-to-be-done), vẽ luồng người dùng (User Flows), và viết thông số thiết kế (Full-stack Specs) theo chuẩn Design Thinking.
-- **Danh sách Vai trò:**
-  - **PM (Project Manager):** Quản lý tiến độ, cập nhật WHITEBOARD, và là cầu nối giao tiếp với Boss.
-  - **UR (UX Researcher):** Thực hiện bước Empathize & Define. Phân tích JTBD, nghiên cứu đối thủ, xác định nỗi đau của user.
-  - **UX (UX Designer):** Thực hiện bước Ideate. Vẽ sơ đồ luồng trải nghiệm (Flowcharts/Mermaid) dựa trên insight từ UR.
-  - **TW (Technical Writer):** Viết kỹ thuật & UX Copywriting. Tạo các thông điệp thấu cảm và viết tài liệu Spec chi tiết.
-  - **CR (Quality Reviewer):** Thực hiện bước Test. Đánh giá kiểm duyệt cuối cùng theo nguyên tắc MECE và JTBD để đảm bảo chất lượng.
-- **Quy trình phối hợp:** Chạy tuần tự theo phương pháp Design Thinking: **PM (Nhận việc) -> UR (Nghiên cứu) -> UX (Thiết kế luồng) -> TW (Viết nội dung) -> CR (Kiểm duyệt) -> PM (Nghiệm thu)**. Mọi tài liệu (Output) của các thành viên phối hợp làm ra đều được đưa tập trung lưu trữ tại `knowledge base`.
-- **💡 Mẫu Prompt Giao việc Chuẩn:**
-  > *"Tôi cần thiết kế một luồng [Tên tính năng, VD: Đổi mật khẩu]. Hãy kích hoạt `ux-design-team` và lần lượt đóng vai PM -> UR -> UX -> TW -> CR để nghiên cứu JTBD, vẽ flow và viết Specs chuẩn. Nhớ hỏi ý kiến tôi ở mỗi bước đổi role!"*
-
-### 🔍 2.2. Kiểm Định & Audit Trải Nghiệm (UI/UX Audit)
-- **Tên team:** `uiux-audit-team`
-- **Mục tiêu:** Thẩm định luồng logic, đánh giá Cognitive Load, truy quét Edge Cases, và sửa lỗi UX Writing.
-- **Danh sách Vai trò:**
-  - **LA (Lead Auditor):** Điều phối quá trình audit, phân công và tổng hợp các lỗi tìm được.
-  - **UXE (UX Evaluator):** Đánh giá tính khả dụng (Usability), luồng đi và hành trình tương tác của người dùng.
-  - **EC (Edge Case Hunter):** Chuyên tìm kiếm các "góc khuất", lỗi logic hiếm gặp, rủi ro luồng kỹ thuật.
-  - **UIA (UI Analyst):** Đánh giá tính nhất quán của giao diện, hệ thống Design System, chuẩn Accessibility.
-  - **UXW (UX Writer Auditor):** Rà soát câu chữ, thông báo lỗi, văn phong đàm thoại trên giao diện.
-- **Quy trình phối hợp:** **LA (Tiếp nhận màn hình/luồng cần Audit) -> Chuyển giao cho UXE, EC, UIA, UXW (mỗi người "soi" một mảng chuyên môn) -> LA (Tổng hợp lại thành file Report cuối cùng)**.
-- **💡 Mẫu Prompt Giao việc Chuẩn:**
-  > *"Hãy dùng quy trình của `uiux-audit-team` để kiểm định link Figma sau: [Link Figma]. Các role hãy lướt qua màn hình, tìm ra rủi ro edge cases, tính khả dụng và văn phong. Cuối cùng, LA tổng hợp lại thành 1 file báo cáo Action Items đưa vào knowledge base."*
-
-### � 2.3. Nghiên Cứu & Chiến Lược (McKinsey Research)
-- **Tên team:** `mckinsey-research-team`
-- **Mục tiêu:** Giải quyết bài toán chiến lược, phân tích thị trường theo chuẩn quy nạp Kim Tự Tháp của McKinsey.
-- **Danh sách Vai trò:**
-  - **EM (Engagement Manager):** Lập cấu trúc Issue Tree (Cây vấn đề), bóc tách giả thuyết.
-  - **RL (Research Lead):** Dẫn dắt định hướng, phân mảnh nguồn thu thập dữ liệu.
-  - **PR (Primary Researcher):** Tìm Insight qua dữ liệu sơ cấp (Mô phỏng phỏng vấn, khảo sát).
-  - **SR (Secondary Researcher):** Quét dữ liệu thứ cấp (Báo cáo thị trường, bài báo, data có sẵn).
-  - **DA (Data Analyst):** Xử lý số liệu, cấu trúc lại biểu bảng, đưa ra pattern.
-  - **QR (Quality Reviewer):** Áp dụng MECE rà soát logic, "gọt giũa" thành báo cáo Executive Summary.
-- **Quy trình phối hợp:** **EM (Chẻ vấn đề thành nhánh) -> Giao nhánh cho RL, PR, SR, DA đi đào sâu -> Thu thập kết quả ngược lên EM (Tổng luận) -> QR (Phản biện và chốt file Báo cáo chuẩn form McKinsey)**.
-- **💡 Mẫu Prompt Giao việc Chuẩn:**
-  > *"Doanh nghiệp đang gặp bài toán: [Trình bày bài toán kinh doanh]. Hãy kích hoạt `mckinsey-research-team`. Yêu cầu EM lập cây vấn đề (Issue Tree) MECE, các thành viên khác cùng đào sâu bằng dữ liệu và xuất báo cáo Executive Summary có tính hành động đưa cho tôi."*
-
-### ❤️ 2.4. Nghiên cứu Khách Hàng (PG Insights)
-- **Tên team:** `pg-insights-team`
-- **Mục tiêu:** Tìm ra sợi dây liên kết cảm xúc giữa người dùng và sản phẩm (Consumer Insight "Goosebumps" - Nổi da gà).
-- **Danh sách Vai trò & Quy trình:** Đội ngũ này dùng sức mạnh của các Framework phân tích tâm lý (Needs/Tensions) để bóc tách động cơ ngầm của con người, xây dựng chân dung Persona chuyên sâu trước khi bắt tay làm Branding hoặc Product Marketing. (Đội ngũ vận hành bằng cách thảo luận xoáy sâu vào Why - Why - Why).
-- **💡 Mẫu Prompt Giao việc Chuẩn:**
-  > *"Tôi đang muốn thiết kế một tính năng/Sản phẩm [Tên sản phẩm] cho App My VNPT. Hãy kích hoạt `pg-insights-team`. Nhập vai tuần tự theo công thức P&G: IM -> MR -> IA -> SL -> QR để giúp tôi tìm ra một Consumer Insight đắt giá và chiến lược thu hút khách hàng."*
-
-### ⏰ 2.5. Thư Ký Quản Lý Tiến Độ (Jira Tracking)
-- **Tên team:** `jira-tracking-team`
-- **Mục tiêu:** Tự động hóa quá trình theo dõi tiến độ dự án. Trực tiếp kết nối vào API hệ thống Jira (On-premise), phân tích danh sách task đang mở và gửi báo cáo đều đặn mỗi ngày vào Group Telegram.
-- **Danh sách Vai trò:** Đội ngũ này hiện thân thông qua 1 tập lệnh Python duy nhất (`jira_reporter.py`) đóng vai trò đan xen 3 kỹ năng:
-  - **Scraper (Lấy dữ liệu):** Dùng Access Token chui vào hệ thống Jira móc dữ liệu nguyên bản (JSON).
-  - **Analyst (Phân tích):** Bóc tách, làm sạch dữ liệu, loại bỏ những công việc đã Đóng, Hủy.
-  - **Reporter (Báo cáo):** Đóng gói format thành bản tin đẹp mắt (HTML Format) và bắn thẳng vào Telegram có tag tên.
-- **Quy trình phối hợp:** Chạy "không người lái" 100%. Không cần đổi mũ role phức tạp. Báo cáo sẽ được lên lịch gọi dậy bằng hệ thống Cronjob của thiết bị (Ví dụ: 8h30 sáng mỗi ngày).
-- **💡 Mẫu Prompt Giao việc Chuẩn:**
-  > *(Đây là team tự động chạy ngầm nên Boss không cần phải gõ Prompt giao việc hàng ngày. Nếu muốn team này **chạy đột xuất**, hãy tự mở Terminal và gõ lệnh sau: `/usr/bin/python3 "sample_team/jira-tracking-team/jira_reporter.py"`)*
+4. **Single Source of Truth (`knowledge_base/`):**
+   - Tuyệt đối không lưu trữ phân tán sản phẩm thiết kế.
+   - Toàn bộ kết quả đầu ra theo từng dự án BẮT BUỘC được lưu tại:
+     `knowledge_base/projects/<project_id>/`
+     - `01_contracts/`: Hợp đồng, điều khoản pháp lý, NDA, đề xuất SOW.
+     - `02_finance/`: Báo giá chi tiết, phân bổ ngân sách, tiến độ thanh toán.
+     - `03_product_specs/`: PRD, User Stories, Business Logic, Gherkin specs.
+     - `04_design_assets/`: UX Flows (Mermaid), Wireframe specs, UI Component specs, Tokens, Figma links.
 
 ---
 
-## 🛠️ 3. Hướng Dẫn Sử Dụng (Dành Cho Thành Viên Mới)
+## 👥 2. Đội ngũ AI Agents & Phân bổ Vai trò (Studio Roles)
 
-Sử dụng môi trường Antigravity cực kỳ nhẹ nhàng, không cần cài đặt phần mềm bên thứ 3 (không Tmux) hay lo tốn RAM. Bạn chỉ cần làm theo các bước sau:
-
-### Bước 1: Ra Lệnh & Giao Việc (Briefing)
-Hãy gửi vào khung chat của Antigravity một Prompt (yêu cầu) mang tính "Giao quyền":
-> *"Đây là bài toán: Thiết kế luồng Mua Gói Cước 4G trên MyVNPT. Tài liệu đầu vào tôi đã để ở `docs/xxx.md`.*
-*Hãy sử dụng quy trình của `ux-design-team` để thực hiện nhiệm vụ này. Bạn hãy tự đọc các file trong `sample_team/ux-design-team/prompts`, nhập vai tuần tự từ PM -> UX -> UI -> UT -> QR để hoàn thành các tài liệu tương ứng."*
-
-### Bước 2: Quan Sát Siêu Đặc Vụ (Antigravity) Làm Việc
-- Lập tức, Antigravity sẽ hình thành một "Chuỗi tư duy". Nó sẽ dùng bộ công cụ của nó truy cập thư mục của team được gọi, đọc luật của từng vai trò và bắt tay vào tạo file.
-- Bạn có thể thấy nó tạo file `Design_Brief.md`, sau đó lấy luôn nội dung file đó làm đầu vào để viết tiếp `JTBD_Map.md`... Y như một đội ngũ chuyên nghiệp nhưng tập trung tại 1 tiến trình máy tính duy nhất!
-- Antigravity sẽ tuần tự báo cáo tiến độ với bạn và rà soát ý kiến.
-
-### Bước 3: Đánh Giá & Feedbacks
-Khi Antigravity ra bản nháp, nếu có chỗ chưa ưng ý, bạn phản hồi thẳng trong Chat:
-> *"Sửa lại phần Màn hình 2 theo ý A, B, C giúp anh."*
-
-*(💡 Lưu ý: Trợ lý Antigravity không chạy đa luồng ẩn dưới nền như các nền tảng khác. Khi nó thông báo làm xong việc, tự nó sẽ trả lại RAM cho máy, bạn cứ làm việc bình thường, không cần tìm gõ lệnh Kill Session hay Tắt Team).*
+| Role | Định danh File | Trách nhiệm chính | Deliverable cốt lõi |
+| :--- | :--- | :--- | :--- |
+| **Design Critic** | [design-critic.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/design-critic.md) | Giám khảo độc lập chấm điểm visual/wireframe theo thang điểm chuẩn, rà soát lỗi thẩm mỹ và anti-regression. | Bảng điểm Critique Scored Rubric, Top Asks |
+| **UI Builder** | [ui-builder.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/ui-builder.md) | Dựng UI chuẩn xác trong Figma từ brief và Design System thông qua Figma MCP. | Section Figma UI hoàn chỉnh, bound tokens |
+| **Wireframe Builder** | [wireframe-builder.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/wireframe-builder.md) | Dựng wireframe cấu trúc grayscale trên Figma canvas theo approved flow. | Grayscale Section, luồng màn hình wireframe |
+| **Figma Auditor** | [figma-auditor.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/figma-auditor.md) | Kiểm toán file Figma: tỷ lệ token-hoá, component reuse, layer naming, layout hygiene. | Báo cáo Audit Compliance & danh sách node lỗi |
+| **Token Scanner** | [token_scanner.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/token_scanner.md) | Quét và chuẩn hóa Design Tokens / Styles trong Figma (màu, typography, corner radius, padding). | Báo cáo Token Scan, Bulk Token Fixes |
+| **Copy Reviewer** | [copy-reviewer.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/copy-reviewer.md) | Rà soát toàn bộ text/copywriting trên giao diện theo voice & tone guide. | Bảng rà soát UX Copy & đề xuất tinh chỉnh |
+| **Scout** | [scout.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/scout.md) | Khảo sát pattern ứng dụng thực tế qua Mobbin / thư viện mẫu trước khi quyết định UX pattern. | Danh sách pattern tham chiếu kèm ảnh chụp |
+| **GitBook Porter** | [gitbook-porter.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/gitbook-porter.md) | Đồng bộ và xuất bản tài liệu thiết kế lên GitBook. | Trang tài liệu GitBook chuẩn Markdown |
+| **Researcher** | [researcher/](file:///Users/tuanvq/Documents/Mew-Design/.agents/roles/researcher/) | Nghiên cứu dữ liệu, thị trường, benchmark đối thủ cạnh tranh. | Báo cáo nghiên cứu thị trường & UX insights |
 
 ---
 
-## 🔒 4. Quy Tắc Xuất Bản Lên Website / Wiki (Quan trọng)
+## 🔄 3. Vòng đời Phối hợp & Quy chuẩn Hand-off (Workflow Lifecycle)
 
-**KHÔNG BẤT KỲ THÀNH VIÊN NÀO** (kể cả Agent AI) được phép tự động xuất bản (publish) hay đẩy cập nhật nội dung, tài liệu thẳng lên trên Website / Wiki của dự án đang chạy live.
-
-- Mọi tài liệu dự định đưa lên Website / Wiki **BẮT BUỘC** phải được giữ lại ở file nháp (Draft) hoặc lưu cục bộ nội bộ tại thư mục `knowledge base`.
-- Quá trình đăng tải/cập nhật lên Website **chỉ được tiến hành** khi đã được **Admin** (Boss/User) trực tiếp rà soát và cho phép phê duyệt (Approved).
+```mermaid
+flowchart TD
+    A[Khách hàng / Stakeholder Brief] --> B{Phân loại Luồng}
+    
+    %% Internal VNPT Fast-Track
+    B -->|Nội bộ / Fast-Track VNPT| C[Phân tích URD & Specs]
+    C --> D[Jira Automation: Tạo Sub-task & Log work]
+    
+    %% Design Stage Track Selection
+    C --> E{Lựa chọn Phương pháp Thiết kế}
+    
+    %% Track 1: Explore in Web -> Ship to Figma
+    E -->|Thử nghiệm ý tưởng / Mới| F[Web-Explore: HTML Frames + CSS Tokens]
+    F --> G[Render PNG & Visual Checks: /render]
+    G --> H[Design Critic: Scored Review /design-review]
+    H -->|Designer Chọn hướng| I[Ship-to-Figma: Freeze reference & Rebuild]
+    
+    %% Track 2: Direct Figma Production
+    E -->|Đã rõ Flow / Có Design System| J[Wireframe Builder: Grayscale Wireframe]
+    J --> K[UI Builder: Production UI & Design Tokens]
+    I --> K
+    
+    %% Audit & Motion
+    K --> L[Figma Auditor & Token Scanner: Kiểm toán File]
+    K --> M[Motion Chain: Reactions / Lottie / Web-Android Prototype]
+    
+    %% Delivery
+    L & M --> N[Dev Hand-off & Nghiệm thu Sản phẩm]
+```
 
 ---
 
-## 📁 5. Cấu Trúc Thư Mục Quan Trọng Cần Biết
+## 🧰 4. Bản đồ Kỹ năng Tự chứa (Self-Contained Skills)
 
-Là người mới, bạn không cần phải chạy file Terminal nào cả, nhưng bạn cần biết kho chứa quy trình/tài sản nằm ở đâu:
+### A. Nghiệp vụ Studio & Tự động hóa Vận hành
+- [`jira_logwork_automation`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/jira_logwork_automation/SKILL.md): Tự động hóa trích xuất task Google Sheet, tạo sub-task Jira trong task mẹ, cập nhật link ngược vào Sheet và phân bổ log work 8h/ngày cả tháng qua ego-browser.
+- [`accounting_quotation`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/accounting_quotation/SKILL.md): Công thức định mức giá, phân tích rủi ro, biểu phí 3-tier.
 
-- `/sample_team`: Kho chứa các "Sổ tay nhập vai" (Prompts) của từng Team. Antigravity dùng các file Markdown trong thư mục `prompts` của mỗi Team để học hỏi tính cách chuyên gia. Xin đừng tự ý xóa thư mục này nhé.
-- `/.agents/skills/SKILL.md`: Đây là "Sách Khải Huyền" của Antigravity. File này dạy cho Antigravity biết những Teams nào đang tồn tại.
-- `/sample_team/.../WHITEBOARD.md`: Nếu dự án kéo dài nhiều ngày, Antigravity có thể sử dụng file Bảng Trắng này như một bảng lưu trữ công việc (Kanban) thay mặt bạn.
+### B. Khởi tạo Dự án & Thiết lập Context (Setup & Context)
+- [`start-design`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/start-design/SKILL.md): Khởi chạy quy trình thiết kế, kiểm tra context dự án, chọn track phù hợp và bắt đầu task đầu tiên.
+- [`design-context-setup`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/design-context-setup/SKILL.md): Phỏng vấn context 7 câu hỏi, thiết lập scaffold dự án, sơ đồ hóa kết nối MCP và rulebook.
+- [`voice-tone-builder`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/voice-tone-builder/SKILL.md): Xây dựng cẩm nang Voice & Tone cho sản phẩm trên toàn bộ các trạng thái.
+- [`content-research-writer`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/content-research-writer/SKILL.md): Nghiên cứu dữ liệu, trích dẫn tài liệu và hỗ trợ soạn thảo nội dung chất lượng cao.
+- [`install-yummy`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/install-yummy/SKILL.md): Hỗ trợ cài đặt bộ kỹ năng companion Yummy Labs (ux-designer, ui-designer, ux-copywriter, interactive-prototype).
+
+### C. Figma UI, Wireframe & Token Management
+- [`figma-wireframe-kit`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-wireframe-kit/SKILL.md): Dựng wireframe cấu trúc grayscale trên Figma canvas bằng Figma MCP.
+- [`figma-design-system-ui`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-design-system-ui/SKILL.md): Xây dựng giao diện Production UI trên Figma bằng thư viện Design System đã xuất bản.
+- [`figma-mcp-api`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-mcp-api/SKILL.md): Tra cứu và gọi an toàn các hàm Figma Plugin API thông qua `use_figma`.
+- [`figma-clone-port`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-clone-port/SKILL.md): Di chuyển một tính năng/section giữa hai file Figma, ánh xạ token và component sang file đích.
+- [`token_scanner`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/token_scanner/SKILL.md): Quét và kiểm toán tỷ lệ token-hoá (% compliance) trong Figma, chuẩn hóa styles/tokens hàng loạt.
+- [`explore-vs-final`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/explore-vs-final/SKILL.md): Xác định độ hoàn thiện cần dựng (Exploration nháp vs Production sẵn sàng hand-off).
+
+### D. Web Exploration, Rendering & Đánh giá (Review & Critique)
+- [`web-explore`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/web-explore/SKILL.md): Dựng nhanh giao diện HTML phone frames, kiểm tra preview trên trình duyệt thực tế trước khi vào Figma.
+- [`render`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/render/SKILL.md): Xuất các màn hình web explore thành file ảnh PNG và chạy kiểm thử tự động lỗi giao diện.
+- [`design-critique`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/design-critique/SKILL.md): Quy trình chấm điểm giao diện độc lập với Design Critic, ghi nhận lịch sử vào `CRITIQUE.md`.
+- [`design-review`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/design-review/SKILL.md): Lệnh chạy nhanh một vòng review thiết kế trên phiên bản render mới nhất.
+- [`ship-to-figma`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/ship-to-figma/SKILL.md): Khóa hướng thiết kế đã chọn trên web và tái tạo chuẩn xác vào Figma kèm kiểm thử pixel parity.
+- [`theboxexplore`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/theboxexplore/SKILL.md): Phương pháp kích thích sáng tạo ý tưởng sản phẩm từ vấn đề nhức nhối thực tế.
+
+### E. Motion, Animation & Multi-Platform Sync
+- [`figma-prototype-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-prototype-motion/SKILL.md): Xây dựng prototype Smart Animate nhiều bước trong Figma.
+- [`lottiefiles-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/lottiefiles-motion/SKILL.md): Dựng và hiệu chỉnh vector animation trong LottieFiles Creator, xuất file `.lottie`/JSON.
+- [`beat-synced-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/beat-synced-motion/SKILL.md): Đồng bộ animation với beat nhạc nền (drop, accent, ducking).
+- [`prototype-vercel-deploy`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/prototype-vercel-deploy/SKILL.md): Deploy code prototype tĩnh lên Vercel để gửi link demo trực tiếp.
+- [`web-android-port`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/web-android-port/SKILL.md): Chuyển đổi prototype web sang native Android (Jetpack Compose / XML) và so sánh parity từng frame.
+- [`code-to-figma-sync`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/code-to-figma-sync/SKILL.md): Cập nhật ngược lại file Figma sau khi code prototype đã được tinh chỉnh thực tế.
 
 ---
 
-**Chúc bạn có những giờ phút điều phối Trợ lý AI thật hiệu quả và nhàn nhã!**
+## 📜 5. Quy tắc Vận hành Studio (Rules & Guardrails)
+
+Hệ thống tuân thủ các quy tắc cốt lõi được định nghĩa tại `.agents/rules/`:
+1. [design-tracks.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/design-tracks.md): Định nghĩa 5 bước lập kế hoạch dựng UI (Component reuse, new components, states, hierarchy, edge cases).
+2. [figma-workflow.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/figma-workflow.md): Ghim File Key, lưu restore point trước mỗi lần ghi, kiểm tra canvas sau mỗi hành động ghi.
+3. [designer-in-the-loop.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/designer-in-the-loop.md): Designer là người đưa ra quyết định cuối cùng về gu thẩm mỹ và phương án lựa chọn.
+4. [model-selection.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/model-selection.md): Tiêu chuẩn lựa chọn model cho các vai trò đánh giá chuyên môn (Critic) và xử lý tác vụ thông thường.
+5. [explore-vs-final.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/explore-vs-final.md): Tách bạch ranh giới giữa bản nháp tìm kiếm ý tưởng và bản bàn giao kỹ thuật.
+6. [project-memory.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/project-memory.md): Duy trì Session Log, Open Items và Figma Map xuyên suốt phiên làm việc.
+7. [writing-style.md](file:///Users/tuanvq/Documents/Mew-Design/.agents/rules/writing-style.md): Chuẩn mực ngôn từ trong specs: súc tích, chính xác, không dùng từ ngữ phóng đại.
+
+### Các Điều Cấm Bất Di Bất Dịch:
+- **CẤM Hardcode đường dẫn cá nhân không tương thích:** Sử dụng đường dẫn chuẩn `file:///Users/tuanvq/...` hoặc tương đối từ thư mục gốc dự án.
+- **CẤM Tự ý vẽ đè lên component thư viện chung:** Thư viện thiết kế dùng chung luôn là Read-only trừ khi có chỉ định rõ ràng.
+- **CẤM Bỏ qua bước kiểm toán Token:** Tất cả UI sản phẩm trước khi bàn giao dev phải được chạy qua `token_scanner` hoặc `figma-auditor`.
