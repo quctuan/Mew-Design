@@ -135,3 +135,7 @@ Hệ thống tuân thủ các quy tắc cốt lõi được định nghĩa tại
 - **CẤM Hardcode đường dẫn cá nhân không tương thích:** Sử dụng đường dẫn chuẩn `file:///Users/tuanvq/...` hoặc tương đối từ thư mục gốc dự án.
 - **CẤM Tự ý vẽ đè lên component thư viện chung:** Thư viện thiết kế dùng chung luôn là Read-only trừ khi có chỉ định rõ ràng.
 - **CẤM Bỏ qua bước kiểm toán Token:** Tất cả UI sản phẩm trước khi bàn giao dev phải được chạy qua `token_scanner` hoặc `figma-auditor`.
+
+
+## Stageshow integration for UI work
+For every visible UI creation/revision task, load `ui-craft-stageshow` alongside the existing implementation skill. Use production mode for real products and full `stageshow` only for authored illustrations/walkthroughs. Preserve project components, tokens, behavior and tool prerequisites. See docs/STAGESHOW.md in the package for installation and usage.

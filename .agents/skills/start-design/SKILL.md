@@ -39,3 +39,7 @@ The `agents/` files are reusable briefs, not installed named agents. Explain ind
 Use the goal the user already gave, or ask for one concrete goal and output. Read `.agents/rules/design-tracks.md` and check dependencies before naming a sequence. Distinguish exploration from an approved final direction. Summarize the selected track, needed inputs, and the designer's decisions.
 
 Begin the smallest useful step: inspect the brief, outline the flow, plan the build, or execute already authorized work. If a dependency is unavailable, explain the affected step and continue useful independent work. Record relevant decisions in existing `Session_Log.md` and `Open_Items.md`. A later invocation resumes from current context rather than repeating setup.
+
+
+## Stageshow integration for UI work
+For every visible UI creation/revision task, load `ui-craft-stageshow` alongside the existing implementation skill. Use production mode for real products and full `stageshow` only for authored illustrations/walkthroughs. Preserve project components, tokens, behavior and tool prerequisites. See docs/STAGESHOW.md in the package for installation and usage.
