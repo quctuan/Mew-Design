@@ -81,6 +81,28 @@ flowchart TD
 
 ---
 
+## 3.1 Stageshow trong workflow UI
+
+Stageshow nằm **ngang qua các track UI**, ngay sau khi phân loại yêu cầu và trước khi dựng giao diện. Đây là lớp craft và rehearsal; nó không tạo thêm một track thay thế Web-Explore, Figma hay quy trình motion hiện có.
+
+```mermaid
+flowchart LR
+    A[Brief / UI task] --> B[Chọn track hiện có: Explore, Figma, Code]
+    B --> C[ui-craft-stageshow: chọn chế độ]
+    C -->|Sản phẩm thật| D[Production craft: hierarchy, spacing, states, responsive]
+    C -->|Hero / walkthrough minh họa| E[Stageshow: frame, story, cursor, motion]
+    D --> F[Web Explore hoặc Figma UI Builder]
+    E --> G[Stageshow scene + rehearsal]
+    F --> H[QA hiện có: render, critique, token audit]
+    G --> I[Review khung hình, từng beat, loop và mobile]
+    H --> J[Handoff / prototype]
+    I --> J
+```
+
+**Quy tắc chọn:** dashboard/app/screen Figma dùng production mode và giữ nguyên business logic, component, token. Chỉ hero, feature-card hoặc walkthrough được dựng như cảnh minh họa mới chạy full Stageshow (tham chiếu mẫu, framing, choreography, poster và rehearsal). Task UI nào cũng nạp `ui-craft-stageshow`; quy trình cụ thể vẫn do skill Web/Figma/Motion hiện hữu đảm nhiệm. Xem [hướng dẫn dùng](docs/STAGESHOW.md).
+
+---
+
 ## 🧰 4. Bản đồ Kỹ năng Tự chứa (Self-Contained Skills)
 
 ### A. Nghiệp vụ Studio & Tự động hóa Vận hành
@@ -110,7 +132,11 @@ flowchart TD
 - [`ship-to-figma`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/ship-to-figma/SKILL.md): Khóa hướng thiết kế đã chọn trên web và tái tạo chuẩn xác vào Figma kèm kiểm thử pixel parity.
 - [`theboxexplore`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/theboxexplore/SKILL.md): Phương pháp kích thích sáng tạo ý tưởng sản phẩm từ vấn đề nhức nhối thực tế.
 
-### E. Motion, Animation & Multi-Platform Sync
+### E. UI Craft & Stageshow
+- [`ui-craft-stageshow`](.agents/skills/ui-craft-stageshow/SKILL.md): Lớp craft bắt buộc cho mọi task UI; định tuyến production UI so với minh họa/walkthrough.
+- [`stageshow`](.agents/skills/stageshow/SKILL.md): Quy trình đầy đủ để dựng và rehearsal product UI minh họa.
+
+### F. Motion, Animation & Multi-Platform Sync
 - [`figma-prototype-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/figma-prototype-motion/SKILL.md): Xây dựng prototype Smart Animate nhiều bước trong Figma.
 - [`lottiefiles-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/lottiefiles-motion/SKILL.md): Dựng và hiệu chỉnh vector animation trong LottieFiles Creator, xuất file `.lottie`/JSON.
 - [`beat-synced-motion`](file:///Users/tuanvq/Documents/Mew-Design/.agents/skills/beat-synced-motion/SKILL.md): Đồng bộ animation với beat nhạc nền (drop, accent, ducking).
